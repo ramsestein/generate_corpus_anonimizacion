@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5270829_episodio1008763249",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nS: A negativo. Gammaglobulina AntiD: ya administrada. Fecha: JJJ\naloración Obstétrica\nValoración obstétrica Responsable identificació\nn positiva del paciente: Paciente\n¿En el momento del ingreso el pacient\ne lleva pulsera identificativa?: Sí\nComprobación identificación madre-r\necién nacido: No procede\nProcedencia del paciente antes del ingreso hos\npitalario: Domicilio\nMotivo ingreso y procedencia interna:\nAborto en c\nurso\nAlergias: No\nReacciones transfusionales previas: No\nValor Presió\nn Arterial sistólica: 109 mm Hg\nValor Presión Arterial diastólica: 62 m\nm Hg\nValor frecuencia cardíaca: 82 lpm\nTemperatura axilar: 36.2 ºC\nTi\npo de paciente: Puérpera\nPuntuación escala EVN: 1-Dolor leve Fecha: JJJ\nngresa paciente procedente de UCIAS por aborto en curso. NAMC.\nHDM esta\nble y afebril. Sangrado escaso. Misoprostol vaginal adminsitrado en URG. Explico signos de alarma. Portadora de CVP en plexo izquierdo.\nIndi\ncamos FAMIS.\nControl evolutivo del sangrado Fecha: JJJ\nborto en curso 9w. HDME y afebril. Control evolutivo. Explico signos d\ne alarma. Mantenemos a FAMIS hasta nueva OM.\nGamaglobulina antiD admini\nstrada el JJJ.\nMisos vaginales administrados en UCIAS JJJ a las JJJ. No refiere algias, ni DU.\nRefiere haber tenido abundante sangrado\ndurante estos dias y por la mañana. Ahora PH escaso y comenta estar preo\ncupada, ya que ha dejado de sangrar cuando le adm misos. Explico la indi\ncación que tienen los misos y que es independientemente al sangrado. Ent\niende.\nPortadora de CVP permeable + Realizo AS.\nA media tarde realizan ECO y entregan informes de alta. Retiro CVP. Fecha: JJJ\nngreso por aborto en curso +0. TA 113/60, FC 80, afebril. Al ing\nreso sangrado activo por OCE. Endometrio 17 mm. Se ha explicado indicaci\nón de legrado que la paciente no desea. Se ha adminsitrado 800mcg Misopr\nostol vaginal hospitalaria. Grupo y RH: A negativo. Gammaglobulina a\ndminsitrada ayer. - A/S al ingreso JJJ: Hb 10.9, Htc 32.4%, plaq 402\n.000, TP 89.6%, TTPa 19.7 seg. - A/S de control JJJ: Hb 10.6, Htc 31.6\n%, plaq 355.000 Desde el ingreso sangrado escaso, inferior a menstrua\nción. Tolera deambulación. No mas episodios de mareo o inestabilidad. Mi\ncciones correctas. Dolor bien controlado. Se repite ecografia TV: en\ndometrio 17mm con captación Doppler 2/4. Ante estabilidad clínica y\nanalítica se consensua alta a domiclio. Control en UPGP en JJJ.",
+  "text_length": 2371,
+  "anonymized_count": 11,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

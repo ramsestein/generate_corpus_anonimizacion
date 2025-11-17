@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5035729_episodio1008620326",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente que acude a urgencias por sospecha de TVP. JJJ.\nAP: Parálisi\ns diafragmática izquierda, Obesidad. Se pasa a BOX priorizado por la acollida por posible episodio de bajo gasto/ crisis comicial. A su\nllegada, somnoliento. HDM destaca hipotensión arterial, SatO2 de 81% B y taquipnea de 42 rpm con significativo tiraje. Afebril. No refiere algia\ns. PINR. Se coloca VMK al 31% y 6L. Mejora SatO2 y taquipnea. Pr\nesenta eritema e inflamación en EID. Se identifican ropa y pertenenc\nias bajo la camilla. Portador de pulsera identificativa. Se canaliza CVP 20 G en ESD y GSA ecoguiada (en basal). Se realiza POC arterial que muestra acidosis respiratoria, por lo que se decide traslado a PUR3. Se cursa TAR COVID. Va a la PUR3 pte. ANGIOTAC. Fecha: JJJ\nlucemia capilar: 221 mg/dl. Fecha: JJJ\nacient procedent de PUR2 per a monitoritzar, a l&apos;arribada C i O, hdm ten\ndència taquicardia i HTA, saturació 90% amb VMK 31%, febricular, no refe\nreix dolor. Canalitzo CVP 18 ESD. TAR Covid negatiu. Pte. realitzar angioTAC.",
+  "text_length": 1031,
+  "anonymized_count": 4,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

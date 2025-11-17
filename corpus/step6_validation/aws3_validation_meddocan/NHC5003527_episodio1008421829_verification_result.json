@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5003527_episodio1008421829",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Doble check (dos profesionales)\n¿En el momento del ingreso el pa\nciente lleva pulsera identificativa?: Sí\nDatos persona contacto (nombre\n, teléfono y parentesco):\nJJJ (JJJ) - JJJ\nJJJ (JJJ)\n- JJJ\n¿La persona de contacto corresponde con el cuidador?: No ti\nene cuidador\nProcedencia del paciente antes del ingreso hospitalario: O\ntro hospital\nMotivo ingreso y procedencia interna:\nTraslado desde JJJ por ictus isquémico en territorio vertebrobasilar por estenosi\ns basilar.\n¿Sufre alguna enfermedad crónica?: Hipertensión, Otras enfer\nmedades crónicas, Dislipemia, EPOC\nDéficit de autocuidado: Independient\ne\nAlergias: No\nEstado de la consciencia: Alerta\nModalidad acceso vía\naérea: Natural\nValor Frecuencia cardíaca: 50 lpm\nMicción espontánea: S\ní\nRitmo deposicional:\nJJJ\nPrótesis dental: Sí\n¿Alteración de la int\negridad de piel y mucosas al ingresar?: No\nColoración de la piel: Normo\ncoloreada\nPuntuación escala Braden: 15-Riesgo moderado\nTemperatura axi\nlar: 36.1 ºC\n¿Tiene dolor al ingreso?: Sí\nPuntuación escala EVN: 2\nPu\nntuación escala Downton: 3-Riesgo alto Fecha: JJJ\naciente que ingresa procedente de JJJ por ictus isqué\nmico en territorio vertebrobasilar (estenosis basilar).\nA su llegada, C\nyO, tranquilo y colaborador, GSC 15. PINR.\nNo refiere algias.\nHDM esta\nble sin DVA, tendencia HTA (mantener TAS en torno 130-140mmHg POM); ECG\nen RS/BS. Afebril.\nEupneico en basal, saturaciones correctas, no disnea\n.\nFAMIS + STP en curso. Hiperglicemias corregidas con pauta IR.\nDiures\nis mantenidas en porrón; no deposición.\nSe colocan medias neumáticas; m\nantiene reposo en cama.\nSe realizan medidas de confort e hidratación; b\nuen descanso nocturno. Fecha: JJJ\naciente CyO. No refiere algias. PINR. Moviliza 4EE. GCS 15.\nHMD estable sin DVA, RS y afebril.\nEupneico en basal con saturaciones correctas. FAMIS + STP. Sorbito de agua para medi vo.\nDiuresis en porrón. No depos\n.\nRealizadas medidas de confort + higiene bucal. Fecha: JJJ\nICTUS VERTEBROBASILAR. ESTENOSIS BASILAR Afebril, HD estable. Exploración neurológica completamente normal, NIHSS 0 No se puede acceder a imagenes de otro centro pero describen una estenosis basilar importante. Se mantiene doble antiagregación y de momemento reposo absoluto por si hubiera una componente hemodinamica. Pdte de completar estudio con RM +angioRM. Fecha: JJJ\n1.- AIT BASILAR Paciente que inicia JJJ clínica de paresia facial + parestesias faciales izquierdas y disartria por lo que consulta en JJJ, derivado a JJJ. TC constata retraso de perfusión en arteria basilar. De forma espontánea mejoría clínica con solo leve disartria, por lo que se inicia doble antiagregación con clopidogrel + aspirina, ATV dosis altas y se traslada a JJJ. Informes del TC: Estudio craneal simple sin lesiones isquémicas agudas evidentes (ASPECTS 10/10). AngioTC que muestra permeabilidad de las principales estructuras vasculares de la circulación intracraneal y troncos supra-aórticos, destacando un calibre reducido de la arteria basilar, especialmente a nivel del top, así como de la ACP izquierda, que se traduce en estudio de perfusión como alargamiento en los mapas d\netiempo en ambos hemisferios cerebelosos y región occipital izquierda, sugestivo de hipoperfusión crónica en dichos territorios vasculares. Ingresa en JJJ. A mi valoración JJJ paciente con recuperación ad integrum de la clínica. No focalidad. PPCC conservados. Movilidad y sensibilidad preservada en las 4 EE's. Lenguaje fluido y coherente. No otras disfunciones. Analítica correcta. SOPORTES: No - TRATAMIENTOS ESPECIALES: AAS 100mg/24h + clopidogrel - TROMBOPROFILAXIS: Clexane 40mg/24h. PLAN: Monitorización clínica. Pdte cama unidad de ictus o sala. Pdte de completar estudio con RM +angioRM. Fecha: JJJ\naciente c y o. HDm estable y afebril en la tarde. No refiere algia. Es\ncala de Glasgow 15.\nNo presenta focalidad neurològica.\nTolera dieta bl\nanda. Pdte de completar estudio con RM +angioRM.",
+  "text_length": 3992,
+  "anonymized_count": 21,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

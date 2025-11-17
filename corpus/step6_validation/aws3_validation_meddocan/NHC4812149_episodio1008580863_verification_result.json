@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4812149_episodio1008580863",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente C y O. hmd estable.\nAcude a urgencias por dolor abdominal.\nCan\nalizamos VP en ESD y cursamos analitica de sangre.\nBolsa con pertenenci\nas debajo camilla Fecha: JJJ\nursem una nova analítica i restarà pdte d&apos;IC amb medecina Fecha: JJJ\ni O. Normotens. taquicardia, afebril. no refereix àlgies.\nValorat per\nmedicina. Realitzat ECG. Trasllat a PUR3. Fecha: JJJ\naloro pacient a UCIR. *URM(JJJ). Es tracta de pacient de JJJ natural de JJJ amb barrera idiomatica lleu. No refereix cap tra\nctament actualment. Consta antecedent JJJ de flutter auricular amb ETE\namb trombo auricular pel que va rebre anticoagulació amb sintrom i poste\nrior cardioversió elèctrica. Presentà clinica d&apos;ICA en context del flutt\ner, amb Estenosi mital reumatica greu i insuficiencia lleu-moderada, es\nvolia vincular amb caridologia per valorar inervenció però es va perdre\nel seguiment. Actualment refereix quadre d&apos;una setmana d&apos;evolució d&apos;epig\nastralgia que relaciona amb els esforços, no en repòs ni amb la ingesta, d&apos;uns 5 minuts de duració que cedeix en repòs. No dispnea ni vòmits. A\nla meva valoració assimptomàtic, eupneic basal SPO2 99%, no dolor a la p\nalpació abdominal. Ecoscopia a peu de llit amb vessament pleural bilater\nal, sense vessament pericardic ni ascites. ECG amb flutter auricular amb resposta ventricular a 140bpm. *Analitica amb hiperbilirrubinemia de\n5 principalment a expenses d&apos;indirecta, resta perfil hepatic estable. An\nemització respecte analitica d&apos;JJJ Hb 160-&gt;128. Ecografia reglada descarta obstrucció via biliar o loes hepatiques, descriu signes d&apos;este\natosi lleu-moderada (no refereix enolisme). Afegeixo a l&apos;analitica LDH i troponines. *O/D. Epigastralgia com a probable angor hemodinamic en p\nacient en pacient amb EMitral greu i flutter, amb signes congestius lleu\ns. Hiperbilirrubinemia probablement en aquest context +/- gilbert, a des\ncartar component hemolitic. *PLA: Es trasllada a nivell2 per continuar m\naneig. Es comentarà amb CAR. Fecha: JJJ\naciente trasladado de PUR4 por derrame pleural bilateral y congestión pu\nlmonar. A su llegada, C y O, HMD estable. Se le administra medicación se\ngún pauta y se le realiza Rx. Pte CAR Fecha: JJJ\n) Cardiopatia reumática valvular. Doble lesión mitral. Probable necesida\nd quirúrgica\n2) Flutter en contexto de 1. se administra digoxina y biso\nprolol a dosis bajas. Se inicia anticoagulación. Se ha intentado ecocard\nio transesofágico para valorar posible cardioversión pero no ha sido pos\nible realizarlo. 3) ICBV en contexto 1 y 2. se inicia tratamiento depl\nectivo\n4) Aumento de bilirrubina (Bil 5, indirecta 3.7, directa de 1.3, predominio indirecta. LDH 277, reticulocitos 3.6%, hb 12.8, PQ 235000). Probable hemólisis en contexto de valvulopatía severa + posible Gilbert añadido. También podria exisitir cierto componente de estasis hepático\naunque GOT/GPT22/50, GGT 54/FA 65. TQ 86%, que no lo avala mucho. Se comenta con cardio para ingreso. Fecha: JJJ\nELIOS TT: C y O, HDM estable, eupneico, SATO2 basal correcta. afebril. Sin dolor. Acompañado de JJJ. Diuresis correcta. Dieta bie\nn tolerada.",
+  "text_length": 3130,
+  "anonymized_count": 13,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

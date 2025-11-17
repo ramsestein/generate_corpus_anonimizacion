@@ -1,0 +1,1522 @@
+{
+  "threshold": 0.85,
+  "global_metrics": {
+    "threshold": 0.85,
+    "tp": 3593,
+    "tp_pct": 81.52938506920808,
+    "fp": 338,
+    "fp_pct": 8.598321037903842,
+    "fn": 814,
+    "fn_pct": 18.470614930791925,
+    "precision": 0.9140167896209616,
+    "recall": 0.8152938506920808,
+    "f1": 0.8618373710721996,
+    "tasa_fallo_riesgo": 0.08598321037903842,
+    "precision_anonimizacion": 0.9140167896209616,
+    "total_detected": 3931,
+    "total_reference": 4407,
+    "num_docs": 100
+  },
+  "per_document": {
+    "NHC102219_episodio1008744732": {
+      "metrics": {
+        "tp": 57,
+        "fp": 2,
+        "fn": 9,
+        "precision": 0.9661016949152542,
+        "recall": 0.8636363636363636,
+        "f1": 0.912,
+        "total_detected": 59,
+        "total_reference": 66
+      },
+      "entities_count": 59,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC103087_episodio1008807132": {
+      "metrics": {
+        "tp": 19,
+        "fp": 6,
+        "fn": 0,
+        "precision": 0.76,
+        "recall": 1.0,
+        "f1": 0.8636363636363636,
+        "total_detected": 25,
+        "total_reference": 19
+      },
+      "entities_count": 25,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC103087_episodio1008807712": {
+      "metrics": {
+        "tp": 47,
+        "fp": 11,
+        "fn": 4,
+        "precision": 0.8103448275862069,
+        "recall": 0.9215686274509803,
+        "f1": 0.8623853211009175,
+        "total_detected": 58,
+        "total_reference": 51
+      },
+      "entities_count": 58,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC103618_episodio1008373350": {
+      "metrics": {
+        "tp": 56,
+        "fp": 4,
+        "fn": 7,
+        "precision": 0.9333333333333333,
+        "recall": 0.8888888888888888,
+        "f1": 0.9105691056910569,
+        "total_detected": 60,
+        "total_reference": 63
+      },
+      "entities_count": 60,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC103618_episodio1008373887": {
+      "metrics": {
+        "tp": 5,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "f1": 0.9090909090909091,
+        "total_detected": 5,
+        "total_reference": 6
+      },
+      "entities_count": 5,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC104109_episodio1008287424": {
+      "metrics": {
+        "tp": 55,
+        "fp": 9,
+        "fn": 5,
+        "precision": 0.859375,
+        "recall": 0.9166666666666666,
+        "f1": 0.8870967741935484,
+        "total_detected": 64,
+        "total_reference": 60
+      },
+      "entities_count": 64,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC106104_episodio1008739218": {
+      "metrics": {
+        "tp": 2,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1": 0.8,
+        "total_detected": 3,
+        "total_reference": 2
+      },
+      "entities_count": 3,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC106104_episodio1008741129": {
+      "metrics": {
+        "tp": 25,
+        "fp": 6,
+        "fn": 4,
+        "precision": 0.8064516129032258,
+        "recall": 0.8620689655172413,
+        "f1": 0.8333333333333334,
+        "total_detected": 31,
+        "total_reference": 29
+      },
+      "entities_count": 31,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC107102_episodio1008411058": {
+      "metrics": {
+        "tp": 20,
+        "fp": 2,
+        "fn": 2,
+        "precision": 0.9090909090909091,
+        "recall": 0.9090909090909091,
+        "f1": 0.9090909090909091,
+        "total_detected": 22,
+        "total_reference": 22
+      },
+      "entities_count": 22,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC107102_episodio1008411916": {
+      "metrics": {
+        "tp": 91,
+        "fp": 12,
+        "fn": 6,
+        "precision": 0.883495145631068,
+        "recall": 0.9381443298969072,
+        "f1": 0.9099999999999999,
+        "total_detected": 103,
+        "total_reference": 97
+      },
+      "entities_count": 103,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC108175_episodio1008821007": {
+      "metrics": {
+        "tp": 55,
+        "fp": 3,
+        "fn": 7,
+        "precision": 0.9482758620689655,
+        "recall": 0.8870967741935484,
+        "f1": 0.9166666666666667,
+        "total_detected": 58,
+        "total_reference": 62
+      },
+      "entities_count": 58,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC108981_episodio1008265273": {
+      "metrics": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 3,
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571428571428571,
+        "total_detected": 9,
+        "total_reference": 12
+      },
+      "entities_count": 9,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC108981_episodio1008265564": {
+      "metrics": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "total_detected": 1,
+        "total_reference": 1
+      },
+      "entities_count": 1,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC109003_episodio1008474128": {
+      "metrics": {
+        "tp": 65,
+        "fp": 6,
+        "fn": 5,
+        "precision": 0.9154929577464789,
+        "recall": 0.9285714285714286,
+        "f1": 0.921985815602837,
+        "total_detected": 71,
+        "total_reference": 70
+      },
+      "entities_count": 71,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC109629_episodio1008259249": {
+      "metrics": {
+        "tp": 5,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "f1": 0.9090909090909091,
+        "total_detected": 5,
+        "total_reference": 6
+      },
+      "entities_count": 5,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC109764_episodio1008419386": {
+      "metrics": {
+        "tp": 23,
+        "fp": 1,
+        "fn": 4,
+        "precision": 0.9583333333333334,
+        "recall": 0.8518518518518519,
+        "f1": 0.9019607843137256,
+        "total_detected": 24,
+        "total_reference": 27
+      },
+      "entities_count": 24,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC112376_episodio1008497773": {
+      "metrics": {
+        "tp": 62,
+        "fp": 4,
+        "fn": 5,
+        "precision": 0.9393939393939394,
+        "recall": 0.9253731343283582,
+        "f1": 0.9323308270676692,
+        "total_detected": 66,
+        "total_reference": 67
+      },
+      "entities_count": 66,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC11308_episodio1008291758": {
+      "metrics": {
+        "tp": 46,
+        "fp": 0,
+        "fn": 22,
+        "precision": 1.0,
+        "recall": 0.6764705882352942,
+        "f1": 0.8070175438596492,
+        "total_detected": 46,
+        "total_reference": 68
+      },
+      "entities_count": 46,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC11393_episodio1008275592": {
+      "metrics": {
+        "tp": 14,
+        "fp": 2,
+        "fn": 3,
+        "precision": 0.875,
+        "recall": 0.8235294117647058,
+        "f1": 0.8484848484848485,
+        "total_detected": 16,
+        "total_reference": 17
+      },
+      "entities_count": 16,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC11393_episodio1008275872": {
+      "metrics": {
+        "tp": 49,
+        "fp": 9,
+        "fn": 6,
+        "precision": 0.8448275862068966,
+        "recall": 0.8909090909090909,
+        "f1": 0.8672566371681416,
+        "total_detected": 58,
+        "total_reference": 55
+      },
+      "entities_count": 58,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC115410_episodio1008764375": {
+      "metrics": {
+        "tp": 41,
+        "fp": 1,
+        "fn": 31,
+        "precision": 0.9761904761904762,
+        "recall": 0.5694444444444444,
+        "f1": 0.7192982456140351,
+        "total_detected": 42,
+        "total_reference": 72
+      },
+      "entities_count": 42,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC115410_episodio1008764419": {
+      "metrics": {
+        "tp": 19,
+        "fp": 1,
+        "fn": 11,
+        "precision": 0.95,
+        "recall": 0.6333333333333333,
+        "f1": 0.7599999999999999,
+        "total_detected": 20,
+        "total_reference": 30
+      },
+      "entities_count": 20,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC1158_episodio1008293918": {
+      "metrics": {
+        "tp": 17,
+        "fp": 2,
+        "fn": 0,
+        "precision": 0.8947368421052632,
+        "recall": 1.0,
+        "f1": 0.9444444444444444,
+        "total_detected": 19,
+        "total_reference": 17
+      },
+      "entities_count": 19,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC1158_episodio1008293935": {
+      "metrics": {
+        "tp": 65,
+        "fp": 6,
+        "fn": 8,
+        "precision": 0.9154929577464789,
+        "recall": 0.8904109589041096,
+        "f1": 0.9027777777777778,
+        "total_detected": 71,
+        "total_reference": 73
+      },
+      "entities_count": 71,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC118721_episodio1008701128": {
+      "metrics": {
+        "tp": 7,
+        "fp": 1,
+        "fn": 4,
+        "precision": 0.875,
+        "recall": 0.6363636363636364,
+        "f1": 0.7368421052631579,
+        "total_detected": 8,
+        "total_reference": 11
+      },
+      "entities_count": 8,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC118721_episodio1008701610": {
+      "metrics": {
+        "tp": 28,
+        "fp": 1,
+        "fn": 6,
+        "precision": 0.9655172413793104,
+        "recall": 0.8235294117647058,
+        "f1": 0.888888888888889,
+        "total_detected": 29,
+        "total_reference": 34
+      },
+      "entities_count": 29,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC120191_episodio1008772859": {
+      "metrics": {
+        "tp": 54,
+        "fp": 12,
+        "fn": 3,
+        "precision": 0.8181818181818182,
+        "recall": 0.9473684210526315,
+        "f1": 0.8780487804878049,
+        "total_detected": 66,
+        "total_reference": 57
+      },
+      "entities_count": 66,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC120799_episodio1008785153": {
+      "metrics": {
+        "tp": 37,
+        "fp": 1,
+        "fn": 5,
+        "precision": 0.9736842105263158,
+        "recall": 0.8809523809523809,
+        "f1": 0.925,
+        "total_detected": 38,
+        "total_reference": 42
+      },
+      "entities_count": 38,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC124434_episodio1008297947": {
+      "metrics": {
+        "tp": 15,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "total_detected": 15,
+        "total_reference": 15
+      },
+      "entities_count": 15,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC124434_episodio1008298288": {
+      "metrics": {
+        "tp": 48,
+        "fp": 3,
+        "fn": 0,
+        "precision": 0.9411764705882353,
+        "recall": 1.0,
+        "f1": 0.9696969696969697,
+        "total_detected": 51,
+        "total_reference": 48
+      },
+      "entities_count": 51,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC124803_episodio1008332834": {
+      "metrics": {
+        "tp": 63,
+        "fp": 3,
+        "fn": 126,
+        "precision": 0.9545454545454546,
+        "recall": 0.3333333333333333,
+        "f1": 0.49411764705882355,
+        "total_detected": 66,
+        "total_reference": 189
+      },
+      "entities_count": 66,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC125076_episodio1008505081": {
+      "metrics": {
+        "tp": 21,
+        "fp": 0,
+        "fn": 3,
+        "precision": 1.0,
+        "recall": 0.875,
+        "f1": 0.9333333333333333,
+        "total_detected": 21,
+        "total_reference": 24
+      },
+      "entities_count": 21,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC125076_episodio1008506878": {
+      "metrics": {
+        "tp": 44,
+        "fp": 3,
+        "fn": 10,
+        "precision": 0.9361702127659575,
+        "recall": 0.8148148148148148,
+        "f1": 0.8712871287128713,
+        "total_detected": 47,
+        "total_reference": 54
+      },
+      "entities_count": 47,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC125128_episodio1008459847": {
+      "metrics": {
+        "tp": 55,
+        "fp": 8,
+        "fn": 0,
+        "precision": 0.873015873015873,
+        "recall": 1.0,
+        "f1": 0.9322033898305084,
+        "total_detected": 63,
+        "total_reference": 55
+      },
+      "entities_count": 63,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC125272_episodio1008346882": {
+      "metrics": {
+        "tp": 31,
+        "fp": 6,
+        "fn": 8,
+        "precision": 0.8378378378378378,
+        "recall": 0.7948717948717948,
+        "f1": 0.8157894736842105,
+        "total_detected": 37,
+        "total_reference": 39
+      },
+      "entities_count": 37,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC125561_episodio1008791236": {
+      "metrics": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.75,
+        "f1": 0.8571428571428571,
+        "total_detected": 3,
+        "total_reference": 4
+      },
+      "entities_count": 3,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC125561_episodio1008793057": {
+      "metrics": {
+        "tp": 21,
+        "fp": 5,
+        "fn": 0,
+        "precision": 0.8076923076923077,
+        "recall": 1.0,
+        "f1": 0.8936170212765957,
+        "total_detected": 26,
+        "total_reference": 21
+      },
+      "entities_count": 26,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC126481_episodio1008781194": {
+      "metrics": {
+        "tp": 7,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.875,
+        "f1": 0.9333333333333333,
+        "total_detected": 7,
+        "total_reference": 8
+      },
+      "entities_count": 7,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC126481_episodio1008783076": {
+      "metrics": {
+        "tp": 78,
+        "fp": 6,
+        "fn": 8,
+        "precision": 0.9285714285714286,
+        "recall": 0.9069767441860465,
+        "f1": 0.9176470588235294,
+        "total_detected": 84,
+        "total_reference": 86
+      },
+      "entities_count": 84,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC126981_episodio1008697044": {
+      "metrics": {
+        "tp": 43,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.9555555555555556,
+        "f1": 0.9772727272727273,
+        "total_detected": 43,
+        "total_reference": 45
+      },
+      "entities_count": 43,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC127236_episodio1008763050": {
+      "metrics": {
+        "tp": 59,
+        "fp": 1,
+        "fn": 17,
+        "precision": 0.9833333333333333,
+        "recall": 0.7763157894736842,
+        "f1": 0.8676470588235294,
+        "total_detected": 60,
+        "total_reference": 76
+      },
+      "entities_count": 60,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC127309_episodio1008461456": {
+      "metrics": {
+        "tp": 10,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "f1": 0.9090909090909091,
+        "total_detected": 10,
+        "total_reference": 12
+      },
+      "entities_count": 10,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC127309_episodio1008462187": {
+      "metrics": {
+        "tp": 65,
+        "fp": 8,
+        "fn": 10,
+        "precision": 0.8904109589041096,
+        "recall": 0.8666666666666667,
+        "f1": 0.8783783783783784,
+        "total_detected": 73,
+        "total_reference": 75
+      },
+      "entities_count": 73,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC127461_episodio1008296770": {
+      "metrics": {
+        "tp": 13,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.8666666666666667,
+        "f1": 0.9285714285714286,
+        "total_detected": 13,
+        "total_reference": 15
+      },
+      "entities_count": 13,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC127724_episodio1008402881": {
+      "metrics": {
+        "tp": 31,
+        "fp": 2,
+        "fn": 5,
+        "precision": 0.9393939393939394,
+        "recall": 0.8611111111111112,
+        "f1": 0.8985507246376813,
+        "total_detected": 33,
+        "total_reference": 36
+      },
+      "entities_count": 33,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC128195_episodio1008429835": {
+      "metrics": {
+        "tp": 85,
+        "fp": 2,
+        "fn": 11,
+        "precision": 0.9770114942528736,
+        "recall": 0.8854166666666666,
+        "f1": 0.9289617486338797,
+        "total_detected": 87,
+        "total_reference": 96
+      },
+      "entities_count": 87,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC131693_episodio1008737463": {
+      "metrics": {
+        "tp": 8,
+        "fp": 1,
+        "fn": 6,
+        "precision": 0.8888888888888888,
+        "recall": 0.5714285714285714,
+        "f1": 0.6956521739130435,
+        "total_detected": 9,
+        "total_reference": 14
+      },
+      "entities_count": 9,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC131693_episodio1008739179": {
+      "metrics": {
+        "tp": 73,
+        "fp": 9,
+        "fn": 22,
+        "precision": 0.8902439024390244,
+        "recall": 0.7684210526315789,
+        "f1": 0.8248587570621468,
+        "total_detected": 82,
+        "total_reference": 95
+      },
+      "entities_count": 82,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC131730_episodio1008806319": {
+      "metrics": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "total_detected": 4,
+        "total_reference": 4
+      },
+      "entities_count": 4,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC131730_episodio1008808403": {
+      "metrics": {
+        "tp": 39,
+        "fp": 4,
+        "fn": 0,
+        "precision": 0.9069767441860465,
+        "recall": 1.0,
+        "f1": 0.951219512195122,
+        "total_detected": 43,
+        "total_reference": 39
+      },
+      "entities_count": 43,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC132755_episodio1008494119": {
+      "metrics": {
+        "tp": 8,
+        "fp": 2,
+        "fn": 2,
+        "precision": 0.8,
+        "recall": 0.8,
+        "f1": 0.8000000000000002,
+        "total_detected": 10,
+        "total_reference": 10
+      },
+      "entities_count": 10,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC132755_episodio1008495389": {
+      "metrics": {
+        "tp": 30,
+        "fp": 3,
+        "fn": 18,
+        "precision": 0.9090909090909091,
+        "recall": 0.625,
+        "f1": 0.7407407407407406,
+        "total_detected": 33,
+        "total_reference": 48
+      },
+      "entities_count": 33,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC133628_episodio1008465941": {
+      "metrics": {
+        "tp": 59,
+        "fp": 12,
+        "fn": 30,
+        "precision": 0.8309859154929577,
+        "recall": 0.6629213483146067,
+        "f1": 0.7374999999999999,
+        "total_detected": 71,
+        "total_reference": 89
+      },
+      "entities_count": 71,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC133628_episodio1008732802": {
+      "metrics": {
+        "tp": 73,
+        "fp": 3,
+        "fn": 22,
+        "precision": 0.9605263157894737,
+        "recall": 0.7684210526315789,
+        "f1": 0.8538011695906433,
+        "total_detected": 76,
+        "total_reference": 95
+      },
+      "entities_count": 76,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC134173_episodio1008241264": {
+      "metrics": {
+        "tp": 31,
+        "fp": 7,
+        "fn": 3,
+        "precision": 0.8157894736842105,
+        "recall": 0.9117647058823529,
+        "f1": 0.861111111111111,
+        "total_detected": 38,
+        "total_reference": 34
+      },
+      "entities_count": 38,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC134933_episodio1008245813": {
+      "metrics": {
+        "tp": 54,
+        "fp": 3,
+        "fn": 16,
+        "precision": 0.9473684210526315,
+        "recall": 0.7714285714285715,
+        "f1": 0.8503937007874016,
+        "total_detected": 57,
+        "total_reference": 70
+      },
+      "entities_count": 57,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC134933_episodio1008246073": {
+      "metrics": {
+        "tp": 5,
+        "fp": 1,
+        "fn": 3,
+        "precision": 0.8333333333333334,
+        "recall": 0.625,
+        "f1": 0.7142857142857143,
+        "total_detected": 6,
+        "total_reference": 8
+      },
+      "entities_count": 6,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC135242_episodio1008340284": {
+      "metrics": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "total_detected": 1,
+        "total_reference": 1
+      },
+      "entities_count": 1,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC135242_episodio1008340505": {
+      "metrics": {
+        "tp": 50,
+        "fp": 0,
+        "fn": 4,
+        "precision": 1.0,
+        "recall": 0.9259259259259259,
+        "f1": 0.9615384615384615,
+        "total_detected": 50,
+        "total_reference": 54
+      },
+      "entities_count": 50,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC135800_episodio1008615711": {
+      "metrics": {
+        "tp": 85,
+        "fp": 6,
+        "fn": 18,
+        "precision": 0.9340659340659341,
+        "recall": 0.8252427184466019,
+        "f1": 0.8762886597938145,
+        "total_detected": 91,
+        "total_reference": 103
+      },
+      "entities_count": 91,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC136079_episodio1008654863": {
+      "metrics": {
+        "tp": 27,
+        "fp": 2,
+        "fn": 9,
+        "precision": 0.9310344827586207,
+        "recall": 0.75,
+        "f1": 0.8307692307692308,
+        "total_detected": 29,
+        "total_reference": 36
+      },
+      "entities_count": 29,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC136079_episodio1008655139": {
+      "metrics": {
+        "tp": 6,
+        "fp": 0,
+        "fn": 3,
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8,
+        "total_detected": 6,
+        "total_reference": 9
+      },
+      "entities_count": 6,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC136979_episodio1008802382": {
+      "metrics": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.3333333333333333,
+        "f1": 0.5,
+        "total_detected": 1,
+        "total_reference": 3
+      },
+      "entities_count": 1,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC136979_episodio1008805535": {
+      "metrics": {
+        "tp": 57,
+        "fp": 11,
+        "fn": 4,
+        "precision": 0.8382352941176471,
+        "recall": 0.9344262295081968,
+        "f1": 0.8837209302325582,
+        "total_detected": 68,
+        "total_reference": 61
+      },
+      "entities_count": 68,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC137844_episodio1008286010": {
+      "metrics": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8,
+        "total_detected": 2,
+        "total_reference": 3
+      },
+      "entities_count": 2,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC137844_episodio1008286606": {
+      "metrics": {
+        "tp": 35,
+        "fp": 5,
+        "fn": 0,
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1": 0.9333333333333333,
+        "total_detected": 40,
+        "total_reference": 35
+      },
+      "entities_count": 40,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC138131_episodio1008335773": {
+      "metrics": {
+        "tp": 45,
+        "fp": 8,
+        "fn": 2,
+        "precision": 0.8490566037735849,
+        "recall": 0.9574468085106383,
+        "f1": 0.9,
+        "total_detected": 53,
+        "total_reference": 47
+      },
+      "entities_count": 53,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC139078_episodio1008298603": {
+      "metrics": {
+        "tp": 64,
+        "fp": 1,
+        "fn": 5,
+        "precision": 0.9846153846153847,
+        "recall": 0.927536231884058,
+        "f1": 0.9552238805970149,
+        "total_detected": 65,
+        "total_reference": 69
+      },
+      "entities_count": 65,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC139466_episodio1008280567": {
+      "metrics": {
+        "tp": 110,
+        "fp": 11,
+        "fn": 11,
+        "precision": 0.9090909090909091,
+        "recall": 0.9090909090909091,
+        "f1": 0.9090909090909091,
+        "total_detected": 121,
+        "total_reference": 121
+      },
+      "entities_count": 121,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC140918_episodio1008315916": {
+      "metrics": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 3,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666,
+        "total_detected": 3,
+        "total_reference": 6
+      },
+      "entities_count": 3,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC140918_episodio1008318323": {
+      "metrics": {
+        "tp": 31,
+        "fp": 0,
+        "fn": 6,
+        "precision": 1.0,
+        "recall": 0.8378378378378378,
+        "f1": 0.911764705882353,
+        "total_detected": 31,
+        "total_reference": 37
+      },
+      "entities_count": 31,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC140918_episodio1008642165": {
+      "metrics": {
+        "tp": 69,
+        "fp": 2,
+        "fn": 32,
+        "precision": 0.971830985915493,
+        "recall": 0.6831683168316832,
+        "f1": 0.8023255813953488,
+        "total_detected": 71,
+        "total_reference": 101
+      },
+      "entities_count": 71,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC141187_episodio1008501143": {
+      "metrics": {
+        "tp": 18,
+        "fp": 6,
+        "fn": 2,
+        "precision": 0.75,
+        "recall": 0.9,
+        "f1": 0.8181818181818182,
+        "total_detected": 24,
+        "total_reference": 20
+      },
+      "entities_count": 24,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC141187_episodio1008502001": {
+      "metrics": {
+        "tp": 42,
+        "fp": 10,
+        "fn": 6,
+        "precision": 0.8076923076923077,
+        "recall": 0.875,
+        "f1": 0.8400000000000001,
+        "total_detected": 52,
+        "total_reference": 48
+      },
+      "entities_count": 52,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC141900_episodio1008573172": {
+      "metrics": {
+        "tp": 54,
+        "fp": 3,
+        "fn": 3,
+        "precision": 0.9473684210526315,
+        "recall": 0.9473684210526315,
+        "f1": 0.9473684210526315,
+        "total_detected": 57,
+        "total_reference": 57
+      },
+      "entities_count": 57,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC142040_episodio1008444796": {
+      "metrics": {
+        "tp": 72,
+        "fp": 13,
+        "fn": 6,
+        "precision": 0.8470588235294118,
+        "recall": 0.9230769230769231,
+        "f1": 0.8834355828220859,
+        "total_detected": 85,
+        "total_reference": 78
+      },
+      "entities_count": 85,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC142853_episodio1008555786": {
+      "metrics": {
+        "tp": 5,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.8333333333333334,
+        "f1": 0.9090909090909091,
+        "total_detected": 5,
+        "total_reference": 6
+      },
+      "entities_count": 5,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC142853_episodio1008556521": {
+      "metrics": {
+        "tp": 63,
+        "fp": 1,
+        "fn": 21,
+        "precision": 0.984375,
+        "recall": 0.75,
+        "f1": 0.8513513513513513,
+        "total_detected": 64,
+        "total_reference": 84
+      },
+      "entities_count": 64,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC142877_episodio1008694858": {
+      "metrics": {
+        "tp": 24,
+        "fp": 6,
+        "fn": 2,
+        "precision": 0.8,
+        "recall": 0.9230769230769231,
+        "f1": 0.8571428571428571,
+        "total_detected": 30,
+        "total_reference": 26
+      },
+      "entities_count": 30,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC142877_episodio1008696779": {
+      "metrics": {
+        "tp": 48,
+        "fp": 5,
+        "fn": 8,
+        "precision": 0.9056603773584906,
+        "recall": 0.8571428571428571,
+        "f1": 0.8807339449541285,
+        "total_detected": 53,
+        "total_reference": 56
+      },
+      "entities_count": 53,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC143452_episodio1008557571": {
+      "metrics": {
+        "tp": 22,
+        "fp": 2,
+        "fn": 1,
+        "precision": 0.9166666666666666,
+        "recall": 0.9565217391304348,
+        "f1": 0.9361702127659574,
+        "total_detected": 24,
+        "total_reference": 23
+      },
+      "entities_count": 24,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC143452_episodio1008557860": {
+      "metrics": {
+        "tp": 18,
+        "fp": 3,
+        "fn": 0,
+        "precision": 0.8571428571428571,
+        "recall": 1.0,
+        "f1": 0.923076923076923,
+        "total_detected": 21,
+        "total_reference": 18
+      },
+      "entities_count": 21,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC145218_episodio1008284887": {
+      "metrics": {
+        "tp": 15,
+        "fp": 4,
+        "fn": 2,
+        "precision": 0.7894736842105263,
+        "recall": 0.8823529411764706,
+        "f1": 0.8333333333333333,
+        "total_detected": 19,
+        "total_reference": 17
+      },
+      "entities_count": 19,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC145218_episodio1008286871": {
+      "metrics": {
+        "tp": 54,
+        "fp": 4,
+        "fn": 9,
+        "precision": 0.9310344827586207,
+        "recall": 0.8571428571428571,
+        "f1": 0.8925619834710743,
+        "total_detected": 58,
+        "total_reference": 63
+      },
+      "entities_count": 58,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC146256_episodio1008606651": {
+      "metrics": {
+        "tp": 7,
+        "fp": 3,
+        "fn": 3,
+        "precision": 0.7,
+        "recall": 0.7,
+        "f1": 0.7,
+        "total_detected": 10,
+        "total_reference": 10
+      },
+      "entities_count": 10,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC146256_episodio1008608110": {
+      "metrics": {
+        "tp": 48,
+        "fp": 6,
+        "fn": 18,
+        "precision": 0.8888888888888888,
+        "recall": 0.7272727272727273,
+        "f1": 0.7999999999999999,
+        "total_detected": 54,
+        "total_reference": 66
+      },
+      "entities_count": 54,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC147284_episodio1008654873": {
+      "metrics": {
+        "tp": 24,
+        "fp": 1,
+        "fn": 12,
+        "precision": 0.96,
+        "recall": 0.6666666666666666,
+        "f1": 0.7868852459016393,
+        "total_detected": 25,
+        "total_reference": 36
+      },
+      "entities_count": 25,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC147284_episodio1008654877": {
+      "metrics": {
+        "tp": 47,
+        "fp": 1,
+        "fn": 21,
+        "precision": 0.9791666666666666,
+        "recall": 0.6911764705882353,
+        "f1": 0.8103448275862069,
+        "total_detected": 48,
+        "total_reference": 68
+      },
+      "entities_count": 48,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC147284_episodio1008699723": {
+      "metrics": {
+        "tp": 3,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571428571428571,
+        "total_detected": 4,
+        "total_reference": 3
+      },
+      "entities_count": 4,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC147284_episodio1008699735": {
+      "metrics": {
+        "tp": 3,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571428571428571,
+        "total_detected": 4,
+        "total_reference": 3
+      },
+      "entities_count": 4,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC148043_episodio1008368481": {
+      "metrics": {
+        "tp": 59,
+        "fp": 4,
+        "fn": 16,
+        "precision": 0.9365079365079365,
+        "recall": 0.7866666666666666,
+        "f1": 0.8550724637681159,
+        "total_detected": 63,
+        "total_reference": 75
+      },
+      "entities_count": 63,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC148043_episodio1008397767": {
+      "metrics": {
+        "tp": 21,
+        "fp": 3,
+        "fn": 1,
+        "precision": 0.875,
+        "recall": 0.9545454545454546,
+        "f1": 0.9130434782608695,
+        "total_detected": 24,
+        "total_reference": 22
+      },
+      "entities_count": 24,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC148043_episodio1008398350": {
+      "metrics": {
+        "tp": 55,
+        "fp": 3,
+        "fn": 14,
+        "precision": 0.9482758620689655,
+        "recall": 0.7971014492753623,
+        "f1": 0.8661417322834646,
+        "total_detected": 58,
+        "total_reference": 69
+      },
+      "entities_count": 58,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC149090_episodio1008278518": {
+      "metrics": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8,
+        "total_detected": 4,
+        "total_reference": 6
+      },
+      "entities_count": 4,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC14940_episodio1008778300": {
+      "metrics": {
+        "tp": 12,
+        "fp": 3,
+        "fn": 8,
+        "precision": 0.8,
+        "recall": 0.6,
+        "f1": 0.6857142857142857,
+        "total_detected": 15,
+        "total_reference": 20
+      },
+      "entities_count": 15,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC151125_episodio1008421085": {
+      "metrics": {
+        "tp": 56,
+        "fp": 2,
+        "fn": 39,
+        "precision": 0.9655172413793104,
+        "recall": 0.5894736842105263,
+        "f1": 0.7320261437908496,
+        "total_detected": 58,
+        "total_reference": 95
+      },
+      "entities_count": 58,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC151355_episodio1008586525": {
+      "metrics": {
+        "tp": 55,
+        "fp": 6,
+        "fn": 2,
+        "precision": 0.9016393442622951,
+        "recall": 0.9649122807017544,
+        "f1": 0.9322033898305084,
+        "total_detected": 61,
+        "total_reference": 57
+      },
+      "entities_count": 61,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC152574_episodio1008625500": {
+      "metrics": {
+        "tp": 11,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.9166666666666666,
+        "recall": 0.9166666666666666,
+        "f1": 0.9166666666666666,
+        "total_detected": 12,
+        "total_reference": 12
+      },
+      "entities_count": 12,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC152574_episodio1008627449": {
+      "metrics": {
+        "tp": 77,
+        "fp": 2,
+        "fn": 25,
+        "precision": 0.9746835443037974,
+        "recall": 0.7549019607843137,
+        "f1": 0.8508287292817679,
+        "total_detected": 79,
+        "total_reference": 102
+      },
+      "entities_count": 79,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    },
+    "NHC153117_episodio1008736785": {
+      "metrics": {
+        "tp": 40,
+        "fp": 3,
+        "fn": 1,
+        "precision": 0.9302325581395349,
+        "recall": 0.975609756097561,
+        "f1": 0.9523809523809524,
+        "total_detected": 43,
+        "total_reference": 41
+      },
+      "entities_count": 43,
+      "text_anon_pred": "",
+      "text_anon_gold": ""
+    }
+  }
+}

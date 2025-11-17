@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4831578_episodio1008768073",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naloración Críticos\nValoración enfermo crítico Responsable identifica\nción positiva del paciente: Doble check (dos profesionales)\n¿En el mome\nnto del ingreso el paciente lleva pulsera identificativa?: Sí\nDatos per\nsona contacto (nombre, teléfono y parentesco):\nJJJ (JJJ): JJJ\n¿La persona de contacto corresponde con el cuidador?: N\no tiene cuidador\nProcedencia del paciente antes del ingreso hospitalari\no: Otro hospital\nMotivo ingreso y procedencia interna:\nTrasllat JJJ. Angina inestable, pacient amb dolor toràcic des del JJJ.\n¿Sufre alg\nuna enfermedad crónica?: Dislipemia, Diabetes, Otras enfermedades crónic\nas, Hipertensión\nEspecificar otras enfermedades crónicas:\nPACx4 (JJJ) con VS, Stent en bypass de VS en OM1 (JJJ), SFA CD (JJJ) + reestonosi\ns en JJJ, Adenoma benigno de próstata, retinopatia DBT.\nDéficit de\nautocuidado: Independiente\nAlergias: No\n¿Fuma actualmente?: No\nExfuma\ndor: Sí\nEstado de la consciencia: Alerta\nModalidad acceso vía aérea: N\natural\nValor Frecuencia cardíaca: 53 lpm\nMicción espontánea: Sí\nRitmo deposicional:\ncada dos dies\nFecha última deposición: JJJ\nPrót\nesis dental: Sí\n¿Lleva puesta la prótesis dental?: Sí\n¿Alteración de l\na integridad de piel y mucosas al ingresar?: Sí\nColoración de la piel:\nNormocoloreada\nPuntuación escala Braden: 18-Riesgo bajo\nTemperatura ax\nilar: 35.8 ºC\n¿Tiene dolor al ingreso?: No\nPuntuación escala EVN: 0\nP\nuntuación escala Downton: 1-Riesgo bajo Fecha: JJJ\nacient conscient, orientat i col·laborador. No refereix àlgies durant el torn.\nHDME sense DVA. ECG en RS. Afebril.\nRESP: Eupneic en basal. Sat\nuracions correctes.\nELIM: Micció espontània en porró. No realitza dep\nosició. Portador de compressiu Proglide a FD, pendent reitrar demà. Se\nnse signes de sagnat. Pendnet trasllat a l&apos;JJJ, hospital d\ne referència. Fecha: JJJ\nnmovilizaciones: Vendajes #1 R\netirado a las JJJ",
+  "text_length": 1859,
+  "anonymized_count": 15,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4236970_episodio1008648497",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nacient ingressada a SP en espera de cesaria electiva. Hemodinàmicament e\nstable. Glicema capilar: 210mg/dl. S&apos;inicia perfusió d&apos;insulina segons p\nrotocol. FCFb: fetus 1: 145bx&apos;; fetus 2: 160bx&apos;\nPassa a quiròfan. Fecha: JJJ\naloració obstètrica Responsable identificació positiva del pacient: P\nacient\nEn el moment de l&apos;ingrés el pacient porta braçalet d&apos;identifica\nció?: Sí\nComprovació identificació mare-nadó: Sí\nProcedència del pacie\nnt abans de l&apos;ingrés hospitalari: Domicili\nMotiu ingrés i procedència i\nnterna:\nCesárea gemelar\nAl·lèrgies: No\nReaccions transfusionals prèvi\nes: No\nValor de Pressió Arterial sistòlica: 142\nValor de Pressió Arter\nial diastòlica: 81\nValor freqüència cardíaca: 70\nTemperatura axil·lar: 35.5\nTipus de pacient: Puèrpera\nAlçada uterina: 0\nLoquis: Fisiològic\ns\nTipus de part: Cesàrea\nDesig de lactància en gestació actual: Sí\nPu\nntuació escala EVN: 0 Fecha: JJJ\nAS en rango de 1145-155 mantenidas. Sin tto hipotensor actualmente. La p\naciente tomaba Enalapril previo a gestación por protección renal. Reintr\noducimos Enalapril 5mg/24h. Fecha: JJJ\nngresa UCOI recovery de cesárea JJJ. HDME y afebril.\nAlgias controla\ndas con analgesia, útero contraído (AU +2), PH fisiológicas escasas y AQ limpio. Portadora de perfusión SG10% a 83ml/h + perfusión de insulina a 1ml/h. Cambio a 3,3ml/h por pauta medica. A su llegada 249 mg/dl, p\nosteriormente 239 mg/dl. Hablo con MG para adm 7UI insulina rápida dada\nla hiperglicemia.\nA las JJJ tolera ingesta hídrica y retiro SVP con un\ntotal de 600ml, colurico. A las JJJ pauso las bombas para empezar a to\nlerar ingesta oral. Toma café con leche y glicemias de 160 mg/dl.\nA las JJJ administro Enalapril de 5mg POM. La paciente comenta tomárselo en c\nasa. A las JJJ realiza deambulación al WC y 1ª ME escasa, 150ml hem\nática. A las JJJ realiza segunda ME con un total de 200ml (escasa y hemática). Hablo con MG ya que quiere ir a RNCP a ver al NNT. Da perm\niso y sube a NNT.\nInicia LM + extractor, sin incidencias.\nPasa la tard\ne tranquila y acompañada. Tolera dieta. Pte de revalorar diuresis. Fecha: JJJ\n+0. Gestación BCBA (CIR tipo 1 feto B). FR: DM tipo 1. Nefropatía incipi\nente. Enalapril 5mg/24h. Buen estado general. TA: 125/72. Afebril. T\nendencia a hiperglicemia esta mañana. Por la tarde glicemias 130-110 (no consta si pre o postprandial. Insisto en importancia de control glicémi\nco). Tolera ingesta y deambulación. Micciones espontáneas correctas. D\nolor controlado con analgesia pautada. No precisa gammaglobulina ni va\ncuna triple vírica. Lactancia materna.",
+  "text_length": 2584,
+  "anonymized_count": 11,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

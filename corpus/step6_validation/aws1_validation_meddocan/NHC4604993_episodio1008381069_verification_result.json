@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4604993_episodio1008381069",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente de JJJ que acude a urgencias por DT,. El paciente refiere que e\nsta noche le ha despertado el DT descrito como opresivo, centrotorácico. No irradiado. A su llegada HDM estable, afebril EVA 1/10\nNo AMC. AP: D\nislipemia, DMII\nCurso analítica de urgencias con troponinas, se realiza rx tórax. Pendiente de resultados y de curva de troponinas a las 6.30H Fecha: JJJ\nstando en PUR3 pendiente de KT presenta episodios de repeticion de dt co\nn elevacion transitoria del st por lo que se aumenta NGL y se activa cod\nigo iam. Se traslada a KT. Fecha: JJJ\naciente que inicia con dolor torácico 12:20. Se avisa a medico responsab\nle. EVA 5/10. Se aumenta BIC de NTG a 14ml/h sin mejoria del dolor.\nS\ne decide traslado a hemodinamia para KT urgente. Fecha: JJJ\nSe realiza coronarografia urgente en paciente con dolor toracico y transitoria elevación del ST en la cara anterior por via radial derecha 6F. Tronco común: sin lesiones significativas Descendente anterior: oclusión trombotica aguda a nivel medio (flujo TIMI 0-1). Circunfleja: sin lesiones significativas Coronaria derecha: sin lesiones significativas Conclusiones: Aterosclerosis coronaria difusa con oclusión trombotica de la descendente anterior a nivel medio (lesión culpable, flujo TIMI 0\n-1). Por lo tanto, se realiza ICP de la descendente anterior media: catetér guía JL 3.5 6F, se cruza la oclusión con guía BMW con ripristin\node flujo anterogrado. Se predilata con balón 2.5x12 mm (16 atm) y se implanta stent farmacoactivo FIREHAWK 2.5x18 mm (16 atm). Buen resultado angiografico final. AAS 100 mg/día Prasugrel 10 mg/día (se administran 60 mg de dosis de carga) Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\nJJJ - JJJ (JJJ)\n¿La persona de contacto correspond\ne con el cuidador?: No tiene cuidador\n¿Vive solo?: No\nProcedencia del\npaciente antes del ingreso hospitalario: Domicilio\nMotivo ingreso y pro\ncedencia interna:\nAP: DM, DLP\nACT: JJJ IAMSEST -&gt; stent en DAp\n¿Sufr\ne alguna enfermedad crónica?: Dislipemia, Diabetes\nDéficit de autocuida\ndo: Movilización, Higiene\nAlergias: No\n¿Fuma actualmente?: No\nExfumad\nor: Sí\nEstado de la consciencia: Alerta\nModalidad acceso vía aérea: Na\ntural\nValor Frecuencia cardíaca: 74 lpm\nMicción espontánea: Sí\nRitmo\ndeposicional:\nDIARI\nFecha última deposición: JJJ\n¿Alteración d\ne la integridad de piel y mucosas al ingresar?: No\nColoración de la pie\nl: Normocoloreada\nPuntuación escala Braden: 17-Riesgo bajo\nTemperatura axilar: 35.3 ºC\n¿Tiene dolor al ingreso?: No\nPuntuación escala EVN: 0 Puntuación escala Downton: 2-Riesgo bajo Fecha: JJJ\naciente consciente, orientado y colaborador\nNormotenso. Portador de NTG (st), que se puede ir disminuyendo. RS en monitor. Afebril\nEupneico en basal.\nPortador de compresivo en radial D. Pdte retirar compresivo a p\nartir de las 17h.\nInicia ingesta hídrica, bien tolerada. Se progresa. Cursadas troponinas. Pdte cursar analítica a las 20h. Fecha: JJJ\n1. IAMCEST ANTERIOR KK1 2. FEVI LÍMITE BAJO DE LA NORMALIDAD 3. EAC 1V: 4. ICP + SFA EN DAm Paciente presenta nuevo episodio de dolor torácico evidenciandose por monitor ascenso del ST. Se realiza ECG con elevación anterior. Se decide activar código IAM HD estable en todo momento. Eupneico en decúbito. KT: EAC de 1v con oclusión de DAm. Se implanta SFA. buen resultado final. PLAN Ingreso para cuidados post IAM. PRasugrel. Fecha: JJJ\neuro: paciente consciente y orientado. Colaborador. No refiere algias. Respi: saturaciones correctas entre el 98-97% en basal. Eupneico. Hdm: en RS. Se estopa nitroglicerina e.v. Tensiones estables. Afebril durant\ne el turno.\nElim: diuresis clara mantenida en botella. Deposición pasto\nsa en cuña. Alim: tolera ingesta oral. Glicemias controladas\nMovi: en reposo absoluto. Se retira compresivo de arterial. Buen aspecto. Se realiza control de troponina a las 20h. Pdte de resultado",
+  "text_length": 4012,
+  "anonymized_count": 14,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5293397_episodio1008583751",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nJJJ. Portador de traquestomía (no fona). SCC laringe T4N1 JJJ (LT+VG\n). Libre de enfermedad. Número JJJ (JJJ): JJJ Carcinoma e\nscamoso esofágico (medio) LA (traquea /aorta) vs M1 (pulmonar), candidat\no a inicio de 1L con 5-FU + CDDP + nivolumab. S/\n- Dolor mal contro\nlado pese a FNT 25 por lo que hace JJJ aumentó a 37.5, sin mejoría,\nkaptic parcialmente efectivo\n- Continua con expectoración hemoptoica qu\ne ha empeorado, no fiebre EF/ ECOG 1 EC/\n- AS (JJJ): NCS, res\nolución de la IRA\n- PD-L1 CPS 15, TPS 12\n- DPYD (JJJ): metabolizad\nor eficiente\n- TC tórax (JJJ): Nódulo pulmonar subpleural de 7 mm e\nn el LII, indeterminado, sin cambios respecto al PET-TC reciente aunque\nno presente en el PET-TC de JJJ, por lo que podría corresponder a un\na M1. Pequeñas burbujas de neumoperitoneo en el hipocondrio izquierdo, a\ndyacente al ángulo esplénico del colon, parcialmente incluido en el estu\ndio, a valorar clínicamente la necesidad de ampliar estudio abdominal. VAL/ 1. Carcinoma escamoso esofágico (medio) LA (traquea /aorta) vs\nM1 (pulmonar), candidato a inicio de 1L con 5-FU + CDDP + nivolumab. Rie\nsgo de complicaciones locales. 2. Hipotiroidismo subclínico, a control\nar P/\n- Dado presencia de burbujas y neumoperitoneo en hipocondrio i\nzquierdo, mal control del dolor, difícil comunicación (portador de traqu\neo), comento con radiología y acordamos derivar a urgencias para repetir analítica, EF y repetir TC abdominal (perforación?)\n- Aprobado CDDP +\n5FU + Nivolumab por farmacia, en función de evolución iniciaremos QT. Fecha: JJJ\nINGRESO ONCOLOGÍA MÉDICA (JJJ, JJJ) JJJ. Portador de traquestomía (no fona). SCC laringe T4N1 JJJ (LT+VG). Li\nbre de enfermedad. Actualmente afecto de carcinoma escamoso esofágico (m\nedio) LA (traquea /aorta) vs M1 (pulmonar), candidato a inicio de 1L con 5-FU + CDDP + nivolumab. Derivado de CEX por mal control del dolor\nretroesternal (aumento de parche transdérmico de 12 a 37 en JJJ,\nsin respuesta, sí efectivo kaptic, por lo que utiliza 5-6 rescates al dí\na + coadyuvantes) y para descartar complicaciones intraabdominales debid\no a hallazgo de signos de neumoperitoneo en TAC tórax ambulatorio realiz\nado el JJJ. Paralelamente refiere que continua con esputos hemopt\noicos, no fiebre termometrada. A su llegada a urgencias BEG, HDE, af\nebril, abdomen anodino a la exploración. Ecofast sin signos de neumoperi\ntoneo que también se descartan por radiografía en bipedestación. Ana\nlítica con ascenso de la PCR a 10, no leucocitosis, resto anodino. O\nD/\n1. Neumoperitoneo en TC a estudio\n2. Mal control del dolor retroest\nernal secundario a tumor primario\n3. SCC esófago localmente avanzado vs M1 (pulmonar) candidato a inicio de 1L con CDDP + 5FU + nivolumab. P/\n- ROP a MFN EV equidosis 20 mg c/24h + titular con rescates\n- Acord\namos con radiología realización de TC abdominal de control entre JJJ (hemodinámicamente estable)\n- Una vez completado el estudi\no, se podría plantear, durante el ingreso vs ambulatorio, colocación de\nPEG (probablemente empeore el dolor la SNG) por endoscopia (probablement\ne complicado por estenosis) vs DIVAS. Paciente ya ha sido portador de PE\nG durante tto por SCC laringe. Fecha: JJJ\nAMIS hasta realización de TC",
+  "text_length": 3202,
+  "anonymized_count": 20,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

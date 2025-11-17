@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4904833_episodio1008276761",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nacient de JJJ amb AP d'abdominoplastia el JJJ amb complicació d'inf\necció de ferida quirúrgica i abscés en FII, consulta a ucies per dolor a\nbdominal, exsudat de ferida quirúrgica, hipoTA i febre (sospita de seps\nis abdominal).\nA la seva arribada al box monitoritzo, pacient C i O, am\nb tendència a la hipotensió, saturacions mantingudes sense O2 suplementa\nri, febril, EVA: 6/10.\nPortadora de CVP 20G a ESE permeable, canalitzo\nCVP 18G a ESE, curso analítica amb bioquímica, hemograma, coagulació, la\nctat, parell d'hemocultius, frotis de ferida quirúrgica i frotis MARSA. Es realitza vendatge compresiu abdominal a ferida quirúrgica per exsud\nat abudant, pendent valoració per CIR.\nPertenences a bossa identificada sota de la camilla.",
+  "text_length": 747,
+  "anonymized_count": 3,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

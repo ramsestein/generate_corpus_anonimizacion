@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC216411_episodio1008569139",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\ncude gestante JJJ por sospecha de RPM del JJJ a las JJJ. SGB nega\ntivo. FR: depresión y sd. ansioso.\nGGEE macroscópicamente normales, no\nfluye líquido. pH inicialmente no vira a alcalino. Dada técnica dificu\nltosa + oligoamnios se realiza segundo pH con resultado positivo.\nRCTG: FCF basal 145lxm, variabilidad conservada, presencia de aceleraciones,\nno deceleraciones. No DU.\nTV: cx muy posterior, rígido, formado, OCE pe\nrmeable 1 dedo, OCI cerrado. BAR.\nCanalizamos VVP 18G en mano derecha. Desea conducta expectante, pasa a UCOI por no disponibilidad de camas e\nn planta. Revaloración a las JJJ. Fecha: JJJ\nestante de JJJ. ingresa a la UCOI. La paciente HDM estable. Afebril.\nSi PLA claro. no DU. No PH. Lleva vía periférica permeable. Ingresa para conducta expectante. Revalorarán a las JJJ. Fecha: JJJ\naloración obstétrica Responsable identificación positiva del paciente\n: Paciente\n¿En el momento del ingreso el paciente lleva pulsera identif\nicativa?: Sí\nComprobación identificación madre-recién nacido: No proced\ne\nProcedencia del paciente antes del ingreso hospitalario: Domicilio\nM\notivo ingreso y procedencia interna:\nrpm\nAlergias: No\nValor Presión A\nrterial sistólica: 119 mm Hg\nValor Presión Arterial diastólica: 74 mm H\ng\nValor frecuencia cardíaca: 86 lpm\nTemperatura axilar: 36.2 ºC\nTipo\nde paciente: Gestante\nDinámica uterina: Ausencia\nHidrorrea (pérdida lí\nquido amniótico): Otro (especificar)\nMetrorragia: No\nPuntuación escala EVN: 0 Fecha: JJJ\nDM estable y afebril. No algias. Refiere PLA claras y escasas. No DU ni\nPH. Valorada por matrona, colocan propess. Fecha: JJJ\nestante de JJJ, RPM de las JJJ del JJJ. Se consensua con la ges\ntante revalorar condiciones cervicales a las JJJ. Se realiza TV previo c\nonsentimiento: cx posterior, formado, OCE permeable a un dedo, OCI cerra\ndo. Se explica a la usuaria diferentes opciones, decidiéndose por el Pro\npess, que se coloca a las JJJ. Se deja NST de control.",
+  "text_length": 1938,
+  "anonymized_count": 16,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

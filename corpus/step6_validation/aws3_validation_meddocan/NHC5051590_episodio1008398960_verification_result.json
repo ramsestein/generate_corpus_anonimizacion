@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5051590_episodio1008398960",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nx c y o, hipotenso, hipoperfundido, y con tendencia a la desaturación po\nrtador de vmk 26% 3L.\nRefiere dolor torácico de horas de evolución con\nnáuseas que no mejora. Traido por el sem derivado del JJJ po\nr angina inestable. Se realiza ecg objetivando elevación del ST en V3, V4 y avF con eva 6/10.\nSe activa codigo IAM y se avisa a Cardiología. Se colocan 2 vp en ambas eess, se cursa analítica y se realiza poc. Se adm medicación y se avisa a camilleros para hemodinámia.\nSe coloca m\nonaghan al 100% por desaturación y se coloca colector de orina. Fecha: JJJ\ne coloca carga de SF 500ml que mejora la TA. Se traslada a hemodinamia\n.",
+  "text_length": 644,
+  "anonymized_count": 3,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

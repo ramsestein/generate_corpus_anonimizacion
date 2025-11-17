@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4872888_episodio1008795104",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nPaciente con DX de bronquitis hace JJJ en su CAP, acude por empeoramien\nto del mismo cuadro clínico. A su llegada a urgencias, hdme y afebril\n(T 36.5ºC). Se decide realizar analítica de sangre, radiografía de t\nórax y electrocardiograma. En la radiografía de tórax y el electrocardio\ngrama, no presenta alteraciones relevantes. En la analítica de sangre\n, destaca elevación de troponinas a 286 ng/L. Se realiza pide 2a determi\nnación a las JJJ. Se comenta con PUR3 para monitorización y curva de t\nroponinas. ANTECEDENTES PATOLÓGICOS - ESPONDILITIS ANQUILOSANTE . - ASMA BRONQUIAL - HIPERPLASIA BENIGNE DE PRÓSTATA. Fecha: JJJ\nacient que puja de PUR2.\nHDE, afebril. CiO. Alerta i col·laborador.\nEu\npneic en basal, manté saturacions.\nRealitzem ECG, valorat per MG. 2es t\nropos.\nPte valoració per CAR i possible alta. Fecha: JJJ\naciente C y O. HDM estable. Afebril. Eupneico basal. Se realiza curva\nde troponinas y se repite EKG tras inicio de dolor torácico.\nSe inicia\nBC de nitroglicerina y se para sobre las JJJ.",
+  "text_length": 1024,
+  "anonymized_count": 6,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

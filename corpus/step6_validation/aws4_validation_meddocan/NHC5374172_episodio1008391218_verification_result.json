@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5374172_episodio1008391218",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente que acude a UCIAS de JJJ por HTA y perdida de visión ojo Iz\nq. HTA y afebril. Mantiene SatO2 97% en aire ambiente.\nInstauro via ev\ny salinizo, Se cursa análisis de sangre.\nRealizo ECG y ritmo sinusal, m\nonitorizo al paciente.\nRealiza micciones en cuña++\nQueda en observació\nn. Fecha: JJJ\nacient C i O. Intranquil·la.\nEs manté amb la HTA, iniciem perfussió ura\npidil. Díficil maneig HTA. Resta HDME i afebril.\nCanalitzo nova VP. Manté diüresis en cunya.\nEs trasllada a JJJ per ingrés a la unit\nat d&apos;ictus. Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\nJJJ/ JJJ/JJJ\nJJJ/ JJJ/JJJ\n¿La persona de contact\no corresponde con el cuidador?: No tiene cuidador\nProcedencia del pacie\nnte antes del ingreso hospitalario: Otro hospital\nMotivo ingreso y proc\nedencia interna:\nAlteración visual + cefalea\n¿Sufre alguna enfermedad\ncrónica?: No\nDéficit de autocuidado: Independiente\nAlergias: Sí\nEspec\nificar alergias:\nAINES\nEstado de la consciencia: Alerta\nModalidad acc\neso vía aérea: Natural\nValor Frecuencia cardíaca: 75 lpm\nMicción espon\ntánea: Sí\nRitmo deposicional:\nEstreñida\nFecha última deposición: JJJ\n¿Alteración de la integridad de piel y mucosas al ingresar?: No Coloración de la piel: Normocoloreada\nCaracterísticas de la piel: Frág\nil\nPuntuación escala Braden: 16-Riesgo bajo\nTemperatura axilar: 36.1 º\nC\n¿Tiene dolor al ingreso?: No\nPuntuación escala EVN: 0-No hay dolor Puntuación escala Downton: 3-Riesgo alto Fecha: JJJ\nacient que ingressa provinent de la JJJ per encefalopatia hipertensiva\n. Visió borrosa a hemicamp esquerre. NIHSS 0.\nEupneica en basal.\nHDM h\nipertensa, portadora de BPC a 10 ml/h (tensions sistòliques entre 140-15\n0 mmHg des que ha arribat, a 170 mmHg a les 21:30h). Afebril, no referei\nx àlgies.\nFAMIS per ordre mèdica. Normoglicèmica. Diüresi en cunya, n\no realitza deposició. Repòs en llit ben tolerat. -Pdt control tensio\nnal i anar reduïnt BPC urapidilo",
+  "text_length": 2086,
+  "anonymized_count": 14,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

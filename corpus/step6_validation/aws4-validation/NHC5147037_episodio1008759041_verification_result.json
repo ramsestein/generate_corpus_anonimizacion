@@ -1,0 +1,206 @@
+{
+  "document_id": "NHC5147037_episodio1008759041",
+  "success": true,
+  "anonymized_text": "JJJ\naciente trasladado x SEM (básica) desde DMC activado código ictus tras p\nresentar focalidad neurológica.\nA su llegada a box hdm estable, C. y O\nSdme hemimotor izqdo\nSe canalizan 2 CVP en ambas EESS, se cursa analíti\nca de ucias y se realiza TAC. JJJ\nte de ingreso I064 x la tarde. JJJ\naloración Críticos\nValoración enfermo crítico Responsable identifica\nción positiva del paciente: Paciente\n¿En el momento del ingreso el paci\nente lleva pulsera identificativa?: Sí\nDatos persona contacto (nombre,\nteléfono y parentesco):\nSra. JJJ, JJJ,\nJJJ\nSra JJJ, JJJ\nJJJ\n¿La persona de contacto corresponde con el cuidador?: No tiene cuidador\n¿Vive solo?: No\nProcedencia del p\naciente antes del ingreso hospitalario: Domicilio\nMotivo ingreso y proc\nedencia interna:\nIngresa para estudio y control evolutivo de un hemimot\nor izquierdo, lo orientan como un avc isq acmd Pendiente de que le trai\ngan las gafas Fumador de un paq y medio de ducados diario\nBebedor de 1\ncopa de vino con la comida, 2-3 cervezas al día, 1 carajillo día Herida eii en relación a problemas vasculares periféricos. Actualmente se la c\nuran dos veces a la semana(lunes-jueves), se la limpian primero con sf,\nposteriormente con agua y jabón y vuelven a enjuagar con sf, aplicación\nde microdacil, le dejan un apósito de aquacel plata, pendiente de confir\nmarlo mirando HC3, pendiente de curarle Sensación de cansancio y ahogo\ncuando camina por las cuestas de su barrio ¿Sufre alguna enfermedad c\nrónica?: Otras enfermedades crónicas, Dislipemia\nEspecificar otras enfe\nrmedades crónicas:\n3-Arteriopatía periférica dx JJJ eii-isquemia grave extremidades inferiores-bypass femoropoplíteo-antiagregado con aas\n4-A\nlteración glicemia basal JJJ, glicada normal\n5-Fumador, estaba pendient\ne de iniciar tto para deshabituarse Déficit de autocuidado: Movilizaci\nón, Independiente\nAlergias: No\n¿Fuma actualmente?: Sí\n¿Usted bebe de\nforma habitual?: Sí\n¿Tiene problemas de visión?: Sí\nDispositivos ocula\nres: Gafas\n¿Lleva puesto el dispositivo ocular?: No\n¿Quién tiene la cu\nstodia del dispositivo ocular?: Familia/Tutor\n¿Tiene problemas de sensi\nbilidad/tacto?: Sí\nEspecificar problemas sensibilidad/tacto:\nparte inf\nerior de la eii x vasculopatía eiq\nEstado de la consciencia: Alerta\nOr\nientación: Sí\nDiámetro de la pupila derecha: 3 mm (normal)\nDiámetro de la pupila izquierda: 3 mm (normal)\nPuntuación escala Glasgow: 15-Leve Modalidad acceso vía aérea: Natural\nTipo de respiración: Eupneico\nVal\nor frecuencia respiratoria: 19 resp/min\nValor Presión Arterial sistólic\na: 131 mm Hg\nValor Presión Arterial diastólica: 74 mm Hg\nExtremidad de referencia: Derecho\nValor Frecuencia cardíaca: 62 lpm\nMicción espontá\nnea: Sí\nRitmo deposicional:\ncasi diario\nFecha última deposición: JJJ\nPuntuación escala Barthel preingreso: 80-Dependencia leve\nDispo\nsitivos de ayuda en la movilización: Bastones ingleses\n¿Alteración de l\na integridad de piel y mucosas al ingresar?: Sí\nEdemas: Sí\nEspecificar otras localizaciones:\nParpebral izquierdo\nHeridas: Sí\nColoración de\nla piel: Normocoloreada\nCaracterísticas de la piel: Seca, Frágil\nPuntu\nación escala Braden: 15-Riesgo moderado\nTemperatura axilar: 36.6 ºC\n¿T\niene dolor al ingreso?: No\nPuntuación escala EVN: 0-No hay dolor\nPuntu\nación escala Downton: 6-Riesgo alto JJJ\ne le observan pequeñas rozaduras y zonas eritematosas con leve iniicio d\ne aparición de hematomas superficiales, se los dejo remarcados en hombro izquierdo, escápula izquierda, zona dorsal izquierda, trocanter izquier\ndo. Hematoma periorbitario del ojo izquierdo y pequeña presencia de e\ndema + pequeña rozadura alargada en el lateral, no puntos Pendiente d\ne darle tto de las 21h\nFamis con stpia\nReposo\nRescate de hipotensores por encima de 160",
+  "text_length": 3704,
+  "anonymized_count": 13,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9955019354820251,
+        "word": " Familia",
+        "start": 2056,
+        "end": 2063,
+        "chunk_id": 1,
+        "model": "MEDDOCAN",
+        "actual_text": "Familia",
+        "is_j_only": false
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "j_only_count": 0,
+      "non_j_count": 1,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " Familia",
+          "actual_text": "Familia",
+          "confidence": 0.9955019354820251,
+          "start": 2056,
+          "end": 2063,
+          "model": "MEDDOCAN",
+          "is_j_only": false
+        }
+      ],
+      "anon_token_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " Familia",
+          "actual_text": "Familia",
+          "confidence": 0.9955019354820251,
+          "start": 2056,
+          "end": 2063,
+          "model": "MEDDOCAN",
+          "is_j_only": false
+        }
+      ],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.9996911287307739,
+        "word": " I",
+        "start": 268,
+        "end": 269,
+        "chunk_id": 0,
+        "model": "CARMEN",
+        "actual_text": "I",
+        "is_j_only": false
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "j_only_count": 0,
+      "non_j_count": 1,
+      "entities_by_label": {
+        "NUMERO_IDENTIF": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " I",
+          "actual_text": "I",
+          "confidence": 0.9996911287307739,
+          "start": 268,
+          "end": 269,
+          "model": "CARMEN",
+          "is_j_only": false
+        }
+      ],
+      "anon_token_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " I",
+          "actual_text": "I",
+          "confidence": 0.9996911287307739,
+          "start": 268,
+          "end": 269,
+          "model": "CARMEN",
+          "is_j_only": false
+        }
+      ],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 2,
+    "j_only_count": 0,
+    "non_j_count": 2,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1,
+      "NUMERO_IDENTIF": 1
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " Familia",
+        "actual_text": "Familia",
+        "confidence": 0.9955019354820251,
+        "start": 2056,
+        "end": 2063,
+        "model": "MEDDOCAN",
+        "is_j_only": false
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " I",
+        "actual_text": "I",
+        "confidence": 0.9996911287307739,
+        "start": 268,
+        "end": 269,
+        "model": "CARMEN",
+        "is_j_only": false
+      }
+    ],
+    "anon_token_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " Familia",
+        "actual_text": "Familia",
+        "confidence": 0.9955019354820251,
+        "start": 2056,
+        "end": 2063,
+        "model": "MEDDOCAN",
+        "is_j_only": false
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " I",
+        "actual_text": "I",
+        "confidence": 0.9996911287307739,
+        "start": 268,
+        "end": 269,
+        "model": "CARMEN",
+        "is_j_only": false
+      }
+    ],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 2,
+    "suspicious_detections": 2,
+    "anon_token_detections": 0,
+    "other_detections": 2
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "text": " Familia",
+        "confidence": 0.9955019354820251,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "text": " I",
+        "confidence": 0.9996911287307739,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 2
+  }
+}

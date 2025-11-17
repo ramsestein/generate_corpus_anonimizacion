@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5392407_episodio1008756256",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente consciente y orientada que acude por opresión torácica al esfuer\nzo esta mañana. HMD estable y afebril a su llegada.\nSe realiza analít\nica de ucies y ECG.\nSe cursa curva de tropos.\nSe comienza perfusión de NTG a 5ml/h. Pdte KT. Fecha: JJJ\nT PUR3 Pacient retorna d&apos;hemodinàmia amb BIC NTG STOP. Es realitza ECG control. Es cursen troponines segon indicació mèdica. Pel que comenta p\nacient a les JJJ lleu DT amb EVA 1-2/10, es comenta amb CAR i es torna a iniciar BIC de NTG a 5ml/h. Valorada per CAR, comenten dolor més tipus\nmecànic, indiquen disminuir perfusió NTG fins a STOP i adm de paracetamo\nl ev, amb bona resposta. Es reforça compressiu per presència d&apos;hematoma. A les JJJ es retira compressiu de radial dret, s&apos;observa hematoma, t\nou i depresible. No sagnat. A les JJJ es cursen tropos. S&apos;inicia diet\na líquida, anar augmentant segons tolerància. Es manté monitoritzada. Pt\ne @control JJJ a les JJJ.",
+  "text_length": 948,
+  "anonymized_count": 7,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

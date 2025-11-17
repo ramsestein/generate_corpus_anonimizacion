@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5138785_episodio1008635520",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nngresa a UCOI gestante de JJJ por metrorragia. HDME y afebril. No re\nfiere algias, no DU, no PH, no PLA. Queda ingresada por observación.\nSo\nbre las JJJ ingresa procedente de UCIAS en FAMIS POM y posible revalorac\nión de las PH. A las JJJ sale y me pregunta si puede beber agua y le com\nento que no ya que está en FAMIS. Pregunta por los médicos ya que lleva\nmuchas horas esperando y le comento que están en una cesárea urgente y c\nuando puedan la atenderán. En respuesta a mi atención la paciente se pr\nesenta disconforme mostrándose agresiva, dando un portazo y hablándome i\nrónicamente &quot;que maja eres&quot;.\nPosteriormente, les explico situación a MG y me comentan que si no tiene PH puede comer, por lo que inicia y toler\na dieta.\nA las JJJ sale del WC y se me encara agresivamente faltándome\nel respeto y insultándome. Me ataca diciendo &quot;racista&quot; y en recurrentes\nocasiones &quot;zorra&quot; y me amenaza con agredirme físicamente dentro y fuera\ndel hospital y ponerme una reclamación. Me mantengo al margen, llamo a supervisión, comento la situación y habla con la paciente. Por orden\nde supervisión no entro a la habitación. Pte. subir a planta de hosp\nitalización cuando haya disponibilidad de camas. Fecha: JJJ\netrorragia por placenta previa marginal de predominio posterior que alca\nnza OCI. Durante la tarde ha estado en famis por el cuadro de sangrad\no y la edad gestacional. Dado que el sangrado ha cedido, se ha suspe\nndido el famis a las JJJ. Enfermería nos explica el conflicto con la pac\niente. Hablamos con ella sin mostrar malestar al estamento médico. Fecha: JJJ\nJJJ. Metrorragia en contexto de PPOT +0. Lcx 40 mm. Cefálica, PFE 2338g (p25). RS cursada JJJ. BEG. TA 107/62, FC 94, T 36.4ºC. No ref\niere dinámica uterina, metrorragia ni otra sintomatología des del ingres\no. MFA. PLAN:\n- Subir a planta de hospitalización mañana si disponib\nilidad de camas (no ha subido hoy por no disponibilidad).\n- Avisar a MG si metrorragia, dinámica uterina u otra sintomatología de alarma.",
+  "text_length": 2023,
+  "anonymized_count": 10,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

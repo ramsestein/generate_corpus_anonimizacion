@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5186651_episodio1008272649",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente que acude a urgencias por sensacion de PLA a las JJJ. Fecha: JJJ\nngresa paciente de JJJ (Ex BCBA) con RPM a las JJJ (Feto en podálica). R\nefiere DU subclinica, PLA, sin PH. Realizamos NST valorado por MG. Se re\naliza Amniocentesis. CE admin JJJ a las JJJ (1ª dosis). Iniciamos ATB\n. Fecha: JJJ\naloración obstétrica Responsable identificación positiva del paciente\n: Paciente\n¿En el momento del ingreso el paciente lleva pulsera identif\nicativa?: Sí\nComprobación identificación madre-recién nacido: No proced\ne\nProcedencia del paciente antes del ingreso hospitalario: Domicilio\nM\notivo ingreso y procedencia interna:\nRPM\nAlergias: No\nReacciones tran\nsfusionales previas: No\nValor Presión Arterial sistólica: 111 mm Hg\nVa\nlor Presión Arterial diastólica: 69 mm Hg\nValor frecuencia cardíaca: 98 lpm\nTemperatura axilar: 35.3 ºC\nTipo de paciente: Gestante\nDinámica\nuterina: Ausencia\nHidrorrea (pérdida líquido amniótico): Presencia\nRPM (Dia): JJJ\nRPM (Hora): JJJ\nMetrorragia: No\nPuntuación escal\na EVN: 0 Fecha: JJJ\naciente HDM estable, afebril. No refiere algias. No DU, PLA clara escasa\n, no PH. Reposo relativo. ATB según pauta. Pte 2a dosis Celestone JJJ a\nlas JJJ. Sube a planta. Fecha: JJJ\nraslado de ucoi gestante de JJJ ex-gemelar por RPM para continuar tratam\niento antibiotico. PLA claro escaso. No DU no perdida hematica vaginal. Fecha: JJJ\nesultats amniocentesis: Glu 31, Gram sense gèrmens. Resta en curs.\nEs s\nol·licita analítica de control per demà. Pendent valorar necessitat de f\nerroterapia endovenosa segons evolució. Sol·litico cursar RS. Fecha: JJJ\neserva de sangre en curso.",
+  "text_length": 1610,
+  "anonymized_count": 17,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

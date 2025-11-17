@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4483339_episodio1008287396",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nPaciente procedente de hospital JJJ por dolor torácico. Niega AMC. AP: Hipercolesterolemia, HTA, Neo colon,HBP Se realiza cambio de ropa por camisón.\nPortador de pulsera identif. y objetos personales identif. debajo de la\ncamilla.\nA su llegada, consciente y orientado. Hemodinámicamente estable, tendencia a la hipotensión. Eupneico, saturaciones correctas en basal. Refiere dolor EVA 0/10 ahora mismo.\nTras valoración médica, se realiza analítica control de troponinas. Se realiza ECG Fecha: JJJ\nRebem interconsulta hospitalària per valorar la possibilitat de dessensibilització a AAS n pacient ingressat per infart de miocardi. Pacient de JJJ que refereix un únic episodi d'edema palpebral i llavial fa JJJ en relació amb Aspirina. Des de llavors evita i només ha tolerat paracetamol, no recorda haver pres cap altre AINE. Refereix episodi similar 2-3 x en relació amb la ingesta de gambes i que posteriorment ha tornat a tolerar després d'un temps evitant-les. ANTECEDENTS PERSONALS HTA DISLIPÈMIA od 1 episodi d'angioedema amb AAS Comentat amb cardiologia i donada la necessitat d'administració AAS a 300 mg per al cateterisme urgent avui es proposa dessensibilització prèvia i el pacient accepta i signa consentiment informat. Fecha: JJJ\nPaciente pte de cateterismo. Paciente refiere posible intolerancia a AAS. IC con alergias. Empezamos dosi cada 30min de AAS. Empiezo a las JJJ Fecha: JJJ\nReviso HCCC i sembla que sí ha pres ibuprofè alguna vegada, reinterrogo i confirma que si l'ha tolerat. Fecha: JJJ\nDespués de completar la dosis de carga de AAS (escalonadamente c/30'.) hasta llegar a 300mg. Se avisa a cardio. Fecha: JJJ\nPaciente retorna del cateterismo sin posibilidad de realizar procedimiento. A la espera de IQ para realizar bypass. vuelve de cateterismo a las JJJ vendaje compresivo retirada a las JJJ. Inicio de BPC heparina sódica (SIN BOLUS) a las JJJ según pauta y controloes segun pauta. analítica control JJJ. Fecha: JJJ\nJJJ Se retira vendaje compresivo.\nJJJ Se inicia perfusión de heparina según protocolo de cardio, 17 ml/h. Peso 70 Kg\ncontrol APPT JJJ.",
+  "text_length": 2091,
+  "anonymized_count": 18,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

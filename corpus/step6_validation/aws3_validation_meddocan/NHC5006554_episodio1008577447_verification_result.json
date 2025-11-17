@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5006554_episodio1008577447",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nATUR-TT: Pacient portat per SEM (SVB) Trobat a domicili amb hemiplegia dreta, mutista, desviació comissura labial. S&apos;activa Codi Ictus.\nEs cu\nrsa analitica amb hemograma, bioquimica, coagulació. El pacient acut a SCA. Pacient Independient en el seu dia a dia que deixa de respondre\nal telèfon ahir. Ap: ACXFA eliquis, HTA, Neo recte, Bloq AV, Miocardio\npatia dilatada.\nRoba identificada sota llitera. Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\nJJJ (JJJ):JJJ\n¿La persona de contacto corresponde con el cu\nidador?: No tiene cuidador\n¿Vive solo?: Sí\nProcedencia del paciente an\ntes del ingreso hospitalario: Otros\nEspecificar procedencia:\nBox de pa\nros\nMotivo ingreso y procedencia interna:\nIctus isquémico ACMI\n¿Sufre alguna enfermedad crónica?: Otras enfermedades crónicas, Hipertensión,\nInsuficiencia cardíaca\nEspecificar otras enfermedades crónicas:\nneo de recto\nDéficit de autocuidado: Independiente\nAlergias: No\n¿Fuma actua\nlmente?: No\nExfumador: Sí\n¿Usted bebe de forma habitual?: Sí\n¿Tiene p\nroblemas de visión?: Sí\nEstado de la consciencia: Responde a la voz\nOr\nientación: No\nDesorientado en:: Persona, Espacio, Tiempo\nModalidad acc\neso vía aérea: Natural\nTipo de respiración: Eupneico\nValor frecuencia\nrespiratoria: 16 resp/min\nSaturación O2: 96 %\nValor Presión Arterial s\nistólica: 108 mm Hg\nValor Presión Arterial diastólica: 55 mm Hg\nValor\nFrecuencia cardíaca: 70 lpm\nMicción espontánea: Sí\nGlucosa plasmática: 110 mg/dL\nRitmo deposicional:\n1 depo cada 2 dias\n¿Alteración de la i\nntegridad de piel y mucosas al ingresar?: No\nColoración de la piel: Nor\nmocoloreada\nCaracterísticas de la piel: Frágil\nPuntuación escala Brade\nn: 22-Sin riesgo\nTemperatura axilar: 36.5 ºC\n¿Tiene dolor al ingreso?: No\nPuntuación escala EVN: 0\nPuntuación escala ESCID: DOLOR_ESCID_01 Puntuación escala Downton: 3-Riesgo alto Fecha: JJJ\naciente que ingresa de box de baros.\nA su llegada con tendencia a la so\nmnolencia, opertura ocular al estímulo verbal, emite sonidos incomprensi\nbles, dificultad para realizar escala NIHSS, moviliza las extremidades p\nero contactan en menos de 5 segundos brazo y pierna D, tendencia mirada\nD.\nHDM estable. Afebril. No fascie de dolor.\nRealizo ECG de ingreso. Permanece en FAMIS con STP.\nPDTE realizar test disfagia.\nMal pronóstic\no. Fecha: JJJ\namilia informada del horario de visitas.",
+  "text_length": 2509,
+  "anonymized_count": 7,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

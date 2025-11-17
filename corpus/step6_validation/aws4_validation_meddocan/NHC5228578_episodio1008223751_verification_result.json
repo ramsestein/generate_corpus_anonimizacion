@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5228578_episodio1008223751",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nNOTA NEFROLOGÍA* JJJ de JJJ con AP de TRDC con injerto disfunci\nonante secundario a RCA + MAT postrasplante, actualmente en HD (LXV), re\ninfección por VHB (seguimiento por HEP). Consta ingreso reciente por EAP e infección respiratoria junto con infección CMV y gripe A. Acude a URG\n, por MEG junto con tos con expectoración hemoptoica de JJJ evolución, n\no diarreas, sensación distérmica en casa. A su llegada a UCIAS, HTA, feb\nrícula 37,6ºC, disneico en basal con necesidad de VMK-31%. A mi valo\nración, disneico al habla sin oxigenoterapia, SaO2 correcta con FiO2 26%\n, ACP con hipofonesis global con discretos roncus. - Rx tórax con in\nfiltrado intersticial bilateral (similar a Rx previa). - AS con discre\nta elevación de RFA con PCR 5,7 sin leucocitosis, Na 128, K 3,4, Hb8,1 y Hto 26%. OD/ 1. Insuficiencia respiratoria hipoxémica secundaria a EAP exacerbada por (2)\n2. Infección respiratoria probable vía alta +/- transgresión HD PLAN:\n- Se programa sesión de HD en sala antígenos\n(reinfección VHB)\n- Solicitamos antigenurias , CMV sérico y Rx tórax po\nstHD para valorar evolución de infiltrados. - Valorar según evolución, ingreso. Creo que independientemente del destino, sería conveniente rea\nlizar TC tóracico para valorar evolución de adenopatías (TC JJJ) +/- f\nibrobroncoscopia. Fecha: JJJ\nC: Pacient que es portat a urgències per malestar general, dispnea i tos productiva amb restes hemàtics i que s&apos;acompanya de DT sobretot en la e\nspectoració i HTA. AP: Malaltia renal crònica en HD, HTA, Sd Depressi\nu, DM2, HTA **AILLAMENT per OXA48** OD: EAP amb insuficiència res\npiratòria hipoxèmica + IRA + Infecció respiratòria Durant la tarda\na PUR3, pacient C i O. Inquiet i queixòs, per malestar. Nega DT. HTA, eupneic amb VMK al 26% i afebril. Autonom Portador de VP20G en ESD\n, permeable i salinitzada. No realitza diuresis. PLAN: - I UT\nR - Es trasllada a HD - Pt AS de control post HD + UC + Sediment +\nAntigenuria - Pt Esput Fecha: JJJ\nNGRESO NEFROLOGIA Paciente con TRDC en JJJ con pérdida actual d\nel injerto renal en contexto de RCA y MAT (posible SHUa) tratado con ecu\nlizumab, con reinicio de HD en JJJ. Recibió en la inducció\nn timoglobulina, y en dos ocasiones pulsos de metilprednisolona durante\nel evolutivo. Otros AP relevantes: diabetes mellitus, hipertensión arter\nial, infección por VHB. Reciente ingreso en NEF por infección respirator\nia por Gripe A y replicación de CMV. Acude a urgencias por aumento de expectoración con esputos hemoptoicos, disnea, y fiebre de JJJ de\nevolución aproximadamente. Ha omitido la sesión de hoy de diálisis.\nA n\nuestra valoración, requerimientos de VMK 31%, ACP con hipofonesis global con discretos roncus. Sin edemas. - Rx tórax con infiltrado intersti\ncial bilateral (similar a Rx previa). - AS con discreta elevación de R\nFA con PCR 5,7 sin leucocitosis, Na 128, K 3,4, Hb 8,1 y Hto 26%. Procal\ncitonina negativa. Se realiza una sesión de hemodiàlisis con UF 2.5L\nsin poder retirarse oxigenoterapia. JC/ Insuficiencia respiratoria hi\npoxémia mixta: EAP y probable infección respiratoria. Se trata de un pac\niente con elevada carga IS (timoglobulina, bolus MTP, eculizumab), por l\no que en caso de ausencia de aislamientos y dado el cuadro actual (hemop\ntisis, infiltrados pulmonares, hipoxemia) probablemente amerite realizac\nión de TC torácico y FBS. PLAN:\n- Solicitamos antigenurias, cultivo\nesputo, hemocultivos, AGA, b-glucano, CMV sérico.\n- RxTx control poster\nior a sesión de hemodiàlisis.\n- Ingreso a cargo de NEF.",
+  "text_length": 3501,
+  "anonymized_count": 10,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

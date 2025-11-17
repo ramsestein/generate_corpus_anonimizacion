@@ -1,0 +1,136 @@
+{
+  "document_id": "NHC5171148_episodio1008564500",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\notiu ingrès: Punció fol·licular Talla: 1.62 m Pes: 72 kg Al·lè\nrgies conegudes: platanero Malalties cròniques: No Medicació que p\nren habitualment: No Hora i dia administració HCG: 21h del JJJ Polsera identificativa: mà dreta CHECKLIST QUIRÚRGIC Verificac\nió preoperatoria: Confirmació pacient correcte i polsera identificati\nva: OK\nConsentiment anestèsia correcte: OK\nAl•lèrgies conegudes? NO\nO\nbjecció a la transfusió de sang: NO INFORMACIÓ QUIRÒFAN Hora d&apos;e\nntrada: 9:07h Hora de sortida: 9:24h Tipus d&apos;anestèsia:Sedació Medicació intrapunció: Paracetamol TA: 125/79 FC: 81 Sat.O2:100 INFORMACIÓ REA 1 TA: 105/75 FC: 68 Sat.O2:100 Medicació analgèsi\nca: No EVA: 5-3-1/10 INFORMACIÓ REA 2 Medicació analgèsica: No Hora ingesta de líquids: 10:38h Fecha: JJJ\nEs realitza PF sota sedacio sense incidències. Es fan rentats sistemàtics en cada fol. Es recupera 1 oòcit Fecha: JJJ\nefiere mareo y nauseas durante la administración del tramadol. TA: 118/7\n8mmHg. Fc:79x&apos;.\nSe la posiciona en trendelenburg y mejora simptomatolog\nia. Hablo con ginecóloga (Dr. JJJ) y por orden verbal refiere admini\nstrar ondansetron EV. Fecha: JJJ\nurso anterior error en el nombre de la ginecóloga (Dr. JJJ) Fecha: JJJ\naloración obstétrica Responsable identificación positiva del paciente\n: Paciente\n¿En el momento del ingreso el paciente lleva pulsera identif\nicativa?: Sí\nComprobación identificación madre-recién nacido: No proced\ne\nProcedencia del paciente antes del ingreso hospitalario: Domicilio\nM\notivo ingreso y procedencia interna:\nHemoperitoneo\nAlergias: No\nValor Presión Arterial sistólica: 120 mm Hg\nValor Presión Arterial diastólic\na: 72 mm Hg\nValor frecuencia cardíaca: 72 lpm\nTemperatura axilar: 36.3 ºC\nTipo de paciente: Gestante\nPuntuación escala EVN: 1",
+  "text_length": 1772,
+  "anonymized_count": 8,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9794264435768127,
+        "word": " 9",
+        "start": 485,
+        "end": 486,
+        "chunk_id": 0,
+        "model": "MEDDOCAN",
+        "actual_text": "9",
+        "is_j_only": false
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "j_only_count": 0,
+      "non_j_count": 1,
+      "entities_by_label": {
+        "FECHAS": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FECHAS",
+          "word": " 9",
+          "actual_text": "9",
+          "confidence": 0.9794264435768127,
+          "start": 485,
+          "end": 486,
+          "model": "MEDDOCAN",
+          "is_j_only": false
+        }
+      ],
+      "anon_token_detections": [],
+      "other_detections": [
+        {
+          "label": "FECHAS",
+          "word": " 9",
+          "actual_text": "9",
+          "confidence": 0.9794264435768127,
+          "start": 485,
+          "end": 486,
+          "model": "MEDDOCAN",
+          "is_j_only": false
+        }
+      ],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "j_only_count": 0,
+    "non_j_count": 1,
+    "entities_by_label": {
+      "FECHAS": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FECHAS",
+        "word": " 9",
+        "actual_text": "9",
+        "confidence": 0.9794264435768127,
+        "start": 485,
+        "end": 486,
+        "model": "MEDDOCAN",
+        "is_j_only": false
+      }
+    ],
+    "anon_token_detections": [],
+    "other_detections": [
+      {
+        "label": "FECHAS",
+        "word": " 9",
+        "actual_text": "9",
+        "confidence": 0.9794264435768127,
+        "start": 485,
+        "end": 486,
+        "model": "MEDDOCAN",
+        "is_j_only": false
+      }
+    ],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "anon_token_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

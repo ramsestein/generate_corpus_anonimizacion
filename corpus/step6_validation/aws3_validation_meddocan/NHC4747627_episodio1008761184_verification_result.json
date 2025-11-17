@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4747627_episodio1008761184",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nacient C i O, HDM estable, febricular de 39ºC, eupnèica. Consulta per hT\nA, febre i DA + nàuseas. AP: Quiste en colèdoco. Canalitzo VIP18 . Curso @ i HC. Roba i objectes personals identificats sota la camilla. Pen\ndent de resultats. Fecha: JJJ\naciente hTA, FC correctas, eupneica y febril 38'2ºC que mejora con anti\npiréticos.\nCurso A/S de central. Se administra 1L de SF sin mejoría. Se realiza ECO abdominal. Se realiza POC venoso de control sobre las\n20h\nSe canaliza nuevo CVP18 en ESE y se inicia ATB + 500ml de Ringer Fecha: JJJ\naciente con los antecedentes anteriormente descritos que consulta por do\nlor abdominal inicialmente difuso y que postingesta alimentaria se convi\nerte en epigástrico en cinturón con fiebre y escalofrios + vómitos. Mues\ntra la EF do.or a palpación de epigastrio y hipocondrio derecho sin peri\ntonismo. Bien perfundida pero hipotensa (lactatos en rango) pero ha reci\nbido ya 1500 cc de cristaloides. Ecocardiograma con FEVI preservada. Vti entre 20/23. Incide de colpasabilidad VCI por área en epigastrio < 50%\nsobre un diámetro de V CI de 1,8 cm Ante sospecha de colangitis aguda\nse inicia Tazocel y NA dosis baja para mantener PAM> 65 mmHg. Se comenta con HBP para ingreso.",
+  "text_length": 1218,
+  "anonymized_count": 3,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

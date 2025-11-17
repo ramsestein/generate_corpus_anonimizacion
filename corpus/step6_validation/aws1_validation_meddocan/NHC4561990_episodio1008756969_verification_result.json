@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4561990_episodio1008756969",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nisita presencial. Trasplanterenal de donante cadáver de alto riesgo i\nnmunológico el passado JJJ.\nBuena evolución de la función rena\nl.\nTratamioento con fotoaféreis (protocolo INTI).\nRefiere buen estado\ngenral. Retirada de cateter JJ el JJJ.\nEn la analítica\ndestaca deterior marcado de la función renal (CrP 5,81) y a la exploraci\nón abdominal se palpa el injerto renal globuloso y duro. Mantiene diures\nis adecuada y mínimo edema en EID. No asuculto soplos sobre el injerto. Se acompaña de acidosis con hiperkaliemia. Está pendiente de niveles d\ne tacrolimus y everolimus. La paciente debe ingresar de forma urgente\npara diagnóstico y tratamiento de un posble rechazo agudo. Fecha: JJJ\nisita seguimiento enfermeria paciente 1er TxRDC JJJ JJJ, IABVD\nTA 150/70 FC 85 Peso 56 Kg\nEdema en eeii derecha y\nzona púbica. Desde el JJJ nota mayor molestia en la zona del injerto\n. Hoy analitica con aumento importante de creatinina. Su médico indica a\ncudir a urgencias para biopsia diagnóstica\nMedicación correcta\nAliment\nación saludable, no abusa de ningún alimento, asódica\nHerida Q correcta\n, cicatrizada Fecha: JJJ\nUARDIA URO Paciente de JJJ con antecedente de TRDC el JJJ\n. Se hizo reimplante tipo Lich-Gregoir con JJ por vejiga de pequeña capa\ncidad. Retirada de JJ el JJJ. Creatinina posterior de 1,7. Eco d\ne control el JJJ con: Presencia de tres colecciones perirrenales: - una superficaial en tercio superior de 4,5 x 2 cm.\n- una adyacente a\nl hlio renal de 3,7 x 3 cm.\n- una adyacente al polo inferior renal de 6 x 5,2 x 3,5 c\nSin dilatación. Control analítico del JJJ con cr\neatinina de 3,5 y de hoy JJJ de 5.81 con K de 6. NO fiebre, refiere diuresis mantenida. ECO urgente JJJ: Aumento de tamaño de las c\nolecciones descritas en ecografía previa.\nActualmente la colección adya\ncente al polo inferior mide unos 11 x 8,9 x 7,7 cm y ejerce efecto de ma\nsa sobre la vejiga y la vía urinaria condicionando severa hidronefrosis. Arteria y vena del injero permeables, siendo la vena de pequeño calibr\ne, también posiblemente en relación al efecto de masa de las colecciones\n.\nIR intraparenquimatosos elevados (0.86 - 0.85 - 0.88). Dada la ins\nuficiencia renal aguda con hiperpotasemia y dilatación severa de la vía\nurinaria se decide derivación urinaria urgente mediante SNF. Explicamos\nriesgos y beneficios, firma CI. Fecha: JJJ\nisita presencial.\nRefiere encontrarse bien",
+  "text_length": 2382,
+  "anonymized_count": 16,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5274097_episodio1008352753",
+  "success": true,
+  "anonymized_text": "JJJ\naciente es traído por el SEM tras activación de código ICTUS.\nA su lle\ngada Alerta, leve disartria, debilidad en EID, Normotenso y afebril.\nSe colocan 2 CVP se realiza analítica y se traslada al SCA.\nPdte de resul\ntados. JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\nJJJ\nJJJ\nJJJ\nDomicilio\nJJJ ¿La persona de conta\ncto corresponde con el cuidador?: No tiene cuidador\n¿Vive solo?: No\nPr\nocedencia del paciente antes del ingreso hospitalario: Domicilio\nMotivo ingreso y procedencia interna:\nIctus isquémico PICA-D\n¿Sufre alguna e\nnfermedad crónica?: Hipertensión, Otras enfermedades crónicas, Dislipemi\na\nEspecificar otras enfermedades crónicas:\nEstenosis aórtica severa co\nn Implante de Válvula aórtica transcatéter (TAVI), IRC, Poliartrosis, HB\nP\nDéficit de autocuidado: Independiente\nAlergias: No\nEstado de la con\nsciencia: Alerta\nModalidad acceso vía aérea: Natural\nValor Frecuencia\ncardíaca: 82 lpm\nMicción espontánea: Sí\nRitmo deposicional:\nDiario\nF\necha última deposición: JJJ\n¿Alteración de la integridad de piel y mucosas al ingresar?: No\nColoración de la piel: Normocoloreada\nPunt\nuación escala Braden: 16-Riesgo bajo\nTemperatura axilar: 35.4 ºC\n¿Tien\ne dolor al ingreso?: No\nPuntuación escala EVN: 0-No hay dolor\nPuntuaci\nón escala Downton: 1-Riesgo bajo JJJ\nscales Puntuación escala Barthel durante el ingreso: 65-Dependencia l\neve\nPuntuación escala Barthel preingreso: 100-Autónomo\nPuntuación esca\nla Braden: 16-Riesgo bajo JJJ\nscales Puntuación escala MECV-V: 60-No disfagia orofaríngea JJJ\naciente consciente y orientado\nNRL: NIHSS 2 (disartria y ataxia EID)\nH\nemodinámicamente: estable y afebril\nNo refiere dolor ni malestar\nRespi\nración: basal\nAlimentación: famis hasta mañana. Test MECV-V realizado Diuresis: continente\nDeposiciones: no\nMovilización: reposo Pte TAC\ncontrol a las JJJ",
+  "text_length": 1977,
+  "anonymized_count": 11,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

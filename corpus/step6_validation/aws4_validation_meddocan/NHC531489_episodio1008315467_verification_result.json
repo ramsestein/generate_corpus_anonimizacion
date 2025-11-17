@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC531489_episodio1008315467",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nngressa pacient procedent de Qx. HDM estable, afebril. Algies controlade\ns.\nAQ nets. Retiro SVP a les 21:30h. Pte de primera micció i movilitzac\nió. Fecha: JJJ\naloración obstétrica Responsable identificación positiva del paciente\n: Paciente\n¿En el momento del ingreso el paciente lleva pulsera identif\nicativa?: Sí\nComprobación identificación madre-recién nacido: No proced\ne\nProcedencia del paciente antes del ingreso hospitalario: Domicilio\nM\notivo ingreso y procedencia interna:\nLaparoscopia\nAlergias: Sí\nEspeci\nficar alergias:\nAmoxicilina y latex\nValor Presión Arterial sistólica:\n109 mm Hg\nValor Presión Arterial diastólica: 63 mm Hg\nValor frecuencia cardíaca: 84 lpm\nTemperatura axilar: 36.7 ºC\nTipo de paciente: Gestan\nte\nPuntuación escala EVN: 0 Fecha: JJJ\naparoscopia exploradora + 0. Hallazgos: Genitales internos macroscópicam\nente normales con imagen sugestiva de cuerpo lúteo en ovario izquierdo. Tras la LPS se realiza nueva ecografía transvaginal: útero en AVF, se evidencian dos imagenes intrauterinas anecoicas con halo hiperrefringen\nte que podrían corresponder a 2 sacos gestacionales pendiente de confirm\nar evolución. A nivel anexial izquierdo se visualiza ovario aumentado de tamaño a expensas de dos imagenes compatibles con cuerpos lúteos. Anejo derecho normal. Se informa a la paciente de los hallazgos y de la c\nonducta a seguir. Consensuamos manejo expectante con nueva valoración ec\nográfica en una semana para valorar evolutividad. Pautamos progester\nona 200mg/8h y diazepam si precisa. Fecha: JJJ\n:00h: Paciente tolera movilización y realiza primera micción.\nDescansa\na intervalos durante la noche, acompañada.\nConstantes estables. Afebril\n. Apósitos limpios. Iniciada dieta bien tolerada. Dolor controlado con analgesia de pauta. Fecha: JJJ\nPS exploradora +1. Hallazgos: Genitales internos macroscópicamente norma\nles con imagen sugestiva de cuerpo lúteo en ovario izquierdo. BEG. Co\nnstantes correctas y afebril. Dolor abdominal controlado con analgesi\na. Tolera ingesta y deambulación. No sangrado vaginal. Micciones espontá\nneas correctas. Apósitos quirúrgicos limpios y secos, que se retiran. Heridas quirúrgicas de buen aspecto. Abdomen blando y depresible, no do\nloroso a la palpación. No defensa peritoneal. Resultados:\n- ECO TV:\nútero en AVF, se evidencian dos imagenes intrauterinas anecoicas con hal\no hiperrefringente que podrían corresponder a 2 sacos gestacionales pend\niente de confirmar evolución. A nivel anexial izquierdo se visualiza ova\nrio aumentado de tamaño a expensas de dos imagenes compatibles con cuerp\nos lúteos. Anejo derecho normal. - A/S ingreso: Hb 12.4, Ht 37.7%, pla\nquetas 334.000. Coagulación correcta. PLAN:\n- Progesterona 200mg/8h\nvía vaginal.\n- Alta hoy con indicaciones.\n- Se consensua control ecogr\náfico en OBSPUR en 1 semana para valorar evolutividad. Fecha: JJJ\nonstantes estables y afebril. SatO2 100%. Dolor bien controlado, rechaza analgesia pautada. Tolera ingesta y deambulación. AQ que se retiran y s\ne observa HQ con buen aspecto, se dejan limpios y cura tópica con Clorhe\nxidina. Se administra Progesterona pautada. Se retira VP sin incidencias\n. Acompañada de la JJJ. Tras estabilidad clínica deciden alta a domic\nilio.",
+  "text_length": 3213,
+  "anonymized_count": 7,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

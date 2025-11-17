@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4811983_episodio1008628801",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente que acude por DT y hormigueo en manos.\nRefiere a su llegada, EV\nA 7/10. Realizamos analítica y ECG.\nAdm 2 puffs de nitro. Realizamos nu\nevo ECG y EVA 0/10 Fecha: JJJ\naciente que acude por DT y hormigueo en manos. Refiere a su llegada, E\nVA 7/10. Realizamos analítica y ECG. Adm 2 puffs de nitro. Realizamos\nnuevo ECG y EVA 0/10 Administramos 300mg adiro Fecha: JJJ\nealizo nueva analítica a las JJJ Fecha: JJJ\nUR3 TT:\nCyO. HDM estable, eupneico y correcta SatO2 en basal. Afebril.\nNo refiere algias. OD: IAMSEST Killip 1\nIntolerancia a Estatinas. A\nP: Linfoma cutáneo cuero cabelludo, DLP.\nPlan: - Tto farmacológico (y\na administrado en TM)\n- Pte KT (FAMIS sin STP)\nAcompañado durante la t\narde. Ingreso a cargo de CAR (JJJ); comentado.",
+  "text_length": 754,
+  "anonymized_count": 6,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

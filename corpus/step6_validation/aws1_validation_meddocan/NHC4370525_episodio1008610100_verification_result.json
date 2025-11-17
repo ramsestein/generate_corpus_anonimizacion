@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4370525_episodio1008610100",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nOTA DE HEMATOLOGÍA - INTHERUNIT La paciente nos contacta porque tiene cervicalgia importante lancinante que le impide deambulación, que mejor\na con el decúbito, de JJJ de evolución y con escasa respuesta a analgesi\na. No se ve capaz de venir a la analítica de control ni la visita de hoy\n. Hoy en sesión se había decidido ingreso preferente para realziar 1a parte de la terapia total. Indico acuda a UCIAs para control del dol\nor, analítica completa (JJJ tenía JJJ neutros y PCR muy elevada sin fo\nco y estaba con doble antibioterapia y LDH en aumento progresivo) e ingr\neso para enlazar con la quimio de rescate. Se ha explico a la pacient\ne telefónicamente la situación de mal pronóstico. Pendiente hablar con JJJ (JJJ). Fecha: JJJ\naciente consciente y orientada. HMD estable y afebril durante la mañan\na.\nSe realiza analítica de ucies. Dieta bien tolerada. Deambula al\nWC.\nAcompañada de JJJ. Fecha: JJJ\nct C i O. HDM estable, afebril i eupneica a l&apos;arribada\nTolerancia a la\ndiieta sense iuncidencies\nSe li adm pauta medica i se li fa un seguimen\nt sense incidencies.\nPDT ingrès amb HMT Fecha: JJJ\n. LDCGB E-IV con masa mamaria R/R 3L (R-CHOP, R-ICE, R-GemOx). Pendiente CART19 (aferizada). Ingresa por progresión para TT 1ª parte. MPDN 60 mg\n/d (iJJJ). 2. Control del dolor. Fentanilo 25 mcg/h Signos vitales estables, afebril.\nS: dolor cervical parcialmente controlado con analg\nesia; le molesta menos en decúbito. No otros síntomas. No focalidad NRL. EF: lesión mamaria D conocida. ACP y ABD OK, no edemas.\nAS: PCR JJJ a\nJJJ, Cr JJJ, LDH JJJ en aumento, L JJJ (N JJJ), Hb JJJ, Pq JJJ, Q JJJ\nP: hoy no tendrá cama en planta. Pte. solicitar RM cervical y PE\nT cuando esté en sala e iniciar TT 1ª parte. Fecha: JJJ\nacient C i O.\nHDM estable i afebril.\nEupneica, satO2 basals mantingude\ns.\nSense àlgies.\nDiuresis mantingudes en WC.\nIngesta oral ben tolerad\na.\nPortadora de PICC en ESD, permeable.\nPendent @ JJJ.\nIngrés a càrrec de HEM, pendent de llit. Fecha: JJJ\nyO. HMD estable.\nAlgias a la movilización.\nDeambula al WC.\nPICC perme\nable.\nA/S control JJJ.\nHoy al JJJ toca cambio parche fentanilo se\ngun me informa la paciente. Fecha: JJJ\nct C i O, HDM estable, afebril,\nRefereix dolor al llarg del torn i se l\ni administra pauta analgesica gradual, se li canvia el pegat de fentanil i se li coloca un de 25mcg\nBona dieta\nPDt ingrès amb HMT Fecha: JJJ\n. LDCGB E-IV con masa mamaria R/R 3L (R-CHOP, R-ICE, R-GemOx). Pendiente CART19 (aferizada). Ingresa por progresión para TT 1ª parte. MPDN 60 mg\n/d (iJJJ). 2. Control del dolor. Fentanilo 25 mcg/h Signos vitales estables, afebril.\nS: dolor cervical parcialmente controlado con analg\nesia, cambia con los movimientos\nEF: lesión mamaria D conocida y adp la\nterocervical izda de nueva aparición en los JJJ en aumento, res\nto sin cambios LAB: Cr JJJ, LDH JJJ en aumento, L JJJ (N JJJ),\nHb JJJ, Pq JJJ PLAN: -Traslado a JJJ --&gt; JJJ TT 1a parte --&gt; So\nlicitar PET-TC y RM cervical tras llegada a sala\n- Dejo dosis unica de\nrasburicasa para JJJ y posteriormente (JJJ), reiniciar alopurinol - Aumento analgesia pautada (rescates a 200mcg y fentanilo a 25, aun t\nenia puesto en realidad 19mcg, 1 y medio de fentanilo) Fecha: JJJ\nT HLS Paciente CyO, HD estable y afebril.\nDolor bien controlado. Pte de traslado a JJJ.",
+  "text_length": 3282,
+  "anonymized_count": 41,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

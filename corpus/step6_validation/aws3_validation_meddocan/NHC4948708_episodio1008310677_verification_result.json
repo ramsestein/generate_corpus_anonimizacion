@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4948708_episodio1008310677",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente JJJ de JJJ trasladada de residencia a ucias por dolor e impote\nncia funcional de extremidad inferior derecha tras caída accidental. A\nMC: AINEs. AP: HTA, CI, accidente cerebrovascular, asma, gota, artrosi\ns, osteoporosis. Se realiza cambio de ropa por camisón.\nPortadora d\ne pulsera identif. y objetos personales identif. debajo de la camilla. A su llegada al BOX, consciente y aparentemente orientada, dependiente. Hemodinámicamente estable, afebril. Eupneica, saturaciones correctas e\nn basal. Refiere dolor extremidad inferior derecha, EVN 5/10. Tras\nvaloración médica, se canaliza CVP 20G en antebrazo izquierdo y se cursa A/S (hemograma, bioquímica, coagulación).\nSe administra medicación pau\ntada con respuesta parcial. Se realiza Rx cadera y fémur derecho.\nSe\nrealiza ECG. Se coloca tracción cutánea.\nPendiente de ingreso a cargo de COT para tratamiento quirúrgico. Fecha: JJJ\ncte traida de 4COT. A su llegada Hipotensa, se le administra 500cc de\nCristaloides y no se consigue mejorar tensión, se llama a COT y se decid\ne bajar al paro para un control hemodinámico.\nCyO, independiente ABVD. Fecha: JJJ\nD: Fractura pertrocantérea fémur derecho + Subtrocantérea izq\nTraslado de Polivalente por hTA con escasa respuesta al volumen. A su llegada: Via aerea permabnle\nEupneica en basal, buena dinamica respiratoria y\nsat O2. Tendencia hTA, PAM 80, RS i afebril.\nGCS 15, PINR. No algias Palidez cutanea. Se coloca segunda VP y se cursa reserva. Hb de POC\nH 8,3.\nSe mantiene conducta expectante i STP por mejora espontranea TA. Fecha: JJJ\naciente JJJ de JJJ, con alergia a los AINES y antecedentes HTA, en\nfermedad de parkinson, cardiopatía istémica hace JJJ (no porta stent\ns), asma y osteoporosis. Ingresada por Fractura pertrocantérea fémur der\necho + Subtrocantérea izq. Nos comentan episodio de hipotensión 50/40 m\nmHg, sin deterioro de nivel de consciencia. Se observa caída de hb de 10 -> 8,3 g/dL. Plan:\n- Transfusión de 2 concentrados de hematíes\n-\nPOC control tras transfusión\n- AS control JJJ 8am Fecha: JJJ\nInformo a su JJJ por vía telefónica de situación actual. En caso de empeoramiento clínico. priorizaríamos medidas de confort, no procedimientos invasivos. Entiende y acepta, se firma LET Fecha: JJJ\nActivació LET Fecha: JJJ\naciente HDM estable\nPortadora de tracción cutánea ESD\nPendiente de tra\nnsfundir dos concentrados y nuevo control del POC, valorado por anestes\nia\nSube a OBS 6 pendiente de ingreso en COT Fecha: JJJ\nD estable.\nAlgias controladas.\nPortadora tracción cutánea D. Fecha: JJJ\naciente hmdte estable. Buenas tensiones. Normocoloreada. Cyo\nSe llama a traumatología para confirmar que no habrá IQ hoy.\nLe damos dieta A\npartir de las 00:00 de hoy famis Fecha: JJJ\nC:M JJJ trasladada de residencia por dolor e impotencia funcional de E\nID tras caida accidental. AP:alergia a los AINEs.\n1 - Hipertensión a\nrterial\n2 - Cardiopatía isquémica\n3 - Accidente cerebrovascular\n4 - A\nsma\n5 - Gota\n6 - Artrosis\n7 - Osteoporosis\nIQ: Fractura sub-trocante\nria femur esq.\nOsteoporosis, artrosis OD:FX femur D EF: c y o ,HM\nD estable,afebril,colaboradora,dependiente 20ESi/18ESD+ST+GN,traccion cu\ntanea. PLAN: INGRESO COT: preoperatorio realizado/FAMiS a las 00h D.c\nardioprotectora s/s /LET PTE:IQ/cama",
+  "text_length": 3238,
+  "anonymized_count": 18,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

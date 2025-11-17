@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5348248_episodio1008247754",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nngresa gestante de JJJ para comenzar proceso de inducción por DM II y G\nEG. BEG, afebril. RCTG: FCF basal 140lpm, variabilidad conservada, prese\nncia de aceleraciones no desaceleraciones. Se realiza TV previo consenti\nmiento: cx posterior, rígido, formado, pble 1cm, cef ins, BAI. Se coloca propess a las JJJ. Fecha: JJJ\nras 1h de monitor de control post-propess, sube a planta. RCTG: 145 lpm, variabilidad normal, ascensos presentes, no desaceleraciones, DU escasa\n, asintomática. Se informan de signos y síntomas de alarma y medidas de\nconfort. Bajará a las JJJ para control o antes si precisa. Fecha: JJJ\nraslado de sala de partos gestante para finalizar. Lleva propess, pte nu\nevo monitor sobre las JJJ. Realiza control de glicemia antes de la ce\nna = 67mg / dl, se administra 10ui rapida, Cena. Fecha: JJJ\naloración obstétrica Responsable identificación positiva del paciente\n: Paciente\n¿En el momento del ingreso el paciente lleva pulsera identif\nicativa?: Sí\nProcedencia del paciente antes del ingreso hospitalario: D\nomicilio\nMotivo ingreso y procedencia interna:\ninduccion al parto\nAle\nrgias: No\nValor Presión Arterial sistólica: 137 mm Hg\nValor Presión Ar\nterial diastólica: 81 mm Hg\nValor frecuencia cardíaca: 83 lpm\nTemperat\nura axilar: 36.2 ºC\nTipo de paciente: Gestante\nPuntuación escala EVN:\n0-No hay dolor",
+  "text_length": 1332,
+  "anonymized_count": 8,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

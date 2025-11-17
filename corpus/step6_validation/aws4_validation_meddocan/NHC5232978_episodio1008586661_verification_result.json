@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5232978_episodio1008586661",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nonsulta por dolor cervical , toracicc y disnea ,tambien taquicrdias , Tr\nas consulat con pur 3 se decide raesignación a pur 3 P(pacinete desacoag\nulado, sd Marfan neumopata e intervenido aneurism aorta Fecha: JJJ\naciente trasladado de planta 6 por dolor torácico.\nAP: Sindrome de marf\nan, aneurisma de aorta.\nA su llegada C y O. HDME. Afebril.\nCanalizo CV\nP 20G. Curso analítica.\nSe realiza angio TC. Fecha: JJJ\nacient C i O durant la tarda, hdm estable, saturacions mantingudes sense O2 suplementari, afebril, dolor toràcic EVA: 7/10, s&apos;administra analgès\nia pautada ev.\nEs canalitza segon CVP 18G a ESE i es cursen hemocultius\n.\nS&apos;inicia BIC d&apos;heparina sòdica 12.500 UI a 15ml/h a les 20:00h (pes d\ne 60kg), contacto amb CCV indiquen NO BOLUS d&apos;heparina abans d&apos;iniciar p\nerfusió. Cursar primer aPTT a les 23:00h. Fecha: JJJ\neneral Responsable identificación positiva del paciente: Paciente\n¿E\nn el momento del ingreso el paciente lleva pulsera identificativa?: Sí Datos persona contacto (nombre, teléfono y parentesco):\nJJJ (JJJ) JJJ\n¿La persona de contacto corresponde con el cuidador?: No tiene cuidador\nProcedencia del paciente antes del ingreso hospitalario: Domi\ncilio\nMotivo ingreso y procedencia interna:\nDT+ cervical Posible seudo\naneurisma tronco braquicefálico.\nAlergias: No\nAntecedentes medico-quir\núrgicos:\nSVao mec JJJ. Aneurisma de aorta IQ JJJ\n¿Sufre alguna enfer\nmedad crónica?: No\nDéficit de autocuidado: Independiente\nPuntuación es\ncala Barthel al ingreso: 75-Dependencia leve Valoración aparato respi\nratorio Tipo de respiración: Eupneico\nValor frecuencia respiratoria: 15 resp/min Valoración cardiovascular Valor Presión Arterial sist\nólica: 92 mm Hg\nValor Presión Arterial diastólica: 66 mm Hg\nValor frec\nuencia cardíaca: 95 lpm Valoración gastrointestinal Ritmo deposici\nonal:\ndiaria\nFecha última deposición: JJJ Valoración musculo\nesquelética Puntuación escala Downton: 1-Riesgo bajo Valoración Pi\nel y Mucosas ¿Alteración de la integridad de piel y mucosas al ingres\nar?: No\nColoración de la piel: Normocoloreada\nPuntuación escala Braden\n: 17-Riesgo bajo\nTemperatura axilar: 35 ºC Valoración neurológica Estado de la consciencia: Alerta Valoración Dolor y Disconfort ¿T\niene dolor al ingreso?: Sí\nEspecificar localización: Extremidades\nPunt\nuación escala EVN: 5 Valoración salud mental y adicciones Puntuaci\nón escala detección depresión PHQ-2: 0-No depresión\n¿Fuma actualmente?: No\n¿Usted bebe de forma habitual?: No Fecha: JJJ\naciente que procede de PUR3. A su llegada se muestra:\nNRL: C y O. Refie\nre algias en EESS.\nHMD: Estable. Afebril. BIC de HepNa a 15ml/h Portado\nr de TLM\nRESP: Sat entre 98-99% en basal.\nDIG: Realiza buena toleranci\na a las ingestas.\nELIM: Micciones espontaneas. Realizo frotis rectal. MOV: Se aplican medidas de confort. PTE:\n- APTT a las 23:00h",
+  "text_length": 2837,
+  "anonymized_count": 11,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

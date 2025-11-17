@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4568742_episodio1008353913",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naloración obstétrica Responsable identificación positiva del paciente\n: Paciente\n¿En el momento del ingreso el paciente lleva pulsera identif\nicativa?: Sí\nComprobación identificación madre-recién nacido: No proced\ne\nProcedencia del paciente antes del ingreso hospitalario: Domicilio\nM\notivo ingreso y procedencia interna:\nMetrorragia\nAlergias: No\nValor P\nresión Arterial sistólica: 90 mm Hg\nValor Presión Arterial diastólica:\n42 mm Hg\nValor frecuencia cardíaca: 73 lpm\nTemperatura axilar: 36 ºC Tipo de paciente: Puérpera\nPuntuación escala EVN: 0-No hay dolor Fecha: JJJ\naciente que viene a UCOI procedente de quirófano PH fisiológicas Cte\ns estables con tendencia a la hipotensión, asintomática Iniciada dieta bien tolerada Movilización al wc sin incidencias Diuresis de 700cc\nclara Cursada analítica, pte resultado Fecha: JJJ\negrado aspirativo por aborto en curso 10.6 sg +0. RS JJJ. TA 105/59 mmHg FC 89 lpm Tª 36.3 ºC. No precisa gammaglobulina antiD. BEG. No metrorragia, no dolor abdominal ni otra clínica de alarma. No cefale\na, mareo, palpitaciones ni otra sintomatología anémica. Tolera ingesta y deambulación. Micciones espontáneas correctas. A/S JJJ: Hb 9.8 (pr\nevia 11.1), Hto 29%, Plaq. 201.000. PLAN:\n- Ante paciente hemodinám\nicamente estable en ausencia de metrorragia ni otra clínica de alarma, s\ne consensúa alta a domicilio durante la mañana de hoy. Fecha: JJJ\nsuària hemodinàmicament estable, afebril. No àlgies. Pèrdues hemàtiques\nfisiològiques. Tolera ingesta hídrica i sòlids. Mobilitzacions a WC sens\ne incidències. Miccions correctes. Es retira VVP sense incidències. Es dóna Educació sanitària, es resolen dubtes. Marxa d&apos;alta.",
+  "text_length": 1669,
+  "anonymized_count": 6,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

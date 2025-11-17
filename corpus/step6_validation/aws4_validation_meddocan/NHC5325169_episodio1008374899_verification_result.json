@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5325169_episodio1008374899",
+  "success": true,
+  "anonymized_text": "JJJ\nINFORME HEMODINÀMICA Coronariografia per via radial esquerra 6 Fr. - TC sense lesions significatives. - DA amb lesió del 40% a nivell mig. - Cx co-dominant. OM1 de gran tamany amb lesió del 90% ostial. - CD co-dominant, amb oclusió crónica primal (ja coneguda). ICP sobre OM 1ostial. Catéter guia EBU 3.5 6Fr. Guia BMW. - Predilatació amb baló de 3.0 x 8mm i implant d´stent farmacoactiu Xience de 3.5 x 8 mm (14 atm) amb bon resultat angiogràfic. TIMI 3. Pla: - Triple terapia durat 1 mes. - Rivaroxaban + Clopidogrel x 12 mesos. JJJ\naciente que ingresa a la 1h procedente de Hemodinámica. Viene del JJJ por activación de código IAM. Se realiza ICP y se implanta SFA en OM 1 ostial.\nAP: DMII, DLP, FA en tto con Rivaroxaban, EPOC, Arteri\nopatia periférica. IQx by-pass vascular. - Aneurisma de aorta abdominal\ninfrarrenal TC JJJ, NEOPLASIA GÁSTRICA: Gastrectomia subtotal con linfadenectomia D1 y reconstruccion en Y de Roux el JJJ. Libre d\ne enfermedad en la actualidad\nPaciente C y O. Tranquilo y colaborador.\nSin algias. Buen descanso nocturno.\nHMD: normoTA sin SDVA. ECG en ACxFA\n. Afebril.\nRESP: eupneico con LN a 3lx&apos; con satO2 93-94%.\nELIM: diures\nis por SVP. No realiza deposición.\nPte: tropos a las JJJ. JJJ\n. IAMCEST INFERO-LATERAL KILLIP 3\n2. ENFERMEDAD CORONARIA DE 3 VASOS: D\nAm 40%, OM1 90% ostial (cúlprit), OCT CD.\n3. ICP + IMPLANTE SFA SOBRE O\nM1\n4. DISFUNCIÓN VENTRICULAR MODERADA-SEVERA. Asintomático. HD esta\nble. Afebril. Orina ligeramente hemática. ECG: FA con FVM de 70 lpm. Infradesnivel ST en I, II, aVL, V5-V6. Q V1-V2. No semiología de IC. No eventos arrítmicos. Se activa retorno del código. JJJ\nonsciente y orientado. Asintomático en cuanto a dolor torácico\nHemodiná\nmicamente mantenido sin DVA. ACxFA. Afebril\nEupneico con LN 3lx´. SatO2 mantenida.\nDiuresis justa, forzada con furosemida ev. Leve hematuria. Ingesta oral bien tolerada. Se administran 10UI IR x OM\nRetirado compr\nesivo RI sin incidencias, no sangrado ni signos de hematoma.\nPte retorn\no a JJJ.",
+  "text_length": 1999,
+  "anonymized_count": 9,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

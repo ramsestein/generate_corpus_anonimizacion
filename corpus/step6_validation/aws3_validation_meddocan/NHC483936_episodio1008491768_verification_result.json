@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC483936_episodio1008491768",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente con LES en seguimiento por autoinmunes, HTA, CI.\nConsulta por D\nT + fiebre\nA su llegada en TN C y O. HMD estable. Febricular 38.4ºC. Eu\npneica en basal\nPortadora de VP. Cursan AS\nEn TM\nTras paracetamol afe\nbril.\nRealiza diuresis en wc, curso sedimento de orina\nNo refiere dolo\nr Fecha: JJJ\nn resumen se trata de una paciente con antecedentes a destacar de LES co\nn tratamiento inmunosupresor, cardiopatía isquémica y DM que presenta un sd febril de tres semanas de evolución por el que ya consultó al hospit\nal de día de JJJ el JJJ donde ya se realizó analítica con marcadores i\nnflamatorios y se solicitó ecografía renal, no se solicitaron cultivos.\nLa paciente consulta por persistencia de la fiebre y aparición de DT en\nel contexto de pico febril no sugestivo de etiología isquémica, sino más hemodinámica, con marcadores de lesión miocárdica inicialmente negativ\nos. Se ha solicitado sedimento de orina que no muestra alteraciones y an\nalítica con presencia de colestasis disociada, elevación de PCR y empeor\namiento de la función renal. Hemos cursado hemocultivos. Se trata por ta\nnto de un sd febril a estudio que ya se había iniciado ambulatoriamente. Se ha comentado con JJJ e indican evolución (???), de acuerdo con lo pa\nctado por la dirección de urgencias con los diferentes servicios en el m\nomento que se cumplen 24h de evolución la paciente quedará ingresada a c\nargo del servicio al que se le ha comentado. Actualmente la paciente no\ntiene indicació de realización de ecografía abdominal urgente, aunque si como parte del proceso diagnóstico en cualquier caso no modifica la act\nuación urgente. Fecha: JJJ\nacient C i O.\nHDM estable i febricular a 37.6.\nEupneica, satO2 basals\nmantingudes.\nSense àlgies.\nEs canalitza nou CVP 20 en ESE i es cursa a\nnalítica (hemograma, bioquímica, coagulació, lactat i EAB).\nEs cursen 2 parells d&apos;hemocultius i frotis virus respiratoris.\nDiuresis mantingude\ns en cunya.\nPendent ECO abdominal. Fecha: JJJ\ne cursan HHCC",
+  "text_length": 1988,
+  "anonymized_count": 7,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

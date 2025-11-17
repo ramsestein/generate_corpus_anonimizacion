@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4604845_episodio1008821969",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente es trasladado desde domicilio como código ICTUS, por desviación\nde comisura bucal y disartria.\nSe colocan 2 CVP se realiza analítica y\nse traslada al SCA.\nPdte de resultados. Fecha: JJJ\naciente que se realiza conjuntamente con el equipo de anestesia arteriog\nrafía cerebral vía FD. Sin incidecnias-. Se retira introductor y se colo\nca punto percutaneo que es efectivo. Se coloca vendaje de seguridad. Fecha: JJJ\naloración Críticos Responsable identificación positiva del paciente:\nPaciente\n¿En el momento del ingreso el paciente lleva pulsera identific\nativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco):\nVis\nitación (JJJ): JJJ\n¿La persona de contacto corresponde con el\ncuidador?: No tiene cuidador\nProcedencia del paciente antes del ingreso hospitalario: Domicilio\nMotivo ingreso y procedencia interna:\nIctus i\nsquémico talamo-mesencefálico D, Oclusión P1 de ACP-D\n¿Sufre alguna enf\nermedad crónica?: Hipertensión\nDéficit de autocuidado: Higiene, Aliment\nación, Movilización\nAlergias: No\n¿Fuma actualmente?: Sí\nEstado de la\nconsciencia: Alerta\nOrientación: No\nDesorientado en:: Espacio\nModalid\nad acceso vía aérea: Natural\nValor Frecuencia cardíaca: 70 lpm\nMicción espontánea: Sí\nRitmo deposicional:\nNormalmente a diario\n¿Alteración\nde la integridad de piel y mucosas al ingresar?: No\nColoración de la pi\nel: Normocoloreada\nPuntuación escala Braden: 16-Riesgo bajo\nTemperatur\na axilar: 36.4 ºC\n¿Tiene dolor al ingreso?: No\nPuntuación escala EVN:\n0-No hay dolor\nPuntuación escala Downton: 5-Riesgo alto Fecha: JJJ\nIHSS:1 disartria leve, C y O (inicialmente parece D en espacio pero a lo\ns pocos minutos parece reajustar y se mantiene O).\nHDM estable, no refi\nere algias.\nFAMIS + STP.\nHa pedido el porrón para orinar a las JJJ p\nero no puede. Se palpa posible inicio de globo vesical.\nApósito compres\nivo femoral D conservado, retirar mañana a las JJJ.\nPdte TAC de control y A/S JJJ.",
+  "text_length": 1917,
+  "anonymized_count": 9,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

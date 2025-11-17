@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4331230_episodio1008510375",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nARTOGRAMA:\nData/hora actuació: JJJ\nRCTG: Normal Comentaris: Ingresa gestante por trabajo de parto activo. TV en UCIAS: 1cm\nde canal, permeable 4 cm, cef insinuada, BAI. Solicita la anestesia epidural. Se avisa a equipo de anestesia. Fecha: JJJ\nARTOGRAMA:\nFecha/hora actuación: JJJ Comentarios: Reforç epidural:\n1er- Bolus PCA.\n2n- Si dilatació no completa, levobupivacaïna 0.25%. Si completa, lidocaïna 1% 6mL.\n3er- Si encara dolor, trucar anestèsia. Fecha: JJJ\nARTOGRAMA:\nFecha/hora actuación: JJJ\nRCTG: Normal Comentarios: Epidural administrada por Dr. JJJ. Fecha: JJJ\nARTOGRAMA:\nFecha/hora actuación: JJJ\nDilatación: 8\nRCTG: Normal Comentarios: Avisa por dolor y presión. Se realiza SV, orina clara. Se realiza TV: cx centrado, blando, 8cm de dilatación, BAI. Se avisa a equipo de anestesia que pauta administrar 6ml de levobupi al 0.25%. Fecha: JJJ\nARTOGRAMA:\nData/hora actuació: JJJ\nDilatació: 10\nPla: I-II\nVarietat:\nRCTG: Normal Comentaris: Refiere sensación de hidrorrea y dolor. Se avisa a anestesista, se administra refuerzo por orden de D. JJJ. FCF basal 130-140x', presencia de ascensos, no desaceleraciones, buena variabilidad.\nDU 3c/10'.\nA las JJJ avisa por sensación de pujo, se realiza TV: Dilatación completa en un III pdH, se realizan pujos dirigidos efectivos, parto en sacra. Fecha: JJJ\nARTOGRAMA:\nFecha/hora actuación: JJJ Comentarios: POSPARTO:\nútero bien contraído (0), sangrado fisiológico. Moviliza MMII. Realiza piel con piel e inicia LM en SP. Se retira catéter epidural íntegro. Refiere leve dolor, por lo que se administra paracetamol EV. Se administra profilaxis RN. Fecha: JJJ\nARTOGRAMA:\nFecha/hora actuación: JJJ Comentarios: Refiere ya no dolor, sangrado fisiológico. Resta en SP por falta de camas en hospitalización. Fecha: JJJ\nValoración obstétrica Responsable identificación positiva del paciente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera identificativa?: Sí\nComprobación identificación madre-recién nacido: Sí\nProcedencia del paciente antes del ingreso hospitalario: Domicilio\nMotivo ingreso y procedencia interna:\nParto\nAlergias: No\nValor Presión Arterial sistólica: 125 mm Hg\nValor Presión Arterial diastólica: 80 mm Hg\nValor frecuencia cardíaca: 61 lpm\nTemperatura axilar: 36.5 ºC\nTipo de paciente: Puérpera\nAltura uterina: -2\nLoquios: Fisiológicos\nTipo de parto: Eutócico\nDeseo de lactancia en gestación actual: Sí\nPuntuación escala EVN: 0-No hay dolor Fecha: JJJ\nIngresa puérpera de hoy por no disponibilidad de camas en sala. A su llegada constantes estables y afebril. Dolor bien controlado. Útero contraído, pérdidas fisiológicas. Iniciada ingesta, bien tolerada. Deambula sin incidencias a wc y realiza 1a micción espontánea. LM con ayuda, bebé muy aletargado que dificulta el agarre. Fecha: JJJ\nSube paciente procedente de UCOI. Fecha: JJJ\nINTERCONSULTA PSIQUIATRÍA PERINATAL Psicopatológicamente estable, eutímica. Muy ilusionada con el bebé, ha iniciado LME. El parto ha sido esta pasada madrugada, vaginal. Plan: Reinstauro tto. con risperidona 0,5 mg 0-0-1. Fecha: JJJ\nPaciente HDM estable, afebril. Paciente acompañada por JJJ y sus JJJ, se mantiene tranquila. Algias bien controladas con analgesia EV, refiere entuertos. Útero bien contraído, ph fisiológicas. Tolera ingesta y movilización. LM correcta, RN aletargado, conseguimos despertarlo y realiza una buena toma.",
+  "text_length": 3353,
+  "anonymized_count": 24,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

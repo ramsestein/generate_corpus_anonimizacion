@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4625551_episodio1008727463",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\ncude paciente derivado de cardio porque el JJJ salio el resultado de\nl holter y le comentaron realizar un seguimiento en urgencias. Acude h\noy con BEG, hdm estable, eupneico y afebril. Se realiza monitorizacion +ECG + analitica ucias Primeras tropos +, se cursan 2das Fecha: JJJ\nUR3_TT OD: TVMNS frecuentes con cierto componente de inestabilidad hem\nodinámica. AP: HTA, DLP, miocardiopatía dilatada, angor de esfuerzo (JJJ), neoplasia renal derecha (nefrectomía radical derecha, JJJ), ERC, estenosis carotídea, trombosis vena yugular derecha. Portador de\npulsera identif. y objetos personales identif. debajo de la camilla. D\nurante TT, consciente y orientado, autónomo. Hemodinámicamente establ\ne con tendencia a la hipertensión, FC 47-55lpm, afebril. Eupneico, satur\naciones correctas en basal. Portador CVP 18G en antebrazo izquierdo, p\nermeable y salinizado. Se administra medicación oral pautada sin inci\ndencias. Pendiente de ingreso a cargo de CAR para optimización de t\nratamiento médico y valoración de implante de DAI.",
+  "text_length": 1039,
+  "anonymized_count": 5,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5396888_episodio1008465558",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nx c y o, hmd estable, afebril. Refiere cervicalgia de semanas de evolu\nción junto a pérdida de sensibilidad en zona de abdomen. Se cursa anal\nítica, rx, se coloca collarín cervical blando y se adm analgesia.\nSe so\nlicita IC con COT y se solicita TC cervicodorsal. Fecha: JJJ\ne realiza TC cervicodorsal y con resultados se comenta con COT, NRC y IN\nF, que tendrán que pasar a valorarlo.\nSe realiza ecg estando en ritmo s\ninusal. Fecha: JJJ\ns visitado por NRC, se arrastra al JJJ pte de visita por INF. Se cursa\nn hemocultivos en frío.\nFAMIS y reposo en cama. Fecha: JJJ\nelios: Paciente es trasladado a RNM a las JJJ.\nPendiente IC con INF. Portador de collarín blando.",
+  "text_length": 677,
+  "anonymized_count": 6,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

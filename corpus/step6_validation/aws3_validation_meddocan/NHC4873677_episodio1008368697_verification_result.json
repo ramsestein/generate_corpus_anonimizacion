@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4873677_episodio1008368697",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\nJJJ\n¿La persona de contacto corresponde con el cuidador?: No\ntiene cuidador\n¿Vive solo?: No\nProcedencia del paciente antes del ingr\neso hospitalario: Otro hospital\nMotivo ingreso y procedencia interna: pancreatitis aguda\n¿Sufre alguna enfermedad crónica?: Enfermedad psiqui\nátrica, Dislipemia, Otras enfermedades crónicas\nEspecificar otras enfer\nmedades crónicas:\nobesidad,incontinencia urinaria\nDéficit de autocuida\ndo: Higiene\nAlergias: No\nEstado de la consciencia: Alerta\nModalidad a\ncceso vía aérea: Natural\nValor Frecuencia cardíaca: 80 lpm\nMicción esp\nontánea: Sí\nRitmo deposicional:\nnormal\n¿Alteración de la integridad d\ne piel y mucosas al ingresar?: No\nColoración de la piel: Normocoloreada Puntuación escala Braden: 14-Riesgo moderado\nTemperatura axilar: 36.2 ºC\n¿Tiene dolor al ingreso?: Sí\nPuntuación escala EVN: 2\nPuntuación\nescala Downton: 1-Riesgo bajo Fecha: JJJ\nIngresa a las 6:00 acompañada por el SEM A su llegada hemodianmicamente estable, afebril Dolor controlado Eupneica en basal se coloca sueroretapia y canalizamos nueva via periferica para extracción de analiticas en brazo izquierdo Cursamos frotis + analitica de urgencias + reserva sangre Resto ver IPA Fecha: JJJ\nontinua CyO x3. HD estable con tendencia a la hipotensión asintomática.\nAfebril.\nDolor abdominal difuso que se mantiene en EVA 2 hasta mañana. Eupneica en basal. Dieta absoluta con suerotp. Enzimas pancreática\ns normalizadas y ausencia de nauseas o vómitos. Se realiza higiene per\no no sedesta. Se cursa ingreso en sala. Fecha: JJJ\n0:20h - paciente procedente de la I073.\nC y O. HDM estable, afebril. Sa\nt96% en basal. No refiere dolor. CVP + STP. Dieta absoluta. ME en cuña\n. En reposo. Mañana ECOabdominal, confirmado con MG. Fecha: JJJ\nacient c i o, HDM estable, SatO2 de 95% en basal, eupneic, afebril i cef\nalea controlada amb paracetamol. CVP + STP.\nEs manté a famis. Diure\nsis conservada. No realitza deposició. Bon descans nocturn. Fecha: JJJ\nemodinamicamente estable, afebril, patrón respiratorio basal correcto\nA\ndministrada analgesia por cefalea, efectiva\nRealizada Eco abdominal [Co\nlecistectomia. Via biliar no dilatada.]\nReinicia ingesta, bien tolerada\n. Retirada sueroterapia\nPosible alta esta tarde Fecha: JJJ\naciente clínicamente estable y en buen estado general. Dada estabilid\nad clínica, evolución favorable, y en ausencia de señales de alarma se d\necide alta hospitalaria. Fecha: JJJ\netiramos CVP y entregamos papeles del alta. 16:20h - Alta a domicilio\ny acompañada.",
+  "text_length": 2709,
+  "anonymized_count": 9,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

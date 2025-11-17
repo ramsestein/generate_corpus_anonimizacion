@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4528942_episodio1008623441",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\n. Artritis Reumatoide seropositiva erosiva en pies (inicio JJJ-dx JJJ) con brotes de ritmo RP.\n2. Neuromas en 2º y 3º espacios inter\nmetatarsianos\n3. Ex-tabaquismo Tractament actual: Tocilizumab sc de\nsde JJJ (optimizado cada 10 días desde JJJ) , Dolquine 300 mg/\n24h. Sertralina 50 mg/24h Naproxeno si cal No GC TRATAMIENTOS PREVIO\nS: Etanercept desde JJJ hasta JJJ.\nAdalimuimab desde JJJ\nhasta JJJ. fallo primario.\nTofacitinib desde JJJ hasta JJJ. fallo primar VISITA ACTUAL: Estupenda Solo ha tenido dos cr\nisis de palindrómico que se controlaron con ibuprofeno EF: NAD:0; NAI\n:0; VGP:0; VGM:0 * analítica: bien OD: AR en remisión. Buena respu\nesta a bajada a c/10 días. PLAN: seguir igual.",
+  "text_length": 704,
+  "anonymized_count": 11,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

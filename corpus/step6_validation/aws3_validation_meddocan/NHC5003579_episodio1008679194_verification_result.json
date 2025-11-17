@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5003579_episodio1008679194",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nacient de JJJ es visita a ucies per sospita de pancreatitis\nAMC: no cone\ngudes\nAP: HTA, trastorn abús alcohol (encefalopatia de wernicke), esofa\ngitis per reflux (esofag de barrett)\nA l'arribada pacient c i o. Hdm es\ntable, afebril. Refereix algias que cedeixen amb analgesia.\nPortador de catéter perifèric a ESE i canalitzem un altre a mà dreta de 18G, realit\nzem analítica + POC + alcohol en sang. Realitzem ECG. Realitzen Rx tòrax + abd. Realitzen TAC abd-pèlvic. Pertinences a bossa amb etiqueta ide\nntificativa sota camilla. Pdt tòxics en orina. Pdt analítica JJJ Fecha: JJJ\necullo tòxics en orina. Es trasllada a la E073. Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\nJJJ (JJJ):JJJ\n¿La persona de contacto corresponde\ncon el cuidador?: No tiene cuidador\n¿Vive solo?: No\nProcedencia del pa\nciente antes del ingreso hospitalario: Otro hospital\nMotivo ingreso y p\nrocedencia interna:\nPancreatitis\n¿Sufre alguna enfermedad crónica?: Hi\npertensión, Otras enfermedades crónicas\nEspecificar otras enfermedades\ncrónicas:\nENCEFALOPATÍA DE WERNICKE-KORSAKOFF, ESOFAGITIS POR REFLUJO,\nTRASTORNO DEPRESIVO\nDéficit de autocuidado: Higiene, Movilización, Alim\nentación\nAlergias: No\n¿Fuma actualmente?: No\nEstado de la consciencia\n: Alerta\nOrientación: Sí\nPuntuación escala Glasgow: 15-Leve\nModalidad acceso vía aérea: Natural\nTipo de respiración: Eupneico\nValor frecuen\ncia respiratoria: 25 resp/min\nSaturación O2: 97 %\nValor Presión Arteri\nal sistólica: 133 mm Hg\nValor Presión Arterial diastólica: 70 mm Hg\nVa\nlor Frecuencia cardíaca: 121 lpm\nMicción espontánea: Sí\nRitmo deposici\nonal:\nDiario\n¿Alteración de la integridad de piel y mucosas al ingresa\nr?: No\nColoración de la piel: Normocoloreada\nPuntuación escala Braden: 21-Sin riesgo\nTemperatura axilar: 36.9 ºC\n¿Tiene dolor al ingreso?: N\no\nPuntuación escala EVN: 0-No hay dolor\nPuntuación escala Downton: 1-R\niesgo bajo",
+  "text_length": 2061,
+  "anonymized_count": 8,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

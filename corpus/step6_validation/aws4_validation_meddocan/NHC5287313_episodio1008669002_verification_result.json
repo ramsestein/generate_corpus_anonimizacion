@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5287313_episodio1008669002",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nNefrología de guardia: Acude desde domicilio a realizar sesión de hemodiálisis asintomático. Durante la sesión presenta importante dolor peneano, con deseo miccional pero sin poder realizar micción (refiere diuresis residual, con 2-3 micciones diarias). No fiebre u otra clínica infecciosa asociada. Se administra dexketoprofeno y buscapina y se deriva a Urgencias para valoración por parte de Urología. Fecha: JJJ\naltando 1:25h para finalizar la HD, refiere un fuerte dolor repentino en en zona perianal, presenta ganas de miccionar, desconnectamos y llevamo\ns al baño. Sin éxito. Avisamos MG que pauta Enantuym + Buscapina. Deriva\nmos a URG para valoración por parte de urología. Sale 700 mg por encima\nde su peso. Fecha: JJJ\naciente que acude a ucias derivado de diálisis por dolor súbito hipogast\nrio y peneano mientras realizaba sesión de diálisis. Paciente con antece\ndentes de estenosis uretral, portador de SV permanente.\nPaciente C y O, a su llegada HDM estable, con tendencia a la taquicardia, mal perfundid\no, EVA 10/10 en zona perineal. Se decide monitorización. Pertenencias id\nentificadas bajo camilla. Se canaliza via periferica, permeable. Se cu\nrsa A/S. Se admin anaglesia pdte efectividad.\nPdte de resultados + evol\n. Fecha: JJJ\nrgencias Medicina Nivel II (JJJ) JJJ JJJ - CISTITIS ENF\nISEMATOSA. HIPOTENSIÓN SECUNDARIA. Se indica terapia antibiotica de ampl\nio espectro (meropenem + amikacina), sueroterapia y comento con Urología para ingreso. Se comenta con su acompañante (JJJ) su estado. No di\nspone de documento de voluntades anticipadas. Desde el punto de vista mé\ndico, comorbilidad y limitación de su estado basal, no considero tributa\nrio de IOT+VM, aunque si de fármacos vasoactivos si fuera necesario. Fecha: JJJ\nActivació LET Fecha: JJJ\nT PUR3; Paciente a mi valoración C y O, HDM estable, afebril, algias mal controladas que precisan múltiples rescates de analgesia. Realizamos PO\nC venoso a las JJJ. A las JJJ inicia dolor torácico opresivo, reali\nzamos ECG+Ritmo. Se comenta con medicina. Canalizo nueva CVP y cursamos\nhemocultivos. Realizo nuevo POC venoso. Se traslada a SCA monitorizado\n. Persiste dolor torácico que se recomenta con medicina.\nTras resultado\ns SCA le valora URO y realiza SV. Cursamos sedimento+urinocultivo.\nLe v\nalora NEF, cursamos nueva A/S y se decide firmar LET.\nIngresa a cargo d\ne URO.",
+  "text_length": 2356,
+  "anonymized_count": 12,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

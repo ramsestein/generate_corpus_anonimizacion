@@ -1,0 +1,428 @@
+{
+  "document_id": "NHC141187_episodio1008501143",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nJJJ de JJJ con AP: HTA, DM2, DLP, cardiopatia isquémica y hernia de hiato que acude por sincope. A la llegada del SEM se encuentra con una\nFC 45 por lo que inician perfusión de aleudrinas. A su llegada a PUR3 se encuentra HDM estable, afebril y sin dolor. Portadora de CVP 18G en ESI\n. Se canaliza CVP 18G en ESD. Se cursa A/S. Pte realizar Rx y valoración por CAR. Fecha: JJJ\n* NOTA CARDIOLOGÍA (JJJ) JJJ de JJJ con antecedentes de HTA, DM2, DLP, cardiopatía dilatada no isquémica (RM JJJ en JJJ: VI ligeramente dilatado, sin hipertrofia. FEVI 49%. Último ecocardiograma JJJ: Movimiento asincrónico del septum. FEVI 48%. AI ligeramente dilatada. Sin valvulopatías), angina (TC coronarias en JJJ sin ateroesclerosis significativa). Traída por SEM tras síncope\nsin pródromo al subir al coche, de 4 minutos de duración y recuperación\ncompleta posterior. A la llegada del SEM la paciente está sudorosa, FC d\ne 45 lpm, ECG con BAV 3º grado. Niega palpitaciones, ni disnea, ni dolor torácico. No otros episodios de síncope previos. Paciente en tratamient\no con nebivolol 1.25mg/24h. A su llegada a urgencias está HDE, PA 1\n29/27, con FC 50 lpm en monitor bajo perfusión de aleudrina, eupneica en basal, afebril. Auscultación cardiaca con soplo sistólico en foco Ao. S\nin signos de bajo gasto ni congestión. Se constata bloqueo AV comp\nleto en ECG. Analítica con Cr 0.84 y FG 62 (sus valores habituales), ion\nes en rango, hemograma y hemostasia sin alteraciones. Ecoscopia con VI n\no hipertrófico, no dilatado, FEVI conservada. VD no dilatado normocontrá\nctil. Sin valvulopatías signficativas. No derrame pericárdico. OD:\nBAV completo. PLAN: ingreso en cardiología. Se comentará con Arritm\nias para valorar implante de MCP. Fecha: JJJ\nURNO NOCHE: - Permanece monitorizada en PUR3 pendiente de cama en inte\nrmedios de CARDIO. - OD: Sincope cardiogenico por BAV 3er grado --&gt; Pt\ne colocacion MCP el JJJ.\n- C y O. HDM estable y afebril. - FC de 40\n-50 lpm, perfusion de aleudrina en curso. - Monitor de desfibrilación\ncolocado.\n- Descansa acompañada de su JJJ. Fecha: JJJ\nurno mañana: Se conectan parches de desfibrilador por varias bradicard\nias seguidas.\nSe valora por cardio ( posible traslado a la unidad coron\naria)\nHmdt esable, Cyo. No remendable realizar la RX Fecha: JJJ\nOX ATUR TT:\nPacient traslladada desde PUR3 per col·locació d&apos;electrocat\neter per BAV complert.\nC i O a l&apos;arribada, hdm estable, saturacions man\ntingudes sense O2 suplementari, afebril, sense dolor.\nPendent de trasll\nat a I016 per ingrés. Fecha: JJJ\nOX ATUR TT:\nPacient traslladada desde PUR3 per col·locació d&apos;electrocat\neter per BAV complert.\nC i O a l&apos;arribada, hdm estable, saturacions man\ntingudes sense O2 suplementari, afebril, sense dolor.\nEs col·loca elect\nrocateter sense incidències.\nPendent de trasllat a I016 per ingrés. Fecha: JJJ\n. BAV COMPLETO\n2. TORSADA DE PUNTAS SECUNDARIO A BRADICARDIA Y EV Pa\nciente monitorizada con episodios de BAV a pesar de aleudrinas a 30 ml/h con episodios de Torsada de Puntas ocasionales (6 episodios en total) a\nutolimitados en pocos segundos. Iones correctos. Se decide implante de e\nlectrocateter que se lleva a cabo sin incidencias. Desde emplante de ele\nctrocateter sin nuevos episodios de Torsadas. Fecha: JJJ\nendiente de implante de MCP el JJJ.",
+  "text_length": 3300,
+  "anonymized_count": 20,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 6,
+    "entities": [
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.9971229434013367,
+        "word": " PUR",
+        "start": 1780,
+        "end": 1783,
+        "chunk_id": 1,
+        "model": "CARMEN",
+        "actual_text": "PUR",
+        "is_j_only": false
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.9967302083969116,
+        "word": " PUR",
+        "start": 2322,
+        "end": 2325,
+        "chunk_id": 1,
+        "model": "CARMEN",
+        "actual_text": "PUR",
+        "is_j_only": false
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.9996089339256287,
+        "word": " I",
+        "start": 2515,
+        "end": 2516,
+        "chunk_id": 1,
+        "model": "CARMEN",
+        "actual_text": "I",
+        "is_j_only": false
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.9984694123268127,
+        "word": " PUR",
+        "start": 2581,
+        "end": 2584,
+        "chunk_id": 1,
+        "model": "CARMEN",
+        "actual_text": "PUR",
+        "is_j_only": false
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.9996609687805176,
+        "word": " I",
+        "start": 2820,
+        "end": 2821,
+        "chunk_id": 2,
+        "model": "CARMEN",
+        "actual_text": "I",
+        "is_j_only": false
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.9991113543510437,
+        "word": "016",
+        "start": 2821,
+        "end": 2824,
+        "chunk_id": 2,
+        "model": "CARMEN",
+        "actual_text": "016",
+        "is_j_only": false
+      }
+    ],
+    "analysis": {
+      "total_entities": 6,
+      "j_only_count": 0,
+      "non_j_count": 6,
+      "entities_by_label": {
+        "NUMERO_IDENTIF": 6
+      },
+      "entities_by_confidence": {
+        "high": 6,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " PUR",
+          "actual_text": "PUR",
+          "confidence": 0.9971229434013367,
+          "start": 1780,
+          "end": 1783,
+          "model": "CARMEN",
+          "is_j_only": false
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " PUR",
+          "actual_text": "PUR",
+          "confidence": 0.9967302083969116,
+          "start": 2322,
+          "end": 2325,
+          "model": "CARMEN",
+          "is_j_only": false
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " I",
+          "actual_text": "I",
+          "confidence": 0.9996089339256287,
+          "start": 2515,
+          "end": 2516,
+          "model": "CARMEN",
+          "is_j_only": false
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " PUR",
+          "actual_text": "PUR",
+          "confidence": 0.9984694123268127,
+          "start": 2581,
+          "end": 2584,
+          "model": "CARMEN",
+          "is_j_only": false
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " I",
+          "actual_text": "I",
+          "confidence": 0.9996609687805176,
+          "start": 2820,
+          "end": 2821,
+          "model": "CARMEN",
+          "is_j_only": false
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": "016",
+          "actual_text": "016",
+          "confidence": 0.9991113543510437,
+          "start": 2821,
+          "end": 2824,
+          "model": "CARMEN",
+          "is_j_only": false
+        }
+      ],
+      "anon_token_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " PUR",
+          "actual_text": "PUR",
+          "confidence": 0.9971229434013367,
+          "start": 1780,
+          "end": 1783,
+          "model": "CARMEN",
+          "is_j_only": false
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " PUR",
+          "actual_text": "PUR",
+          "confidence": 0.9967302083969116,
+          "start": 2322,
+          "end": 2325,
+          "model": "CARMEN",
+          "is_j_only": false
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " I",
+          "actual_text": "I",
+          "confidence": 0.9996089339256287,
+          "start": 2515,
+          "end": 2516,
+          "model": "CARMEN",
+          "is_j_only": false
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " PUR",
+          "actual_text": "PUR",
+          "confidence": 0.9984694123268127,
+          "start": 2581,
+          "end": 2584,
+          "model": "CARMEN",
+          "is_j_only": false
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " I",
+          "actual_text": "I",
+          "confidence": 0.9996609687805176,
+          "start": 2820,
+          "end": 2821,
+          "model": "CARMEN",
+          "is_j_only": false
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": "016",
+          "actual_text": "016",
+          "confidence": 0.9991113543510437,
+          "start": 2821,
+          "end": 2824,
+          "model": "CARMEN",
+          "is_j_only": false
+        }
+      ],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 6,
+    "j_only_count": 0,
+    "non_j_count": 6,
+    "entities_by_label": {
+      "NUMERO_IDENTIF": 6
+    },
+    "entities_by_confidence": {
+      "high": 6,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " PUR",
+        "actual_text": "PUR",
+        "confidence": 0.9971229434013367,
+        "start": 1780,
+        "end": 1783,
+        "model": "CARMEN",
+        "is_j_only": false
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " PUR",
+        "actual_text": "PUR",
+        "confidence": 0.9967302083969116,
+        "start": 2322,
+        "end": 2325,
+        "model": "CARMEN",
+        "is_j_only": false
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " I",
+        "actual_text": "I",
+        "confidence": 0.9996089339256287,
+        "start": 2515,
+        "end": 2516,
+        "model": "CARMEN",
+        "is_j_only": false
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " PUR",
+        "actual_text": "PUR",
+        "confidence": 0.9984694123268127,
+        "start": 2581,
+        "end": 2584,
+        "model": "CARMEN",
+        "is_j_only": false
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " I",
+        "actual_text": "I",
+        "confidence": 0.9996609687805176,
+        "start": 2820,
+        "end": 2821,
+        "model": "CARMEN",
+        "is_j_only": false
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": "016",
+        "actual_text": "016",
+        "confidence": 0.9991113543510437,
+        "start": 2821,
+        "end": 2824,
+        "model": "CARMEN",
+        "is_j_only": false
+      }
+    ],
+    "anon_token_detections": [],
+    "other_detections": [
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " PUR",
+        "actual_text": "PUR",
+        "confidence": 0.9971229434013367,
+        "start": 1780,
+        "end": 1783,
+        "model": "CARMEN",
+        "is_j_only": false
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " PUR",
+        "actual_text": "PUR",
+        "confidence": 0.9967302083969116,
+        "start": 2322,
+        "end": 2325,
+        "model": "CARMEN",
+        "is_j_only": false
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " I",
+        "actual_text": "I",
+        "confidence": 0.9996089339256287,
+        "start": 2515,
+        "end": 2516,
+        "model": "CARMEN",
+        "is_j_only": false
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " PUR",
+        "actual_text": "PUR",
+        "confidence": 0.9984694123268127,
+        "start": 2581,
+        "end": 2584,
+        "model": "CARMEN",
+        "is_j_only": false
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " I",
+        "actual_text": "I",
+        "confidence": 0.9996609687805176,
+        "start": 2820,
+        "end": 2821,
+        "model": "CARMEN",
+        "is_j_only": false
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": "016",
+        "actual_text": "016",
+        "confidence": 0.9991113543510437,
+        "start": 2821,
+        "end": 2824,
+        "model": "CARMEN",
+        "is_j_only": false
+      }
+    ],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 6,
+    "suspicious_detections": 6,
+    "anon_token_detections": 0,
+    "other_detections": 6
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "NUMERO_IDENTIF",
+        "text": " PUR",
+        "confidence": 0.9971229434013367,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "text": " PUR",
+        "confidence": 0.9967302083969116,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "text": " I",
+        "confidence": 0.9996089339256287,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "text": " PUR",
+        "confidence": 0.9984694123268127,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "text": " I",
+        "confidence": 0.9996609687805176,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "text": "016",
+        "confidence": 0.9991113543510437,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 6
+  }
+}

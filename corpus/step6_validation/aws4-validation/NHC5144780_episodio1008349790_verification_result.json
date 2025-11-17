@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5144780_episodio1008349790",
+  "success": true,
+  "anonymized_text": "JJJ\nacient amb Hª de TCE fa JJJ, acut per quadre de Disàrtria i cefalea (\nEVA 7/10).\nPresenta HTA, reste de Constants Vitals dins de la normalita\nt.\nCnscient, disàrtrica, PINR.\nQuadre de vòmits actius a la seva arrib\nada a UCIES.\nHematomes a ESD, JJJ\nsu llegada al JJJ paciente C, O, HDM estable, PINR, afebril, sin algias\n. Leve disartria.\nAcompañada por JJJ.\nTAC cerebral muestra isquem\nia establecida en territorio de ACMi superficial.\nPte ingreso en sala d\ne NRL. JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\nJJJ (JJJ): JJJ\n¿La persona de contacto corresponde con e\nl cuidador?: No tiene cuidador\nProcedencia del paciente antes del ingre\nso hospitalario: Domicilio\nMotivo ingreso y procedencia interna:\nAlter\nación del lenguaje/ urgencias\n¿Sufre alguna enfermedad crónica?: Dislip\nemia, Hipertensión, Otras enfermedades crónicas\nDéficit de autocuidado: Independiente\nAlergias: No\nEstado de la consciencia: Confuso\nModalid\nad acceso vía aérea: Natural\nValor Frecuencia cardíaca: 67 lpm\nMicción espontánea: Sí\nRitmo deposicional:\n?\n¿Alteración de la integridad de piel y mucosas al ingresar?: No\nColoración de la piel: Normocoloreada Puntuación escala Braden: 17-Riesgo bajo\nTemperatura axilar: 36.8 ºC ¿Tiene dolor al ingreso?: No\nPuntuación escala EVN: 99-No aplica\nPuntu\nación escala Downton: 4-Riesgo alto JJJ\nscales Puntuación escala MECV-V: 60-No disfagia orofaríngea JJJ\nngresa paciente procedente de JJJ. A su llegada, paciente alerta, ori\nentación no valorable por afasia. No responde preguntas, nomina 1/5, no\nrepite correctamente. Obedece alguna orden simple aislada. HDM con ten\ndencia a HTA, afebril. Eupneica y saturaciones correctas en basal. R\nealizo test de disfagia previo a administración de medicación VO, result\nado negativo. Ingesta oral en la cena correcta y bien tolerada. Se man\ntiene en reposo. - Pdte @ central mañana. JJJ\na paciente inicia náuseas a las JJJ, administro ondasetrón PRN. Ref\niere dolor de espalda, administro dexketoprofeno de rescate, pdte valora\nr efectividad.",
+  "text_length": 2183,
+  "anonymized_count": 14,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

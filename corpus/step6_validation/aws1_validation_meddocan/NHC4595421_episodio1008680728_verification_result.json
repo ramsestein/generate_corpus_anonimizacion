@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4595421_episodio1008680728",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente que acude por sus própios medios, acompañado por su JJJ. Pac\niente con disnea + diaforesis, verbaliza dolor atípico, generalizado des\nde hace cuatro días. No AMC. AP: PreDIABETES (GLUCEMIA VENOSA 235 MG/d\nL). HTA, DLP. Se realiza ECG, observándose elevación de ST en DI DIII\nAVF. hTA 103/54 mm/Hg,\nSe coloca acceso venoso periférico en ESI. Se ex\ntrae A/S + GSV + GSA basal. Spo2 basales 87% se Coloca VMK Fio2 50% y po\nsteriormente Alta concentración con Spo2 93-94%. Se proporciona antiag\nreegación 300 mg AAS + Ticagrelor 180 mg + Atorvastatina 80 mg. Se dec\nide traslado a sede JJJ hemodinámica. Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\nJJJ JJJ (JJJ)\n¿La persona de contacto corresponde con el c\nuidador?: No tiene cuidador\nProcedencia del paciente antes del ingreso\nhospitalario: Domicilio\nMotivo ingreso y procedencia interna:\nIAM KK3, ROTURA MÚSCULO PAPILAR -&gt; Mitraclip JJJ\n¿Sufre alguna enfermeda\nd crónica?: Otras enfermedades crónicas, Hipertensión\nEspecificar otras enfermedades crónicas:\nEsfínter uretral artificial, ex fumador desde JJJ, alcohol social, IQ total BMN, gastritis, pirosis ocasional, hernias discales lumbares , prostatectomia radical JJJ, incontinencia de esfue\nrzo JJJ.\nDéficit de autocuidado: Alimentación, Movilización, Hig\niene\nAlergias: No\nEstado de la consciencia: Inconsciente\nModalidad ac\nceso vía aérea: Artificial\nValor Frecuencia cardíaca: 127 lpm\nRitmo de\nposicional:\nDiario\nPrótesis dental: Sí\n¿Alteración de la integridad d\ne piel y mucosas al ingresar?: No\nColoración de la piel: Normocoloreada Puntuación escala Braden: 9-Riesgo alto\nTemperatura axilar: 36.1 ºC ¿Tiene dolor al ingreso?: No\nPuntuación escala EVN: 0\nPuntuación escal\na ESCID: 0-Sin dolor\nPuntuación escala Downton: 3-Riesgo alto",
+  "text_length": 1948,
+  "anonymized_count": 11,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4961319_episodio1008693866",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente que acude a urgencias por dolor en EID. HTA, comentado con MG, resto de constantes estables. Se canaliza CVP, se cursa Ax, se realiz\na Rx y se administra medicación según pauta. Dolor que mejora con analge\nsia pautada. Diuresis en pañal. Pdt. Resultados y evolución. Acompañad\no por JJJ. Fecha: JJJ\nreop realizado: CI firmado + ECG + Reserva.\nSe realiza TAC. Ingreso COT\n. Fecha: JJJ\neneral Responsable identificación positiva del paciente: JJJ\n¿E\nn el momento del ingreso el paciente lleva pulsera identificativa?: Sí Datos persona contacto (nombre, teléfono y parentesco): JJJ:\nJJJ , JJJ\n¿La persona de contacto corresponde con el cuidador?:\nNo tiene cuidador\nProcedencia del paciente antes del ingreso hospitalar\nio: JJJ\nMotivo ingreso y procedencia interna:\nCut au\nt pertrocantérea fémur Der.\nAlergias: No\nAntecedentes medico-quirúrgic\nos:\nOsteosíntesis de fémur derecho, citoscopia, gastrectomía total, her\nniorrafia inguinal.\n¿Sufre alguna enfermedad crónica?: Dislipemia, Insu\nficiencia renal crónica, Otras enfermedades crónicas, EPOC, Hipertensión Especificar otras enfermedades crónicas:\nNeo gástrica IQ JJJ\nDéfici\nt de autocuidado: Vestido, Movilización, Higiene, WC\nPuntuación escala\nBarthel al ingreso: 40-Dependencia moderada Valoración aparato respir\natorio Tipo de respiración: Eupneico\nValor frecuencia respiratoria:\n15 resp/min Valoración cardiovascular Valor Presión Arterial sistó\nlica: 166 mm Hg\nValor Presión Arterial diastólica: 86 mm Hg\nValor frec\nuencia cardíaca: 81 lpm Valoración gastrointestinal Prótesis denta\nl: Sí\n¿Lleva puesta la prótesis dental?: Sí\nRitmo deposicional:\nIrreg\nular Valoración genitourinaria Incontinencia urinaria: Sí Valor\nación musculoesquelética Puntuación escala Downton: 4-Riesgo alto Valoración Piel y Mucosas ¿Alteración de la integridad de piel y muco\nsas al ingresar?: No\nColoración de la piel: Normocoloreada\nCaracteríst\nicas de la piel: Seca\nPuntuación escala Braden: 12-Riesgo alto Valor\nación neurológica Estado de la consciencia: Alerta\nOrientación: No Valoración Dolor y Disconfort ¿Tiene dolor al ingreso?: Sí\nPuntuac\nión escala EVN: 2 Valoración salud mental y adicciones Puntuación\nescala detección depresión PHQ-2: 20-No valorable\n¿Fuma actualmente?: N\no\nExfumador: Sí\n¿Usted bebe de forma habitual?: No\nEx-enol: Sí\n¿Tien\ne problemas para dormir?: Sí",
+  "text_length": 2337,
+  "anonymized_count": 10,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

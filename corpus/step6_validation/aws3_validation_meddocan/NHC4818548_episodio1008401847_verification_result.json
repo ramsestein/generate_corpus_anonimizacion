@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4818548_episodio1008401847",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nOTA TRIAJE NRL (JJJ) JJJ de JJJ con antecedente de hematoma lobar temporal derecho en JJJ. Por efecto masa local y míni\nmo desplazamiento de línea media se realiza intervención quirúrgica e in\ngresa neurocirugía. Al alta neurológicamente con síndrome\nparietal dere\ncho con heminegligencia, anosognosia y hemihipoestesia. NIHSS 4. El p\naciente refiere que esta mañana se levanta con sensación de inestabilida\nd de la marcha (\"sensación de estar en un barco\") sin náuseas ni vómitos\n. A mi valoración hemodinámicamente estable. Neurológicamente vigil, con\nsciente con orientación en las tres esferas. Lenguaje normofluente sin r\nasgos de afasia ni disartria. Obedece órdenes simples, cruzadas y comple\njas. Mirada primaria centrada sin limitaciones en la excursión visual co\nn presencia de nistagmo horizontal en la mirada izquierda. Cuadrantanops\nia izquierda y extinción visual. Balance motor conservado sin alteracion\nes sensitivas. No dismetrías. Marcha con lateralización a la derecha. Ro\nmberg negativo. Se trata de un síndrome vertiginoso en paciente con a\nntecedentes de hematoma. Indico traslado a urgencias para valoración. Re\nalizar nuevo TC cerebral para descartar resangrado. Fecha: JJJ\nRM: JJJ de JJJ, autónomo, sin AMC, con antecedentes de hipertensi\nón arterial y enfermedad del nodo sinusal (frec habituales 35-45x') en s\neguimiento por Cardio mutua que considera no candidato a MCP por el mome\nnto dado que se encuentra asintomático. Reciente ingreso en NRC JJJ (alt\na JJJ) por hematoma lobar parietal derecho en contexto de emergencia hipertensiva, que requirió de craneotomía evacuadora. Durante el ingres\no se objetivó ritmo nodal que revirtió y bradicardia sinusal, sin síntom\nas asociados, por lo que arritmias lo valoró y consideró no MCP por el m\nomento. Actualmente tratamiento con enalapril, doxazosina, levetiracetam y alopurinol. Seguimiento en CEX NRC sin incidencias. Hace JJJ TC\ncraneal de control sin alteraciones. Hoy consulta en urgencias por in\nestabilidad desde esta mañana, sin sensación rotatoria, sin náuseas o vó\nmitos, sin síncope, dolor torácico, disnea, palpitaciones u otra clínica añadida, que se ha mantenido durante toda la mañana. A mi valoración pa\nciente en decúbito con leve mareo (predominio de la inestabilidad con la movilización). HDE (146/66 mmHg). EF sin alteraciones a destacar.\nECG\nen bradicardia sinusal a 30x' y bloqueo de 1r grado, conocidos. No clara taquicardización al esfuerzo.\nAnalítica en curso.\nValorado por NRC se realizará TC craneal a descartar resangrado.\nJC: La clínica actual no\nparece estar en relación a su enf del nodo (actualmente en ritmo sinusal a frecuencias habituales). Comento con CAR, se acuerda recomendar según resultados de AS y TC para valorar correlación del cuadro actual con su trastorno de la conducción así como necesidad de MCP. De momento se acu\nerda no monitorización. Fecha: JJJ\nOTA NRL (JJJ) Paciente valorado en triaje (ver nota triaje). Teni\nendo en cuenta el antecedente de hematoma lobar que en sucesivos control\nes por NRC se reorienta como ictus isquémico con transformación hemorrág\nica no se puede descartar resangrado VS nueva lesión isquémica. Indicamo\ns nuevo TC cerebral. Recomendar con NRL con resultados (JJJ).",
+  "text_length": 3234,
+  "anonymized_count": 14,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

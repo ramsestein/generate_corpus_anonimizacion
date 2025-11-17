@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5270731_episodio1008531139",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente en UCOI que avisa por dolor. TV: Cérvix centrándose, de consi\nstencia intermedia, a 2 cm de canal, permeable a dedo amplio. Cefálica i\nnsinuada. BAR. Líquido claro.\nSe realiza NST de control: FCFb 140 lpm,\nvariabilidad conservada, presencia de aceleraciones no desaceleraciones. DU clínica de 3-4 contracciones cada 10'. Fecha: JJJ\naloración obstétrica Responsable identificación positiva del paciente\n: Paciente\n¿En el momento del ingreso el paciente lleva pulsera identif\nicativa?: Sí\nComprobación identificación madre-recién nacido: No proced\ne\nProcedencia del paciente antes del ingreso hospitalario: Domicilio\nM\notivo ingreso y procedencia interna:\nRPM\nAlergias: Sí\nEspecificar ale\nrgias:\nGluten\nReacciones transfusionales previas: No\nValor Presión Ar\nterial sistólica: 135 mm Hg\nValor Presión Arterial diastólica: 90 mm Hg Valor frecuencia cardíaca: 69 lpm\nTemperatura axilar: 35.8 ºC\nTipo d\ne paciente: Gestante\nRPM (Dia): JJJ\nRPM (Hora): JJJ\nMetrorra\ngia: No\nPuntuación escala EVN: 0 Fecha: JJJ\nngresa gestante de 39,1sg para control evolutivo. RPM hoy a las JJJ.\nNo refiere algias ni PH. DM tipo 1, portadora de BIC. CVP canalizado e\nn urgencias en ESI.\nPróxima valoración hoy a las JJJ en SP. Fecha: JJJ\naja a SP por sensación de dinámica uterina. RCTG con línea basal en 14\n0lpm, variabilidad conservada, no aceleraciones ni desaceleraciones.\nDi\nnámica de 2/10 minutos sintomática. Se realiza TV precio consentimient\no. Cuello centrado, borrado fino y blando, dilatación de 3cm, cefálica i\nnsinuada.\nFluye líquido amniótico ligeramente teñido. La gestante con IPN, desea oxido nitroso. Abrimos partograma Fecha: JJJ\nARTOGRAMA:\nFecha/hora actuación: JJJ Comentarios: No\ns presentamos tras cambio de turno. Explicamos no indicación de hidroter\napia en bañera por gestación de alto riesgo y ofrecemos alternativas de\ncontrol del dolor no farmacológico (uso de óxido nitroso). Se coloca mon\nitor de control. Fecha: JJJ\nube gestante de SP. Glicemia pre-pandrial: 103 mg/dl.\nBajar a las JJJ o\nantes si precisa.",
+  "text_length": 2034,
+  "anonymized_count": 12,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

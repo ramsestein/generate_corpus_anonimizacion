@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5281543_episodio1008677573",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nacient arriba a urgències per deteriorament de l'estat general (empitjor\nament paèsia EEII + disàrtria) de JJJ d'evolució. A l'arribada somnol\nenta però reactiva a estimuls, desorientada però tranquil·la. Afebril, H\nDM estable. Portadora de LN 2lx'. Depenent ABVD. Valorada per medicina,\nes realitza anàmnesi amb JJJ. Realitzen ECO a peu de llit. Es curs\na analítica de control + sediment d'orina (x sondatge de descàrrega), i\nes canalitza CVP. S'administra STP per indicació mèdica. Es realitza Rx. Pd TAC. Fecha: JJJ\naciente procedente de PUR2 para realizar angio-TC pulmonar urgente con c\nontraste ev. No refiere alérgia a contrastes. Taxa de filtrado glomerula\nr dentro de los parámetros establecidos. Vía periférica permeable en ple\nxo derecho. Se realiza prueba sin incidencias.\nRecomendaciones después\nde la prueba:\nHidratación oral: 2 litros de agua en les próximas JJJ en caso de no tener indicada la restricción hídrica. Paciente portado\nra ya de STP Fecha: JJJ\nonsciente, confusa, dificultad para entender verbalmente.\nNo aparente a\nlgias, no tolera VO. Presenta disfagia de agua con espesante.\nSe cursa\ntroponinas + tubo de hemostasia Fecha: JJJ\nresenta disfagia con gelatina. Se administra pantoprazol (no deja firmar\n) Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Doble check (dos profesionales)\n¿En el momento del ingreso el pa\nciente lleva pulsera identificativa?: Sí\nDatos persona contacto (nombre\n, teléfono y parentesco):\nJJJ (JJJ) JJJ\n¿La persona de cont\nacto corresponde con el cuidador?: Sí\nProcedencia del paciente antes de\nl ingreso hospitalario: Domicilio\nMotivo ingreso y procedencia interna: TEP BILATERAL\n¿Sufre alguna enfermedad crónica?: Diabetes, Otras enfe\nrmedades crónicas, Dislipemia, Hipertensión\nEspecificar otras enfermeda\ndes crónicas:\n- ICTUS ISQUÉMICO JJJ\n- HTA\n- DM\n- DLP\nDéficit de autoc\nuidado: Movilización, Higiene, Alimentación\nAlergias: Sí\nEspecificar a\nlergias:\nPenicilinas\nEstado de la consciencia: Confuso\nModalidad acce\nso vía aérea: Natural\nValor Frecuencia cardíaca: 88 lpm\nMicción espont\nánea: Sí\nRitmo deposicional:\nDesconocido\n¿Alteración de la integridad de piel y mucosas al ingresar?: No\nColoración de la piel: Normocolorea\nda\nCaracterísticas de la piel: Frágil\nPuntuación escala Braden: 11-Rie\nsgo alto\nTemperatura axilar: 36.2 ºC\n¿Tiene dolor al ingreso?: No\nPun\ntuación escala EVN: 0\nPuntuación escala Downton: 5-Riesgo alto",
+  "text_length": 2441,
+  "anonymized_count": 12,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

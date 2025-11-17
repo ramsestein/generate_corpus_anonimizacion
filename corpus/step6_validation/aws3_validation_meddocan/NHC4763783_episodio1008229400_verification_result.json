@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4763783_episodio1008229400",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente con AP; TX HEP JJJ, DM2. Acude por cuadro de desorientación en\ndomicilio + MEG traído por el SEEM con cuadro encefalopatico y disneico. se coloca VMK al 40% durante todo el turno, Se canalizan 2 VP, se ext\nrae analítica, GSA, Hemocultivos, POC Venoso, Antigenurias y sedimento d\ne orina. Se inicia tto broncodilatador. STP y antitérmicos pues inicia\nlmente temp 38ºC. Se realiza frotis Virus Respiratorios. Se contacta con UTH, visitan paciente en el box. Se contacta con UCI HEP y se inici\na traslado, paciente comentado.",
+  "text_length": 541,
+  "anonymized_count": 2,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

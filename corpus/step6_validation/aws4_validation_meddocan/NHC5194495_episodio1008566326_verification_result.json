@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5194495_episodio1008566326",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nC: Melenas JJJ\npacient amb astenia\nes realitza @\nes deixa monitori\ntzat\ninicio bomba de PANTO 80MG 25ml/h POM\nse traslada en ambulancia a la PUR 3. SE DEJA LA BOMBA DE PANTO con dosiflow. Paciente CyO Fecha: JJJ\naciente trasladado desde seu plató por heces oscuras A su llegada C y\nO, HDME, afebril, eupneico en basal. No algias en reposo Portador de B\nIC panto. Se inicia STP y se realiza ic con gastro pte de endoscopia P\nortador de 2cvp en EESS Se extrae reserva de sangre y se reclama 1CH a banco de sangre pte de transfundir Ingresará a cargo de gastro",
+  "text_length": 568,
+  "anonymized_count": 3,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC303346_episodio1008435839",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nVALORACIÓN INFECCIOSAS (JJJ): Paciente de JJJ con los AP antes comentados entre los que destacan infección crónica por VIH en tratamiento y con buena situación inmunovirológica, SMD (posible LMMC) en seguimiento por Hemato, IRC y adenoma tubulovelloso pendiente de 2ª cirugía de resección transrectal. Presenta cuadro de malestar abdominal con hiporexia, náuseas y luego empeoramiento de diarrea mucosa con sensación distérmica, sin fiebre termometrada. En Urgencias está afebril, con tendencia a la hipotensión. Destaca en la analítica deterioro agudo de la función renal, elevación de reactantes (PCR de 12 y PCT de 15) y elevación marcada de la leucocitosis. Se han tomado muestras microbiológicas. Sugiero añadir toxina de CD y hacer frotis de sangre periférica para descartar transformación a leucemia aguda. Se ha iniciado Meropenem EV; se valorará TAC abdominal y paso a unidad de críticos, según evolución. Fecha: JJJ\naciente que sube a PUR3 des de PUR2 para monitorización y manejo.\nA su\nllegada C y O, HMD estable con tendencia a la hTA (PAM&gt;70mmHg), afebril. AP: VIH (buen control), Probable SMD/SMPC, IRC, Neo recto.\nPortador de CVP 18 en ESE. Canalizo nuevo CVP 16 en ESD. Realizamos POC venoso. Paciente va al TAC",
+  "text_length": 1241,
+  "anonymized_count": 4,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

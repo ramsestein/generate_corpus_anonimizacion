@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5048000_episodio1008578105",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nPE PUR3:\nACude por debilidad, nauseas con vomitos desde hace JJJ y d\nolor abdominal.\nSe guarda ropa en bolsa ID\nSe realiza ECg + a/s 3 tubo\ns y equilibrio AB Fecha: JJJ\nOTA DE INGRESO ONCOLOGÍA MÉDICA (JJJ) Paciente de JJJ, con antecedentes de diverticulitis con resección d\ne 75 cm de sigma hace JJJ; ingreso hasta el JJJ por hemorragia\ndigestiva baja sin objetivarse causa aparente. NSCLC posible carcinom\na pleomórfico estadio IV cTxN2M1c (derrame pleural izquierdo, implantes\nmusculares, ósea 7º costilla D, pancreática, subcutáneas), PD-L1 100%, K\nRASm G12C, diagnosticado en JJJ en JJJ, realizó 1L con pembrolizuma\nb/sacituzumab govitecán (JJJ; BOR: Respuesta parcial\n) PD JJJ pleural, adp, pancreática. Actualmente en 2L con Carboplat\nino + Pemetrexed + Sotorasib, C1D1 JJJ. Acude a Urgencias por pr\nesentar deterioro del estado general, junto con diarreas abundantes en l\nos últimos JJJ (que refiere son claramente melénicas) e intolerancia\na la vía oral. No fiebre ni sensación distérmica, tos similar a habitual sin expectoración, no otra sintomatología. A su llegada a Urgencias\npaciente con regular estado general, febril, hemodinámicamente estable c\non tendencia a la taquicardia, eupneica en reposo Sat 99%. Hipofonesis e\nn hemitórax izquierdo, MVC derecho. Tonos cardiacos rítmicos sin soplos. Abdomen blando y depresible, peristaltismo disminuido, doloroso en la p\nalpación en FII. Sin déficit motor ni sensitivo, no meningismo, pares cr\naneales conservados. Rx de tórax: franca mejoría del derrame pleural\n/ atelectasia hemitórax izquierdo; sin masas ni consolidaciones. Anal\nítica sanguínea: Equilibrio ácido base -&gt; bicarbonato 16.5 ph normal. PC\nR 11.93, K 3.2 mEq/ L, leucocitos 180 neutrófilos 100, monocitos 0, hb 9\n.3 g/dl, plaquetas 86000. Perfil de orina: en curso\nPCR de virus re\nspiratorios: negativos\nHemocultivos: en curso TAC abdominal: Signos\nde una enteritis segmentaria de predominio y en yeyuno proximal y asas i\nleales. Sin líquido libre, colecciones intraabdominales ni neumoperitone\no. OD: 1.- Neutropenia febril de alto riesgo (MASCC 19p, CISNE 3p)\n2\n.- Plaquetopenia G1, anemia G2 PLAN: - Ingreso en Oncología Médica. I\nniciamos tratamiento con P/T a la espera de cultivos.\n- Dejo en dieta a\nbsoluta por el momento, a reiniciar tolerancia oral mañana.",
+  "text_length": 2305,
+  "anonymized_count": 13,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

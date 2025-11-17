@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC534072_episodio1008765645",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nurs Clínic - OBS\nCurs Clínic - OBS EG: 28s 4d\nEstàtica fetal: Cefàl\nica\nFCF: Positiva\nText Lliure:\nAcude a visita explicando nuevo episod\nio de sangrado esta mañana al despertarse (catidad similar a\nmestruació\nn).\nExploración en consulta: cervix i vagina normales. Restos hemtámico\ns en vagina. Mínimo sangrado a\ntraves de cervix.\nECOTV: Longitud cervi\ncal de 37 mm. Imagen heterogénea de 25 x 16 mm localizada a nivel precer\nvical,\nque nace del polo placentario inferior, compatible con hematoma. Placemta anterior que llega a 10-15\nmm de OCI, grosor miometrial conse\nrdo a nivel de cicatriz previa (4.2 mm). Interfase placenta miometrio\ns\ne identifica correctamente a lo largo de toda la superficie placentaria, incluyendo el polo placentario\ninferior. No signos acretismo placentar\nio.\nDerivamos a urgencias para NST y valorar ingreso en observación vs\ntocolisis en función de evolución. Fecha: JJJ\naloración Obstétrica\nValoración obstétrica Responsable identificació\nn positiva del paciente: Paciente\n¿En el momento del ingreso el pacient\ne lleva pulsera identificativa?: Sí\nComprobación identificación madre-r\necién nacido: No procede\nProcedencia del paciente antes del ingreso hos\npitalario: Domicilio\nMotivo ingreso y procedencia interna:\nHematoma pe\nricervical\nAlergias: Sí\nEspecificar alergias:\nProcaina y Tetracaina Reacciones transfusionales previas: No\nValor Presión Arterial sistólica\n: 110 mm Hg\nValor Presión Arterial diastólica: 63 mm Hg\nValor frecuenc\nia cardíaca: 90 lpm\nTemperatura axilar: 36.3 ºC\nTipo de paciente: Gest\nante\nDinámica uterina: Ausencia\nHidrorrea (pérdida líquido amniótico): Ausencia\nPuntuación escala EVN: 0-No hay dolor Fecha: JJJ\n¿Desea activar el AET? No Fecha: JJJ\nctivació LET: ¿Desea activar el AET? Sí\nAdecuación del esfuerzo terap\néutico\nLET En caso de parada cardiorespiratoria: iniciar medidas de\nRCP?: Si\nOtras limitaciones del tratamiento: Fecha: JJJ\nuspensió LET Fecha: JJJ\n/S: Hb 13.1, hto 39%, plaq 248000, coag normal, PCR 0.76. Fecha: JJJ\nngresa gestante 28.4sg por hematoma precervical. A su llegada, HDM estab\nle, afebril. No refiere dinámica uterina, no hidrorrea, metrorragia esca\nsa. Portadora CVP nº18. Cursada analítica + reserva de sangre en urgenci\nas. Iniciamos maduración pulmonar con CE, 1a dosis administrada JJJ a\nlas JJJ. Iniciamos tocolisis con Atosiban a las JJJ. Reposo absoluto. Se administra vacuna dTpa. Pendiente mañana 2a dosis CE JJJ a las JJJ +\nanalítica a las JJJ. Fecha: JJJ\nestante 28.4w, hematoma precervical. HDME y afebril. No refiere algias\n, no DU, no PLA, no PH.\nPortadora CVP permeable con perfusión de Atosib\nan a 8ml/h.\nMantenemos RA, con diuresis mantenidas en cuña. A las JJJ refiere tener la barriga dura, coloco NST pero no marca DU. Valorado x\nMG. Pasa la tarde tranquila y acompañada. Tolera dieta. Pte. AS mañ\nana JJJ + 2ª CE a las JJJ. Fecha: JJJ\n8.4 sg. Metrorragia 3T. Placenta de inserción baja. Hematoma precervical\n. 1ª dosis CE JJJ JJJ. Atosibán +0 (inicio JJJ). RS JJJ. Buen es\ntado general. No DU, no pérdidas hemáticas desde ingreso. Refiere mole\nstias abdominales durante la tarde, se realiza RCTG: PFR. No DU. Con\nstantes: TA 111/56 mmHg, FC 96 lpm, Sat O2 100%, Tª 36.4ºC AS ingreso\n: A/S: Hb 13.1, hto 39%, plaq 248000, coag normal, PCR 0.76. PLAN:\n- Pendiente 2ª dosis de CE JJJ JJJ.\n- Mantener atosibán hasta completa\nr tanda. - Control evolutivo. Avisar a MG si DU, PH u otra clínica de\nalarma.",
+  "text_length": 3420,
+  "anonymized_count": 24,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

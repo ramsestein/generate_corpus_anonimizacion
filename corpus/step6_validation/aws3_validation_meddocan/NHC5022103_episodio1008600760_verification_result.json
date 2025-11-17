@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5022103_episodio1008600760",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nTIPUS D&apos;EXPLORACIÓ: FGS Al·lèrgies: NO AMC Objectes personals: NO TIPUS DE CATÈTER Data i lloc de col·locació Perfusió MED 18 MA ESQ 1CH MED20 BRAÇ D PANTOPRAZOL+SG10% Sonda nasogàstrica: Arribada: No Sortida: Col·locació: No MONITORITZACIÓ: El pacient es manté hemodinàmicament estable durant el procediment. Hora inici: JJJ TA: 121/75 FC: 80 FR: 15 Sat02: 100 Hora final: JJJ TA: 99/53 FC: 77 FR: 18 SatO2: 100 OBSERVACIONS I COMENTARIS: Ver informe endoscopia digestiva. Fecha: JJJ\nUR3_TT\nPaciente que acude con AP; HTA, ADK endometrio con M1 pulmonares\n. Se sospecha probable HDA. Derivada desde CUAP ante hipotensión y des\ncenso brusco de Hb ante deposiciones oscuras durante las últimas JJJ. Se inicia perfusión de pantoprazol y se administra 80mg de pantoprazol EV.\nSe contacta con GAS para valoración, indicando gastroscopia en la\ntarde, inicio de transfusión de 1CH y STP. Se decide ingreso en GAS, p\naciente marcha a gastroscopia a las JJJ.\nTras GAS vuelve sobre las 1\nJJJ con resultado de lesion por bulbo duodenal no visualizado por gra\nn coagulo. Se mantiene en FAMNIS, se realizara nueva FGS mañana.",
+  "text_length": 1129,
+  "anonymized_count": 7,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

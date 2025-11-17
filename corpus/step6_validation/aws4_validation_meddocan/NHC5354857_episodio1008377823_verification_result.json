@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5354857_episodio1008377823",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nestante de JJJ que ingresa para finalización por MAO (exitus neonata\nl a las JJJ de vida en el JJJ). FR: trastorno ansiedad + TEPT (trat\nsertralina y quetiapina) + vulnerabilidad social. Se canaliza VVP en EEI\n, CI firmado. Se cursa analítica Buen estado general. Ctes mantenidas; T\nA: 123/75, FC: 86, afebril. RCTG: FCF basal 135 lpm, variabilidad conser\nvada con presencia de aceleraciones sin desaceleraciones. DU irregular s\nubclínica. Se explica proceso de inducción, se resuelven dudas y se re\naliza TV: cx posterior, cerrado y formado. Se administra propess a las\nJJJ y se deja NST de control. Fecha: JJJ\nE realiza RCTG post propess tranquilizador. FCFb:120 , presencia acceler\naciones, no desacceleraciones, variabilidad correcta. DU: esporádica 1c/\n10 sublcinica. Explicamos signos de alarma y de parto. Plan: Nuevo monit\nor de control a las JJJ. Fecha: JJJ\naloración obstétrica Responsable identificación positiva del paciente\n: Paciente\n¿En el momento del ingreso el paciente lleva pulsera identif\nicativa?: Sí\nComprobación identificación madre-recién nacido: No proced\ne\nProcedencia del paciente antes del ingreso hospitalario: JJJ\nM\notivo ingreso y procedencia interna:\ninduccion al parto\nAlergias: No Valor Presión Arterial sistólica: 118 mm Hg\nValor Presión Arterial dias\ntólica: 78 mm Hg\nValor frecuencia cardíaca: 99 lpm\nTemperatura axilar: 36.9 ºC\nTipo de paciente: Gestante\nDinámica uterina: Ausencia\nHidror\nrea (pérdida líquido amniótico): Ausencia\nPuntuación escala EVN: 2-Dolo\nr leve Fecha: JJJ\nestante de JJJ para finalizacion . MAO, ant. de exitus neonatal, t. ps\niquiatrico. Esta en JJJ. Nuevo control de monitor sobre las JJJ.\nDU esporadica.",
+  "text_length": 1678,
+  "anonymized_count": 13,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

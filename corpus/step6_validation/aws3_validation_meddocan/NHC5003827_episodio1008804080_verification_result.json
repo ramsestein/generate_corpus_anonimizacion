@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5003827_episodio1008804080",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nARTOGRAMA:\nFecha/hora actuación: JJJ\nRCTG: Normal Comentarios: JJJ que ingresa en SP4 en contexto de inicio de parto espontáneo. Solicita peridural. RCTG: PFR, FCFb 130lpm. Patrón acelerativo y variable. DU irregular. Último TV: cx borrado 4 cm. BAI. Se avisa a anestesia. Fecha: JJJ\nARTOGRAMA:\nFecha/hora actuación: JJJ\nRCTG: Normal Comentarios: Tras analgesia peridural realiza hipotensión sintomática que se corrige con 2cc efedrina tras avisar a EA. Posteriormente normotensa y asintomática.\nRCTG: PFR. FCFb 135-140 lpm. Patrón acelerativo y variable. No desaceleraciones. DU 2-3:10 bien tolerada tras peridural. Fecha: JJJ\nARTOGRAMA:\nFecha/hora actuación: JJJ\nDilatación: 6\nVariedad: OIIT\nRCTG: Normal Comentarios: RCTG: PFR. FCFb 140lpm. Patrón acelerativo y variable. No desaceleraciones. DU 2-3:10 irregular.\nRealizo TV previo consentimiento: cx borrado, dil. 4-5cm. Cef ins apoyada. BAI. Ante leve progresión de la dilatación y DU irregular propongo realizar AA, entiende y acepta. Realizo sin incidencias. Fluye líquido claro. Dejo en sedestación con apertura de e. superior. Comentamos plan de parto oralmente. Fecha: JJJ\nARTOGRAMA:\nFecha/hora actuación: JJJ Comentarios: Añadir a curso anterior: tras AA, dil. 6cm. Cef apoyada. Fecha: JJJ\nARTOGRAMA:\nFecha/hora actuación: JJJ\nDilatación: 10\nPlano: I\nVariedad: OIIT\nRCTG: Normal Comentarios: RCTG: PFR. FCFb 130 lpm. Patrón acelerativo y variable. Desaceleraciones tipo baroR recurrentes. Refiere sensación de presión.\nRealizo TV previo consentimiento: dil. completa. Cef en IPH alta. Variedad OIIT casi anterior. BAR, líq. claro. Dejo en DLI con apertura de e. superior. Fecha: JJJ\nARTOGRAMA:\nFecha/hora actuación: JJJ Comentarios: PUERPERIO INMEDIATO: Buen estado general, útero bien contraído. Sangrado fisiológico. Buena movilidad de MMII. Se retira catéter peridural. Inicia LM, buen agarre. Fecha: JJJ\nValoración Obstétrica Responsable identificación positiva del paciente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera identificativa?: Sí\nComprobación identificación madre-recién nacido: Sí\nProcedencia del paciente antes del ingreso hospitalario: Domicilio\nMotivo ingreso y procedencia interna:\nparto\nAlergias: No\nValor Presión Arterial sistólica: 105 mm Hg\nValor Presión Arterial diastólica: 66 mm Hg\nValor frecuencia cardíaca: 77 lpm\nTemperatura axilar: 36.5 ºC\nTipo de paciente: JJJ\nAltura uterina: -1\nLoquios: Fisiológicos\nTipo de parto: Eutócico\nDeseo de lactancia en gestación actual: Sí\nPuntuación escala EVN: 2 Fecha: JJJ\nIngresa JJJ con RN . Buen estado general. Útero bien contraído. Pérdida hemática fisiológica. Realiza 1ª micción correcta. Tolera bien deambulación. Fecha: JJJ\n+0. Parto eutócico de inicio espontáneo. FR: riesgo alto PE (Tromalyt JJJ). - Buen estado general.\n- Constantes mantenidas. Tolera ingesta y deambulación. Micciones espontáneas correctas. Dolor controlado con analgesia pautada.\n- Útero contraído. Abdomen blando y depresible. PH fisiológica. Periné con buen aspecto. TV realizado en sala de partos.\n- GsRH: A+. Serologías negativas. Rubeola: inmune. No precisa gamma Anti-D ni vacuna TV. SGB: neg.\n- Lactancia materna instaurándose. Resuelvo dudas sobre el proceso de subida de leche. Refuerzo ed. sanitaria. Informo sobre grupos de apoyo a la lactancia ya que está preocupada por la anterior experiencia lactando. - Plan: Ferroterapia+ analgesia. Control evolutivo. Criterios de alta JJJ. Activo circuito del JJJ y solicito TELPPIN. Fecha: JJJ\nPuérpera HDME con tendencia a la hipotensión y afebril. Dolor controlado con analgesia vo. Buen curso obstétrico, útero bien contraído, PH fisiológica. Ingesta y deambulación bien toleradas. ME mantenidas. Lactancia materna correcta. Posible alta JJJ.",
+  "text_length": 3732,
+  "anonymized_count": 23,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

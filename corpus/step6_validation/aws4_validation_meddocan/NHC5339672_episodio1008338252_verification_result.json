@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5339672_episodio1008338252",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nostoperatorio inmediato dentro de la normalidad, mantiene constantes y a\nfebril. Dolor bien controlado, administro analgesia según pauta. Útero c\nontraído, pérdidas fisiológicas. AQ limpio. Portadora de SVP, diuresis c\norrecta, retiro sin incidencias. Pte.1a micción. Glicemias bien controla\ndas (no ha sido portadora de bomba insulina desde quirófano, se comenta\ncon equipo médico que indica control glicémico e inicio de dieta progres\niva), insulina sc. según pauta excel. Inicia ingesta hídrica y se progre\nsa a semilíquida, bien tolerada. Bromage: IV. LM correcta. Fecha: JJJ\no se administra insulina (4ui) del almuerzo por decisión de la paciente\n(95 pre- 144 post), refiere que Dr.JJJ le indicó que por tendencia a la hipoglicemia si no subía >180mg/dl, no se administrara pauta. Fecha: JJJ\nuerpera HDM estable y afebril. Algias controladas con analgesia de pauta\n. Buen curso obstetrico, utero bien contraido y PH fisiologicas. Glicemi\na pre: 66 post: 97. Tolera ingesta (inicia dieta progresiva) y movilizac\nión. AQ limpio. SV retirada a las 13:15h pdte 1a miccion espontanea. LM correcta. Fecha: JJJ\nraslado e UCOI,ctes mantenidas afebril,se retira aposito de HQ buen aspe\ncto,analgesia segun pauta,control de glicemias e insulina (la paciente),\nSV 1200CC(JJJ)PTE 1 miccion ,LM buen agarre",
+  "text_length": 1309,
+  "anonymized_count": 6,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

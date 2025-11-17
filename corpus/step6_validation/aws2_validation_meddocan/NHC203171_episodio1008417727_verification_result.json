@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC203171_episodio1008417727",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nC Codi Ictus\nPacient traslladat per SEM com a Codi Ictus, s&apos;actúa segon\ns protocol i es trasllada al SCA Fecha: JJJ\nacient alerta, disàrtrica. Lleugerament inquieta. Pell normocolorejada.\nNRL comenta amb MG de JJJ per trasllat iobservació fins RMN. Fecha: JJJ\nlínicamente estable, con persistencia de disartria. Se ha ampliado analí\ntica que es normal. Pendiente de RMN. Fecha: JJJ\nEL TT:\nCyO. Disártrica. Hipertensa, eupneica y correcta SatO2 en basal. Afebril. No refiere algias. Portadora de CVP#1; permeable. FAMIS\ncon STP. Se realiza RMN cerebral a primera hora de la tarde. Resultado\ns muestran ictus isquémico. Diuresis en cuña. Acompañada durante la\ntarde.\nIngreso a cargo de NRL en JJJ. Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Doble check (dos profesionales)\n¿En el momento del ingreso el pa\nciente lleva pulsera identificativa?: Sí\nDatos persona contacto (nombre\n, teléfono y parentesco):\nJJJ (JJJ)\nJJJ (JJJ)\n¿La persona de contacto corresponde con el cuidador?: No\n¿Vi\nve solo?: No\nProcedencia del paciente antes del ingreso hospitalario: O\ntros\nEspecificar procedencia:\nJJJ\nMotivo ingreso y procedencia int\nerna:\nictus isquemico lacunar\n¿Sufre alguna enfermedad crónica?: Otra\ns enfermedades crónicas, Hipertensión, Diabetes\nDéficit de autocuidado: Movilización\nAlergias: No\nEstado de la consciencia: Alerta\nOrientaci\nón: Sí\nModalidad acceso vía aérea: Natural\nValor frecuencia respirator\nia: 22 resp/min\nSaturación O2: 96 %\nValor Presión Arterial sistólica:\n117 mm Hg\nValor Presión Arterial diastólica: 90 mm Hg\nValor Frecuencia cardíaca: 98 lpm\nMicción espontánea: Sí\nRitmo deposicional:\ncada 24h Fecha última deposición: JJJ\n¿Alteración de la integridad de p\niel y mucosas al ingresar?: No\nColoración de la piel: Normocoloreada\nC\naracterísticas de la piel: Frágil\nPuntuación escala Braden: 15-Riesgo m\noderado\nTemperatura axilar: 36.3 ºC\n¿Tiene dolor al ingreso?: No\nPunt\nuación escala EVN: 0-No hay dolor\nPuntuación escala Downton: 5-Riesgo a\nlto Fecha: JJJ\naciente es trasladada a la unidad de ictus a su llegada a la unidad pa\nciente c y O\nNRL NIHSS 1 mucha inquietud motora disartria moderada ente\nndible. HDM estable con tendencia a la HTA afebril. tendencia a quit\narse dispositivos intenta extraerse la vía por lo que precisa contención de EESS. RESP : basal\nELIM: diuresis en pañal no depo ALIM: manten\nemos Famis + STP se realiza test de disfagia. a mi valoración disfagia B buena tolerancia a la textura miel no tolera líquidos. MOV: reposo se realiza ECG de ingreso Pdte. de valoración. se deja en carpeta de la\npaciente",
+  "text_length": 2610,
+  "anonymized_count": 14,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

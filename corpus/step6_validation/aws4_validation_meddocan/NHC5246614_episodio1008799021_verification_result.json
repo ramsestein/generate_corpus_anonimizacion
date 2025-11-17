@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5246614_episodio1008799021",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nHOSPITAL DE DIA*\nPacient que acudeix al hospital de dia per realitzar-s\ne analítica per valorar funció renal després del reinici de diurètics la última setmana (F20 i E50). La pacient refereix milloria de la pruïja d\nesprés d'iniciar colestiramina. Sense episodis d'encefalopatia els últim\ns 3 dies. Deposicions correctes sense productes patològics, tot i que ex\nplica quadre de vòmits després d'un dinar familiar. A l'exploració c\nonscient i orientada, sense flapping. Edemes sense fòvea a EEII.\nAnalít\nica amb milloria de la funció renal amb FG 6.58ml/min, creatinina 1.18mg\n/dl, Na 140 mEq/L. Funció hepàtica dins dels valors habituals bilirrubin\na 1.5mg/dl. Hb 6g/dl, Htc 19. PLA:\n- Modifico la rifaximina de la re\ncepta, ja que m'explica que no li proporcionen a la fàrmacia.\n- 2 CH i\n20mg ev de furosemida entre concentrats.\n- 500mg de ferinject.\n- Conti\nnuar F20mg i E50mg. Pròxima visita en 3-4 dies donada l'anemització pers\nistent amb requeriments transfusionals, per valorar necessitat de transf\nusió, funció renal i valorar signes d'encefalopatia. Fecha: JJJ\naciente que acude al HD de la JJJ para nuevo control analítico y valora\nción .\nAl llegar TA 105/72 mmHG FC 105 x´ Tª 36,2ºC SATO2 10\n0%\nConsiente y orientada en 3 esferas. No se ve EH.\nPongo VP en ESI y\nsaco analítica de urgencias. Se le tienen que transfundir 2 concentrad\nos por Hb 60 y Hto de 19%\n1º JJJ, 2º JJJ sin prob\nlemas de momento.\nPongo500 mg de ferinject; bien tolerado.\nAl alta 120\n/78 mmHG FC 90 x´ Tª 36,8ºC SATO2 100%\nRetiro vía y alta.\nSe e\nncuentra bien y le viene a buscar su JJJ. Fecha: JJJ\nongo 20mg de furosemida antes de irse. Fecha: JJJ\naciente que llega a JJJ por disminución del nivel de consciencia\nAP1- CIRROSIS SECUNDARIA HEPATITIS AUTOINMUNE CHILD C\nReacciona al dolor, s\nin respuesta verbal\nHMD estable, afebril\nSe instauran 2 CVP, SNG y SV Se cursa analítica con reserva, tóxicos en orina y POC\nPortadora de pu\nlsera identificativa, pertenencias debajo camilla y joyas entregadas a T\nS\nIngresa en JJJ ingresa HEPATO",
+  "text_length": 2029,
+  "anonymized_count": 10,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

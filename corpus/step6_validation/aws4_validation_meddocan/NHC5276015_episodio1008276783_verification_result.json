@@ -1,0 +1,114 @@
+{
+  "document_id": "NHC5276015_episodio1008276783",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente consciente y orientado, acude a URG por sus propios medios (Moto\nclicleta). Verbaliza desde JJJ Cefalea a nivel temporal izq\nuierdo, diplopía, disartria y lateralidad izquierda. Derivado por CAP. Se administra captopril 25 mg, escasa efectividad. Se decide pasar a\nBox 1. Se realiza glucemia capilar 96 mg/Dl, ECG, canalizaciópn de acces\no venoso periférico con A/S y administración de 25 mg Labetalol ev. AP:\nHTA sin tratamiento por propia elección. Antecedentes de consumo de coca\nína (última ingesta JJJ). Pendiente de Rx de tórax y TC. Fecha: JJJ\naciente que consulta por pérdida de fuerza en extremidades izquierdas. ANTECEDENTES PATOLÓGICOS: no alergias medicamentosas conocidas. Fumado\nr de 10 cigarrillos al día. Antecedentes de consumo de cocaína (última i\nngesta JJJ). HTA diagnosticada hace JJJ, no controles periódicos. ENFERMEDAD ACTUAL: hallándose previamente bien, el JJJ por la noche inicia cefalea intensa témporo-parietal I; se levantó y por domicilio cayó en 2 ocasiones hacia el lado izquierdo. Al día sigui\nente ya no tenía cefalea pero cayó una vez más hacia el lado I. Ayer sal\nió a pasear pero notaba discreta tendencia a que le fallase el lado I de\nl cuerpo. Consulta hoy por persistencia de la sintomatología, que se ha\nmantenido son cambios desde su instauración, excepto la cefalea que remi\ntió al segundo día.\nCrisis HTA a su llegada a urgencias. EXPLORACIÓN FÍSICA: consciente y orientado, PIN de 3mm, MOE y campimetría normal. P\nares craneales normales. Pérdida de fuerza proporcionada, tanto a nivel\nproximal como distal, leve 5-/5 en extremidades I, con discreta hipoeste\nsia en hemicara I, tronco y ESI. No dismetría. RCPD flexor y RCPI indife\nrente. ORIENTACIÓN DIAGNÓSTICA: probable AVC lacunar en el contexto d\ne crisis HTA en paciente fumador como otro FRV. Plan: no activamos c\nódigo ictus por sintomatología estable desde has JJJ. Pendiente de\nCT que le realizarán esta tarde. Paciente tributario de ingreso para com\npletar estudio vascular cerebral (dado que debut con cefalea intensa, qu\ne aunque lo probable es que sea por HTA, al ser también fumador, es impo\nrtante realizar RM cerebral + RM angiología cerebral) Fecha: JJJ\nJJJRecibo paciente en Box LEAN.\nSe realizan placas de tórax.\nValora\ndo por servicio neurología Dra.JJJ.\nJJJMejoría de cifras tensio\nnales 156/97.\nQueda en el servicio pendiente de evolución. Fecha: JJJ\naciente C y O.\nmantiene reposo en cama.\nConstantes con tendencia a la\nHTA, Sa02 correctas. Refiere ligera cefalea lateralizada hacia la izda. VP permeable.\nTras comentar caso con medicina, traslado a sede JJJ para realizar TAC e ingreso pte a cargo de neuro. Fecha: JJJ\nJJJ, traslado a JJJ en ambulancia.",
+  "text_length": 2693,
+  "anonymized_count": 17,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FECHAS",
+        "score": 0.983483612537384,
+        "word": " JJJ\nJJJ",
+        "start": 2183,
+        "end": 2190,
+        "chunk_id": 1,
+        "model": "MEDDOCAN",
+        "actual_text": "JJJ\nJJJ",
+        "is_j_only": false
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "j_only_count": 0,
+      "non_j_count": 1,
+      "entities_by_label": {
+        "FECHAS": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [
+        {
+          "label": "FECHAS",
+          "word": " JJJ\nJJJ",
+          "actual_text": "JJJ\nJJJ",
+          "confidence": 0.983483612537384,
+          "start": 2183,
+          "end": 2190,
+          "model": "MEDDOCAN",
+          "is_j_only": false
+        }
+      ],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "j_only_count": 0,
+    "non_j_count": 1,
+    "entities_by_label": {
+      "FECHAS": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [
+      {
+        "label": "FECHAS",
+        "word": " JJJ\nJJJ",
+        "actual_text": "JJJ\nJJJ",
+        "confidence": 0.983483612537384,
+        "start": 2183,
+        "end": 2190,
+        "model": "MEDDOCAN",
+        "is_j_only": false
+      }
+    ],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 1,
+    "suspicious_detections": 0,
+    "anon_token_detections": 1,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

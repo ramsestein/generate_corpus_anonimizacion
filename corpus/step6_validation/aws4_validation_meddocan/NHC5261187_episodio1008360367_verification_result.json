@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5261187_episodio1008360367",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nOTA NMO GUARDIA (Dra JJJ). 1. PROBABLE INTENTO AUTOLÍTICO\n. UTOX ENOL (Etanol 1.32) + QUETIAPINA 5gr. IOT JJJ\n2. ANTECEDENTE DE MANÍA DISTRÓFICA Y CONSUMO DE CANNABIS. Paciente de JJJ que es\ntraída por alertar ella misma a los servicio de emergencia tras ingesta\nde 5 blisters de quetiapina 100 mg (en total 5 gr) y alcohol. A su lle\ngada GSC 9. Se decide IOT para proteger vía aérea y realizar lavado gást\nrico (salida de restos de vino pero no pastillas). AR mvc, sin ruidos. A\nCV rítmica, no soplo, no edemas. No signos de TVP. Abdomen blando, depre\nsible, no masas o megalias. ** Exploraciones complementarias\n- Analí\ntica sanguínea normal. Función renal, hepático e iones en rango. - ECG\n: ritmo sinusal, QRS estrecho, QT corregido 460ms, no alteraciones de la repolarización.\n- Screening tóxicos: negativo. Etanol 1.32 Liti < 0.2. A nuestra valoración sedoanalgesia con remifentanilo x1 y propofol 1\n% a dosis bajas (5ml/h), pupilas isocóricas y reactivas. HDE sin SVA. IO\nT+VM modo VC con FiO2 25%, PEEP 5 con SpO2 correctas y buena mecánica ve\nntilatoria. Diuresuis conservada. P. Ingreso en E057 a cargo de MDI. Monitorización intensiva, electrocardiográfica, iones K/Mg/P. Mañana a\nprimera hora stop sedación de cara a weaning y ext. IC con PSQ tras ext\ny cuando sea abordable. Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\nJJJ (JJJ):JJJ\nJJJ (JJJ):JJJ\n¿La persona de co\nntacto corresponde con el cuidador?: No\nProcedencia del paciente antes\ndel ingreso hospitalario: Otros\nEspecificar procedencia:\nbox paro\nMot\nivo ingreso y procedencia interna:\nAutolisis\n¿Sufre alguna enfermedad\ncrónica?: No\nDéficit de autocuidado: Independiente\nAlergias: No\nEstad\no de la consciencia: Inconsciente\nModalidad acceso vía aérea: Artificia\nl\nValor Frecuencia cardíaca: 86 lpm\nMicción espontánea: Sí\nRitmo depo\nsicional:\n-\n¿Alteración de la integridad de piel y mucosas al ingresar\n?: No\nColoración de la piel: Normocoloreada\nPuntuación escala Braden:\n15-Riesgo moderado\nTemperatura axilar: 34 ºC\n¿Tiene dolor al ingreso?: No\nPuntuación escala EVN: 0\nPuntuación escala ESCID: 0-Sin dolor\nPun\ntuación escala Downton: 3-Riesgo alto Fecha: JJJ\nx que ingresa de Box de Paros por IMA, a su llegada:\nNRL: paciente sedo\nanalgesiada con RFNT a 5 ml/h y PPF 2% inicialmente a 5 y precisa aument\nar hasta 18 ml/h, a pesar de ello la paciente sigue intentando sentarse\nen la cama por lo que se comenta con MG y se administra 5 mg de MDZ. Fin\nalmente, RASS -5. Se deja mordedor por impedir ventilación. ESCID 0.\nHD\nM: RS en EKG, normoTA sin SVA. Afebril. Tendencia a hipoTª se aplican me\ndidas físicas.\nRSP: TOT a 24 cm de arcada dental con neumotaponamiento\ninflado. VMI con VC: VT 350, PEEP 5 y FR 16. FiO2 que se baja de 50% a 2\n8% con SatO2 100% y GSA que muestra hiperoxigenación. GSA que muestra ac\nidosis metabólica con pH de 7.3 y HCO3 a 20.3. No secreciones.\nDIGE: FA\nMIS, pte iniciar STP tras colocación de CVP.\nELIM: SV permeable, diures\nis claras mantenidas. No dpos.\nPIEL Y MUSC: sin alteraciones añadidas.\nRealizado cambio de beta de TOT, cuidados de px encamado.",
+  "text_length": 3250,
+  "anonymized_count": 12,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

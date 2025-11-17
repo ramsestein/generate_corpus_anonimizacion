@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4531819_episodio1008383881",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nD: Bloqueig complert vs disfunsió sinusal\nEstable durant el TT. CiO, eu\npneiuca amb VMK 28%, bona dinàmica respiratòria i sat O2. Estable hdm. M\nanté ritme de FA ràpida (120x'). Afebril. Es col.loca SV, diüresis manti\nnguda. Apòsit electrocateter sec i net. Es manté MCP en mode VVI. Tr\nasllat a JJJ per valorar MCP definitiu Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\nJJJ (domicilio familiar)\n¿La persona de contacto corresponde\ncon el cuidador?: No tiene cuidador\nProcedencia del paciente antes del\ningreso hospitalario: Domicilio\nMotivo ingreso y procedencia interna: BAV completo / disfuncion sinusal + asistolia 30'' --> implante electroc\nateter\n¿Sufre alguna enfermedad crónica?: Otras enfermedades crónicas Déficit de autocuidado: Independiente\nAlergias: No\n¿Tiene problemas de visión?: Sí\nEstado de la consciencia: Alerta\nOrientación: Sí\nModalid\nad acceso vía aérea: Natural\nValor Frecuencia cardíaca: 122 lpm\nRitmo\ndeposicional:\ndiario\n¿Alteración de la integridad de piel y mucosas al ingresar?: No\nColoración de la piel: Normocoloreada\nPuntuación escala Braden: 15-Riesgo moderado\nTemperatura axilar: 35.7 ºC\n¿Tiene dolor a\nl ingreso?: No\nPuntuación escala EVN: 0\nPuntuación escala Downton: 4-R\niesgo alto Fecha: JJJ\naciente que ingresa procedente de JJJ. AP: FA paroxística (tto sintr\nom), IC debut JJJ, AVC JJJ sin secuelas. A su llegada consciente y orientada. Afebril. No refiere algias.\nHDM estable sin DVA. Monitor\nen FA.\nIngesta oral bien tolerada.\nSV permeable, orina clara. Se man\ntiene en reposo. Se realiza frotis nasal/rectal. Portadora de 2 CVP\npermeables. Pte implante MCP JJJ",
+  "text_length": 1797,
+  "anonymized_count": 9,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5194013_episodio1008714827",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente que es traída a urgencias por agitación y desaturación. A su lle\ngada a box:\nA: vía aérea permeable\nB: disneica con desaturación con VM\nK al 28%, se procede a IOT con VMI\nC: HDM estable\nD: consciente y agit\nada. PINR\nE: presenta restos de vómito. Se guardan pertenencias ident\nificadas debajo de la camilla (reloj, pulsera, pendientes y colgante)\nS\ne realiza ECG, RX y analítica con tóxicos en orina. Fecha: JJJ\nox atur TT.\nVia aèria permeable per IOT i VM amb volum control. Ben aco\nplada al respirador. Es disminueix FiO2 del 75% al 50% per pO2 elevades. HDM estable, ben perfosa. No suport de DVA.\nSedoanalgesiada amb remi\n+ propo.\nAfebril.\nPoca dïuresis i concentrada.\nEs col·loca SNG i semb\nla que s&apos;extreu possible contigut de medicació.\nS&apos;administra carbó acti\nvat per SNG per ordre mèdica.\nEs cursa BASS (pte.resultats), PCR Covid\n(negatiu). Drogues per central.\nEs col·loca catéter arterial.\nPortador\na de polsera identificativa, pertenències en bossa. Fecha: JJJ\nRL: RASS -4. ESCDI:0. Sedoanalgesiada con PPF + Remifentanilo. Hacer cam\nbio a fentanilo cuando se compruebe vía central. CARDIO: ECG en RS. HD\nM estable sin DVA. Afebril. RESP: Eupneica con FiO2 30% en VC. Mantie\nne sats 100%.\nGI: Abdomen blando a la palpación. SNG cerrada. Se aspira\nn poco contenido gástrico de color negro ( por carbon activado)\nRENAL:\nSV permeable. Diuresis ajustada. Se canaliza vía central por parte de\nmedicina, pdte de revisión de RX. Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: No identificable\n¿En el momento del ingreso el paciente lleva pu\nlsera identificativa?: Sí\nDatos persona contacto (nombre, teléfono y pa\nrentesco):\n.\n¿La persona de contacto corresponde con el cuidador?: No ¿Vive solo?: Sí\nProcedencia del paciente antes del ingreso hospitalari\no: Domicilio\nMotivo ingreso y procedencia interna:\nIOT Por disminución de conciencia\n¿Sufre alguna enfermedad crónica?: Diabetes\nDéficit de\nautocuidado: Independiente\nAlergias: No\nEstado de la consciencia: Inco\nnsciente\nModalidad acceso vía aérea: Artificial\nValor Frecuencia cardí\naca: 95 lpm\nRitmo deposicional:\ndiario\n¿Alteración de la integridad d\ne piel y mucosas al ingresar?: No\nColoración de la piel: Normocoloreada Puntuación escala Braden: 23-Sin riesgo\nTemperatura axilar: 34.8 ºC ¿Tiene dolor al ingreso?: No\nPuntuación escala EVN: 0\nPuntuación escal\na Downton: 2-Riesgo bajo",
+  "text_length": 2416,
+  "anonymized_count": 4,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

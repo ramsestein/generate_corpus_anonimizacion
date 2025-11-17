@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5016886_episodio1008649119",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nurs Clínic - OBS EG: 37s 2d\nPressió Arterial sistòlica: 146 mm Hg\nP\nressió Arterial diastólica: 99 mm Hg\nText Lliure:\nControles tensionale\ns ambulatorios en domicilio normales hasta ayer que presentó hipertensió\nn por la mañana y por la tarde (148/92, 143/97), realizadas en la farmac\nia todas.\nEdemas EEII ++, aumento respecto a la última visita. Analít\nica hoy en curso.\nSe deriva a la paciente a urgencias para finalización de la gestación dado cambios clínicos, explico a la paciente, entiende. Última ingesta sólida a las JJJ y agua a las JJJ. Fecha: JJJ\nJJJ\nSe traslada paciente a JJJ procedente de JJJ. Presenta dolor ab\nd. y se adm. POM 2mL Metadona IV. HDME: TA 129/68, SAT 100%, FC 89x&apos;.\nJJJ: Administro POM 3cc de Metadona IV.\nJJJ: Tolera ingesta hídric\na. HDME. Redrón: 10cc, Drenaje abd: 20cc, Urimeter 100cc\nSe traslada a\nJJJ. Fecha: JJJ\naloració obstètrica Responsable identificació positiva del pacient: P\nacient\nEn el moment de l&apos;ingrés el pacient porta braçalet d&apos;identifica\nció?: Sí\nComprovació identificació mare-nadó: Sí\nProcedència del pacie\nnt abans de l&apos;ingrés hospitalari: Domicili\nMotiu ingrés i procedència i\nnterna:\nCesarea\nAl·lèrgies: No\nReaccions transfusionals prèvies: No Valor de Pressió Arterial sistòlica: 141\nValor de Pressió Arterial dias\ntòlica: 82\nValor freqüència cardíaca: 84\nTemperatura axil·lar: 36.0\nT\nipus de pacient: Puèrpera\nAlçada uterina: -1\nLoquis: Fisiològics\nTipu\ns de part: Cesàrea\nDesig de lactància en gestació actual: Sí\nPuntuació escala EVN: 1-Dolor lleu Fecha: JJJ\nngresa a JJJ recovery de cesárea a las JJJ + salpinguectomía bilater\nal + HELP. HDME y afebril. A su llegada, útero bien contraído (AU -1), PH fisiológicas escasas. AQ limpio. Algias controladas con analgesia. Portadora de perfusión MgSO4 a 10ml/h + 2 drenajes (Jackson Pratt + Red\nón) productivos. Mantenemos monitorización + SVP con diuresis horarias correctas. Retiro GN por saturaciones basales al 99%.\nInicia LM sin in\ncidencias, buena succión y agarre.\nPasa la tarde tranquila y acompañada\n. Tolera dieta. Pte. AS mañana JJJ Fecha: JJJ\n+0 (Cesárea electiva 37.1w por cs anterior, Sd. HELLP incompleto). MgS04 +0. No tratamiento hipotensor. FR: PE grave en gestación anterior 33.3w\n. IMC > 30. BEG. TA 144/89 - 147/89 - 141/82 mmHg. No pródromos de e\nclampsia. Edemas ++++/+++. Tolera ingesta y deambulación. Dolor con\ntrolado con analgesia pautada. Portadora de SVP (diuresis horarias no re\ngistradas). Útero bien contraído (AU -1). Loquios fisiológicos. Apósito\nquirúrgico limpio y seco. Drenajes tipo Redon + Jackson Pratt, con débit\no serohemático (20 y 50 cc, respectivamente). GSRh: A positivo. LM. R\nubeola inmune. No precisa gamma-globulina anti-D. A/S al ingreso: Cr\n0.65, ASAT 23, ALAT 16, GGT 12, Bb 0.6, FA212, na 140, K 4.2, Leucocitos 8550, Hb 10, Hto 31.9, plaquetas 86000, plaquetas citrato 50000, TP 100\n, TTPa 23.9. Ratio prot/creat orina: 138. FA JJJ: JJJ. PLAN:\n- M\nantener MgS04 mínimo 24 horas postparto.\n- Iniciar HBPM 40 mg/24h vía s\nc mañana. - Control tensional y diuresis.\n- A/S de control mañana.\n- Avisar a MG si TA > 150/100 mmHg, metrorragia abundante, fiebre > 37.8º\nC,...",
+  "text_length": 3163,
+  "anonymized_count": 18,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

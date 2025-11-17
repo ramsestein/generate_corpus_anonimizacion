@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC127309_episodio1008461456",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nacient que arriba a PUR4 per caiguda casual en via pública: sospita Fx femur + TCE (no anticoagulat no antiagregat, pacient ONC).\nNo sintomat\nologia neurologica, pupules normoreactives.\nIdentificació activa. Perti\nnences identificades i guardades.\nEVA 10/10. Control del dolor amb anal\ngèsia.\nAcompanyat. Fecha: JJJ\ne cursa analítica sanguínea y se realiza ECG para preop, por orden de CO\nT no se cursa reserva sanguínea, cursar antes de la intervención (la pet\nición esta hecha). Fecha: JJJ\ne coloca tracción cutánea en EID, se administra analgésia y se coloca pa\nrche de fentanilo (dosis única).\nQueda pendiente de ngreso. Fecha: JJJ\neneral Responsable identificación positiva del paciente: Paciente\n¿E\nn el momento del ingreso el paciente lleva pulsera identificativa?: Sí Datos persona contacto (nombre, teléfono y parentesco):\nJJJ JJJ ¿La persona de contacto corresponde con el cuidador?: No tiene cuidador Procedencia del paciente antes del ingreso hospitalario: Domicilio\nMo\ntivo ingreso y procedencia interna:\nfractura subtrocantérea femur Derec\nha\nAlergias: No\nAntecedentes medico-quirúrgicos:\nAP: - HTA - Cardi\nopatía hipertensiva con fracción de eyección preservada. - Adenocarcino\nma de próstata estadio IV - Linfadenectomía inguinal derecha el JJJ en contexto de estudio de adenopatías catalogadas finalmente como reactiv\nes. - Apendicetomía - Excéresis de varios tumores cutáneos, basocelul\nares, Bowen y acantoma. ¿Sufre alguna enfermedad crónica?: Insuficienc\nia cardíaca\n¿Tiene problemas de visión?: Sí\nDéficit de autocuidado: Hi\ngiene, WC, Movilización, Vestido\nPuntuación escala Barthel al ingreso:\n55-Dependencia moderada Valoración aparato respiratorio Tipo de re\nspiración: Eupneico\nValor frecuencia respiratoria: 18 resp/min Valor\nación cardiovascular Valor Presión Arterial sistólica: 155 mm Hg\nVal\nor Presión Arterial diastólica: 82 mm Hg\nValor frecuencia cardíaca: 98\nlpm Valoración gastrointestinal Ritmo deposicional:\nDiario Val\noración musculoesquelética Puntuación escala Downton: 1-Riesgo bajo Valoración Piel y Mucosas ¿Alteración de la integridad de piel y mu\ncosas al ingresar?: No\nColoración de la piel: Normocoloreada\nPuntuació\nn escala Braden: 15-Riesgo moderado\nTemperatura axilar: 36.3 ºC Valo\nración neurológica Estado de la consciencia: Alerta Valoración Dol\nor y Disconfort ¿Tiene dolor al ingreso?: Sí\nPuntuación escala EVN:\n4 Valoración salud mental y adicciones Puntuación escala detección depresión PHQ-2: 20-No valorable\n¿Fuma actualmente?: No\n¿Usted bebe d\ne forma habitual?: No Fecha: JJJ\naciente procedente de la PUR 4, ingresa por fractura subtrocantérea femu\nr derecha\nA su llegada a sala tendencia a la HTA sistólica asintomático\n, afebril. Precisa analgesia de rescate por dolor en EID.\nPortador de\nCVP salinizado. Tracción cutánea en EID.\nDieta absoluta por posible IQ\nhoy. Preoperatorio hecho. Diuresis mantenida.\nDescanso nocturno parci\nal. Fecha: JJJ\nscales Puntuación escala Barthel durante el ingreso: 45-Dependencia m\noderada\nPuntuación escala Braden: 15-Riesgo moderado Fecha: JJJ\nDM estable con tendencia a la HTA. Afebril. Dolor controlado con analges\nia segun pauta.\nFAMIS. Coloco SG 10% de mantenimiento. Mantiene repos\no en cama con tracción en EID.\nPdte de IQ.\nA las JJJ contacto con t\nrauma que indica que puede iniciar ingesta porque hoy no se intervendrá. Fecha: JJJ\normotenso, afebril. Sat97% en basal. Sin algias. Tolera dieta general si\nn sal. Diuresis mantenida. No deposiciones durante la tarde. Mantiene\ntracción en EID y en reposo. Recibe visita. Pte.IQ.",
+  "text_length": 3543,
+  "anonymized_count": 12,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

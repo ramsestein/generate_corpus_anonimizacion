@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4268698_episodio1008657511",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nONSULTA DISPOSITIVOS\nPaciente que acude de forma urgente tras recibir 3 descargas.\nPaciente portador de DAI Abbott, de JJJ con IC secundar\nia a amiloidosis y episodios de mareos. Por monitorización se observó TV monomórfica sintomática. Se implantó DAI por prevención secundaria. S\ne interroga dispositivo que se observa 3 descargas apropiadas.\nValorado por Dr JJJ quien decide ingreso.\nDado que no disponemos de cama e\nn estos momentos se traslada a UCIAS a la espera de cama.\nSe informa a\nPUR3 y cardiólogo de guardia. Fecha: JJJ\naciente consciente y orientado que acude por 3 descargas del DAI. HMD\nestable y afebril a su llegada.\nse realiza ECG y analítica de ucies. Fecha: JJJ\nUR3_TT\nOD: Tormenta arrítmica en contexto de miocardiopatía amiloidótic\na en paciente portador de DAI por prevención secundaria. Portador de\npulsera identif. y objetos personales identif. debajo de la camilla.\nDu\nrante TT, paciente consciente y orientado, autónomo. Hemodinámicamente estable con tendencia a la hipotensión; se administra primera carga de\nsueroterapia, afebril. Eupneico, saturaciones correctas en basal.\nPorta\ndor CVP 18G en antebrazo derecho, permeable y salinizado.\nSe realiza va\nloración por CAR que indica ingreso a su cargo. Se administran 2,5mg d\ne bisoprolol con buena respuesta. Se comenta con I016 para ingreso a cargo de CAR para optimizar tratamiento antiarrítmico. Fecha: JJJ\nUR3_TT\nOD: Tormenta arrítmica en contexto de miocardiopatía amiloidótic\na en paciente portador de DAI por prevención secundaria. Portador de\npulsera identif. y objetos personales identif. debajo de la camilla.\nDu\nrante TT, paciente consciente y orientado, autónomo. Hemodinámicamente estable con tendencia a la hipotensión; se administra sueroterapia endo\nvenosa, afebril. Eupneico, saturaciones correctas en basal.\nPortador CV\nP 18G en antebrazo derecho, permeable y salinizado.\nSe realiza valoraci\nón por CAR que indica ingreso a su cargo. Se administran 2,5mg de biso\nprolol con buena respuesta y resto de medicación sin incidencias. Se comenta con I016 para ingreso a cargo de CAR para optimizar tratamiento antiarrítmico. Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\nJJJ (JJJ - JJJ)\n¿La persona de contacto corresponde c\non el cuidador?: No tiene cuidador\nProcedencia del paciente antes del i\nngreso hospitalario: Domicilio\nMotivo ingreso y procedencia interna:\nI\nngresa de PUR 3 con motivo de ingreso descargas del DAI apropiadas\n¿Suf\nre alguna enfermedad crónica?: No\nDéficit de autocuidado: Independiente Alergias: No\nEstado de la consciencia: Alerta\nOrientación: Sí\nModal\nidad acceso vía aérea: Natural\nValor Frecuencia cardíaca: 91 lpm\nMicci\nón espontánea: Sí\nRitmo deposicional:\ndiari\nFecha última deposición:\nJJJ\nPrótesis dental: Sí\nTipo prótesis dental: Superior fija, In\nferior fija\n¿Alteración de la integridad de piel y mucosas al ingresar?\n: No\nColoración de la piel: Normocoloreada\nPuntuación escala Braden: 2\n0-Sin riesgo\nTemperatura axilar: 36.2 ºC\n¿Tiene dolor al ingreso?: No Puntuación escala EVN: 0-No hay dolor\nPuntuación escala Downton: 3-Rie\nsgo alto Fecha: JJJ\naciente que ingresa procedente de PUR3 tras descargas apropiadas del DAI\n. AP: Sd tunel carpiano, SAHS + CPAP, adenomiectomia retropubica hace\nJJJ, litiasis renal izq, FA paroxistica, IC sugestiva de cardiopatia ami\nloidotica con FEVI preservada, implante de DAI en prevención 2ª JJJ A su llegada consciente y orientado. Afebril. No refiere algias. HDM estable sin DVA. Monitor en RS. Eupneico en basal, mantiene saturacio\nnes correctas. Ingesta oral bien tolerada, se retira STP. Micciones\nespontaneas en porron. No realiza deposición. Se mantiene en reposo to\nda la tarde. Se realiza ECG + se cursa frotis nasal / rectal. Recibe visita de JJJ. Resto ver IPA.\nPte a/s mañana",
+  "text_length": 3945,
+  "anonymized_count": 15,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

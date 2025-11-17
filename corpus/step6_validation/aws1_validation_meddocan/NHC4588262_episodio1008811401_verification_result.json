@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4588262_episodio1008811401",
+  "success": true,
+  "anonymized_text": "JJJ\naciente procedente de PUR3 para cardiovertir. A su llegada al BPARO, c\nonsciente y orientado, hipotenso, taquicárdico y con saturaciones corre\nctas.\nSe realiza IOT con anestesia general para realizar cardioversión\n.\nTras CVE buena recuperación hemodinámica a sinusal, sin drogas vasoac\ntivas, se retira IOT precozmente por anestesia de guardia, saturaciones\ncorrectas con VM40%, consciente y orientado. Se decide de nuevo trasla\ndo a PUR3 para monitorización y control hemodinámico acompañado de cardi\no de guardia. JJJ\nacient C i O procedent del BPARO.\nHDMe, afebril i sense àlgies. SatO2 c\norrectes amb LN a 2l. Portador de desfribrilador per si de cas. Es c\nursa a/s a les 7. Pte. ingrés. JJJ\nUR3 TM:\nPacient CiO, afebril, eupneic, HDM estable, sense dolor. Ingest\na correcta.\nPendent d&apos;Ing.CAR. JJJ\naciente durante la tarde c y o. HDM estable, normotenso. Afebril. Satura\nciones mantenidas con GN2L, no trabajo respiratorio. No dolor.\nPte ing\nreso en CAR. JJJ\naloración Críticos Responsable identificación positiva del paciente:\nPaciente\n¿En el momento del ingreso el paciente lleva pulsera identific\nativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco):\nJJJ (JJJ) JJJ\n¿La persona de contacto corresponde con el cuidado\nr?: No tiene cuidador\nProcedencia del paciente antes del ingreso hospit\nalario: Otros\nEspecificar procedencia:\nPUR 3\nMotivo ingreso y procede\nncia interna:\nTVMS\n¿Sufre alguna enfermedad crónica?: Diabetes, Hipert\nensión, Otras enfermedades crónicas\nEspecificar otras enfermedades crón\nicas:\nSobrepeso, JJJ, ADK (IQ: prostatectomia radical), Neoplasia mucinosa apendicular (IQ JJJ), MCD isquémica (IAM reperfundido), FEVI\n35% en JJJ.\nDéficit de autocuidado: Independiente\nAlergias: No\nEstad\no de la consciencia: Alerta\nModalidad acceso vía aérea: Natural\nValor\nFrecuencia cardíaca: 60 lpm\nMicción espontánea: Sí\nRitmo deposicional: Diario\nFecha última deposición: JJJ\n¿Alteración de la integri\ndad de piel y mucosas al ingresar?: No\nColoración de la piel: Normocolo\nreada\nPuntuación escala Braden: 17-Riesgo bajo\nTemperatura axilar: 36.\n3 ºC\n¿Tiene dolor al ingreso?: No\nPuntuación escala EVN: 0\nPuntuación escala Downton: 0-Riesgo bajo JJJ\n. TVMS en paciente con MCD isquémica Paciente con buen estado genera\nl, sin nuevos episodios ni dolor torácico ni malestar. Asintomático, nor\nmotenso, eupneico con saturaciones correctas con Ln2l, afebril. Sin nuev\nos episodios de TV. Diuresis conservada furosemida IV. A la exploración física descatan aun crepitantes bibasales. A/S con elevación de TPIus\nhasta 780 en contexto probablemente de TV con Cr de 1,34 en mejoria. PLAN: Continuar amiodarona 200mg/8h/VO y furosemida IV. A/S de control mañana. Implante de DAI en prevención secundaria. JJJ informada.",
+  "text_length": 2747,
+  "anonymized_count": 14,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5330042_episodio1008373355",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nJJJ Pacient JJJ, febril 38,4. BEG. Autònom, col.laborador. Identifi\ncat. Mantenim aillament per pseudomona detectada a la ferida quirurgica Adm pauta F amb bona tol.lerancia\nFaig control CV\nCurso HHCC\nComento amb Coronaria JJJ i es cursa derivació Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\nJJJ JJJ\n¿La persona de contacto corresponde con el cui\ndador?: No tiene cuidador\n¿Vive solo?: No\nProcedencia del paciente ant\nes del ingreso hospitalario: Domicilio\nMotivo ingreso y procedencia int\nerna:\nFiebre en paciente Tx\n¿Sufre alguna enfermedad crónica?: Traspla\nnte, Insuficiencia renal crónica, Hipertensión, Diabetes, Otras enfermed\nades crónicas\nEspecificar otras enfermedades crónicas:\n-Tx cardio-rena\nl JJJ\n-Sobrepeso\n-HTA\n-DLP\n-Diabetes mellitus tipo II\n-Hiperuricemia\n-\nEnfermedad renal -AIT JJJ.\n-Hemorragia subaracnoidea JJJ por anticoag\nulación\n-Nódulo pulmonar sólido en el LII\n- ADK próstata\n-Psoriasis -Os\nteomielitis pie derecho\n-Diverticulosis colónica.\n-Ginecomastia\nDéficit de autocuidado: Higiene\nAlergias: No\nEstado de la consciencia: Alerta Modalidad acceso vía aérea: Natural\nValor Frecuencia cardíaca: 79 lpm Micción espontánea: Sí\nRitmo deposicional:\nvarias veces semana\n¿Alt\neración de la integridad de piel y mucosas al ingresar?: No\nColoración\nde la piel: Normocoloreada\nCaracterísticas de la piel: Seca, Frágil\nPu\nntuación escala Braden: 15-Riesgo moderado\nTemperatura axilar: 37.5 ºC ¿Tiene dolor al ingreso?: No\nPuntuación escala EVN: 0\nPuntuación esca\nla Downton: 6-Riesgo alto Fecha: JJJ\naciente que ingresa por fiebre desde JJJ, bolsa de pertenencias identif\nicada. Portador x2 CVP permeables. NRL: JJJ, niega algias o Dt. Febric\nular 37&apos;5ºC.\nHMD: estable sin DVA, ECG en RS. Se realiza ECG de ingreso\n. RESP: basal.\nELIM: diuresis espontánea, pañal por precaución. No de\nposición. ALIM: tolera dieta oral, se adm insulina según pauta. MOV: movilización autónoma con mínima ayuda, sedestación desde ingreso toler\nado. PTE: resultados cultivos. Fecha: JJJ\nurno tarde: Cts mantenidas, niega algias o Dt. Febricular hasta 37&apos;1ºC e\nn el turno. Realiza deposición en WC. Se adm tto ajustado a horario domi\nciliario a petición del paciente. Sin más incidencias, resto ver IPA.\nP\nTE: JJJ A/S control, resultados cultivos.",
+  "text_length": 2450,
+  "anonymized_count": 15,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

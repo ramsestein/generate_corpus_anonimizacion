@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5214049_episodio1008775517",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nacient C i O. HDM estable, febril que cedeix amb antitèrmic i àlgies e\nlevades (odinofàgia) que també cedeix. Es cursa a/s. Pte. evolució. Fecha: JJJ\naciente refiere dolor torácico y nauseas, se comenta con médico de refer\nencia que indica realizar ECG , se cursa analítica de micro (monospot) y administro analgésia y antihemético pautado que es efectivo. Fecha: JJJ\nUARDIA ORL Solicitan valoración en paciente con odinofagia de JJJ\nde evolución y fiebre. Explica sensación de cuerpo extraño faringolaríng\neo y disnea, junto con dolor centrotorácico. Mejoría tras analgesia EV. EF:\nOroscopia: no trismus. Amígdalas eutróficas, sin exudados. Úvula centrada. No abombamiento de pilares.\nCuello: palpación anodina, movil\nidad cervical conservada.\nNFC: paso por FNI, pólipo dependiente de meat\no medio, grado IV. Cávum libre. Epiglotis normal, valécula y SSPP libres\n. CCVV y aritenoides móviles. Conclusiones:\nExploración ORL sin hall\nazgos de alarma.\nA valorar correlacionar con pruebas de imagen si preci\nsa. Fecha: JJJ\nurso hemocultivos, sedimento de orina y legionela en orina. Fecha: JJJ\nUR 2 TT\nPaciente CyO, HD estable y con fiebre.\nSe cursa analítica de\nsangre.\nSe adm tto. Pte de traslado a JJJ. Fecha: JJJ\nVOL. JJJ:\nCT informa la presencia de cambios flemonosos que afectan de forma extensa a planos grasos del mediastino superior y se extienden cranealmente por espacios carotídeos y espacio retrofaríngeo hasta la a\nltura de C1-C2. Existen áreas sugestivas de abcesificación incipiente, s\nin evidencia de claras colecciones mediastínicas de paredes hipercaptant\nes en el momento actual. Extensa esofagitis, probablemente reactiva. Se ajusta cobertura antibiótica con piperacilina-tazobactam.\nSe cursa f\nrotis nasal para MRSA.\nSe IC con ORL --&gt; se valora en conjunto y se inf\norma al paciente de la necesidad de cirugía urgente.\nSe intenta contact\nar telefónicamente con su JJJ (JJJ), sin éxito. Fecha: JJJ\naciente que acude a sala JJJ. A su llegada C y O. HDM estable, afebril. Se administra tto antibiótico.\nSe realiza TAC Fecha: JJJ\nUARDIA ORL Paciente valorado esta mañana por odinofagia y fiebre sin\nhallazgos a nivel de oroscopia ni nasofibroscopia que presenta en TC cer\nvical cambios sugestivos de mediastinitis, con afectación retrofaríngea\ny de espacios carotídeos. Conjuntamente con Cirugía Torácica se decid\ne IQ para desbridamiento y se escala tratamiento a Piperacilina-Tazobact\nam. Plan:\n- Se solicita quirófano.\n- Se explica al paciente y firma CI para desbridamiento transoral y cervical + traqueostomía.",
+  "text_length": 2544,
+  "anonymized_count": 14,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

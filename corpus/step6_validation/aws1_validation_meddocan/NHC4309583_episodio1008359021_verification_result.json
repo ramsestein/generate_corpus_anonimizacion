@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4309583_episodio1008359021",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente consciente y ligeramente desorientada que acude por mareos y sín\ncopes de repetición durante el día de hoy. A su llegada HMD estable y afebril. Pálida. Realiza dos pausas de 5 segundos aproximadamente. S\ne coloca desfibrilador, se administra 1 atropina y se colocan aleudrinas\n. Pac mejora ritmo. Se colocan dos cvp, se realiza analítica de ucies y equilibrio en POC. Realiza vómito acompañando el proceso vagal. Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: JJJ\n¿En el momento del ingreso el paciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\nJJJ, JJJ,JJJ\n¿La persona de contacto corresponde con el cui\ndador?: Sí\n¿Vive solo?: No\nProcedencia del paciente antes del ingreso\nhospitalario: Domicilio\nMotivo ingreso y procedencia interna:\nPaciente que ingresa desde Ucias, por sincope en domicilo. Se evidencia çbv comp\nleto\n¿Sufre alguna enfermedad crónica?: Enfermedad psiquiátrica, Hipert\nensión\nDéficit de autocuidado: Higiene, Movilización\nAlergias: No\nEst\nado de la consciencia: Alerta\nModalidad acceso vía aérea: Natural\nValo\nr Frecuencia cardíaca: 76 lpm\nMicción espontánea: Sí\nRitmo deposiciona\nl:\ncada 2 dias\nFecha última deposición: JJJ\n¿Alteración de la\nintegridad de piel y mucosas al ingresar?: No\nColoración de la piel: No\nrmocoloreada\nPuntuación escala Braden: 13-Riesgo moderado\nTemperatura\naxilar: 36.4 ºC\n¿Tiene dolor al ingreso?: No\nPuntuación escala EVN: 0 Puntuación escala Downton: 6-Riesgo alto Fecha: JJJ\nac COC, tranquila. Algo nerviosa por su enfermedad, alzheimer\nCtes mant\nenidas. afebril\nNo algias.\nA su llegada en ritmo sinusal. Con perf de\naleudrinas a 8 ml/h\nColocamos pañal. Ingesta oral correcta\nCursado f\nrotis <Mrsa\nPte implante MCP",
+  "text_length": 1777,
+  "anonymized_count": 8,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

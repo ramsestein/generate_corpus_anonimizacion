@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4510483_episodio1008579042",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nUR3_TT Paciente JJJ de JJJ que acude a urgencias por descarga del DA\nI esta mañana. Previamente, presentó mareo a lo largo de la mañana y TA\nde 100-90/60 medida por él. Niega AMC. AP: Cardiopatía isquémica, m\niocardiopatía dilatada isquémica con FEVI gravemente disminuida (portado\nr de DAI, JJJ), litiasis renal, bronquitis crónica. Portador de p\nulsera identif. y objetos personales identif. debajo de la camilla. Se coloca monitorización continua. A su llegada al BOX, consciente y or\nientado, autónomo. Hemodinámicamente estable con tendencia a la hipot\nensión, afebril. Eupneico, saturaciones correctas en basal. No refiere dolor, EVN 0/10. Se realiza ECG. Portador CVP 20G en antebrazo iz\nquierdo, permeable y salinizado. Tras valoración médica, se cursa\nA/S (hemograma, bioquímica, coagulación). Se realiza Rx tórax. Se cu\nrsa curva de troponinas a las JJJ. Se realiza IC con CAR que inici\na tratamiento con BIC de Amiodarona 900mg a 11mL/h y betabloqueantes. Plan: - Evolución. Pendiente de valoración por arritmias mañana (JJJ).",
+  "text_length": 1048,
+  "anonymized_count": 6,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

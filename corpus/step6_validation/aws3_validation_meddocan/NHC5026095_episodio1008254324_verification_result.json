@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5026095_episodio1008254324",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nestante 30+6w que acude por dolor en hipogastrio. TA: 121/57 mmHg, FC: 7\n0 lpm Tª: 36.2 ºC. Realizo NST. Ingresa en observación. Coloco cvp. Admi\nnistro fosfomicina 3g vo + nifedipino 20mg vo a las 18.30h. Curso A/S,\nurinocultivo y frotis vagino-rectal. Se revalorara esta noche. Fecha: JJJ\nU+0. 30.6 semanas. Fosfomicina 3g DU JJJ. Nifedipino PRN. Cervi\ncometría al ingreso (18h): 17mm. Cervicometría repetida (22h): 20mm. Paciente actualmente sin dinámica uterina. Plan: Manejo expectant\ne en observación. Avisar a médico de guardia si DU u otros signos de a\nlarma. Fecha: JJJ\naloración obstétrica Responsable identificación positiva del paciente\n: Paciente\n¿En el momento del ingreso el paciente lleva pulsera identif\nicativa?: Sí\nProcedencia del paciente antes del ingreso hospitalario: D\nomicilio\nMotivo ingreso y procedencia interna:\nAPP\nAlergias: No\nValo\nr Presión Arterial sistólica: 115 mm Hg\nValor Presión Arterial diastóli\nca: 76 mm Hg\nValor frecuencia cardíaca: 79 lpm\nTemperatura axilar: 36.\n7 ºC\nTipo de paciente: Gestante\nDinámica uterina: Ausencia\nHidrorrea\n(pérdida líquido amniótico): Ausencia\nPuntuación escala EVN: 0-No hay d\nolor Fecha: JJJ\nngressa gestant procedent urgències. Observació i valoració DU durant la nit. Descansa. Fecha: JJJ\naciente HDM estable, afebril. No refiere DU, ni PH ni PLA. NST realizado por comadrona. Sin incidencias. Fecha: JJJ\netiro via. Marxa d&apos;alta Fecha: JJJ\n1.0 SG. Ingreso por APP + 1. LCx 20- 17mm. Cefálica. Fosfomicina 3g vo D\nU. Dinámica uterina oligosintomática ayer, que requirió administraci\nón de Nifedipino 20mg vo, con posterior cese de la sintomatología. Ante\nsedimento de orina patológico + dolor en hipogastrio se administró Fosfo\nmicina 3g vo DU empírica. BEG. TA 122/70, FC 80, T 36.6ºC. No ref\niere nuevos episodios de dinámica uterina. No metrorragia ni hidrorrea.\nNo síndrome miccional. Movimientos fetales activos. - RCTG: PFR para\nedad gestacional 140lpm. No DU.\n- EcoTV: LCx 19mm que no acorta a la pr\nesión fúndica (estable respecto al ingreso).\n- EcoAbd: feto único en pr\nesentación cefálica, dorso izquierdo. FCF+, MFA. Placenta normoinserta e\nn cara anterior. LAN (cmax 48mm). Biometrías fetales: DBP 87mm, PC 305\nmm, PA 270mm, LF 60mm. PFE 2030g (percentil 97, JJJ). Resulta\ndos:\n- A/S al ingreso: PCR 0.35, leucocitos 8.580 (69%N, 18%L). Hb 12.6\n, Hto 37.3%, plaquetas 184.000, TP 99%, TTPa 23.9s. - Sedimento urinar\nio: leucocitos 100, nitritos negativos, bacterias y células epiteliales\nabundantes. - Urinocultivo: en curso.\n- SGB: en curso. PLAN:\n-\nDado estabilidad de longitud cervical, ausencia de dinámica uterina ni o\ntra sintomatología de alarma, se decide alta a domicilio con recomendaci\nones. Se programa control + eco en U.Prematuridad en 1 semana.",
+  "text_length": 2758,
+  "anonymized_count": 9,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

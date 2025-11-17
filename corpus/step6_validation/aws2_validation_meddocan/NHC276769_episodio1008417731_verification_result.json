@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC276769_episodio1008417731",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nCIRUGÍA VASCULAR APP: FAV radiocefalica derecha de JJJ de evolución.\núlceras en 2 y 3 dedo de JJJ de evolución + dolor Motivo de consulta : Dolor y necrosis de 2 y 3 dedo de mano derecha\nEA: Paciente acude por presentar dolor + mal olor de úlceras en 2 y 3 dedo de mano derecha\nde JJJ de evolución de manera progresiva por lo que acude . EF:\nSecreción purulenta en 3 dedo ( falange distal ) + necrosis seca de cara dorsal de falange distal de 2 dedo ( 3x 2 cm ) . Compensación de arco palmar al comprimir FAV.\ndos colecciones fluctuantes en cara palmar de mano derecha A: Paciente con síndrome de robo en mano derecha\n+ infección de partes blandas, requiere cierre de acceso FAV + drenaje de colecciones + limpieza quirúrgica de 3 dedo mano derecha IDX: Síndrome de Robo + Infección de tejidos blandos en mao derecha. P.\nFAMIS RESERVA DE SANGRE.\nIC NEFROLOGIA / TRAUMATOLOGIA Dr. JJJ.\nJJJ/\nJJJ Fecha: JJJ\nSe comenta con Infecciosa por pauta antibiotica en previsión de IQ Fecha: JJJ\nNOTA INFECCIOSAS: Paciente JJJ, tx hepático en JJJ por CH por VHC, tx renal x4 con pérdida de injerto en diálisis por FAVI. Derivado para IQ de úlceras vasculares en mano derecha 20 dedo y 3r dedo con signos de sobreinfección, que requerirá drenaje quirúrgico, desbridamiento, cierre FAV y probable amputación. Avisan para ajuste de profilaxis pre-IQ y cobertura antibiótica. A mi valoración, paciente ya en quirófano. No constan aislamientos previos, únicamente puedo ver frotis rectal JJJ K.pneumoniae OXA48, pero con frotis posterior negativo en JJJ. Recomentamos toma de hemocultivos y cultivos intraquiófano. Cobertura de carga con piperacilina/tazobactam 4g y daptomicina 10mg/kg. Se realizará seguimiento post-IQ, puede mantener cobertua antibiótica ajustada a diálisis: daptomicina 10mg/kg cada 48h (los dias de diálisis, después de la sesión) y piperacilina/tazobactam 2g/12horas + 1,125g después de la diálisis. Se ajustará cobertura segun resultados. Fecha: JJJ\nSe realiza cierre de FAV radiocefalica derecha+ sustitución de arteria radial con parche en VSI izquierda+ amputación digital de II y III dedo de mano D, drenaje de absceso plantar. Informo JJJ presencialmente. Dejo analitica de control por mañana",
+  "text_length": 2214,
+  "anonymized_count": 15,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

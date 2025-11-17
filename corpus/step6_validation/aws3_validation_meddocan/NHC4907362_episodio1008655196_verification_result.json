@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4907362_episodio1008655196",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\ne recibe paciente trasladada desde JJJ\nA su llegada C y O, no alg\nias, no disnea, no hemoptisis, afebril. Hipoacusia moderada\nVP puestas\nen JJJ. Ambas permeables y refluyen.\nSe cursa a/s 3 tubos + equil\nibrio Ab + lactato. Fecha: JJJ\ne cursa urinocultivo y reserva de sangre. Es visitada por NMO que deci\ndirán ingreso a su cargo. Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\nJJJ - JJJ (JJJ)\n¿La persona de contacto corresponde con e\nl cuidador?: No tiene cuidador\nProcedencia del paciente antes del ingre\nso hospitalario: Otro hospital\nMotivo ingreso y procedencia interna:\nH\nemoptisis (traslado JJJ)\n¿Sufre alguna enfermedad crónica?: Hi\npertensión, Otras enfermedades crónicas, Dislipemia\nEspecificar otras e\nnfermedades crónicas:\n- HTA - DLP\n- BAV completo, portadora de DDDr\n-\nFA (ACO Sintrom)\n- Estenosis Ao severa, TAVI\nDéficit de autocuidado: In\ndependiente\nAlergias: Sí\nEspecificar alergias:\nPenicilina\nEstado de\nla consciencia: Alerta\nModalidad acceso vía aérea: Natural\nValor Frecu\nencia cardíaca: 65 lpm\nRitmo deposicional:\nDiario\nFecha última deposi\nción: JJJ\n¿Alteración de la integridad de piel y mucosas al ingr\nesar?: No\nColoración de la piel: Normocoloreada\nPuntuación escala Brad\nen: 21-Sin riesgo\nTemperatura axilar: 36.5 ºC\n¿Tiene dolor al ingreso?\n: No\nPuntuación escala EVN: 0\nPuntuación escala Downton: 3-Riesgo alto Fecha: JJJ\n. HEMOPTISIS AMENAZANTE\n2. HEMORRAGIA ALVEOLAR 3. LESIÓN EN VÍA URINA\nRIA PENDIENTE DE FILIAR Paciente con antecedentes de estenosis aórti\nca (portadora de TAVI), FA, BAV 3r grado portadora de MCP e ingreso reci\nente por ITU (E. coli multiS), actualmente descoagulada con lixiana. Acude derivada de JJJ por sospecha de hemoptisis tras vómitos\ny expectoración hemoptoica de unos 300mL. Último episodio JJJ aproximadamente. Allí se realiza TC en la que se describe franca ocupa\nción alveolar en pulmón izquierdo de origen infeccioso por lo que se cub\nre con Levofloxacino 500mg/12h +/- focos de hemorragia alveolar. El estu\ndio del parénquima pulmonar no mostraba otras alteraciones relevantes. A\ndemás se describe ocupación de la vía urinaria superior derecha. Reci\nbimos llamado del JJJ y en consenso con CAP de guardia se acepta traslado para monitorización y manejo en cuidados en UVIR. P\nor otro lado, refiere la JJJ que le cambiaron en la anticoagulación (de sintrom a lixiana) en el ingreso previo por hematuria incoercible que p\nersiste a día de hoy sin síndrome miccional. A su llegada a urgencias presenta buen estado general, consciente y orientada, hemodinámicamente estable, eupneica con VMK 31% con SpO2 correctas. A la exploración físi\nca destacan crepitantes en hemitórax izquierdo. Analíticamente desta\nca elevación de RFA con PCR 2.6 mg/dL, PCT 0.66/A ng/mL, función renal\npreservada con ionogramas in alteraciones. Leucocitosis 11.25 x 10^9/L c\non neutrofilia. Respecto a la analítica realizada en JJJ presenta bajada de Hb de 15.3-->12.9mg/dL. Radiológicamente se aprecia patrón\nconsolidativo en pulmón izquierdo sugestivo de ocupación alveolar. Comen\ntado con radiología de nuestro centro se considera que en el momento act\nual no hay arterias bronquiales que puedan ser causa del sangrado ni tri\nbutarias a embolización. Ingresa en la UVIR hemodinámicamente establ\ne, afebril, con SaO2 de 97% con VMK al 31%, afebril, HD estable, con TA\n133/67 mmHg FC 65 lpm. PLAN: 1. Suspendemos anticoagulación 2. M\nonitorización y controles propios de la UVIR 3. Analítica de control c\non Hb/Hcto cada 4-6 horas 4. Control estricto de sangrado 5. DIVAS s\ni persiste sangrado 4. Analítica de control mañana Fecha: JJJ\naciente procedente de PUR3 por hemoptisis, a su llegada:\nNRL: paciente\nconsciente y orientada, tranquila y colaboradora. Niega algias.\nHDME: r\nitmo MCP, normoTA. Afebril.\nRSP: VMK 31%/6lx', SatO2 correctas. Eupneic\na. No tos, no secreciones. Niega disnea.\nDIGE: FAMIS con STP. No realiz\na episodios de hemoptisis.\nELIM: SV permeable, diuresis escasa. No dpos\n.\nPIEL Y MUSC: se realizan cuidados de paciente encamada. Se coloca lin\nea media de 20 cm. Se colocan medias neumáticas. Recibe visita.",
+  "text_length": 4264,
+  "anonymized_count": 17,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

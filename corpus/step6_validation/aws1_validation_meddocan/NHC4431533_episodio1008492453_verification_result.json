@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4431533_episodio1008492453",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\na GSA de control es venosa (muestra saturación 73.9% y tiene saturación\n93%) mejoría de la acidosis y la hipercapnia. Fecha: JJJ\naciente consciente y orientada que acude por disnea. A su llegada paci\nente taquicárdica, taquipneica y con sat 89% con VK al 28%. Presenta tra\nbajo respiratorio (Borg 7). Afebril. Se realiza analítica de UCIES y\nGSA. Se cursa esputo. Se coloca VMNI, bien tolerada. Pdte NMO. Fecha: JJJ\nUR 3-TT: Es cuirsa frotis de virus respiratòris. Pendent d¡ingrés AV\nI Fecha: JJJ\nMO JJJ JJJ Paciente con antecedente de EPOC GOLD4- E (FEV1 21%) O\nCD, SAOS sin tto, Obesidad,\nHTA, trastorno personalidad. Ingreso prolon\ngado reciente IOT/VM--&gt; TQ y decanulación (JJJ) alta a CSS\nel JJJ y alta desde el CSS el JJJ. Consulta por disnea de reposo, tos con expe\nctoración purulenta, sin\nfiebre termometrada. Analítia con PCR 33, seri\ne blanca dentro de parámetros. Rx tórax sin condensaciones\nclara. A su\nllegada, por trabajo ventilatorio, gasometría venosa con acidosis respir\natoria se instaura VNI actualmente FIO2 0.28 14/5, con adecuada respuest\na clínica y mejoría de la acidosis. A mi visita, consciente orientada, H\nDE, hipofonesis global. Se mantiene cobertura con meropenem, linezolid\n, ingresará en intermedios. Fecha: JJJ\ngrego a previa, pendiente de PCR virus respiratorios urgentes. Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\nJJJ (JJJ)\n¿La persona de contacto corresponde con el cuidad\nor?: No disponemos de datos\nProcedencia del paciente antes del ingreso\nhospitalario: Domicilio\nMotivo ingreso y procedencia interna:\nDISNEA ¿Sufre alguna enfermedad crónica?: Otras enfermedades crónicas, Hiperten\nsión, EPOC\nEspecificar otras enfermedades crónicas:\nSAHS\nT. persoalida\nd tipo B\nObesidad Déficit de autocuidado: Movilización, Higiene\nAlerg\nias: No\nEstado de la consciencia: Alerta\nModalidad acceso vía aérea: N\natural\nDispositivo para administrar oxígeno en respiración espontánea:\nMascarilla venturi\nValor Frecuencia cardíaca: 92 lpm\nMicción espontáne\na: Sí\nRitmo deposicional:\nnormal\nFecha última deposición: JJJ Prótesis dental: Sí\n¿Alteración de la integridad de piel y mucosas al\ningresar?: No\nColoración de la piel: Normocoloreada\nCaracterísticas de la piel: Seca\nPuntuación escala Braden: 15-Riesgo moderado\nTemperatur\na axilar: 36.6 ºC\n¿Tiene dolor al ingreso?: No\nPuntuación escala EVN:\n0\nPuntuación escala Downton: 2-Riesgo bajo Fecha: JJJ\naciente que ingresa procedente del PUR 3 alrededor de las JJJ. Se col\noca Drum 2ll Izq + Kart Izq + SV. NRL: C y O. GCS 15.\nHDME: estable\nsin necesidad de DVA, normotensa. ECG en RS. Afebril.\nRESP: Portadora d\ne BiPAP 25% + E6/I16 durante el turno. Ultima GSA que ya no muestra acid\nosis, aunque persiste hipercapnia. Se comenta con MG y a ultima hora se\nrealiza descanso con VMK 28%/4l. Saturaciones &gt; 90%. SALIDAS: SV perme\nable con diuresis claras. No depos.\nENTRADAS: FAMIS + STP.\nSe realizan medidas de confort.\nResto ver IPA. **DRUM comprobado se retira 4cm\n--&gt; se deja 40cm**",
+  "text_length": 3163,
+  "anonymized_count": 16,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

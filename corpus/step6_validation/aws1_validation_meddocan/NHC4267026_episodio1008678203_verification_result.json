@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4267026_episodio1008678203",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nngresa gestante de JJJ para finalización de gestación por edad materna. Se canaliza VVP. CI firmado. TA elevadas 156/79, 55 lpm, 36ºC. RCTG: F\nCF Basal 140 lpm, variabilidad conservada, presencia de aceleraciones, n\no desaceleraciones. DU: irregular subclínica. Se realiza TV previo conse\nntimiento: Cx posterior, formado y cerrado. Se administra propess a las\nJJJ. Se deja monitor de control. Se avisa a equipo de ginecología por\nTA elevadas y se cursa AS. Fecha: JJJ\nonitor tranquilizador tras 1 hora de Propess. RCTG: 130lpm', variabilida\nd conservada, presencia de aceleraciones, no descensos. No DU.\nÚltimas\nTA: 135/65mmHg, 144/70mmHg. Pdte resultado AS. Se informa sobre pródromo\ns de preeclampsia.\nSe explican signos de alarma. Sube a planta, bajar a las JJJ para monitor de control. Fecha: JJJ\nngressa gestant de JJJ per inducció.\nAlt risc de PE. TA a l'arribada: 1\n84/106. 56x' - 185/103. 52x'. No refereix pròdroms.\nAviso MG. Comenta q\nue precisa monitorització seriada, baixo pacient a la JJJ.",
+  "text_length": 1015,
+  "anonymized_count": 8,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

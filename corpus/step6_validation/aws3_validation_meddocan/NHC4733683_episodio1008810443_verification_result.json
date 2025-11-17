@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4733683_episodio1008810443",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nacient de JJJ traslladat de JJJ per activació de Codi IAM.\nE\ns realitza cateterisme a les JJJ, s&apos;observa EAC de 2 vasos amb esteno\nsis de DA i Cx (col·locació de stent farmacoactiu a DA).\nPortador d&apos;emb\nenat compressiu radial dret sense signes d&apos;hemorragia, bona perfusió dis\ntal. Es retira a les JJJ sense incidències.\nDurant la tarda C i O, h\ndm estable, eupneic, afebril, DT EVA: 2/10, s&apos;administra analgesia segon\ns pauta mèdica.\nPendent de retorn a JJJ. Fecha: JJJ\nDiagnósticos: DOLOR TORÁCICO BRIHH Procedimientos: CORONARIOGRAFÍA + ICP CON IMPLANTE DE 2 SFA A DA Evolución:\n1. DOLOR TORÁCICO CON BRIHH 2. ENFERMEDAD CORONARIA DE 2 VASOS: Estenosis de 90% a nivel de DA\nmedia, 80% DA distal y estenosis de 80% de 1D ostial y Cx estenosis de\n85% a nivel proximal. 3. INTERVENCIONISMO CORONARIO PERCUTÁNEO (ICP) + IMPLANTE DE 2 STENT\nFARMACOACTIVOS A DESCENDENTE ANTERIOR Código IAM procedente de JJJ. Trasladado a cargo de SEM\ninterhospitralario. HORARIOS DE ATENCIÓN:\nHora de inicio del dolor: JJJ.\nHora de primer contacto médico: JJJ.\nHora de primer ECG: JJJ.\nHora de activación de Código IAM: JJJ.\nHora de llegada a hemodinámica: JJJ.\nHora de apertura de la arteria: JJJ. El paciente llega en clase clínica Killip I, con dolor torácico opresivo\ny sin complicaciones arrítmicas. El paciente refiere inicio del dolor\ntorácico hoy a las JJJ y niega síntomas infecciosos. A la exploración\nfísica tonos cardíacos rítmicos sin soplos, auscultación respiratoria\ncon MVC, sin signos de IC y con pulsos periféricos palpables y\nsimétricos. ECG: RS con BRIHH. Tratamiento antiagregante AAS 250 mg + Clopidogrel 600mg (JJJ). Tratamiento anticoagulante: heparina sòdica. Se realiza cateterismo vía radial derecha (ver informe adjunto de\nhemodinámica) y se diagnostica enfermedad arterial coronaria de 2 vasos:\nEstenosis de 90% a nivel de DA media, 80% DA distal y estenosis de 80%\nde 1D ostial y Cx con estenosis de 85% a nivel proximal. Se decide tratamiento de la DA por tratarse de lesión pronóstica y dada\nla edad se decide tratamiento médico de la Cx. ICP primario: Implante de 2 stent farmacoactivos, sin tromboaspiración,\ncon buen resultado angiográfico, flujo TIMI 3. Se acaba el procedimiento\nsin complicaciones. ECG post-ICP: RS con BRIHH sin cambios respecto a previo. Ecocardioscopia (mala ventana por neumopatía): VI de dimensiones\nnormales y motilidad global preservada a pesar de dudosa hipocinesia\nseptoapical. VD que aparenta no dilatado con motilidad normal. Sin\nvalvulopatías significativas. Sin derrame pericárdico. VCI no dilatada. A nivel analítico destacan troponinas Ius negativas (17 ng/L), función\nrenal corrrecta, Hb de 12,9, plaq de 325.000, PCR de 6 mg/dl con 13640\nleucos y TP y TTPA elevadas en contexto de HNF. Durante su evolución paciente con buen estado general, sin dolor\ntorácico con paracetamol IV ocasional y sin referir disnea ni otra\nsintomatología. Aunque podría tratarse de un síndrome coronario agudo\nllama la atención troponinas negativas. Dado que la lesión coronaria\npronóstica (DA) se encuentra tratada se decide traslado a su hospital de\nreferencia JJJ (retorno Código IAM) para continuar estudio e\ningreso. Plan terapéutico:\n-DAPT con AAS 100mg y clopidogrel 75mg/24h.\n-Atorvastatina 40mg/24h.\n-resto de su mediac",
+  "text_length": 3289,
+  "anonymized_count": 17,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

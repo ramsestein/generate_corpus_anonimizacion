@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5253541_episodio1008430005",
+  "success": true,
+  "anonymized_text": "JJJ\nPaciente de JJJ que ingresa a hospital de dia de cardiología procedente de domicilio ( JJJ) para realización de cateterismo programado.\nPORTADOR DE K BLEA.\nA su ingreso consciente, orientado y colaborador.\nHDM estable, disnea a esfuerzos. No dolor torácico.\nGlicemia basal: 223mg/dl\nSe prepara al paciente s/ protocolo de la unidad: ECG, colocación de via periférica y rasurado. Se cursa analítica y se administran 40mg de furosemida ev por equipo de IC. Colocada via periférica. JJJ\nEnfermera Ic-hospital de dia\n*visita Ic + KT-D Ta:96/53. Fc: 81x'. Peso: 69Kg.\nRefiere mal estar general, disnea al minimo esfuerzo, habla entrecortada.\nSe mobiliza en silla de ruedas por inestabilidad y mareo. niega ortopnea, no edema.\ncolocamos medicuth en ESI, se cursa analitica estrudio pre Tx.cardiaco +HLA+frotis nasal+quantiferon.\nSe administran 40mg de furo EV\nSe realiza Ic con PSI + asisitenta social + Dra,JJJ.\nNos ponemos en contacto con anestesia y nos comentan que realizaran valoración en la rehabilitacion.\nPte) realizar Kt-D. JJJ\nProcedimiento cateterismo derecho.\nAcceso VBD, compresivo limpio, retirado al alta.\nCtes estables.\nIngesta de alimentos tolerada.\nAlgias controladas.\nMicciones espontáneas.\nRealizada RX tórax.\nAl alta se adjunta documentación. JJJ\nPaciente que presenta sensación de disnea acompañado de malestar general que no ha ido en aumento desde su ingreso ésta mañana en HD.\nHDM estable, TA 127/67, FC 76, SPO en condiciones basales 100%, Glicemia 300 mg/dl. Se administra medicación habitual\nComentado con medicina, tras valoración cateterismo derecho, RX tórax y analítica se decide alta. JJJ\nPaciente C y O. HDM estable. Afebril. Eupneico basal aunque con sensación disneica (saturaciones 100%)\nSe canaliza CVP y se cursa analitica con hemograma, bioquimica y coagulación. AP: miocardiopatia dilatada no isquemica+enfermedad coronaria de vasos, pdte de transplante cardiaco. Se canaliza CVP y se cursa analitica.",
+  "text_length": 1941,
+  "anonymized_count": 8,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4352463_episodio1008391424",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente que viene a urgencias por rectorragias. COC. Colocamos ropa en b\nolsa identificada debajo camillña. Presenta palidez cutaneo mucosa, taqu\nicardia, normotensa e hipotermia, Canañizamos dos cateteres perifericos\nnº 20, cursamos analitica , pruebas cruzadas,reserva de plasma y plñaque\ntas. Se realiza EKG. La paciente baja al TAC. Fecha: JJJ\naloración paciente post pase 5AM: Paciente conciente y orientada. Persis\nte taquicárdica. Clínicamente con signos de deshidratación. POC y AS ini\ncial con glucemias de 500mg/dL.! Acidosis probablemente por lactato aume\nntado. Actualmente sin otra clínica. BMT actual 432mg/dL. Plan: Stop SG10%. dejo SF c/8H Paso crga de SF con 10 U inuslina Fecha: JJJ\netonas en sedimento negativas. Sedimento no inflamatorio Fecha: JJJ\naciente C y O, hmd estable, afebril. Realiza dos deposiciones hemáticas\n(rectorragias).\n9.20h Pacieente con hipoglicemia (47mg/dl) se comenta c\non médico referente ERM que indica glucosmón y mantener sueroterapia, re\ncupera valores.\n10.25 Paciente refiere temblor y sudoración, hipoglicem\nia de 51mg/dl, se comenta con GAS (busca: JJJ), indica glucosmón y ma\nntener SG 10% ya pautado. Pte FGS durante la mañana. Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Doble check (dos profesionales)\n¿En el momento del ingreso el pa\nciente lleva pulsera identificativa?: Sí\nDatos persona contacto (nombre\n, teléfono y parentesco):\nJJJ JJJ\nJJJ\n¿La persona de co\nntacto corresponde con el cuidador?: No tiene cuidador\n¿Vive solo?: Sí Procedencia del paciente antes del ingreso hospitalario: Domicilio\nMot\nivo ingreso y procedencia interna:\nRECTORRAGIAS\n¿Sufre alguna enfermed\nad crónica?: Diabetes, Enfermedad psiquiátrica\nDéficit de autocuidado:\nIndependiente\nAlergias: No\n¿Fuma actualmente?: Sí\nEstado de la consci\nencia: Alerta\nModalidad acceso vía aérea: Natural\nValor Frecuencia car\ndíaca: 81 lpm\nMicción espontánea: Sí\nRitmo deposicional:\nNormal\nFech\na última deposición: JJJ\nPrótesis dental: Sí\n¿Alteración de la\nintegridad de piel y mucosas al ingresar?: No\nColoración de la piel: Pa\nlidez\nCaracterísticas de la piel: Seca\nPuntuación escala Braden: 18-Ri\nesgo bajo\nTemperatura axilar: 35.2 ºC\n¿Tiene dolor al ingreso?: No\nPu\nntuación escala EVN: 0\nPuntuación escala Downton: 1-Riesgo bajo Fecha: JJJ\naciente consicente y oroientada. Nerviosa. Sin algias. HDM Estable si\nn DVA. ECG en RS/TS. Afebril. Gasometria con HB de 107. Eupenica en b\nasal. FAMIS + STP. Hipoglicemica, adm 2 glucosmons. Mejoria, glicemia post de 104. Realiza 5 deposiciones rectorragicas. Mañana colonos\ncopia, damos tratamiento pleinvue. Fecha: JJJ\nemodinámicamente estable, Hb estable de 10 por la tarde. Preparandose pa\nra colonoscopia mañana, continua haciendo rectorragias.",
+  "text_length": 2768,
+  "anonymized_count": 12,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

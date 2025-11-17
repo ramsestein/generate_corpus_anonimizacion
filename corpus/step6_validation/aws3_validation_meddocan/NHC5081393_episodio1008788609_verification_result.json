@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5081393_episodio1008788609",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\ne realiza (Dra JJJ/Dra JJJ) salpinguectomía izquierda por laparo\nscopia, sin incidencias. Se envía trompa a AP poara estudio diferido. Fecha: JJJ\nngresa procedente de Qx tras laparoscopia por embarazo ectópico. HDM e\nstable. Dolor controlado con analgesia pautada.\nApósitos HQ limpios.\nP\nortadora de SVP retirada a las JJJ.\nSe inicia ingesta hídrica con bu\nena tolerancia. Fecha: JJJ\nealiza 1º micción espontánea abundante y clara. Pendiente movilización. Fecha: JJJ\nolera dieta blanda sin incidencias. Fecha: JJJ\nube paciente procedente de UCOI acompañada de su JJJ y JJJ. Ctes co\nn tendencia a la hipotensión asintomática.Apósitos limpios. Portadora de via salinizada. Refiere escaso dolor.Ha realizado micción en cuña en UC\nOI y ha tolerado alimentación.Pte movilización. Fecha: JJJ\nicciones + movilizacion sin incidencias. Febricula a primera hora de la\ntarde, solo refiere molestias abdominales, administro enantiun efectivo, baja temperatura corporal a 36.7ºC. Fecha: JJJ\naciente estable, a primera hora del turno, no refiere dolor, apósitos li\nmpios, con tendencia a la hipotensión, asintomática, luego a las 5 hrs\nal levantarse al wc sensación de ahogo , refiere que no siente molestias al estar acostada, orina clara, leve dolor abdominal, administro analg\nesia pautada, indico micción en cuña Fecha: JJJ\nDN estable, afebril.\nApòsits quirúrgics conservats, abdomen tou i depre\nssible. Dolor controlat amb analgèsia. Pèrdua hemàtica molt escassa\nRef\nereix que es mareja cada cop que s&apos;aixeca. Cursem hemograma Fecha: JJJ\nalpinguectomia esquerra per LPS (per GEU tubàrica esquerra) +1. Cons\ncient i orientada. Normocolorejada i normohidratada. Constants correctes\n, afebril. TA 99/54 mmHg, FC 67 bpm, Tª 36.5ºC. Miccions espontànies\ncorrectes. Bona tolerància a ingesta. Refereix lleu inestabilitat cefàli\nca amb la deambulació, pel que es cursa hemograma, que descarta anèmia.\nDolor controlat amb analgèsia. EF: abdomen tou i depressible, lleumen\nt dolorós a la palpació. Sense signes de peritonisme. Apòsit quirúrgic n\net i sec / Es retiren apòsits quirúrgics: bon aspecte de ferides quirúrg\niques sense signes d&apos;infecció ni col·leccions. RHA presents. Analític\na de control post-IQ: Hb 115, Htc 34%, plaq 234.000. PLA: Bon curs\npost-IQ.\nRetirar apòsits, si bon aspecte de FQ, alta avui.\nSe sol·lici\nta visita telefònica en JJJ a CCEE OBS per resultats AP (trompa esquer\nra).\nEs recomana control de FQ amb infermeria d&apos;ASSIR de referència. Fecha: JJJ\netiro apòsits FQ. Incisions amb bon aspecte Adminsitro analgesia. Pdt re\ntirar via a l&apos;alta\nAlta a domicili Fecha: JJJ\netiro apòsits FQ. Incisions amb bon aspecte Adminsitro analgesia. Pdt re\ntirar via a l&apos;alta\nAlta a domicilli",
+  "text_length": 2723,
+  "anonymized_count": 17,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

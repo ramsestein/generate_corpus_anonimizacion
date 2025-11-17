@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4856952_episodio1008359297",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naloración corta estancia Responsable identificación positiva del paci\nente: Paciente\nSe le coloca pulsera: Sí\nAviso:: Es de obligado cumplim\niento que el paciente lleve pulsera identificativa.\nDatos persona conta\ncto (nombre, teléfono y parentesco):\nJJJ-JJJ-JJJ\n¿La persona de contacto corresponde con el cuidador?: No tiene cuidador\nProcedenci\na del paciente antes del ingreso hospitalario: Domicilio\nMotivo ingreso y procedencia interna:\nTiroidectomia total\nAlergias: No\nAntecedentes medico-quirúrgicos:\nPalpitaciones\nTiroiditis autoinmune\nFimosis\nFx de\ncubito y radio\n¿Sufre alguna enfermedad crónica?: No\nDéficit de autocu\nidado: Independiente\nPuntuación escala Barthel al ingreso: 100-Autónomo Medicación no prescrita en el SIRE:\nTirodril 5mgrs\nTipo de respiraci\nón: Eupneico\nValor frecuencia respiratoria: 16 resp/min\nValor Presión\nArterial sistólica: 133 mm Hg\nValor Presión Arterial diastólica: 77 mm\nHg\nValor frecuencia cardíaca: 96 lpm\nRitmo deposicional:\nNormal\nPunt\nuación escala Downton: 1-Riesgo bajo\n¿Alteración de la integridad de pi\nel y mucosas al ingresar?: No\nColoración de la piel: Normocoloreada\nPu\nntuación escala Braden: 22-Sin riesgo\nEstado de la consciencia: Alerta ¿Tiene dolor al ingreso?: No\nPuntuación escala EVN: 0-No hay dolor\nPu\nntuación escala detección depresión PHQ-2: 1-Baja probabilidad depresión ¿Fuma actualmente?: Sí\n¿Usted bebe de forma habitual?: No Fecha: JJJ\nraslado de URPA para vigilancia respiratoria tras IQ tiroidectomía.\nNRL\n: c y o. Ansioso. No refiere algias.\nHDM: estable, no precisa DVA. ECG\nen RS. Afebril.\nRESP: basal. Eupneico.\nALIM: famis + STP.\nELIM: diure\nsis espontánea en porrón. No depos.\nRealizamos curas básicas de enferme\nría. Fecha: JJJ\naciente CyO, ansioso. Tras recuperar sus pertenencias se queda más tranq\nuilo. Refiere cefalea que cede con analgesia convencional.\nHMD estable\nsin DVA con tendencia a la HTA, afebril. RS.\nEupneico en basal.\nFAMIS\n+ STP.\nNo micciona durante la noche. No depo.\nPersiste hematoma en zon\na IQ, parcialmente reabsorbido. HQ con buen aspecto.\nBuen descanso noct\nurno aparente.\nCursada analítica de ctrol.\nGlucosa de 293mg/dL en anal\nítica, se avisa a MG. Glucosa de 101mg/dL en punción en el dedo. Fecha: JJJ\nacient conscient, orientat i col·laborador.\nEupneic en basal, saturacio\nns mantingudes.\nHMD estable sense DVA, normotens. ECG en RS, afebril. Refereix dolor que millora amb analgèsia de pauta.\nDieta líquida ben to\nlerada, no progressem més per inapetència del pacient.\nDiüresis espontà\nnia conservada. No depos.\nEs trasllada a G094 sense incidències.\nPdt.\nsedestar. Fecha: JJJ\n2h regresa paciente procedente de E043.\nHDM estable.afebril.Refiere cef\nalea.\nHQ +hematoma en fase reabsorción. Valorado por médico de guardia. Iniciamos dieta líquida porque el paciente rechaza general blanda.Mant\niene STP.\nAnimo al paciente a sedestar y lo rechaza.\nMicciones espontá\nneas en E043 Fecha: JJJ\ntes estables, afebril, algias controladas\ndieta liquida que tolera, no\nquiere que se le progrese a general blanda dejo dieta semiliquida en l\na cena\nHQ correcta\nno quiere sedestar Fecha: JJJ\nstable HDM, afebril.\nEupneic en basal.\nÀlgies controlades. ME mantin\ngudes. Hematoma controlat, fase de reabsorció.\nBon descans. Curso a\nnalitica. Fecha: JJJ\nDM estable.afebril.No algias.\nDieta general blanda bien tolerada.\nHQ +\nhematoma, se observa mejoría respecto a ayer. Sedesta y deambula.\nMic\nciones espontáneas. Fecha: JJJ\nDN estable y afebril. No algias. HQ + hematoma sin cambios durante la\ntarde. Autónomo Dieta tolerada ME en WC Sin incidencias Fecha: JJJ\nfebril.Normotenso. No refiere dolor,rechaza analgesia. Micciones esp\nontáneas en wc. Descansa durante la noche. Cursada analítica de urgé\nncias. Fecha: JJJ\naciente consciente y orientado. HDM estable. Afebrill. eupneico en ba\nsal. Sin algias. Dieta tolerada. ME mantenidas, Autónomo. S\ne decide alta a domicilio familiar. Se retira CVP sin incidencias. Se ex\nplican normas de reconsulta y se dan recomendaciones al alta.",
+  "text_length": 3985,
+  "anonymized_count": 14,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

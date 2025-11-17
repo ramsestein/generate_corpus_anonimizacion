@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5258467_episodio1008662784",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nurso Clínico - OBS Presión Arterial sistólica: 136 mm Hg\nPresión Art\nerial diastólica: 76 mm Hg\nEstática fetal: Cefálica\nFCF: Positiva\nTex\nto Libre:\nVisita FR:\n-FIV óvulos propios.\n-Antecedente de microprolac\ntinoma en tto con Dostinex en JJJ controlado por endocrino sin tto actu\nal. -Migrañas sin aura.\n-JJJ\n-Trastorno de ansiedad a\nctualmente sin tto. Seguimiento Dra JJJ.\n-Alto riesgo de PE en tto con AAS. -PFE p10. Analitica despistaje de PE ratio proteinas creatinin\na patologico en el contexto de sedimiento de orina patologico. control T\nA ambulatorio correcto. No prodromos de eclampsia. Plan: SGB. Visita en 2 semanas. Mañana ecografia programada CIR-PE. UC. Repetir ratio pro\nteinas creatinina. HOY TINENE PROGRAMAD IQ POR ABSCESO DE BARTHOLINO. St\nop Tromalyt. Fecha: JJJ\n2:30h - Ingresa a UCOI paciente procedente de quirófano por drenaje quir\núrgico y marsupialización de absceso de glándula de Bartholino.\nHDM est\nable y afebril. No refiere algias.\nTolera ingesta hídrica y de sólidos. Pte micción espontánea. Intenta deambular hasta wc pero se refiere de\nbilidad de EEII. Colocamos cuña. Fecha: JJJ\nost Bartholino ingresada en UCOI. HDME y afebril, no refiere algias. T\nolera dieta. Realiza deambulación y ME de 500ml, clara.\nRecibe los pa\npeles de ALTA y retiro CVP.",
+  "text_length": 1295,
+  "anonymized_count": 6,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

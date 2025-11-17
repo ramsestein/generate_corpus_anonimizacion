@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4968583_episodio1008259482",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente que acude a UCIAS por malestar general, dorsalgia e hiperglicem\nia. Hemodinamicamente estable y afebril. Mantiene SatO2 al 87% en aire a\nmbiente. Realizo GSA e inicio oxigenoterapia con GN a 2L´. manteniendo\nSatO2 al 91%.\nInstauro via ev y salinizo. Se cursa análisis de sangre y 2 Hemocultivos + PCR covid 19.\nQueda en observación. Fecha: JJJ\nOTA EVOLUTIVA HPAC JJJ Turno Día, Dra JJJ 1. NEUMONÍA ADQ\nUIRIDA EN LA COMUNIDAD FINE IV\nIniciamos oxigenoterapia en gafas nasale\ns 2 lpm + analgesia con mejoría clínica. Ante resultado de pruebas compl\nementarias solicito antigenuria de neumococo y legionella e inicio antib\nioterapia con ceftriaxona 1g iv/24h + azitromicina 500 mg iv/24h.\nComen\ntada con Medicina Interna para ingreso, queda pendiente de asignación de cama. Fecha: JJJ\naciente consciente y orientada.\nEupneica con GN 3L mantiene Sat O2 96%. HDM normotensa y afebril.\nSe realiza Rx de Tórax y se cursa Antigenur\nia.\nTolera dieta oral.\nRealiza diuresis en cuña/pañal\nPte ingreso",
+  "text_length": 1008,
+  "anonymized_count": 5,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

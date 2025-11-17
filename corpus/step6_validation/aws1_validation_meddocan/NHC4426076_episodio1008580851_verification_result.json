@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4426076_episodio1008580851",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente con AP adk pulmonar E IV en QMT\nAcude por presentar diarreas +\nanorexia\nA su llegada C y O. HMD taquicárdico, TA no capta. Afebril. E\nupenico\nCanalizo VP y se cursa AS + lactato + eq venoso\nSe adm carga d\ne SF y posteriormente TA 91/60 y FC 63lpm\nDurante su estancia 2 deposic\niones diarreicas, se cursa coprocultivo\nSe comenta para traslado a PUR3 Fecha: JJJ\nOTA DE INGRESO ONCOLOGÍA MÉDICA (JJJ) Paciente de JJJ, con antecedente de adenocarcinoma pulmonar E-IV (M1 SNC, pericardio,\ncardiofrénica, mediastino y adenopatías) con inicio reciente de 1L con C\nBDCA AUC 3 - Pemetrexed 500mg/m2 al 60% (C1D1 JJJ), SIN INMUNOTERAP\nIA x VHC. RMN cerebral (JJJ): Lesión ocupante de espacio única infr\natentorial izquierda con hemosiderina en sus márgenes y captación perifé\nrica anular, sugestiva de M1 de aproximadamente 18 x 19 x 24 mm, con mod\nerado edema perilesional; pendiente inicio de hSRT sobre lesión cerebelo\nsa con intención radical 24Gy en 3fx; 8Gy/fx. Acude a Urgencias por p\nresentar deterioro del estado general de 3 días de evolución, progresivo\n, con abundantes diarreas en forma de 5-6 deposiciones líquidas diarias, sin claros productos patológicos (dudoso aspecto melénico en el día de\nayer). No fiebre, no vómitos (sí abundante salivación) ni dolor abdomina\nl. Paciente con mal estado general, consciente y orientado, hemodinám\nicamente inestable con PAm 55 mmHg, taquicárdico 120 lpm, eupneico en re\nposo sin precisar oxigenoterapia. Tonos cardíacos rítmicos sin soplos. P\nalidez mucocutánea marcada, relleno capilar &gt; 2 s. MVC bilateral. Abdome\nn blando y depresible, peristaltismo conservado, no peritonismo. POC: pH 7.25, Bic 21.2, Lactato 40,7\nAnalítica: PCR 6.7 mg/dL, cr 2.63 (FG\n23), BT 1.9 (BD 1.1), LDH 238, Pro 49, Na 135, K 4.9, Ca 8.1, Mg 2. Leuc\nocitos 220 (N 100, L 100, M 0). TP 100%. Control lactato de 50 mg/dL. Ecoscopia muestra cavidades cardíacas colapsadas, con VTI de 10, ven\na cava colapsada, sin derrame pericárdico, contractilidad global conserv\nada. OD: 1. SHOCK HIPOVOLÉMICO +/- SÉPTICO de probable foco abdominal 1.1 INSUFICIECIA RENAL AGUDA PRE RENAL\n1.2. ACIDOSIS METABÓLICA\n2. N\neutropenia G4 PLAN: - Sueroterapia intensiva para recuperar volemia.\nEn tanto que se encontraba con dosis de dexametasona 4 mg diarios, inici\namos cobertura antibiótica con meropenem + teicoplanina a la espera de r\nesultados microbiológicos. Asimismo añado hidrocortisona a dosis de shoc\nk.\n- Paciente candidato a ingreso en unidad de intermedios, en caso de\nprecisarlo si mantuviese inestabilidad hemodinámica.\n- JJJ informa\ndo. Fecha: JJJ\naciente durante la tarde en PUR3 se mantiene CyO, con tendencia a la hip\notensión, taquicarfdico y afebril.\nPortador de VP 18G en ESD permeable. Se coloca nueva VP 16G en ESI, se realiza POC venoso.\nSe realiza sonda\nje vesical con foley 14 con buenas diuresis.\nRealiza 4 deposiciones pas\ntosas poco abundantes durante la tarde.\nPaciente pendiente ingreso en O\nncología.",
+  "text_length": 2957,
+  "anonymized_count": 8,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

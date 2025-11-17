@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5394555_episodio1008700771",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\n. COLANGITIS AGUDA A su llegada a Urgencias, paciente consciente, ori\nentada, con estado general conservado, normohidratada, ictericia ocular, piel normocoloreada, hemodinámicamente estable con tendencia a la hipot\nensión, febricular, taquicárdico, taquipneico y satO2 del 97% respirando en aire basal. Exploración física normal sin hallazgos patológicos rele\nvantes. La placa de tórax es normal. La analítica elevación de parám\netros de colestasis y elevación de parámetros. Los hemocultivos están en curso. Se orienta el cuadro como una colangitis aguda. Se pauta antibioterapia empírica de amplio espectro y se programa ecografía abdo\nminal. Se comenta el caso con Oncología y se hacen cargo de ellos pendie\nnte de ingresar en cuanto dispongan de cama. Plan:\n- Se envía a la s\nala de Observación de Urgencias (JJJ) con A/s de control mañana por l\na mañana. - Se pauta su medicación habitual. Órdenes médica:\n- Con\ntrol de constantes vitales según turno de infermería. - Dieta absoluta en forma de sueroterapia.\n- Pendiente de ecografía.\n- A/s de control\na las JJJ. Fecha: JJJ\nnterconsulta de Infecciones Nosocomiales Equipo: JJJ\nInstitutos: JJJ Hemocultivo: No\nModificación del tratamiento: Sí\nActuación telefónic\na: Sí\nComentarios:\nPaciente con colangitis de repetición. Colonizada p\nor K. pneumoniae BLEE, E. coli BLEE y P. aeruginosa. Esta última es XDR\n(sólo sensible a aminoglucósidos, caz/avi y ceftolozano). Recomiendo caz\n/avi y desescalada precoz según cultivos. Seguimos evolución. Fecha: JJJ\ncografía abdominal urgente: Hígado de tamaño y morfología normal, con le\nsiones heterogéneas mal definidas compatibles con M1 conocidas. Vía intr\nahepática izquierda no dilatada, con prótesis en su interior con extremo en el confluente hiliar. La vía intrahepática derecha se observa minima\nmente dilatada, con prótesis en su interior cuyo extremo distal se obser\nva así mismo en confluente hiliar. Focos dispersos de aerobilia predomin\nantemente en vía izquierda e hilio.Vesícula biliar colapsada, no valorab\nle. Vía biliar extrahepática no dilatada, visualizando con dificultad el cateter de drenaje biliar en su\ninterior. Comentado con INF, dado a\nislamientos microbiológicos previos (P.aeruginosa de díficil tratamiento en frotis rectal + E.coli BLEA + K.BLEA) se escala antibioterapia cefta\nzidima/avibactam, en función de evolución y hallazgos microbiológicos se valorará desescalada.",
+  "text_length": 2407,
+  "anonymized_count": 7,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

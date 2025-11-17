@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4364729_episodio1008490131",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente que ingresa en turno noche. Por la mañana, NRL afasia con pred\nomio motor, obecede alguna orden simple, facial moderado, disartria. NIH\nSS 11. HDM estable, afebril. Micciones en porrón. Realizamos EKG de in\ngreso.\nHigiene gral + lavado de cabeza + boca. Aparente déficit hábito\nhigiénico. STP. Se realiza test disfagia, positivo. Se pide dieta disf\nagia A diabética sin sal, bien tolerado. No recibe visita familiar. Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Doble check (dos profesionales)\n¿En el momento del ingreso el pa\nciente lleva pulsera identificativa?: Sí\nDatos persona contacto (nombre\n, teléfono y parentesco):\nNo constan, no ha vingut família\n¿La persona de contacto corresponde con el cuidador?: No tiene cuidador\nProcedenci\na del paciente antes del ingreso hospitalario: Otro hospital\nMotivo ing\nreso y procedencia interna:\nIctus ACMI. Mal control del FRCV\n¿Sufre al\nguna enfermedad crónica?: Dislipemia, Hipertensión, Diabetes\nDéficit de autocuidado: Independiente\nAlergias: No\nEstado de la consciencia: Con\nfuso\nModalidad acceso vía aérea: Natural\nValor Frecuencia cardíaca: 87 lpm\nMicción espontánea: Sí\nRitmo deposicional:\ndesconegut\n¿Alteraci\nón de la integridad de piel y mucosas al ingresar?: No\nColoración de la piel: Normocoloreada\nCaracterísticas de la piel: Seca\nPuntuación esca\nla Braden: 14-Riesgo moderado\nTemperatura axilar: 37.6 ºC\n¿Tiene dolor al ingreso?: No\nPuntuación escala EVN: 0-No hay dolor\nPuntuación esca\nla Painad: 0-Sin dolor\nPuntuación escala Downton: 3-Riesgo alto Fecha: JJJ\n. ICTUS ISQUÉMICO SUBAGUDO DE ACM-I.\n2. MAL CONTROL DE LOS FACTORES DE\nRIESGO CARDIOVASCULAR: HIPERTENSIÓN Y DIABETES MELLITUS (H1Ac 11%). P\naciente con buen control tensional oscilando entre TAS 120-130mmHg y TAD 60-80mmHg a 90 lpm. Afebril y eupneico en basal. Pico hiperglicémico ho\ny por la tarde de 350mg/dl. NRL: Vigil. Orientación no valorable por afasia grave (2). Responde 1/2 órdenes simples (1). Afasia grave, emite palabras incomprensibles (2). Disatria moderada (2). Mirada primaria ce\nntrada sin limitaciones a la excursión visual. Hemianopsia derecha por r\neflejo de amenaza ausente (2). Paresia facial moderada (2). Paresia braq\nuio - crural derecha 4/5 de predominio distal en el caso del miembro sup\nerior, que no puntúan. No alteraciones sensitivas. Dismetría de ESD prop\norcional al grado de paresia. Dismetrías y extinciones no valorables. NI\nHSS 11. EXPLORACIONES COMPLEMENTARIAS: - TC multimodal (JJJ): Ict\nus isquémico con infarto establecido en territorio frontal e insular izq\nuierdo. Pequeños focos de transformación hemorrágica aguda.\n- AS (JJJ\n): PCR 3.33 mg/dL; función renal preservada con FG 87ml/min; CK 591 U/L; Poliglobulia con Hb de 182g/L; sin leucocitosis pero con neutrofilia ab\nsoluta de 8.400; Dímero D 1620 ng/mL sin otras alteraciones. OD: Ict\nus isquémico subagudo en territorio de la ACM-I con pequeña TH petequial en zona infartada IH1 de etiología indeterminada, pendiente de completa\nr estudio. Tto AAS. PLAN: - Ante normalidad de la función renal con elevación moderada de CK e inicio de dieta VO con buena tolerancia se r\netira sueroterapia. - Se inicia antiagregación con AAS en dosis de 100\nmg/24h. - Ayer JJJ presenta pico febricular hasta 37.6ºC, hoy afebri\nl sin signos de infección por lo que se mantiene actitud expectante. Fecha: JJJ\nacient nrl estable.\nHDM estable, afebril. Miccions al porró. No refer\neix àlgies. Ingesta oral al 100%. Glicèmies a les 20h de 350 mg/dl. Av\niso a MG. Ve JJJ a visitar-lo. Deixa número de telèfon: JJJ, JJJ",
+  "text_length": 3582,
+  "anonymized_count": 10,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

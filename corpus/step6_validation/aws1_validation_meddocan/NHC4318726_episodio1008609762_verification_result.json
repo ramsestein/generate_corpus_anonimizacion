@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4318726_episodio1008609762",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nDM estable. Afebril. Eupneica.\nAcude de hospital JJJ por dolor\nabd. por colecistitis aguda.\nPdte. ECO.\nCurso @.\nEn tt ATB + STP Fecha: JJJ\nurante TT paciente permanece C y O, HDME, afebril, eupneica en basal. Al\ngias moderadas en hemiadmomen derecho que precisan de analgesia\nDurante el turno se traslada a realizar eco guiada para colecistostomía, donde\ncolocan pigtail con abundante salida de contenido bilioso (200cc por el\nmomento)\nSe inicia tolerancia líquida POM\nPte ingreso a cargo de HBP Fecha: JJJ\ne cursa contenido drenaje pigtail Fecha: JJJ\naloración corta estancia Responsable identificación positiva del paci\nente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera ide\nntificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco)\n:\nJJJ JJJ (JJJ)\n¿La persona de contacto corresponde con el c\nuidador?: No tiene cuidador\nProcedencia del paciente antes del ingreso\nhospitalario: Domicilio\nMotivo ingreso y procedencia interna:\nProcede\nde PUR4 e ingresa por colecistitis aguda\nAlergias: No\nAntecedentes med\nico-quirúrgicos:\nICTERICIA OBSTRUCTIVA POR NEOPLASIA DE CABEZA PANCREÁT\nICA.\nAdenoma tubular (polipectomía)\nCa basocelular\n¿Sufre alguna enferm\nedad crónica?: No\nDéficit de autocuidado: Independiente\nPuntuación esc\nala Barthel al ingreso: 100-Autónomo\nTipo de respiración: Eupneico\nVal\nor frecuencia respiratoria: 19 resp/min\nSaturación O2: 98 %\nValor Pres\nión Arterial sistólica: 110 mm Hg\nValor Presión Arterial diastólica: 59 mm Hg\nValor frecuencia cardíaca: 77 lpm\n¿Paciente con dificultad en l\na punción venosa?: No\nRitmo deposicional:\n.\nPuntuación escala Downton\n: 0-Riesgo bajo\n¿Alteración de la integridad de piel y mucosas al ingre\nsar?: No\nColoración de la piel: Ictericia\nPuntuación escala Braden: 22\n-Sin riesgo\nEstado de la consciencia: Alerta\n¿Tiene dolor al ingreso?: No\nPuntuación escala EVN: 0-No hay dolor\nPuntuación escala detección\ndepresión PHQ-2: No valorable\n¿Fuma actualmente?: No\n¿Usted bebe de fo\nrma habitual?: No Fecha: JJJ\nscales Puntuación escala EVN: 2\nPuntuación escala Barthel durante el ingreso: 100-Autónomo Fecha: JJJ\nscales Puntuación escala Barthel durante el ingreso: 100-Autónomo\nPu\nntuación escala EVN: 2 Fecha: JJJ\nacient conscient i orientada. HDM estable i afebril. Saturacions en basa\nl mantingudes, eupneica. Algies abdominals marcades a les mobilitzacio\nns que cesen amb analgesia de pauta. Manté drenatge pigtail productiu\namb dèbit bilios, es realitza cura punt d'insercio, aposit hollister con\nservat. S'incia dieta liquida per esmorzar que tolera bé i es progress\na a semiliquida per a dinar, també ben tolerada. No nausees ni vomits. A\nbdomen tou i depresible. ME, realitza dps diarreiques a primera hora,\npnt cursar coprocultiu, no realitza més dps.\nCVP+STP.\nSedesta i deambu\nla per la unitat. Fecha: JJJ\nJJJ: ICTERICIA OBSTRUCTIVA 2º A NEOPLASIA PANCREÁTICA\nJJJ: COLECISTI\nTIS AGUDA --> COLECISTOSTOMÍA. PTE IQ.\n--\nPaciente HDE, consciente y o\nrientada. Afebril. ECO JJJ: Vesícula biliar hidrópica de paredes en\ngrosadas de aspecto edematoso, con barro biliar en su interior. Hallazgo\ns en relación a colecistitis\naguda, ya conocida. En condiciones de asep\nsia y tras la administración de anestésico local, se coloca de forma eco\n-guiada colecistostomía con catéter pig-tail de 7F con hilo, conectado a bolsa colectora, con salida de abundante contenido bilioso de forma esp\nontánea. Se fija el catéter a piel con un punto de seda y dispositivo Ho\nllister. Sin complicaciones. Dieta: líquida. A/S JJJ: PCR 24.5 (\n22.8), N 86 (90), GGT/FA 134/187 (182/248), BiT 1.4 (1.9), BiD 1.1 (1.4)\n, Hb 10.2 (11.9). Ca 19.9: 125. TTO: tazocel. PLAN:\n- Pte IQ.\n-\nCopro + clostridium.\n- Dieta protección biliar.\n- A/S control mañana. Fecha: JJJ\nscales Puntuación escala Downton: 2-Riesgo bajo Fecha: JJJ\naciente HDM estable. Normotensa y afebril. Eupneica en basal. Algias c\nontroladas con analgesia pautada alterna.\nSe progresa dieta hasta PDA T\nx con buena tolerancia. No refiere nauseas ni vómitos. Mantiene diure\nsis en WC. Realiza una deposición liquida biliosa. Se cursa coprocultivo\n.\nPig.tail permeable y productivo a debito bilioso. Autónoma. Deambul\na por la sala.",
+  "text_length": 4164,
+  "anonymized_count": 18,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

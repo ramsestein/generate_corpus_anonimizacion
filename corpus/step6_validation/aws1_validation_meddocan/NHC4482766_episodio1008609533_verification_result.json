@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4482766_episodio1008609533",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nPaciente que ingresa procedente de hemodinámica por IAMCEST anterior. Realizan cateterismo con dilatación de la DA. Enfermedad de 3 vasos.\nHDM con tendencia a la hipertensión, se inicia NTG a 15ml/h. Presenta dolor en tórax izquierdo con irradiación a espalda, EVN 4-6 que cede con Paracetamol y Fentanilo.\nECG en RS. Afebril.\nEupneica con VMK a 28%/4lx', no refiere disnea.\nSe realiza A/S y ECG de control con elevación de ST de v2 a v6, valorado por MG.\nSe rehace compresivo radial izquierdo por sangrado y hematoma. A retirar a partir de las 22h.\nMicciones correctas en la cuña.\nSe inicia dieta hídrica + medicación vo, bien tolerado.\nAcompañada por JJJ.\nSe activa SEM para traslado a su hospital de referencia a JJJ. Fecha: JJJ\nPaciente consciente y orientada. HMD estable, con tendencia a la HTA. Portadora de BIC de NTG a 32ml/h al inicio del turno. Eupneica, con VMK al 28%, con SatO2 en torno a 97%. Diuresis espontánea en cuña correcta. No deposición. Refiere algias en tórax con EVA de 3 (el mismo dolor que ha tenido), se comenta con MG. Se retira compresivo radial izquierdo sin incidencias. Se observa hematoma en ESI, conducta expectante. Se realizan medidas de confort. Se traslada a la paciente a su hospital de referencia, JJJ.",
+  "text_length": 1255,
+  "anonymized_count": 5,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

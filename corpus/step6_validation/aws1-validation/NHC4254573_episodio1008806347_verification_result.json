@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4254573_episodio1008806347",
+  "success": true,
+  "anonymized_text": "JJJ\nacient donat d'alta recentment de CCV per bypass femoral, que consulta p\ner MEG, hTA i palidesa cutània. Es cursa analítica, i s'inicia ttm ana\nlgèsic i STP. Es col.loca SV per RAO. Millora clinica. Pdt resultats JJJ\nurso sedimento y urinocultivo. JJJ\nx Vasc Pacient en 4tPO bypass axilofemoral dret, acut per MEG i sensa\nció de cansament i globus vesical. Avui refereix trobar-se millor. N\no molèsties específiques abdominals. A l'exploració, hematoma inguin\nal dret, amb massa pulsàtil en cara interna de la ferida inguinal. R\nealitzo ecografia EID: pseudoaneurisma anastomòtic d'anastomosis femoral de l'axilo, sense poder objectivar un defecte petit o complicació de to\nta l'anastomosis. Sol·licito AngioTC EEII. Comento amb radiologia. Sol·licito IQ. Firma CI. Deixo en dieta absoluta. Comento amb enfermeri\na. JJJ\ndéndum: Informo al JJJ JJJ\nBS6_TM: Paciente dado de alta el JJJ tras bypass femoral + axilar, q\nue consulta a UCIAS por MEG. A mi valoración CyO, HDME, afebril, eupn\neico basal, EVA 0. Portador de SV por RAO, permeable, con diuresis clara\n. Presenta hematoma en toda la parte lateral D, desde axila hasta zon\na suprapúbica. Visitado por CCVV que indica esta tarde IQ por pseudoaneu\nrisma femoral D. Se deja FAMIS. Se realiza TAC. Pte I.CCVV. AP: DLP, HBP, ictus lacular, melanoma + M1 pulmonar.",
+  "text_length": 1318,
+  "anonymized_count": 7,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

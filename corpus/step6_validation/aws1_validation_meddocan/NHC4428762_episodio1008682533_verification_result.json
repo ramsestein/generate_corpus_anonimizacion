@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4428762_episodio1008682533",
+  "success": true,
+  "anonymized_text": "JJJ\naciente trasladada x SEM (básica) desde DMC activada código ictus tras p\nresentar focalidad neurológica.\nA su llegada hdm estable, C. y O. disar\ntria y hemiparesia dcha.\nSe canaliza CVP en ambas EESS, se cursa analít\nica de ucias y se realiza TAC JJJ\nTAC Se realiza tAc en pciente con codigo Ictus, administramos por orden medica, 6 mg de Alteplasa por via endovenosa en bolus, pendiente perfusion continua. JJJ\nANGIORADIOLOGÍA Paciente que se realiza conjuntamaente con el equipo de anestesia: arteriografía cerebral+trombectomía mecánica ictus. Se retira introductor y se coloca punto percutáneo que es efectivo. Se coloca vendaje de seguridad. Retira 6h postintervencionismo. Fin del tratamiento a las JJJ JJJ\naciente durante la tarde en BPAROS.\nC y O, HMD estable, eupneica y afeb\nril.\nPortadora de apósito compresivo femoral en EID, se palpa pulso rad\nial, buena coloración.\nPdte de Ingresar en la Unidad de ICTUS. JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\nJJJ, JJJ, JJJ\nJJJ, JJJ, JJJ\n¿La persona d\ne contacto corresponde con el cuidador?: Sí\nProcedencia del paciente an\ntes del ingreso hospitalario: Domicilio\nMotivo ingreso y procedencia in\nterna:\nPaciente de JJJ que ingresa por episodio de somnolencia con\ndebilidad de predominio derecho que se orienta diagnostico como ictus is\nquémico agudo vertebrobasilar.\n¿Sufre alguna enfermedad crónica?: Hiper\ntensión, Insuficiencia renal crónica, Otras enfermedades crónicas, Disli\npemia\nEspecificar otras enfermedades crónicas:\npolineuropatia periféri\nca, polimialgia reumática, trastorn d'ansietat, ictus isquémicos vertebr\nobasilar (JJJ y JJJ) como secuelas leve disartria y cuadrantanopsia su\nperior D.\nDéficit de autocuidado: Higiene, Movilización\nAlergias: No ¿Fuma actualmente?: No\nExfumador: Sí\n¿Tiene problemas de visión?: Sí Dispositivos oculares: Gafas\n¿Lleva puesto el dispositivo ocular?: No ¿Quién tiene la custodia del dispositivo ocular?: JJJ\nEstado\nde la consciencia: Alerta\nOrientación: Sí\nPuntuación escala Glasgow: 1\n5-Leve\nModalidad acceso vía aérea: Natural\nTipo de respiración: Eupnei\nco\nValor frecuencia respiratoria: 15 resp/min\nSaturación O2: 100 %\nDi\nspositivo para administrar oxígeno en respiración espontánea: Lentillas\nnasales\nValor Presión Arterial sistólica: 97 mm Hg\nValor Presión Arter\nial diastólica: 83 mm Hg\nValor Frecuencia cardíaca: 63 lpm\nMicción esp\nontánea: Sí\nRitmo deposicional:\nregular\n¿Alteración de la integridad\nde piel y mucosas al ingresar?: No\nColoración de la piel: Normocoloread\na\nCaracterísticas de la piel: Frágil\nPuntuación escala Braden: 17-Ries\ngo bajo\nTemperatura axilar: 35.8 ºC\n¿Tiene dolor al ingreso?: No\nPunt\nuación escala EVN: 0-No hay dolor\nPuntuación escala Downton: 2-Riesgo b\najo JJJ\nacient conscient i orientada en les tres esferes. NRL lleu disartria. NI\nHSS:1. GCS:15. HDM tendencia a la hipotensió, asimptomatica. Afebril.\nPortadora de LN 2lx&apos; que les retirem, SatO2 en basal correctes.\nEs mant\né a famis. Donem medicació amb aigua ben tolerat. STP. Compressiu femo\nral D, pdt retirar demà JJJ a les JJJ. Polsos pedis mantinguts.\nMic\ncions a cunya. No realitza deposició.\nRepòs al llit.\nRealitzat TAC + E\nCG ingrès, pdt valorar.\nPdt @ demà JJJ.",
+  "text_length": 3357,
+  "anonymized_count": 20,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

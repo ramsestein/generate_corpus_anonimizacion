@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4405076_episodio1008690398",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nT BPARO: Pacient acut a ucies per sensació de mareig amb perdua de visió sobtada en camp temporal ull esquerre. AP: cardiopatia isquemica, HTA, IRC, BBEFH i BAV. No AMC. Se activa código ictus.\nA su llegada BPARO: A: Vía aerea permeable\nB: Eupneico basal, saturación de 97%.\nC: Monit\norizamos, HDM estable, afebril, pulsos periféricos presentes..\nD: C y O\n, pupilas isocóricas normoreactivas. Glicemia 96mg/dl.\n-Se cursa A/S\n-\nSe traslada a SCA.\n-Se realiza ECG por DT(aportaba ECG de CAP que mostr\naba BRIHH)",
+  "text_length": 520,
+  "anonymized_count": 1,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

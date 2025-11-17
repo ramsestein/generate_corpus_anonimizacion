@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4810395_episodio1008676723",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naloració obstètrica Responsable identificació positiva del pacient: D\noble check (dos professionals)\nEn el moment de l&apos;ingrés el pacient port\na braçalet d&apos;identificació?: Sí\nComprovació identificació mare-nadó: S\ní\nProcedència del pacient abans de l&apos;ingrés hospitalari: Domicili\nMoti\nu ingrés i procedència interna:\nCesarea electiva\nAl·lèrgies: No\nValor de Pressió Arterial sistòlica: 124\nValor de Pressió Arterial diastòlic\na: 75\nValor freqüència cardíaca: 52\nTemperatura axil·lar: 35.6\nTipus\nde pacient: Puèrpera\nAlçada uterina: -2\nLoquis: Fisiològics\nTipus de\npart: Cesàrea\nDesig de lactància en gestació actual: Sí\nPuntuació esca\nla EVN: 0-No hi ha dolor Fecha: JJJ\nngresa para recovery tras cesárea electiva por traquelectomia. A su lleg\nada HDM estable y afebril. Algias controladas con analgesia de pauta (ad\nministro PCT EV a las JJJ). Buen curso obstétrico, útero bien contraí\ndo (AU:-2), ph fisiológicas. Realizamos higiene genital.\nObservamos liq\nuido serohematico en HQ, destapamos AQ, HQ con buen aspecto sin signos d\ne infección no se vuelven a observar perdidas de liquido serohematico. V\nolvemos a tapar HQ.\nMobiliza EEII (bromage IV). Tolera ingesta hídrica. Retiro SV a las JJJ, 200cc de orina de aspecto claro, pte. 1a micció\nn espontanea.\nRealizamos higiene genital.\nLM iniciada en ucoi, algo di\nficultosa. Fecha: JJJ\nngresa paciente en planta HDM estable y afebril, portadora de VPP en ext\nremidad superior izquierda, dolor controlado con analgesia pautada, PH f\nisiológicas, HQ con apósito limpio. LM iniciada en SP sin mucho éxito, s\ne intenta colocar en sala pero no conseguimos buen agarre, dejamos piel\ncon piel con el JJJ para que la JJJ pueda cenar, luego recomendamos avisar para llevarle el extractor. Pte micción y movilización.\nTole\nra ingesta.",
+  "text_length": 1802,
+  "anonymized_count": 7,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

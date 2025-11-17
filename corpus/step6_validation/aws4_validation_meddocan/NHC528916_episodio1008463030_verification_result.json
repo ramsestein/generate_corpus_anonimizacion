@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC528916_episodio1008463030",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nControl 24h VPP23G OI por DR (Dra JJJ)\nSubjetivamente con algo de cefalea AVsc: PL\nSA: quémosis hemorrágica 360º, córnea con edema estromal y qps difuso++, CA amplia, Tyndall+3, fáquico\nPIO: 18 mmHg FO: impresiona retina aplicada (difícil por opacidad de medios) PLAN:\nAcudir al control programado y comenzar con tto pautado. Recuerdo medidas posturales. Fecha: JJJ\nAñado a nota ant:\nesclerotomías estancas, no seidel Fecha: JJJ\nPacient conscient i orientat. No AMC\nÉs portat a UCIEs per disnea amb edemes a EEII.\nA la seva arribada al servei, lleugera taquipnea amb Sat.O2 (basal): 92%. Afebril.\nEs realitza ECG, GSA, A/s i PCR per COVID, Grip A i B. Iniciem tractament s/pauta amb millora de la simptomatologia. Durant la seva estada al servei es manté eupnèic i Sat.O2 (GN 2lx'): 95-97%. Realitza inhalcions i tolera nebulitzacions. Afebril.\nTras revaloració pel M.G es decideix trasllat a servei d'intermedis per tractament. Fecha: JJJ\nQueda pte recollir Ag en orina. Fecha: JJJ\nTras revaloració pel M.G d'intermedis es sol·licita Dimero-D i queda al servei pte de nova valoració i control evolutiu.\nEs cursen Ag en orina. Fecha: JJJ\nValoración enfermo crítico Responsable identificación positiva del paciente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera identificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco):\nJJJ (JJJ) - JJJ\n¿La persona de contacto corresponde con el cuidador?: Sí\n¿Vive solo?: No\nProcedencia del paciente antes del ingreso hospitalario: Domicilio\nMotivo ingreso y procedencia interna:\nNeumonía bilateral\n¿Sufre alguna enfermedad crónica?: Otras enfermedades crónicas\nEspecificar otras enfermedades crónicas:\nUveítis yendotelitis herpética\nDéficit de autocuidado: Independiente\nAlergias: No\n¿Fuma actualmente?: No\nExfumador: Sí\n¿Consume otras sustancias?: Sí\nTipo de substancias: Otros (especificar)\nEspecificar otras substancias:\nVaporizador\n¿Tiene problemas de visión?: Sí\nEstado de la consciencia: Alerta Orientación: Sí\nModalidad acceso vía aérea: Natural\nTipo de respiración: Disneico\nTipo de disnea: De esfuerzo\nTipo alteración respiratoria:\nTaquipnea\nValor frecuencia respiratoria: 24 resp/min\nSaturación O2: 92 %\nDispositivo para administrar oxígeno en respiración espontánea: Lentillas nasales\nLitros/minuto: 2 L/min\nValor Presión Arterial sistólica: 127 mm Hg\nValor Presión Arterial diastólica: 66 mm Hg\nExtremidad de referencia: Derecho\nValor Frecuencia cardíaca: 75 lpm\nMicción espontánea: Sí\nGlucosa plasmática: 155 mg/dL\nRitmo deposicional:\nNormal\n¿Alteración de la integridad de piel y mucosas al ingresar?: No\nColoración de la piel: Normocoloreada\nPuntuación escala Braden: 21-Sin riesgo\nTemperatura axilar: 36 ºC\n¿Tiene dolor al ingreso?: No\nPuntuación escala EVN: 0-No hay dolor\nPuntuación escala Downton: 2-Riesgo bajo",
+  "text_length": 2809,
+  "anonymized_count": 10,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

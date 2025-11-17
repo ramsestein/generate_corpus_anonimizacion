@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4207473_episodio1008460138",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naloración corta estancia Responsable identificación positiva del paci\nente: Paciente\nSe le coloca pulsera: Sí\nAviso:: Es de obligado cumplim\niento que el paciente lleve pulsera identificativa.\nDatos persona conta\ncto (nombre, teléfono y parentesco):\nJJJ\n¿La perso\nna de contacto corresponde con el cuidador?: No tiene cuidador\nProceden\ncia del paciente antes del ingreso hospitalario: Domicilio\nMotivo ingre\nso y procedencia interna:\nIQ BYPASS GASTRICO\nAlergias: No\nAntecedente\ns medico-quirúrgicos:\nOBESIDAD\nHTA\nDEFICIT SEVERO VIT D\n¿Sufre alguna\nenfermedad crónica?: Otras enfermedades crónicas, Hipertensión\nDéficit\nde autocuidado: Independiente\nPuntuación escala Barthel preingreso: 100\n-Autónomo\nPuntuación escala Barthel al ingreso: 100-Autónomo\nMedicació\nn no prescrita en el SIRE:\nHIDROFEROL\nLosartan/HTZ 100/25\nTipo de resp\niración: Eupneico\nValor frecuencia respiratoria: 18 resp/min\nSaturació\nn O2: 97 %\nValor Presión Arterial sistólica: 143 mm Hg\nValor Presión A\nrterial diastólica: 85 mm Hg\nValor frecuencia cardíaca: 79 lpm\nRitmo d\neposicional:\nNORMAL\nPuntuación escala Downton: 0-Riesgo bajo\n¿Alterac\nión de la integridad de piel y mucosas al ingresar?: No\nColoración de l\na piel: Normocoloreada\nPuntuación escala Braden: 20-Sin riesgo\nEstado\nde la consciencia: Alerta\n¿Tiene dolor al ingreso?: No\nPuntuación esca\nla EVN: 99-No aplica\nPuntuación escala detección depresión PHQ-2: 20-No valorable\n¿Fuma actualmente?: No\n¿Usted bebe de forma habitual?: No Fecha: JJJ\nPacient C i O, no refereix algies. HDM estable, ECG en RS, normotensa. No DVA. Afebril. Eupneica mab LN, SatO2 correctes. Anúrica, es realitza SV evidenciant globus, efectiu, debit 600 cc clara\n.Inicia dieta hídrica, ben tolerada. No DPS. Es realitza higiene i s&apos;apliquen mesures de comfort. Es trasllada a G054. Fecha: JJJ\naciente que ingresa procedente de URPA. A su llegada, HMD estable, af\nebril.SAT02 correctas con LN 2lX´. No refiere algias. Se progresa\na dieta1º OM por orden DR. JJJ. Diuresis mantenida en SV. No real\niza deposición. Apósitos limpios y conservados. En reposo. Fecha: JJJ\nPacient C i O, no refereix algies. HDM estable, ECG en RS, normotensa. No DVA. Afebril. Eupneica mab LN, SatO2 correctes. Anúrica, es realitza SV evidenciant globus, efectiu, debit 600 cc clara\n.Inicia dieta hídrica, ben tolerada. No DPS. Es realitza higiene i s&apos;apliquen mesures de comfort. Es trasllada a G054. Fecha: JJJ\naciente que ingresa procedente de URPA. A su llegada, HMD estable, af\nebril.SAT02 correctas con LN 2lX´. No refiere algias. Se progresa\na dieta1º OM por orden DR. JJJ. Diuresis mantenida en SV. No real\niza deposición. Apósitos limpios y conservados. En reposo. Fecha: JJJ\ny O. HDM estable; afebril. Eupneica en basal tras retirar GN a 2L. Algias controladas con analgesia de pauta. SV permeable con orinas cla\nras. No realiza deposición. Abdomen correcto. Apósitos limpios.\nReali\nza reposo en TT por malestar general. Dieta bien tolerada; no refier\ne náuseas ni realiza vómito. Fecha: JJJ\nacient c i o, HDM estable, SatO2 de 87% en basal i taquipneica. Col·loco LN a 2L i recupera a 95% i eupnea. Afebril i àlgies controlades amb ana\nlgesia de pauta. CVP + STP. Apòsits mantinguts. Nega nàusees o vóm\nit. SV permeable, diuresis conservada (1400cc/24h). No realitza deposi\nció. Bon descans nocturn. Fecha: JJJ\nyO, HMD estable, afebril y sin algias.\nRecibe visita médica -&gt; alta est\na tarde.\nSe realiza cura de HQ - buen aspecto.\nSe progresa dieta con b\nuena tolerancia.\nSe retira SV y realiza 1a micción. No realiza deposici\nón.\nAutónoma por la habitación.\n--\nSe retira CVP y se entrega documen\ntación al alta.\nMarcha a las JJJ acompañada de JJJ.",
+  "text_length": 3669,
+  "anonymized_count": 13,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

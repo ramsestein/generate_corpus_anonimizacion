@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5203605_episodio1008617590",
+  "success": true,
+  "anonymized_text": "JJJ\naciente que es traido por SEM tras ser derivado del CAP por BAV completo con BIC de aleudrinas a 50ml/h.\nHDM estable, ecg en BAV 1er grado con\nuna FC entorno 45-50 con bic aleudrinas.\nSe cursa A/S + Rx. Pdte sedime\nnto.\nEupneco en basal. No DT. FAMIS.\nPdte IC CAR. JJJ\nT PUR3: Pacient CiO, bradicàrdia 45-50bpm. Afebril i sense dolor. Valora\nt per CAR que indica que pot iniciar dieta fins a nova ordre (pte implem\nenació de MCP) i anar disminuïnt bic aleudrines segons tolerància. Por\ntador de CPAP nocturna, que s&apos;autoadm. Bon suport familiar. Es comenta a\nmb infermeria per ingrés. JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Doble check (dos profesionales)\n¿En el momento del ingreso el pa\nciente lleva pulsera identificativa?: Sí\nDatos persona contacto (nombre\n, teléfono y parentesco):\nJJJ JJJ (JJJ),JJJ JJJ (JJJ)\n¿La persona de contacto corresponde con el cuidador?: Sí\nProce\ndencia del paciente antes del ingreso hospitalario: Domicilio\nMotivo in\ngreso y procedencia interna:\nBAV completo\n¿Sufre alguna enfermedad cró\nnica?: Dislipemia, EPOC, Diabetes, Otras enfermedades crónicas, Hiperten\nsión\nEspecificar otras enfermedades crónicas:\nbloqueo de rama derecha\n+ bloqueo fascicular anterior izquierdo (JJJ), Oclusion y estenosis de\narteria carotida (sin infarto cerebral) JJJ, Valvulopatia mitral, Atrof\nia hipocampo derecho JJJ, Cervicoartrosis JJJ, discopatia cervical JJJ, Adenoma de próstata, Gastritis erosiva aguda, retinopatia hipertensi\nva, glaucoma, desprendimiento de retina, Temblor esencial\nDéficit de au\ntocuidado: Independiente\nAlergias: No\n¿Tiene problemas de visión?: Sí Dispositivos oculares: Gafas\n¿Lleva puesto el dispositivo ocular?: No Estado de la consciencia: Alerta\nOrientación: Sí\nModalidad acceso vía aérea: Natural\nValor frecuencia respiratoria: 16 resp/min\nSaturación\nO2: 98 %\nValor Presión Arterial sistólica: 168 mm Hg\nValor Presión Art\nerial diastólica: 63 mm Hg\nValor Frecuencia cardíaca: 43 lpm\nMicción e\nspontánea: Sí\nRitmo deposicional:\ndiario\nPrótesis dental: Sí\n¿Lleva\npuesta la prótesis dental?: Sí\n¿Alteración de la integridad de piel y m\nucosas al ingresar?: No\nColoración de la piel: Normocoloreada\nCaracter\nísticas de la piel: Frágil\nPuntuación escala Braden: 18-Riesgo bajo\nTe\nmperatura axilar: 36.2 ºC\n¿Tiene dolor al ingreso?: No\nPuntuación esca\nla EVN: 0\nPuntuación escala Downton: 5-Riesgo alto JJJ\nI: BAV complet --&gt; possible implant MCP demà. Pacient conscient i or\nientat. Sense dolor. HDM estable, ECG en BAV 3er grau, FC 45-50ppm --&gt; portador d&apos;Aleudrines a 27ml/h. Afebril. Eupneic en basal. CPAP noctu\nrna que aporta pacient.\nTolera dieta a URG, deixar en famis a partir de les 00h.\nMantenim repòs. Es realitza ECG d&apos;ingrès + frotis MRSA. Portador de pròtesis dental. JJJ\nddendum: refiere espasmos en EID dolorosos. En POC K 3.2, adm 20meq BOIK PIM.",
+  "text_length": 2873,
+  "anonymized_count": 16,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

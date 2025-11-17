@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5171384_episodio1008736900",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nacient derivada de domicili amb activació de Codi Ictus. A l&apos;arribada, afasia mixta i desviació de la mirada a la dreta. Tendència a la hipert\nensió. Bradicardia 39bpm. Cursem analítica. Marxa al TAC. Pendent de r\nesultats. Fecha: JJJ\nntreguem medalleta i joia (anillo) a les JJJ. Fecha: JJJ\nrteriografia cerebral mas tratamiento agudo mecanico de ICTUS. Punción\narteria femoral derecha. Se procede a cierre percutaneo de la citada pun\nción con Proglide + compresión 10&apos; + vendaje compresivo. Reposo absolut\no y retirada de vendaje a las 24h. Marcha a I064. Fin a las JJJ. Fecha: JJJ\naciente ingresa en la unidad a las JJJ.\nHDM con tendencia HTA, pte a\ndministrar rescate.\nAfebril. No refiere algias.\nPortadora de VMK 4l, s\naturaciones mantenidas 100%. Curso VAS, por secreciones espesas y hemáti\ncas.\nPortadora de drenaje compresivo dcho, pte retirar JJJ a las JJJ. Valorada por MG, indica realizar AS a las JJJ.\nFAMIS y reposo.\nPte A\nS JJJ. Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: JJJ\n¿En el momento del ingreso el paciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\nJJJ (JJJ): JJJ\nJJJ: JJJ\n¿La persona de contacto\ncorresponde con el cuidador?: Sí\n¿Vive solo?: No\nProcedencia del pacie\nnte antes del ingreso hospitalario: Domicilio\nMotivo ingreso y proceden\ncia interna:\nIctus isquémico carotideo izquierdo (rtpa+TM)\n¿Sufre algu\nna enfermedad crónica?: Otras enfermedades crónicas\nEspecificar otras e\nnfermedades crónicas:\nParkinson y estenosis aortica\nDéficit de autocui\ndado: Independiente\nAlergias: No\nEstado de la consciencia: Alerta\nMod\nalidad acceso vía aérea: Natural\nValor Frecuencia cardíaca: 73 lpm\nMic\nción espontánea: Sí\nRitmo deposicional:\nContinente\n¿Alteración de la\nintegridad de piel y mucosas al ingresar?: No\nColoración de la piel: No\nrmocoloreada\nCaracterísticas de la piel: Seca\nPuntuación escala Braden\n: 13-Riesgo moderado\nTemperatura axilar: 36 ºC\n¿Tiene dolor al ingreso\n?: No\nPuntuación escala EVN: 0-No hay dolor\nPuntuación escala Downton: 5-Riesgo alto Fecha: JJJ\naciente C y alerta, orientación no valorable por afasia, NIHSS 10, por p\naresia facial derecha, afasia grave y disartria, emite sonidos. Moviliza 4EE, dismetria y negligencias no valorables. Temblor en reposo de ESI p\nor patología de base. HMD con tendencia HTA, precisa rescate captopril 2\n5mg. Afebril, no refiere algias ni se observan signos de disconfort. Ret\niro LN, Sat02B 100%, precisa aspirado de secreciones 5 veces/turno. Se c\nursa BAC, secreciones espesas y hemáticas. Diuresis mantenidas en pañal\ny no realiza deposición. FAMIS por OM. Reposo en cama y cambios postural\nes, compresivo femoral D sin sangrado ni incidencias. Cursada A/S de con\ntrol (JJJ) y realizado TAC y angioTAC a las JJJ aprox.\n- Retirar comp\nresivo femoral mañana a las JJJ (JJJ)\n- Pte A/S control JJJ (JJJ)",
+  "text_length": 2902,
+  "anonymized_count": 25,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

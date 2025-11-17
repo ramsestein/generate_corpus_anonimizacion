@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC533867_episodio1008262125",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nacient que acudeix a urgencies per disnea subita somnolienta. Sinicia BI\nPAp. Millora la pacient. pendent resultatas i decisió. Fecha: JJJ\nles JJJ es retira aposit femoral sense incidencies ni sagnat Fecha: JJJ\nacient CiO, afebril, lleugerament taquipnèica. Curso virus respiratoris, s&apos;obté resultat Covid19 +. SatO2 90-95% amb VMK 30/8L. Dïuresis manti\nngudes. Pendent d&apos;evolució. Fecha: JJJ\naciente C y O. HDM estable, afebril. No refiere algias\nEupneica con VK\nal 31% Portadora de dos VVPP permeables. Aislada por covid\nPendient\ne traslado a JJJ y valoración x Med Interna Fecha: JJJ\nJJJ. JJJ. Valoro pacient amb VK 31%, eupneica amb bona mecà\nnica ventilatoria, sense taquipnea ni treball respiratori, mvc amb sibil\nàncies difuses bilaterals. Darrera SPO2 93% però per patró ventilatori i\nmpressiona que es pugui baixar en les properes hores, es mantè tractamen\nt BD i corticoideu, després de properes nebulizacions revaloraria SPO2 d\ne cara a possible descens de FIO2. Pendent d&apos;ingrés a MDI. Fecha: JJJ\naciente trasladada de JJJ a JJJ por infección respiratoria secundaria a covid.\nA su llegada portadora de VMK al 31%, eupneica. C y O. Tra\ns valoración por medicina de intermedio y tras realización de gasometría arterial, se decide ingreso en intermedios. Llamamos a medicina, quie\nnes indican que se puede realizar el traslado de la paciente sin compañí\na de medicina.\nPte de traslado.",
+  "text_length": 1420,
+  "anonymized_count": 12,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

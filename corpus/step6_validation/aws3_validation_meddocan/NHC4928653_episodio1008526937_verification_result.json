@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4928653_episodio1008526937",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nPaciente JJJ, traida por SEM por DT desde las JJJ.\nA su llegada se encuentra hdm tendencia a la HTA, ecg en RS. Refiere DT centro torácico.\nSe realiza ecg. Se administra puff + BPC de NTG y AAS 300mg.\nSe colocan 2 CVP + A/S.\nValorado x CAR. Fecha: JJJ\nTC i O. HDM estable, afebril i amb molèsties toràciques. Es trasllada a CAHEM on s'evidencia oclusió de la DAm i es col·loca 1 stent. Retorna a PUR3 a les JJJ. Es realitza ECG + A/S post-KT amb EVA 0/10. Es retira embenat radial compressiu a les JJJ sense incidències. Fecha: JJJ\nHDM estable con perfusión de NTG, afebril. No refiere algias durante la noche. Micción en pañal. Sin incidencias. Buen descanso nocturno. Fecha: JJJ\nPacient JJJ, hdm estable, saturacions mantingudes, afebril, sense dolor toràcic.\nBaixo BIC de NTG 50mg a 7ml/h, pendent retirar.\nEs trasllada a CAR, acompanyada per JJJ. Fecha: JJJ\nValoración enfermo crítico Responsable identificación positiva del paciente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera identificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco):\nJJJ (JJJ) JJJ\n¿La persona de contacto corresponde con el cuidador?: No tiene cuidador\nProcedencia del paciente antes del ingreso hospitalario: Otros\nEspecificar procedencia:\nJJJ\nMotivo ingreso y procedencia interna:\nMI:IAMCEST ANTERIOR K 1, 2. ENFERMEDAD CORONARIA DE 1 VASOS: DAm -> DAm.\nProcedencia: JJJ\n¿Sufre alguna enfermedad crónica?: Dislipemia, Otras enfermedades crónicas, Hipertensión\nEspecificar otras enfermedades crónicas:\nCI e hipertensiva, Flutter y FA, trastorno ansiedad, artrosis\nDéficit de autocuidado: Independiente\nAlergias: No\nEstado de la consciencia: Alerta\nModalidad acceso vía aérea: Natural\nValor Frecuencia cardíaca: 75 lpm\nMicción espontánea: Sí\nRitmo deposicional:\nCada 3 días (tomando dufalax)\nFecha última deposición: JJJ\n¿Alteración de la integridad de piel y mucosas al ingresar?: No Coloración de la piel: Normocoloreada\nPuntuación escala Braden: 13-Riesgo moderado\nTemperatura axilar: 36.6 ºC\n¿Tiene dolor al ingreso?: No Puntuación escala EVN: 0\nPuntuación escala Downton: 1-Riesgo bajo Fecha: JJJ\n1. SCACEST ANTERIOR KK1.\n2. EAC 1V: OTA DAm. D1 OCT. IMPLANTE DE 1SFA EN DAm.\n3. FEVI 30%.\n.\nBEG, no nuevos episodios de dolor torácico. NTG en descenso.\n.\nHDE HTA 150/70, iniciamos IECAs. Eupneica en basal, afebril y euvolémica. Sin eventos en monitor.\n.\nECG con T negativas en cara anterior de IAM evolucionado.\n.\nAS con Tn 90.000 en descenso, función renal, iones, hemograma y hemostasia correctas.\n.\nPLAN:\n-Descender NTG progresivamente.\n-Traslado JJJ. Paciente zona JJJ pero no desea traslado (tampoco ha pasado por JJJ ayer antes de acudir al JJJ).\n-Mañana desmonitorizable.",
+  "text_length": 2703,
+  "anonymized_count": 22,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

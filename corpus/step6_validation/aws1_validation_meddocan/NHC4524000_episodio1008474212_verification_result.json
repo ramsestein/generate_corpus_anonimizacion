@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4524000_episodio1008474212",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nActivació LET: VMNI, LAF SI, NO IOT. NO RCP Fecha: JJJ\naciente acude por l noche por disnea (neumonía) con requerimiento de O2\ncon VMK 40%.\nAP: Sd de Dravet (epilepsia + det cognitivo).\nAcude ETI p\nor la noche para colocación de Medline en ESI.\nRealizo sondaje intermit\nente y se cursa antigenuria.\nPte de comentar con AVI para ingreso. Fecha: JJJ\nntroducimos SV para control de diuresis.\nRealizo frotis virus respirato\nrio ampliado. Fecha: JJJ\nctivació LET: VMNI, LAF SI, NO IOT. NO RCP Fecha: JJJ\naciente acude por l noche por disnea (neumonía) con requerimiento de O2\ncon VMK 40%.\nAP: Sd de Dravet (epilepsia + det cognitivo).\nAcude ETI p\nor la noche para colocación de Medline en ESI.\nRealizo sondaje intermit\nente y se cursa antigenuria.\nPte de comentar con AVI para ingreso. Fecha: JJJ\nntroducimos SV para control de diuresis.\nRealizo frotis virus respirato\nrio ampliado. Fecha: JJJ\neneral Responsable identificación positiva del paciente: Doble check\n(dos profesionales)\n¿En el momento del ingreso el paciente lleva pulser\na identificativa?: Sí\nDatos persona contacto (nombre, teléfono y parent\nesco):\nJJJ\nJJJ\n¿La persona de contacto corresponde con el cuid\nador?: Sí\nProcedencia del paciente antes del ingreso hospitalario: Domi\ncilio\nMotivo ingreso y procedencia interna:\nNeumonia\nAlergias: Sí\nEs\npecificar alergias:\nDiazepam, midazolam\nAntecedentes medico-quirúrgico\ns:\nNo\n¿Sufre alguna enfermedad crónica?: Otras enfermedades crónicas Especificar otras enfermedades crónicas:\nSd. Dravet\nDéficit de autocui\ndado: Movilización, Higiene, WC, Alimentación, Vestido\nPuntuación escal\na Barthel al ingreso: 45-Dependencia moderada Valoración aparato resp\niratorio Tipo de respiración: Disneico\nValor frecuencia respiratoria\n: 30 resp/min Valoración cardiovascular Valor Presión Arterial sis\ntólica: 119 mm Hg\nValor Presión Arterial diastólica: 90 mm Hg\nValor fr\necuencia cardíaca: 88 lpm Valoración gastrointestinal Ritmo deposi\ncional:\n. Valoración musculoesquelética Puntuación escala Downton\n: 3-Riesgo alto Valoración Piel y Mucosas ¿Alteración de la integr\nidad de piel y mucosas al ingresar?: No\nColoración de la piel: Normocol\noreada\nPuntuación escala Braden: 11-Riesgo alto\nTemperatura axilar: 36\n.2 ºC Valoración neurológica Estado de la consciencia: Responde al dolor\nOrientación: No Valoración Dolor y Disconfort ¿Tiene dolor al ingreso?: No\nPuntuación escala EVN: 99-No aplica Valoración salu\nd mental y adicciones Puntuación escala detección depresión PHQ-2: 20\n-No valorable\n¿Fuma actualmente?: No contesta\n¿Usted bebe de forma hab\nitual?: No contesta Fecha: JJJ\naciente que ingresa desde PUR3 de urgencias por neumonía. Paciente con\nsciente con deterioro cognitivo que no habla ni responde a voz. Responde a dolor. Mantiene apertura ocular espontánea. Se intenta retirar dispos\nitivos cuando no está presente su familiar, con el JJJ en la habitació\nn se mantiene tranquila. Estable sin DVA, ECG en RS, afebril. LAF 80\n%/50L con SpO2 máximas de 93%. Se realizan nebulizaciones.\nFamis + STP. Diuresis mantenida por SV concentrada. No deposiciones.\nRealizados c\nuidados de enfermería y medidas de confort.",
+  "text_length": 3132,
+  "anonymized_count": 11,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

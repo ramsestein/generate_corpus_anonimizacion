@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4267430_episodio1008806283",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nona de JJJ, acut a urgències derivada de JJJ per ingrés per covid.\nA\nP: HTA, DMII, IRC, TRDC x2, ostomastoiditis, rectorragies, shock septic. AMC: AINEs, Ampicilina, Gluconat calci monohidrat, Nolotil, Diclofenaco\n, AAS, Estreptomicina, Cloranfenicol.\nA l'arribada, C i O. HDM estable. Aparent treball respiratori amb VMK31%, saturacions mantingudes. Afebri\nl. Sense àlgies. Aïllament de gotes per covid. Portadora CVP 20 ESD. Es cursa bioquímica i hemograma. Es realitza RX.\nPertinences identif\nicades sota el llit. Fecha: JJJ\nOVID-19 en paciente con tx renal. No última dosis de vacuna. Insuficie\nncia respiratoria. HDN estable. Sat 97% con FiO2 31%. Crepitantes bila\nterales. Rx tórax: cardiomegalia, condensación basal izquierda, algú\nn infiltrado pulmonar derecho. Se ha iniciado remdesivir. Pauto dexame\ntasona. Ingresa UTR Fecha: JJJ\naloració Crítics Responsable identificació positiva del pacient: Paci\nent\nEn el moment de l'ingrés el pacient porta braçalet d'identificació\n?: Sí\nDades de la persona de contacte (nom, telèfon i parentiu):\nJJJ JJJ -JJJ-\nLa persona de contacte correspon a cuidador?: No t\né cuidador\nProcedència del pacient abans de l'ingrés hospitalari: Altre hospital\nMotiu ingrés i procedència interna:\nCOVID-19, JJJ\nPat\neix alguna malaltia crònica?: Insuficència renal crònica, Diabetes, Hipe\nrtensió, Trasplantament\nDèficit autocura: Alimentació, Mobilització, Hi\ngiene\nAl·lèrgies: Sí\nEspecificar al·lèrgies:\nAINEs, Ampicilina, Gluco\nnat calci monohidrat, Nolotil, diclofenac, AAS, estreptomicina i cloranf\nenicol.\nEstat de la consciència: Alerta\nOrientació: Sí\nPuntuació esca\nla Glasgow: 15\nModalitat accés via aèria: Natural\nValor freqüència car\ndíaca: 105\nRitme deposicional:\nRegular\nData última deposició: JJJ\nAlteració de la integritat de la pell i mucoses en ingressar?: No Coloració de la pell: Normocoloreada\nCaracterístiques de la pell: Fràgi\nl\nPuntuació escala Braden: 16-Risc baix\nTemperatura axil·lar: 35.9\nTé dolor a l'ingrés?: No\nPuntuació escala EVN: 0\nPuntuació escala Downto\nn: 6-Risc alt",
+  "text_length": 2044,
+  "anonymized_count": 10,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

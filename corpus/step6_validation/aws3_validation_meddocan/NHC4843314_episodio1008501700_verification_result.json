@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4843314_episodio1008501700",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente trasladado x SEM desde dmc activado código ictus tras ser encont\nrado esta mañana en el suelo con focalidad neurológica.\nA su llegada a box hdm estable, C. y afásia completa de expresión.\nSe canaliza CVP en ESI, se cursa analítica de ucias y se realiza TAC. Fecha: JJJ\nPaciente que acude a nuestro servicio de angioradiologia para realizar tratamiento mecanico del ictus+ ATP extracraneal y colcoacion de stent carotideo. Se realiza bajo anestesia local y sedacion. Se accede por arteria femoral derecha. Cierre mediante proglide que es efectivo y se coloca aposito. Se traslada paciente a la I064. Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\nJJJ (JJJ): JJJ\nJJJ (JJJ): JJJ ¿La persona de contacto corresponde con el cuidador?: No tiene cui\ndador\nProcedencia del paciente antes del ingreso hospitalario: Otros\nM\notivo ingreso y procedencia interna:\nIctus ACMD + oclusión carótida que se coloca stent y se realiza tro,bectomía mecánica.\n¿Sufre alguna enfe\nrmedad crónica?: Insuficiencia cardíaca, Insuficiencia renal crónica, Di\nabetes, Dislipemia, Otras enfermedades crónicas, Hipertensión\nEspecific\nar otras enfermedades crónicas:\nCardiopatia isquémica IAMCEST Killip I\n+ stent distaln JJJ, hiperuricemia.\nDéficit de autocuidado: Independie\nnte\nAlergias: No\nEstado de la consciencia: Responde al dolor\nOrientac\nión: No\nDiámetro de la pupila derecha: 3 mm (normal)\nDiámetro de la pu\npila izquierda: 3 mm (normal)\nPuntuación escala Glasgow: 7-Grave\nModal\nidad acceso vía aérea: Natural\nTipo de respiración: Eupneico\nTipo alte\nración respiratoria: Taquipnea\nValor frecuencia respiratoria: 27 resp/m\nin\nSaturación O2: 97 %\nValor Presión Arterial sistólica: 153 mm Hg\nVa\nlor Presión Arterial diastólica: 90 mm Hg\nValor Frecuencia cardíaca: 10\n5 lpm\nMicción espontánea: Sí\nGlucosa plasmática: 321 mg/dL\nRitmo depo\nsicional:\n1 depo cada 3 dias\nPrótesis dental: Sí\nTipo prótesis dental\n: Superior removible, Inferior removible\n¿Lleva puesta la prótesis dent\nal?: No\n¿Quién tiene la custodia de la prótesis dental?: Otros\nEspecif\nicar custodia prótesis dental:\nno se encuentra dentadura inferior\n¿Alt\neración de la integridad de piel y mucosas al ingresar?: No\nColoración\nde la piel: Normocoloreada\nCaracterísticas de la piel: Frágil\nPuntuaci\nón escala Braden: 19-Sin riesgo\nTemperatura axilar: 36.2 ºC\n¿Tiene dol\nor al ingreso?: No\nPuntuación escala EVN: 99-No aplica\nPuntuación esca\nla Downton: 5-Riesgo alto Fecha: JJJ\naciente que ingresa en el cambio de turno. A su llegada con tendencia\na la somnolencia, sólo emite sónidos incomprensibles ante estímulos dolo\nrosos. Hemiparesia f(2)-b(3)-c(3) IZDA. NIHSS: 23.\nHDM tendencia a la H\nTA, precisa dosis de labetalol sobre las 18h y 20h, que es efectivo.\nPo\nrtador de VMK a 31%, bajamos a 28%, mantiene SatO: 97-98%, taquipneico d\nurante toda la tarde. Se comenta con NRL de guardia.\nSubimos VMK al máx\nimo y no mejora taquipnea, vuelvo a avisar a NRL de guardia, pdte cursar gasometría arterial, intento extracción 1 vez.\nBaja a TAC de control s\nobre las 21h.\nMientras no se encuentra en sala, NRL de guardia me comen\nta que no se ha administrado copidrogel 300mg, cuando a mi se me explico que si o entendi esto, coloco SNG y administro dosis a las 21:30h, MG e\nstá informado.\nAl realizar cambio postural vemos que no ha realizado di\nuresis en toda la tarde, palpo vejiga y muestra quejidos, no queda clara RAO, se coloca SV, pdte de confirmar RAO.\nInformamos que se pierde den\ntadura postiza inferior desde que ha llegado al hospital, buscamos en TA\nC, DIVAS y Box de paros y no aparece, sólo tenemos dentadura superior.",
+  "text_length": 3768,
+  "anonymized_count": 11,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

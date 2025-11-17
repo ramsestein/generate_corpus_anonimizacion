@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4606188_episodio1008357688",
+  "success": true,
+  "anonymized_text": "JJJ\nestora de Casos: Recibo llamada de aviso de GdC de JJJ que me\ninforma que está en domcilio con la Sra. JJJ y la deriva hacia urgen\ncias JJJ. Cuadro de hipotensión y desaturación con debilidad funci\nonal y dolor no controlado, que impide el autocuidado. Se encuentra pen\ndiente de Reso. Vive en domicilio (una habitación realquilada) sola con\ntan solo 1h de TF,que SSS está informado sin ampliación posible. Tiene u\nn JJJ. pero, que no da soporte (al parecer está en JJJ y no hay\nbuena relación, ella no lo contempla como una opción de soporte). La ges\ntora de JJJ la lleva siguiendo varias semanas y observando el decl\nive. Comentado caso tanto con TS como con Dra. Urgencias. Mantengo coo\nrdinación activa. JJJ\naciente que es traida a UCIAS via SEM por hipotensión ,disnea y disminuc\nión nivel de consciencia.Presenta palidez cutánea importante.\nInstauro\nvia EV (Abocath nº20 ) en ESI y ESD respectivamente,se cursa A/S y se pa\nsan cargas SF.Realizadas placas de tórax.\nInstauro sonda vesical perman\nente Foley silicona nº 16 obteniendo 1000 ml de orina clara,se vuelve\na dejar sonda pinzada.\nSolicitados dos concentrados de hematies.\nQueda en el servicio pendiente de resultados ,evolución y transfusión. JJJ\nNOTA HEMATOLOGÍA* 1. TE triple negativo vs SMD/SMPC en tratamiento co\nn HU Contactan desde JJJ. Paciente de JJJ, diagno\nsticada de una TE triple negativa vs. SMD/SMPC que se encuentra en trata\nmiento citorreductor con Hidroxiurea, reciente aumento de dosis a 1g LU-\nVI y 500mg SA-DO en JJJ. Consulta por astenia e hipotensión sin otra\nfocalidad clínica. Valorada en URG JJJ se objetiva a nivel analítico una anemia y trombocitopenia G4 de nueva aparición (Hb 52, Plaq 21 000) con un hemograma previo de hace JJJ estrictamente normal. Prueb\nas complementarias: -EAB: pH 7.38, pCO2 33, HCO3 19.7, lactato 37\n- A\n/S: Leu 6230, Hb 52, Plaq 29 000, N 3620, L 1780, Mono 230, no blastos n\ni formas inmaduras en la formula manual.\n- BQ: PCR 2, Cr 1.44, Hep OK,\nK 4.1, TnI 5.2 OD) Bicitopenia de instauración brusca en paciente con NPMC/SMD en tratamiento con hydrea, el aumento de la dosis de HU no sup\nera la dosis máximas diarias y probablemente no jusificaría del todo la\nbicitopenia aguda. A valorar diagnósticos diferenciales incluyendo trans\nformación leucémica o hemorragia con plaquetopenia de consumo. PLAN: - Quedará ingresada en Urg JJJ hasta poder hacer un traslado a HEM d\ne nuestro centro.\n- Será tributaria de estudio con AMO protocolo LA\n-\nRecomendamos TF de 2CCHH y control en 12-24h y transfusion en función de cifras. Recomendamos dintel transfusional de: Transfundir 1 CCHH si Hb\n&lt;80g/L y 1 pool de plaqueta si plaq &lt;10 000/mm3.\n- STOP Hydrea - Reco\nmendamos formula manual/frotis de SP en el control analítico de mañana p\nara valorar aparición de formas inmaduras en SP. JJJ\nacient conscient i orientada.\nEupneica a aire ambient, amb SatO2 de 98% basals.\nHDM normotensa i afebril.\nEs cursa AS i després de valoració\nes decideix administrar 2 concentrats d&apos;Hematies, ben tolerats.\nTolera\ndieta oral.\nDiüresis mantingudes per SV. Realitza deposició solida en c\nunya.\nPendent d&apos;evolució fins demà.",
+  "text_length": 3139,
+  "anonymized_count": 16,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "document_id": "NHC4259661_episodio1008797489",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nIVAS\nSe realiza tratamiento agudo mecánico de ICTUS.\nBajo en control d\nel equipo de anestesia + anestesia local. A través de arteria femoral de\nrecha, sin incidencias. Cierre con punto percutáneo + compresivo a man\ntener durante 24h. Fin del procedimiento: JJJ. Fecha: JJJ\nATUR-TT: Pacient portada per SEM-SVB com a C.Ictus per presentar debil\nitat d'extremitats i mutisme. A l'arribada pacient alerta, hemodinàmic\nment estable, afebril, eupnèica amb saturació basal mantinguda. Es rea\nlitza analtiica amb hemograma,bioquimica,coauglació. Es trasllada al S\nCA es realitza trombectomia per femoral Dreta.\nAP: BRIHD, Osteoporosi. Portadora de polsera identificativa i roba identificada sota llitera. Familia la visita. Fecha: JJJ\naloración Críticos Responsable identificación positiva del paciente:\nDoble check (dos profesionales)\n¿En el momento del ingreso el paciente\nlleva pulsera identificativa?: Sí\nDatos persona contacto (nombre, teléf\nono y parentesco):\nJJJ, JJJ\nJJJ\n¿La persona de contacto corr\nesponde con el cuidador?: No tiene cuidador\nProcedencia del paciente an\ntes del ingreso hospitalario: Domicilio\nMotivo ingreso y procedencia in\nterna:\nICTUS\n¿Sufre alguna enfermedad crónica?: Otras enfermedades cró\nnicas\nEspecificar otras enfermedades crónicas:\n- Bloquero rama derecha en tto con betabloquenates\n- Osteoporosis\nDéficit de autocuidado: Inde\npendiente\nAlergias: No\nEstado de la consciencia: Confuso\nPuntuación e\nscala Glasgow: 13-Leve\nModalidad acceso vía aérea: Natural\nValor Frecu\nencia cardíaca: 70 lpm\nMicción espontánea: Sí\nRitmo deposicional:\n. ¿Alteración de la integridad de piel y mucosas al ingresar?: No\nColorac\nión de la piel: Normocoloreada\nCaracterísticas de la piel: Frágil, Seca Puntuación escala Braden: 16-Riesgo bajo\nTemperatura axilar: 36.6 ºC ¿Tiene dolor al ingreso?: No\nPuntuación escala EVN: 0-No hay dolor\nPu\nntuación escala Downton: 2-Riesgo bajo Fecha: JJJ\nCTUS, procedent del BATUR, realitzada trombectomia en ACM. C, C + par\nla incoherent a l'arribada amb GCS 13 que millora fins a GCS 15 a la hor\na. Sense dolor. Mobilitat en 4EE amb debilitat en hemicòs dret. PINR. HDM estable, HTA. RS. Afebril. RESP. Eupneica amb LN 2L.\nALIM. FAMIS\nfins a nova indicació. STP.\nELIM. Diuresis en bolquer. No depos. Po\nrtadora de compressiu femoral dret (arterial), pendent retirar en 24h (JJJ)\nSense altres incidències.",
+  "text_length": 2362,
+  "anonymized_count": 9,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9881991147994995,
+        "word": " Familia",
+        "start": 709,
+        "end": 716,
+        "chunk_id": 0,
+        "model": "MEDDOCAN",
+        "actual_text": "Familia",
+        "is_j_only": false
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "j_only_count": 0,
+      "non_j_count": 1,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " Familia",
+          "actual_text": "Familia",
+          "confidence": 0.9881991147994995,
+          "start": 709,
+          "end": 716,
+          "model": "MEDDOCAN",
+          "is_j_only": false
+        }
+      ],
+      "anon_token_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " Familia",
+          "actual_text": "Familia",
+          "confidence": 0.9881991147994995,
+          "start": 709,
+          "end": 716,
+          "model": "MEDDOCAN",
+          "is_j_only": false
+        }
+      ],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "j_only_count": 0,
+    "non_j_count": 1,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " Familia",
+        "actual_text": "Familia",
+        "confidence": 0.9881991147994995,
+        "start": 709,
+        "end": 716,
+        "model": "MEDDOCAN",
+        "is_j_only": false
+      }
+    ],
+    "anon_token_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " Familia",
+        "actual_text": "Familia",
+        "confidence": 0.9881991147994995,
+        "start": 709,
+        "end": 716,
+        "model": "MEDDOCAN",
+        "is_j_only": false
+      }
+    ],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "anon_token_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

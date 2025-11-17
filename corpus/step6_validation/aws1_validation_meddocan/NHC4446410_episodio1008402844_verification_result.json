@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4446410_episodio1008402844",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nOTA NRL (JJJ) JJJ de JJJ con esquizofrenia paranoide crónic\na de larga evolución. Vive sola, bajo tutela por una JJJ. Últim\na vez vista asintomática el JJJ (conversación telefónica con JJJ). En los días sucesivos su JJJ, que viven en el mismo bloque, observan la luz encendida por la noche, no siendo habitual en l\na paciente. El JJJ por ausencia de respuesta a una llamada acuden\na su domicilio hallando la paciente bradipsíquica en el suelo. Se trasla\nda a urgencias. A mi valoración paciente vigil y orientada con aument\no de latencia de respuesta, inatenta. Lenguage hipofluente con nominació\nn 13/15 con fallos por parafasias semánticas. La paciente no colabora ad\necuadamente durante la valoración siendo los fallos poco valorables. Obe\ndece órdenes simples. Mirada primaria centrada sin limitaciones en la ex\ncursión visual ni defectos campimétricos. Balance motor conservado sin a\nlteraciones sensitivas. No dismetrías ni negligencias ni extinciones. Se trata de una paciente con cuadro de bradipsiquia y mínima alteración en la emisión del lenguaje de tiempo de evolución desconocido (LTSW JJJ). Por tiempo de evolución y clínica minor no es candidata a circ\nuito código ictus. Impresiona cuadro de encefalopatía. Se recomienda seg\nuir estudio con analítica y TC cerebral. Fecha: JJJ\nx c y o, hmd estable, afebril. Se guardan pertenencias etiquetadas deb\najo de la camilla. Traída x el SEM desde su piso tutelado, por llevar\ndías desorientada. Aquí la px está orientada, pero muestra afasia, bra\ndipsiquia y hemiparesia izquierda, por lo que se avisa a NRL que descart\na activar codi ictus. Se cursa analítica + sedimento de orina y tóxico\ns en orina de sv intermitente.",
+  "text_length": 1690,
+  "anonymized_count": 11,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

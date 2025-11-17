@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5141832_episodio1008560693",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nacient que consulta a urgències per sindrome febril de JJJ d'evoluci\nó amb dolor esternal (diagnosticat per un JJJ d'esofagitis),\nels JJJ refereixen que ha presentat quadre lipotímic al domicili a\nmb pèrdua de coneixement, a la seva arribada pels seus propis mitjans pa\ncient amb pal·lidesa generalitzada, molt marejat. Lleugerament hipotens. Febricular a la seva arribada (37º)\nEntra a box i es monitoritza, taq\nuicàrdia d'entre 120-130batecs/minut, se li realitza ECG de control que\nvalora medicina.\nValorat per medicina es canalitza via ev i es cursa an\nalítica de sang. S'inicia analgèsia ev. Pendent de Rx quan millori mar\neig. Se li realitza i evidencia pneumonia retro-cardíaca. Acompanyat p\nels JJJ.\nEs recull mostra d'orina per a antigeniuria i s'inicia t\nractament antibiòtic. Se li realtiza PCR de control.\nPrecisa canvi de r\noba de llit. Fecha: JJJ\nevalorat per medicina es decideix trasllat a JJJ per vessament pericàrd\nic i possible drenatge. Es manté estable hemodinàmicament, amb el dolo\nr controlat en repòs i bones saturacions a aire ambient. Fecha: JJJ\nraído de JJJ por derrame pericárdico en posible contexto de perica\nrditis. Px c y o, hmd estable, febril, sin algias. Se realiza ecg y\nse adm STP. Se realiza IC con JJJ que deciden ingreso a su cargo.",
+  "text_length": 1283,
+  "anonymized_count": 10,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

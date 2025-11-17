@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4542886_episodio1008570182",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nCTG: FCF basal 150 lxm, variabilidad conservada, presencia de aceleracio\nnes, no deceleraciones. DU esporádica asintomática.\nTV: cérvix posterio\nr, consistencia media, 1 cm de canal, permeable a 1 dedo justo. BAR, flu\nyen aguas claras.\nSe coloca propess a las JJJ. Fecha: JJJ\nonitor tranquilizador tras 1 hora de Propess. RCTG: FCF basal150 lpm&apos;, v\nariabilidad conservada, presencia de aceleraciones, no descensos. DU esp\norádica asintomática. Se explican signos de alarma. Pendiente subir a\nplanta. Fecha: JJJ\nDM estable, afebril. DU esporádica con EVA 2\nAvisan por caída de pro\npess al ir al WC. Comentado con JJJ (pendiente de bajar cuando nos llamen) Fecha: JJJ\nLA rosado y moderado Fecha: JJJ\naja a JJJ.\nSe administra ATB pautado. Fecha: JJJ\nARTOGRAMA:\nFecha/hora actuación: JJJ\nRCTG: Normal C\nomentarios: Baja gestante a JJJ para realizar nueva valoración obstétr\nica. RPM de más de JJJ de evolución que refiere habérsele caído a la\ns JJJ el propess colocado previamente a las JJJ. NST de control correcto; FCF basal en torno a 135lpm, feto activo, reactivo, no decelerativo. DU esporádica. Se comenta con equipo de guardia el procedimiento a seguir\ny se consensua con gestante comenzar inducción directa con syntocinon po\nr RPM de larga evolución. Entiende y acepta el proceso a seguir. Fecha: JJJ\nARTOGRAMA:\nFecha/hora actuación: JJJ\nDilatación: 1\nRC\nTG: Normal Comentarios: TV: cx posterior, blando, borrado, 1cm dilata\ndo. Cefálica insinuada. Se comienza perfusión de syntocinon según protoc\nolo de inducción del parto. Realiza esferodinamia.",
+  "text_length": 1568,
+  "anonymized_count": 16,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC195910_episodio1008432833",
+  "success": true,
+  "anonymized_text": "JJJ\nodi ictus\nAP: HTA, DM2, DLP, CI, arteriopatia perifèrica. Recent ingrés a unitat d&apos;ictus per ictus lacunar i estenosi 80% ICA-D (Sdme hemimotor D residual). Pac conscient i orientat.\nHipertens, afebril, eupneic\nbasal. Normoglicèmia.\nEs cursa perfil d&apos;ingrés i coagulació. Es traslla\nda a SCA.\nPertenences identificades sota el llit. JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\nNo disponemos de datos\n¿La persona de contacto corresponde con el c\nuidador?: No disponemos de datos\nProcedencia del paciente antes del ing\nreso hospitalario: Centro sociosanitario\nMotivo ingreso y procedencia i\nnterna:\nSíndrome hemisférico derecho/ box de paros\n¿Sufre alguna enfer\nmedad crónica?: Diabetes, Dislipemia, Otras enfermedades crónicas, Hiper\ntensión\nEspecificar otras enfermedades crónicas:\n- Hipertensión arteri\nal\n- Diabetes mellitus tipo 2 en tratamiento con hipoglucemiantes orales\n, última HbA1c de 7,5% (JJJ)\n- Dislipemia en tratamiento\n- Card\niopatía isquémica, no constan informes de cuándo ni disponemos de ecocar\ndiograma\n- Arteriopatía periférica\n- Hernia inguinal\n- Trastorno ansioso\n-depresivo\n- Patología osteoarticular que le ocasiona limitación funcion\nal Déficit de autocuidado: Independiente\nAlergias: Sí\nEstado de la c\nonsciencia: Alerta\nModalidad acceso vía aérea: Natural\nValor Frecuenci\na cardíaca: 74 lpm\nMicción espontánea: Sí\nRitmo deposicional:\nRegular Fecha última deposición: JJJ\n¿Alteración de la integridad de p\niel y mucosas al ingresar?: No\nColoración de la piel: Normocoloreada\nC\naracterísticas de la piel: Seca\nPuntuación escala Braden: 14-Riesgo mod\nerado\nTemperatura axilar: 35 ºC\n¿Tiene dolor al ingreso?: No\nPuntuaci\nón escala EVN: 0-No hay dolor\nPuntuación escala Downton: 4-Riesgo alto JJJ\nacient que ingressa provinent del box d&apos;atur a les JJJ per síndrome hem\nisfèric dret. NRL conscient i orientat, presenta hemiplègia dreta, lleu\nafàsia d&apos;expressió, disàrtria. Bradipsíquic. Eupneic en basal.\nHDM es\ntable amb tendència a hipertensió, afebril, no refereix àlgies. Es man\nté FAMIS + STP fins a nova ordre. Pdt de realitzar primera micció.\nRe\npòs en llit ben tolerat. Administrada càrrega de 300 mg de clopidogrel\n. JJJ\ndministrada medicació xafada amb aigua gelificada, lentitud en la degluc\nió.",
+  "text_length": 2430,
+  "anonymized_count": 7,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

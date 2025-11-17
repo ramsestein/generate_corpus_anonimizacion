@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5377751_episodio1008567552",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente de JJJ con FRCV (JJJ, DM2, DLP, HTA), sin antecedentes familiares de CI/MS. Refiere cuadro de angina de esfuerzo de JJJ de d\nuración que ha ido progresando hasta hacerse de mínimos esfuerzos. S\ne realiza prueba de esfuerzo convencional que resulta clínica y eléctric\namente positiva Fecha: JJJ\nOTA DE PRUEBA DE ESFUERZO (JJJ, Adj. Prat). Paciente de JJJ con FRCV (JJJ, DM2, DLP, HTA), sin antecedentes familiare\ns de CI/MS. Refiere cuadro de angina de esfuerzo de JJJ de evolución q\nue ha ido progresando hasta hacerse de mínimos esfuerzos. Niega síncope\no palpitaciones. Exploración física con auscultación cardiaca rítmica\nsin soplos. No signos congestivos ni de bajo gasto. Se realiza prueb\na de esfuerzo convencional que resulta clínica y eléctricamente positiva de alto riesgo (cambios desde etapa precoz con descenso de &gt;2mm general\nizado). Tras la recuperación, retrogradación de cambios eléctricos y del dolor. Se decide ingreso para KT preferente. Se informa a paciente\ny acepta. Fecha: JJJ\nT PUR3: JJJ de JJJ derivat de cardiologia per prova d&apos;esforç positi\nva clínica i elèctricament. A l&apos;arribada CiO, HDME. Afebril i sense dolo\nr. Es realitza ECG a l&apos;arribada JJJ i es repeteix a les JJJ. Es cursa\n@ucies amb curva de tropos.\nEs deixa roba sota llitera dins bossa amb i\nd. Fecha: JJJ\nalorat per CAR, indiquen ingrés al seu càrrec. Avui ingesta vo, mantenir a famis a partir de les JJJ per possible KT demà JJJ.",
+  "text_length": 1460,
+  "anonymized_count": 17,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

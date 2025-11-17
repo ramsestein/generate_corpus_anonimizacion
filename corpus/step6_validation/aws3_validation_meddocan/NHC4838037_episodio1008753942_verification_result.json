@@ -1,0 +1,143 @@
+{
+  "document_id": "NHC4838037_episodio1008753942",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nC:H78a acude por disnea\nEtiqueto su ropa en la camilla.\nPortador de pu\nlsera identificativa. AP:1. HIPERTENSIÓN ARTERIAL\n2. DISLIPEMIA\n3.\nDIABETIS MELLITUS TIPUS 2\n4. DISFUNCIÓN DEL NODO SINUSAL. con implante\nde marcapasos DDD por bradiarritmia enJJJ.\n5. CARDIOPATÍA HIPERTENSIVO\n-VALVULAR con FRACCIÓN DE EYECCIÓN CONSERVADA.\n6. ESTENOSIS AÓRTICA SEV\nERA\n6. TRASTORNO BIPOLAR\n7. HIPERPLASIA BENIGNA DE PRÓSTATA\n8. SHOCK\nSÉPTICO secundario a colitis isquémica OD: disnea en p cardiopata EF: c y o HMD estable,afebril,colaborador,autonomo PLAN: -VP20ESD - c\nurso analitica-RX -ECG\n-1*tropos positivas\n-control diuresispor furo -control glicemias PTE:2* tropos 15h Fecha: JJJ\n. ESTENOSIS AÓRTICA SEVERA SINTOMÁTICA Paciente con estenosis aórtica en seguimiento por Cardiologia privada, que en JJJ fue derivado\na Cardiología al JJJ por estenosis severa en ecoTT de JJJ para plantear TAVI (la consulta está programada para JJJ). Ac\nude a urgencia por 3 episodios de disnea en reposo, que se autolimitan e\nn 1-2h, en los últimos 10 días. A su llegada, buen estado general, co\nnsciente y orientado en las 3 esferas, normotenso, eupneico en basal con SpO2 95% en basal, afebril. A la EF destaca soplo sistólico multifocal\nde predominio en foco aórtico irradiado a carótidas. No edemas en EEII. ECG ritmo de marcapasos, pero con inversión profunda de las ondas T\nde V2 V6 (diferente de ECG que aporta) y en DII\nAnalítica con elevación de NT-proBNP 7883 pg/mL y de troponina de 61.8 ng/L. Repetición de Trop\nonina con valor similar.\nRadiografía de tórax que objetiva ICT aumentad\no, signos de redistribución vascular. Se orienta como estenosis aórt\nica severa sintomática, en paciente en espera de valoración en consulta\nde Cardiología. Se pautó dosis única de furosemida 20 mg iv. Se sol\nicitó IC Cardiología - ya valorado, pero está pendiente de que decidan c\nonducta. Fecha: JJJ\naciente durante la tarde en helios se mantiene CyO, hemodinamicamente es\ntable y afebril. Sin dolor. Portador de VP 20 permeable. Diuresis mant\nenidas en porrón.\nPaciente tolera ingesta oral sin incidencias. Pendi\nente ingreso en Cardiología.",
+  "text_length": 2126,
+  "anonymized_count": 8,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.9965755343437195,
+        "word": "78",
+        "start": 14,
+        "end": 16,
+        "chunk_id": 0,
+        "model": "MEDDOCAN",
+        "actual_text": "78",
+        "is_j_only": false
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "j_only_count": 0,
+      "non_j_count": 1,
+      "entities_by_label": {
+        "EDAD_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": "78",
+          "actual_text": "78",
+          "confidence": 0.9965755343437195,
+          "start": 14,
+          "end": 16,
+          "model": "MEDDOCAN",
+          "is_j_only": false
+        }
+      ],
+      "anon_token_detections": [],
+      "other_detections": [
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": "78",
+          "actual_text": "78",
+          "confidence": 0.9965755343437195,
+          "start": 14,
+          "end": 16,
+          "model": "MEDDOCAN",
+          "is_j_only": false
+        }
+      ],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 1,
+    "j_only_count": 0,
+    "non_j_count": 1,
+    "entities_by_label": {
+      "EDAD_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 1,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": "78",
+        "actual_text": "78",
+        "confidence": 0.9965755343437195,
+        "start": 14,
+        "end": 16,
+        "model": "MEDDOCAN",
+        "is_j_only": false
+      }
+    ],
+    "anon_token_detections": [],
+    "other_detections": [
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": "78",
+        "actual_text": "78",
+        "confidence": 0.9965755343437195,
+        "start": 14,
+        "end": 16,
+        "model": "MEDDOCAN",
+        "is_j_only": false
+      }
+    ],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 1,
+    "suspicious_detections": 1,
+    "anon_token_detections": 0,
+    "other_detections": 1
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "text": "78",
+        "confidence": 0.9965755343437195,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "count": 1
+  }
+}

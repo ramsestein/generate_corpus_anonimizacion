@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5258467_episodio1008738432",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nngresa puérpera en SP3 por PE con criterios de gravedad. Canalizada VV\nP nº18 MSI. Se realiza SV permanente sin incidencias. Se administra bo\nlo de Sulfato de Magnesio. Inicio de perfusión de Sulfato de Magnesio se\ngún protocolo a las 21:13h. Constantes en rango: SpO2 99%, Tª: 36ºC. T\nA: 161/85 mmHg FC: 58lpm. Administramos Paracetamol a las 21:15h por c\nefalea. Permanece acompañada. Fecha: JJJ\nE con criterios de gravedad +0 (insuficiencia renal + cefalea persistent\ne). Cesárea urgente PPBF JJJ. MgSO4 +0 BEG. TA 149/92 - 137/76 mm\nHg, FC 62 lpm, SatO2 100% Ausencia de pródromos de eclampsia. Mejoría de cefalea tras adminsitración de inicio de MgSO4 + 1g de Paracetamol e\nv.\nDiuresis horarias correctas. Resultados: - Analítica sanguíne\na al ingreso: glucosa 105, Cr 1.29, FG 54.53, ácido úrico 7.0, AST/ALT 1\n5/17, GGT 23, BT 0.3, FA 70, LDH 221, Na+ 141, K+ 4.3, cociente proteína\ns/creatinina orina 432 (POSITIVO), leucocitos 8860, Hb 79, Hto 23.5%, pl\naquetas 281000, TP 100%, TTPa 28.4 seg PLAN: - Mantener perfusión d\ne sulfato de magnesio.\n- Control de constantes vitales y diuresis.\n- A\nvisar a MG si TA&gt;160/110 mmHg u otros signos o síntomas de alarma.\n- An\nalítica de control mañana.",
+  "text_length": 1214,
+  "anonymized_count": 3,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

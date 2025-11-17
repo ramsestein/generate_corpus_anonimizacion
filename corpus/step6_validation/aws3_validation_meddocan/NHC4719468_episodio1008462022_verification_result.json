@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4719468_episodio1008462022",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\notiu consulta: febre ( cellulitis EID)\nNo AMC\nAP: IRC (diàlisi periton\neal, tumor renal- iq amb AP compatible de carcinoma) Tx renal TVP EIE\nP\nacient traslladat de l'hospital d'JJJ per ingrès a càrrec de Nefro. A l'arribada a Pur3 pacient cio, HMD estable, afebril, eupneic basal. Portador de vp nº20 ESD que per retirada accidental es canalitza nova v\np nº18 ESD. Control de diüresis 24h. Metge de guàrdia de PUR3 comen\nta al pacient amb Nefro que decideix venir a valorar a urgències abans d\nel trasllat a la seva unitat. Queda en espera pendent de valoració. Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\nJJJJJJ ( JJJ)\n¿La persona de contacto corresponde con el\ncuidador?: No tiene cuidador\n¿Vive solo?: No\nProcedencia del paciente\nantes del ingreso hospitalario: Otro hospital\nMotivo ingreso y proceden\ncia interna:\nMI: Sepsis de origen urinario\n¿Sufre alguna enfermedad cr\nónica?: Insuficiencia renal crónica\nDéficit de autocuidado: Independien\nte\nAlergias: No\nEstado de la consciencia: Alerta\nModalidad acceso vía aérea: Natural\nValor Presión Arterial sistólica: 102 mm Hg\nValor Pres\nión Arterial diastólica: 76 mm Hg\nValor Frecuencia cardíaca: 63 lpm\nMi\ncción espontánea: Sí\nRitmo deposicional:\ncada 24h\nFecha última deposi\nción: JJJ\n¿Alteración de la integridad de piel y mucosas al ingr\nesar?: No\nColoración de la piel: Normocoloreada\nPuntuación escala Brad\nen: 22-Sin riesgo\nTemperatura axilar: 36.2 ºC\n¿Tiene dolor al ingreso?\n: No\nPuntuación escala EVN: 0-No hay dolor\nPuntuación escala Downton:\n0-Riesgo bajo Fecha: JJJ\nNEFROLOGÍA DE GUARDIA (INTERMEDIOS) Paciente de JJJ, alergico a los calcioantagonistas, JJJ, OH social. ANTCEDENTES PATOLOGICOS 1- Nefropatía IgA: ERC estadio 5, con requerimiento de inicio de TRS: * DP desde JJJ. Transferencia a HD por oclusion intestinal en JJJ. * TRDC JJJ con nefropatia cronica del injerto, con FG basal 25-3\n0ml/min. IS: EVE - FK _ PDN. -BX JJJ: BR sin rechazo, cambios vasculares cronicos 2-TVP pierna izquierda JJJ , estudio genetico de coagulopatía + anticogulacion con sintrom cronico. Re-estudio eco-doppler JJJ, trombosis crónica. 3-COVD19 omicron JJJ, paucisintomatico. 4-HTA: En tratamiento con dos fármacos. PROCESO ACTUAL Paciente que acude a JJJ por cuadro de 2 días de evolucion caracterizado por fiebre termometrada en 39ºC , acompañado de dolor en fosa ilíaca derecha (zona de transplante renal) que se irradia hacia flanco, además refiere edema en EID con calor eritema, en zona local, no empastamiento. Niega sintomatología respiratoria. Realizada valoración inicial : Ecografía renal sin evidencia de dilatación de vía urinaria- Ecografía doppler venosa : Sin evidencia de trombosis aguda. En mi valoración paciente en buenas condiciones generales, con palidez mucocutánea, conjuntivas pálidas. Mucosas hidratadas. Estable hemodinámicamente con tendencia a la hipotensión , con TA: 100/60mmHg, FC: 80lpm . SatO2: 98%. Cardiopulmonar: Ruidos cardíacos rítmicos sin soplos, murmullo vesicular conservado, no ruidos agregados.Abdomen: Blando, depresible, sin dolor a la palpación. Extremidades : Edema grado 2 de miembros inferiores. Miembro inferior derecho gran edema sin fóvea. *HC: Resultado parcial informado en JJJ: S.epidermmidis. JC-Plan: Paciente derivado desde JJJ con sospecha de sepsis de Origen urinario vs Cutáneo ( Menos posible). - Inicio cobertura de amplio espectro : Meropenem - Linezolid. - Se realizan cultivos en frio: Orina-HC - Analítica de Urgencias. - Nueva ecografía doppler de MsIs para valoración de edemas. Fecha: JJJ\nJJJ Paciente que viene del PUR 3 procedente del JJJ.\nA su llegada mantiene constantes, afebril. Consciente y orientado. Porta\ndor de STP por VP nº 18 ESD. Edema importante en EID. Ingesta oral corre\ncta. JJJ Se cursa analítica de urgencias, hemocultivos y urinocultivos.",
+  "text_length": 3980,
+  "anonymized_count": 24,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

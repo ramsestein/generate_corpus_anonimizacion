@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4773766_episodio1008301337",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente que acude por disnea y fiebre.\nNo AMC.\nAP:\n1.- Dislipemia\n2.\n- Diabetes\n3.- Cardiopatia isqquémica con FEVI moderadamente reducida (\na priori) con colocación de stent en DAp en JJJ\n4.- Ulcus perforado (i\nngreso en JJJ).Dehiscencia de sutura con infección por s aure\nus posteriormente.\nDificil acceso venoso, se coloca finalmente CVP nº22 en ESD y se c ursa analítica de urgencias con GSA, hemocultivos, urinoc\nultivo y frotis virus respiratorios.\nSe realiza RX de torax y se inicia tratamiento antibiótico y sueroterapia. Fecha: JJJ\nD: NAC grave\nSe mantiene VK al 35%, el paciente refiere mejoría aunque\npresenta hipotensión. Pendiente ingreso a cargo de NMO en intermedios/UC\nI Fecha: JJJ\nMO: JJJ, barrera idiomática. AP: DL, DM2, cardiopatía isquémica con FE\nVI conservada portador stent en DA JJJ, ulcus perforado en JJJ.\nDehiscencia de sutura con infección por S.Aureus Oxa S.\nDerivado del CU\nAP, en tto con augmentine sin mejoría. A su llegada, caquéctico, react\nivo, hipotenso respuesta parcial a cargas de volumen, respiratorio SpO2\ncorrectas con VK 0,35, FR 20-22rpm, crepitantes húmedos hemitórax der, o\nligúrico. Rx tórax con condensación derecha y pinzamiento senocostofré\nnico. Tractos fibrocicatrizales biapicales. Analítica con PCR 10, crea\nt 1.23mg/dl (mayor), leucocitosis con neutrofilia. Dx. NAC grave FINE\nIV. Sepsis qSOFA 1. Plan. Ingresa a cargo de NMO. Ceftarolina 600/8h\n+ azitromicina, cultivo esputo. Carga volumen, valorar inicio SVA. Reque\nrirá traslado a intermedios. Fecha: JJJ\naciente C Y O caquectico tendencia hipotension Iniciamos Noradrenalin\na a (2)\nSe cursa cultivo de esputo\nIngreso por NMO Fecha: JJJ\naciente Ingresado por NMO.\nDurante la tarde, Alerta, HDM estable, con s\noporte de Noradrenalina a dosis bajas, Eupneico con oxigeno, VMK al 35\n%.\npdte de traslado a intermedios. Fecha: JJJ\naciente CyO, mantiene PAM por encima de 65 con perfusión de noradrenalin\na a 3ml. Se Eupneico con buena saturación con VK al 35%. Realizamos hig\niene completa en cama. Pendiente ingreso.",
+  "text_length": 2033,
+  "anonymized_count": 11,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

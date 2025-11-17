@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5396804_episodio1008714006",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nngresa gestante de JJJ para finalización de la gestación por DMF\n. Constantes mantenidas, afebril. Se canaliza vía periférica. Se expli\nca proceso de la inducción y se resuelven dudas. Firma CI. RCTG: FCFba\nsal 125lpm, variabilidad conservada, realiza aceleraciones no desacelera\n. DU espontanea no clínica. Se realiza TV previo consentimiento: cx pos\nterior, consistencia media, formado a punta de deo. Se coloca propess a\nlas JJJ. LLIR: JJJ. Fecha: JJJ\nCTG: FCF línea de base 120 lpm, variabilidad ondulatoria normal, presenc\nia de ascensos, raliza deceleración a las JJJ, de 1 minuto, por lo qu\ne se deja 1 hora más de monitor. RCTG posterior: 120 lpm, variabilidad ondulatoria normal, presencia de ascensos, no deceleraciones. DU irregu\nlar 4-5 contracciones cada 10 minutos percibida como ligera molestia. Se explican signos y síntomas por los que avisar. Se pasa cena y queda e\nn SP4. Continuará proceso de inducción a las JJJ.",
+  "text_length": 944,
+  "anonymized_count": 7,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

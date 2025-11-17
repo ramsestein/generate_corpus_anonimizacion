@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4621085_episodio1008558516",
+  "success": true,
+  "anonymized_text": "JJJ\nngresa gestante de JJJ para iniciar proceso de inducción x GEG (JJJ -\np99). Alérgica a AAS + Tramadol. CI firmado. Normotensa y afebril. CVP c\nanalizada. Extraemos muestras estudio kit biobank. SGB negativo. Explico proceso, entiende. RCTG: PFR. FCFb 130lpm. Patrón acelerativo variable\n. No desaceleraciones. No DU. Realizo TV previo consentimiento: cx post, rígido, formado y cerrado. BAI. Coloco propess a las JJJ y dejo RCTG de control. JJJ\nST: DU 6 en 10 min, clínicas. Se comenta con equipo de ginecología, se c\nonsensua retirar propess. TV: mismas condiciones (formado y cerrado, BAI\n). STOP propess. PFR en todo momento, basal 140x&apos;, sin desaceleraciones. Se deja en DLI. JJJ\nCTG tras retirada de propess tranquilizador. FCfbasal 140bpm, variabilid\nad correcta, presencia de aceleraciones y no desaceleraciones. DU 4-5con\ntr/10mins subclínicas. Se ofrece esferodinamia, desea. Se recuerdan sign\nos de alarma. Nuevo control a las JJJ o antes, si precisa. Se queda a dormir en JJJ por no disponibilidad de camas en sala.",
+  "text_length": 1035,
+  "anonymized_count": 8,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4786870_episodio1008405749",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente C y O, con tendencia a la somnolencia, hipotensión, febril a la llegada, saturaciones de 94-95% con VMK al 60%, colaborador, reactivo a la voz.\nAcude a urgencias por DT + disnea y fiebre, se realiza protoco\nlo de acogida, objetos personales identificados debajo de la camilla.\nS\ne coloca CVP 18G en ESD, se cursa analítica de urgencias + hemocultivos\n+ POC arterial.\nSe realiza frotis de Covid + Gripes, pendiente de resul\ntado.\nPendiente de antigenurias + esputo.\nSe administra medicación seg\nún pauta. Fecha: JJJ\nurante la noche se mantiene hemodinámicamente inestable, hipotenso, taqu\nicardico, saturaciones mantenidas con VMK al 40%, somnoliento, reactivo\nal dolor.\nSe administra medicación según pauta.\nSe coloca segundo caté\nter periférico 18G ESD.\nSe coloca SV y se cursan antigenurias + tóxicos en orina. Fecha: JJJ\naciente somnoliento.\nHMD inestable, tendencia a hTA y taquicardia. Febr\nicular 37.4ºC que tras administración de antitérmico baja a 36.5ºC.\nTaq\nuipneico con VK 31%, se realiza GA, se decide subir VK 35%\nSe cursa es\nputo\nPortador de 2VP permeables\nDiuresis correcta por SV Pendiente\nde valoración por INF Fecha: JJJ\n* NOTA VALORACIÓN/INGRESO INFECCIOSAS: JJJ de JJJ, independient\ne, vive con JJJ. Infección por VIH en tto con Biktary, se\nguimiento en JJJ, buen control, última visita hace JJJ\n(no dispongo de informe, pero última analítica JJJ CD4 1027 con CV i\nndetectable). Ingreso reciente en nuestro centro por neumonia neumocócic\nca que requirió unidad de intermedios, fue fuga a los JJJ. Inicia hace JJJ con fiebre y disnea, consulta hace JJJ por asociad dolor to\nrácico.Llega inicialmente taquipneico, somnoliento y desaturación 90%.\nSe objetiva en en rx foco consolidativo en base izquierda, analítica con elevación de RFA (PCR 5.44, PCT 2.56) con leucocitosis 14000. Antigenúr\nia neumococo positivo. En urgencias han iniciado resucitación con fluido\ns (2,5L) y cobertura con ceftri/clinda. A mi valoración, paciente co\nn tendencia a hipotensión pese a resucitación con fluidos y taquicardia\nsinusal a 120lpm, VK31% para saturaciones 95%. Tendencia a somnolencia p\nero reactivo, colaborador. Acordamos con PUR3 buscar unidad de intermed\nios pra monitorización +/- valorar requerimiento de SVA. Mantengo tratam\niento establecido. Fecha: JJJ\naciente durante la tarde en PUR 3.\nAdormilado pero responde a voz, y co\nlabora, HMD estable, tendencia a la hipoTA, taquipneico y febricular. DI\nuresis correctas.\nPdte de traslado a unidad de intermedios.",
+  "text_length": 2494,
+  "anonymized_count": 14,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

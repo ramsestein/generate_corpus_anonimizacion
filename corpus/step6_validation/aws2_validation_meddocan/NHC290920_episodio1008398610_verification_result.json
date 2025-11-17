@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC290920_episodio1008398610",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\nJJJ JJJ\n¿La persona de contacto corresponde con el cui\ndador?: No\n¿Vive solo?: Sí\nProcedencia del paciente antes del ingreso\nhospitalario: Domicilio\nMotivo ingreso y procedencia interna:\nIAM\n¿Su\nfre alguna enfermedad crónica?: Diabetes, Otras enfermedades crónicas, H\nipertensión, Dislipemia, Insuficiencia cardíaca\nDéficit de autocuidado: Independiente\nAlergias: No\nEstado de la consciencia: Alerta\nModalida\nd acceso vía aérea: Natural\nValor Frecuencia cardíaca: 107 lpm\nMicción espontánea: Sí\nRitmo deposicional:\ncada dia\nFecha última deposición: JJJ\nPrótesis dental: Sí\nTipo prótesis dental: Inferior removib\nle, Superior removible\n¿Alteración de la integridad de piel y mucosas a\nl ingresar?: No\nColoración de la piel: Normocoloreada\nPuntuación escal\na Braden: 14-Riesgo moderado\nTemperatura axilar: 34.1 ºC\n¿Tiene dolor\nal ingreso?: No\nPuntuación escala EVN: 0\nPuntuación escala Downton: 2-\nRiesgo bajo Fecha: JJJ\naciente que ingresa procedente de HDM tras ICP\nNRL: C y O, tendencia al sueño que va cediendo durante la tarde.\nHDM: dependiente de DBTx4 a 5m\nl/h, tendencia ligera a la HTA. ECG en FA. Afebril.\nRESP: Saturaciones\ncorrectas pasa de VMK a 60% 15lx&apos; a LNa 2lx&apos;, eupneico , no disnea.\nELI\nM: diuresis justas en porrón se comenta con mg y conducta expectante par\na SV. No depo.\nGlicemias correctas.\nInicio ingesta H2O a las 21h.\nA l\na llegada se cursa ECG + analítica de protocolo de pinchazos.\nSe retira compresivo radial derecho a las 21h y se cursan tropos.",
+  "text_length": 1713,
+  "anonymized_count": 5,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

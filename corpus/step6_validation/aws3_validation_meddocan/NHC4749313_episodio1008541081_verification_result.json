@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4749313_episodio1008541081",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nacient traslladat desde domicili per SEM per alerta de disminució del ni\nvell de consciència.\nA la seva arribada, alerta, palidessa normocutània\n, portador de perfusió de Noradrenalina (x5) i polsera identificativa. P\nertenences id en bossa sota llitera. Es monitoritza i es realitza ECG (r\nefereix dolor toràcic) Fecha: JJJ\naciente que ingresa procedente de hemodinamica tras IAMCEST KILLIP IV co\nn implante de ECMO VA + BCPIAO. Se implantan SFA en TC + Cx. AP: EPO\nC gold II en tto con xoterma, acalasia tipo II con dilatacion esofagica, AVC isquemico (paresia ESD+ disartria), crisis occipital izquierda, AD\nK prostata estadio IV JJJ con repeticion en JJJ y JJJ + M1 oseas en\nC2, manubrioesternal y pubis (dudosas en costillas y pelvis) + gg inguin\nofemorales y iliacas. NEU: paciente sedoanalgesiado con RMF st 5ml/h\n+ MDZx2 10ml/h. RASS -5. ESCID 0. BIS 40-50 TS 0-5. Somanetics simetrico\ns mantenidos. HDM: muy lábil mantenido con NADx4 que finalmente se dej\na a 28ml/h. Presenta hipotensión durante la tarde que precisa de 1.25L d\ne plasmalyte + 0.5L SF de carga + 1 CCHH. Se inicia BIC de DBTx4 5ml/h a ultima h. ECMO VA 3500rpm flujo 2.6-2.8 FiO2 45% sweep 1.5. BCPIAO 1:1. Se canaliza KArt en RD tras retirar introductor RD, se deja pulsera hem\nostatica en RD por sangrado continuo por punto de punción. RESP: IOT e\nn VC PEEP 7 FiO2 50% VT 450 FR 14. GSA correcta, iones mantenidos. DIU\n: SV permeable, oligoanurico. Diuresis clara. No realiza deposicion. A\nLIM: Se coloca SNG, debito bilioso. Se mantiene pinzada. Se cursa a/\ns + frotis nasal - rectal. Pte valorar iniciar HepNa. Se aplican med\nidas de confort. Resto ver IPA.",
+  "text_length": 1648,
+  "anonymized_count": 5,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC306498_episodio1008622014",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nT PUR3: JJJ de JJJ derivada de JJJ per di\nsnea amb OD : EAP en relació a IM severa. A l'arribada a PUR3, trasllada\nda via SEM + monitor, pacient CiO, eupneica amb oxigenoteràpia amb VMK\nal 31% 6l. Normotensa. Sense dolor. Portadora de 2cvp. Es cursa @ucie\ns. Es realitza ECG + rx. Es redueix VMK al 28% mantenint bones saturacio\nns. S'inicia tt amb diürètic POM, precisa control de diüresis. Portado\nra de pertinències dins de bossa, es deixen sota llitera. Fecha: JJJ\naciente incluido en Ensayo Clínico \"Risk Stratification Using MEESSI-AHF Scale in ED and impacto n AHF Outcomes (MEESSI) con código JJJ\nque testa la decisión de ingreso vs alta en pacientes atendidos por Insu\nficiencia Cardíaca Aguda usando el criterio clínico habitual vs el uso d\ne la herramienta de estratificación de riesgo MEESSI-AHF y randomizado a rama intervención. con código de randomización JJJ el día JJJ h\nora JJJ con la presencia de Insuficiencia Cardíaca Aguda y las siguien\ntes variables de la escala MEESSI-AHF en el momento de la randomización\n(Indice de Barthel a la admisión: 100, PAS: 120, Edad: JJJ, NT-proBNP: 26\n08, K:3,7, NYHA IV a la admisión: No, TUS: 19, FR:22, Signos de bajo gas\nto: No, SpO2:98%, Episodio asociado a SCA: No, Hipertrofia en ECG: Sí, C\nreatinina:0.87). El paciente entiende y firma el Consentimiento informad\no y según el resultado de la randomización se procede a ingreso por deci\nsión de cardiología para estudio con riesgo de 1.813%. Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\nJJJ JJJ: JJJ\n¿La persona de contacto corresponde con el\ncuidador?: No tiene cuidador\nProcedencia del paciente antes del ingreso hospitalario: Otro hospital\nMotivo ingreso y procedencia interna:\nPac\niente que ingresa en UCCA procedente de PUR 3.\nMotivo de ingreso: disnea progresiva. IC de debut en contexto de valvulopatía mitral no conocida\npreviamente, con doble lesión, insuficiencia severa y estenosis moderada ¿Sufre alguna enfermedad crónica?: No\nDéficit de autocuidado: Indepen\ndiente\nAlergias: Sí\nEspecificar alergias:\nNolotil\n¿Fuma actualmente?\n: No\nEstado de la consciencia: Alerta\nModalidad acceso vía aérea: Natu\nral\nValor Frecuencia cardíaca: 102 lpm\nMicción espontánea: Sí\nRitmo d\neposicional:\nDiario\nFecha última deposición: JJJ\n¿Alteración d\ne la integridad de piel y mucosas al ingresar?: No\nColoración de la pie\nl: Normocoloreada\nPuntuación escala Braden: 17-Riesgo bajo\nTemperatura axilar: 37 ºC\n¿Tiene dolor al ingreso?: No\nPuntuación escala EVN: 0-N\no hay dolor\nPuntuación escala Downton: 3-Riesgo alto Fecha: JJJ\naciente que ingresa en UCCA procedente de PUR3.\nA su llegada C y O.\nHM\nD estable sin DVA.\nMonitor en RS.\nAfebril.\nEupneica con VMK 24% 2L. No refiere algias.\nDiuresis forzadas con bolus de furosemida, micción e\nspontánea.\nNo realiza deposición. Se realiza ECG de control.\nSe curs\na frotis rectal y nasal.",
+  "text_length": 3030,
+  "anonymized_count": 16,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

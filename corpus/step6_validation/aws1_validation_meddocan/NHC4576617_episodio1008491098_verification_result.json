@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4576617_episodio1008491098",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\necha Rotura Membrana\nJJJ 06:54\nEG Ruptura\n34s\nTiempo bolsa ro\nta\n&lt; 1 h Fecha: JJJ\naloración obstétrica Responsable identificación positiva del paciente\n: Paciente\n¿En el momento del ingreso el paciente lleva pulsera identif\nicativa?: Sí\nComprobación identificación madre-recién nacido: No proced\ne\nProcedencia del paciente antes del ingreso hospitalario: Domicilio\nM\notivo ingreso y procedencia interna:\nParto natural\nAlergias: Sí\nEspec\nificar alergias:\nCiclobenzaprina\nValor Presión Arterial sistólica: 121 mm Hg\nValor Presión Arterial diastólica: 69 mm Hg\nValor frecuencia ca\nrdíaca: 89 lpm\nTemperatura axilar: 36.3 ºC\nTipo de paciente: Puérpera Altura uterina: 0\nLoquios: Fisiológicos\nTipo de parto: Eutócico\nDese\no de lactancia en gestación actual: Sí\nPuntuación escala EVN: 0-No hay\ndolor Fecha: JJJ\nngresa puérpera tras parto natural en UCIAS. BEG. HDME y afebril. Útero\nbien contraído y loquios fisiológicos. Algias controladas con analgesia\npautada. Pendiente movilización y 1ª micción espontánea. Fecha: JJJ\nEGISTRES ESPECIALS:\n&gt; Catéter periférico:\n#1: JJJ\nServicio/uni\ndad de colocación de dispositivo: Urgencias\nCalibre vascular: 18\nLocal\nización: Brazo Izquierdo Portadora de Synto + Enantyum. Fecha: JJJ\nARTOGRAMA:\nFecha/hora actuación: JJJ Comentarios: PU\nERPERI IMMEDIAT\nHDM estable, dolor controlat amb analgèsia. Úter ben con\ntret, sangrat fisiològic, es col·loquen calcetes i compreses. Nadó pell\namb pell amb manta elèctrica, controlat per infermera pediàtrica, penden\nt d&apos;iniciar LM. Puja a planta. Fecha: JJJ\nolera deambulación y realiza 1ª micción escasa. Tolera ingesta. Pedimos\nobservar una 2ª micción antes de bajar a U. Neonatal. Fecha: JJJ\nealiza 2ª micción escasa y con coágulos. Pide bajar a U. Neonatal; aco\nrdamos que subirá en caso de deseo miccional para que la valoremos. Fecha: JJJ\nealiza micción de 300cc de orina clara con algún coágulo. No refiere alg\nias y rechaza analgesia. Fecha: JJJ\naciente HMD estable y afebril. Curso obstétrico correcto. Útero bien con\ntraído con pérdidas hemáticas fisiológicas. Micciones correctas, no se o\nbserva ningún coágulo. Algias bien controladas. Baja a neonatos a ver a\nRN.",
+  "text_length": 2170,
+  "anonymized_count": 12,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

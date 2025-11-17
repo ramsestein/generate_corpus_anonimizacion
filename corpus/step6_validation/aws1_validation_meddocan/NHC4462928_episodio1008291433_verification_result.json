@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4462928_episodio1008291433",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente acude a UCIAS por sobreingesta medicamentosa.\nTomó ayer JJJ,\n20 comprimidos de litio sobre las JJJ, refiere también tomar 10 comprimi\ndos de clonazepam y 10 comprimidos de quetiapina el JJJ, después, cam\nbia el discurso y refiere haber tomado estos dos últimos fármacos el JJJ. Refiere 6 vómitos post-ingesta de litio.\nAP: Trastorno bipolar.\nTt\no habitual: Litio.\nA su llegada consciente y orientada, Glasgow 15, hem\nodinámicamente estable con tendencia a taquicardia. Se realiza ECG de\ncontrol y monitorizamos. Canalizamos CVP y extraemos muestra sanguínea. Visitada por medicina. Se inicia medicación EV según pauta. Se admini\nstra carga de volumen. JJJ. Se recoge muestra de orina para tóxicos\n.\nJJJ. Se cursa PCR para virus.\nJJJ se le realitza analítica de c\nontrol, pendiente de traslado a JJJ. Se mantiene en dieta famis\n. Fecha: JJJ\nonsciente y orientada, Glasgow 15. HMD normotensa, eupneica en basal y a\nfebril. Micciones en cuña. Niega algias. Se mantiene en dieta a\nbsoluta con sueroterapia. Acompañada por JJJ. Tranquila y col\naboradora. Pendiente de traslado PUR 3 sede JJJ. Marcha en ambu\nlancia a las JJJ. Fecha: JJJ\nx de JJJ amb trastorn bipolar. Ingressa per IMA per liti. C i O am\nb tendència a l&apos;agitació. HDM estable, eupneica en basal, afebril i\nno refereix àlgies. Es manté serumteràpia. Es cursa A/S. Acompanya\nda per JJJ. Fecha: JJJ\nN: Es guarden pertinences (mòbil, carregador i ulleres trencades en boss\na petita identificada) i roba en bossa identificada sota llitera. Fecha: JJJ\nN_Pur3:\nPacient conscient i orientada. Hemodinamicament estable, afebri\nl. Eupneica, saturació correcta. no refereix dolor.\nDiuresi espontania\nen cunya.\nPortadora de pulsera identificativa.\nPendent ingrés a càrrec de MDI a JJJ",
+  "text_length": 1757,
+  "anonymized_count": 19,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

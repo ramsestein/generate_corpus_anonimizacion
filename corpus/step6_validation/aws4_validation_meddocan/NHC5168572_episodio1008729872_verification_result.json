@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5168572_episodio1008729872",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nacient C i O, acudeix a HdD JJJ per l'extracció d'analítica de sang sol.licitada per Cardiologia. Pendent de visita mèdica aquest matí. Alta del servei Fecha: JJJ\nONSULTA CA-ICP\nDerivada por Dr. JJJ de consultas TAVI.\n.\nJJJ de JJJ, sin AMC. Fumador pasivo. Vive con su JJJ, con buen soporte familiar (JJJ). Independiente para ABVD. .\nANTECDENTES\n- FRCV: HTA, DLP\n- Enfermedad de Parkinson, artritis reumatoide, Hepatits autoinmune, anemia ferropénica\n** Hª CARDIOLOGICA - Cardiopatía valvular con DLAo con EAo severa e IAo leve a la que se le implantó TAVI en JJJ. BRIHH de novo tras implante\n- Endocarditis infecciosa tardía sobre válvula protésica por S. gallolyticus en JJJ tratada\ncon ceftriaxona\n- FA paroxística desde JJJ\n*\nCoronariografía JJJ: arterias coronarias sin lesiones significativas\n* ETE JJJ: IM severa por restricción del velo posterior. VI de dimensiones normales con FEVI del 63%. Sin segmentarismos. AI moderadamente dilatada. VD normal. TAVi con velos engrosados, leve estenosis e IAo mod. Tto: furosemida 40-0-0, Apixaban 2.5mg/12h, Valsartan 40mg, Hidroclorotiazida 12.5 mg, Potasion 1, Hidroxicloroquine 100 mg, Ideos, Madopar, Rasagilina, Niega fiebre pero persiste con tos con expectoración pero de color blanco. Sale a caminar cada mañana y tarde unos 1km y medio. Se para más más de 1-2 veces porque se cansa con disnea de moderados esfuerzos. Presenta ortopnea pero no DPN. Desde hace un mes ha hecho controles con MAP que le ha ido aumentando la furosemida. Claro empeoramiento de la capacidad funcional. Mantiene apetito, aunque digestión pesada. Niega mareo y sincopes. AMPA 120/60, FC 82. Peso 50.45 (estuvo a 53 kg, le iniciaron furosemida y ha perdido peso en 4-5 días) --> 46.50 kg -> 50 kg * EF: tonos cardíacos rítmicos con soplo en foco mitral piante que irradia a axila. AR con MVC sin ruidos sobreañadidos. IY +++. Edema en EEII con fóvea\n* A/S: creat 1.93 con FGe 24 (previa de 1.4 en JJJ y en JJJ de 1.2). Na/K 138/2.8, NT-proBNP 7198 pg/mL--> 25.000\nLlama la atención en analítica del JJJ haptoglobina arrasada con empeoramiento de l afunción renal y plaquetas en descenso respecto a la previo. Creo que precisaría de estudio de posible microangiopatía trombótica. OD, Paciente con cardiopatía valvular con DLAo tratada en JJJ con implante de TAVI que en la actualidad presenta IM severa sintomatica con signos de IC descompensada que considero requiere diurético ev. PLAN: - Derivo a urgencias para corrección de potasio por vena y furosemida endovenosa por signos congestivos (edema en EEII, IY +++, disnea de moderados esfuerzos) así como estudio de función renal (a valorar MAT vs congestión venosa)\n- Contacto con su JJJ para explicar la situación Fecha: JJJ\nerivada a UCIES post-visita CAR i control analítica.\nA la seva arribada presenta Dolr Toràcic (EVA 9 /10) i sensació dispnèica amb baixes SatO2 basals. Tendència a la hTA.\nEKG a l'arribada i nova analítica d'UCIES. Fecha: JJJ\naciente C y O. HDM estable y afebril. Eupneica con VKM. Se realiza SV. Se realiza tropos de control. Fecha: JJJ\ny parcialmente orientada. HMD estable, eupneican en reposo. Portadora de LN.\nSVesical permeable, diuresis correctas.\nI. Cardio.",
+  "text_length": 3185,
+  "anonymized_count": 21,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

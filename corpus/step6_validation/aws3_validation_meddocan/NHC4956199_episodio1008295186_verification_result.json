@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4956199_episodio1008295186",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente con AP: esquizofrenia paranoide, HTA, Hepatitis B\nTrasladado de CUAP manso como sospecha de TEP tras presentar DT + disnea y elevación\nde tropos.\nA su llegada C y O. HMD hipertenso, afebril. Eupneico en bas\nal\nPortador de VP 22G. Se canaliza nueva VP y se cursa AS\nSe realiza E\nCG. Se avisa a cardio de guardia que acude a Bparo a valorar paciente y\nactiva C. IAM\nSe adminsitra medicación y se traslada a hemodinámica\nPe\nrtenencias identificadas bajo camilla Fecha: JJJ\naciente procedente de KT, con colocación de stent en DA, sin complicacio\nnes\nA su llegada C y O. HMD estable, afebril. Eupneico\nPortador de ven\ndaje compresivo en ESD, buen aspecto. Retirar a las JJJ\nSe realiza ECG\ny AS de control a las JJJ\nRealiza diuresis en porrón Fecha: JJJ\nJJJ retirem embenat compressiu radial dreta. No presenta sagnat actiu.\nHematoma peri punt d&apos;inserció sense edema associat. Pols mantingut.",
+  "text_length": 911,
+  "anonymized_count": 6,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

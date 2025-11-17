@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC267233_episodio1008775746",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nODI ICTUS\nPacient que presenta focalitat neurològica del despertar amb\ndebilitat extremitats esq i hemianopsia esq. Autònoma en les AVDs. A l\n&apos;arribar al BATUR:\nCiO, PINR, eupneica en basal, estable hdm i afebril. Normoglicèmica\nEs cursa analítica. Trasllat al TC. Portadora pulsera identificativa. Roba guardada sota la llitera. Fecha: JJJ\naloración Críticos\nValoración enfermo crítico Responsable identifica\nción positiva del paciente: Paciente\n¿En el momento del ingreso el paci\nente lleva pulsera identificativa?: Sí\nDatos persona contacto (nombre,\nteléfono y parentesco):\nJJJ\n¿La persona de contacto corresponde\ncon el cuidador?: No tiene cuidador\n¿Vive solo?: No\nProcedencia del pa\nciente antes del ingreso hospitalario: Otros\nMotivo ingreso y procedenc\nia interna:\ndebilidad súbita de extremidades izquierdas ¿Sufre algun\na enfermedad crónica?: Otras enfermedades crónicas\nEspecificar otras en\nfermedades crónicas:\nosteoporosis, ulcera duodenal, Neoplasia ovárica Déficit de autocuidado: Independiente\nAlergias: No\n¿Fuma actualmente?: No\nExfumador: Sí\nEstado de la consciencia: Alerta\nOrientación: Sí\nP\nuntuación escala Glasgow: 15-Leve\nModalidad acceso vía aérea: Natural Tipo de respiración: Eupneico\nValor frecuencia respiratoria: 19 resp/mi\nn\nSaturación O2: 96 %\nValor Presión Arterial sistólica: 107 mm Hg\nVal\nor Presión Arterial diastólica: 56 mm Hg\nValor Frecuencia cardíaca: 99\nlpm\nMicción espontánea: Sí\nGlucosa plasmática: 81 mg/dL\nRitmo deposic\nional:\ncada 24h con ayuda de laxantes\nFecha última deposición: JJJ\n¿Alteración de la integridad de piel y mucosas al ingresar?: No\nCo\nloración de la piel: Normocoloreada\nCaracterísticas de la piel: Frágil Puntuación escala Braden: 18-Riesgo bajo\nTemperatura axilar: 36.1 ºC ¿Tiene dolor al ingreso?: No\nPuntuación escala EVN: 0-No hay dolor\nPun\ntuación escala Downton: 3-Riesgo alto Fecha: JJJ\naciente que sube del box del divas sobre las 11h a su llegada a la un\nidad paciente C yO NRL: NIHSS 2 cuadrantanopsia inferior iz , hemihipo\nestesia leve f-b-c Iz leve que refiere mejoria. HDM estable ,afebri\nl normotensa que no precisa de hipotensores. RESP: basal.\nELIM: diure\nsis en cuña no depo. ALIM: famis + STP se realiza test de disfagia no\npresenta disfagia orofaringea. Pdte. de iniciar ingestas tras realizac\nión del TAC de control. MOV: mantenemos en reposo hasta nueva orden. Pdte. @ JJJ Pdte. de TAc de control Fecha: JJJ\nRL: NIHSS 2 cuadrantanopsia inferior iz , hemihipoestesia leve f-b-c Iz\nleve que refiere mejoría. HDM estable ,afebril normotensa que no pr\necisa de hipotensores.\nsobre las 19h hipoglicemia se informa a la Dra:\nJJJ de pauta STP glucosado previamente se administra una carga de 20ml que va recuperando glicemia. RESP: basal.\nELIM: diuresis en cu\nña, realiza depo. ALIM: famis + STP se iniciara ingestas según resulta\ndos del TAC. Pdte. de iniciar ingestas post TAC MOV: mantenemos en r\neposo hasta nueva orden. Pdte. @ JJJ Pdte. de Tac de control.",
+  "text_length": 2955,
+  "anonymized_count": 9,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

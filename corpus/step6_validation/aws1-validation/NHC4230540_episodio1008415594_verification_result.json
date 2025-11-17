@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4230540_episodio1008415594",
+  "success": true,
+  "anonymized_text": "JJJ\nonat d&apos;alta , pendent d&apos;ambulància. JJJ\n** Ayer acudió a UCIAs por fiebre en domicilio &gt; 38,5ºC sin disnea, NO dificultado respiratoria. A la exploración destacaba crepitantes en bas\neizquierda sin condensación clara en la radiografía. Se realizó FNF que resultó positivo para COVID por lo que se inició tratamento con paxlovi\nd(STOP tamsulosina, simvastatina y pendiente de pasar rivaroxaban a clexane 80 mg cada 24 h). Contacta infecto por aislamiento en HC ( JJJ) de S.Aureus, paciente portador de marcapasos. Contactamos para que acuda a UCIAs para ingreso hospitalario e inicio de tratamiento ATB ev (cefazolina + daptomicina), pendiente de repetir HC, FNF MARSA e ingreso. De manera diferida PET. JJJ\naciente de JJJ acude a urgencias por fiebre + disnea (ayer dio positivo\npara covid+)\nA su llegada C y O ,HDME, febril que precisa de antitermic\no, portador de VMK con 28% 4L con saturaciones en torno 96%\nSe canaliza cvp y se cursan HHCC\nAP:mieloma quiescente en seguimiento por hemato JJJ\ne realiza frotis MRSA anal y rectal + frotis virus respiratorios\nSe arr\nastra a hel2 pte de ingreso en infecto JJJ\nuardia infecciosas: Dra. JJJ/Dra. JJJ. JJJ de JJJ que ingresa por:\n1. Bacteriemia por S. aureus meticilin sensible (por PCR)\n. A descartar endocarditis/infección dispositivo marcapasos. 2. Infecc\nión por SARS-Cov2. Paciente con pauta completa vacunación (4 dosis). 3\n. Infiltrados LII y LSI. Diagnóstico diferencial: émbolos sépticos por\nS. aureus/infiltrados por infección SARS-CoV2. Provoca insuficiencia res\npiratoria, precisa de mascarilla ventury. El paciente inicia clínica de fiebre hace 48 horas, así como disnea y tos. Ayer se realizó test de antígenos para coronavirus que resultó positivo (no lo había pasado pre\nviamente) por lo que acudió ayer a urgencias. Está en tratamiento oral\npor mieloma múltiple con lena/dexa/claritromicina (último ciclo JJJ, tto. vía oral). No es portador de catéter, si explica que se realiz\na acupuntura cada 3 días por dolor tras caída en JJJ. No otra clínica asociada. Exploración física: TA 147/73 mmHg, Fc 80 lpm, Sat 02 9\n6% con VMK al 28% 4l. FR 24 rpm. C y O. No focalidad neurológica. AC\n: rítmico, tonos apagados parece soplo sistólico.\nAP: MVC en campos ant\neriores con crepitantes en campo medio y basal izquierdo. MMII: no sig\nnos de TVP, no edema. Buena perfusión distal. En pruebas complementa\nrias realizadas ayer en urgencias:\n-RX tórax: infiltrado en LSI y LII. -HCx2: positivo para S. aureus tiempo de crecimiento 9h. Oxacilin sens\nible por PCR. -A/S JJJ: PCR 22.68, creatinina 0.54. LDH 237 (previos normales). Leucocitos 7520, neutrófilos 6.300, linfocitos 500. Plaqueta\ns 171.000. -A/S JJJ: PCR 24.78, PCT 0.56, LDH 372. Leucocitos 6.910, neutrófilos 6.100, linfocitos 300.\n-PCR SARS-COV2 y gripe A y B: pdte. -Frotis nasal MARSA y frotis rectal: pendiente.\n-HCx2 JJJ: pdte (co\nn toma de levofloxacino). PLAN:\n-Se decide ingreso con biterapia pa\nra S. aureus: cefazolina+daptomicina. -Tto infección para SARS-CoV2: p\naxlovid+remdesivir (por precisar de soporte respiratorio).\n-Durante el\ningreso solicitar PET-TAC, así como ETT/ETE.",
+  "text_length": 3122,
+  "anonymized_count": 16,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

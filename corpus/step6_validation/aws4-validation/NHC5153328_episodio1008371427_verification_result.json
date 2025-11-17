@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5153328_episodio1008371427",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nNOTA ARRIMITAS . Paciente de JJJ con antecedentes más relevantes de HTA, DLP, DM, cardiopatía isquémica crónica con IAM anterolateral en JJJ, IAM inferior en JJJ, DAI-TRC desde JJJ por BAV y FEVI 40%. Ablación de sustrato en JJJ quedando inducible una TV que impresionaba intramural septal, sin recidivas hasta la fecha. . Me avisan de monitorización remota por detectarse múltiples eventos de taquicardia ventricular sostenida en los últimos días, monomórfica, a paroximadamente 155lpm que caen en zona monitor por lo que el dispositivo no realiza terapias, varios de ellos de casi una hora de duración (un episodios el día JJJ, dos episodios el día JJJ, 4 episodios el día JJJ). Paciente ya en tratamiento con betabloqueantes y amiodarona. Contacto telefónicamente y explica empeoramiento clínico en los últimos días, recomiendo acudir a Urgencias. Fecha: JJJ\nMONITORITZACIÓ REMOTA: Es rep alerta per varis episodis de TV sostingudes de llarga duració (fins a 40min). No s&apos;apliquen teràpies per entrar en zona monitor. Es comenta amb Dra. JJJ que recomana al pacient anar a urgències. DAI TRC Abbott DDDR 60-110x&apos;. Paràmetres estables. AP 74%, BiVP &gt;99%. 3 zones: monitor 150/ TV 171/ F\nV214 amb ATP + descàrrega. EGM amb bon sensat i sense soroll. AP + BiVP. No es registren altres episodis d&apos;arítmies. Bateria 2,3anys. Fecha: JJJ\nC:H JJJ acude por arritmia segun monitor en domicilio.\nEtiqueto su ropa e la camilla. AP:-JJJ\n-INSUFICIÈNCIA CARDÍACA SISTÒL\nICA\n-ANGINA DE PIT\n-DIABETES MELLITUS TIPUS 2\n·-MIOCARDIOPATIA ISQUÈM\nICA · JJJ - (G31.84)-DETERIORAMENT COGNITIU\n-TRASTORN DE LA COND\nUCTA\n-CATARACTA DIABÈTICA -MARCAPAS OD:TV EF: c y o ,HMD estble\n,afebril colaborador. PLAN:-VP 20ESI curso analitica-RX\n-JJJ IC C\nARDIO (revision MCP)+tto,\n- drum ESD axilar (RX)+ perfusion de amiodaro\nna a 10ml/h\n-FAMIS+ST\n-control de glicemias PTE: evol Fecha: JJJ\naciente c y o. HDM estable. Afebril. Eupneico al aire. Portador de PICC\nDerecho con BIC de Amiodarona. No refiere algias. Tranquilo.",
+  "text_length": 2022,
+  "anonymized_count": 17,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

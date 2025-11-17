@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4492926_episodio1008667402",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente trasladada JJJ por HSA.\nA su llegada pcte intubada\n, HDM estable a su llegada, normotensa, afebril. Portadora de BIC con\nMidazolam y mórfico, en BPARO se sustituye por Propofol al 20%.\nPupilas isocóricas no reactivas. Glasgow 3. Portadora de SV con diuresis ma\nntenidas y SNG en declive.\nPresenta un hematoma en cara externa del EID\n.\nSe canaliza vvp con posterior extracción analítica (perfil básico y r\neserva). Se traslada a scanner y posteriormente a quirófano. Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Doble check (dos profesionales)\n¿En el momento del ingreso el pa\nciente lleva pulsera identificativa?: Sí\nDatos persona contacto (nombre\n, teléfono y parentesco):\nPdte\n¿La persona de contacto corresponde con el cuidador?: No tiene cuidador\nProcedencia del paciente antes del ing\nreso hospitalario: Otro hospital\nMotivo ingreso y procedencia interna: Hematoma Subdural Crónico &quot;Glasgow 3&quot; trasladado de JJJ\n¿Sufre\nalguna enfermedad crónica?: Otras enfermedades crónicas\nDéficit de auto\ncuidado: Higiene, Movilización, Alimentación\nAlergias: No\nEstado de la consciencia: Inconsciente\nModalidad acceso vía aérea: Artificial\nValo\nr Frecuencia cardíaca: 73 lpm\nRitmo deposicional:\n1-0-1\n¿Alteración d\ne la integridad de piel y mucosas al ingresar?: Sí\nColoración de la pie\nl: Normocoloreada\nPuntuación escala Braden: 12-Riesgo alto\nTemperatura axilar: 35.8 ºC\n¿Tiene dolor al ingreso?: No\nPuntuación escala EVN: 9\n9-No aplica\nPuntuación escala Downton: 5-Riesgo alto Fecha: JJJ\nngresa paciente procedente de JJJ por hematoma subdur\nal crónico agudizado. A su llegada sedada con propofol 2%, RASS -5, PINR\n. HDN estable sin DVA, en ritmo sinusal. Afebril. TET en VC bien aco\nplada al respirador, presenta abundante sialorrea y escasas secreciones\nx tet. Sat02 correctas y mantenidas 100% con fi02 40% Abdomen blando y depresible, dieta FAMIS + STP. Gliceias corregidas con insulina de paut\na. No depos\nSV permeable, diuresis conservada, colúrica. Se realizan\nmedidas habituales de confort y seguridad, recibe visita familiar Fecha: JJJ\naciente sin sedación con GLW 3-5. PIR 3/3. No signos de disconfort.\nHDM estable sin DVA. RS. febrícula. IOT en PS de 6, PEEP 9, FiO2 40. bie\nn acoplada. Diuresis forzada con 10 de furo POM con buena respuesta. R\nealiza pequeña deposición\nFAMIS + SNG, SNG no productiva. Se realiza\npruebas cruzadas por petición de CTA. Visitada por familaires. Fecha: JJJ\nActivació LET: NO RCP Fecha: JJJ\naciente en LET, con IOT en PS, sin SVA, con STP.\nPor orden médica y tra\ns hablar con la familia se inicia bomba de sedación a las JJJcon Cloru\nro mórfico 100mg, 1000mg de midazolam a 10ml/h. Se va ajustando la veloc\nidad de infusión según confort del paciente.\nSe cambia la terapia respi\nratoria a A/C VC fiO2 21%, VT 200ml, PEEP 2. Una vez sedada se desconect\na del respirador. Se aplican medidas de confort y se explica a la fam\nilia. Exitus a las JJJ",
+  "text_length": 2954,
+  "anonymized_count": 11,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5359467_episodio1008798451",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nATUR-TT: Pacient portada de JJJ com a C.Ictus. Troba\nda a domicili al terra i amb afàsia. Es realitza SCA que evidència infar\nt posterior establert. A l&apos;arribada a BOX pacient C i O sense disàrtri\na. Hemodinàmicment estable, tendència HTA, eupnèica amb saturació basal\nmantinguda, afebril, glicèmia en rang. Es cursa analitica amb hemogra\nma,bioquimica,coagulació. La pacient acut al SCA. Diuresi mantingu\nda a cunya. AP:/ Pacient portadora de polsera identificativa i roba\nidentificada sota llitera. Acompanyada de JJJ. Fecha: JJJ\nacient que retorna de l&apos;SCA.\nHipertensa (TAM 110mmHg), s&apos;administra Cap\ntopril 25mg VO de rescat. Eupneica basal. No focalitat NRL. S&apos;inicia B\nIC Heparina sòdica (8000U) a 40ml/h, no bolus inicial POM NRL. Proper co\nntrol TTP a les 00h.\nEs trasllada a I061. Fecha: JJJ\naloración Críticos Responsable identificación positiva del paciente:\nDoble check (dos profesionales)\n¿En el momento del ingreso el paciente\nlleva pulsera identificativa?: Sí\nDatos persona contacto (nombre, teléf\nono y parentesco):\n.\n¿La persona de contacto corresponde con el cuidad\nor?: No tiene cuidador\nProcedencia del paciente antes del ingreso hospi\ntalario: Otro hospital\nMotivo ingreso y procedencia interna:\nICTUS\n¿S\nufre alguna enfermedad crónica?: Otras enfermedades crónicas\nEspecifica\nr otras enfermedades crónicas:\n- Hipertensión arterial\n- Dislipemia en\ntratamiento con sinvastatina\n- Prolapso de vejiga??\nDéficit de autocuid\nado: Independiente\nAlergias: No\nEstado de la consciencia: Alerta\nModa\nlidad acceso vía aérea: Natural\nValor Frecuencia cardíaca: 77 lpm\nMicc\nión espontánea: Sí\nRitmo deposicional:\nestreñimiento\nFecha última dep\nosición: JJJ\n¿Alteración de la integridad de piel y mucosas al i\nngresar?: No\nColoración de la piel: Normocoloreada\nPuntuación escala B\nraden: 18-Riesgo bajo\nTemperatura axilar: 36.4 ºC\n¿Tiene dolor al ingr\neso?: No\nPuntuación escala EVN: 0-No hay dolor\nPuntuación escala Downt\non: 2-Riesgo bajo Fecha: JJJ\número de contacto JJJ (JJJ) JJJ. Fecha: JJJ\naciente ingresa des del BPARO. C y O, GCS 15. PINR.\nHDM con tendencia a la HTA sin DVA, en RS. BPC de Heparina 8000UI, realizado control PTT a\nlas 22h próximo control a las 4am. Afebril.\nEupneica en basal.\nFAMIS c\non STP.\nDiuresis espontanea en cuña.\nSe realizan medidas de confort.",
+  "text_length": 2316,
+  "anonymized_count": 11,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4281535_episodio1008657455",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naloració obstètrica Responsable identificació positiva del pacient: P\nacient\nEn el moment de l'ingrés el pacient porta braçalet d'identifica\nció?: Sí\nComprovació identificació mare-nadó: Sí\nProcedència del pacie\nnt abans de l'ingrés hospitalari: Domicili\nMotiu ingrés i procedència i\nnterna:\nCESAREA\nAl·lèrgies: No\nValor de Pressió Arterial sistòlica: 1\n55\nValor de Pressió Arterial diastòlica: 91\nValor freqüència cardíaca: 71\nTemperatura axil·lar: 35.8\nTipus de pacient: Puèrpera\nAlçada uter\nina: 0\nLoquis: Fisiològics\nTipus de part: Cesàrea\nDesig de lactància\nen gestació actual: Contraindicació\nPuntuació escala EVN: 2-Dolor lleu Fecha: JJJ\nngresa puérpera, para recovery de cesárea. TA elevadas, no refiere pródr\nomos de eclampsia, comentado con ginecólogo de guardia, cursamos analíti\nca de despistaje de preclamsia, orina sondada. Afebril. Dolor controla\ndo con analgesia de pauta. Buen curso obstétrico, útero bien contraído y pérdidas hemáticas fisiológicas. Apósito quirurgico limpio, pte retirar\n. Portadora de CVP permeable. Portadora de SV, Pte retirar. Pte deambu\nlación. Tolera ingesta hídrica. LA, pte dosinex con la comida. Fecha: JJJ\ne revisa resultado analítico: Cr 0.70, FG >90, AST/ALT 50/40, LDH 401, r\natio Pr/Cr orina sondada 1887 (patológico), Hb 13.0, Hto 40.2%, plaqueta\ns no determinadas por patología de base, TP 100%, TTPa 26.9s. OD: pr\neeclampsia sin criterios de severidad. Se explica el diagnóstico a la pa\nciente, que entiende. Cifras tensionales correctas (134/69 - 120/75 - 13\n089 mmHg), no pródromos de eclampsia. Sube a planta de hospitalización c\nonvencional. Fecha: JJJ\nesárea de las JJJ. HDME y afebril.\nAlgias controladas con analgesia, no refiere pródromos de eclampsia, útero bien contraído, PH fisiológicas e\nscasas y AQ compresivo limpio. Portadora de CVP permeable. Tolera inge\nsta hídrica y retiramos SVP a las JJJ con un total de 400ml, colurica\n. Pte de realizar 1ª deambulación y ME. Sube a planta de hospitalizaci\nón. Fecha: JJJ\nngressa pacient procedent d'ucoi. HDM estable. Afebril. Algies controlad\nes amb analgèsia de pauta. Úter ben contret. Loquis fisiològics. AQ comp\nressiu mantingut. Tolera ingesta. Pte de primera micció i deambulació. Lactancia Artificial.\nCVP permeable.",
+  "text_length": 2245,
+  "anonymized_count": 7,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,1985 @@
+{
+  "total_detecciones": 220,
+  "detecciones": [
+    {
+      "doc_id": "NHC102219_episodio1008744732",
+      "etiqueta": "FECHAS",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "/",
+      "confianza": "0.9928",
+      "posicion_inicio": 5186,
+      "posicion_fin": 5187
+    },
+    {
+      "doc_id": "NHC102219_episodio1008744732",
+      "etiqueta": "FECHAS",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "26/7",
+      "confianza": "0.9903",
+      "posicion_inicio": 7508,
+      "posicion_fin": 7512
+    },
+    {
+      "doc_id": "NHC102219_episodio1008744732",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "G",
+      "confianza": "0.9997",
+      "posicion_inicio": 7652,
+      "posicion_fin": 7653
+    },
+    {
+      "doc_id": "NHC102219_episodio1008744732",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "045",
+      "confianza": "0.9905",
+      "posicion_inicio": 7653,
+      "posicion_fin": 7656
+    },
+    {
+      "doc_id": "NHC103087_episodio1008807132",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "G",
+      "confianza": "0.9997",
+      "posicion_inicio": 965,
+      "posicion_fin": 966
+    },
+    {
+      "doc_id": "NHC103087_episodio1008807132",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "06.2",
+      "confianza": "0.9923",
+      "posicion_inicio": 966,
+      "posicion_fin": 970
+    },
+    {
+      "doc_id": "NHC103087_episodio1008807132",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "G",
+      "confianza": "0.9997",
+      "posicion_inicio": 1543,
+      "posicion_fin": 1544
+    },
+    {
+      "doc_id": "NHC103087_episodio1008807132",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "5.7",
+      "confianza": "0.9981",
+      "posicion_inicio": 6784,
+      "posicion_fin": 6787
+    },
+    {
+      "doc_id": "NHC103087_episodio1008807132",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "5.7",
+      "confianza": "0.9863",
+      "posicion_inicio": 7552,
+      "posicion_fin": 7555
+    },
+    {
+      "doc_id": "NHC103087_episodio1008807712",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "OB",
+      "confianza": "0.9995",
+      "posicion_inicio": 281,
+      "posicion_fin": 283
+    },
+    {
+      "doc_id": "NHC103087_episodio1008807712",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "G",
+      "confianza": "0.9997",
+      "posicion_inicio": 364,
+      "posicion_fin": 365
+    },
+    {
+      "doc_id": "NHC103087_episodio1008807712",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "06.2",
+      "confianza": "0.9841",
+      "posicion_inicio": 365,
+      "posicion_fin": 369
+    },
+    {
+      "doc_id": "NHC103087_episodio1008807712",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "G",
+      "confianza": "0.9997",
+      "posicion_inicio": 942,
+      "posicion_fin": 943
+    },
+    {
+      "doc_id": "NHC103087_episodio1008807712",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "06.2",
+      "confianza": "0.9854",
+      "posicion_inicio": 943,
+      "posicion_fin": 947
+    },
+    {
+      "doc_id": "NHC103087_episodio1008807712",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "5.7",
+      "confianza": "0.9929",
+      "posicion_inicio": 6183,
+      "posicion_fin": 6186
+    },
+    {
+      "doc_id": "NHC103087_episodio1008807712",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "5.7",
+      "confianza": "0.9980",
+      "posicion_inicio": 6951,
+      "posicion_fin": 6954
+    },
+    {
+      "doc_id": "NHC103087_episodio1008807712",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "G062",
+      "confianza": "0.9805",
+      "posicion_inicio": 11367,
+      "posicion_fin": 11371
+    },
+    {
+      "doc_id": "NHC103087_episodio1008807712",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "G",
+      "confianza": "0.9997",
+      "posicion_inicio": 11367,
+      "posicion_fin": 11368
+    },
+    {
+      "doc_id": "NHC103087_episodio1008807712",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "G",
+      "confianza": "0.9997",
+      "posicion_inicio": 11997,
+      "posicion_fin": 11998
+    },
+    {
+      "doc_id": "NHC103087_episodio1008807712",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9949",
+      "posicion_inicio": 13383,
+      "posicion_fin": 13390
+    },
+    {
+      "doc_id": "NHC103087_episodio1008807712",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "Familia",
+      "confianza": "0.9954",
+      "posicion_inicio": 14942,
+      "posicion_fin": 14949
+    },
+    {
+      "doc_id": "NHC104109_episodio1008287424",
+      "etiqueta": "FECHAS",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "201",
+      "confianza": "0.9957",
+      "posicion_inicio": 430,
+      "posicion_fin": 433
+    },
+    {
+      "doc_id": "NHC104109_episodio1008287424",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I",
+      "confianza": "0.9997",
+      "posicion_inicio": 5270,
+      "posicion_fin": 5271
+    },
+    {
+      "doc_id": "NHC104109_episodio1008287424",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "061",
+      "confianza": "0.9848",
+      "posicion_inicio": 5271,
+      "posicion_fin": 5274
+    },
+    {
+      "doc_id": "NHC104109_episodio1008287424",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "G",
+      "confianza": "0.9997",
+      "posicion_inicio": 5277,
+      "posicion_fin": 5278
+    },
+    {
+      "doc_id": "NHC104109_episodio1008287424",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9964",
+      "posicion_inicio": 8881,
+      "posicion_fin": 8888
+    },
+    {
+      "doc_id": "NHC104109_episodio1008287424",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familiar",
+      "confianza": "0.9966",
+      "posicion_inicio": 9808,
+      "posicion_fin": 9816
+    },
+    {
+      "doc_id": "NHC104109_episodio1008287424",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familiares",
+      "confianza": "0.9972",
+      "posicion_inicio": 10845,
+      "posicion_fin": 10855
+    },
+    {
+      "doc_id": "NHC104109_episodio1008287424",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9969",
+      "posicion_inicio": 14851,
+      "posicion_fin": 14858
+    },
+    {
+      "doc_id": "NHC106104_episodio1008741129",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "PUR",
+      "confianza": "0.9729",
+      "posicion_inicio": 13,
+      "posicion_fin": 16
+    },
+    {
+      "doc_id": "NHC106104_episodio1008741129",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familiar",
+      "confianza": "0.9824",
+      "posicion_inicio": 4654,
+      "posicion_fin": 4662
+    },
+    {
+      "doc_id": "NHC106104_episodio1008741129",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9973",
+      "posicion_inicio": 5859,
+      "posicion_fin": 5866
+    },
+    {
+      "doc_id": "NHC106104_episodio1008741129",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familiar",
+      "confianza": "0.9748",
+      "posicion_inicio": 6881,
+      "posicion_fin": 6889
+    },
+    {
+      "doc_id": "NHC107102_episodio1008411058",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "PUR",
+      "confianza": "0.9882",
+      "posicion_inicio": 3984,
+      "posicion_fin": 3987
+    },
+    {
+      "doc_id": "NHC107102_episodio1008411916",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "PUR",
+      "confianza": "0.9794",
+      "posicion_inicio": 3979,
+      "posicion_fin": 3982
+    },
+    {
+      "doc_id": "NHC107102_episodio1008411916",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9947",
+      "posicion_inicio": 5032,
+      "posicion_fin": 5039
+    },
+    {
+      "doc_id": "NHC107102_episodio1008411916",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9974",
+      "posicion_inicio": 7899,
+      "posicion_fin": 7906
+    },
+    {
+      "doc_id": "NHC107102_episodio1008411916",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9896",
+      "posicion_inicio": 8326,
+      "posicion_fin": 8333
+    },
+    {
+      "doc_id": "NHC107102_episodio1008411916",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9975",
+      "posicion_inicio": 11895,
+      "posicion_fin": 11902
+    },
+    {
+      "doc_id": "NHC107102_episodio1008411916",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9976",
+      "posicion_inicio": 12102,
+      "posicion_fin": 12109
+    },
+    {
+      "doc_id": "NHC107102_episodio1008411916",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9975",
+      "posicion_inicio": 12244,
+      "posicion_fin": 12251
+    },
+    {
+      "doc_id": "NHC107102_episodio1008411916",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9967",
+      "posicion_inicio": 13085,
+      "posicion_fin": 13092
+    },
+    {
+      "doc_id": "NHC107102_episodio1008411916",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "família",
+      "confianza": "0.9969",
+      "posicion_inicio": 15243,
+      "posicion_fin": 15250
+    },
+    {
+      "doc_id": "NHC108175_episodio1008821007",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "madre",
+      "confianza": "0.9769",
+      "posicion_inicio": 7712,
+      "posicion_fin": 7717
+    },
+    {
+      "doc_id": "NHC108175_episodio1008821007",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "madre",
+      "confianza": "0.9974",
+      "posicion_inicio": 11058,
+      "posicion_fin": 11063
+    },
+    {
+      "doc_id": "NHC108175_episodio1008821007",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "madre",
+      "confianza": "0.9973",
+      "posicion_inicio": 12791,
+      "posicion_fin": 12796
+    },
+    {
+      "doc_id": "NHC108981_episodio1008265273",
+      "etiqueta": "INSTITUCION",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "Centro de HD",
+      "confianza": "0.9881",
+      "posicion_inicio": 1116,
+      "posicion_fin": 1128
+    },
+    {
+      "doc_id": "NHC109003_episodio1008474128",
+      "etiqueta": "FECHAS",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "9/10",
+      "confianza": "0.9998",
+      "posicion_inicio": 9695,
+      "posicion_fin": 9699
+    },
+    {
+      "doc_id": "NHC109003_episodio1008474128",
+      "etiqueta": "FECHAS",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "9/10",
+      "confianza": "0.9998",
+      "posicion_inicio": 10301,
+      "posicion_fin": 10305
+    },
+    {
+      "doc_id": "NHC109003_episodio1008474128",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "Familia",
+      "confianza": "0.9962",
+      "posicion_inicio": 1592,
+      "posicion_fin": 1599
+    },
+    {
+      "doc_id": "NHC109764_episodio1008419386",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "G",
+      "confianza": "0.9997",
+      "posicion_inicio": 2830,
+      "posicion_fin": 2831
+    },
+    {
+      "doc_id": "NHC109764_episodio1008419386",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "045",
+      "confianza": "0.9799",
+      "posicion_inicio": 2831,
+      "posicion_fin": 2834
+    },
+    {
+      "doc_id": "NHC11393_episodio1008275592",
+      "etiqueta": "INSTITUCION",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "fundación tutelar",
+      "confianza": "0.9969",
+      "posicion_inicio": 3663,
+      "posicion_fin": 3680
+    },
+    {
+      "doc_id": "NHC11393_episodio1008275872",
+      "etiqueta": "INSTITUCION",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "Centro sociosan",
+      "confianza": "0.9956",
+      "posicion_inicio": 12222,
+      "posicion_fin": 12237
+    },
+    {
+      "doc_id": "NHC11393_episodio1008275872",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "E073",
+      "confianza": "0.9800",
+      "posicion_inicio": 12335,
+      "posicion_fin": 12339
+    },
+    {
+      "doc_id": "NHC115410_episodio1008764375",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I",
+      "confianza": "0.9983",
+      "posicion_inicio": 2220,
+      "posicion_fin": 2221
+    },
+    {
+      "doc_id": "NHC115410_episodio1008764375",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "064",
+      "confianza": "0.9955",
+      "posicion_inicio": 2221,
+      "posicion_fin": 2225
+    },
+    {
+      "doc_id": "NHC115410_episodio1008764419",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I",
+      "confianza": "0.9983",
+      "posicion_inicio": 2220,
+      "posicion_fin": 2221
+    },
+    {
+      "doc_id": "NHC115410_episodio1008764419",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "064",
+      "confianza": "0.9955",
+      "posicion_inicio": 2221,
+      "posicion_fin": 2225
+    },
+    {
+      "doc_id": "NHC1158_episodio1008293918",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "i",
+      "confianza": "0.9997",
+      "posicion_inicio": 3128,
+      "posicion_fin": 3129
+    },
+    {
+      "doc_id": "NHC1158_episodio1008293918",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "064",
+      "confianza": "0.9893",
+      "posicion_inicio": 3129,
+      "posicion_fin": 3132
+    },
+    {
+      "doc_id": "NHC1158_episodio1008293935",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9973",
+      "posicion_inicio": 7450,
+      "posicion_fin": 7457
+    },
+    {
+      "doc_id": "NHC1158_episodio1008293935",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9968",
+      "posicion_inicio": 9664,
+      "posicion_fin": 9671
+    },
+    {
+      "doc_id": "NHC1158_episodio1008293935",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9973",
+      "posicion_inicio": 15977,
+      "posicion_fin": 15984
+    },
+    {
+      "doc_id": "NHC118721_episodio1008701610",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "amilia",
+      "confianza": "0.9784",
+      "posicion_inicio": 436,
+      "posicion_fin": 442
+    },
+    {
+      "doc_id": "NHC118721_episodio1008701610",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familiar",
+      "confianza": "0.9952",
+      "posicion_inicio": 5181,
+      "posicion_fin": 5189
+    },
+    {
+      "doc_id": "NHC118721_episodio1008701610",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familiar",
+      "confianza": "0.9950",
+      "posicion_inicio": 5181,
+      "posicion_fin": 5189
+    },
+    {
+      "doc_id": "NHC120191_episodio1008772859",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9953",
+      "posicion_inicio": 2576,
+      "posicion_fin": 2583
+    },
+    {
+      "doc_id": "NHC120191_episodio1008772859",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9949",
+      "posicion_inicio": 2576,
+      "posicion_fin": 2583
+    },
+    {
+      "doc_id": "NHC120191_episodio1008772859",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familiar",
+      "confianza": "0.9913",
+      "posicion_inicio": 3398,
+      "posicion_fin": 3406
+    },
+    {
+      "doc_id": "NHC120191_episodio1008772859",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familiar",
+      "confianza": "0.9966",
+      "posicion_inicio": 4498,
+      "posicion_fin": 4506
+    },
+    {
+      "doc_id": "NHC120191_episodio1008772859",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9956",
+      "posicion_inicio": 5632,
+      "posicion_fin": 5639
+    },
+    {
+      "doc_id": "NHC120191_episodio1008772859",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9970",
+      "posicion_inicio": 8843,
+      "posicion_fin": 8850
+    },
+    {
+      "doc_id": "NHC120799_episodio1008785153",
+      "etiqueta": "HOSPITAL",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "H.C",
+      "confianza": "0.9874",
+      "posicion_inicio": 181,
+      "posicion_fin": 184
+    },
+    {
+      "doc_id": "NHC124434_episodio1008297947",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "JJJ\nUR",
+      "confianza": "0.9803",
+      "posicion_inicio": 2388,
+      "posicion_fin": 2394
+    },
+    {
+      "doc_id": "NHC124434_episodio1008298288",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "G",
+      "confianza": "0.9997",
+      "posicion_inicio": 7249,
+      "posicion_fin": 7250
+    },
+    {
+      "doc_id": "NHC124434_episodio1008298288",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "G",
+      "confianza": "0.9997",
+      "posicion_inicio": 10099,
+      "posicion_fin": 10100
+    },
+    {
+      "doc_id": "NHC124434_episodio1008298288",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9970",
+      "posicion_inicio": 6584,
+      "posicion_fin": 6591
+    },
+    {
+      "doc_id": "NHC124803_episodio1008332834",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9954",
+      "posicion_inicio": 14575,
+      "posicion_fin": 14582
+    },
+    {
+      "doc_id": "NHC125076_episodio1008506878",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9839",
+      "posicion_inicio": 7432,
+      "posicion_fin": 7439
+    },
+    {
+      "doc_id": "NHC125076_episodio1008506878",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9927",
+      "posicion_inicio": 9264,
+      "posicion_fin": 9271
+    },
+    {
+      "doc_id": "NHC125128_episodio1008459847",
+      "etiqueta": "FECHAS",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "5/10",
+      "confianza": "0.9997",
+      "posicion_inicio": 5382,
+      "posicion_fin": 5386
+    },
+    {
+      "doc_id": "NHC125128_episodio1008459847",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "G",
+      "confianza": "0.9997",
+      "posicion_inicio": 5859,
+      "posicion_fin": 5860
+    },
+    {
+      "doc_id": "NHC125128_episodio1008459847",
+      "etiqueta": "FECHAS",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "5/10",
+      "confianza": "0.9982",
+      "posicion_inicio": 9295,
+      "posicion_fin": 9299
+    },
+    {
+      "doc_id": "NHC125128_episodio1008459847",
+      "etiqueta": "FECHAS",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "5/10",
+      "confianza": "0.9994",
+      "posicion_inicio": 10706,
+      "posicion_fin": 10710
+    },
+    {
+      "doc_id": "NHC125128_episodio1008459847",
+      "etiqueta": "FECHAS",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "10/10",
+      "confianza": "0.9998",
+      "posicion_inicio": 11280,
+      "posicion_fin": 11285
+    },
+    {
+      "doc_id": "NHC125272_episodio1008346882",
+      "etiqueta": "ID_SUJETO_ASISTENCIA",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "Ges",
+      "confianza": "0.9722",
+      "posicion_inicio": 591,
+      "posicion_fin": 594
+    },
+    {
+      "doc_id": "NHC125561_episodio1008793057",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I",
+      "confianza": "0.9997",
+      "posicion_inicio": 148,
+      "posicion_fin": 149
+    },
+    {
+      "doc_id": "NHC125561_episodio1008793057",
+      "etiqueta": "FECHAS",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "2/10",
+      "confianza": "0.9991",
+      "posicion_inicio": 1021,
+      "posicion_fin": 1025
+    },
+    {
+      "doc_id": "NHC125561_episodio1008793057",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "2.6",
+      "confianza": "0.9864",
+      "posicion_inicio": 5705,
+      "posicion_fin": 5708
+    },
+    {
+      "doc_id": "NHC126481_episodio1008783076",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familiar",
+      "confianza": "0.9910",
+      "posicion_inicio": 5619,
+      "posicion_fin": 5627
+    },
+    {
+      "doc_id": "NHC126481_episodio1008783076",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9960",
+      "posicion_inicio": 12621,
+      "posicion_fin": 12628
+    },
+    {
+      "doc_id": "NHC126481_episodio1008783076",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familiar",
+      "confianza": "0.9962",
+      "posicion_inicio": 15042,
+      "posicion_fin": 15050
+    },
+    {
+      "doc_id": "NHC126481_episodio1008783076",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familiar",
+      "confianza": "0.9942",
+      "posicion_inicio": 18117,
+      "posicion_fin": 18125
+    },
+    {
+      "doc_id": "NHC127309_episodio1008462187",
+      "etiqueta": "INSTITUCION",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "Clinica del dolor",
+      "confianza": "0.9953",
+      "posicion_inicio": 18195,
+      "posicion_fin": 18212
+    },
+    {
+      "doc_id": "NHC127309_episodio1008462187",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9971",
+      "posicion_inicio": 15152,
+      "posicion_fin": 15159
+    },
+    {
+      "doc_id": "NHC127309_episodio1008462187",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9973",
+      "posicion_inicio": 17625,
+      "posicion_fin": 17632
+    },
+    {
+      "doc_id": "NHC127309_episodio1008462187",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "Familia",
+      "confianza": "0.9951",
+      "posicion_inicio": 17975,
+      "posicion_fin": 17982
+    },
+    {
+      "doc_id": "NHC128195_episodio1008429835",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familiar",
+      "confianza": "0.9973",
+      "posicion_inicio": 10582,
+      "posicion_fin": 10590
+    },
+    {
+      "doc_id": "NHC131693_episodio1008737463",
+      "etiqueta": "HOSPITAL",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "HEL2",
+      "confianza": "0.9967",
+      "posicion_inicio": 1289,
+      "posicion_fin": 1293
+    },
+    {
+      "doc_id": "NHC131693_episodio1008739179",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I",
+      "confianza": "0.9997",
+      "posicion_inicio": 221,
+      "posicion_fin": 222
+    },
+    {
+      "doc_id": "NHC131693_episodio1008739179",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "057",
+      "confianza": "0.9953",
+      "posicion_inicio": 222,
+      "posicion_fin": 225
+    },
+    {
+      "doc_id": "NHC131693_episodio1008739179",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "H",
+      "confianza": "0.9914",
+      "posicion_inicio": 640,
+      "posicion_fin": 641
+    },
+    {
+      "doc_id": "NHC131693_episodio1008739179",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I",
+      "confianza": "0.9997",
+      "posicion_inicio": 1675,
+      "posicion_fin": 1676
+    },
+    {
+      "doc_id": "NHC131693_episodio1008739179",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "057",
+      "confianza": "0.9768",
+      "posicion_inicio": 1676,
+      "posicion_fin": 1679
+    },
+    {
+      "doc_id": "NHC131730_episodio1008808403",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "pur",
+      "confianza": "0.9982",
+      "posicion_inicio": 508,
+      "posicion_fin": 511
+    },
+    {
+      "doc_id": "NHC131730_episodio1008808403",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "G",
+      "confianza": "0.9997",
+      "posicion_inicio": 1128,
+      "posicion_fin": 1129
+    },
+    {
+      "doc_id": "NHC131730_episodio1008808403",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "073",
+      "confianza": "0.9909",
+      "posicion_inicio": 1129,
+      "posicion_fin": 1132
+    },
+    {
+      "doc_id": "NHC132755_episodio1008494119",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I",
+      "confianza": "0.9997",
+      "posicion_inicio": 545,
+      "posicion_fin": 546
+    },
+    {
+      "doc_id": "NHC132755_episodio1008494119",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "064",
+      "confianza": "0.9935",
+      "posicion_inicio": 546,
+      "posicion_fin": 549
+    },
+    {
+      "doc_id": "NHC132755_episodio1008494119",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I",
+      "confianza": "0.9997",
+      "posicion_inicio": 728,
+      "posicion_fin": 729
+    },
+    {
+      "doc_id": "NHC132755_episodio1008494119",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "064",
+      "confianza": "0.9945",
+      "posicion_inicio": 729,
+      "posicion_fin": 732
+    },
+    {
+      "doc_id": "NHC132755_episodio1008495389",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I",
+      "confianza": "0.9997",
+      "posicion_inicio": 545,
+      "posicion_fin": 546
+    },
+    {
+      "doc_id": "NHC132755_episodio1008495389",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "064",
+      "confianza": "0.9935",
+      "posicion_inicio": 546,
+      "posicion_fin": 549
+    },
+    {
+      "doc_id": "NHC132755_episodio1008495389",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I",
+      "confianza": "0.9997",
+      "posicion_inicio": 728,
+      "posicion_fin": 729
+    },
+    {
+      "doc_id": "NHC132755_episodio1008495389",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "064",
+      "confianza": "0.9945",
+      "posicion_inicio": 729,
+      "posicion_fin": 732
+    },
+    {
+      "doc_id": "NHC133628_episodio1008465941",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9866",
+      "posicion_inicio": 11975,
+      "posicion_fin": 11982
+    },
+    {
+      "doc_id": "NHC133628_episodio1008465941",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "f",
+      "confianza": "0.9860",
+      "posicion_inicio": 12209,
+      "posicion_fin": 12210
+    },
+    {
+      "doc_id": "NHC133628_episodio1008465941",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "família",
+      "confianza": "0.9955",
+      "posicion_inicio": 13633,
+      "posicion_fin": 13640
+    },
+    {
+      "doc_id": "NHC133628_episodio1008465941",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familiar",
+      "confianza": "0.9974",
+      "posicion_inicio": 16542,
+      "posicion_fin": 16550
+    },
+    {
+      "doc_id": "NHC133628_episodio1008465941",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familiares",
+      "confianza": "0.9971",
+      "posicion_inicio": 17008,
+      "posicion_fin": 17018
+    },
+    {
+      "doc_id": "NHC134173_episodio1008241264",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "G",
+      "confianza": "0.9997",
+      "posicion_inicio": 124,
+      "posicion_fin": 125
+    },
+    {
+      "doc_id": "NHC134173_episodio1008241264",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "G",
+      "confianza": "0.9997",
+      "posicion_inicio": 146,
+      "posicion_fin": 147
+    },
+    {
+      "doc_id": "NHC134173_episodio1008241264",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "V",
+      "confianza": "0.9968",
+      "posicion_inicio": 2567,
+      "posicion_fin": 2568
+    },
+    {
+      "doc_id": "NHC134173_episodio1008241264",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": ".",
+      "confianza": "0.9921",
+      "posicion_inicio": 2569,
+      "posicion_fin": 2570
+    },
+    {
+      "doc_id": "NHC134173_episodio1008241264",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "3.3",
+      "confianza": "0.9906",
+      "posicion_inicio": 2691,
+      "posicion_fin": 2694
+    },
+    {
+      "doc_id": "NHC134173_episodio1008241264",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I",
+      "confianza": "0.9996",
+      "posicion_inicio": 3550,
+      "posicion_fin": 3551
+    },
+    {
+      "doc_id": "NHC134173_episodio1008241264",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I",
+      "confianza": "0.9996",
+      "posicion_inicio": 4365,
+      "posicion_fin": 4366
+    },
+    {
+      "doc_id": "NHC134933_episodio1008245813",
+      "etiqueta": "ID_SUJETO_ASISTENCIA",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "Ges",
+      "confianza": "0.9903",
+      "posicion_inicio": 1271,
+      "posicion_fin": 1274
+    },
+    {
+      "doc_id": "NHC134933_episodio1008245813",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "madre",
+      "confianza": "0.9853",
+      "posicion_inicio": 8997,
+      "posicion_fin": 9002
+    },
+    {
+      "doc_id": "NHC135800_episodio1008615711",
+      "etiqueta": "FECHAS",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "3/4",
+      "confianza": "0.9990",
+      "posicion_inicio": 11633,
+      "posicion_fin": 11636
+    },
+    {
+      "doc_id": "NHC135800_episodio1008615711",
+      "etiqueta": "FECHAS",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "3/4",
+      "confianza": "0.9993",
+      "posicion_inicio": 11637,
+      "posicion_fin": 11640
+    },
+    {
+      "doc_id": "NHC135800_episodio1008615711",
+      "etiqueta": "FECHAS",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "3/4",
+      "confianza": "0.9979",
+      "posicion_inicio": 11641,
+      "posicion_fin": 11644
+    },
+    {
+      "doc_id": "NHC135800_episodio1008615711",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familiares",
+      "confianza": "0.9971",
+      "posicion_inicio": 17183,
+      "posicion_fin": 17193
+    },
+    {
+      "doc_id": "NHC136079_episodio1008654863",
+      "etiqueta": "INSTITUCION",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "centro privado",
+      "confianza": "0.9884",
+      "posicion_inicio": 2971,
+      "posicion_fin": 2985
+    },
+    {
+      "doc_id": "NHC136979_episodio1008805535",
+      "etiqueta": "NOMBRE_PERSONAL_SANITARIO",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "Sol",
+      "confianza": "0.9992",
+      "posicion_inicio": 28,
+      "posicion_fin": 31
+    },
+    {
+      "doc_id": "NHC136979_episodio1008805535",
+      "etiqueta": "NOMBRE_PERSONAL_SANITARIO",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "ara",
+      "confianza": "0.9966",
+      "posicion_inicio": 31,
+      "posicion_fin": 34
+    },
+    {
+      "doc_id": "NHC136979_episodio1008805535",
+      "etiqueta": "NOMBRE_PERSONAL_SANITARIO",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "t",
+      "confianza": "0.9985",
+      "posicion_inicio": 34,
+      "posicion_fin": 35
+    },
+    {
+      "doc_id": "NHC136979_episodio1008805535",
+      "etiqueta": "NOMBRE_PERSONAL_SANITARIO",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "P",
+      "confianza": "0.9991",
+      "posicion_inicio": 36,
+      "posicion_fin": 37
+    },
+    {
+      "doc_id": "NHC136979_episodio1008805535",
+      "etiqueta": "NOMBRE_PERSONAL_SANITARIO",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "are",
+      "confianza": "0.9954",
+      "posicion_inicio": 37,
+      "posicion_fin": 40
+    },
+    {
+      "doc_id": "NHC136979_episodio1008805535",
+      "etiqueta": "NOMBRE_PERSONAL_SANITARIO",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "des",
+      "confianza": "0.9787",
+      "posicion_inicio": 40,
+      "posicion_fin": 43
+    },
+    {
+      "doc_id": "NHC136979_episodio1008805535",
+      "etiqueta": "FECHAS",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "12/5",
+      "confianza": "0.9998",
+      "posicion_inicio": 618,
+      "posicion_fin": 622
+    },
+    {
+      "doc_id": "NHC136979_episodio1008805535",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I",
+      "confianza": "0.9997",
+      "posicion_inicio": 2123,
+      "posicion_fin": 2124
+    },
+    {
+      "doc_id": "NHC136979_episodio1008805535",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "G",
+      "confianza": "0.9997",
+      "posicion_inicio": 14062,
+      "posicion_fin": 14063
+    },
+    {
+      "doc_id": "NHC136979_episodio1008805535",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "G",
+      "confianza": "0.9997",
+      "posicion_inicio": 14687,
+      "posicion_fin": 14688
+    },
+    {
+      "doc_id": "NHC136979_episodio1008805535",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "i",
+      "confianza": "0.9997",
+      "posicion_inicio": 15169,
+      "posicion_fin": 15170
+    },
+    {
+      "doc_id": "NHC136979_episodio1008805535",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I057",
+      "confianza": "0.9757",
+      "posicion_inicio": 16611,
+      "posicion_fin": 16615
+    },
+    {
+      "doc_id": "NHC136979_episodio1008805535",
+      "etiqueta": "FECHAS",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "12/5",
+      "confianza": "0.9971",
+      "posicion_inicio": 618,
+      "posicion_fin": 622
+    },
+    {
+      "doc_id": "NHC136979_episodio1008805535",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9970",
+      "posicion_inicio": 11031,
+      "posicion_fin": 11038
+    },
+    {
+      "doc_id": "NHC136979_episodio1008805535",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familiares",
+      "confianza": "0.9975",
+      "posicion_inicio": 17686,
+      "posicion_fin": 17696
+    },
+    {
+      "doc_id": "NHC137844_episodio1008286606",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "i",
+      "confianza": "0.9997",
+      "posicion_inicio": 317,
+      "posicion_fin": 318
+    },
+    {
+      "doc_id": "NHC138131_episodio1008335773",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "hab 12",
+      "confianza": "0.9967",
+      "posicion_inicio": 2367,
+      "posicion_fin": 2373
+    },
+    {
+      "doc_id": "NHC138131_episodio1008335773",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "G",
+      "confianza": "0.9997",
+      "posicion_inicio": 18597,
+      "posicion_fin": 18598
+    },
+    {
+      "doc_id": "NHC138131_episodio1008335773",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familiar",
+      "confianza": "0.9913",
+      "posicion_inicio": 9208,
+      "posicion_fin": 9216
+    },
+    {
+      "doc_id": "NHC138131_episodio1008335773",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familiar",
+      "confianza": "0.9923",
+      "posicion_inicio": 9208,
+      "posicion_fin": 9216
+    },
+    {
+      "doc_id": "NHC138131_episodio1008335773",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9969",
+      "posicion_inicio": 11390,
+      "posicion_fin": 11397
+    },
+    {
+      "doc_id": "NHC138131_episodio1008335773",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9975",
+      "posicion_inicio": 12585,
+      "posicion_fin": 12592
+    },
+    {
+      "doc_id": "NHC138131_episodio1008335773",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9951",
+      "posicion_inicio": 15122,
+      "posicion_fin": 15129
+    },
+    {
+      "doc_id": "NHC138131_episodio1008335773",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9976",
+      "posicion_inicio": 18528,
+      "posicion_fin": 18535
+    },
+    {
+      "doc_id": "NHC141187_episodio1008501143",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "PUR",
+      "confianza": "0.9971",
+      "posicion_inicio": 1780,
+      "posicion_fin": 1783
+    },
+    {
+      "doc_id": "NHC141187_episodio1008501143",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "PUR",
+      "confianza": "0.9967",
+      "posicion_inicio": 2322,
+      "posicion_fin": 2325
+    },
+    {
+      "doc_id": "NHC141187_episodio1008501143",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I",
+      "confianza": "0.9996",
+      "posicion_inicio": 2515,
+      "posicion_fin": 2516
+    },
+    {
+      "doc_id": "NHC141187_episodio1008501143",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "PUR",
+      "confianza": "0.9985",
+      "posicion_inicio": 2581,
+      "posicion_fin": 2584
+    },
+    {
+      "doc_id": "NHC141187_episodio1008501143",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I",
+      "confianza": "0.9997",
+      "posicion_inicio": 2820,
+      "posicion_fin": 2821
+    },
+    {
+      "doc_id": "NHC141187_episodio1008501143",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "016",
+      "confianza": "0.9991",
+      "posicion_inicio": 2821,
+      "posicion_fin": 2824
+    },
+    {
+      "doc_id": "NHC141187_episodio1008502001",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "PUR",
+      "confianza": "0.9827",
+      "posicion_inicio": 1931,
+      "posicion_fin": 1934
+    },
+    {
+      "doc_id": "NHC141187_episodio1008502001",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "G",
+      "confianza": "0.9997",
+      "posicion_inicio": 7718,
+      "posicion_fin": 7719
+    },
+    {
+      "doc_id": "NHC141187_episodio1008502001",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I018",
+      "confianza": "0.9942",
+      "posicion_inicio": 8165,
+      "posicion_fin": 8170
+    },
+    {
+      "doc_id": "NHC141187_episodio1008502001",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I018",
+      "confianza": "0.9892",
+      "posicion_inicio": 9266,
+      "posicion_fin": 9270
+    },
+    {
+      "doc_id": "NHC141900_episodio1008573172",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I",
+      "confianza": "0.9997",
+      "posicion_inicio": 11284,
+      "posicion_fin": 11285
+    },
+    {
+      "doc_id": "NHC141900_episodio1008573172",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I",
+      "confianza": "0.9997",
+      "posicion_inicio": 12331,
+      "posicion_fin": 12332
+    },
+    {
+      "doc_id": "NHC141900_episodio1008573172",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "085",
+      "confianza": "0.9776",
+      "posicion_inicio": 12332,
+      "posicion_fin": 12335
+    },
+    {
+      "doc_id": "NHC142040_episodio1008444796",
+      "etiqueta": "FECHAS",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "dia JJJ",
+      "confianza": "0.9994",
+      "posicion_inicio": 16375,
+      "posicion_fin": 16382
+    },
+    {
+      "doc_id": "NHC142040_episodio1008444796",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familiar",
+      "confianza": "0.9973",
+      "posicion_inicio": 3924,
+      "posicion_fin": 3932
+    },
+    {
+      "doc_id": "NHC142040_episodio1008444796",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familiar",
+      "confianza": "0.9969",
+      "posicion_inicio": 4721,
+      "posicion_fin": 4729
+    },
+    {
+      "doc_id": "NHC142040_episodio1008444796",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familiares",
+      "confianza": "0.9971",
+      "posicion_inicio": 5030,
+      "posicion_fin": 5040
+    },
+    {
+      "doc_id": "NHC142040_episodio1008444796",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9930",
+      "posicion_inicio": 10253,
+      "posicion_fin": 10260
+    },
+    {
+      "doc_id": "NHC142040_episodio1008444796",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "família",
+      "confianza": "0.9950",
+      "posicion_inicio": 12938,
+      "posicion_fin": 12945
+    },
+    {
+      "doc_id": "NHC142040_episodio1008444796",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "família",
+      "confianza": "0.9970",
+      "posicion_inicio": 13213,
+      "posicion_fin": 13220
+    },
+    {
+      "doc_id": "NHC142040_episodio1008444796",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9975",
+      "posicion_inicio": 16269,
+      "posicion_fin": 16276
+    },
+    {
+      "doc_id": "NHC142877_episodio1008694858",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I",
+      "confianza": "0.9997",
+      "posicion_inicio": 691,
+      "posicion_fin": 692
+    },
+    {
+      "doc_id": "NHC142877_episodio1008694858",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I",
+      "confianza": "0.9997",
+      "posicion_inicio": 918,
+      "posicion_fin": 919
+    },
+    {
+      "doc_id": "NHC142877_episodio1008694858",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "064",
+      "confianza": "0.9828",
+      "posicion_inicio": 919,
+      "posicion_fin": 922
+    },
+    {
+      "doc_id": "NHC142877_episodio1008696779",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I",
+      "confianza": "0.9997",
+      "posicion_inicio": 691,
+      "posicion_fin": 692
+    },
+    {
+      "doc_id": "NHC142877_episodio1008696779",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I",
+      "confianza": "0.9997",
+      "posicion_inicio": 918,
+      "posicion_fin": 919
+    },
+    {
+      "doc_id": "NHC142877_episodio1008696779",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "064",
+      "confianza": "0.9828",
+      "posicion_inicio": 919,
+      "posicion_fin": 922
+    },
+    {
+      "doc_id": "NHC142877_episodio1008696779",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I",
+      "confianza": "0.9997",
+      "posicion_inicio": 4923,
+      "posicion_fin": 4924
+    },
+    {
+      "doc_id": "NHC143452_episodio1008557571",
+      "etiqueta": "FECHAS",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "10/5",
+      "confianza": "0.9997",
+      "posicion_inicio": 4529,
+      "posicion_fin": 4533
+    },
+    {
+      "doc_id": "NHC143452_episodio1008557571",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9870",
+      "posicion_inicio": 4804,
+      "posicion_fin": 4811
+    },
+    {
+      "doc_id": "NHC143452_episodio1008557860",
+      "etiqueta": "FECHAS",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "2019",
+      "confianza": "0.9998",
+      "posicion_inicio": 533,
+      "posicion_fin": 537
+    },
+    {
+      "doc_id": "NHC143452_episodio1008557860",
+      "etiqueta": "FECHAS",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "10/5",
+      "confianza": "0.9855",
+      "posicion_inicio": 3459,
+      "posicion_fin": 3463
+    },
+    {
+      "doc_id": "NHC143452_episodio1008557860",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familiar",
+      "confianza": "0.9964",
+      "posicion_inicio": 2412,
+      "posicion_fin": 2420
+    },
+    {
+      "doc_id": "NHC143452_episodio1008557860",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9917",
+      "posicion_inicio": 3734,
+      "posicion_fin": 3741
+    },
+    {
+      "doc_id": "NHC145218_episodio1008284887",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "pur3",
+      "confianza": "0.9744",
+      "posicion_inicio": 1252,
+      "posicion_fin": 1256
+    },
+    {
+      "doc_id": "NHC145218_episodio1008284887",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "E",
+      "confianza": "0.9996",
+      "posicion_inicio": 3224,
+      "posicion_fin": 3225
+    },
+    {
+      "doc_id": "NHC145218_episodio1008286871",
+      "etiqueta": "NOMBRE_PERSONAL_SANITARIO",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "DE",
+      "confianza": "0.9865",
+      "posicion_inicio": 11116,
+      "posicion_fin": 11118
+    },
+    {
+      "doc_id": "NHC146256_episodio1008608110",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "bebe",
+      "confianza": "0.9902",
+      "posicion_inicio": 8981,
+      "posicion_fin": 8985
+    },
+    {
+      "doc_id": "NHC146256_episodio1008608110",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "madre",
+      "confianza": "0.9969",
+      "posicion_inicio": 12911,
+      "posicion_fin": 12916
+    },
+    {
+      "doc_id": "NHC147284_episodio1008699723",
+      "etiqueta": "FECHAS",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "31.3",
+      "confianza": "0.9998",
+      "posicion_inicio": 637,
+      "posicion_fin": 641
+    },
+    {
+      "doc_id": "NHC147284_episodio1008699735",
+      "etiqueta": "FECHAS",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "31.3",
+      "confianza": "0.9998",
+      "posicion_inicio": 637,
+      "posicion_fin": 641
+    },
+    {
+      "doc_id": "NHC148043_episodio1008368481",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "4.3",
+      "confianza": "0.9977",
+      "posicion_inicio": 9320,
+      "posicion_fin": 9323
+    },
+    {
+      "doc_id": "NHC148043_episodio1008368481",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "3.\n3",
+      "confianza": "0.9965",
+      "posicion_inicio": 9615,
+      "posicion_fin": 9619
+    },
+    {
+      "doc_id": "NHC148043_episodio1008397767",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I",
+      "confianza": "0.9997",
+      "posicion_inicio": 5046,
+      "posicion_fin": 5047
+    },
+    {
+      "doc_id": "NHC148043_episodio1008397767",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "085",
+      "confianza": "0.9970",
+      "posicion_inicio": 5047,
+      "posicion_fin": 5050
+    },
+    {
+      "doc_id": "NHC148043_episodio1008397767",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I",
+      "confianza": "0.9997",
+      "posicion_inicio": 5501,
+      "posicion_fin": 5502
+    },
+    {
+      "doc_id": "NHC148043_episodio1008397767",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "085",
+      "confianza": "0.9955",
+      "posicion_inicio": 5502,
+      "posicion_fin": 5505
+    },
+    {
+      "doc_id": "NHC148043_episodio1008398350",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I",
+      "confianza": "0.9997",
+      "posicion_inicio": 3396,
+      "posicion_fin": 3397
+    },
+    {
+      "doc_id": "NHC148043_episodio1008398350",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "085",
+      "confianza": "0.9944",
+      "posicion_inicio": 3397,
+      "posicion_fin": 3400
+    },
+    {
+      "doc_id": "NHC148043_episodio1008398350",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I",
+      "confianza": "0.9997",
+      "posicion_inicio": 3851,
+      "posicion_fin": 3852
+    },
+    {
+      "doc_id": "NHC148043_episodio1008398350",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "085",
+      "confianza": "0.9936",
+      "posicion_inicio": 3852,
+      "posicion_fin": 3855
+    },
+    {
+      "doc_id": "NHC14940_episodio1008778300",
+      "etiqueta": "FECHAS",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "JJJ\nJJJ",
+      "confianza": "0.9927",
+      "posicion_inicio": 3816,
+      "posicion_fin": 3823
+    },
+    {
+      "doc_id": "NHC151125_episodio1008421085",
+      "etiqueta": "FECHAS",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "5/10",
+      "confianza": "0.9988",
+      "posicion_inicio": 14425,
+      "posicion_fin": 14429
+    },
+    {
+      "doc_id": "NHC151125_episodio1008421085",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9945",
+      "posicion_inicio": 16253,
+      "posicion_fin": 16260
+    },
+    {
+      "doc_id": "NHC151355_episodio1008586525",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I",
+      "confianza": "0.9997",
+      "posicion_inicio": 1991,
+      "posicion_fin": 1992
+    },
+    {
+      "doc_id": "NHC151355_episodio1008586525",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "064",
+      "confianza": "0.9951",
+      "posicion_inicio": 1992,
+      "posicion_fin": 1995
+    },
+    {
+      "doc_id": "NHC151355_episodio1008586525",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "Familia",
+      "confianza": "0.9827",
+      "posicion_inicio": 230,
+      "posicion_fin": 237
+    },
+    {
+      "doc_id": "NHC152574_episodio1008627449",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "E024",
+      "confianza": "0.9892",
+      "posicion_inicio": 8516,
+      "posicion_fin": 8520
+    },
+    {
+      "doc_id": "NHC153117_episodio1008736785",
+      "etiqueta": "NUMERO_IDENTIF",
+      "modelo_detector": "CARMEN",
+      "texto_detectado": "I092",
+      "confianza": "0.9880",
+      "posicion_inicio": 18192,
+      "posicion_fin": 18196
+    },
+    {
+      "doc_id": "NHC153117_episodio1008736785",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9969",
+      "posicion_inicio": 5308,
+      "posicion_fin": 5315
+    },
+    {
+      "doc_id": "NHC153117_episodio1008736785",
+      "etiqueta": "FAMILIARES_SUJETO_ASISTENCIA",
+      "modelo_detector": "MEDDOCAN",
+      "texto_detectado": "familia",
+      "confianza": "0.9968",
+      "posicion_inicio": 5308,
+      "posicion_fin": 5315
+    }
+  ]
+}

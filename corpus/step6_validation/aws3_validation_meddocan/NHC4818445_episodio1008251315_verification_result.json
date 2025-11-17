@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4818445_episodio1008251315",
+  "success": true,
+  "anonymized_text": "JJJ\naciente que estando en un gimnasio presenta cefalea brusca e intensa con pérdida de conocimiento. A llegada del SEM Glasgow 3.\nBOX: paciente co\nn disminución de la consciencia, se practica IOT + VM para aislar vía aé\nrea, canalizamos CVP en ambas extremidades, se cursa analítica de ucias\ncon sangre en reserva, sonda vesical y se realiza TAC. JJJ\naciente procedente de box de paro, tras HSA.\nNRL: sin sedoanalgesia. RA\nSS -5. Pupilas midriáticas a 6mm, no reactivas. No moviliza ninguna extr\nemidad. Ningún tipo de actividad neurológica. ESCID 0. HMD: con NAD (2\n) a 10ml/h, en RS. Hipotérmico, con tubo de calor. SV permeable, poliuri\nco, diuresis clara. RESPI: con VMI en VC, VC 500 FiO2 30% PEEP 6 FR 20. Mantiene saturaciones. No presenta secreciones. DIGE: famis + STP\n. No depos. Glicemias mantenidas. - Se canaliza catéter arterial. -\nSe canaliza CVC de acceso periférico de 2l. - Se realiza ECG.\n- Se ad\nm 500 plasmalyte + 1/2 desmopresina. JJJ\nacient sense sedoanalgesia,RASS -5,pupil.les midriatiques no reactives,s\nense cap activitat neurologica.\nHDM estable amb NAD (2) en augment,RS,a\nfebril.\nRESP: VC FIO2 40%, PEEP+6, secrecions escases pero espeses,sial\norrea bruta.\nDiuresi mantinguda.\nSNG en decliu deit bil.lios clar amb\nrestes alimentaries.\nGlicemies mantingudes.\nMesures de comfort.\nResta grafica. JJJ\nacient sense sedació, en RASS -5. Es realitza diagnòstic de mort encefàl\nica + eco cardio + EEG.\nHDM inestable, en RS + EV freqüents, TA que pre\ncisa augments de NAD (4) fins a 25 ml/h. Hipotèrmic tot i mesures físiqu\nes.\nRESP en VC, ben acoplat. Saturacions molt justes, es realitza FBC i es deixa en DLD per consolidació en LIE. Secrecions escasses però espes\nses per TOT. ALIM SNG en decliu amb restes alimenticies. Glic`mia corr\negida amb IR.\nELIM Poliüric, es passa 1l de ringer de càrrega, s&apos;inicia perfusió de vasopresina, i s&apos;administra bolus de desmopresina. No depos\nició. Cóndilos genitals. JJJ\naciente en final de vida. No donante de organos por decisión JJJ. P\nor orden medica se decide no hacerle más tipo intervenció/tratamiento. S\ne mantiene al paciente estable hemodinamicamente hasta que los JJJ tr\namite los papeles necesarios y pueda despedirse del paciente. Medico de\nguardia desconecta a paciente (JJJ), pte que JJJ este lista para b\najar paciente a la morgue.",
+  "text_length": 2320,
+  "anonymized_count": 9,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

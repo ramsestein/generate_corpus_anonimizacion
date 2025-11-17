@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4566726_episodio1008515659",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nICTUS\nPacient alerta, normocolorejada. Portadora de polsera id. Roba i\nd sota llitera, polsera entregada a JJJ.\nTraslladada per SEM desde la JJJ. Es segueix protocol de codi ictus habitual Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\nJJJ/ JJJ/ JJJ\n¿La persona de contacto corresponde con e\nl cuidador?: No tiene cuidador\nProcedencia del paciente antes del ingre\nso hospitalario: Domicilio\nMotivo ingreso y procedencia interna:\nAlter\nación del lenguaje/ box de paros\n¿Sufre alguna enfermedad crónica?: Dis\nlipemia, Otras enfermedades crónicas\nDéficit de autocuidado: Independie\nnte\nAlergias: No\nEstado de la consciencia: Alerta\nModalidad acceso ví\na aérea: Natural\nValor Presión Arterial sistólica: 152 mm Hg\nValor Pre\nsión Arterial diastólica: 78 mm Hg\nValor Frecuencia cardíaca: 63 lpm\nM\nicción espontánea: Sí\nRitmo deposicional:\nRegular\nFecha última deposi\nción: JJJ\n¿Alteración de la integridad de piel y mucosas al ingr\nesar?: No\nColoración de la piel: Normocoloreada\nPuntuación escala Brad\nen: 16-Riesgo bajo\nTemperatura axilar: 35.6 ºC\n¿Tiene dolor al ingreso\n?: No\nPuntuación escala EVN: 0-No hay dolor\nPuntuación escala Downton: 2-Riesgo bajo Fecha: JJJ\nacient que ingressa a les JJJ procedent del box d&apos;atur per alteració\ndel llenguatge. NRL conscient i aparentment orientada, difícil valoració per afàsia motora, nomina 2 de 8, obeeix ordres, movilitza les 4 extrem\nitats. NIHSS 6. Milloria durant la tarda.\nEupneica en basal.\nHDM estab\nle amb tendència a hipertensió, afebril, no refereix àlgies.\nEs manté F\nAMIS + STP per ordre mèdica. Normoglicèmica. Tolera bé aigua líquida.\nD\niüresi en cunya, no realitza deposició.\nRepòs en llit ben tolerat.\nRea\nlitzat ecg d&apos;ingrés valorat per neuròleg de guàrdia. Realitzada placa\nde tòrax.\nPdt TAC de control aquesta nit.",
+  "text_length": 1977,
+  "anonymized_count": 10,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

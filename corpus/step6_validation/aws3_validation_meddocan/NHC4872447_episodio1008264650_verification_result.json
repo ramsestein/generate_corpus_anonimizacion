@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4872447_episodio1008264650",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naloración obstétrica Responsable identificación positiva del paciente\n: Paciente\n¿En el momento del ingreso el paciente lleva pulsera identif\nicativa?: Sí\nComprobación identificación madre-recién nacido: No proced\ne\nProcedencia del paciente antes del ingreso hospitalario: Domicilio\nM\notivo ingreso y procedencia interna:\nRPM preermino + APP\nAlergias: No Reacciones transfusionales previas: No\nValor Presión Arterial sistólic\na: 102 mm Hg\nValor Presión Arterial diastólica: 64 mm Hg\nValor frecuen\ncia cardíaca: 86 lpm\nTemperatura axilar: 36.2 ºC\nTipo de paciente: Ges\ntante\nDinámica uterina: Ausencia\nHidrorrea (pérdida líquido amniótico)\n: Presencia\nPuntuación escala EVN: 1-Dolor leve Fecha: JJJ\nestante de JJJ ingresa a la UCOI procedente de UCIAS. Ingresada por u\nna RPM Pretérmino + APP. en urgencias se administró pauta antibiótica Am\npi + Ceftriax. + claritromicina, además 1era dosis de CE a las JJJ. Al ingresar llega con la Ceftriaxona pasando refiere un poco de disnea\ny dolor en el cuello que se valora por parte de medicina y luego cede, s\ne pasa todo el ATB. Posterior a esto se adm. por orden médica a las JJJ Nifedipino 20mg, a lo cual la paciente se encuentra nauseosa mareada y con dolor abdominal que luego pasa. Se realiza una NST no se observa di\nnámica. Luego la paciente descansa tranquila. Se encuentra en R.A. Reali\nza micciones varias veces. Hay barrera idiomática importante. Su acompañ\nante marcha a las JJJ. Fecha: JJJ\naciente HDM estable, afebril.\nSe realiza NST valorado por MG, refiere D\nU esporadica, que cede. PLA claro, PH no.\nSe administra analgesia EV+ A\nTB.\nTolera dieta y deambulación.\nSube a planta. Fecha: JJJ\nJJJ. RPM pretérmino +0. Ampicilina+Ceftriaxona+Claritromicina +0. 1ª\ndosis CE JJJ. Nifedipino 20mg puntual JJJ. LCx de 17 mm que acorta a 12 mm, cerclaje normoinserto. Cefálica, PFE 2702g, p88.\nFR: 3 perdida gestacionales 2T (2 de ellas sugestiva incompetencia cervical); cerclaje cervical JJJ (JJJ) por indicación física; período intergenes\nico inferior a JJJ, anemia materna 1T. BEG. PA 106/62 102/64 mmHg\n, FC 100 lpm, Tª 36.1ºC, sat. d&apos;02 97%.\nRefiere molestias hipogástricas inespecíficas, no sugestivas de DU. Pérdidas de LA claro. No metrorragi\na. MFA. RCTG: PFR a 130 lpm. DU esporádica subclínica. ECO al ing\nreso: - Longitud cervical de 17 mm que acorta a 12mm con la contracció\nn. No imágenes de placenta previa o cercana a OCI. Cerclaje normoinserto\n. - Feto único, cefálica, dorso izquierdo. FCF+. MFA. Placenta anterio\nr normoinserta sin imágenes patológicas. LAN (Cmáx 38mm). Peso fetal est\nmado 2702 gr (percentil 88, JJJ). Placenta anterior. Resul\ntados:\n- A/S al ingreso: PCR 1.02. Leucócitos 10.320. Hb 10.6, Ht 33%,\nplaquetas 219.000. TP 87.8%, TTPa 28.4s.\n- SGB al ingreso: en curso.\n- UC al ingreso: en curso. Plan:\n- Mantener ATB según pauta actual. - 2ª dosis de CE JJJ.\n- Pautamos Paracetamol 1g.\n- Por el momen\nto se consensua con U. Prematuridad no administrar tocolisis. Retirar el cerclaje tras completar 2ª dosis de CE o antes si inicio de DU.\n- Se s\nolicita A/S control para JJJ.\n- Control evolutivo, sube a Planta. Av\nisar a MG si DU, sangrado o otros signos de alarma. Fecha: JJJ\nngresa paciente procedente de UCOI. Fecha: JJJ\nontinuamos con tto antibiotico, ajustando horarios. No refiere DU. PLA c\nlaro.",
+  "text_length": 3305,
+  "anonymized_count": 19,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

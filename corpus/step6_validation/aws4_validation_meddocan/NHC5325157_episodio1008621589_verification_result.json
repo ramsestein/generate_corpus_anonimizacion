@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5325157_episodio1008621589",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naloración postanestésica Responsable identificación positiva del paci\nente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera ide\nntificativa?: Sí\nMotivo ingreso y procedencia interna:\ndrenatge subdur\nal esquerra\nTipo anestesia: Locorregional\nEspecialidad quirúrgica: NCR Estado de la consciencia: Alerta\nMicción espontánea: Sí\n¿Alteración\nde la integridad de piel y mucosas al ingresar?: No\nColoración de la pi\nel: Normocoloreada\nPuntuación escala EVN: 0-No hay dolor\nPuntuación es\ncala Downton: 1-Riesgo bajo Fecha: JJJ\nrriba de quiròfan per drenatge hematoma subdural esquerra. Conscient i orientada, hemodinàmicament estable, afebril.\nDolor controlat amb anal\ngèsia pautada. Portadora de drenatge Redó sense buit. Productiu amb dè\nbit hemàtic.\n*pdt primera micció.\nPer HTA, taquicardia i disminució de consciencia s&apos;avia a MG i entra a Quirofan urgent. Fecha: JJJ\nurso clínico terapia JJJ:\nIniciamos Fisioterapia por: 1. PO CRANEO\nTOMIA EVACUADORA HSD AGUDO IZQUIERDO por sangrado de 2\n2. PO DRENAJE HSD CRÓNICO IZQUIERDO\n3. TRASTORNO POR DEPENDENCIA POR ALCOHO FISIOTERAPIA UCI Q: NRL: Paciente sedoanalgesiada con propofol y remifentanilo 26.6\n6 mcg/min. HMD: Estable, con NAD a 20 mcg/min, manteniendo TAM 62 y FC\n64.\nRESP: VC (VC 460ml, PEEP 5, FR 15, Ti 0&apos;2. FiO2 30%) Ppico 23. Ausc: Roncus apicales. OBJETIVOS:\n- Evitar complicaciones del encamamiento. - Mantener a permeabilidad de la VA. TRATAMIENTO:\n- Optimización de los parámetros de VM para el drenaje de secreciones.\n- Compresiones torácic\nas lentas.\n- Compresiones torácicas rápidas.\n- Movilización pasiva de EE\nSS y EEII.\n- BAS.\n- Acondicionamiento postural Fecha: JJJ\naciente que ingresa proveniente de Quirófano Urgencias. A su llegada pac\niente sedoanalgesiada con PPF + RMF. Pupilas anisocóricas (3D &gt; 2I) reac\ntivas. ESCID 0. RASS -4 / -5. Durante TT se realiza TAC que transcurre s\nin incidencias. Posteriormente POM se inicia descenso de la sedoanalgési\na. HDM inestable que precisa NAD [X2] a dosis variables. Ingresa con N\nAD [X2]A 10 ML/H que precisa ascenso hasta 25 ml/h. ECG en RS. Afebril d\nesde el ingreso. Respiratoriamente bien acoplada a VMI en VC (FiO2 30, FR 15, Vt 460, PEEP 5). . POM se realiza BAS. Secreciones por TOT hemàt\nicas y mucosas. SV permeable con diuresis justas sin forzar con Furo.\nNo realiza depo. FAMIS con SG 20%. Visitada por JJJ TT. Se re\nalizan curas y cuidados propios de la unidad.",
+  "text_length": 2431,
+  "anonymized_count": 6,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4955826_episodio1008295583",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nacient Conscient, por participativa amb el medi, desorientada.\nAcut al\nservei per focalitat NRL sense signes sistèmics.\nPortadora de valvula v\nentriculoperitoneal per AVC i TCE greu.\nRealitzo higiene i canvi de bol\nquer.\nPendent NCIR.\nCursem TAC.\nJJJ S&apos;arranca les vies, canalitzem\nCVP de nou 18 a ESD\nJJJ Realitzem canvi de bolque + higiene\nJJJ Re\np visita de NCIR (JJJ)\nSegueix curs. Fecha: JJJ\nacient Conscient, por participativa amb el medi, desorientada.\nAcut al\nservei per focalitat NRL sense signes sistèmics.\nPortadora de valvula v\nentriculoperitoneal per AVC i TCE greu.\nRealitzo higiene i canvi de bol\nquer.\nPendent NCIR.\nCursem TAC.\nJJJ S&apos;arranca les vies, canalitzem\nCVP de nou 18 a ESD\nJJJ Realitzem canvi de bolque + higiene\nJJJ Re\np visita de NCIR (JJJ)\nPO de NCIR deixem en FAMIS a l&apos;espera de resu\nltat de TAC. Comento amb TN",
+  "text_length": 868,
+  "anonymized_count": 10,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

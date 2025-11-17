@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4590228_episodio1008459415",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente traído por SEM (medicalizada) por disminución del nivel de conci\nencia e contexto de intoxicación de GHB.\nAMC Ibuprofeno\nAP VHB Hepatit\nis crónica Sífilis\nIOT VM ( sin sedoanalgesia )\nPINR\nHmd estable. Sat de 92-93% con Fio2 100%\nPortador de 2 CVP en ambas extremidades\nSe cu\nrsa analítica de urgencias y 2 POCs (arterial y venoso)\nSe coloca SV fo\nley 16. Presenta chacro sifilítico en pene\nSe entrergan pertenencias (a\nnillo y pendientes) a JJJ\nPortador de pulsera identificat\niva\nSe traslada a TAC Fecha: JJJ\n. INTOXICACIÓN POR GHB. 1.1 DISMINUCIÓN DEL NIVEL DE CONSCIENCIA. 1.\n2 SOSPECHA ENCEFALOPATÍA ANÓXICA. 2. NEUMONÍA BRONCOASPIRATIVA. * R\nESP: mejoría respiratoria pudiéndose disminuir los parámetros del respir\nador. Actualmente IOT + VMI en VCA con FiO2 35%, VT 430ml, FR 23rpm, PEE\nP 12 cmH2O, con lo que hace Ppico 28cmH2O y Ppl 21. Última GSA con pH 7,\n34, pO2 128mmHg, pCO2 45mmHg y HCO3- 24mmol/L. Auscultación con MVC bila\nteral. Radiografía de tórax con infiltrados algodonosos bilaterales. * CV: actualmente con SVA (NA x4 a 7ml/h en contexto de sedoanalgesia), con PAM 73 mmHg (97/56). Bien perfundido. Lactato 14mg/dL. * NR: se\ndoanalgesiado con PPF 2% 10ml/h y RMF x4 a 7ml/h, con RASS -5 y PICNR. S\ne realiza EEG que muestra enlentecimiento theta difuso con actividad del\nta intermitente. Se realiza ventana breve de sedación, con lo que realiz\na muecas y moviliza las cuatro extremidades. * NEF: 755cc en diez ho\nras, no forzada. Función renal preservada con creatinina 0,8mg/dL, sodio 139mEq/L, potasio 5mEq/L. No edemas. * DIG/NUT: AST/ALT 55/41 U/L,\nGGT/FA 27/71 U/L, BT 0,7mg/dL. Abdomen blando y depresible, sin masas, m\negalias ni signos de peritonismo, no doloroso a la palpación. Durante la mañana se inicia NE a través de SNG. * INF: afebril. PCR 6,9mg/dL,\nneutros 11,2x10^9/L, linfos 0,4x10^9/L. Cubierto con amoxicilina-clavulá\nnico. Se comenta con Infecciones por posible chancro luético y se pauta\ndosis única de penicilina benzatina 1,2M UI im. * HEM: enoxaparina p\nrofiláctica. Hb 13,3g/dL, plaquetas 209x10^9/L, Quick 76%. Fecha: JJJ\nambio de TET de 8 a 8,5 por fugas. Sin incidentes.",
+  "text_length": 2143,
+  "anonymized_count": 4,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

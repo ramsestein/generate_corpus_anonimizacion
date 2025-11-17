@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5026095_episodio1008252613",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nestante JJJ que acude por dolor en hipogastrio. TA: 121/57 mmHg, FC: 7\n0 lpm Tª: 36.2 ºC. Realizo NST. Ingresa en observación. Coloco cvp. Admi\nnistro fosfomicina 3g vo + nifedipino 20mg vo a las JJJ. Curso A/S,\nurinocultivo y frotis vagino-rectal. Se revalorara esta noche. Fecha: JJJ\nU+0. JJJ. Fosfomicina 3g DU JJJ. Nifedipino PRN. Cervi\ncometría al ingreso (JJJ): 17mm. Cervicometría repetida (JJJ): 20mm. Paciente actualmente sin dinámica uterina. Plan: Manejo expectant\ne en observación. Avisar a médico de guardia si DU u otros signos de a\nlarma.",
+  "text_length": 564,
+  "anonymized_count": 8,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

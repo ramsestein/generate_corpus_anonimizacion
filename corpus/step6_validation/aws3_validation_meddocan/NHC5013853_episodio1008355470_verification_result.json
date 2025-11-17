@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5013853_episodio1008355470",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nM1 por TAC Remito a urgencias y comento con dra JJJ para ingrso en onco dolor mal controlado y retención de orina Explico diagnóstico Fecha: JJJ\nGuardia MDI\nPaciente JJJ JJJ de edad, antecedente de carcinoma de páncreas poco diferenciado (M1 hepáticas/pulmonares) pendiente de inici\no de tratamiento (no tributario a Qx) + adenopatias retroperitoneales +/\n- pancreatitis crónica, que ingresa por dolor en relación a masa tumoral\n, pancreatitis crónica radiológica e itu. Refiere algias controladas, EVA 0-1/10. Si presenta prurito.\nA su llegada a planta, HMD estable, t\nendencia a hipota bien tolerada. Tonos rítmicos. Resp: MVC sin ruidos re\nspiratorios sobreañadidos. ABD: Blando, depresible, no doloroso a la pal\npación superficial. PPCC:\n- Analíticamente, PCR 25.4, con neutrofil\nia relativa. FG&gt;90. ASA/ALAT 59/93, GGT/FA 343/232. Amilasa y lipasa ne\ngativas. Sedimento de orina con 60 leucocitos. - TC abd urg: Estabil\nidad de la masa pancreática y de las adenopatías conocidas. Destaca la\npresencia de trabeculación de la grasa y láminas de líquido alrededor de la cabeza pancreática y de las adenopatías descritas. Ya se encontraba en el estudio previo pero aparenta haber aumentado de forma discreta. D\nicho hallazgo si bien podría estar realacionado con cambios tumorales l\nocales, recomendamos valorar la posibilidad de pancreatitis aguda asocia\nda, dada la evolución y el co ntexto del paciente. No se observa neumope\nritoneo ni colecciones intraabdominales. Vena porta, confluente esplenom\nesentérico y principales arte rias intraabdominales permeables PLAN: - Dejo analitica para mañana de control. FAMIS por el momento. Dejo an\ntihistaminico si prurito exacerbado. - Pendiente urocultivo",
+  "text_length": 1716,
+  "anonymized_count": 5,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

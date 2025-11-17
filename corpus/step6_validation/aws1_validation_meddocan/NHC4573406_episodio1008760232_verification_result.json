@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4573406_episodio1008760232",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nJJJ\nPRIMERA CONSULTA UNIDAD DE ONCOLOGÍA HEPÁTICA Paciente\nde JJJ, NAMC, ex TBQ 20/d por JJJ, consumo de OH (JJJ). Vive c\non su JJJ que tiene Parkinson que requiere ayuda (en plan de ingresar\nen una residencia de corta estancia) AP)\n- HTA - DLP - Taquiarri\ntmia no especificada\n- TBC hace JJJ tratada y resuelta. - Bronqui\nectasias en LSD como secuelas de TBC\n- EPOC (antecedente de reagudizaci\nones frecuentes, seguimiento muy irregular)\n- Miastenia dg JJJ (clínic\na únicamente ocular) (Alta por Neuro) EA) Derivado de Urgencias por C\nolestasis (inicio JJJ) y masa hepática sobre hígado con estigmas d\ne ACLD Ec) Tc JJJ: Masa de 12 cm en s. V-VIII con infiltración d\ne porta derecha y engloba arteria hepática derecha. 2 º lesión de 4 cm s\nimilar en s. VIII. Así mismo, infiltra hepático común, que impresiona CC\nA vs HEHE. Adenopatía porto caval de 18 mm e infiltración de la grasa\nperihepática, con mínima ascitis. Ax JJJ: Creat 1.72 (previa de\n2.16) BT 20 (5.2) FAL/GGT 611/1130 AST/ALT 256/253 plaq 282.000 Plan. 1- Origen y orina\n2- Ax etiológico\n3- BAG 4- Drenaje de vía biliar Fecha: JJJ\nncología hepática - Primera visita Enfermería\nPrimera visita Enfermería Tipo primera visita:: Origen\nSe realiza analítica origen: Sí\nFirma CI biobanc: Sí\nSe administra información de canales de contacto. Tarje\nta consulta: Sí\nPendiente aportar muestra de tejido: No\nPendiente apor\ntar imagenes realizadas en otro centro: No\nSe activa apoyo psicológico: No\nSe activa PADES: No\nCuestionarios:: Desde JJJ los cuesti\nonarios: FACT HEP, EQ-5D-5L, EORTC QLQ-C30 y HCC18\nObservaciones:\nCurs\nada analítica amb orina recent.\nVa amb les gestores de pacients per prog\nramar biòpsia.\nPte. programa drenatge de via biliar. Fecha: JJJ\ne controla Ax. Creat 3.7 BT 34.5 BD 30.\nMe comunicó telefónicamente y a\ncordamos que vendrá a URG, con la finalidad de ingreso.\nControl Fecha: JJJ\nacient de JJJ es visita a ucies per alteració analítica amb fallo renal. AMC: no conegudes AP: HTA, DLP, TBC fa JJJ, neumopatia crònica obstructiva, miastenia gravis. A l&apos;arribada pacient c i o. Hdm establ\ne, afebril. No refereix algies Canalitzem catéter perifèric a ESE de 2\n0G i realitzem analítica. Realitzen Rx tòrax. Pertinences a bossa amb etiqueta identificativa sota camilla.",
+  "text_length": 2264,
+  "anonymized_count": 17,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

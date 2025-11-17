@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4530032_episodio1008430521",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nacient que es visita a urgencies per febre i GEA.\nC i O. Bosa roba sota llitera identf. Pulsersa al canell identf.\nHDM estable, afebril.\nAP:D\nM2,HTA,DLP,CI,HBP\nEs canalitça VP i es cursa a/s, hemos,virus,copro,RX. Pdte urino i sdto.\nIniciem ATB, ev.\nPdte resultats i evolució. Fecha: JJJ\n7h Pact trasladado de primera visita C y O HDM estable,febricular Pt\ne de ECO Fecha: JJJ\nC:HJJJ acude cuadro catarral + rinorrea y mal estado general + astenia. + diarrea acuosa+ nauseas AP:- DIABETES MELLITUS TIPO 2\n- HIPERTENS\nIÓN ARTERIAL\n- DISLIPEMIA\n- OBESIDAD\n- CARDIOPATÍA ISQUÉMICA con impl\nante de 2 stents ,IAMSEST KILLIP III conedema agudo de pulmón.\n- HIPERP\nLASIA BENIGNA DE PRÓSTATA OD:1. SINDROME FEBRIL de prob. FOCO BILIAR. Sospecha COLANGITIS AGUDA.\n2. ICTERICIA prob. OBSTRUCTIVA. EF:c y o HMD estable,afebril,colaborador ,autonomo, 22ESD+ST PLAN:\n-tto\n-co\nntrol glicemias\n-WC +pañal\n-FAMIS\n-baja 10h ECO: colecistitis aguda -11:27h IC CIR;INGRESO CIR :cambio tto PTE:-cama\n-urino /sedi Fecha: JJJ\naciente durante la tarde c y o. HDM estable, tendencia a la hTA (asinto\nmático). Afebril. Saturaciones basales mantenidas, no trabajo respirator\nio.\nConsulto con cir que paciente AP: DM2 y no pauta ni VO ni insulina, revisan medicación.\nPaciente escasa diuresis, STP, se comenta también\ncon cir, revisará paciente.\nAcompañado durante la tarde.\nResto sin inc\nidencias. Fecha: JJJ\naloración corta estancia Responsable identificación positiva del paci\nente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera ide\nntificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco)\n:\nJJJ JJJ -JJJ-\n¿La persona de contacto corresponde con\nel cuidador?: No tiene cuidador\nProcedencia del paciente antes del ingr\neso hospitalario: Domicilio\nMotivo ingreso y procedencia interna:\nCole\ncistitis\nAlergias: No\nAntecedentes medico-quirúrgicos:\nAP:- DIABETES\nMELLITUS TIPO 2\n- HIPERTENSIÓN ARTERIAL\n- DISLIPEMIA\n- OBESIDAD\n- CARDIO\nPATÍA ISQUÉMICA con implante de 2 stents ,IAMSEST KILLIP III conedema ag\nudo de pulmón.\n- HIPERPLASIA BENIGNA DE PRÓSTATA\n¿Sufre alguna enfermed\nad crónica?: Diabetes, Hipertensión, Dislipemia, Otras enfermedades crón\nicas\nDéficit de autocuidado: Independiente\nPuntuación escala Barthel a\nl ingreso: 100-Autónomo\nTipo de respiración: Eupneico\nValor frecuencia respiratoria: 26 resp/min\nSaturación O2: 95 %\nValor Presión Arterial\nsistólica: 94 mm Hg\nValor Presión Arterial diastólica: 63 mm Hg\nValor\nfrecuencia cardíaca: 105 lpm\nRitmo deposicional:\n.\nPuntuación escala\nDownton: 0-Riesgo bajo\n¿Alteración de la integridad de piel y mucosas a\nl ingresar?: No\nColoración de la piel: Normocoloreada\nPuntuación escal\na Braden: 21-Sin riesgo\nTemperatura axilar: 36.2 ºC\nEstado de la consc\niencia: Alerta\n¿Tiene dolor al ingreso?: No\nPuntuación escala EVN: 0 Puntuación escala detección depresión PHQ-2: 20-No valorable\n¿Fuma actu\nalmente?: No\n¿Usted bebe de forma habitual?: No",
+  "text_length": 2920,
+  "anonymized_count": 9,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

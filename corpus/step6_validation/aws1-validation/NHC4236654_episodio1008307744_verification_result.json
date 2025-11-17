@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4236654_episodio1008307744",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente JJJ, consulta por palpitaciones, presenta tendencia a la hipot\nensión se pasa carga de SF mejorando TA, ECG presenta ritmo sinusal con\nbloqueo de rama izquierda ya conocido, con EV frecuentes. Pasa la noche\nalgo nervioso y no descansa mucho queda pendiente mañana de valoración p\nor arritmias. Fecha: JJJ\naciente JJJ. Se mantiene HMD estable durante la tarde, no realiza ning\nún episodio de palpitaciones ni arritmias\nME en porrón\nRealiza ingesta Posible alta mañana por la mañana si se mantiene estable Fecha: JJJ\naciente JJJ, HDM estable, afebril, ingresado por CARDIO para monitorizac\nión y probable alta mañana.",
+  "text_length": 634,
+  "anonymized_count": 6,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

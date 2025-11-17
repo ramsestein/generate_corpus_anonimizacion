@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4373432_episodio1008301202",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\notiu de Consulta: Derivada de Residència per Melenes i Hematemesi AP:\nHTA, Estenosis aórtica, Púrpura hemorrágica, Depresión postparto, sd ans\niosos, Trastorno Bipolar tipo I. No AMC A l&apos;entrada a box pacient am\nb tendència a la somnolència, respòn a la veu. Hemodinamicament estable, afebril. Eupneica, saturació correcta. No presenta restes hemàtiques\nni meleniques en bolquer. Es canalitza nova VP (portadora de VP ESdret\na), es cursa analitica d&apos;urgències, reserva de sang i s&apos;inicia tractamen\nt. Portadora de pulsera identificativa. No porta roba ni efectes per\nsonals. Fecha: JJJ\nActivació LET: no iot no vmni no drogas vasoactivas Fecha: JJJ\naciente HDM estable. Normotensa. FC:96x. Saturaciones a 100% con Gn 2l\n.\nCursamos analítica. Realizamos hemocultivos\nCurso frotis virus respi\nratorios y orina. Dejo SV. BIC pantoprazol a 25ml/h. Fecha: JJJ\naciente procedente de urgencias que llega a nuestro servicio para real\nizarse TC con contraste ev. No refiere alergia a contrastes. Tasa de fi\nltrado glomerular de 16 en analítica de hoy. Comentado con Dra. JJJ, se decide poner contraste ev. Vía periférica permeable. Se realiza p\nrueba sin incidencias. Fecha: JJJ\nROLOGÍA GUARDIA Paciente de JJJ. Dependiente para las actividades básicas de la vida diaria. Va en silla de ruedas, vive con su JJJ. No\nhabla. Antecedente de estenosis valvular aortica e hipertensa. Acudió hace más de 48 horas a urgencias por clínica de malestar y febricula. S\ne orientó como probable broncoaspiración. Reconsulta a urgencias por det\nerioro del estado general y febrícula asociado a hematemesis. A la ex\nploración paciente hemodinámicamente estable, taquicárdica, somnolienta, algo reactiva. A/S: PCR 20 Creat 2.52 Hb 10.1 L 26.310 Ionograma cor\nrecto. TAC: No hi ha signes de sagnat actiu abdominal. Càlcul de 5 mm a urèter distal dret que condiciona una marcada dilatació retrògrada de la via urinària. No s&apos;observen focus de nefritis al ronyó dret ni absce\nsos renals/perirrenals. Se explican hallazgos y situación a familiare\ns (JJJ). Entienden situación, planteo limitación de acti\ntud terapeutica vs colocación drenaje vía urinaria. Solicitan actitud ac\ntiva con derivación. Informo de benificios y riesgos de procedimiento y\nde postoperatorio que entienden y aceptan. Firma CI (JJJ). Ingresa a cargo de urología para drenaje vía urinaria. Fecha: JJJ\nx C i D. Tranquil·la i col·laboradora. HDM estable amb tendència a HTA\n. Eupneica amb UN a 2l. Afebril. No refereix àlgies. 2 CVP permeables. BIC pantoprazol a 25 ml/h. SV permeable amb orina concentrada. De\nposició amb melenes. Es cursa reserva sanguínia. Es trasllada a quir\nòfan. Fecha: JJJ\naloración postanestésica Responsable identificación positiva del paci\nente: Doble check (dos profesionales)\n¿En el momento del ingreso el pac\niente lleva pulsera identificativa?: Sí\nMotivo ingreso y procedencia in\nterna:\ncolocación catéter doble J\nTipo anestesia: Sedación\nEspecialid\nad quirúrgica: URO\nEstado de la consciencia: Responde a la voz\nPuntuac\nión escala DELIRIO-NUDESC: 4-Positivo\n¿Alteración de la integridad de p\niel y mucosas al ingresar?: No\nColoración de la piel: Normocoloreada\nP\nuntuación escala EVN: 0-No hay dolor\nPuntuación escala Downton: 4-Riesg\no alto",
+  "text_length": 3245,
+  "anonymized_count": 12,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

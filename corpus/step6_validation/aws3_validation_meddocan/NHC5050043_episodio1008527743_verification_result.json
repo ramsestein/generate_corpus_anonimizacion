@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5050043_episodio1008527743",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente con tendencia TA baja pero bien tolerada. Febril, se proporciona paracetamol vo pom.\nPaciente refiere sd febril. No refiere DT. Se co\nmenta con PUR2 para retriaje. Fecha: JJJ\nJJJ de JJJ con AP a destacar de Cirrosis hepática por Sd. Overlap C\nhild Pugh B que consulta por fiebre de 24 horas de evolución que cede te\nmporalmente con antitérmico. Niega tos ni expectoración. No disnea ni do\nlor torácico. No dolor abdominal, náuseas, vómitos ni alteración del rit\nmo deposicional. Niega sintomatología urinaria. Estado general conse\nrvado. Consciente, orientada y colaboradora. Eupneica en reposo y sin au\nmento de la mecánica respiratoria. Febril. Resto de constantes correctas\n. Se ha triado PUR3 por UDT sin embargo la paciente no ha presentado dolor torácico. Se trata de un síndrome febril a estudio. Se administra Paracetamol oral y se traslada PUR2 para valoración. Fecha: JJJ\naciente normocoloreada, alerta y orientada. No refiere algias ni malesta\nr. Alerto a MG de UTH por hipotensión que indica administración de una c\narga de SF (pendiente de pautar 9.45h) y que puede trasladarse para real\nización de ecografía. Fecha: JJJ\ndjunto de guardia comenta a la paciente con la UCI Hepática. Se activan\nauxiliares sanitarios para traslado con monitorización y balón resucitad\nor. Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\nJJJ JJJ\n¿La persona de contacto corresponde con\nel cuidador?: Sí\nProcedencia del paciente antes del ingreso hospitalari\no: Domicilio\nMotivo ingreso y procedencia interna:\nFiebre s/foco\n¿Suf\nre alguna enfermedad crónica?: Otras enfermedades crónicas\nEspecificar\notras enfermedades crónicas:\nCH x CBP + HAI\nDéficit de autocuidado: In\ndependiente\nAlergias: No\nEstado de la consciencia: Alerta\nModalidad a\ncceso vía aérea: Natural\nValor Frecuencia cardíaca: 69 lpm\nMicción esp\nontánea: Sí\nRitmo deposicional:\nhoy\nFecha última deposición: JJJ\n¿Alteración de la integridad de piel y mucosas al ingresar?: No\nCol\noración de la piel: Normocoloreada\nPuntuación escala Braden: 18-Riesgo\nbajo\nTemperatura axilar: 35.2 ºC\n¿Tiene dolor al ingreso?: No\nPuntuac\nión escala EVN: 0\nPuntuación escala Downton: 2-Riesgo bajo Fecha: JJJ\naciente que ingresa procedente de UCIAS por fiebre s/foco. HDCM estable\ncon tendencia a la hipoTA, no precisa iniciar NAD. ECG en RS. Afebril. E\nupneica en basal. Consciente y orientada. Se reinicia dieta a la comid\na, bien tolerada. Comentado con equipo médico, retiro STP. Micción esp\nontánea en cuña. Realiza deposiciones normales. Se coloca CVC yug. der\n. Comprobada por Rx tórax. PVC de 10. Retiro gripper. Reposo en ca\nma. Acompañada por su JJJ. Fecha: JJJ\nacient conscient i orientada. GSW 15. Febricular, administro paracetamol ev. No refereis àlgies.\nHDM estable, tendència a la hTA asimptomatica, sense drogues. ECG en RS\nRespiratoriament en basal, bones saturacions. Diuresis espontania. Realitza deposició. Repós en llit. Es realit\nza paracentesis diagnòstica. Es realitza ECO Abd.\nIngesta oral ben to\nlerada.\nRealitzades mesures de comfort + cures. Rep visites. Resta\nveure IPA. Fecha: JJJ\nIngres per febre sense foco. Hemodinàmicament estable en tot moment amb diurèsis preservada. (tendència a la hipoTA ja coneguda). Ecografia abdominal sense identificar focus sèptics, líquid ascitic no infectat amb proteines baixes. Seguim amb antibiotic pautat pendent de resultat de cultius.",
+  "text_length": 3542,
+  "anonymized_count": 14,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

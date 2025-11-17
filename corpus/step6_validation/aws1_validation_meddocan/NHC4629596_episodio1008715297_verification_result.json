@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4629596_episodio1008715297",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente acude a ucies por prueba de esfuerzo positiva.\nSin AMC.\nA su l\nlegada al box C, O, HDM estable, spO2 basal 96%, eupneico, sin algias. Identificamos pertenencias en bolsa debajo la camilla. Portador de pulse\nra identificativa.\nCanalizamos CVP, cursamos analítica con hemograma, b\nioquímica, coagulación, ECG. Cursamos curva troponinas a la hora.\nSe ma\nntiene en observación.\nFamis a partir de las JJJ por orden médica.\nPte Mañana KT. Fecha: JJJ\naciente acude a ucies por prueba de esfuerzo positiva.\nSin AMC.\nA su l\nlegada al box C, O, tendencia a la HTA, spO2 basal 96%, eupneico, sin al\ngias.\nIdentificamos pertenencias en bolsa debajo la camilla. Portador d\ne pulsera identificativa.\nCanalizamos CVP, cursamos analítica con hemog\nrama, bioquímica, coagulación, ECG. Cursamos curva troponinas a la hora. Se mantiene en observación.\nFamis a partir de las JJJ por orden médic\na.\nPte Mañana KT.",
+  "text_length": 911,
+  "anonymized_count": 4,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4920151_episodio1008565192",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nacient que entra al box d&apos;atur per activació Codi Ictus, presenta hemipa\nrèsia esquerra i afàsia.\nA l&apos;arribada eupneic, saturacions correctes se\nnse aport d&apos;O2. HDM estable, ben perfós. Conscient, obeeix a ordres. Afe\nbril.\nEs cursa analítica d&apos;urgències. Es col·loquen 2CVP 18. Portad\nor de polsera identificativa.\nRoba en bossa identificada sota llitera. Es trasllada a TAC Fecha: JJJ\naciente activado como código ictus acude a nuestro servicio para realiza\nrse angio-TC de craneo (protocolo ictus) con contraste ev. No alergias,\nTFG dentro de los límites correctos. Después de realizar TC basal, por o\nrden de neurología se administran 6mg de TPA. Pendiente de valorar si re\nalizar perfusión. Fecha: JJJ\nrteriografía cerebral más tratamiento agudo mecánico de ICTUS bajo contr\nol de anestesia. Perfusión de 70mg de TPA iniciada por OM tras TC. Punci\nón en arteria femoral derecha. Tras la apertura de arteria ocluida se de\ntiene perfusión endovenosa y se realiza infusión de TPA intraarterial 19\nmg desde el catéter portador según protocolo. Cierre percutáneo con prog\nlide, efectivo. Vendaje compresivo durante 12h hasta entonces reposo abs\noluto. Fin del procedimiento: JJJ Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\nJJJ JJJ\nJJJ\n¿La persona de contacto corresponde c\non el cuidador?: No tiene cuidador\nProcedencia del paciente antes del i\nngreso hospitalario: Domicilio\nMotivo ingreso y procedencia interna:\nI\nctus ACMD\n¿Sufre alguna enfermedad crónica?: Diabetes, Otras enfermedad\nes crónicas, Dislipemia\nEspecificar otras enfermedades crónicas:\nCardi\nopatía isquémica, esófago de Barret, IQx cataratas OI, IQx hernia hiato complicada con hernia paraumbilical y parexia de nervio\nvago, IQx por a\nfectación nervio cubital de ESD con parestesias de 5º e índice\nDéficit\nde autocuidado: Independiente\nAlergias: No\nEstado de la consciencia: A\nlerta\nOrientación: Sí\nModalidad acceso vía aérea: Natural\nValor Frecu\nencia cardíaca: 69 lpm\nMicción espontánea: Sí\nRitmo deposicional:\nDia\nrio\nFecha última deposición: JJJ\nPrótesis dental: Sí\nTipo prót\nesis dental: Inferior fija\n¿Alteración de la integridad de piel y mucos\nas al ingresar?: Sí\nHeridas: Sí\nColoración de la piel: Normocoloreada Características de la piel: Seca\nPuntuación escala Braden: 17-Riesgo b\najo\nTemperatura axilar: 36.5 ºC\n¿Tiene dolor al ingreso?: No\nPuntuaci\nón escala EVN: 0\nPuntuación escala Downton: 2-Riesgo bajo Fecha: JJJ\naciente consciente y orientado\nNRL: NIHSS 7 (paresia f-b-c izquierda, d\nisartria severa)\nHemodinámicamente: HTA con rescate antihipertensivo a\nlas JJJ captopril sublingual. A las JJJ administrado otro comprimi\ndo de captopril según pauta fija\nNo refiere dolor ni malestar\nRespirac\nión: basal\nAlimentación: famis. test disfagia realizado + STP\nDiuresis\n: continente\nDeposiciones: no\nMovilización: reposo Vendaje compresi\nvo femoral derecha:\n- Pulsos pedios conservados, sin incidencias, retir\nar JJJ a las JJJ",
+  "text_length": 3123,
+  "anonymized_count": 14,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5360224_episodio1008399363",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naloración medicina de urgencias paciente sin grandes antecedentes car\ndiovasculares que en el contexto de colocación compleja de una sonda uri\nnaria por obstrucción secundaria a ITU y ADK de próstata en tratamiento\nradioterápico presenta episodio de HTA con taquicardia, taquipnea y desa\nturación. Administran nebulizaciones de salbutamol previo a interconsult\na. A mi valoración taquipneico y taquicárdico con TA de 180/109, SpO2 de 93% con VMK al 28%. Crepitantes bibasales con sibilancias sugestivas de asma cardial. Se administran dos puff de NTG sl con mejoría de la TA y\nposterior reducción del trabajo respiratorio. Se mantiene taquicárdico e\nn probable relación al cuadro y a las nebulizaciones pero con importante mejoría clínica. Tras comprobación de mantenimiento de mejoría de la TA administro 40 mg de seguril IV. Mantenemos en PUR4 de momento con reval\noración dentro de un rato. Según disponibilidad en PUR3 (actualmente lle\nnos) y estado clínico, se decidirá si el paciente puede ser altable o se baja a PUR3 para mantener unas horas hasta mejoría. Fecha: JJJ\nPUR4] Paciente que acude por Hematuria. Se realiza colocación de nu\neva sonda vesical por parte de URO. Necesidad de hacer lavados manuales\ncada 30-60 min max. Imposibilidad de lavados continuos por estenosis ves\nical. IQ hoy-mañana.\nDurante el turno paciente cada vez más taquipneico (40rpm), aumento del trabajo respiratorio y taquicardización (125lpm). Se coloca nueva vía periferica abocath 18 en ESD. Se toman constan\ntes:\n+ C y O, HMDE (ligera hTA 90/60), febril (38.5), taquipneico con t\nrabajo resp. sat. 92% (VMK 28%), EVA: 6/10 -&gt; paracetamol. Tto: Medic\nación pautada administrada.\nPruebas realizadas: Se cursa reserva de san\ngre y Hemocultivos. Pruebas pendientes: @ 6h.\nObservaciones: Portador de SV 10 FC con labados vesicales manuales cada 30 min. Fecha: JJJ\naciente derivado de PUR4 para monitorización. A la llegada a PUR3 pacien\nte C y O, con hipotensión, taquicardia, taquipnea y temperatura de 38º a\nxilar, saturaciones con VMK al 28% del 92%, colaborador.\nSe administra\ncarga de SF (250 ml).\nSe cursan hemocultivos y se realizan lavados manu\nales de SV, obteniendo hematuria franca, no coágulos (SV permeable). Fecha: JJJ\naciente C y O, HDM estable. Febrícula que cede con antitérmicos\nSe colo\nca via central de acceso periférico para administrar NAD\nPortador de SV tipo Rush. Mantenemos con lavados manuales por hematuria\nSe cursa AS d\ne control a las 6am\nRealizo lavado manual a las 7:30am y no se recupera\n. Valorado por URO que decide solventar en quirófano Fecha: JJJ\nEn urgencias. Fecha: JJJ\naciente consciente y orientado. No algias. Ctes mantenidas, TAM 74. Af\nebril. Saturaciones en torno 94%. SV no permeable, débito en bolsa r\necolectora hemático. Retiradas joyas ( cadena, anillo y reloj) y entre\ngadas a JJJ. Cursada reserva de sangre. Va a Quirófano de UCIAS p\nara cervicotomía + revisión endoscópica. Fecha: JJJ\nOTA IQ RAO + hematuria (antecedente PR + RDT) -&gt; cervicotomía + revis\nión endoscópica. Fecha: JJJ\nngrés procedent de la 5º URG.\nCOC. Refereix espasmes puntuals.\nHDN: am\nb pc de NAD (x4) a dosis elevades, mínim descens, obj TAM 60-65. S&apos;inici\na pc de DBT (x2) que no tolera, es suspèn al cap d&apos;una estona. ECG: RS/T\nS. Afebril.\nResp: LAF 40lx&apos;/40%. Saturacions mantingudes 94-96%. Mínima taquipnea.\nDiüresis amb rentats vessicals continuus. Hematuria clara.\nForçada amb furosemida, bona resposta.\nFAMIS + STP. Precisa IR. No depo\nsició.\nCursada AS (troponines) + FN/FR.\nAcompanyat per la JJJ dura\nnt la tarda\nRVG",
+  "text_length": 3567,
+  "anonymized_count": 10,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

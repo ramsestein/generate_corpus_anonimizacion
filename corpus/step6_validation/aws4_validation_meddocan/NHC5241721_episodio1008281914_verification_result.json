@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5241721_episodio1008281914",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nngresa gestant a UCOI. A urgències Normotensa i Afebril. Canalitzo C\nVP. Adminsitro Nifedipino 20 mg (JJJ) i 10mg (JJJ) (JJJ).\nAdministro primera dosis celestone JJJ.\nPendent Cursar urinocultiu. Fecha: JJJ\nngresa gestante procedente de urgencias por APP de JJJ. Consciente y o\nrientada. TA 88/54 FC 86x' Tª 35'8ºC. Se administra bolus de Atosiban en Box de urg y se inicia perfusión al ingresar en UCOI. Refiere mejoría d\ne sintomatología des de administración de bolus. Se realiza RCTG al ingr\neso, basal 150x', variabilidad conservada, presencia de aceleraciones, n\no decelera. Resta en DLI por comodidad. Ginecología indica reposo absolu\nto.",
+  "text_length": 655,
+  "anonymized_count": 7,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

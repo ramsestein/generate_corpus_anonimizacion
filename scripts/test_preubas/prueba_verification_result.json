@@ -1,0 +1,402 @@
+{
+  "document_id": "prueba",
+  "success": true,
+  "anonymized_text": "Maria Fecha: JJJ\naciente que es traída por caída en domicilio.\nAP: CH alcohólica en segu\nimiento HSC.\nNo AMC\nRefiere haberse caído de la cama. Presenta lesione\ns EESS (codos) y EEII rodillas y zona trocantérea izq sugestivas de habe\nr estado tiempo en el suelo.\nGran hematoma + coágulo en ojo izq que imp\nide apertura.\nCanalizada VP y cursada analítica de control.\nHDM establ\ne.No taquicárdica. Eupnéica. Saturaciones basales correctas.\nSolicitado TAC craneal. Fecha: JJJ\naloración CMF (JJJ) : Nos comentan paciente por TC con fx de p\nared medial y suelo de órbita OI con escaso desplazamiento pero con enfi\nsema subcutáneo importante acompañante. A la EF AV grosera preservada. N\no diplopia. OD: Fx tributarias de tto. conservador. PLAN:\nCober\ntura con Augmentine 875/125 mg c/8h durante 1 semana. Cabecero 30º\nEv\nitar maniobras de valsalva Normas de conducta y reconsulta temprana. Control en CEx de Cir. Oral y Maxilofacial en JJJ. Fecha: JJJ\naciente alerta y orientada, refiere dolor en hombro izquierdo. Se monito\nriza por quedar pendiente de cama en intermedios (orden de NRC que indic\na monitorización neurológica) Fecha: JJJ\naciente de JJJ con AP de CH por OH pendiente de traslado a UCI.\nDur\nante la tarde se mantiene C y O, Glasgow 15, hdm estable, eupneica, dolo\nr controlado con analgesia.\nSe realiza labstix con resultado patologico (Nit +, Prot ++, Leu +++).\nSe realiza Rx de hombro izq, pendiente de r\nesultado. Fecha: JJJ\naciente ingresa procedente de urgencias, copnsciente y orientada, muy de\nmandante.\nPte reserva + adm. plaquetas. GCS 15, Pupila derecha normor\neactiva, izquierda no valorable por hematoma, moviliza EE. Resp eupnei\nca en basal, saturaciones correctas, buena mecánica respiratoria. Alim FAMIS con STP de pauta, tolera H20 para la adm. de medicación VO. Mic\ncion espontanea, no realiza depo. No recibe visita. Se le realizan m\nedidas de seguridad y confort.Maria",
+  "text_length": 1897,
+  "anonymized_count": 8,
+  "confidence_threshold": 0.3,
+  "meddocan_results": {
+    "entities_detected": 5,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.6180288195610046,
+        "word": " Maria Fecha:",
+        "start": 0,
+        "end": 12,
+        "chunk_id": 0,
+        "model": "MEDDOCAN",
+        "actual_text": "Maria Fecha:",
+        "is_j_only": false
+      },
+      {
+        "entity_group": "NOMBRE_SUJETO_ASISTENCIA",
+        "score": 0.6773303151130676,
+        "word": "M",
+        "start": 1892,
+        "end": 1893,
+        "chunk_id": 2,
+        "model": "MEDDOCAN",
+        "actual_text": "M",
+        "is_j_only": false
+      },
+      {
+        "entity_group": "NOMBRE_SUJETO_ASISTENCIA",
+        "score": 0.8625884652137756,
+        "word": "aria",
+        "start": 1893,
+        "end": 1897,
+        "chunk_id": 2,
+        "model": "MEDDOCAN",
+        "actual_text": "aria",
+        "is_j_only": false
+      },
+      {
+        "entity_group": "NOMBRE_SUJETO_ASISTENCIA",
+        "score": 0.6773303151130676,
+        "word": "M",
+        "start": 1892,
+        "end": 1893,
+        "chunk_id": 3,
+        "model": "MEDDOCAN",
+        "actual_text": "M",
+        "is_j_only": false
+      },
+      {
+        "entity_group": "NOMBRE_SUJETO_ASISTENCIA",
+        "score": 0.8625884652137756,
+        "word": "aria",
+        "start": 1893,
+        "end": 1897,
+        "chunk_id": 3,
+        "model": "MEDDOCAN",
+        "actual_text": "aria",
+        "is_j_only": false
+      }
+    ],
+    "analysis": {
+      "total_entities": 5,
+      "j_only_count": 0,
+      "non_j_count": 5,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 1,
+        "NOMBRE_SUJETO_ASISTENCIA": 4
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 3,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Maria Fecha:",
+          "actual_text": "Maria Fecha:",
+          "confidence": 0.6180288195610046,
+          "start": 0,
+          "end": 12,
+          "model": "MEDDOCAN",
+          "is_j_only": false
+        },
+        {
+          "label": "NOMBRE_SUJETO_ASISTENCIA",
+          "word": "M",
+          "actual_text": "M",
+          "confidence": 0.6773303151130676,
+          "start": 1892,
+          "end": 1893,
+          "model": "MEDDOCAN",
+          "is_j_only": false
+        },
+        {
+          "label": "NOMBRE_SUJETO_ASISTENCIA",
+          "word": "aria",
+          "actual_text": "aria",
+          "confidence": 0.8625884652137756,
+          "start": 1893,
+          "end": 1897,
+          "model": "MEDDOCAN",
+          "is_j_only": false
+        },
+        {
+          "label": "NOMBRE_SUJETO_ASISTENCIA",
+          "word": "M",
+          "actual_text": "M",
+          "confidence": 0.6773303151130676,
+          "start": 1892,
+          "end": 1893,
+          "model": "MEDDOCAN",
+          "is_j_only": false
+        },
+        {
+          "label": "NOMBRE_SUJETO_ASISTENCIA",
+          "word": "aria",
+          "actual_text": "aria",
+          "confidence": 0.8625884652137756,
+          "start": 1893,
+          "end": 1897,
+          "model": "MEDDOCAN",
+          "is_j_only": false
+        }
+      ],
+      "xxxxxx_detections": [],
+      "anon_token_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Maria Fecha:",
+          "actual_text": "Maria Fecha:",
+          "confidence": 0.6180288195610046,
+          "start": 0,
+          "end": 12,
+          "model": "MEDDOCAN",
+          "is_j_only": false
+        },
+        {
+          "label": "NOMBRE_SUJETO_ASISTENCIA",
+          "word": "M",
+          "actual_text": "M",
+          "confidence": 0.6773303151130676,
+          "start": 1892,
+          "end": 1893,
+          "model": "MEDDOCAN",
+          "is_j_only": false
+        },
+        {
+          "label": "NOMBRE_SUJETO_ASISTENCIA",
+          "word": "aria",
+          "actual_text": "aria",
+          "confidence": 0.8625884652137756,
+          "start": 1893,
+          "end": 1897,
+          "model": "MEDDOCAN",
+          "is_j_only": false
+        },
+        {
+          "label": "NOMBRE_SUJETO_ASISTENCIA",
+          "word": "M",
+          "actual_text": "M",
+          "confidence": 0.6773303151130676,
+          "start": 1892,
+          "end": 1893,
+          "model": "MEDDOCAN",
+          "is_j_only": false
+        },
+        {
+          "label": "NOMBRE_SUJETO_ASISTENCIA",
+          "word": "aria",
+          "actual_text": "aria",
+          "confidence": 0.8625884652137756,
+          "start": 1893,
+          "end": 1897,
+          "model": "MEDDOCAN",
+          "is_j_only": false
+        }
+      ],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.4503867030143738,
+        "word": " Maria",
+        "start": 0,
+        "end": 5,
+        "chunk_id": 0,
+        "model": "CARMEN",
+        "actual_text": "Maria",
+        "is_j_only": false
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "j_only_count": 0,
+      "non_j_count": 1,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 1
+      },
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 1
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Maria",
+          "actual_text": "Maria",
+          "confidence": 0.4503867030143738,
+          "start": 0,
+          "end": 5,
+          "model": "CARMEN",
+          "is_j_only": false
+        }
+      ],
+      "xxxxxx_detections": [],
+      "anon_token_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Maria",
+          "actual_text": "Maria",
+          "confidence": 0.4503867030143738,
+          "start": 0,
+          "end": 5,
+          "model": "CARMEN",
+          "is_j_only": false
+        }
+      ],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 6,
+    "j_only_count": 0,
+    "non_j_count": 6,
+    "entities_by_label": {
+      "NOMBRE_PERSONAL_SANITARIO": 2,
+      "NOMBRE_SUJETO_ASISTENCIA": 4
+    },
+    "entities_by_confidence": {
+      "high": 2,
+      "medium": 3,
+      "low": 1
+    },
+    "suspicious_entities": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Maria Fecha:",
+        "actual_text": "Maria Fecha:",
+        "confidence": 0.6180288195610046,
+        "start": 0,
+        "end": 12,
+        "model": "MEDDOCAN",
+        "is_j_only": false
+      },
+      {
+        "label": "NOMBRE_SUJETO_ASISTENCIA",
+        "word": "M",
+        "actual_text": "M",
+        "confidence": 0.6773303151130676,
+        "start": 1892,
+        "end": 1893,
+        "model": "MEDDOCAN",
+        "is_j_only": false
+      },
+      {
+        "label": "NOMBRE_SUJETO_ASISTENCIA",
+        "word": "aria",
+        "actual_text": "aria",
+        "confidence": 0.8625884652137756,
+        "start": 1893,
+        "end": 1897,
+        "model": "MEDDOCAN",
+        "is_j_only": false
+      },
+      {
+        "label": "NOMBRE_SUJETO_ASISTENCIA",
+        "word": "M",
+        "actual_text": "M",
+        "confidence": 0.6773303151130676,
+        "start": 1892,
+        "end": 1893,
+        "model": "MEDDOCAN",
+        "is_j_only": false
+      },
+      {
+        "label": "NOMBRE_SUJETO_ASISTENCIA",
+        "word": "aria",
+        "actual_text": "aria",
+        "confidence": 0.8625884652137756,
+        "start": 1893,
+        "end": 1897,
+        "model": "MEDDOCAN",
+        "is_j_only": false
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Maria",
+        "actual_text": "Maria",
+        "confidence": 0.4503867030143738,
+        "start": 0,
+        "end": 5,
+        "model": "CARMEN",
+        "is_j_only": false
+      }
+    ],
+    "xxxxxx_detections": [],
+    "anon_token_detections": [],
+    "other_detections": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Maria Fecha:",
+        "actual_text": "Maria Fecha:",
+        "confidence": 0.6180288195610046,
+        "start": 0,
+        "end": 12,
+        "model": "MEDDOCAN",
+        "is_j_only": false
+      },
+      {
+        "label": "NOMBRE_SUJETO_ASISTENCIA",
+        "word": "M",
+        "actual_text": "M",
+        "confidence": 0.6773303151130676,
+        "start": 1892,
+        "end": 1893,
+        "model": "MEDDOCAN",
+        "is_j_only": false
+      },
+      {
+        "label": "NOMBRE_SUJETO_ASISTENCIA",
+        "word": "aria",
+        "actual_text": "aria",
+        "confidence": 0.8625884652137756,
+        "start": 1893,
+        "end": 1897,
+        "model": "MEDDOCAN",
+        "is_j_only": false
+      },
+      {
+        "label": "NOMBRE_SUJETO_ASISTENCIA",
+        "word": "M",
+        "actual_text": "M",
+        "confidence": 0.6773303151130676,
+        "start": 1892,
+        "end": 1893,
+        "model": "MEDDOCAN",
+        "is_j_only": false
+      },
+      {
+        "label": "NOMBRE_SUJETO_ASISTENCIA",
+        "word": "aria",
+        "actual_text": "aria",
+        "confidence": 0.8625884652137756,
+        "start": 1893,
+        "end": 1897,
+        "model": "MEDDOCAN",
+        "is_j_only": false
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Maria",
+        "actual_text": "Maria",
+        "confidence": 0.4503867030143738,
+        "start": 0,
+        "end": 5,
+        "model": "CARMEN",
+        "is_j_only": false
+      }
+    ],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 6,
+    "suspicious_detections": 6,
+    "xxxxxx_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 6
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5317020_episodio1008675613",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\n**PUR 3 (N.MIOTA) JJJ de JJJ, vive en residencia. Es traslada a urgencias por somonlencia+ ITU + hiperglicemia.\nA su llegada a urgenc\nias somnolencia con respuesta estímulos verbales, glicemia 400 con POC v\nenoso sin acidosis.\nOD: hiperglicemia simple. Se pauta 10 UI insulina\nrápida y suero fisioliogico. Secometa en PUR2 para valoraicón. Fecha: JJJ\nActivació LET: NO RCP, NO DVA, NO TRR, NO IOT, NO VMNI Fecha: JJJ\nDM, afebril. NRL somnolienta; responde al dolor. No administro levotiro\nxina de la mañna. A las 7h Glucemia de 171 mg/dl. En curso STP por VVP. No algias. 350 cc de diuresis por SV. No dps. Realizado SCA. Fecha: JJJ\nlaman del laboratorio (JJJ) para informar de un calcio de 14.9. Infor\nmo a Dr JJJ, médico a cargo. Fecha: JJJ\naciente somnolienta toda la mañana. Se realiza revaloración y se constat\na hipercalcemia. Iniciamos tratamiento. Hemodinámicamente estable. Pendi\nente de valoración por MDI. Fecha: JJJ\nUR3 TT: Paciente se mantiene somnolienta, hemodinamicamente hipotensa, b\nuenas saturaciones con LN a 2L, afebril.\nPortadora de VP 18G en ESI per\nmeable, se canaliza nueva VP 22G y se cursa analítica de central + hemoc\nultivos + orina.\nPortadora de SV permeable.\nPaciente se traslada a I09\n.2. Fecha: JJJ\naloración corta estancia Responsable identificación positiva del paci\nente: Doble check (dos profesionales)\n¿En el momento del ingreso el pac\niente lleva pulsera identificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco):\nJJJJJJ(JJJ)\n¿La persona de contact\no corresponde con el cuidador?: No\nProcedencia del paciente antes del i\nngreso hospitalario: Centro sociosanitario\nMotivo ingreso y procedencia interna:\nHipercalcemia grave, Hiperglicemia\nAlergias: No\nAntecedente\ns medico-quirúrgicos:\n.\n¿Sufre alguna enfermedad crónica?: Insuficienc\nia cardíaca, Otras enfermedades crónicas, Insuficiencia renal crónica\nD\néficit de autocuidado: Higiene, Alimentación, WC, Movilización, Vestido Puntuación escala Barthel al ingreso: 0-Dependiente\nTipo de respiració\nn: Eupneico\nValor frecuencia respiratoria: 19 resp/min\nSaturación O2:\n96 %\nValor Presión Arterial sistólica: 102 mm Hg\nValor Presión Arteria\nl diastólica: 52 mm Hg\nValor frecuencia cardíaca: 89 lpm\nRitmo deposic\nional:\n.\nIncontinencia urinaria: Sí\nPuntuación escala Downton: 3-Ries\ngo alto\n¿Alteración de la integridad de piel y mucosas al ingresar?: No Coloración de la piel: Normocoloreada\nCaracterísticas de la piel: Frá\ngil\nPuntuación escala Braden: 11-Riesgo alto\nTemperatura axilar: 37.1\nºC\nEstado de la consciencia: Responde al dolor\nOrientación: No\n¿Tiene dolor al ingreso?: Sí\nPuntuación escala EVN: 0\nPuntuación escala dete\ncción depresión PHQ-2: 20-No valorable\n¿Fuma actualmente?: No\n¿Usted b\nebe de forma habitual?: No contesta Fecha: JJJ\nJJJ Paciente que ingresa de la PUR3\nNRL: Responde al dolor, PINR, GCS\n: 9. EVA no valorable, se aprecian signos de dolor, administro analgesia según pauta. HDM: Inestable, en FA, se aprecia algún EV. Hipotensa (8\n/4), se administran 2 cargas de SF de 500 cc con lo que remonta a 10/5,\nse avisa a MG. Febricular, se administra Paracetamol PRN.\nRESP: Eupneic\na con LN 3lpm manteniendo buenas saturaciones. DIG: FAMIS + STP\nELIM: Portadora de SV permeable. Diuresis escasas, orina clara. No realiza de\nposición. DISP: CVP ESI 18G + CVP ESI 22G\nRealizo ECG de control + fr\notis nasal y rectal, pdte de cursar. Pdte: - Cursar quantiferón - @ mañana\n- Gasometría de control",
+  "text_length": 3434,
+  "anonymized_count": 16,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

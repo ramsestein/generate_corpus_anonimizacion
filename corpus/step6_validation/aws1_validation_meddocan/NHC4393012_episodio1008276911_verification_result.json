@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4393012_episodio1008276911",
+  "success": true,
+  "anonymized_text": "JJJ\naciente acude a ucies por disnea.\nRefiere alergia al acido acetil salic\nilico.\nA su llegada al box C, O, hipoTA, afebril, sin algias. Portador\nde VMK 28% spO2 100%. Refiere dolor 8/10 toracico al movimiento.\nIdenti\nficamos pertenencias en bolsa debajo la camilla. Portador de pulsera ide\nntificativa.\nCanalizamos CVP, cursamos analítica ucies, ECG. JJJ\nacient C i O, hdm estable, saturacions mantingudes amb VMK a 28%, afebri\nl.\nEs realitza frotis del covid19 i grip, Rx de tòrax i gasometria arte\nrial amb fiO2 28%.\nA les JJJ es realitza angioTAC pulmonar per sospit\na de TEP, pendent de resultat. JJJ\nOTA DE NEUMOLOGÍA: 1.- Insuficiencia respiratoria aguda\n2.- NIU en c\nontrol clínico por Neumología (no tratamiento activo)\n3.- Sospecha de T\nEP (por D dimero elevado y troponinas)\n4.- A descartar infección respir\natoria leucocitosis y aumento de reactantes de fase aguda (solicitado vi\nrus y se pauta ceftriaxona) Acude por cuadro de disnea progresiva con el esfuerzo asociado a dolor centro torácico en los últimos días . Al c\nonsultar al ambulatorio se ha detectado saturacion basal a 88% motivo po\nr el que es trasladado a urgencias en ambulancia. VKM al 28 % 4lpm Sa\nO2 93 %. Auscultación pulmonar con hipofonesis global y crepitantes esca\nsos bibasales. Analítica:\nProteïna C reactiva (PCR) 18.63/A mg/dL\nT\nroponina I d&apos;alta sensibilitat urgent 49.5/A ng/L Rx de tórax:\ninfil\ntrado intersticial bilateral predominio izquierdo (como previos)\nECG: R\nS eje desviado a la izquierda descenso del ST en la cara lateral sugiere sobrecarga TACAR/AngioTAC:\n- No se observa TEP.\n- Neumopatía inter\nsticial con patrón de NIU conocida, en la que destaca\naparición de área\ns en vidrio deslustrado que sugieren su exacerbación. PCR COVID-19: i\nndetectable. Se mantiene corticoterapia. Ingresa a cargo de NMO si\nn disponibilidad de camas actualmente en nuestro servicio. JJJ\naciente consciente y orientado. HDM estable, afebril. Disnea a mínimos e\nsfuerzos. Saturaciones 93% con VK al 28% y 4l.\nQueda en observación. Se traslada a JJJ.",
+  "text_length": 2037,
+  "anonymized_count": 6,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

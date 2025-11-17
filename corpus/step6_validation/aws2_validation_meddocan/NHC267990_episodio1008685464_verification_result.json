@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC267990_episodio1008685464",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nRL TRIAJE: JJJ de JJJ, con antecedentes de HTA en tratamiento con\nenalapril y DM2 en tratamiento con metformina. Es independiente para act\nividades básicas e instrumentales de la vida diaria (mRS 0). El JJJ, a las JJJ, mientras estaba en el coche como copiloto, la pacie\nnte presenta un cuadro de instauración súbita de alteración de la emisió\nn del lenguaje (&quot;sabía lo que quería decir, pero no me salía&quot;), sin otra focalidad asociada, que se autolimitó a los 15 minutos. Por este motivo\n, acude a urgencias de nuestro centro. A mi valoración, la paciente s\ne encuentra vigil y orientada en persona, espacio y tiempo. obedece órde\nnes simples. Lenguaje normofluente sin afasia ni disartria. Posición pri\nmaria de la mirada centrada sin limitaciones a la excursión visual. Camp\nimetría por confrontación sin déficits. No paresia facial. Balance motor conservado. No alteraciones de la sensibilidad. No dismetrías, extincio\nnes ni negligencias. Se trata de un cuadro de afasia autolimitada en\nuna paciente con factores de riesgo vascular. Por ausencia de focalidad\nneurológica en el momento actual, se desestima activación de código ictu\ns y se deriva a circuito habitual de urgencias para completar el estudio con A/S con hemostasia, ECG y TC craneal basal. Fecha: JJJ\nPacient acut a urgències per episodi d&apos;afàsia aquest matí que s&apos;autolimi\nta. Es repeteix episodi sobtat mentre es troba a la sala d&apos;espera. AP: D\nMII, HTA. C i O. A l&apos;arribada afebril, HDM estable. Valorada per medicin\na. Es comenta amb NRL i es descarta codi ICTUS actiu. Es cursa analítica\n, es canalitza CVP. Es realitza EKG + Rx. Pd TAC. Fecha: JJJ\nou episodi d&apos;afàsia. Es contacta amb NRL, passa a valorar-la. S&apos;activa C\nodi ICTUS. Es canalitza 2a via IV. S&apos;emporten pacient al TAC. Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\nJJJ, JJJ, JJJ\n¿La persona de contacto corresponde con el\ncuidador?: Sí\nProcedencia del paciente antes del ingreso hospitalario:\nDomicilio\nMotivo ingreso y procedencia interna:\nPaciente de JJJ qu\ne ingres en Unidad de Ictus por alteración de la emisión del lenguaje qu\ne se orienta diagnostico como ictus isquémico ACMI.\n¿Sufre alguna enfer\nmedad crónica?: Otras enfermedades crónicas, Diabetes, Dislipemia, Hiper\ntensión\nEspecificar otras enfermedades crónicas:\nDM tipo II, osteoporo\nsi, esteatosi hepatica\nDéficit de autocuidado: Higiene\nAlergias: No\n¿\nFuma actualmente?: No\n¿Tiene problemas de visión?: Sí\nDispositivos ocu\nlares: Gafas\nEstado de la consciencia: Alerta\nOrientación: Sí\nPuntuac\nión escala Glasgow: 15-Leve\nModalidad acceso vía aérea: Natural\nTipo d\ne respiración: Eupneico\nSaturación O2: 99 %\nValor Presión Arterial sis\ntólica: 132 mm Hg\nValor Presión Arterial diastólica: 74 mm Hg\nValor Fr\necuencia cardíaca: 86 lpm\nMicción espontánea: Sí\nRitmo deposicional: regular\n¿Alteración de la integridad de piel y mucosas al ingresar?: No Coloración de la piel: Normocoloreada\nPuntuación escala Braden: 17-Ri\nesgo bajo\nTemperatura axilar: 35.8 ºC\n¿Tiene dolor al ingreso?: No\nPu\nntuación escala EVN: 0\nPuntuación escala Downton: 1-Riesgo bajo Fecha: JJJ\nacient conscient i orientada en les tres esferes. NRL nomina 5/5, obeeix ordres simples i complexes. NIHSS:0 GCS:15.\nHDM estable i afebril. Eup\nneica en basal. No refereix algies.\nPortadora de perfusió HeparinaNa a\n33ml/h, realitzem control de les JJJ, segons resultat, augmentem velocit\nat a 38ml/h. Pròxim control a la JJJ.\nEs manté a famis+STP. Donem med\nicació amb aigua ben tolerat. Hiperglicèmia 166mg/dl controlat amb IR. P\ndt pautar SG.\nDoble continent. Diurèsis a cunya. Ultima deposició:JJJ. Es manté en repòs al llit.",
+  "text_length": 3833,
+  "anonymized_count": 16,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

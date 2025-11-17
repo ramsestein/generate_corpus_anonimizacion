@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5252647_episodio1008441090",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nLa pacient expressa que s' ho vol pensar. Dic que clarament la nostre recomanació és IQx per risc matern. Està la parella. Explico el perill matern, imprevisible. Qx previst per les JJJ (per respectar dejú). Fecha: JJJ\naloración obstétrica Responsable identificación positiva del paciente\n: Paciente\nSe le coloca pulsera: Sí\nAviso:: Es de obligado cumplimient\no que el paciente lleve pulsera identificativa.\nComprobación identifica\nción madre-recién nacido: No procede\nProcedencia del paciente antes del ingreso hospitalario: Domicilio\nMotivo ingreso y procedencia interna: Láparo\nAlergias: No\nValor Presión Arterial sistólica: 102 mm Hg\nValo\nr Presión Arterial diastólica: 62 mm Hg\nValor frecuencia cardíaca: 72 l\npm\nTemperatura axilar: 36.2 ºC\nTipo de paciente: Puérpera\nPuntuación\nescala EVN: 1 Fecha: JJJ\ne pauta gammaglobulina anti-D (Rh negativo). Fecha: JJJ\naciente que ingresa tras laparoscopia. A su llegada; ctes. correctas, co\nn tendencia a la hta. Afebril. Algias controladas con analgesia pautad\na. Se retira SV a las JJJ. Inicia dieta hídrica, bien tolerada. Apósitos HQ limpios. Fecha: JJJ\nh. Ingresa paciente procedente de UCOI tras laparoscópia. Constantes e\nstables. Afebril.\nAlgias controladas. Apósitos limpios.\nInicia dieta\n, buena tolerancia. Pendiente realizar primera micción.\nSe administra gammaglobulina anti-D según pauta. Fecha: JJJ\nealiza primera micción. Pte movilizar. Fecha: JJJ\naciente con tendencia a la hipotensión, sin sintomatologia. Afebril. Alg\nias controladas con analgesia de pauta. Revisada por ginecología de sa\nla, retira apósitos. Heridas con buen aspecto. Fecha: JJJ\nalpinguectomía izquierda LPS +1 (GEU tubárica). Buen estado general. Consciente y orientada. Normohidratada y normocoloreada. Constantes\nvitales: TA 94/64 mmHg, FC 82 lpm, Tª 36.9ºC. Abdomen blando, levemen\nte doloroso a la palpación de forma difusa, sin defensa abdominal. Apósi\ntos quirúrgicos limpios y secos, que se retiran. Buen aspecto de heridas quirúrgicas, no signos de complicación. Tolera ingesta y deambulaci\nón. Micciones espontáneas correctas. Dolor controlado con analgesia paut\nada. Rh negativo. Gammaglobulina anti-D administrada. PLAN:\n- P\nrogresar deambulación e ingesta. - Posible alta a lo largo del día de\nhoy si no incidencias. Fecha: JJJ\nolera deambulación Fecha: JJJ\nipotensión, afebril. No refiere mareos al levantarse. Heridas Q bien. Re\nfiere dolor leve, pero si quiere analgesia.",
+  "text_length": 2432,
+  "anonymized_count": 12,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

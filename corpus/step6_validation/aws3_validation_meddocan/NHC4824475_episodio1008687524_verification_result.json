@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4824475_episodio1008687524",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nC Derivat de JJJ. Refereix dolor toràcic al caminar. A la arri\nbada, en repòs sense dolor.\nPacient c i o, normocolorejada. Portadora d\ne polsera identificativa. Roba identificada a bossa sota llitera. Es mon\nitoritza i es realitza ECG Fecha: JJJ\nendiente realizar AngioTAC. Eva 0/10 Fecha: JJJ\nacient que acut a urgències derivat de JJJ per dolor toràcic or\nientat com a angina inestable. A l'arribada a urgències, conscient i\norientat, amb bon estat general, hemodinàmicament estable, eupneic en ba\nsal. Explica dolor toràcic opressiu que apareix amb l'esforç i cedeix al repòs de JJJ d'evolució que ha anat augmentant progressivament, pre\nsentant-lo de manera diària actualment. A l'auscultació cardíaca present\na tons cardíacs regulars, sense bufs. Auscultació pulmonar MVC sense alt\nres sorolls. Analítica de JJJ amb hemograma i coagulació dins d\ne paràmetres de normalitat, amb troponines de 11 ng/L-->8ng/L. Radiograf\nia de tórax en que no s'observa redistribució vascular, tampoc infiltrat\ns ni condensacions. Electrocardiograma en RS amb PR estret, QRS estret i sense alteracions de la repolarització. Davant la clínica suggestiv\na i l'empitjorament progressiu, s'orienta com una angina inestable i es\ncontacta amb cardiologia que acut a valorar al pacient. Es decideix real\nització de angio-TC de coronaries durant el dia de demà. Ja que prese\nnta estabilitat hemodinàmica, sense presentar dolor toràcic en repòs ni\nsignes d'alt risc (no eleva tnc ni presenta canvis en ecg), passa a JJJ pendent de angio-TC de coronaries demà. Fecha: JJJ\nNOTA VALORACIÓ CARDIOLOGIA: JJJ de JJJ, dubtosa al·lèrgia a AMOX\nICIL·LINA, no tòxics. Natural de JJJ. No FRCV tret d'obesitat. AP d'a\nbscés cerebral IQ JJJ -> crisis epilèptiques secundàries (fenitoïna). T\nVP EIE JJJ. Meningitis neumocòcica JJJ. Consulta a Urgències JJJ per clínica de JJJ d'evolució de molèstia al braç esquerre d'\nhores de duració que després migra a hemitórax esquerre, que apareix tan\nt en esforç com en repòs (també per la nit), i clínica de falta d'aire a\nmb grans esforços. No clar vegetatisme associat ni canvis amb la posició o moviments. Explica surt a caminar, pot caminar 1 km. No palpitacions, no síncope. Darrer episodi JJJ pel que consulta i explica després de >\nJJJ encara persistència de lleu molèstia al braç esquerre. Deriven al no\nstre centre per sectorització. HDE, RS 70 bpm, eupneic en basal SpO2\n98%, afebril. EF AC tons rítmics sense bufs, AR MVC sense sobreafegits,\nno edemes ni IY. ECG sense DT, RS 70 bpm, PR en rang, QRS estret, sen\nse alteracions de la repolarització tret de T neg DIII aïllada. A/S\n(JJJ): Hb 14. Cr 0.7, FG >90, ions en rang. TnT 11 ng/L, corba n\negativa. NTproBNP 220. Ecoscòpia a peu de llit amb VE no dilatat, lle\nugerament hipertròfic, motilitat global normal sense segmentarismes, FEV\nE 55%. VD no dilatat amb motilitat normal. Sense valvulopaties significa\ntives. VCI no dilatada amb col·lapse inspiratori. Sense vessament pericà\nrdic; greix epicàrdic circunferencial. JC/ Dolor toràcic amb algunes característiques atípiques en pacient jove sense FRCV. PLA: Recomane\nm estudi amb angioTC coronàries. Reclamar JJJ al JJJ. Per la no\nstra part no requereix monitorització. Reconsultar segons resultats. Fecha: JJJ\nT PUR3: Pacient CiO, HDME. Comenta lleuger dolor a ESE, dolor sense canv\nis des de ingrés a ucies. Afebril. Es cursa @ucies. Es manté monitoritza\nt fins a les JJJ que es trasllada a JJJ.",
+  "text_length": 3429,
+  "anonymized_count": 25,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

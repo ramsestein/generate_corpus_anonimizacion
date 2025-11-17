@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4347954_episodio1008684833",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nacient que ve a urgències per pèrdua de consciència en domicili amb caig\nuda.\nA la seva arribada bradipsíquica, orientada.\nRetirem pròtesis den\ntal superior i inferior.\nPortadora d&apos;audífon en orella esquerra. Cana\nlitzem vies perifèriques calibre 18 i 20 en avantabraços, es cursa analí\ntica de sang + reserva + equilibri: Lactat de 61.\nRealitza 1 vòmit escà\ns biliós, administro Metoclopramida.\nRealitzo sondatge vesical calibre\n16, anúria, pendent d&apos;urinocultiu + sediment.\nHipotensió mantinguda, ad\nministrem 2 càrregues de SF i 1 càrrega de Ringer.\nAdministro Pipertazo\n.\nCurso POC amb molt lleugera milloria en lactat.\nEs cursan HHCC + res\nerva.\nSe li realitza TAC on s&apos;observa lessions hepàtiques amb sagnat ac\ntiu.\nEs trasllada directament a Box aturs, sol·licito a banc de sang CC\nHH i que els portin urgentment al box d&apos;aturs. Fecha: JJJ\nos avisan para valorar a esta paciente que acude por Shock de origen hem\norrágico. La paciente presenta VHC de larga evolución no tratado. En TAc de urgencias se objetivan LOES hepáticas que en contexto clinico y radi\nológico podría tratarse de HCC, una de ellas en SVI sugestivo de hemorra\ngia activa. Se contacta con DIVAS y se solicita embolización. Fecha: JJJ\ne realizan varios intentos de colocación de SNG siendo imposible. Se d\necide stop. Se envía a DIVAS para embolización. Fecha: JJJ\nSe realiza arteriografía visceral digestiva + embolización mediante punción femoral derecha + anestesia local + sedación y vigilancia anestésica sin complicaciones. Se deja introductor 5Fr en ARTERIA femoral DERECHA fijado con punto de seda + apósito estéril por OM. Fin de procedimiento a las JJJ. Fecha: JJJ\naciente consciente y orientada en las 3 esferas con episodios de confusi\nón. Mobiliza 4EE, obedece órdenes. Algias controladas con pauta analgési\nca. HDM estable con NAD x2 fluctuante. ECG en TS, a las JJJ realiza un\na taquicardia de 150lpm, se administra bolus de 150mg de Amiodarona + EC\nG de 12 derivaciones, se revierte hasta 90lpm. Afebril. Se administra Fi\nbrinógeno POM. Eupneica con LN 1lx&apos;, saturaciones mantenidas. FAMIS\n+ STP. Glicemias correctas. Diuresis escasas por SV. No depos. Fecha: JJJ\naloración corta estancia Responsable identificación positiva del paci\nente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera ide\nntificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco)\n:\nJJJ JJJ JJJ\n¿La persona de contacto corresponde con el c\nuidador?: Sí\nProcedencia del paciente antes del ingreso hospitalario: O\ntro hospital\nMotivo ingreso y procedencia interna:\nve a URG per mareig\n+ hipoTA.\nAlergias: No\nAntecedentes medico-quirúrgicos:\nHTA, Hepatiti\ns Crónica por VHC,litiasis biliar,quistes de mama,plaquetopenia crónica\ny hipoacúsia.\n¿Sufre alguna enfermedad crónica?: Hipertensión\n¿Tiene p\nroblemas de oído?: Sí\nDéficit de autocuidado: Alimentación, WC, Higiene\n, Movilización, Vestido\nPuntuación escala Barthel al ingreso: 60-Depend\nencia leve\nTipo de respiración: Eupneico\nValor frecuencia respiratoria\n: 15 resp/min\nSaturación O2: 100 %\nDispositivo para administrar oxígen\no en respiración espontánea: Lentillas nasales\nLitros/minuto: 1 L/min Valor Presión Arterial sistólica: 153 mm Hg\nValor Presión Arterial dias\ntólica: 134 mm Hg\nValor frecuencia cardíaca: 71 lpm\nRitmo cardíaco: Rí\ntmico\nRitmo deposicional:\n1\nPuntuación escala Downton: 4-Riesgo alto ¿Alteración de la integridad de piel y mucosas al ingresar?: Sí\nColora\nción de la piel: Normocoloreada\nCaracterísticas de la piel: Frágil\nPun\ntuación escala Braden: 18-Riesgo bajo\nTemperatura axilar: 35.4 ºC\nEsta\ndo de la consciencia: Alerta\n¿Tiene dolor al ingreso?: No\nPuntuación e\nscala EVN: 0-No hay dolor\nPuntuación escala detección depresión PHQ-2:\n20-No valorable\n¿Fuma actualmente?: No\n¿Usted bebe de forma habitual?: No",
+  "text_length": 3817,
+  "anonymized_count": 11,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

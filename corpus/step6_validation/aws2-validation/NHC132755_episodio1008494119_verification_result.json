@@ -1,0 +1,314 @@
+{
+  "document_id": "NHC132755_episodio1008494119",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nacient que es traslladat com a Codi Ictus per hemiparesia dreta i altera\nció de la emissió del llenguatge al despertar. AP: HTA, FA (Lixiana), Es\ntenosis carotídea, DLP, Artrosis, Obesitat, SAOS+CPAP, Litiasis renal. Es realitza TC craneal que mostra Hematoma de Ganglis basals esquerres. A l'arribada pacient nauseós i amb vómits, HDM amb tendencia a estar hi\npertens, afebril. PANR. Diuresis amb molt bona resposta a furo. A nivell motor mobilitació de ESD amb espasmes. PF de Urapidil en descens per\nordre mèdica. Pendent trasllat I064. Fecha: JJJ\nacient conscient, confós. Mutista.\nHDM amb TAM 80-90mmHg amb BIC Urapid\nil [1] a 9ml/h.\nAfebril, eupneic amb UN2lx'.\nSV permeable, diüresis co\nrrecte.\nEs trasllada a I064. Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\nJJJ JJJ, JJJ\n¿La persona de contacto corresponde co\nn el cuidador?: Sí\nProcedencia del paciente antes del ingreso hospitala\nrio: Domicilio\nMotivo ingreso y procedencia interna:\nPaciente de JJJ que ingresa en Unidad de Ictus por hemiparesia derecha y alteración d\ne la emisión del lenguaje que se orienta como hematoma de ganglios basal\nes izquierdo.\n¿Sufre alguna enfermedad crónica?: Otras enfermedades cró\nnicas, Hipertensión\nEspecificar otras enfermedades crónicas:\nHTA, FA , Estenosis carotídea, DLP, Artrosis, Obesidadt, SAOS+CPAP, Litiasis rena\nl, Exfumador, enol diario (1 UBE/día), angiodisplasias con anemia\nDéfic\nit de autocuidado: Higiene, Movilización, Alimentación\nAlergias: Sí\nEs\npecificar alergias:\nAmoxicilina\n¿Fuma actualmente?: No\nExfumador: Sí ¿Usted bebe de forma habitual?: Sí\n¿Tiene problemas de visión?: Sí\nDi\nspositivos oculares: Gafas\n¿Lleva puesto el dispositivo ocular?: No\n¿Q\nuién tiene la custodia del dispositivo ocular?: JJJ\n¿Tiene pr\noblemas de oído?: Sí\nDispositivos auditivos: Audífono\n¿Lleva puesto el dispositivo auditivo?: No\n¿Quién tiene la custodia del dispositivo aud\nitivo?: JJJ\nEstado de la consciencia: Confuso\nOrientación: N\no\nPuntuación escala Glasgow: 9-Moderado\nModalidad acceso vía aérea: Na\ntural\nTipo de respiración: Eupneico\nValor frecuencia respiratoria: 19\nresp/min\nSaturación O2: 96 %\nDispositivo para administrar oxígeno en r\nespiración espontánea: Lentillas nasales\nLitros/minuto: 2 L/min\nValor\nPresión Arterial sistólica: 161 mm Hg\nValor Presión Arterial diastólica\n: 92 mm Hg\nValor Frecuencia cardíaca: 97 lpm\nMicción espontánea: Sí\nR\nitmo deposicional:\ndesconegut\nPrótesis dental: Sí\n¿Alteración de la i\nntegridad de piel y mucosas al ingresar?: No\nColoración de la piel: Nor\nmocoloreada\nCaracterísticas de la piel: Frágil\nPuntuación escala Brade\nn: 13-Riesgo moderado\nTemperatura axilar: 35 ºC\n¿Tiene dolor al ingres\no?: No\nPuntuación escala EVN: 0-No hay dolor\nPuntuación escala Downton\n: 5-Riesgo alto Fecha: JJJ\nacient conscient i alerta a estimuls verbals. Tendencia a la somnolencia\n. NRL no obeeix ordres simples ni complexes, preferencia visual a la E,\nreflexe d'amenaça D abolit, hemiparesia f-b-c D, mutista i afasia global\n.\nHDM ritme en FA amb alguna extrasistole. Manté hipertensió, portador\nde perfusió de Urapidil a 9ml/h. Afebril. No fascie de dolor. Portador d\ne LN a 2lx' amb SatO2 correctes.\nFamis+STP. Realitzem test MECV-V toler\na textura pudding a petites quantitats, donem medicació. Revalorar per l\nogopeda.\nDiurèsis mantingudes per SV. No realitza deposició.\nRepòs al\nllit. Realitzem canvis posturals. Portador de contenció de mà E per risc d'extracció de dispositius.\nRealitzat ECG ingrès.",
+  "text_length": 3636,
+  "anonymized_count": 10,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 4,
+    "entities": [
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.9996920824050903,
+        "word": " I",
+        "start": 545,
+        "end": 546,
+        "chunk_id": 0,
+        "model": "CARMEN",
+        "actual_text": "I",
+        "is_j_only": false
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.9934728741645813,
+        "word": "064",
+        "start": 546,
+        "end": 549,
+        "chunk_id": 0,
+        "model": "CARMEN",
+        "actual_text": "064",
+        "is_j_only": false
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.99968421459198,
+        "word": " I",
+        "start": 728,
+        "end": 729,
+        "chunk_id": 0,
+        "model": "CARMEN",
+        "actual_text": "I",
+        "is_j_only": false
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.9945042133331299,
+        "word": "064",
+        "start": 729,
+        "end": 732,
+        "chunk_id": 0,
+        "model": "CARMEN",
+        "actual_text": "064",
+        "is_j_only": false
+      }
+    ],
+    "analysis": {
+      "total_entities": 4,
+      "j_only_count": 0,
+      "non_j_count": 4,
+      "entities_by_label": {
+        "NUMERO_IDENTIF": 4
+      },
+      "entities_by_confidence": {
+        "high": 4,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " I",
+          "actual_text": "I",
+          "confidence": 0.9996920824050903,
+          "start": 545,
+          "end": 546,
+          "model": "CARMEN",
+          "is_j_only": false
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": "064",
+          "actual_text": "064",
+          "confidence": 0.9934728741645813,
+          "start": 546,
+          "end": 549,
+          "model": "CARMEN",
+          "is_j_only": false
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " I",
+          "actual_text": "I",
+          "confidence": 0.99968421459198,
+          "start": 728,
+          "end": 729,
+          "model": "CARMEN",
+          "is_j_only": false
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": "064",
+          "actual_text": "064",
+          "confidence": 0.9945042133331299,
+          "start": 729,
+          "end": 732,
+          "model": "CARMEN",
+          "is_j_only": false
+        }
+      ],
+      "anon_token_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " I",
+          "actual_text": "I",
+          "confidence": 0.9996920824050903,
+          "start": 545,
+          "end": 546,
+          "model": "CARMEN",
+          "is_j_only": false
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": "064",
+          "actual_text": "064",
+          "confidence": 0.9934728741645813,
+          "start": 546,
+          "end": 549,
+          "model": "CARMEN",
+          "is_j_only": false
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " I",
+          "actual_text": "I",
+          "confidence": 0.99968421459198,
+          "start": 728,
+          "end": 729,
+          "model": "CARMEN",
+          "is_j_only": false
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": "064",
+          "actual_text": "064",
+          "confidence": 0.9945042133331299,
+          "start": 729,
+          "end": 732,
+          "model": "CARMEN",
+          "is_j_only": false
+        }
+      ],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "j_only_count": 0,
+    "non_j_count": 4,
+    "entities_by_label": {
+      "NUMERO_IDENTIF": 4
+    },
+    "entities_by_confidence": {
+      "high": 4,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " I",
+        "actual_text": "I",
+        "confidence": 0.9996920824050903,
+        "start": 545,
+        "end": 546,
+        "model": "CARMEN",
+        "is_j_only": false
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": "064",
+        "actual_text": "064",
+        "confidence": 0.9934728741645813,
+        "start": 546,
+        "end": 549,
+        "model": "CARMEN",
+        "is_j_only": false
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " I",
+        "actual_text": "I",
+        "confidence": 0.99968421459198,
+        "start": 728,
+        "end": 729,
+        "model": "CARMEN",
+        "is_j_only": false
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": "064",
+        "actual_text": "064",
+        "confidence": 0.9945042133331299,
+        "start": 729,
+        "end": 732,
+        "model": "CARMEN",
+        "is_j_only": false
+      }
+    ],
+    "anon_token_detections": [],
+    "other_detections": [
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " I",
+        "actual_text": "I",
+        "confidence": 0.9996920824050903,
+        "start": 545,
+        "end": 546,
+        "model": "CARMEN",
+        "is_j_only": false
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": "064",
+        "actual_text": "064",
+        "confidence": 0.9934728741645813,
+        "start": 546,
+        "end": 549,
+        "model": "CARMEN",
+        "is_j_only": false
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " I",
+        "actual_text": "I",
+        "confidence": 0.99968421459198,
+        "start": 728,
+        "end": 729,
+        "model": "CARMEN",
+        "is_j_only": false
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": "064",
+        "actual_text": "064",
+        "confidence": 0.9945042133331299,
+        "start": 729,
+        "end": 732,
+        "model": "CARMEN",
+        "is_j_only": false
+      }
+    ],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "anon_token_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "NUMERO_IDENTIF",
+        "text": " I",
+        "confidence": 0.9996920824050903,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "text": "064",
+        "confidence": 0.9934728741645813,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "text": " I",
+        "confidence": 0.99968421459198,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "text": "064",
+        "confidence": 0.9945042133331299,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 4
+  }
+}

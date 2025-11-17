@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4974076_episodio1008545695",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nubo desde consulta 24 para explicar circuito Exitus fetal. Explico ad\nministración de medicación. Ella esta preocupada por si tendrá dolor. Do\ny mensaje tranquilizador y que pida medicación cuando necesite. Dese\na ver al bebé (si esta muy mal poner en una talla). No desea que su fami\nlia este con ella cuando salga el feto. Desea la bolsita de recuerdo. Quiere la autopsia y que se haga cargo el JJJ del feto. Explico que la llamaremos en JJJ. La visita tendria que ser pres\nencial pero ella me comenta que quiere irse fuera unos dias. Recomiendo\nque se quede al menos JJJ por si hay alguna complicación. Fecha: JJJ\nARTOGRAMA:\nData/hora actuació: JJJ Comentaris: Ingre\nsa gestante de JJJ por exitus fetal. No acompañada. Constantes mantenida\ns. Se canaliza VVP en ESI. Se cursa analítica sanguínea. Se explica proc\neso y se resuelven dudas. Triste, se realiza acompañamiento emocional. P\nasa trabajadora social y enfermera de soporte al duelo perinatal. Desea\nver al feto y caja de recuerdos. Portadora de bomba elastómera. Se admi\nnistra mifepristona 200mg VO y se coloca 800 misos vaginales. Fecha: JJJ\nARTOGRAMA:\nFecha/hora actuación: JJJ\nDilatación: 3 Comentarios: Avisa gestante por sangrado vaginal. TV: cx rígido, borrad\no, se palpa bolsa en vagina, se realizan pujos. No se palpan partes feta\nles. Dolor controlado con bomba elástomera. Fecha: JJJ\nARTOGRAMA:\nFecha/hora actuación: JJJ Comentarios: Av\nisa gestante por presión. Se objetiva bolsa en introito con feto dentro. Se realizan pujos dirigidos y se presencia salida de placenta en bloque a las JJJ Fecha: JJJ\nARTOGRAMA:\nFecha/hora actuación: JJJ Comentarios: PO\nSTPARTO: Buen estado general. Constantes mantenidas, afebril. Realiza\nmicción espontanea en WC. Buena tolerancia oral, ingesta de líquido y so\nlido. Sangrado vaginal controlado. No refiere dolor. Acompañada. Alta\na domicilio. Fecha: JJJ\ne asiste a parto vaginal el JJJ a las JJJ. Sexo masculino, peso: 28 gramos. Peso de placenta: 18 gramos.\nAlteraciones macroscópicas:\nsno.\nNace vivo: no (JJJ según FUR x eco) Entierro: no obl\nigatorio\nEntierro de beneficencia: pendiente de decidir\nEntierro priva\ndo: no\nNecropsia: si\nResonancia: no\nVen al feto: si\nCaja de recuerdo\n: si\nCabergolina: no\nAntiD: no",
+  "text_length": 2238,
+  "anonymized_count": 18,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

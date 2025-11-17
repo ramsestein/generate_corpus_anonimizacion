@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4225177_episodio1008422043",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nC: disnea en reposo que empeora en supino\nSaturacion basal en domicilio 85-87%. A su llegada al box SP02 96% con VMK al 26%\nC y O, no algias Pruebas: a/s 3 tubos + Rx tx Fecha: JJJ\nMO\nJJJ, JJJ con CTEPH en inicio de tto con Riociguat 1mg/8h desde el JJJ.\nAdemás focos consolidativos de aspecto infeccioso valorad\nos por TAC durante ingreso reciente, pdte de resultados de micro. ERC co\nn dialisi peritoneal domiciliaria.\nActualmente ingresa por disnea y des\naturación en domicilio hasta 83% en basal.\nPrevio al alta y post inicio de Riociguat y FBS presentó desaturación.\nEstando en casa refiere orto\npnea e incremento de disnea, sin fiebre, tos o expectoración.\nA su lleg\nada URG PaO2 60 con LN. Rx de tórax sin cambios respecto a previas.\nAna\nlítica con PCR en 3, Hb estable y función renal con aumento de Cr (5->7) e hiponatremia (129). Además, ProBNP 5900 (1000 puntos más que previo a\nl alta)\nECG en urgencias con FC en 90 lpm, aprox con presencia de \"p\" d\ne diferentes morfologias disociadas de la frecuencia ventricular, valora\ndo por URG como BAVc, pdte de valoración por CAR.\nA nuestra impresión,\nse trata de una insuficiencia respiratoria aguda por congestión pulmonar probablemente secundaria al inicio de tto con riociguat y agravada por\ndeterioro de la función renal. El ritmo del ECG puede corresponder con u\nna arritmia auricular multifocal.\nPlan:\nIngreso a cargo de NMO, si car\ndio descarta patología subyacente\nSuspendemos riociguat\nTto deplectivo + sesión de HD peritoneal hoy\nControl evolutivo Fecha: JJJ\naciente C y O. Hmd estable. Cursamos analitica sangre + frotis virus\nrespiratotio + ECG. Saturacion basal a 90%,(tras 20 min sin O2) coloc\namos GN 2lx' y cursamos gasometria arterial. Tras valoracion de ECG co\nlocamos monitor por posible bloqueo. Valorado por cardio. Pendiente de resultados y valoracion de cardiio Fecha: JJJ\naciente CyO, tranquilo y colaborador. Disnea a mínimos esfuerzos. Ctes m\nantenidas, Desmonitorizo por orden médica. Portador de VMK al 24% 2 lx´. Micciones en botella. Instauro vía periférica por extravasación de la a\nnterior. Fecha: JJJ\ne procede a realizar traslado a planta JJJ.",
+  "text_length": 2143,
+  "anonymized_count": 9,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC526243_episodio1008569286",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nNOTA NEFROLOGÍA* JJJ de JJJ, independiente para ABVD, pluripato\nlógico: DM2 (retinopatía 'JJJ), HTA, IC-FEVIp (seguimiento CAR, etiología valvular: IT masiva con disfunción VD, FEVI 50%, no HTP), ACxFA (apixab\nan), ERC-G4 (seguimiento ERCA, Cr basal 2,2-2,5). Ingresado en JJJ por d\nescompensación cardíaca secundaria a sepsis cutánea (úlcera cutánea con\nE. coli + MRSA) además UC con E. faecalis y P. aeruginosa + HC positivo\npara S. agalactiae; concomitantemente presenta FRA con Cr 5 con oligoanu\nria asociada y acidemia secundaria y episodio de oclusión colónica (valo\nrado por CGI que descarta patología aguda tras TC y portador de sonda re\nctal). Se traslada a nuestro centro previa aceptación. A su llegada a UCIAS, HDE, taquicardia entorno 120, afebril y eupneico con LN 2L/min y SaO2 96%. EF con edemas hasta raíz de miembros ++/++ de aspecto crónico\n, herida en EII con signos flogóticos, abdomen distendido con RHA ausent\nes y dolor con defensa a la palpación generalizada. MVC con hipofonesis\nbibasal y crepitantes en base izquierda. - Ecografía a pie de cama c\non ausencia de líneas B, no derrame pleural ni pericárdico, VCI 1,8cm co\nn colapso >50%. - Rx tórax mal inspirada con aparente pinzamiento de s\neno costofrénico izquierdo. - AS con elevación de RFA con PCR 41, proc\nalcitonina 5.5 y leucocitosis 28.000 (99% neutros), plaquetas 393.000. C\nr 5,48, Na 140, hipoK 2,5. NT-proBNP 39.000. Lactato 5.5. Hb 8,3 y Hto 2\n7%. Perfil hepático con colestasis disociada. - Orina con SO patológic\no con hematuria 20-35, leucos 10-20, abundante bacteriuria. OD/ seps\nis de probable foco abdominal no controlado (elevación de RFA y MEG a pe\nsar de antibioterapia amplio espectro) con FRA secundario en paciente co\nn cardiopatía derecha de larga data. Por ahora, no urgencia dialítica. P:\n- Solicito Rx abdominal. Con ello, contactaré con CGI para valora\nr abdomen. - Solicito frotis úlcera, UC, HC en frío y coprocultivo con toxina. Mantengo cobertura ATB (dosifico linezolid ante FRA)\n- Bolu 12\n0mg furosemida con posterior 40mg/6h. Pendiente pautar fluidoterapia. Fecha: JJJ\nC: Derivado de JJJ tras ingreso por sepsis a focos múltiples + ICC + d\nerrame pleural + IRC + FA. Con deterioro progresivo de la función real + alteración AS (creatinina, urea, k)\nAP: DM2, HTA, Hipertrigliceridemia\n, ICC, ACxFA, IVC, osteartrosis, IRC. A su llegada C i O. TA correcta\n, presenta taquicardia de 110, afebril, eupneic amb UN 2lx'.\nPortador d\ne SV permeable amb hematúría + sonda rectal permeable d'asepcte mocós +\nCVP permeable. Curso AS + RX + sedimento de orina + urinocultivo + cop\nrocultivo + hemocultivo + frotis de la UPP. Administro PCM ev + medica\nción s/pauta. Pte SCA + resultats probes.",
+  "text_length": 2707,
+  "anonymized_count": 7,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

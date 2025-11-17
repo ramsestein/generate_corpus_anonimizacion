@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5045418_episodio1008248738",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\nPaciente trasladado de JJJ por TCE.\nMC: hematoma subdural y foco de HS\nA\nAP: Síndrome ansioso-depresivo\nNo AMC\nA: vía aérea permeable\nB: Eupneico sin soporte de O2\nC: HDM estable, afebril, pulso radial presente, no palidez ni sudoración relleno capilar inferior a 2 sec\nD: GSC 14 Portador de VP. Canalizamos VP en ESD.\nRealizado SCA Craneal.\nRopa identificada y bajo cama, móvil guardado con etiqueta en la ropa del paciente. Portador pulsera identificativa.\nPte ingreso. Fecha: JJJ\nValoración enfermo crítico Responsable identificación positiva del paciente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera identificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco):\nJJJ (JJJ - JJJ)\n¿La persona de contacto corresponde con el cuidador?: No tiene cuidador\nProcedencia del paciente antes del ingreso hospitalario: Otro hospital\nMotivo ingreso y procedencia interna:\nHematoma subdural + HSA\n¿Sufre alguna enfermedad crónica?: No\nDéficit de autocuidado: Independiente\nAlergias: No\nEstado de la consciencia: Alerta\nPuntuación escala Glasgow: 14-Leve\nModalidad acceso vía aérea: Natural\nValor frecuencia respiratoria: 10 resp/min\nSaturación O2: 96 % Valor Presión Arterial sistólica: 136 mm Hg\nValor Presión Arterial diastólica: 95 mm Hg\nValor Frecuencia cardíaca: 75 lpm\nMicción espontánea: Sí\nRitmo deposicional: No aplica\n¿Alteración de la integridad de piel y mucosas al ingresar?: No\nColoración de la piel: Normocoloreada\nPuntuación escala Braden: 18-Riesgo bajo\nTemperatura axilar: 36.2 ºC\n¿Tiene dolor al ingreso?: Sí\nPuntuación escala EVN: 3-Dolor leve\nPuntuación escala Downton: 4-Riesgo alto Fecha: JJJ\nIngreso que proviene del Box de paro tras TCE. NRL: Paciente C y O pero muy somnoliento. Responde a voz, obedece ordenes, moviliza 4 EE. PINR. Eva 3/4. Se observa hematoma ocular dcho. HDM: Estable sin DVA. ECG en RS. Afebril. RESPI: Eupneico en basal. DIG: FAMIS + STP. No realiza depo. URO: Micciones espontaneas en porrón. Portador de medias neumáticas. JJJ se lleva sus pertenencias (ropa + móvil) PTE TAC control JJJ Fecha: JJJ\n1. TCE LEVE (GCS 14) 1.1 Hematoma epidural temporal anterior derecho asociado a fractura de hueso esfenoidal. 1.2 Hematoma subdural laminar contralateral + foco de contusión hemorrágicatemporobasal izq y focos de hemorragia subaracnoidea. Paciente estable. Hemodinámicamente estable, respiratoriamente eupneico SpO2 100% con LN. Neurológicamente consciente y orientado, PICNR, fuerza conservada en las 4 extremidades, sin focalidad neurológica. A/S función renal correcta, iones ok, Hb 13.7. Se solicita TC de control. PLAN: vigilancia neurológica. Pendiente realizar TC por la mañana. Fecha: JJJ\nEscalas Puntuación escala Braden: 15-Riesgo moderado\nPuntuación escala Downton: 3-Riesgo alto Fecha: JJJ\nPaciente consciente y orientado, somnoliento. No refiere algias.\nNRL GCS 14-15, PINR, apertura ocular espontanea, moviliza EE. HDM estable sin DVA, ECG en RS, Afebril. Resp eupneico en basal, saturaciones correctas, buena mecánica respiratoria. Expectora él mismo mucosidad con restos hemáticos, se informa a ME guardia. Alim FAMIS con STP de pauta. Realiza micción espontanea en porron de aspecto concentrada. Se le realizan medidas de seguridad y confort.\nRecibe visita JJJ",
+  "text_length": 3259,
+  "anonymized_count": 13,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

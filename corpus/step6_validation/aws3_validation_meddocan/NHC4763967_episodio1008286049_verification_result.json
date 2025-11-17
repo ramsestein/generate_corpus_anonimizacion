@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC4763967_episodio1008286049",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente que acude a Ucias por diarreas y vómitos de 1 dia de evolución , refiere además tener acidez estomacal y febrícula ayer.\nIntervenido de neo de recto hace una semana (JJJ)\nRefiere diarreas sin restos hemá\nticos y dolor que le dificulta la deambulación.\nConsciente y orientado\n, hdm estable , taquicárdico (por nerviosismo refiere) , afebril a su ll\negad (35.5º) , eupneico en basal. Fecha: JJJ\ne canaliza VP20 en MSD , curso analítica sanguínea y se administra analg\nesia Fecha: JJJ\nl pacient marxa al TAC a primer hora del matí i no retrona ja que marxa\na IQ. Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\nPte\n¿La persona de contacto corresponde con el cuidador?: No tiene\ncuidador\nProcedencia del paciente antes del ingreso hospitalario: Domic\nilio\nMotivo ingreso y procedencia interna:\nIX:deshiscencia de sutura d\ne IQ previa + colostomía terminal\n¿Sufre alguna enfermedad crónica?: Hi\npertensión, Otras enfermedades crónicas\nDéficit de autocuidado: Moviliz\nación, Higiene\nAlergias: No\nEstado de la consciencia: Inconsciente\nMo\ndalidad acceso vía aérea: Artificial\nValor Frecuencia cardíaca: 108 lpm Ritmo deposicional:\nDesconocido\n¿Alteración de la integridad de piel y mucosas al ingresar?: Sí\nHeridas: Sí\nColoración de la piel: Normoco\nloreada\nPuntuación escala Braden: 10-Riesgo alto\nTemperatura axilar: 3\n5.5 ºC\n¿Tiene dolor al ingreso?: No\nPuntuación escala EVN: 99-No aplic\na\nPuntuación escala Downton: 5-Riesgo alto Fecha: JJJ\nngreso paciente procedente IQ por Colostomia x deshidencia sutura. NRL Sedoanalgesiado con propofol+remifentanilo, RASS -5. BIS 30-40. PINR. E\nSCID 0.\nHMD estable sin DVA, RS, afebril. RESP TOT+VC bien acoplado.\nFiO2 80%. Se aumenta FR 22 por pCO2 77. PAFI 100. Saturaciones entorno\n90-93%. Escasas secreciones por TOT y boca. FAMIS+STP. SNG en declive\ncon débito fecaolideo. Glicemias corregidas con insulinoterapia. Diure\nsis concentradas por SV. Colostomía buen aspecto. Portador de sonda re\nctal.\nPortador de 2 blakes en succión (hemiabdomen D e Izq), con débito serohemático. Curso analítica + frotis ingreso. Realizdos cuidados de enfermería. Fecha: JJJ\nEstudio DEXA-REFINE: El día JJJ se valora al paciente para participar en el estudio DEXA-REFINE. El paciente cumple todos los criterios de inclusión y ninguno de exclusión. Como está sedado, se propone a la JJJ y JJJ la participación. Se explica en qué consiste y se da tiempo a realizar preguntas que se responden. Acepta la participación y firma la JJJ. Se randomiza con el paciente ID JJJ, grupo younger than 70, HCB, y l\netoca la rama control. Fecha: JJJ\naciente sedoanalgesiado con Propofol + Remifentanilo. Se inicia BPC Cisa\ntracurio. RASS -5. ESCID 0. HDM se inicia BPC NAD [x2] para mantener T\nAM. ECG en RS. Afebril.\nIOT en VC, bien acoplado. SatO2 entre 90-93%. G\nSA valoradas por MG. SNG en declive, débito fecaloideo. Glicemias corr\negidas con insulina de pauta.\nSV permeable, diuresis mantenidas. Port\nador de 2 drenajes tipo Blake, poco productivos, débito serohemático. Ileostomía poco productiva, débito seroso.\nPortador sonda rectal, no pr\noductiva.\nSe realizan medidas de confort.\nPte mañana endosponge rectal\n.",
+  "text_length": 3328,
+  "anonymized_count": 13,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

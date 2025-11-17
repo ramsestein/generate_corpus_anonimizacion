@@ -1,0 +1,76 @@
+{
+  "document_id": "NHC5366093_episodio1008390851",
+  "success": true,
+  "anonymized_text": "Fecha: JJJ\naciente trasladada x SEM tras alerta x aumento de la disnea.\nA su llega\nda taquipneica, diaforética y confusa.\nSe canaliza CVP ESD, gasometría\narterial con analítica de ucias, ECG y Rx de tórax Fecha: JJJ\nacient C i O, hdm estable , afebril, no refereix dolor. Portadora polser\na identificativa. Portadora BIPAP, ben acoplada IPAP 14 EPAP7 i FiO2 6\n0%. CVP permeables, portadora BIC NTG amb TA mitja 75 i BIC furosemida\n. Portadora SV permeable, diuresis mantinguda. Pte. ingres CAR. Fecha: JJJ\naloración enfermo crítico Responsable identificación positiva del pac\niente: Paciente\n¿En el momento del ingreso el paciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\nJJJ(JJJ\n¿La persona de contacto corresponde con el cui\ndador?: No tiene cuidador\n¿Vive solo?: Sí\nProcedencia del paciente ant\nes del ingreso hospitalario: Domicilio\nMotivo ingreso y procedencia int\nerna:\nUCIES, EAP\n¿Sufre alguna enfermedad crónica?: Insuficiencia card\níaca, Hipertensión, Insuficiencia renal crónica, Dislipemia, Diabetes\nD\néficit de autocuidado: Independiente\nAlergias: Sí\nEspecificar alergias\n:\nsol, acaros, algun tejido\nEstado de la consciencia: Alerta\nModalida\nd acceso vía aérea: Natural\nValor Frecuencia cardíaca: 97 lpm\nRitmo de\nposicional:\ncada dia\nFecha última deposición: JJJ\nPrótesis den\ntal: Sí\nTipo prótesis dental: Superior fija, Inferior fija\n¿Alteración de la integridad de piel y mucosas al ingresar?: No\nColoración de la p\niel: Normocoloreada\nPuntuación escala Braden: 16-Riesgo bajo\nTemperatu\nra axilar: 34.3 ºC\n¿Tiene dolor al ingreso?: No\nPuntuación escala EVN: 0\nPuntuación escala Downton: 1-Riesgo bajo Fecha: JJJ\nPaciente C y O, tranquilo a y colaboradore. No refiere dolor. HDM estable con NTG a 5ml/h. ECG en FA. Afebril. Respiratoriamewnte SatO2:98% con VMK 40%10lx&apos;, eupneica, no disnea. Diuresis forzadas con BIC furo a 2ml/h con buena respuesta. Se realiza frotis de ingreso + ECG.",
+  "text_length": 1956,
+  "anonymized_count": 7,
+  "confidence_threshold": 0.97,
+  "meddocan_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 0,
+    "entities": [],
+    "analysis": {
+      "total_entities": 0,
+      "j_only_count": 0,
+      "non_j_count": 0,
+      "entities_by_label": {},
+      "entities_by_confidence": {
+        "high": 0,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [],
+      "anon_token_detections": [],
+      "other_detections": [],
+      "j_only_entities": [],
+      "filtered_x_entities": 0
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 0,
+    "j_only_count": 0,
+    "non_j_count": 0,
+    "entities_by_label": {},
+    "entities_by_confidence": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [],
+    "anon_token_detections": [],
+    "other_detections": [],
+    "j_only_entities": [],
+    "filtered_x_entities": 0
+  },
+  "anonymization_verification": {
+    "success": true,
+    "total_detections": 0,
+    "suspicious_detections": 0,
+    "anon_token_detections": 0,
+    "other_detections": 0
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}
