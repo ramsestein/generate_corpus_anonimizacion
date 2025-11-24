@@ -15,13 +15,13 @@ from typing import Dict, List, Optional
 # CONFIGURACIÓN DE LA PLANTILLA DEL PROMPT
 # ============================================================================
 
-PROMPT_CONFIG = {
+PROMPT_CONFIG_an = {
     "name": "Clasificador de entidad por palabra y contexto",
     "version": "1.0",
     "description": "Juez LLM que determina si una palabra, dentro de un contexto dado, pertenece a una etiqueta oficial según reglas.",
     "language": "es",
     "template": """ERES UN DETECTOR PROFESIONAL DE ENTIDADES.
-DEBES DECIDIR SI UNA PALABRA, DENTRO DE UN TEXTO, ES UNA ENTIDAD VÁLIDA DE LA ETIQUETA INDICADA TEN ENCUENTA EL CONTEXTO COMO CIRCUNDANTE.
+DEBES DECIDIR SI UNA PALABRA, DENTRO DE UN TEXTO, ES UNA ENTIDAD VÁLIDA DE LA ETIQUETA INDICADA TEN ENCUENTA EL CONTEXTO CIRCUNDANTE.
 
 AQUÍ ESTÁN LAS REGLAS OFICIALES DE LA ETIQUETA:
 {reglas_etiqueta}
@@ -31,6 +31,7 @@ PALABRA: {keyword}
 TEXTO DONDE APARECE: {context_text}
 ETIQUETA: {label}
 
+Si tienes dudas sobre la anotación, revisa las reglas proporcionadas.
 
 TAREA:
 DECIDE SI LA PALABRA, EN ESTE TEXTO, CUMPLE LAS REGLAS DE LA ETIQUETA.
@@ -43,6 +44,37 @@ RESPONDE EXCLUSIVAMENTE:
     "expected_fields": ["TRUE or FALSE"]
 }
 
+PROMPT_CONFIG = {
+    "name": "Auditor Paranoico con Guías Meddocan",
+    "version": "3.0",
+    "template": """ACTÚA COMO UN AUDITOR DE PRIVACIDAD CLÍNICA (DE-IDENTIFICATION).
+TU OBJETIVO ES VERIFICAR SI UNA PALABRA DETECTADA DEBE SER ANONIMIZADA.
+
+ESTÁS ANALIZANDO LA CATEGORÍA: **{label}**
+
+A CONTINUACIÓN, LAS REGLAS ESTRICTAS Y EJEMPLOS PARA ESTA CATEGORÍA:
+{reglas_etiqueta}
+
+
+CONTEXTO DEL DOCUMENTO:
+... {context_text} ...
+
+CASO A ANALIZAR:
+Palabra/Frase candidata: "{keyword}"
+
+TAREA:
+1. Compara la palabra candidata y su contexto con los EJEMPLOS de las reglas anteriores.
+2. Si la palabra encaja en la definición o se parece a los ejemplos, DEBES ANONIMIZARLA.
+3. PRECAUCIÓN:
+   - Si la categoría es "NOMBRE_...", distingue apellidos de nombres comunes (ej: "Roca" vs "roca").
+   - Si la categoría es "TERRITORIO", distingue lugares específicos (anotar) de gentilicios genéricos (a veces no se anotan, revisa contexto).
+   - RECUERDA: "OTROS_SUJETO_ASISTENCIA" incluye cualquier detalle raro (tatuajes, profesiones únicas) que hagan al paciente reconocible.
+
+VEREDICTO FINAL:
+Responde "TRUE" si debe ser ocultado según las reglas.
+Responde "FALSE" si es un falso positivo (medicamento, anatomía, verbo, etc).
+"""
+}
 
 # ============================================================================
 # FUNCIONES DE UTILIDAD PARA REGLAS

@@ -200,21 +200,57 @@ def load_csv_detections(csv_path: str) -> Tuple[List[Entity], ProcessingStats]:
     entities = []
     stats = ProcessingStats()
     
+    # Intentar múltiples encodings
+    encodings_to_try = ['utf-8', 'latin-1', 'iso-8859-1', 'cp1252']
+    last_error = None
+    file_content = None
+    
+    for encoding in encodings_to_try:
+        try:
+            with open(csv_path, 'r', encoding=encoding) as f:
+                reader = csv.DictReader(f, delimiter=';')
+                
+                # Verificar columnas requeridas
+                required_columns = {'doc_id', 'etiqueta', 'modelo_detector', 
+                                  'texto_detectado', 'confianza', 'posicion_inicio', 'posicion_fin'}
+                
+                if not required_columns.issubset(set(reader.fieldnames or [])):
+                    raise ValueError(f"CSV debe contener columnas: {required_columns}")
+                
+                debug_print(f"  ✓ Archivo leído con encoding: {encoding}", "INFO")
+                break  # Encoding exitoso, salir del loop
+        except UnicodeDecodeError as e:
+            last_error = e
+            continue  # Probar siguiente encoding
+    else:
+        # Si ningún encoding funcionó
+        raise UnicodeDecodeError(
+            'multiple', b'', 0, 1, 
+            f"No se pudo leer el archivo con ninguno de estos encodings: {encodings_to_try}. Último error: {last_error}"
+        )
+    
     try:
-        with open(csv_path, 'r', encoding='utf-8') as f:
-            reader = csv.DictReader(f)
+        with open(csv_path, 'r', encoding=encoding) as f:
+            reader = csv.DictReader(f, delimiter=';')
             
-            # Verificar columnas requeridas
+            # Verificar columnas requeridas ya realizada arriba
             required_columns = {'doc_id', 'etiqueta', 'modelo_detector', 
                               'texto_detectado', 'confianza', 'posicion_inicio', 'posicion_fin'}
             
             if not required_columns.issubset(set(reader.fieldnames or [])):
                 raise ValueError(f"CSV debe contener columnas: {required_columns}")
             
-            # Verificar si existe la columna opcional manual_correction
-            has_manual_correction = 'manual_correction' in (reader.fieldnames or [])
+            # Verificar si existe la columna opcional manual_correction (varios nombres posibles)
+            manual_col_names = ['manual_correction', 'Corrección manual', 'manual_label', 'correccion_manual']
+            manual_col = None
+            for col_name in manual_col_names:
+                if col_name in (reader.fieldnames or []):
+                    manual_col = col_name
+                    break
+            
+            has_manual_correction = manual_col is not None
             if has_manual_correction:
-                debug_print("Columna 'manual_correction' detectada en CSV - se preservará", "INFO")
+                debug_print(f"Columna de corrección manual detectada: '{manual_col}' - se preservará", "INFO")
             
             for row_num, row in enumerate(reader, start=2):  # start=2 porque línea 1 es header
                 try:
@@ -225,7 +261,7 @@ def load_csv_detections(csv_path: str) -> Tuple[List[Entity], ProcessingStats]:
                     text = row['texto_detectado']  # NO strip aquí, preservar espacios
                     
                     # Cargar manual_correction si existe, sino dejar vacío
-                    manual_correction = row.get('manual_correction', '').strip() if has_manual_correction else ''
+                    manual_correction = row.get(manual_col, '').strip() if has_manual_correction else ''
                     
                     # Parsear numéricos con validación
                     try:
@@ -308,39 +344,39 @@ def should_merge_entities(entity1: Entity, entity2: Entity,
     
     Una entidad debe unificarse con la siguiente SI Y SOLO SI:
     
-    1. ✅ Mismo documento (doc_id)
-    2. ✅ Mismo modelo detector (CARMEN o MEDDOCAN)
-    3. ✅ Misma etiqueta/tipo (si same_label_only=True)
-    4. ✅ Son CONSECUTIVAS en el texto (entity1.end <= entity2.start)
-    5. ✅ El GAP entre ellas es pequeño (≤ max_gap caracteres)
-    6. ✅ NO hay overlap (entity1.end <= entity2.start)
+    1.  Mismo documento (doc_id)
+    2.  Mismo modelo detector (CARMEN o MEDDOCAN)
+    3.  Misma etiqueta/tipo (si same_label_only=True)
+    4.  Son CONSECUTIVAS en el texto (entity1.end <= entity2.start)
+    5.  El GAP entre ellas es pequeño (≤ max_gap caracteres)
+    6.  NO hay overlap (entity1.end <= entity2.start)
     
     CASOS TÍPICOS QUE SE UNIFICAN:
     ==============================
     
-    ✅ Códigos fragmentados:
+     Códigos fragmentados:
        - "G" (pos 100-101) + "045" (pos 101-104) → "G045"
        - "I" (pos 50-51) + "064" (pos 51-54) → "I064"
     
-    ✅ Nombres fragmentados por tokenización:
+     Nombres fragmentados por tokenización:
        - "Sol" (pos 28-31) + "ara" (pos 31-34) + "t" (pos 34-35) → "Solarat"
        - "P" (pos 36-37) + "are" (pos 37-40) + "des" (pos 40-43) → "Paredes"
     
-    ✅ Fechas fragmentadas:
+    Fechas fragmentadas:
        - "26" (pos 100-102) + "/" (pos 102-103) + "7" (pos 103-104) → "26/7"
        - "3/4" (pos 200-203) + "3/4" (pos 203-206) → "3/43/4" (si están pegadas)
     
-    ✅ Identificadores con puntos o guiones:
+     Identificadores con puntos o guiones:
        - "06" (pos 50-52) + "." (pos 52-53) + "2" (pos 53-54) → "06.2"
     
     CASOS QUE NO SE UNIFICAN:
     =========================
     
-    ❌ Diferentes documentos → Son entidades independientes
-    ❌ Diferentes modelos → Cada modelo tiene su propia detección
-    ❌ Diferentes etiquetas (si same_label_only=True) → Son tipos distintos
-    ❌ Gap grande (> max_gap) → No son consecutivas en el texto original
-    ❌ Overlap (entity1.end > entity2.start) → Detecciones conflictivas
+     Diferentes documentos → Son entidades independientes
+     Diferentes modelos → Cada modelo tiene su propia detección
+     Diferentes etiquetas (si same_label_only=True) → Son tipos distintos
+     Gap grande (> max_gap) → No son consecutivas en el texto original
+     Overlap (entity1.end > entity2.start) → Detecciones conflictivas
     
     EJEMPLO REAL DEL CSV:
     ====================
@@ -350,11 +386,11 @@ def should_merge_entities(entity1: Entity, entity2: Entity,
       Row 2: doc_id=NHC102219, label=NUMERO_IDENTIF, text="045", start=7653, end=7656
     
     Análisis:
-      - Mismo doc_id ✅
-      - Mismo modelo (CARMEN) ✅
-      - Misma label (NUMERO_IDENTIF) ✅
-      - Consecutivas: end(7653) == start(7653) → gap = 0 ✅
-      - No overlap: 7653 <= 7653 ✅
+      - Mismo doc_id 
+      - Mismo modelo (CARMEN) 
+      - Misma label (NUMERO_IDENTIF) 
+      - Consecutivas: end(7653) == start(7653) → gap = 0 
+      - No overlap: 7653 <= 7653 
     
     Resultado: UNIFICAR → "G045" (start=7652, end=7656)
     
@@ -834,7 +870,7 @@ def preprocess_entities(csv_path: str,
 def main():
     """Función principal del script"""
     parser = argparse.ArgumentParser(
-        description='Pipeline de evaluación con juez LLM - Paso 1: Preprocesamiento',
+        description='Pipeline de evaluación con juez LLM - Preprocesamiento',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Ejemplos de uso:
@@ -844,9 +880,12 @@ Ejemplos de uso:
   
   # Con parámetros personalizados de unificación
   python llm_judge_pipeline.py preprocess --csv detecciones.csv --output salida.json --max-gap 10 --no-same-label
+
+NOTA: Para cálculo de métricas, usar el script separado compute_llm_metrics.py
   
-IMPORTANTE: Este preprocesamiento NO filtra ninguna entidad.
-Todas las detecciones del CSV se procesan y unifican cuando corresponde.
+IMPORTANTE: 
+- El preprocesamiento NO filtra ninguna entidad.
+- La columna manual_correction se preserva pero NO se envía al LLM.
         """
     )
     

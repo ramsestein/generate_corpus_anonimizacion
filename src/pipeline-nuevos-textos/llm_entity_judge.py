@@ -93,62 +93,72 @@ def call_ollama_gemma(system_prompt: str, user_prompt: str, debug: bool = False)
             print("\n--- [DEBUG] Prompt de sistema (system_prompt) ---")
             print(system_prompt)
             print("--- [DEBUG] Prompt de usuario (user_prompt) ---")
-            # Mostrar solo una porción del contexto para evitar logs excesivos
-           
+            # Mostrar prompt completo para diagnóstico
             print(full_prompt)
 
         # Llamar a Ollama usando subprocess pasando el prompt por stdin
-        # Pasa el prompt por stdin para evitar límites de longitud en la línea de comandos
-        result = subprocess.run(
-            ["ollama", "run", "gemma3:270m"],
-            input=full_prompt.encode('utf-8'),
-            capture_output=True,
-            text=False,
-            timeout=120,
-            check=True
-        )
+        # Usar text=True y pasar string como input para simplificar decoding
+        # Añadir reintentos si la respuesta viene vacía (puede pasar por carga/streaming)
+        max_retries = 2
+        wait_seconds = 1
+        last_stdout = ""
+        last_stderr = ""
+        for attempt in range(1, max_retries + 1):
+            try:
+                result = subprocess.run(
+                    ["ollama", "run", "gemma3:270m"],
+                    input=full_prompt,
+                    capture_output=True,
+                    text=True,
+                    timeout=120,
+                    check=True
+                )
 
-        # Decodificar stdout/stderr con replacement para evitar UnicodeDecodeError
-        try:
-            stdout = result.stdout.decode('utf-8', errors='replace') if isinstance(result.stdout, (bytes, bytearray)) else str(result.stdout)
-        except Exception:
-            stdout = str(result.stdout)
-        try:
-            stderr = result.stderr.decode('utf-8', errors='replace') if isinstance(result.stderr, (bytes, bytearray)) else str(result.stderr)
-        except Exception:
-            stderr = str(result.stderr)
+                stdout = result.stdout or ""
+                stderr = result.stderr or ""
 
-        if debug:
-            print("--- [DEBUG] Ollama stdout ---")
-            print(stdout[:4000] + ("...[truncated]" if len(stdout) > 4000 else ""))
-            if stderr:
-                print("--- [DEBUG] Ollama stderr ---")
-                print(stderr[:2000] + ("...[truncated]" if len(stderr) > 2000 else ""))
+                last_stdout = stdout
+                last_stderr = stderr
 
-        # Raw exact output (decoded, but unmodified)
-        raw_output = stdout
+                if debug:
+                    print("--- [DEBUG] Ollama stdout ---")
+                    print(stdout[:4000] + ("...[truncated]" if len(stdout) > 4000 else ""))
+                    if stderr:
+                        print("--- [DEBUG] Ollama stderr ---")
+                        print(stderr[:2000] + ("...[truncated]" if len(stderr) > 2000 else ""))
 
-        # Normalized response used for parsing (strip whitespace)
-        response = raw_output.strip()
+                response = stdout.strip()
+                if response:
+                    return stdout, response
 
-        if not response:
-            # Incluir stderr en el mensaje de error para diagnóstico
-            raise ValueError(f"Ollama devolvió una respuesta vacía. stderr: {stderr}")
+                # Si no hay respuesta, reintentar
+                if attempt < max_retries:
+                    if debug:
+                        print(f"[WARN] Ollama returned empty response (attempt {attempt}), retrying...")
+                    import time
+                    time.sleep(wait_seconds)
+                    continue
+                else:
+                    # último intento fallido
+                    raise ValueError(f"Ollama devolvió una respuesta vacía. stderr: {stderr}")
 
-        return raw_output, response
-        
-    except subprocess.TimeoutExpired:
-        raise subprocess.CalledProcessError(
-            returncode=-1,
-            cmd="ollama",
-            output="Timeout al ejecutar Ollama (>60s)"
-        )
-    except subprocess.CalledProcessError as e:
-        raise subprocess.CalledProcessError(
-            returncode=e.returncode,
-            cmd=e.cmd,
-            output=f"Error al ejecutar Ollama: {e.stderr}"
-        )
+            except subprocess.TimeoutExpired:
+                raise subprocess.CalledProcessError(
+                    returncode=-1,
+                    cmd="ollama",
+                    output="Timeout al ejecutar Ollama (>120s)"
+                )
+            except subprocess.CalledProcessError as e:
+                # Propagar error con información útil
+                raise subprocess.CalledProcessError(
+                    returncode=e.returncode,
+                    cmd=e.cmd,
+                    output=f"Error al ejecutar Ollama: {e.stderr or e.output}"
+                )
+
+        # Si se sale del loop (no debería), devolver último stdout
+        return last_stdout, (last_stdout or "").strip()
+
     except FileNotFoundError:
         raise FileNotFoundError(
             "Ollama no está instalado o no está en el PATH.\n"
@@ -224,14 +234,30 @@ def parse_llm_response(llm_response: str) -> Optional[bool]:
     Returns:
         True si es "TRUE", False si es "FALSE", None si es inválida
     """
-    cleaned = llm_response.strip().upper()
-    
-    if "TRUE" in cleaned:
-        return True
-    elif "FALSE" in cleaned:
-        return False
-    else:
+    if not isinstance(llm_response, str):
         return None
+
+    cleaned = llm_response.strip().upper()
+
+    # Aceptar varias formas comunes de TRUE/FALSE
+    true_tokens = {'TRUE', '1', 'SI', 'SÍ', 'YES', 'CORRECTO', 'VALIDO', 'VÁLIDO', 'VERDADERO'}
+    false_tokens = {'FALSE', '0', 'NO', 'INCORRECTO', 'INVALIDO', 'INVÁLIDO', 'FALSO'}
+
+    # Buscar palabras completas o substrings que indiquen respuesta
+    # Primero tokens completos separados por espacio o nueva línea
+    tokens = set(t.strip().upper() for t in cleaned.replace('\n', ' ').split())
+    if tokens & true_tokens:
+        return True
+    if tokens & false_tokens:
+        return False
+
+    # Fallback: buscar substrings
+    if any(tok in cleaned for tok in ('TRUE', 'VERDADERO', 'CORRECTO', 'SI', 'SÍ', 'YES')):
+        return True
+    if any(tok in cleaned for tok in ('FALSE', 'FALSO', 'NO', 'INCORRECTO', 'INVALIDO')):
+        return False
+
+    return None
 
 
 def build_prompt_for_entity(
@@ -318,6 +344,7 @@ def process_entity(
             "context": "",
             "llm_response": "",
             "is_valid": None,
+            "manual_correction": entity.get("manual_correction", None),
             "status": "error: doc_id missing in JSON"
         }
     
@@ -364,6 +391,7 @@ def process_entity(
             "context": "",
             "llm_response": "",
             "is_valid": None,
+            "manual_correction": entity.get("manual_correction", None),
             "status": f"error: document not found at {document_path}"
         }
     except Exception as e:
@@ -378,6 +406,7 @@ def process_entity(
             "context": "",
             "llm_response": "",
             "is_valid": None,
+            "manual_correction": entity.get("manual_correction", None),
             "status": f"error loading document: {str(e)}"
         }
     
@@ -422,6 +451,7 @@ def process_entity(
             "llm_response": llm_response,
             "llm_raw": llm_raw,
             "is_valid": is_valid,
+            "manual_correction": entity.get("manual_correction", None),
             "status": "success" if is_valid is not None else "invalid_response"
         }
         
@@ -438,6 +468,7 @@ def process_entity(
             "context": context_text[:100] + "..." if len(context_text) > 100 else context_text,
             "llm_response": "",
             "is_valid": None,
+            "manual_correction": entity.get("manual_correction", None),
             "status": f"error: {str(e)}"
         }
     
@@ -452,7 +483,7 @@ def run_llm_entity_judgment(
     entities_json_path: str,
     docs_base_path: str,
     rules_file: str = "guias-anotacion.json",
-    output_csv: str = "llm_entity_judgments.csv",
+    output_csv: str = "llm_entity_judgments.json",
     left_window: int = 80,
     right_window: int = 80,
     debug: bool = False
@@ -473,7 +504,7 @@ def run_llm_entity_judgment(
         entities_json_path: Ruta al JSON con las entidades detectadas
         docs_base_path: Ruta base donde están los documentos (OBLIGATORIO)
         rules_file: Archivo JSON con las reglas de anotación
-        output_csv: Ruta del archivo CSV de salida con resultados
+        output_csv: Ruta del archivo JSON de salida con resultados
         left_window: Caracteres de contexto a la izquierda
         right_window: Caracteres de contexto a la derecha
     """
@@ -577,6 +608,7 @@ def run_llm_entity_judgment(
                 "context": "",
                 "llm_response": "",
                 "is_valid": None,
+                "manual_correction": entity.get("manual_correction", None),
                 "status": "error: unknown label"
             })
             continue
@@ -605,28 +637,15 @@ def run_llm_entity_judgment(
             print(result["llm_raw"])
     
     # 6. Guardar resultados
-    print(f"\n[6/6] Guardando resultados en CSV...")
+    print(f"\n[6/6] Guardando resultados en JSON...")
     output_path = Path(output_csv)
+    # Cambiar extensión a .json si no lo es
+    if output_path.suffix.lower() != '.json':
+        output_path = output_path.with_suffix('.json')
     output_path.parent.mkdir(parents=True, exist_ok=True)
     
-    with open(output_path, 'w', newline='', encoding='utf-8') as f:
-        fieldnames = [
-            "document_id",
-            "document_path",
-            "llm_raw",
-            "entity_id",
-            "keyword",
-            "label",
-            "start",
-            "end",
-            "context",
-            "llm_response",
-            "is_valid",
-            "status"
-        ]
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(results)
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(results, f, indent=2, ensure_ascii=False)
     
     print(f"  ✓ Resultados guardados en: {output_path}")
     
@@ -666,13 +685,13 @@ Ejemplos de uso:
   python llm_entity_judge.py \\
     --entities entities.json \\
     --docs datasets/documents \\
-    --output results.csv
+    --output results.json
 
   # Con ventanas de contexto personalizadas
   python llm_entity_judge.py \\
     --entities entities.json \\
     --docs corpus/output/aws2 \\
-    --output results.csv \\
+    --output results.json \\
     --left-window 120 \\
     --right-window 120
 
@@ -705,8 +724,8 @@ Requisitos:
     
     parser.add_argument(
         '--output',
-        default='llm_entity_judgments.csv',
-        help='Archivo CSV de salida (default: llm_entity_judgments.csv)'
+        default='llm_entity_judgments.json',
+        help='Archivo JSON de salida (default: llm_entity_judgments.json)'
     )
     
     parser.add_argument(
