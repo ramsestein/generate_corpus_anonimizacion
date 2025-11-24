@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ent_001",
+    "doc_id": "doc_ejemplo_001.txt",
+    "text": "García",
+    "label": "NOMBRE_SUJETO_ASISTENCIA",
+    "start": 12,
+    "end": 18
+  },
+  {
+    "id": "ent_002",
+    "doc_id": "doc_ejemplo_001.txt",
+    "text": "25/12/2020",
+    "label": "FECHAS",
+    "start": 50,
+    "end": 60
+  },
+  {
+    "id": "ent_003",
+    "doc_id": "doc_ejemplo_001.txt",
+    "text": "Hospital Universitario",
+    "label": "HOSPITAL",
+    "start": 100,
+    "end": 122
+  }
+]

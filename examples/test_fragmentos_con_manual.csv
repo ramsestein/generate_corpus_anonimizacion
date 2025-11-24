@@ -1,0 +1,6 @@
+doc_id,etiqueta,modelo_detector,texto_detectado,confianza,posicion_inicio,posicion_fin,manual_correction
+DOC001,NUMERO_IDENTIF,CARMEN,G,0.95,100,101,TRUE
+DOC001,NUMERO_IDENTIF,CARMEN,045,0.92,101,104,
+DOC001,FECHAS,CARMEN,26,0.88,200,202,FALSE
+DOC001,FECHAS,CARMEN,/,0.85,202,203,
+DOC001,FECHAS,CARMEN,7,0.90,203,204,

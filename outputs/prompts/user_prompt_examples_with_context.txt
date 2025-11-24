@@ -1,0 +1,55 @@
+================================================================================
+PALABRA CANDIDATA: "García"
+
+TEXTO DONDE APARECE LA PALABRA:
+"El paciente García tiene 45 años y acude por dolor abdominal."
+
+ETIQUETA DE ENTIDAD: NOMBRE_SUJETO_ASISTENCIA
+
+RESPONDE EXCLUSIVAMENTE "TRUE" SI LA PALABRA ES UNA ENTIDAD VÁLIDA DE ESA ETIQUETA SEGÚN LAS REGLAS, O "FALSE" SI NO LO ES.
+================================================================================
+
+================================================================================
+PALABRA CANDIDATA: "25/12/2020"
+
+TEXTO DONDE APARECE LA PALABRA:
+"Fecha de ingreso: 25/12/2020. El paciente presentaba fiebre."
+
+ETIQUETA DE ENTIDAD: FECHAS
+
+RESPONDE EXCLUSIVAMENTE "TRUE" SI LA PALABRA ES UNA ENTIDAD VÁLIDA DE ESA ETIQUETA SEGÚN LAS REGLAS, O "FALSE" SI NO LO ES.
+================================================================================
+
+================================================================================
+PALABRA CANDIDATA: "familia"
+
+TEXTO DONDE APARECE LA PALABRA:
+"La familia del paciente ha sido informada del diagnóstico."
+
+ETIQUETA DE ENTIDAD: FAMILIARES_SUJETO_ASISTENCIA
+
+RESPONDE EXCLUSIVAMENTE "TRUE" SI LA PALABRA ES UNA ENTIDAD VÁLIDA DE ESA ETIQUETA SEGÚN LAS REGLAS, O "FALSE" SI NO LO ES.
+================================================================================
+
+================================================================================
+PALABRA CANDIDATA: "Hospital"
+
+TEXTO DONDE APARECE LA PALABRA:
+"Derivado al Hospital Universitario de la ciudad para cirugía."
+
+ETIQUETA DE ENTIDAD: HOSPITAL
+
+RESPONDE EXCLUSIVAMENTE "TRUE" SI LA PALABRA ES UNA ENTIDAD VÁLIDA DE ESA ETIQUETA SEGÚN LAS REGLAS, O "FALSE" SI NO LO ES.
+================================================================================
+
+================================================================================
+PALABRA CANDIDATA: "G045"
+
+TEXTO DONDE APARECE LA PALABRA:
+"Identificador del paciente: G045. Historia clínica número 12345."
+
+ETIQUETA DE ENTIDAD: ID_SUJETO_ASISTENCIA
+
+RESPONDE EXCLUSIVAMENTE "TRUE" SI LA PALABRA ES UNA ENTIDAD VÁLIDA DE ESA ETIQUETA SEGÚN LAS REGLAS, O "FALSE" SI NO LO ES.
+================================================================================
+

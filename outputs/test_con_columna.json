@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "generated_at": "2025-11-24T10:28:59.138089",
+    "total_entities": 3,
+    "processing_stats": {
+      "total_raw_entities": 3,
+      "total_unified_entities": 3,
+      "entities_merged": 0,
+      "entities_by_label": {
+        "NOMBRE_SUJETO_ASISTENCIA": 1,
+        "FECHAS": 1,
+        "NUMERO_IDENTIF": 1
+      },
+      "entities_by_model": {
+        "CARMEN": 2,
+        "MEDDOCAN": 1
+      },
+      "documents_processed": 2
+    },
+    "analysis": {
+      "total_entities": 3,
+      "by_label": {
+        "NOMBRE_SUJETO_ASISTENCIA": 1,
+        "FECHAS": 1,
+        "NUMERO_IDENTIF": 1
+      },
+      "by_model": {
+        "CARMEN": 2,
+        "MEDDOCAN": 1
+      },
+      "by_document": {
+        "DOC001": 2,
+        "DOC002": 1
+      },
+      "confidence_distribution": {
+        "very_high": 1,
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "unified_entities": 0,
+      "text_length_stats": {
+        "min": 4,
+        "max": 4,
+        "avg": 4.0
+      }
+    }
+  },
+  "entities": [
+    {
+      "doc_id": "DOC001",
+      "label": "NOMBRE_SUJETO_ASISTENCIA",
+      "model": "CARMEN",
+      "text": "Juan",
+      "confidence": 0.95,
+      "start": 100,
+      "end": 104,
+      "unified": false,
+      "manual_correction": "CORRECTO"
+    },
+    {
+      "doc_id": "DOC001",
+      "label": "FECHAS",
+      "model": "CARMEN",
+      "text": "26/7",
+      "confidence": 0.88,
+      "start": 200,
+      "end": 204,
+      "unified": false,
+      "manual_correction": ""
+    },
+    {
+      "doc_id": "DOC002",
+      "label": "NUMERO_IDENTIF",
+      "model": "MEDDOCAN",
+      "text": "G045",
+      "confidence": 0.92,
+      "start": 50,
+      "end": 54,
+      "unified": false,
+      "manual_correction": "REVISAR"
+    }
+  ]
+}

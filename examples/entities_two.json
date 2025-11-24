@@ -1,0 +1,22 @@
+{
+  "entities": [
+    {
+      "doc_id": "NHC102219_episodio1008744732",
+      "label": "FECHAS",
+      "model": "CARMEN",
+      "text": "/",
+      "confidence": 0.9928,
+      "start": 5186,
+      "end": 5187
+    },
+    {
+      "doc_id": "NHC102219_episodio1008744732",
+      "label": "FECHAS",
+      "model": "CARMEN",
+      "text": "26/7",
+      "confidence": 0.9903,
+      "start": 7508,
+      "end": 7512
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "generated_at": "2025-11-24T10:29:28.700990",
+    "total_entities": 2,
+    "processing_stats": {
+      "total_raw_entities": 5,
+      "total_unified_entities": 2,
+      "entities_merged": 5,
+      "entities_by_label": {
+        "NUMERO_IDENTIF": 2,
+        "FECHAS": 3
+      },
+      "entities_by_model": {
+        "CARMEN": 5
+      },
+      "documents_processed": 1
+    },
+    "analysis": {
+      "total_entities": 2,
+      "by_label": {
+        "NUMERO_IDENTIF": 1,
+        "FECHAS": 1
+      },
+      "by_model": {
+        "CARMEN": 2
+      },
+      "by_document": {
+        "DOC001": 2
+      },
+      "confidence_distribution": {
+        "very_high": 0,
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "unified_entities": 2,
+      "text_length_stats": {
+        "min": 4,
+        "max": 4,
+        "avg": 4.0
+      }
+    }
+  },
+  "entities": [
+    {
+      "doc_id": "DOC001",
+      "label": "NUMERO_IDENTIF",
+      "model": "CARMEN",
+      "text": "G045",
+      "confidence": 0.935,
+      "start": 100,
+      "end": 104,
+      "unified": true,
+      "manual_correction": "TRUE"
+    },
+    {
+      "doc_id": "DOC001",
+      "label": "FECHAS",
+      "model": "CARMEN",
+      "text": "26/7",
+      "confidence": 0.8766666666666666,
+      "start": 200,
+      "end": 204,
+      "unified": true,
+      "manual_correction": "FALSE"
+    }
+  ]
+}
