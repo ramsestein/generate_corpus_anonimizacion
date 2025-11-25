@@ -1,0 +1,1127 @@
+{
+  "document_id": "0056164d-35e5-42ed-ae24-ab3fbf2b91fc",
+  "success": true,
+  "anonymized_text": "En la valoración clínica realizada, se ha considerado pertinente recomendar al paciente su incorporación a un Grupo de apoyo de diabetes tipo 2 como parte integral del manejo multidisciplinar de su condición. Para facilitar este proceso, se ha proporcionado al interesado la ubicación del mismo en Calle de la Alameda 12. Se considera que la participación en dichas actividades comunitarias puede mejorar significativamente la adherencia terapéutica y el control metabólico. Respecto a la coordinación entre niveles asistenciales, se ha establecido comunicación con el cirujano del equipo de referencia para valorar aspectos específicos del manejo quirúrgico potencial. Para agilizar la comunicación interconsultas, se han intercambiado los siguientes contactos: ana.garcia@clinic.es y carlos.gomez@clinicamadrid.es. En la exploración física actual, el paciente presenta normopeso con índice de masa corporal de 24.3 kg/m², tensión arterial de 128/76 mmHg y frecuencia cardíaca de 72 lpm. La glucemia capilar en consulta fue de 142 mg/dL. Los resultados analíticos recientes muestran hemoglobina glicosilada del 7.1% con perfil lipídico dentro de rangos aceptables. La ecografía abdominal realizada evga esteatosis hepática grado I sin otras alteraciones significativas. Para la gestión administrativa, se han verificado los números de identificación correspondientes, incluyendo el documento de identidad 45872314B y el número de beneficiario del plan de salud B-458712369. Como medio de contacto preferente para recordatorios y seguimiento, el paciente ha facilitado el número de teléfono 612-345-678, que queda registrado como canal de comunicación principal. El plan terapéutico establecido combina medidas farmacológicas con intervenciones sobre el estilo de vida, haciendo especial hincapié en la educación diabetológica que recibirá en el grupo de apoyo mencionado. Se programará reevaluación en un plazo de tres meses para valorar la evolución y ajustar tratamiento en función de los objetivos terapéuticos establecidos.",
+  "text_length": 2028,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 9,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.9990633130073547,
+        "word": " Calle de la Alameda 12",
+        "start": 298,
+        "end": 320,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9983754754066467,
+        "word": " ana.garcia@clinic.es",
+        "start": 763,
+        "end": 783,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9954711198806763,
+        "word": " car",
+        "start": 786,
+        "end": 789,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9420409798622131,
+        "word": "los.gomez@clinicamadrid.es",
+        "start": 789,
+        "end": 815,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7365094423294067,
+        "word": " documento",
+        "start": 1383,
+        "end": 1392,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9305713176727295,
+        "word": " 45",
+        "start": 1406,
+        "end": 1408,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8372683525085449,
+        "word": "72314B",
+        "start": 1409,
+        "end": 1415,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9558615684509277,
+        "word": "458712369",
+        "start": 1464,
+        "end": 1473,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9234139323234558,
+        "word": " 612-345-678",
+        "start": 1591,
+        "end": 1602,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 9,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1,
+        "CORREO_ELECTRONICO": 3,
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "NUMERO_TELEFONO": 4
+      },
+      "entities_by_confidence": {
+        "high": 8,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " Calle de la Alameda 12",
+          "actual_text": "Calle de la Alameda 12",
+          "confidence": 0.9990633130073547,
+          "start": 298,
+          "end": 320,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " ana.garcia@clinic.es",
+          "actual_text": "ana.garcia@clinic.es",
+          "confidence": 0.9983754754066467,
+          "start": 763,
+          "end": 783,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.9954711198806763,
+          "start": 786,
+          "end": 789,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "los.gomez@clinicamadrid.es",
+          "actual_text": "los.gomez@clinicamadrid.es",
+          "confidence": 0.9420409798622131,
+          "start": 789,
+          "end": 815,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento",
+          "actual_text": "documento",
+          "confidence": 0.7365094423294067,
+          "start": 1383,
+          "end": 1392,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 45",
+          "actual_text": "45",
+          "confidence": 0.9305713176727295,
+          "start": 1406,
+          "end": 1408,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "72314B",
+          "actual_text": "72314B",
+          "confidence": 0.8372683525085449,
+          "start": 1409,
+          "end": 1415,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "458712369",
+          "actual_text": "458712369",
+          "confidence": 0.9558615684509277,
+          "start": 1464,
+          "end": 1473,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 612-345-678",
+          "actual_text": "612-345-678",
+          "confidence": 0.9234139323234558,
+          "start": 1591,
+          "end": 1602,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " Calle de la Alameda 12",
+          "actual_text": "Calle de la Alameda 12",
+          "confidence": 0.9990633130073547,
+          "start": 298,
+          "end": 320,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " ana.garcia@clinic.es",
+          "actual_text": "ana.garcia@clinic.es",
+          "confidence": 0.9983754754066467,
+          "start": 763,
+          "end": 783,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.9954711198806763,
+          "start": 786,
+          "end": 789,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "los.gomez@clinicamadrid.es",
+          "actual_text": "los.gomez@clinicamadrid.es",
+          "confidence": 0.9420409798622131,
+          "start": 789,
+          "end": 815,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " documento",
+          "actual_text": "documento",
+          "confidence": 0.7365094423294067,
+          "start": 1383,
+          "end": 1392,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 45",
+          "actual_text": "45",
+          "confidence": 0.9305713176727295,
+          "start": 1406,
+          "end": 1408,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "72314B",
+          "actual_text": "72314B",
+          "confidence": 0.8372683525085449,
+          "start": 1409,
+          "end": 1415,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "458712369",
+          "actual_text": "458712369",
+          "confidence": 0.9558615684509277,
+          "start": 1464,
+          "end": 1473,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 612-345-678",
+          "actual_text": "612-345-678",
+          "confidence": 0.9234139323234558,
+          "start": 1591,
+          "end": 1602,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 13,
+    "entities": [
+      {
+        "entity_group": "CALLE",
+        "score": 0.9980498552322388,
+        "word": " Calle de la Alameda 12",
+        "start": 298,
+        "end": 320,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9457050561904907,
+        "word": "gar",
+        "start": 767,
+        "end": 770,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.8957574367523193,
+        "word": "cia",
+        "start": 770,
+        "end": 773,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.7778825163841248,
+        "word": ".",
+        "start": 792,
+        "end": 793,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9696971774101257,
+        "word": "g",
+        "start": 793,
+        "end": 794,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9783104658126831,
+        "word": "om",
+        "start": 794,
+        "end": 796,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9616191983222961,
+        "word": "ez",
+        "start": 796,
+        "end": 798,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9965762495994568,
+        "word": " 45",
+        "start": 1406,
+        "end": 1408,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.759098470211029,
+        "word": " plan de salud",
+        "start": 1448,
+        "end": 1461,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9958695769309998,
+        "word": " B",
+        "start": 1462,
+        "end": 1463,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7590664625167847,
+        "word": "458712369",
+        "start": 1464,
+        "end": 1473,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9971576929092407,
+        "word": " 6",
+        "start": 1591,
+        "end": 1592,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7689560055732727,
+        "word": "12-345-678",
+        "start": 1592,
+        "end": 1602,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 13,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CALLE": 1,
+        "NOMBRE_PERSONAL_SANITARIO": 6,
+        "NUMERO_TELEFONO": 5,
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 9,
+        "medium": 4,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CALLE",
+          "word": " Calle de la Alameda 12",
+          "actual_text": "Calle de la Alameda 12",
+          "confidence": 0.9980498552322388,
+          "start": 298,
+          "end": 320,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "gar",
+          "actual_text": "gar",
+          "confidence": 0.9457050561904907,
+          "start": 767,
+          "end": 770,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "cia",
+          "actual_text": "cia",
+          "confidence": 0.8957574367523193,
+          "start": 770,
+          "end": 773,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": ".",
+          "actual_text": ".",
+          "confidence": 0.7778825163841248,
+          "start": 792,
+          "end": 793,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "g",
+          "actual_text": "g",
+          "confidence": 0.9696971774101257,
+          "start": 793,
+          "end": 794,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "om",
+          "actual_text": "om",
+          "confidence": 0.9783104658126831,
+          "start": 794,
+          "end": 796,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "ez",
+          "actual_text": "ez",
+          "confidence": 0.9616191983222961,
+          "start": 796,
+          "end": 798,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 45",
+          "actual_text": "45",
+          "confidence": 0.9965762495994568,
+          "start": 1406,
+          "end": 1408,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de salud",
+          "actual_text": "plan de salud",
+          "confidence": 0.759098470211029,
+          "start": 1448,
+          "end": 1461,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.9958695769309998,
+          "start": 1462,
+          "end": 1463,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "458712369",
+          "actual_text": "458712369",
+          "confidence": 0.7590664625167847,
+          "start": 1464,
+          "end": 1473,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 6",
+          "actual_text": "6",
+          "confidence": 0.9971576929092407,
+          "start": 1591,
+          "end": 1592,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12-345-678",
+          "actual_text": "12-345-678",
+          "confidence": 0.7689560055732727,
+          "start": 1592,
+          "end": 1602,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CALLE",
+          "word": " Calle de la Alameda 12",
+          "actual_text": "Calle de la Alameda 12",
+          "confidence": 0.9980498552322388,
+          "start": 298,
+          "end": 320,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "gar",
+          "actual_text": "gar",
+          "confidence": 0.9457050561904907,
+          "start": 767,
+          "end": 770,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "cia",
+          "actual_text": "cia",
+          "confidence": 0.8957574367523193,
+          "start": 770,
+          "end": 773,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": ".",
+          "actual_text": ".",
+          "confidence": 0.7778825163841248,
+          "start": 792,
+          "end": 793,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "g",
+          "actual_text": "g",
+          "confidence": 0.9696971774101257,
+          "start": 793,
+          "end": 794,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "om",
+          "actual_text": "om",
+          "confidence": 0.9783104658126831,
+          "start": 794,
+          "end": 796,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "ez",
+          "actual_text": "ez",
+          "confidence": 0.9616191983222961,
+          "start": 796,
+          "end": 798,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 45",
+          "actual_text": "45",
+          "confidence": 0.9965762495994568,
+          "start": 1406,
+          "end": 1408,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de salud",
+          "actual_text": "plan de salud",
+          "confidence": 0.759098470211029,
+          "start": 1448,
+          "end": 1461,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.9958695769309998,
+          "start": 1462,
+          "end": 1463,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "458712369",
+          "actual_text": "458712369",
+          "confidence": 0.7590664625167847,
+          "start": 1464,
+          "end": 1473,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 6",
+          "actual_text": "6",
+          "confidence": 0.9971576929092407,
+          "start": 1591,
+          "end": 1592,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12-345-678",
+          "actual_text": "12-345-678",
+          "confidence": 0.7689560055732727,
+          "start": 1592,
+          "end": 1602,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 22,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CALLE": 2,
+      "CORREO_ELECTRONICO": 3,
+      "OTROS_SUJETO_ASISTENCIA": 2,
+      "NUMERO_TELEFONO": 9,
+      "NOMBRE_PERSONAL_SANITARIO": 6
+    },
+    "entities_by_confidence": {
+      "high": 17,
+      "medium": 5,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CALLE",
+        "word": " Calle de la Alameda 12",
+        "actual_text": "Calle de la Alameda 12",
+        "confidence": 0.9990633130073547,
+        "start": 298,
+        "end": 320,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " ana.garcia@clinic.es",
+        "actual_text": "ana.garcia@clinic.es",
+        "confidence": 0.9983754754066467,
+        "start": 763,
+        "end": 783,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.9954711198806763,
+        "start": 786,
+        "end": 789,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "los.gomez@clinicamadrid.es",
+        "actual_text": "los.gomez@clinicamadrid.es",
+        "confidence": 0.9420409798622131,
+        "start": 789,
+        "end": 815,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento",
+        "actual_text": "documento",
+        "confidence": 0.7365094423294067,
+        "start": 1383,
+        "end": 1392,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 45",
+        "actual_text": "45",
+        "confidence": 0.9305713176727295,
+        "start": 1406,
+        "end": 1408,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "72314B",
+        "actual_text": "72314B",
+        "confidence": 0.8372683525085449,
+        "start": 1409,
+        "end": 1415,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "458712369",
+        "actual_text": "458712369",
+        "confidence": 0.9558615684509277,
+        "start": 1464,
+        "end": 1473,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 612-345-678",
+        "actual_text": "612-345-678",
+        "confidence": 0.9234139323234558,
+        "start": 1591,
+        "end": 1602,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Calle de la Alameda 12",
+        "actual_text": "Calle de la Alameda 12",
+        "confidence": 0.9980498552322388,
+        "start": 298,
+        "end": 320,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "gar",
+        "actual_text": "gar",
+        "confidence": 0.9457050561904907,
+        "start": 767,
+        "end": 770,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "cia",
+        "actual_text": "cia",
+        "confidence": 0.8957574367523193,
+        "start": 770,
+        "end": 773,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": ".",
+        "actual_text": ".",
+        "confidence": 0.7778825163841248,
+        "start": 792,
+        "end": 793,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "g",
+        "actual_text": "g",
+        "confidence": 0.9696971774101257,
+        "start": 793,
+        "end": 794,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "om",
+        "actual_text": "om",
+        "confidence": 0.9783104658126831,
+        "start": 794,
+        "end": 796,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "ez",
+        "actual_text": "ez",
+        "confidence": 0.9616191983222961,
+        "start": 796,
+        "end": 798,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 45",
+        "actual_text": "45",
+        "confidence": 0.9965762495994568,
+        "start": 1406,
+        "end": 1408,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de salud",
+        "actual_text": "plan de salud",
+        "confidence": 0.759098470211029,
+        "start": 1448,
+        "end": 1461,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.9958695769309998,
+        "start": 1462,
+        "end": 1463,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "458712369",
+        "actual_text": "458712369",
+        "confidence": 0.7590664625167847,
+        "start": 1464,
+        "end": 1473,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 6",
+        "actual_text": "6",
+        "confidence": 0.9971576929092407,
+        "start": 1591,
+        "end": 1592,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12-345-678",
+        "actual_text": "12-345-678",
+        "confidence": 0.7689560055732727,
+        "start": 1592,
+        "end": 1602,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CALLE",
+        "word": " Calle de la Alameda 12",
+        "actual_text": "Calle de la Alameda 12",
+        "confidence": 0.9990633130073547,
+        "start": 298,
+        "end": 320,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " ana.garcia@clinic.es",
+        "actual_text": "ana.garcia@clinic.es",
+        "confidence": 0.9983754754066467,
+        "start": 763,
+        "end": 783,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.9954711198806763,
+        "start": 786,
+        "end": 789,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "los.gomez@clinicamadrid.es",
+        "actual_text": "los.gomez@clinicamadrid.es",
+        "confidence": 0.9420409798622131,
+        "start": 789,
+        "end": 815,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " documento",
+        "actual_text": "documento",
+        "confidence": 0.7365094423294067,
+        "start": 1383,
+        "end": 1392,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 45",
+        "actual_text": "45",
+        "confidence": 0.9305713176727295,
+        "start": 1406,
+        "end": 1408,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "72314B",
+        "actual_text": "72314B",
+        "confidence": 0.8372683525085449,
+        "start": 1409,
+        "end": 1415,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "458712369",
+        "actual_text": "458712369",
+        "confidence": 0.9558615684509277,
+        "start": 1464,
+        "end": 1473,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 612-345-678",
+        "actual_text": "612-345-678",
+        "confidence": 0.9234139323234558,
+        "start": 1591,
+        "end": 1602,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Calle de la Alameda 12",
+        "actual_text": "Calle de la Alameda 12",
+        "confidence": 0.9980498552322388,
+        "start": 298,
+        "end": 320,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "gar",
+        "actual_text": "gar",
+        "confidence": 0.9457050561904907,
+        "start": 767,
+        "end": 770,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "cia",
+        "actual_text": "cia",
+        "confidence": 0.8957574367523193,
+        "start": 770,
+        "end": 773,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": ".",
+        "actual_text": ".",
+        "confidence": 0.7778825163841248,
+        "start": 792,
+        "end": 793,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "g",
+        "actual_text": "g",
+        "confidence": 0.9696971774101257,
+        "start": 793,
+        "end": 794,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "om",
+        "actual_text": "om",
+        "confidence": 0.9783104658126831,
+        "start": 794,
+        "end": 796,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "ez",
+        "actual_text": "ez",
+        "confidence": 0.9616191983222961,
+        "start": 796,
+        "end": 798,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 45",
+        "actual_text": "45",
+        "confidence": 0.9965762495994568,
+        "start": 1406,
+        "end": 1408,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de salud",
+        "actual_text": "plan de salud",
+        "confidence": 0.759098470211029,
+        "start": 1448,
+        "end": 1461,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.9958695769309998,
+        "start": 1462,
+        "end": 1463,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "458712369",
+        "actual_text": "458712369",
+        "confidence": 0.7590664625167847,
+        "start": 1464,
+        "end": 1473,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 6",
+        "actual_text": "6",
+        "confidence": 0.9971576929092407,
+        "start": 1591,
+        "end": 1592,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12-345-678",
+        "actual_text": "12-345-678",
+        "confidence": 0.7689560055732727,
+        "start": 1592,
+        "end": 1602,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 22,
+    "suspicious_detections": 22,
+    "xxxxxx_detections": 0,
+    "other_detections": 22
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "CALLE",
+        "text": " Calle de la Alameda 12",
+        "confidence": 0.9990633130073547,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "text": " ana.garcia@clinic.es",
+        "confidence": 0.9983754754066467,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "text": " car",
+        "confidence": 0.9954711198806763,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "text": " Calle de la Alameda 12",
+        "confidence": 0.9980498552322388,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " 45",
+        "confidence": 0.9965762495994568,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " B",
+        "confidence": 0.9958695769309998,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " 6",
+        "confidence": 0.9971576929092407,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 7
+  }
+}

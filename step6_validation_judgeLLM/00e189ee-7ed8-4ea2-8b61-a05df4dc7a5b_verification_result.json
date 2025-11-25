@@ -1,0 +1,1191 @@
+{
+  "document_id": "00e189ee-7ed8-4ea2-8b61-a05df4dc7a5b",
+  "success": true,
+  "anonymized_text": "Informe de Valoración Preoperatoria Paciente de sexo femenino, de 67 años de edad, que acude a consulta externa de preanestesia para valoración previa a intervención quirúrgica programada. La paciente fue valorada en esta consulta el 12 de julio de 2023, presentando un estado general aceptable para el procedimiento. La exploración física realizada fue completa y dentro de la normalidad, sin hallazgos significativos que contraindiquen la intervención. Como parte del protocolo de identificación segura del paciente establecido por el Ministerio de Sanidad, se procedió a la verificación biométrica mediante la huella dactilar derecha índice, que mostró un patrón de lazo. Esta huella dactilar derecha índice, patrón de lazo queda registrada en el sistema como método de identificación unívoco. La intervención será realizada por la Dra. Elena Rodríguez Santos, cirujano de plantilla de este centro. La Dra. Elena Rodríguez Santos supervisará todo el procedimiento quirúrgico. El vehículo institucional asignado para el transporte de material específico para el procedimiento porta la placa 1234 BCD. Este documento ha sido generado desde el Hospital Clínico San Carlos, ubicado en Avenida de la Constitución 12. Para cualquier comunicación formal posterior, este servicio dispone del número de fax +34 91 876 54 32.",
+  "text_length": 1318,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 10,
+    "entities": [
+      {
+        "entity_group": "SEXO_SUJETO_ASISTENCIA",
+        "score": 0.9985785484313965,
+        "word": " femenino",
+        "start": 53,
+        "end": 61,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.9977767467498779,
+        "word": " 67 años",
+        "start": 66,
+        "end": 73,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9988546967506409,
+        "word": " 12 de julio de 2023",
+        "start": 234,
+        "end": 253,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.999269962310791,
+        "word": " Elena Rodríguez Santos",
+        "start": 840,
+        "end": 862,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9978270530700684,
+        "word": " Elena Rodríguez Santos",
+        "start": 910,
+        "end": 932,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7468503713607788,
+        "word": " 1234",
+        "start": 1093,
+        "end": 1097,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9985116720199585,
+        "word": " Hospital Clínico San Carlos",
+        "start": 1144,
+        "end": 1171,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9986648559570312,
+        "word": " Avenida de la Constitución 12",
+        "start": 1184,
+        "end": 1213,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9884186387062073,
+        "word": " +",
+        "start": 1301,
+        "end": 1302,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9873766303062439,
+        "word": "34 91 876 54 32",
+        "start": 1302,
+        "end": 1317,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 10,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "SEXO_SUJETO_ASISTENCIA": 1,
+        "EDAD_SUJETO_ASISTENCIA": 1,
+        "FECHAS": 1,
+        "NOMBRE_PERSONAL_SANITARIO": 2,
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "HOSPITAL": 1,
+        "CALLE": 1,
+        "NUMERO_TELEFONO": 2
+      },
+      "entities_by_confidence": {
+        "high": 9,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9985785484313965,
+          "start": 53,
+          "end": 61,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 67 años",
+          "actual_text": "67 años",
+          "confidence": 0.9977767467498779,
+          "start": 66,
+          "end": 73,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9988546967506409,
+          "start": 234,
+          "end": 253,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena Rodríguez Santos",
+          "actual_text": "Elena Rodríguez Santos",
+          "confidence": 0.999269962310791,
+          "start": 840,
+          "end": 862,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena Rodríguez Santos",
+          "actual_text": "Elena Rodríguez Santos",
+          "confidence": 0.9978270530700684,
+          "start": 910,
+          "end": 932,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " 1234",
+          "actual_text": "1234",
+          "confidence": 0.7468503713607788,
+          "start": 1093,
+          "end": 1097,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Hospital Clínico San Carlos",
+          "actual_text": "Hospital Clínico San Carlos",
+          "confidence": 0.9985116720199585,
+          "start": 1144,
+          "end": 1171,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Avenida de la Constitución 12",
+          "actual_text": "Avenida de la Constitución 12",
+          "confidence": 0.9986648559570312,
+          "start": 1184,
+          "end": 1213,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9884186387062073,
+          "start": 1301,
+          "end": 1302,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.9873766303062439,
+          "start": 1302,
+          "end": 1317,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9985785484313965,
+          "start": 53,
+          "end": 61,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 67 años",
+          "actual_text": "67 años",
+          "confidence": 0.9977767467498779,
+          "start": 66,
+          "end": 73,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9988546967506409,
+          "start": 234,
+          "end": 253,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena Rodríguez Santos",
+          "actual_text": "Elena Rodríguez Santos",
+          "confidence": 0.999269962310791,
+          "start": 840,
+          "end": 862,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena Rodríguez Santos",
+          "actual_text": "Elena Rodríguez Santos",
+          "confidence": 0.9978270530700684,
+          "start": 910,
+          "end": 932,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " 1234",
+          "actual_text": "1234",
+          "confidence": 0.7468503713607788,
+          "start": 1093,
+          "end": 1097,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Hospital Clínico San Carlos",
+          "actual_text": "Hospital Clínico San Carlos",
+          "confidence": 0.9985116720199585,
+          "start": 1144,
+          "end": 1171,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Avenida de la Constitución 12",
+          "actual_text": "Avenida de la Constitución 12",
+          "confidence": 0.9986648559570312,
+          "start": 1184,
+          "end": 1213,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9884186387062073,
+          "start": 1301,
+          "end": 1302,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.9873766303062439,
+          "start": 1302,
+          "end": 1317,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 12,
+    "entities": [
+      {
+        "entity_group": "SEXO_SUJETO_ASISTENCIA",
+        "score": 0.9968944787979126,
+        "word": " femenino",
+        "start": 53,
+        "end": 61,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.9997503161430359,
+        "word": " 67 años",
+        "start": 66,
+        "end": 73,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9998972415924072,
+        "word": " 12 de julio de 2023",
+        "start": 234,
+        "end": 253,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9992175102233887,
+        "word": " Rodríguez",
+        "start": 846,
+        "end": 855,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9952685236930847,
+        "word": " Santos",
+        "start": 856,
+        "end": 862,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.7424026727676392,
+        "word": " Elena",
+        "start": 910,
+        "end": 915,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9989727735519409,
+        "word": " Rodríguez",
+        "start": 916,
+        "end": 925,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9812621474266052,
+        "word": " Santos",
+        "start": 926,
+        "end": 932,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.999778687953949,
+        "word": " Hospital Clínico San Carlos",
+        "start": 1144,
+        "end": 1171,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.997949481010437,
+        "word": " Avenida de la Constitución 12",
+        "start": 1184,
+        "end": 1213,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.99626225233078,
+        "word": " +",
+        "start": 1301,
+        "end": 1302,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.820422351360321,
+        "word": "34 91 876 54 32",
+        "start": 1302,
+        "end": 1317,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 12,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "SEXO_SUJETO_ASISTENCIA": 1,
+        "EDAD_SUJETO_ASISTENCIA": 1,
+        "FECHAS": 1,
+        "NOMBRE_PERSONAL_SANITARIO": 5,
+        "HOSPITAL": 1,
+        "CALLE": 1,
+        "NUMERO_TELEFONO": 2
+      },
+      "entities_by_confidence": {
+        "high": 11,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9968944787979126,
+          "start": 53,
+          "end": 61,
+          "model": "CARMEN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 67 años",
+          "actual_text": "67 años",
+          "confidence": 0.9997503161430359,
+          "start": 66,
+          "end": 73,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9998972415924072,
+          "start": 234,
+          "end": 253,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "Rodríguez",
+          "confidence": 0.9992175102233887,
+          "start": 846,
+          "end": 855,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Santos",
+          "actual_text": "Santos",
+          "confidence": 0.9952685236930847,
+          "start": 856,
+          "end": 862,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena",
+          "actual_text": "Elena",
+          "confidence": 0.7424026727676392,
+          "start": 910,
+          "end": 915,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "Rodríguez",
+          "confidence": 0.9989727735519409,
+          "start": 916,
+          "end": 925,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Santos",
+          "actual_text": "Santos",
+          "confidence": 0.9812621474266052,
+          "start": 926,
+          "end": 932,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Hospital Clínico San Carlos",
+          "actual_text": "Hospital Clínico San Carlos",
+          "confidence": 0.999778687953949,
+          "start": 1144,
+          "end": 1171,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Avenida de la Constitución 12",
+          "actual_text": "Avenida de la Constitución 12",
+          "confidence": 0.997949481010437,
+          "start": 1184,
+          "end": 1213,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.99626225233078,
+          "start": 1301,
+          "end": 1302,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.820422351360321,
+          "start": 1302,
+          "end": 1317,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9968944787979126,
+          "start": 53,
+          "end": 61,
+          "model": "CARMEN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 67 años",
+          "actual_text": "67 años",
+          "confidence": 0.9997503161430359,
+          "start": 66,
+          "end": 73,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9998972415924072,
+          "start": 234,
+          "end": 253,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "Rodríguez",
+          "confidence": 0.9992175102233887,
+          "start": 846,
+          "end": 855,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Santos",
+          "actual_text": "Santos",
+          "confidence": 0.9952685236930847,
+          "start": 856,
+          "end": 862,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena",
+          "actual_text": "Elena",
+          "confidence": 0.7424026727676392,
+          "start": 910,
+          "end": 915,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "Rodríguez",
+          "confidence": 0.9989727735519409,
+          "start": 916,
+          "end": 925,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Santos",
+          "actual_text": "Santos",
+          "confidence": 0.9812621474266052,
+          "start": 926,
+          "end": 932,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Hospital Clínico San Carlos",
+          "actual_text": "Hospital Clínico San Carlos",
+          "confidence": 0.999778687953949,
+          "start": 1144,
+          "end": 1171,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Avenida de la Constitución 12",
+          "actual_text": "Avenida de la Constitución 12",
+          "confidence": 0.997949481010437,
+          "start": 1184,
+          "end": 1213,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.99626225233078,
+          "start": 1301,
+          "end": 1302,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.820422351360321,
+          "start": 1302,
+          "end": 1317,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 22,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "SEXO_SUJETO_ASISTENCIA": 2,
+      "EDAD_SUJETO_ASISTENCIA": 2,
+      "FECHAS": 2,
+      "NOMBRE_PERSONAL_SANITARIO": 7,
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "HOSPITAL": 2,
+      "CALLE": 2,
+      "NUMERO_TELEFONO": 4
+    },
+    "entities_by_confidence": {
+      "high": 20,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9985785484313965,
+        "start": 53,
+        "end": 61,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 67 años",
+        "actual_text": "67 años",
+        "confidence": 0.9977767467498779,
+        "start": 66,
+        "end": 73,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9988546967506409,
+        "start": 234,
+        "end": 253,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena Rodríguez Santos",
+        "actual_text": "Elena Rodríguez Santos",
+        "confidence": 0.999269962310791,
+        "start": 840,
+        "end": 862,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena Rodríguez Santos",
+        "actual_text": "Elena Rodríguez Santos",
+        "confidence": 0.9978270530700684,
+        "start": 910,
+        "end": 932,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " 1234",
+        "actual_text": "1234",
+        "confidence": 0.7468503713607788,
+        "start": 1093,
+        "end": 1097,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Hospital Clínico San Carlos",
+        "actual_text": "Hospital Clínico San Carlos",
+        "confidence": 0.9985116720199585,
+        "start": 1144,
+        "end": 1171,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Avenida de la Constitución 12",
+        "actual_text": "Avenida de la Constitución 12",
+        "confidence": 0.9986648559570312,
+        "start": 1184,
+        "end": 1213,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9884186387062073,
+        "start": 1301,
+        "end": 1302,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.9873766303062439,
+        "start": 1302,
+        "end": 1317,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9968944787979126,
+        "start": 53,
+        "end": 61,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 67 años",
+        "actual_text": "67 años",
+        "confidence": 0.9997503161430359,
+        "start": 66,
+        "end": 73,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9998972415924072,
+        "start": 234,
+        "end": 253,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "Rodríguez",
+        "confidence": 0.9992175102233887,
+        "start": 846,
+        "end": 855,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Santos",
+        "actual_text": "Santos",
+        "confidence": 0.9952685236930847,
+        "start": 856,
+        "end": 862,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena",
+        "actual_text": "Elena",
+        "confidence": 0.7424026727676392,
+        "start": 910,
+        "end": 915,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "Rodríguez",
+        "confidence": 0.9989727735519409,
+        "start": 916,
+        "end": 925,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Santos",
+        "actual_text": "Santos",
+        "confidence": 0.9812621474266052,
+        "start": 926,
+        "end": 932,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Hospital Clínico San Carlos",
+        "actual_text": "Hospital Clínico San Carlos",
+        "confidence": 0.999778687953949,
+        "start": 1144,
+        "end": 1171,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Avenida de la Constitución 12",
+        "actual_text": "Avenida de la Constitución 12",
+        "confidence": 0.997949481010437,
+        "start": 1184,
+        "end": 1213,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.99626225233078,
+        "start": 1301,
+        "end": 1302,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.820422351360321,
+        "start": 1302,
+        "end": 1317,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9985785484313965,
+        "start": 53,
+        "end": 61,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 67 años",
+        "actual_text": "67 años",
+        "confidence": 0.9977767467498779,
+        "start": 66,
+        "end": 73,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9988546967506409,
+        "start": 234,
+        "end": 253,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena Rodríguez Santos",
+        "actual_text": "Elena Rodríguez Santos",
+        "confidence": 0.999269962310791,
+        "start": 840,
+        "end": 862,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena Rodríguez Santos",
+        "actual_text": "Elena Rodríguez Santos",
+        "confidence": 0.9978270530700684,
+        "start": 910,
+        "end": 932,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " 1234",
+        "actual_text": "1234",
+        "confidence": 0.7468503713607788,
+        "start": 1093,
+        "end": 1097,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Hospital Clínico San Carlos",
+        "actual_text": "Hospital Clínico San Carlos",
+        "confidence": 0.9985116720199585,
+        "start": 1144,
+        "end": 1171,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Avenida de la Constitución 12",
+        "actual_text": "Avenida de la Constitución 12",
+        "confidence": 0.9986648559570312,
+        "start": 1184,
+        "end": 1213,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9884186387062073,
+        "start": 1301,
+        "end": 1302,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.9873766303062439,
+        "start": 1302,
+        "end": 1317,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9968944787979126,
+        "start": 53,
+        "end": 61,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 67 años",
+        "actual_text": "67 años",
+        "confidence": 0.9997503161430359,
+        "start": 66,
+        "end": 73,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9998972415924072,
+        "start": 234,
+        "end": 253,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "Rodríguez",
+        "confidence": 0.9992175102233887,
+        "start": 846,
+        "end": 855,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Santos",
+        "actual_text": "Santos",
+        "confidence": 0.9952685236930847,
+        "start": 856,
+        "end": 862,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena",
+        "actual_text": "Elena",
+        "confidence": 0.7424026727676392,
+        "start": 910,
+        "end": 915,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "Rodríguez",
+        "confidence": 0.9989727735519409,
+        "start": 916,
+        "end": 925,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Santos",
+        "actual_text": "Santos",
+        "confidence": 0.9812621474266052,
+        "start": 926,
+        "end": 932,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Hospital Clínico San Carlos",
+        "actual_text": "Hospital Clínico San Carlos",
+        "confidence": 0.999778687953949,
+        "start": 1144,
+        "end": 1171,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Avenida de la Constitución 12",
+        "actual_text": "Avenida de la Constitución 12",
+        "confidence": 0.997949481010437,
+        "start": 1184,
+        "end": 1213,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.99626225233078,
+        "start": 1301,
+        "end": 1302,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.820422351360321,
+        "start": 1302,
+        "end": 1317,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 22,
+    "suspicious_detections": 22,
+    "xxxxxx_detections": 0,
+    "other_detections": 22
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "text": " femenino",
+        "confidence": 0.9985785484313965,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "text": " 67 años",
+        "confidence": 0.9977767467498779,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "text": " 12 de julio de 2023",
+        "confidence": 0.9988546967506409,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Elena Rodríguez Santos",
+        "confidence": 0.999269962310791,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Elena Rodríguez Santos",
+        "confidence": 0.9978270530700684,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "text": " Hospital Clínico San Carlos",
+        "confidence": 0.9985116720199585,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "text": " Avenida de la Constitución 12",
+        "confidence": 0.9986648559570312,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "text": " femenino",
+        "confidence": 0.9968944787979126,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "text": " 67 años",
+        "confidence": 0.9997503161430359,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FECHAS",
+        "text": " 12 de julio de 2023",
+        "confidence": 0.9998972415924072,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Rodríguez",
+        "confidence": 0.9992175102233887,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Santos",
+        "confidence": 0.9952685236930847,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Rodríguez",
+        "confidence": 0.9989727735519409,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "text": " Hospital Clínico San Carlos",
+        "confidence": 0.999778687953949,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "text": " Avenida de la Constitución 12",
+        "confidence": 0.997949481010437,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " +",
+        "confidence": 0.99626225233078,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 16
+  }
+}

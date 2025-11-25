@@ -1,0 +1,292 @@
+{
+  "document_id": "00a1a66e-094d-48bb-85b0-5fabb0cbdb2e",
+  "success": true,
+  "anonymized_text": "En la consulta de seguimiento realizada en el Centro de Salud Los Álamos, se reevalúa al paciente que en esta ocasión presenta una sintomatología inespecífica consistente en astenia y artralgias migratorias. Se trata de un individuo de 67 años cuyo manejo clínico se ajusta a los protocolos establecidos por el Ministerio de Sanidad para su grupo de edad y perfil de riesgo. La exploración física revela un estado general conservado, con constantes vitales dentro de la normalidad. La auscultación cardiorrespiratoria es rítmica y sin soplos, con murmullo vesicular conservado bilateralmente. En el abdomen, no se palpan masas ni visceromegalias, siendo blando y depreciable a la palpación profunda. Los resultados analíticos recientes, solicitados en el contexto de su seguimiento periódico, muestran un hemograma dentro de rangos de normalidad y una bioquímica básica sin alteraciones significativas en función renal y hepática. Se ha procedido a la solicitud de pruebas complementarias de imagen para completar el estudio, cuyos resultados se encuentran pendientes de recepción e integración en la historia clínica. Se mantendrá una actitud expectante, programando una nueva visita de control para valorar la evolución de la clínica y los hallazgos de las pruebas pendientes, en consonancia con las guías de práctica clínica vigentes.",
+  "text_length": 1337,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.9906606078147888,
+        "word": " Centro de Salud Los Álamos",
+        "start": 46,
+        "end": 72,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.9976719617843628,
+        "word": " 67 años",
+        "start": 236,
+        "end": 243,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CENTRO_SALUD": 1,
+        "EDAD_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9906606078147888,
+          "start": 46,
+          "end": 72,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 67 años",
+          "actual_text": "67 años",
+          "confidence": 0.9976719617843628,
+          "start": 236,
+          "end": 243,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9906606078147888,
+          "start": 46,
+          "end": 72,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 67 años",
+          "actual_text": "67 años",
+          "confidence": 0.9976719617843628,
+          "start": 236,
+          "end": 243,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.9994264245033264,
+        "word": " Centro de Salud Los Álamos",
+        "start": 46,
+        "end": 72,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.9998370409011841,
+        "word": " 67 años",
+        "start": 236,
+        "end": 243,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CENTRO_SALUD": 1,
+        "EDAD_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9994264245033264,
+          "start": 46,
+          "end": 72,
+          "model": "CARMEN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 67 años",
+          "actual_text": "67 años",
+          "confidence": 0.9998370409011841,
+          "start": 236,
+          "end": 243,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9994264245033264,
+          "start": 46,
+          "end": 72,
+          "model": "CARMEN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 67 años",
+          "actual_text": "67 años",
+          "confidence": 0.9998370409011841,
+          "start": 236,
+          "end": 243,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CENTRO_SALUD": 2,
+      "EDAD_SUJETO_ASISTENCIA": 2
+    },
+    "entities_by_confidence": {
+      "high": 4,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9906606078147888,
+        "start": 46,
+        "end": 72,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 67 años",
+        "actual_text": "67 años",
+        "confidence": 0.9976719617843628,
+        "start": 236,
+        "end": 243,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9994264245033264,
+        "start": 46,
+        "end": 72,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 67 años",
+        "actual_text": "67 años",
+        "confidence": 0.9998370409011841,
+        "start": 236,
+        "end": 243,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9906606078147888,
+        "start": 46,
+        "end": 72,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 67 años",
+        "actual_text": "67 años",
+        "confidence": 0.9976719617843628,
+        "start": 236,
+        "end": 243,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9994264245033264,
+        "start": 46,
+        "end": 72,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 67 años",
+        "actual_text": "67 años",
+        "confidence": 0.9998370409011841,
+        "start": 236,
+        "end": 243,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "xxxxxx_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "CENTRO_SALUD",
+        "text": " Centro de Salud Los Álamos",
+        "confidence": 0.9906606078147888,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "text": " 67 años",
+        "confidence": 0.9976719617843628,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "text": " Centro de Salud Los Álamos",
+        "confidence": 0.9994264245033264,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "text": " 67 años",
+        "confidence": 0.9998370409011841,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 4
+  }
+}

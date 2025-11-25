@@ -1,0 +1,1247 @@
+{
+  "document_id": "00db709f-42a2-484e-80bc-d06eab80c07d",
+  "success": true,
+  "anonymized_text": "A continuación se presenta el resumen de la interconsulta realizada. La valoración inicial fue solicitada tras el contacto establecido con la **hermana del paciente**, quien proporcionó antecedentes relevantes para la anamnesis. La paciente, de **sexo femenino**, fue evaluada en la consulta externa el día **12 de julio de 2023**. Durante la exploración física, se constató un estado general conservado, con presión arterial de 120/75 mmHg y frecuencia cardíaca de 78 lpm. La auscultación cardiorrespiratoria resultó dentro de los límites de la normalidad y el abdomen era blando y depresible, sin masas ni megalias palpables. Los análisis de laboratorio, asociados al identificador **E-459-23**, mostraron un hemograma sin alteraciones significativas y una bioquímica básica con parámetros hepáticos y renales dentro de rangos normales. En cuanto a las pruebas de imagen, cuyos resultados se registran bajo la referencia **E-789456**, no se evidenciaron hallazgos patológicos relevantes en la radiografía de tórax realizada. Se procederá a un seguimiento estrecho de la evolución. Para cualquier gestión o comunicación adicional, este profesional puede ser localizado a través del **+34 91 876 54 32**. La documentación clínica principal de este episodio se encuentra registrada bajo los números **HC-2024-789123** y **HC-2024-789012** para su correcta trazabilidad. Atentamente, **Dra. Elena Rodríguez Santos**, con identificación profesional **** correspondiente. La atención se presta dentro del territorio de la **Comunidad Valenciana**, en **España**.",
+  "text_length": 1558,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 7,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9976223111152649,
+        "word": "her",
+        "start": 144,
+        "end": 147,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9976086616516113,
+        "word": "mana",
+        "start": 147,
+        "end": 151,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9985136985778809,
+        "word": "12 de julio de 2023",
+        "start": 309,
+        "end": 328,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9874221682548523,
+        "word": " 91 876 54 32",
+        "start": 1189,
+        "end": 1201,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7023386359214783,
+        "word": "2024-789123",
+        "start": 1303,
+        "end": 1314,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9992800354957581,
+        "word": " Elena Rodríguez Santos",
+        "start": 1389,
+        "end": 1411,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9970978498458862,
+        "word": "España",
+        "start": 1549,
+        "end": 1555,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 7,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 2,
+        "FECHAS": 1,
+        "NUMERO_TELEFONO": 1,
+        "ID_SUJETO_ASISTENCIA": 1,
+        "NOMBRE_PERSONAL_SANITARIO": 1,
+        "PAIS": 1
+      },
+      "entities_by_confidence": {
+        "high": 6,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": "her",
+          "actual_text": "her",
+          "confidence": 0.9976223111152649,
+          "start": 144,
+          "end": 147,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": "mana",
+          "actual_text": "mana",
+          "confidence": 0.9976086616516113,
+          "start": 147,
+          "end": 151,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FECHAS",
+          "word": "12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9985136985778809,
+          "start": 309,
+          "end": 328,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 91 876 54 32",
+          "actual_text": "91 876 54 32",
+          "confidence": 0.9874221682548523,
+          "start": 1189,
+          "end": 1201,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "2024-789123",
+          "actual_text": "2024-789123",
+          "confidence": 0.7023386359214783,
+          "start": 1303,
+          "end": 1314,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena Rodríguez Santos",
+          "actual_text": "Elena Rodríguez Santos",
+          "confidence": 0.9992800354957581,
+          "start": 1389,
+          "end": 1411,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PAIS",
+          "word": "España",
+          "actual_text": "España",
+          "confidence": 0.9970978498458862,
+          "start": 1549,
+          "end": 1555,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": "her",
+          "actual_text": "her",
+          "confidence": 0.9976223111152649,
+          "start": 144,
+          "end": 147,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": "mana",
+          "actual_text": "mana",
+          "confidence": 0.9976086616516113,
+          "start": 147,
+          "end": 151,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FECHAS",
+          "word": "12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9985136985778809,
+          "start": 309,
+          "end": 328,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 91 876 54 32",
+          "actual_text": "91 876 54 32",
+          "confidence": 0.9874221682548523,
+          "start": 1189,
+          "end": 1201,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "2024-789123",
+          "actual_text": "2024-789123",
+          "confidence": 0.7023386359214783,
+          "start": 1303,
+          "end": 1314,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena Rodríguez Santos",
+          "actual_text": "Elena Rodríguez Santos",
+          "confidence": 0.9992800354957581,
+          "start": 1389,
+          "end": 1411,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PAIS",
+          "word": "España",
+          "actual_text": "España",
+          "confidence": 0.9970978498458862,
+          "start": 1549,
+          "end": 1555,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 17,
+    "entities": [
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9994639754295349,
+        "word": "her",
+        "start": 144,
+        "end": 147,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.999158501625061,
+        "word": "mana",
+        "start": 147,
+        "end": 151,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9524683952331543,
+        "word": "**",
+        "start": 164,
+        "end": 166,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "SEXO_SUJETO_ASISTENCIA",
+        "score": 0.8757193088531494,
+        "word": " femenino",
+        "start": 252,
+        "end": 260,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9819077849388123,
+        "word": " **",
+        "start": 307,
+        "end": 309,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9835920333862305,
+        "word": "12 de julio de 2023",
+        "start": 309,
+        "end": 328,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.707366406917572,
+        "word": " **",
+        "start": 923,
+        "end": 925,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9209187030792236,
+        "word": " **",
+        "start": 1183,
+        "end": 1185,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8729661107063293,
+        "word": "+34 91 876 54 32",
+        "start": 1185,
+        "end": 1201,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7961981892585754,
+        "word": "HC",
+        "start": 1300,
+        "end": 1302,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9256752729415894,
+        "word": "HC",
+        "start": 1321,
+        "end": 1323,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.992905855178833,
+        "word": " Elena",
+        "start": 1389,
+        "end": 1394,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9992449283599854,
+        "word": " Rodríguez",
+        "start": 1395,
+        "end": 1404,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9989475607872009,
+        "word": " Santos",
+        "start": 1405,
+        "end": 1411,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.8684945702552795,
+        "word": "Comunidad Valenciana",
+        "start": 1520,
+        "end": 1540,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9912278652191162,
+        "word": " **",
+        "start": 1547,
+        "end": 1549,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9298266172409058,
+        "word": "España**",
+        "start": 1549,
+        "end": 1557,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 17,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FAMILIARES_SUJETO_ASISTENCIA": 3,
+        "SEXO_SUJETO_ASISTENCIA": 1,
+        "FECHAS": 2,
+        "NUMERO_TELEFONO": 5,
+        "NOMBRE_PERSONAL_SANITARIO": 3,
+        "PAIS": 3
+      },
+      "entities_by_confidence": {
+        "high": 15,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": "her",
+          "actual_text": "her",
+          "confidence": 0.9994639754295349,
+          "start": 144,
+          "end": 147,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": "mana",
+          "actual_text": "mana",
+          "confidence": 0.999158501625061,
+          "start": 147,
+          "end": 151,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": "**",
+          "actual_text": "**",
+          "confidence": 0.9524683952331543,
+          "start": 164,
+          "end": 166,
+          "model": "CARMEN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.8757193088531494,
+          "start": 252,
+          "end": 260,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.9819077849388123,
+          "start": 307,
+          "end": 309,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FECHAS",
+          "word": "12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9835920333862305,
+          "start": 309,
+          "end": 328,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.707366406917572,
+          "start": 923,
+          "end": 925,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.9209187030792236,
+          "start": 1183,
+          "end": 1185,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "+34 91 876 54 32",
+          "actual_text": "+34 91 876 54 32",
+          "confidence": 0.8729661107063293,
+          "start": 1185,
+          "end": 1201,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "HC",
+          "actual_text": "HC",
+          "confidence": 0.7961981892585754,
+          "start": 1300,
+          "end": 1302,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "HC",
+          "actual_text": "HC",
+          "confidence": 0.9256752729415894,
+          "start": 1321,
+          "end": 1323,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena",
+          "actual_text": "Elena",
+          "confidence": 0.992905855178833,
+          "start": 1389,
+          "end": 1394,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "Rodríguez",
+          "confidence": 0.9992449283599854,
+          "start": 1395,
+          "end": 1404,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Santos",
+          "actual_text": "Santos",
+          "confidence": 0.9989475607872009,
+          "start": 1405,
+          "end": 1411,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": "Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.8684945702552795,
+          "start": 1520,
+          "end": 1540,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.9912278652191162,
+          "start": 1547,
+          "end": 1549,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": "España**",
+          "actual_text": "España**",
+          "confidence": 0.9298266172409058,
+          "start": 1549,
+          "end": 1557,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": "her",
+          "actual_text": "her",
+          "confidence": 0.9994639754295349,
+          "start": 144,
+          "end": 147,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": "mana",
+          "actual_text": "mana",
+          "confidence": 0.999158501625061,
+          "start": 147,
+          "end": 151,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": "**",
+          "actual_text": "**",
+          "confidence": 0.9524683952331543,
+          "start": 164,
+          "end": 166,
+          "model": "CARMEN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.8757193088531494,
+          "start": 252,
+          "end": 260,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.9819077849388123,
+          "start": 307,
+          "end": 309,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FECHAS",
+          "word": "12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9835920333862305,
+          "start": 309,
+          "end": 328,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.707366406917572,
+          "start": 923,
+          "end": 925,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.9209187030792236,
+          "start": 1183,
+          "end": 1185,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "+34 91 876 54 32",
+          "actual_text": "+34 91 876 54 32",
+          "confidence": 0.8729661107063293,
+          "start": 1185,
+          "end": 1201,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "HC",
+          "actual_text": "HC",
+          "confidence": 0.7961981892585754,
+          "start": 1300,
+          "end": 1302,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "HC",
+          "actual_text": "HC",
+          "confidence": 0.9256752729415894,
+          "start": 1321,
+          "end": 1323,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena",
+          "actual_text": "Elena",
+          "confidence": 0.992905855178833,
+          "start": 1389,
+          "end": 1394,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "Rodríguez",
+          "confidence": 0.9992449283599854,
+          "start": 1395,
+          "end": 1404,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Santos",
+          "actual_text": "Santos",
+          "confidence": 0.9989475607872009,
+          "start": 1405,
+          "end": 1411,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": "Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.8684945702552795,
+          "start": 1520,
+          "end": 1540,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.9912278652191162,
+          "start": 1547,
+          "end": 1549,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": "España**",
+          "actual_text": "España**",
+          "confidence": 0.9298266172409058,
+          "start": 1549,
+          "end": 1557,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 24,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FAMILIARES_SUJETO_ASISTENCIA": 5,
+      "FECHAS": 3,
+      "NUMERO_TELEFONO": 6,
+      "ID_SUJETO_ASISTENCIA": 1,
+      "NOMBRE_PERSONAL_SANITARIO": 4,
+      "PAIS": 4,
+      "SEXO_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 21,
+      "medium": 3,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": "her",
+        "actual_text": "her",
+        "confidence": 0.9976223111152649,
+        "start": 144,
+        "end": 147,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": "mana",
+        "actual_text": "mana",
+        "confidence": 0.9976086616516113,
+        "start": 147,
+        "end": 151,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": "12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9985136985778809,
+        "start": 309,
+        "end": 328,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 91 876 54 32",
+        "actual_text": "91 876 54 32",
+        "confidence": 0.9874221682548523,
+        "start": 1189,
+        "end": 1201,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "2024-789123",
+        "actual_text": "2024-789123",
+        "confidence": 0.7023386359214783,
+        "start": 1303,
+        "end": 1314,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena Rodríguez Santos",
+        "actual_text": "Elena Rodríguez Santos",
+        "confidence": 0.9992800354957581,
+        "start": 1389,
+        "end": 1411,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": "España",
+        "actual_text": "España",
+        "confidence": 0.9970978498458862,
+        "start": 1549,
+        "end": 1555,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": "her",
+        "actual_text": "her",
+        "confidence": 0.9994639754295349,
+        "start": 144,
+        "end": 147,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": "mana",
+        "actual_text": "mana",
+        "confidence": 0.999158501625061,
+        "start": 147,
+        "end": 151,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": "**",
+        "actual_text": "**",
+        "confidence": 0.9524683952331543,
+        "start": 164,
+        "end": 166,
+        "model": "CARMEN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.8757193088531494,
+        "start": 252,
+        "end": 260,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.9819077849388123,
+        "start": 307,
+        "end": 309,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FECHAS",
+        "word": "12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9835920333862305,
+        "start": 309,
+        "end": 328,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.707366406917572,
+        "start": 923,
+        "end": 925,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.9209187030792236,
+        "start": 1183,
+        "end": 1185,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "+34 91 876 54 32",
+        "actual_text": "+34 91 876 54 32",
+        "confidence": 0.8729661107063293,
+        "start": 1185,
+        "end": 1201,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "HC",
+        "actual_text": "HC",
+        "confidence": 0.7961981892585754,
+        "start": 1300,
+        "end": 1302,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "HC",
+        "actual_text": "HC",
+        "confidence": 0.9256752729415894,
+        "start": 1321,
+        "end": 1323,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena",
+        "actual_text": "Elena",
+        "confidence": 0.992905855178833,
+        "start": 1389,
+        "end": 1394,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "Rodríguez",
+        "confidence": 0.9992449283599854,
+        "start": 1395,
+        "end": 1404,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Santos",
+        "actual_text": "Santos",
+        "confidence": 0.9989475607872009,
+        "start": 1405,
+        "end": 1411,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": "Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.8684945702552795,
+        "start": 1520,
+        "end": 1540,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.9912278652191162,
+        "start": 1547,
+        "end": 1549,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": "España**",
+        "actual_text": "España**",
+        "confidence": 0.9298266172409058,
+        "start": 1549,
+        "end": 1557,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": "her",
+        "actual_text": "her",
+        "confidence": 0.9976223111152649,
+        "start": 144,
+        "end": 147,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": "mana",
+        "actual_text": "mana",
+        "confidence": 0.9976086616516113,
+        "start": 147,
+        "end": 151,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": "12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9985136985778809,
+        "start": 309,
+        "end": 328,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 91 876 54 32",
+        "actual_text": "91 876 54 32",
+        "confidence": 0.9874221682548523,
+        "start": 1189,
+        "end": 1201,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "2024-789123",
+        "actual_text": "2024-789123",
+        "confidence": 0.7023386359214783,
+        "start": 1303,
+        "end": 1314,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena Rodríguez Santos",
+        "actual_text": "Elena Rodríguez Santos",
+        "confidence": 0.9992800354957581,
+        "start": 1389,
+        "end": 1411,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": "España",
+        "actual_text": "España",
+        "confidence": 0.9970978498458862,
+        "start": 1549,
+        "end": 1555,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": "her",
+        "actual_text": "her",
+        "confidence": 0.9994639754295349,
+        "start": 144,
+        "end": 147,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": "mana",
+        "actual_text": "mana",
+        "confidence": 0.999158501625061,
+        "start": 147,
+        "end": 151,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": "**",
+        "actual_text": "**",
+        "confidence": 0.9524683952331543,
+        "start": 164,
+        "end": 166,
+        "model": "CARMEN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.8757193088531494,
+        "start": 252,
+        "end": 260,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.9819077849388123,
+        "start": 307,
+        "end": 309,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FECHAS",
+        "word": "12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9835920333862305,
+        "start": 309,
+        "end": 328,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.707366406917572,
+        "start": 923,
+        "end": 925,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.9209187030792236,
+        "start": 1183,
+        "end": 1185,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "+34 91 876 54 32",
+        "actual_text": "+34 91 876 54 32",
+        "confidence": 0.8729661107063293,
+        "start": 1185,
+        "end": 1201,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "HC",
+        "actual_text": "HC",
+        "confidence": 0.7961981892585754,
+        "start": 1300,
+        "end": 1302,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "HC",
+        "actual_text": "HC",
+        "confidence": 0.9256752729415894,
+        "start": 1321,
+        "end": 1323,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena",
+        "actual_text": "Elena",
+        "confidence": 0.992905855178833,
+        "start": 1389,
+        "end": 1394,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "Rodríguez",
+        "confidence": 0.9992449283599854,
+        "start": 1395,
+        "end": 1404,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Santos",
+        "actual_text": "Santos",
+        "confidence": 0.9989475607872009,
+        "start": 1405,
+        "end": 1411,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": "Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.8684945702552795,
+        "start": 1520,
+        "end": 1540,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.9912278652191162,
+        "start": 1547,
+        "end": 1549,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": "España**",
+        "actual_text": "España**",
+        "confidence": 0.9298266172409058,
+        "start": 1549,
+        "end": 1557,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 24,
+    "suspicious_detections": 24,
+    "xxxxxx_detections": 0,
+    "other_detections": 24
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "text": "her",
+        "confidence": 0.9976223111152649,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "text": "mana",
+        "confidence": 0.9976086616516113,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "text": "12 de julio de 2023",
+        "confidence": 0.9985136985778809,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Elena Rodríguez Santos",
+        "confidence": 0.9992800354957581,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "text": "España",
+        "confidence": 0.9970978498458862,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "text": "her",
+        "confidence": 0.9994639754295349,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "text": "mana",
+        "confidence": 0.999158501625061,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Elena",
+        "confidence": 0.992905855178833,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Rodríguez",
+        "confidence": 0.9992449283599854,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Santos",
+        "confidence": 0.9989475607872009,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "text": " **",
+        "confidence": 0.9912278652191162,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 11
+  }
+}

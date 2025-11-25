@@ -1,0 +1,948 @@
+{
+  "document_id": "001f45d6-19f4-4b97-87f7-a85644d37947",
+  "success": true,
+  "anonymized_text": "**Informe de Consulta Externa** A continuación se presenta el resumen de la primera consulta de la paciente Laura Méndez Iglesias, atendida en el Centro de Salud Los Álamos, ubicado en España, el día 12 de julio de 2023. La paciente acude para valoración y seguimiento. Se ha procedido a la actualización de su historia clínica, verificando que su B123456789012 se encuentra activo y en vigor. La exploración física realizada en el día de hoy muestra constantes vitales dentro de la normalidad. La auscultación cardiorrespiratoria es rítmica y sin soplos, con murmullo vesicular conservado y sin ruidos sobreañadidos. En el abdomen, no se palpan masas ni visceromegalias, siendo blando y depresible. Se ha remitido a la paciente para la realización de analítica sanguínea básica y una radiografía de tórax, cuyos resultados serán evaluados en la próxima visita. Se ha habilitado el acceso al portal del paciente, disponible en la https://historiaclinica.hospitalcentral.es/paciente/ZXC456, para la consulta de resultados y comunicación no urgente. Para cualquier gestión administrativa o coordinación, queda a disposición el ana.garcia@clinic.es. Se recomienda seguimiento en consultas externas en un plazo de tres meses para valorar la evolución y los resultados de las pruebas complementarias solicitadas.",
+  "text_length": 1307,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 6,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9816994667053223,
+        "word": " Laura Méndez Iglesias",
+        "start": 108,
+        "end": 129,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.9885601997375488,
+        "word": " Centro de Salud Los Álamos",
+        "start": 146,
+        "end": 172,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9978196620941162,
+        "word": " España",
+        "start": 185,
+        "end": 191,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9987511038780212,
+        "word": " 12 de julio de 2023",
+        "start": 200,
+        "end": 219,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.8763205409049988,
+        "word": "aclinica.hospitalcentral.es",
+        "start": 945,
+        "end": 972,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9946002960205078,
+        "word": " ana.garcia@clinic.es",
+        "start": 1125,
+        "end": 1145,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 6,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 1,
+        "CENTRO_SALUD": 1,
+        "PAIS": 1,
+        "FECHAS": 1,
+        "CORREO_ELECTRONICO": 2
+      },
+      "entities_by_confidence": {
+        "high": 6,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Laura Méndez Iglesias",
+          "actual_text": "Laura Méndez Iglesias",
+          "confidence": 0.9816994667053223,
+          "start": 108,
+          "end": 129,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9885601997375488,
+          "start": 146,
+          "end": 172,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PAIS",
+          "word": " España",
+          "actual_text": "España",
+          "confidence": 0.9978196620941162,
+          "start": 185,
+          "end": 191,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9987511038780212,
+          "start": 200,
+          "end": 219,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "aclinica.hospitalcentral.es",
+          "actual_text": "aclinica.hospitalcentral.es",
+          "confidence": 0.8763205409049988,
+          "start": 945,
+          "end": 972,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " ana.garcia@clinic.es",
+          "actual_text": "ana.garcia@clinic.es",
+          "confidence": 0.9946002960205078,
+          "start": 1125,
+          "end": 1145,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Laura Méndez Iglesias",
+          "actual_text": "Laura Méndez Iglesias",
+          "confidence": 0.9816994667053223,
+          "start": 108,
+          "end": 129,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9885601997375488,
+          "start": 146,
+          "end": 172,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PAIS",
+          "word": " España",
+          "actual_text": "España",
+          "confidence": 0.9978196620941162,
+          "start": 185,
+          "end": 191,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9987511038780212,
+          "start": 200,
+          "end": 219,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "aclinica.hospitalcentral.es",
+          "actual_text": "aclinica.hospitalcentral.es",
+          "confidence": 0.8763205409049988,
+          "start": 945,
+          "end": 972,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " ana.garcia@clinic.es",
+          "actual_text": "ana.garcia@clinic.es",
+          "confidence": 0.9946002960205078,
+          "start": 1125,
+          "end": 1145,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 12,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9871969223022461,
+        "word": " Méndez",
+        "start": 114,
+        "end": 120,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9689768552780151,
+        "word": " Iglesias",
+        "start": 121,
+        "end": 129,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.9993469715118408,
+        "word": " Centro de Salud Los Álamos",
+        "start": 146,
+        "end": 172,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9992179870605469,
+        "word": " España",
+        "start": 185,
+        "end": 191,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9998772144317627,
+        "word": " 12 de julio de 2023",
+        "start": 200,
+        "end": 219,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.7847228050231934,
+        "word": " B",
+        "start": 348,
+        "end": 349,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9122779965400696,
+        "word": "12",
+        "start": 349,
+        "end": 351,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.7689211368560791,
+        "word": "toriaclinica.hospitalcentral.es/paciente/",
+        "start": 941,
+        "end": 982,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9615626335144043,
+        "word": "Z",
+        "start": 982,
+        "end": 983,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9703673124313354,
+        "word": "gar",
+        "start": 1129,
+        "end": 1132,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9306133389472961,
+        "word": "cia",
+        "start": 1132,
+        "end": 1135,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.8038754463195801,
+        "word": "@clinic.es",
+        "start": 1135,
+        "end": 1145,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 12,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 4,
+        "CENTRO_SALUD": 1,
+        "PAIS": 1,
+        "FECHAS": 1,
+        "NUMERO_IDENTIF": 1,
+        "NUMERO_TELEFONO": 2,
+        "URL_WEB": 2
+      },
+      "entities_by_confidence": {
+        "high": 10,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9871969223022461,
+          "start": 114,
+          "end": 120,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.9689768552780151,
+          "start": 121,
+          "end": 129,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9993469715118408,
+          "start": 146,
+          "end": 172,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " España",
+          "actual_text": "España",
+          "confidence": 0.9992179870605469,
+          "start": 185,
+          "end": 191,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9998772144317627,
+          "start": 200,
+          "end": 219,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.7847228050231934,
+          "start": 348,
+          "end": 349,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12",
+          "actual_text": "12",
+          "confidence": 0.9122779965400696,
+          "start": 349,
+          "end": 351,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "toriaclinica.hospitalcentral.es/paciente/",
+          "actual_text": "toriaclinica.hospitalcentral.es/paciente/",
+          "confidence": 0.7689211368560791,
+          "start": 941,
+          "end": 982,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "Z",
+          "actual_text": "Z",
+          "confidence": 0.9615626335144043,
+          "start": 982,
+          "end": 983,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "gar",
+          "actual_text": "gar",
+          "confidence": 0.9703673124313354,
+          "start": 1129,
+          "end": 1132,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "cia",
+          "actual_text": "cia",
+          "confidence": 0.9306133389472961,
+          "start": 1132,
+          "end": 1135,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "@clinic.es",
+          "actual_text": "@clinic.es",
+          "confidence": 0.8038754463195801,
+          "start": 1135,
+          "end": 1145,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9871969223022461,
+          "start": 114,
+          "end": 120,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.9689768552780151,
+          "start": 121,
+          "end": 129,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9993469715118408,
+          "start": 146,
+          "end": 172,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " España",
+          "actual_text": "España",
+          "confidence": 0.9992179870605469,
+          "start": 185,
+          "end": 191,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9998772144317627,
+          "start": 200,
+          "end": 219,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.7847228050231934,
+          "start": 348,
+          "end": 349,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12",
+          "actual_text": "12",
+          "confidence": 0.9122779965400696,
+          "start": 349,
+          "end": 351,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "toriaclinica.hospitalcentral.es/paciente/",
+          "actual_text": "toriaclinica.hospitalcentral.es/paciente/",
+          "confidence": 0.7689211368560791,
+          "start": 941,
+          "end": 982,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "Z",
+          "actual_text": "Z",
+          "confidence": 0.9615626335144043,
+          "start": 982,
+          "end": 983,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "gar",
+          "actual_text": "gar",
+          "confidence": 0.9703673124313354,
+          "start": 1129,
+          "end": 1132,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "cia",
+          "actual_text": "cia",
+          "confidence": 0.9306133389472961,
+          "start": 1132,
+          "end": 1135,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "@clinic.es",
+          "actual_text": "@clinic.es",
+          "confidence": 0.8038754463195801,
+          "start": 1135,
+          "end": 1145,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 18,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "NOMBRE_PERSONAL_SANITARIO": 5,
+      "CENTRO_SALUD": 2,
+      "PAIS": 2,
+      "FECHAS": 2,
+      "CORREO_ELECTRONICO": 2,
+      "NUMERO_IDENTIF": 1,
+      "NUMERO_TELEFONO": 2,
+      "URL_WEB": 2
+    },
+    "entities_by_confidence": {
+      "high": 16,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Laura Méndez Iglesias",
+        "actual_text": "Laura Méndez Iglesias",
+        "confidence": 0.9816994667053223,
+        "start": 108,
+        "end": 129,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9885601997375488,
+        "start": 146,
+        "end": 172,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " España",
+        "actual_text": "España",
+        "confidence": 0.9978196620941162,
+        "start": 185,
+        "end": 191,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9987511038780212,
+        "start": 200,
+        "end": 219,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "aclinica.hospitalcentral.es",
+        "actual_text": "aclinica.hospitalcentral.es",
+        "confidence": 0.8763205409049988,
+        "start": 945,
+        "end": 972,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " ana.garcia@clinic.es",
+        "actual_text": "ana.garcia@clinic.es",
+        "confidence": 0.9946002960205078,
+        "start": 1125,
+        "end": 1145,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9871969223022461,
+        "start": 114,
+        "end": 120,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.9689768552780151,
+        "start": 121,
+        "end": 129,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9993469715118408,
+        "start": 146,
+        "end": 172,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " España",
+        "actual_text": "España",
+        "confidence": 0.9992179870605469,
+        "start": 185,
+        "end": 191,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9998772144317627,
+        "start": 200,
+        "end": 219,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.7847228050231934,
+        "start": 348,
+        "end": 349,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12",
+        "actual_text": "12",
+        "confidence": 0.9122779965400696,
+        "start": 349,
+        "end": 351,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "toriaclinica.hospitalcentral.es/paciente/",
+        "actual_text": "toriaclinica.hospitalcentral.es/paciente/",
+        "confidence": 0.7689211368560791,
+        "start": 941,
+        "end": 982,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "Z",
+        "actual_text": "Z",
+        "confidence": 0.9615626335144043,
+        "start": 982,
+        "end": 983,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "gar",
+        "actual_text": "gar",
+        "confidence": 0.9703673124313354,
+        "start": 1129,
+        "end": 1132,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "cia",
+        "actual_text": "cia",
+        "confidence": 0.9306133389472961,
+        "start": 1132,
+        "end": 1135,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "@clinic.es",
+        "actual_text": "@clinic.es",
+        "confidence": 0.8038754463195801,
+        "start": 1135,
+        "end": 1145,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Laura Méndez Iglesias",
+        "actual_text": "Laura Méndez Iglesias",
+        "confidence": 0.9816994667053223,
+        "start": 108,
+        "end": 129,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9885601997375488,
+        "start": 146,
+        "end": 172,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " España",
+        "actual_text": "España",
+        "confidence": 0.9978196620941162,
+        "start": 185,
+        "end": 191,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9987511038780212,
+        "start": 200,
+        "end": 219,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "aclinica.hospitalcentral.es",
+        "actual_text": "aclinica.hospitalcentral.es",
+        "confidence": 0.8763205409049988,
+        "start": 945,
+        "end": 972,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " ana.garcia@clinic.es",
+        "actual_text": "ana.garcia@clinic.es",
+        "confidence": 0.9946002960205078,
+        "start": 1125,
+        "end": 1145,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9871969223022461,
+        "start": 114,
+        "end": 120,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.9689768552780151,
+        "start": 121,
+        "end": 129,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9993469715118408,
+        "start": 146,
+        "end": 172,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " España",
+        "actual_text": "España",
+        "confidence": 0.9992179870605469,
+        "start": 185,
+        "end": 191,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9998772144317627,
+        "start": 200,
+        "end": 219,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.7847228050231934,
+        "start": 348,
+        "end": 349,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12",
+        "actual_text": "12",
+        "confidence": 0.9122779965400696,
+        "start": 349,
+        "end": 351,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "toriaclinica.hospitalcentral.es/paciente/",
+        "actual_text": "toriaclinica.hospitalcentral.es/paciente/",
+        "confidence": 0.7689211368560791,
+        "start": 941,
+        "end": 982,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "Z",
+        "actual_text": "Z",
+        "confidence": 0.9615626335144043,
+        "start": 982,
+        "end": 983,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "gar",
+        "actual_text": "gar",
+        "confidence": 0.9703673124313354,
+        "start": 1129,
+        "end": 1132,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "cia",
+        "actual_text": "cia",
+        "confidence": 0.9306133389472961,
+        "start": 1132,
+        "end": 1135,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "@clinic.es",
+        "actual_text": "@clinic.es",
+        "confidence": 0.8038754463195801,
+        "start": 1135,
+        "end": 1145,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 18,
+    "suspicious_detections": 18,
+    "xxxxxx_detections": 0,
+    "other_detections": 18
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "PAIS",
+        "text": " España",
+        "confidence": 0.9978196620941162,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "text": " 12 de julio de 2023",
+        "confidence": 0.9987511038780212,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "text": " ana.garcia@clinic.es",
+        "confidence": 0.9946002960205078,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "text": " Centro de Salud Los Álamos",
+        "confidence": 0.9993469715118408,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "text": " España",
+        "confidence": 0.9992179870605469,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FECHAS",
+        "text": " 12 de julio de 2023",
+        "confidence": 0.9998772144317627,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 6
+  }
+}

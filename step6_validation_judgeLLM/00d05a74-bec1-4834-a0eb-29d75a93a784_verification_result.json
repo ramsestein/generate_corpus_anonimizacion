@@ -1,0 +1,1475 @@
+{
+  "document_id": "00d05a74-bec1-4834-a0eb-29d75a93a784",
+  "success": true,
+  "anonymized_text": "**INFORME DE VALORACIÓN PREOPERATORIA** Se procede a la valoración preoperatoria de la paciente **Laura Méndez Iglesias**, identificada con el número de historia clínica **HC-2024-789123** y con número de identificación **B123456789**. La paciente, de **sexo femenino**, es residente en la **Comunidad Valenciana** y su caso está registrado bajo el código **C-2024-789012**. El estudio biométrico de identificación se completó satisfactoriamente, verificándose mediante la **huella dactilar derecha índice**. Los identificadores biométricos registrados incluyen específicamente la Huella dactilar derecha índice. Este procedimiento está avalado por el protocolo de seguridad **E-284739-B**. La interconsulta fue derivada al servicio de **Cirugía Cardiovascular** y ha sido revisada por el **cirujano** responsable, **Dra. Elena Rodríguez**, cuyo desempeño profesional como **cirujano cardiovascular** queda así documentado. Para cualquier comunicación profesional complementaria, se puede utilizar el número de fax **46 08 28 453 01** o bien contactar a través del +34 91 876 54 32. Asimismo, se recomienda consultar la guía de procedimientos disponible en la **https://www.clinicabarcelona.org** para una referencia adicional sobre los protocolos aplicables. La paciente se presenta clínicamente estable para la intervención programada. Se han obtenido los consentimientos informados correspondientes y se considera que cumple con todos los criterios prequirúrgicos establecidos.",
+  "text_length": 1480,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 9,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9984074234962463,
+        "word": "La",
+        "start": 98,
+        "end": 100,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9965310096740723,
+        "word": "ura Méndez Iglesias",
+        "start": 100,
+        "end": 119,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.950961709022522,
+        "word": "20",
+        "start": 175,
+        "end": 177,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7843846082687378,
+        "word": "-789123",
+        "start": 179,
+        "end": 186,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.998806357383728,
+        "word": " Elena Rodríguez",
+        "start": 822,
+        "end": 837,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9936215281486511,
+        "word": "46 08 28 453 01",
+        "start": 1017,
+        "end": 1032,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.983279824256897,
+        "word": " +",
+        "start": 1065,
+        "end": 1066,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9575238823890686,
+        "word": "34 91 876 54 32",
+        "start": 1066,
+        "end": 1081,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9606491923332214,
+        "word": "icabarcelona.org",
+        "start": 1178,
+        "end": 1194,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 9,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 3,
+        "ID_SUJETO_ASISTENCIA": 2,
+        "NUMERO_TELEFONO": 3,
+        "CORREO_ELECTRONICO": 1
+      },
+      "entities_by_confidence": {
+        "high": 8,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "La",
+          "actual_text": "La",
+          "confidence": 0.9984074234962463,
+          "start": 98,
+          "end": 100,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "ura Méndez Iglesias",
+          "actual_text": "ura Méndez Iglesias",
+          "confidence": 0.9965310096740723,
+          "start": 100,
+          "end": 119,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "20",
+          "actual_text": "20",
+          "confidence": 0.950961709022522,
+          "start": 175,
+          "end": 177,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-789123",
+          "actual_text": "-789123",
+          "confidence": 0.7843846082687378,
+          "start": 179,
+          "end": 186,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena Rodríguez",
+          "actual_text": "Elena Rodríguez",
+          "confidence": 0.998806357383728,
+          "start": 822,
+          "end": 837,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "46 08 28 453 01",
+          "actual_text": "46 08 28 453 01",
+          "confidence": 0.9936215281486511,
+          "start": 1017,
+          "end": 1032,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.983279824256897,
+          "start": 1065,
+          "end": 1066,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.9575238823890686,
+          "start": 1066,
+          "end": 1081,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "icabarcelona.org",
+          "actual_text": "icabarcelona.org",
+          "confidence": 0.9606491923332214,
+          "start": 1178,
+          "end": 1194,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "La",
+          "actual_text": "La",
+          "confidence": 0.9984074234962463,
+          "start": 98,
+          "end": 100,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "ura Méndez Iglesias",
+          "actual_text": "ura Méndez Iglesias",
+          "confidence": 0.9965310096740723,
+          "start": 100,
+          "end": 119,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "20",
+          "actual_text": "20",
+          "confidence": 0.950961709022522,
+          "start": 175,
+          "end": 177,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-789123",
+          "actual_text": "-789123",
+          "confidence": 0.7843846082687378,
+          "start": 179,
+          "end": 186,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena Rodríguez",
+          "actual_text": "Elena Rodríguez",
+          "confidence": 0.998806357383728,
+          "start": 822,
+          "end": 837,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "46 08 28 453 01",
+          "actual_text": "46 08 28 453 01",
+          "confidence": 0.9936215281486511,
+          "start": 1017,
+          "end": 1032,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.983279824256897,
+          "start": 1065,
+          "end": 1066,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.9575238823890686,
+          "start": 1066,
+          "end": 1081,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "icabarcelona.org",
+          "actual_text": "icabarcelona.org",
+          "confidence": 0.9606491923332214,
+          "start": 1178,
+          "end": 1194,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 20,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9983400106430054,
+        "word": " Méndez",
+        "start": 104,
+        "end": 110,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9971393346786499,
+        "word": " Iglesias",
+        "start": 111,
+        "end": 119,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8270277976989746,
+        "word": " historia clínica",
+        "start": 153,
+        "end": 169,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7345947623252869,
+        "word": "HC",
+        "start": 172,
+        "end": 174,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9602620005607605,
+        "word": " **",
+        "start": 220,
+        "end": 222,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9810066819190979,
+        "word": "B",
+        "start": 222,
+        "end": 223,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "SEXO_SUJETO_ASISTENCIA",
+        "score": 0.9319193959236145,
+        "word": " femenino",
+        "start": 259,
+        "end": 267,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9959999322891235,
+        "word": "Com",
+        "start": 292,
+        "end": 295,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9800475835800171,
+        "word": "unidad Valenciana",
+        "start": 295,
+        "end": 312,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.8804728984832764,
+        "word": " **",
+        "start": 675,
+        "end": 677,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.7922940850257874,
+        "word": "E-284739-B",
+        "start": 677,
+        "end": 687,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9982792139053345,
+        "word": " Elena",
+        "start": 822,
+        "end": 827,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9992756247520447,
+        "word": " Rodríguez",
+        "start": 828,
+        "end": 837,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PROFESION",
+        "score": 0.9821680784225464,
+        "word": " **",
+        "start": 873,
+        "end": 875,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PROFESION",
+        "score": 0.999018669128418,
+        "word": "ciru",
+        "start": 875,
+        "end": 879,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PROFESION",
+        "score": 0.950238823890686,
+        "word": "jano cardiovascular",
+        "start": 879,
+        "end": 898,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9933142066001892,
+        "word": " **",
+        "start": 1015,
+        "end": 1017,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8272101879119873,
+        "word": "46 08 28 453 01",
+        "start": 1017,
+        "end": 1032,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8350275158882141,
+        "word": " +34 91 876 54 32",
+        "start": 1065,
+        "end": 1081,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.7726567387580872,
+        "word": "https://www.clinicabarcelona.org",
+        "start": 1162,
+        "end": 1194,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 20,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 4,
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "NUMERO_TELEFONO": 6,
+        "SEXO_SUJETO_ASISTENCIA": 1,
+        "PAIS": 2,
+        "NUMERO_IDENTIF": 2,
+        "PROFESION": 3,
+        "URL_WEB": 1
+      },
+      "entities_by_confidence": {
+        "high": 17,
+        "medium": 3,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9983400106430054,
+          "start": 104,
+          "end": 110,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.9971393346786499,
+          "start": 111,
+          "end": 119,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.8270277976989746,
+          "start": 153,
+          "end": 169,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "HC",
+          "actual_text": "HC",
+          "confidence": 0.7345947623252869,
+          "start": 172,
+          "end": 174,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.9602620005607605,
+          "start": 220,
+          "end": 222,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "B",
+          "actual_text": "B",
+          "confidence": 0.9810066819190979,
+          "start": 222,
+          "end": 223,
+          "model": "CARMEN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9319193959236145,
+          "start": 259,
+          "end": 267,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": "Com",
+          "actual_text": "Com",
+          "confidence": 0.9959999322891235,
+          "start": 292,
+          "end": 295,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": "unidad Valenciana",
+          "actual_text": "unidad Valenciana",
+          "confidence": 0.9800475835800171,
+          "start": 295,
+          "end": 312,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.8804728984832764,
+          "start": 675,
+          "end": 677,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": "E-284739-B",
+          "actual_text": "E-284739-B",
+          "confidence": 0.7922940850257874,
+          "start": 677,
+          "end": 687,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena",
+          "actual_text": "Elena",
+          "confidence": 0.9982792139053345,
+          "start": 822,
+          "end": 827,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "Rodríguez",
+          "confidence": 0.9992756247520447,
+          "start": 828,
+          "end": 837,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.9821680784225464,
+          "start": 873,
+          "end": 875,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": "ciru",
+          "actual_text": "ciru",
+          "confidence": 0.999018669128418,
+          "start": 875,
+          "end": 879,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": "jano cardiovascular",
+          "actual_text": "jano cardiovascular",
+          "confidence": 0.950238823890686,
+          "start": 879,
+          "end": 898,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.9933142066001892,
+          "start": 1015,
+          "end": 1017,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "46 08 28 453 01",
+          "actual_text": "46 08 28 453 01",
+          "confidence": 0.8272101879119873,
+          "start": 1017,
+          "end": 1032,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +34 91 876 54 32",
+          "actual_text": "+34 91 876 54 32",
+          "confidence": 0.8350275158882141,
+          "start": 1065,
+          "end": 1081,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "https://www.clinicabarcelona.org",
+          "actual_text": "https://www.clinicabarcelona.org",
+          "confidence": 0.7726567387580872,
+          "start": 1162,
+          "end": 1194,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9983400106430054,
+          "start": 104,
+          "end": 110,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.9971393346786499,
+          "start": 111,
+          "end": 119,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.8270277976989746,
+          "start": 153,
+          "end": 169,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "HC",
+          "actual_text": "HC",
+          "confidence": 0.7345947623252869,
+          "start": 172,
+          "end": 174,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.9602620005607605,
+          "start": 220,
+          "end": 222,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "B",
+          "actual_text": "B",
+          "confidence": 0.9810066819190979,
+          "start": 222,
+          "end": 223,
+          "model": "CARMEN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9319193959236145,
+          "start": 259,
+          "end": 267,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": "Com",
+          "actual_text": "Com",
+          "confidence": 0.9959999322891235,
+          "start": 292,
+          "end": 295,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": "unidad Valenciana",
+          "actual_text": "unidad Valenciana",
+          "confidence": 0.9800475835800171,
+          "start": 295,
+          "end": 312,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.8804728984832764,
+          "start": 675,
+          "end": 677,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": "E-284739-B",
+          "actual_text": "E-284739-B",
+          "confidence": 0.7922940850257874,
+          "start": 677,
+          "end": 687,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena",
+          "actual_text": "Elena",
+          "confidence": 0.9982792139053345,
+          "start": 822,
+          "end": 827,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "Rodríguez",
+          "confidence": 0.9992756247520447,
+          "start": 828,
+          "end": 837,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.9821680784225464,
+          "start": 873,
+          "end": 875,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": "ciru",
+          "actual_text": "ciru",
+          "confidence": 0.999018669128418,
+          "start": 875,
+          "end": 879,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": "jano cardiovascular",
+          "actual_text": "jano cardiovascular",
+          "confidence": 0.950238823890686,
+          "start": 879,
+          "end": 898,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.9933142066001892,
+          "start": 1015,
+          "end": 1017,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "46 08 28 453 01",
+          "actual_text": "46 08 28 453 01",
+          "confidence": 0.8272101879119873,
+          "start": 1017,
+          "end": 1032,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +34 91 876 54 32",
+          "actual_text": "+34 91 876 54 32",
+          "confidence": 0.8350275158882141,
+          "start": 1065,
+          "end": 1081,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "https://www.clinicabarcelona.org",
+          "actual_text": "https://www.clinicabarcelona.org",
+          "confidence": 0.7726567387580872,
+          "start": 1162,
+          "end": 1194,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 29,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "NOMBRE_PERSONAL_SANITARIO": 7,
+      "ID_SUJETO_ASISTENCIA": 2,
+      "NUMERO_TELEFONO": 9,
+      "CORREO_ELECTRONICO": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "SEXO_SUJETO_ASISTENCIA": 1,
+      "PAIS": 2,
+      "NUMERO_IDENTIF": 2,
+      "PROFESION": 3,
+      "URL_WEB": 1
+    },
+    "entities_by_confidence": {
+      "high": 25,
+      "medium": 4,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "La",
+        "actual_text": "La",
+        "confidence": 0.9984074234962463,
+        "start": 98,
+        "end": 100,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "ura Méndez Iglesias",
+        "actual_text": "ura Méndez Iglesias",
+        "confidence": 0.9965310096740723,
+        "start": 100,
+        "end": 119,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "20",
+        "actual_text": "20",
+        "confidence": 0.950961709022522,
+        "start": 175,
+        "end": 177,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-789123",
+        "actual_text": "-789123",
+        "confidence": 0.7843846082687378,
+        "start": 179,
+        "end": 186,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena Rodríguez",
+        "actual_text": "Elena Rodríguez",
+        "confidence": 0.998806357383728,
+        "start": 822,
+        "end": 837,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "46 08 28 453 01",
+        "actual_text": "46 08 28 453 01",
+        "confidence": 0.9936215281486511,
+        "start": 1017,
+        "end": 1032,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.983279824256897,
+        "start": 1065,
+        "end": 1066,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.9575238823890686,
+        "start": 1066,
+        "end": 1081,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "icabarcelona.org",
+        "actual_text": "icabarcelona.org",
+        "confidence": 0.9606491923332214,
+        "start": 1178,
+        "end": 1194,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9983400106430054,
+        "start": 104,
+        "end": 110,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.9971393346786499,
+        "start": 111,
+        "end": 119,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.8270277976989746,
+        "start": 153,
+        "end": 169,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "HC",
+        "actual_text": "HC",
+        "confidence": 0.7345947623252869,
+        "start": 172,
+        "end": 174,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.9602620005607605,
+        "start": 220,
+        "end": 222,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "B",
+        "actual_text": "B",
+        "confidence": 0.9810066819190979,
+        "start": 222,
+        "end": 223,
+        "model": "CARMEN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9319193959236145,
+        "start": 259,
+        "end": 267,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": "Com",
+        "actual_text": "Com",
+        "confidence": 0.9959999322891235,
+        "start": 292,
+        "end": 295,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": "unidad Valenciana",
+        "actual_text": "unidad Valenciana",
+        "confidence": 0.9800475835800171,
+        "start": 295,
+        "end": 312,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.8804728984832764,
+        "start": 675,
+        "end": 677,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": "E-284739-B",
+        "actual_text": "E-284739-B",
+        "confidence": 0.7922940850257874,
+        "start": 677,
+        "end": 687,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena",
+        "actual_text": "Elena",
+        "confidence": 0.9982792139053345,
+        "start": 822,
+        "end": 827,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "Rodríguez",
+        "confidence": 0.9992756247520447,
+        "start": 828,
+        "end": 837,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.9821680784225464,
+        "start": 873,
+        "end": 875,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": "ciru",
+        "actual_text": "ciru",
+        "confidence": 0.999018669128418,
+        "start": 875,
+        "end": 879,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": "jano cardiovascular",
+        "actual_text": "jano cardiovascular",
+        "confidence": 0.950238823890686,
+        "start": 879,
+        "end": 898,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.9933142066001892,
+        "start": 1015,
+        "end": 1017,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "46 08 28 453 01",
+        "actual_text": "46 08 28 453 01",
+        "confidence": 0.8272101879119873,
+        "start": 1017,
+        "end": 1032,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +34 91 876 54 32",
+        "actual_text": "+34 91 876 54 32",
+        "confidence": 0.8350275158882141,
+        "start": 1065,
+        "end": 1081,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "https://www.clinicabarcelona.org",
+        "actual_text": "https://www.clinicabarcelona.org",
+        "confidence": 0.7726567387580872,
+        "start": 1162,
+        "end": 1194,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "La",
+        "actual_text": "La",
+        "confidence": 0.9984074234962463,
+        "start": 98,
+        "end": 100,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "ura Méndez Iglesias",
+        "actual_text": "ura Méndez Iglesias",
+        "confidence": 0.9965310096740723,
+        "start": 100,
+        "end": 119,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "20",
+        "actual_text": "20",
+        "confidence": 0.950961709022522,
+        "start": 175,
+        "end": 177,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-789123",
+        "actual_text": "-789123",
+        "confidence": 0.7843846082687378,
+        "start": 179,
+        "end": 186,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena Rodríguez",
+        "actual_text": "Elena Rodríguez",
+        "confidence": 0.998806357383728,
+        "start": 822,
+        "end": 837,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "46 08 28 453 01",
+        "actual_text": "46 08 28 453 01",
+        "confidence": 0.9936215281486511,
+        "start": 1017,
+        "end": 1032,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.983279824256897,
+        "start": 1065,
+        "end": 1066,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.9575238823890686,
+        "start": 1066,
+        "end": 1081,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "icabarcelona.org",
+        "actual_text": "icabarcelona.org",
+        "confidence": 0.9606491923332214,
+        "start": 1178,
+        "end": 1194,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9983400106430054,
+        "start": 104,
+        "end": 110,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.9971393346786499,
+        "start": 111,
+        "end": 119,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.8270277976989746,
+        "start": 153,
+        "end": 169,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "HC",
+        "actual_text": "HC",
+        "confidence": 0.7345947623252869,
+        "start": 172,
+        "end": 174,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.9602620005607605,
+        "start": 220,
+        "end": 222,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "B",
+        "actual_text": "B",
+        "confidence": 0.9810066819190979,
+        "start": 222,
+        "end": 223,
+        "model": "CARMEN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9319193959236145,
+        "start": 259,
+        "end": 267,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": "Com",
+        "actual_text": "Com",
+        "confidence": 0.9959999322891235,
+        "start": 292,
+        "end": 295,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": "unidad Valenciana",
+        "actual_text": "unidad Valenciana",
+        "confidence": 0.9800475835800171,
+        "start": 295,
+        "end": 312,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.8804728984832764,
+        "start": 675,
+        "end": 677,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": "E-284739-B",
+        "actual_text": "E-284739-B",
+        "confidence": 0.7922940850257874,
+        "start": 677,
+        "end": 687,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena",
+        "actual_text": "Elena",
+        "confidence": 0.9982792139053345,
+        "start": 822,
+        "end": 827,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "Rodríguez",
+        "confidence": 0.9992756247520447,
+        "start": 828,
+        "end": 837,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.9821680784225464,
+        "start": 873,
+        "end": 875,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": "ciru",
+        "actual_text": "ciru",
+        "confidence": 0.999018669128418,
+        "start": 875,
+        "end": 879,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": "jano cardiovascular",
+        "actual_text": "jano cardiovascular",
+        "confidence": 0.950238823890686,
+        "start": 879,
+        "end": 898,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.9933142066001892,
+        "start": 1015,
+        "end": 1017,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "46 08 28 453 01",
+        "actual_text": "46 08 28 453 01",
+        "confidence": 0.8272101879119873,
+        "start": 1017,
+        "end": 1032,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +34 91 876 54 32",
+        "actual_text": "+34 91 876 54 32",
+        "confidence": 0.8350275158882141,
+        "start": 1065,
+        "end": 1081,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "https://www.clinicabarcelona.org",
+        "actual_text": "https://www.clinicabarcelona.org",
+        "confidence": 0.7726567387580872,
+        "start": 1162,
+        "end": 1194,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 29,
+    "suspicious_detections": 29,
+    "xxxxxx_detections": 0,
+    "other_detections": 29
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": "La",
+        "confidence": 0.9984074234962463,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": "ura Méndez Iglesias",
+        "confidence": 0.9965310096740723,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Elena Rodríguez",
+        "confidence": 0.998806357383728,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": "46 08 28 453 01",
+        "confidence": 0.9936215281486511,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Méndez",
+        "confidence": 0.9983400106430054,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Iglesias",
+        "confidence": 0.9971393346786499,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "text": "Com",
+        "confidence": 0.9959999322891235,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Elena",
+        "confidence": 0.9982792139053345,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Rodríguez",
+        "confidence": 0.9992756247520447,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "text": "ciru",
+        "confidence": 0.999018669128418,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " **",
+        "confidence": 0.9933142066001892,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 11
+  }
+}

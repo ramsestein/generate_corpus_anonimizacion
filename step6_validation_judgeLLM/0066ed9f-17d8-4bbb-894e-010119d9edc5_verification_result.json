@@ -1,0 +1,623 @@
+{
+  "document_id": "0066ed9f-17d8-4bbb-894e-010119d9edc5",
+  "success": true,
+  "anonymized_text": "A continuación se presenta el informe de evolución correspondiente a la consulta de seguimiento. El paciente presenta una mejoría sintomática significativa del cuadro de lumbalgia mecánica aguda que motivó la consulta inicial. Refiere haber seguido correctamente el plan de tratamiento farmacológico analgésico y el programa de ejercicios de fisioterapia domiciliaria que se le pautó. En la exploración física actual, se objetiva un aumento considerable de la movilidad lumbar en todos los planos, con una flexión anterior que ahora permite el contacto de las yemas de los dedos con el suelo sin dolor incapacitante. La maniobra de Lasègue es negativa bilateralmente y la fuerza muscular en miembros inferiores se mantiene conservada y simétrica. Los reflejos osteotendinosos son normoactivos y simétricos. Se considera que la evolución es favorable. Dado el buen estado general y la resolución del proceso agudo, se procede al alta médica de este episodio. Se recomienda continuar con el programa de higiene postural y la actividad física regular. Para cualquier gestión administrativa futura relacionada con este episodio, el identificador del sujeto de asistencia es B-58293471. El informe ha sido validado y archivado en la fecha de hoy, 12 de julio de 2023. Para procedimientos de interconsulta o envío de documentación complementaria, queda a disposición el número de fax +34 91 876 54 32. Todo el proceso asistencial descrito se ha desarrollado dentro del marco del sistema sanitario de España. Se recuerda que el paciente puede acceder a recursos de educación para la salud a través del portal oficial en la dirección https://www.clinicabarcelona.org.",
+  "text_length": 1659,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 4,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9253864884376526,
+        "word": "293471",
+        "start": 1174,
+        "end": 1180,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FECHAS",
+        "score": 0.998839795589447,
+        "word": " 12 de julio de 2023",
+        "start": 1242,
+        "end": 1261,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9900195002555847,
+        "word": "34 91 876 54 32",
+        "start": 1379,
+        "end": 1394,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9146379232406616,
+        "word": "icabarcelona.org",
+        "start": 1642,
+        "end": 1658,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 4,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 2,
+        "FECHAS": 1,
+        "CORREO_ELECTRONICO": 1
+      },
+      "entities_by_confidence": {
+        "high": 4,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "293471",
+          "actual_text": "293471",
+          "confidence": 0.9253864884376526,
+          "start": 1174,
+          "end": 1180,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.998839795589447,
+          "start": 1242,
+          "end": 1261,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.9900195002555847,
+          "start": 1379,
+          "end": 1394,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "icabarcelona.org",
+          "actual_text": "icabarcelona.org",
+          "confidence": 0.9146379232406616,
+          "start": 1642,
+          "end": 1658,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "293471",
+          "actual_text": "293471",
+          "confidence": 0.9253864884376526,
+          "start": 1174,
+          "end": 1180,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.998839795589447,
+          "start": 1242,
+          "end": 1261,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.9900195002555847,
+          "start": 1379,
+          "end": 1394,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "icabarcelona.org",
+          "actual_text": "icabarcelona.org",
+          "confidence": 0.9146379232406616,
+          "start": 1642,
+          "end": 1658,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 7,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9965322017669678,
+        "word": " B",
+        "start": 1170,
+        "end": 1171,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7896493673324585,
+        "word": "-",
+        "start": 1171,
+        "end": 1172,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7123992443084717,
+        "word": "58293471",
+        "start": 1172,
+        "end": 1180,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9998939633369446,
+        "word": " 12 de julio de 2023",
+        "start": 1242,
+        "end": 1261,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9969387054443359,
+        "word": " +",
+        "start": 1378,
+        "end": 1379,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8462442755699158,
+        "word": "34 91 876 54 32",
+        "start": 1379,
+        "end": 1394,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9986240863800049,
+        "word": " España",
+        "start": 1494,
+        "end": 1500,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 7,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 5,
+        "FECHAS": 1,
+        "PAIS": 1
+      },
+      "entities_by_confidence": {
+        "high": 5,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.9965322017669678,
+          "start": 1170,
+          "end": 1171,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.7896493673324585,
+          "start": 1171,
+          "end": 1172,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "58293471",
+          "actual_text": "58293471",
+          "confidence": 0.7123992443084717,
+          "start": 1172,
+          "end": 1180,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9998939633369446,
+          "start": 1242,
+          "end": 1261,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9969387054443359,
+          "start": 1378,
+          "end": 1379,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.8462442755699158,
+          "start": 1379,
+          "end": 1394,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " España",
+          "actual_text": "España",
+          "confidence": 0.9986240863800049,
+          "start": 1494,
+          "end": 1500,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.9965322017669678,
+          "start": 1170,
+          "end": 1171,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.7896493673324585,
+          "start": 1171,
+          "end": 1172,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "58293471",
+          "actual_text": "58293471",
+          "confidence": 0.7123992443084717,
+          "start": 1172,
+          "end": 1180,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9998939633369446,
+          "start": 1242,
+          "end": 1261,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9969387054443359,
+          "start": 1378,
+          "end": 1379,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.8462442755699158,
+          "start": 1379,
+          "end": 1394,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " España",
+          "actual_text": "España",
+          "confidence": 0.9986240863800049,
+          "start": 1494,
+          "end": 1500,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 11,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "NUMERO_TELEFONO": 7,
+      "FECHAS": 2,
+      "CORREO_ELECTRONICO": 1,
+      "PAIS": 1
+    },
+    "entities_by_confidence": {
+      "high": 9,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "293471",
+        "actual_text": "293471",
+        "confidence": 0.9253864884376526,
+        "start": 1174,
+        "end": 1180,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.998839795589447,
+        "start": 1242,
+        "end": 1261,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.9900195002555847,
+        "start": 1379,
+        "end": 1394,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "icabarcelona.org",
+        "actual_text": "icabarcelona.org",
+        "confidence": 0.9146379232406616,
+        "start": 1642,
+        "end": 1658,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.9965322017669678,
+        "start": 1170,
+        "end": 1171,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.7896493673324585,
+        "start": 1171,
+        "end": 1172,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "58293471",
+        "actual_text": "58293471",
+        "confidence": 0.7123992443084717,
+        "start": 1172,
+        "end": 1180,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9998939633369446,
+        "start": 1242,
+        "end": 1261,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9969387054443359,
+        "start": 1378,
+        "end": 1379,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.8462442755699158,
+        "start": 1379,
+        "end": 1394,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " España",
+        "actual_text": "España",
+        "confidence": 0.9986240863800049,
+        "start": 1494,
+        "end": 1500,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "293471",
+        "actual_text": "293471",
+        "confidence": 0.9253864884376526,
+        "start": 1174,
+        "end": 1180,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.998839795589447,
+        "start": 1242,
+        "end": 1261,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.9900195002555847,
+        "start": 1379,
+        "end": 1394,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "icabarcelona.org",
+        "actual_text": "icabarcelona.org",
+        "confidence": 0.9146379232406616,
+        "start": 1642,
+        "end": 1658,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.9965322017669678,
+        "start": 1170,
+        "end": 1171,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.7896493673324585,
+        "start": 1171,
+        "end": 1172,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "58293471",
+        "actual_text": "58293471",
+        "confidence": 0.7123992443084717,
+        "start": 1172,
+        "end": 1180,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9998939633369446,
+        "start": 1242,
+        "end": 1261,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9969387054443359,
+        "start": 1378,
+        "end": 1379,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.8462442755699158,
+        "start": 1379,
+        "end": 1394,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " España",
+        "actual_text": "España",
+        "confidence": 0.9986240863800049,
+        "start": 1494,
+        "end": 1500,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 11,
+    "suspicious_detections": 11,
+    "xxxxxx_detections": 0,
+    "other_detections": 11
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "FECHAS",
+        "text": " 12 de julio de 2023",
+        "confidence": 0.998839795589447,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": "34 91 876 54 32",
+        "confidence": 0.9900195002555847,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " B",
+        "confidence": 0.9965322017669678,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FECHAS",
+        "text": " 12 de julio de 2023",
+        "confidence": 0.9998939633369446,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " +",
+        "confidence": 0.9969387054443359,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "text": " España",
+        "confidence": 0.9986240863800049,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 6
+  }
+}

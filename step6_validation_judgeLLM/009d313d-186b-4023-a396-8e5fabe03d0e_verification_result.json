@@ -1,0 +1,937 @@
+{
+  "document_id": "009d313d-186b-4023-a396-8e5fabe03d0e",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Se procede a la actualización de la historia clínica digital correspondiente al número HC-2024-789456. La sujeto de asistencia, de sexo femenino, es beneficiaria del plan de salud con número B123456789. Para garantizar la máxima seguridad en la identificación, se ha verificado su identidad mediante el documento de aseguramiento B-28473619 y se ha contrastado con el otro número de identificación B-987654321. Durante la sesión se realizó un registro biométrico complementario. Se capturó satisfactoriamente la huella dactilar derecha índice, patrón de lazo bien definido. Este dato de identificación biométrica, junto con los números de serie de los dispositivos utilizados SN-98237641 y SN-98765432, queda incorporado al sistema para futuras verificaciones. El dispositivo de captura, con número de serie B123456789, funcionó dentro de los parámetros técnicos establecidos. Como parte del protocolo de identificación biométrica, se registró: Huella dactilar derecha, índice. La atención se presta en el Centro de Salud Los Álamos, ubicado en la Comunidad Valenciana, donde se ha coordinado el seguimiento correspondiente. Para cualquier comunicación institucional, puede utilizarse la dirección de correo electrónico carlos.martinez@clinic.es. Se recomienda a la paciente consultar los recursos educativos disponibles en el portal web https://www.clinicabarcelona.org para complementar la información proporcionada durante la consulta. La exploración física realizada no mostró hallazgos relevantes en los sistemas evaluados. Los parámetros vitales se encuentran dentro de la normalidad y la auscultación cardiorrespiratoria resulta sin particularidades. Se mantendrá vigilancia activa según protocolos establecidos en nuestra área de salud.",
+  "text_length": 1772,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 7,
+    "entities": [
+      {
+        "entity_group": "SEXO_SUJETO_ASISTENCIA",
+        "score": 0.9913772344589233,
+        "word": " femenino",
+        "start": 164,
+        "end": 172,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7369837760925293,
+        "word": "98",
+        "start": 707,
+        "end": 709,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.9860952496528625,
+        "word": " Centro de Salud Los Álamos",
+        "start": 1034,
+        "end": 1060,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.8534495830535889,
+        "word": " Valenciana",
+        "start": 1086,
+        "end": 1096,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.997907280921936,
+        "word": " car",
+        "start": 1248,
+        "end": 1251,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9868695139884949,
+        "word": "los.martinez@clinic.es",
+        "start": 1251,
+        "end": 1273,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9304606318473816,
+        "word": "clinicabarcelona.org",
+        "start": 1378,
+        "end": 1398,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 7,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "SEXO_SUJETO_ASISTENCIA": 1,
+        "ID_SUJETO_ASISTENCIA": 1,
+        "CENTRO_SALUD": 1,
+        "PAIS": 1,
+        "CORREO_ELECTRONICO": 3
+      },
+      "entities_by_confidence": {
+        "high": 6,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9913772344589233,
+          "start": 164,
+          "end": 172,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "98",
+          "actual_text": "98",
+          "confidence": 0.7369837760925293,
+          "start": 707,
+          "end": 709,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9860952496528625,
+          "start": 1034,
+          "end": 1060,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Valenciana",
+          "actual_text": "Valenciana",
+          "confidence": 0.8534495830535889,
+          "start": 1086,
+          "end": 1096,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.997907280921936,
+          "start": 1248,
+          "end": 1251,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "los.martinez@clinic.es",
+          "actual_text": "los.martinez@clinic.es",
+          "confidence": 0.9868695139884949,
+          "start": 1251,
+          "end": 1273,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "clinicabarcelona.org",
+          "actual_text": "clinicabarcelona.org",
+          "confidence": 0.9304606318473816,
+          "start": 1378,
+          "end": 1398,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9913772344589233,
+          "start": 164,
+          "end": 172,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "98",
+          "actual_text": "98",
+          "confidence": 0.7369837760925293,
+          "start": 707,
+          "end": 709,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9860952496528625,
+          "start": 1034,
+          "end": 1060,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Valenciana",
+          "actual_text": "Valenciana",
+          "confidence": 0.8534495830535889,
+          "start": 1086,
+          "end": 1096,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.997907280921936,
+          "start": 1248,
+          "end": 1251,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "los.martinez@clinic.es",
+          "actual_text": "los.martinez@clinic.es",
+          "confidence": 0.9868695139884949,
+          "start": 1251,
+          "end": 1273,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "clinicabarcelona.org",
+          "actual_text": "clinicabarcelona.org",
+          "confidence": 0.9304606318473816,
+          "start": 1378,
+          "end": 1398,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 11,
+    "entities": [
+      {
+        "entity_group": "SEXO_SUJETO_ASISTENCIA",
+        "score": 0.9372788071632385,
+        "word": " femenino",
+        "start": 164,
+        "end": 172,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.8236562609672546,
+        "word": " de",
+        "start": 199,
+        "end": 201,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7924838066101074,
+        "word": "12",
+        "start": 220,
+        "end": 222,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.8641442656517029,
+        "word": " B",
+        "start": 426,
+        "end": 427,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9624744653701782,
+        "word": " B",
+        "start": 836,
+        "end": 837,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8786496520042419,
+        "word": "12",
+        "start": 837,
+        "end": 839,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.9991433024406433,
+        "word": " Centro de Salud Los Álamos",
+        "start": 1034,
+        "end": 1060,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9985160827636719,
+        "word": " Comunidad Valenciana",
+        "start": 1076,
+        "end": 1096,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8233846426010132,
+        "word": " car",
+        "start": 1248,
+        "end": 1251,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.7864614129066467,
+        "word": "@clinic.es",
+        "start": 1263,
+        "end": 1273,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.7554079294204712,
+        "word": " https://www.clinicabarcelona.org",
+        "start": 1366,
+        "end": 1398,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 11,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "SEXO_SUJETO_ASISTENCIA": 1,
+        "INSTITUCION": 1,
+        "NUMERO_TELEFONO": 4,
+        "NUMERO_IDENTIF": 1,
+        "CENTRO_SALUD": 1,
+        "PAIS": 1,
+        "URL_WEB": 2
+      },
+      "entities_by_confidence": {
+        "high": 8,
+        "medium": 3,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9372788071632385,
+          "start": 164,
+          "end": 172,
+          "model": "CARMEN"
+        },
+        {
+          "label": "INSTITUCION",
+          "word": " de",
+          "actual_text": "de",
+          "confidence": 0.8236562609672546,
+          "start": 199,
+          "end": 201,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12",
+          "actual_text": "12",
+          "confidence": 0.7924838066101074,
+          "start": 220,
+          "end": 222,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.8641442656517029,
+          "start": 426,
+          "end": 427,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.9624744653701782,
+          "start": 836,
+          "end": 837,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12",
+          "actual_text": "12",
+          "confidence": 0.8786496520042419,
+          "start": 837,
+          "end": 839,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9991433024406433,
+          "start": 1034,
+          "end": 1060,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.9985160827636719,
+          "start": 1076,
+          "end": 1096,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.8233846426010132,
+          "start": 1248,
+          "end": 1251,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "@clinic.es",
+          "actual_text": "@clinic.es",
+          "confidence": 0.7864614129066467,
+          "start": 1263,
+          "end": 1273,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": " https://www.clinicabarcelona.org",
+          "actual_text": "https://www.clinicabarcelona.org",
+          "confidence": 0.7554079294204712,
+          "start": 1366,
+          "end": 1398,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9372788071632385,
+          "start": 164,
+          "end": 172,
+          "model": "CARMEN"
+        },
+        {
+          "label": "INSTITUCION",
+          "word": " de",
+          "actual_text": "de",
+          "confidence": 0.8236562609672546,
+          "start": 199,
+          "end": 201,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12",
+          "actual_text": "12",
+          "confidence": 0.7924838066101074,
+          "start": 220,
+          "end": 222,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.8641442656517029,
+          "start": 426,
+          "end": 427,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.9624744653701782,
+          "start": 836,
+          "end": 837,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12",
+          "actual_text": "12",
+          "confidence": 0.8786496520042419,
+          "start": 837,
+          "end": 839,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9991433024406433,
+          "start": 1034,
+          "end": 1060,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.9985160827636719,
+          "start": 1076,
+          "end": 1096,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.8233846426010132,
+          "start": 1248,
+          "end": 1251,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "@clinic.es",
+          "actual_text": "@clinic.es",
+          "confidence": 0.7864614129066467,
+          "start": 1263,
+          "end": 1273,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": " https://www.clinicabarcelona.org",
+          "actual_text": "https://www.clinicabarcelona.org",
+          "confidence": 0.7554079294204712,
+          "start": 1366,
+          "end": 1398,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 18,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "SEXO_SUJETO_ASISTENCIA": 2,
+      "ID_SUJETO_ASISTENCIA": 1,
+      "CENTRO_SALUD": 2,
+      "PAIS": 2,
+      "CORREO_ELECTRONICO": 3,
+      "INSTITUCION": 1,
+      "NUMERO_TELEFONO": 4,
+      "NUMERO_IDENTIF": 1,
+      "URL_WEB": 2
+    },
+    "entities_by_confidence": {
+      "high": 14,
+      "medium": 4,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9913772344589233,
+        "start": 164,
+        "end": 172,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "98",
+        "actual_text": "98",
+        "confidence": 0.7369837760925293,
+        "start": 707,
+        "end": 709,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9860952496528625,
+        "start": 1034,
+        "end": 1060,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Valenciana",
+        "actual_text": "Valenciana",
+        "confidence": 0.8534495830535889,
+        "start": 1086,
+        "end": 1096,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.997907280921936,
+        "start": 1248,
+        "end": 1251,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "los.martinez@clinic.es",
+        "actual_text": "los.martinez@clinic.es",
+        "confidence": 0.9868695139884949,
+        "start": 1251,
+        "end": 1273,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "clinicabarcelona.org",
+        "actual_text": "clinicabarcelona.org",
+        "confidence": 0.9304606318473816,
+        "start": 1378,
+        "end": 1398,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9372788071632385,
+        "start": 164,
+        "end": 172,
+        "model": "CARMEN"
+      },
+      {
+        "label": "INSTITUCION",
+        "word": " de",
+        "actual_text": "de",
+        "confidence": 0.8236562609672546,
+        "start": 199,
+        "end": 201,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12",
+        "actual_text": "12",
+        "confidence": 0.7924838066101074,
+        "start": 220,
+        "end": 222,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.8641442656517029,
+        "start": 426,
+        "end": 427,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.9624744653701782,
+        "start": 836,
+        "end": 837,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12",
+        "actual_text": "12",
+        "confidence": 0.8786496520042419,
+        "start": 837,
+        "end": 839,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9991433024406433,
+        "start": 1034,
+        "end": 1060,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.9985160827636719,
+        "start": 1076,
+        "end": 1096,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.8233846426010132,
+        "start": 1248,
+        "end": 1251,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "@clinic.es",
+        "actual_text": "@clinic.es",
+        "confidence": 0.7864614129066467,
+        "start": 1263,
+        "end": 1273,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": " https://www.clinicabarcelona.org",
+        "actual_text": "https://www.clinicabarcelona.org",
+        "confidence": 0.7554079294204712,
+        "start": 1366,
+        "end": 1398,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9913772344589233,
+        "start": 164,
+        "end": 172,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "98",
+        "actual_text": "98",
+        "confidence": 0.7369837760925293,
+        "start": 707,
+        "end": 709,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9860952496528625,
+        "start": 1034,
+        "end": 1060,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Valenciana",
+        "actual_text": "Valenciana",
+        "confidence": 0.8534495830535889,
+        "start": 1086,
+        "end": 1096,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.997907280921936,
+        "start": 1248,
+        "end": 1251,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "los.martinez@clinic.es",
+        "actual_text": "los.martinez@clinic.es",
+        "confidence": 0.9868695139884949,
+        "start": 1251,
+        "end": 1273,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "clinicabarcelona.org",
+        "actual_text": "clinicabarcelona.org",
+        "confidence": 0.9304606318473816,
+        "start": 1378,
+        "end": 1398,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9372788071632385,
+        "start": 164,
+        "end": 172,
+        "model": "CARMEN"
+      },
+      {
+        "label": "INSTITUCION",
+        "word": " de",
+        "actual_text": "de",
+        "confidence": 0.8236562609672546,
+        "start": 199,
+        "end": 201,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12",
+        "actual_text": "12",
+        "confidence": 0.7924838066101074,
+        "start": 220,
+        "end": 222,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.8641442656517029,
+        "start": 426,
+        "end": 427,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.9624744653701782,
+        "start": 836,
+        "end": 837,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12",
+        "actual_text": "12",
+        "confidence": 0.8786496520042419,
+        "start": 837,
+        "end": 839,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9991433024406433,
+        "start": 1034,
+        "end": 1060,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.9985160827636719,
+        "start": 1076,
+        "end": 1096,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.8233846426010132,
+        "start": 1248,
+        "end": 1251,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "@clinic.es",
+        "actual_text": "@clinic.es",
+        "confidence": 0.7864614129066467,
+        "start": 1263,
+        "end": 1273,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": " https://www.clinicabarcelona.org",
+        "actual_text": "https://www.clinicabarcelona.org",
+        "confidence": 0.7554079294204712,
+        "start": 1366,
+        "end": 1398,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 18,
+    "suspicious_detections": 18,
+    "xxxxxx_detections": 0,
+    "other_detections": 18
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "text": " femenino",
+        "confidence": 0.9913772344589233,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "text": " car",
+        "confidence": 0.997907280921936,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "text": " Centro de Salud Los Álamos",
+        "confidence": 0.9991433024406433,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "text": " Comunidad Valenciana",
+        "confidence": 0.9985160827636719,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 4
+  }
+}

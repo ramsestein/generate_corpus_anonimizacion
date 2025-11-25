@@ -1,0 +1,1179 @@
+{
+  "document_id": "0048cc97-c3e5-462f-b8c9-2acb398fad05",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente que acude para seguimiento y control evolutivo. Refiere mejoría parcial de la sintomatología previamente descrita, aunque persiste cierto grado de malestar general. A la exploración física, se constata un estado general aceptable, con auscultación cardiorrespiratoria rítmica y sin soplos, y abdomen blando y depresible sin masas palpables ni megalias. Los ruidos hidroaéreos están presentes. Se ha contactado con el servicio de continuidad asistencial para coordinar la próxima visita de seguimiento, cuyo responsable puede ser localizado a través del 612-345-678. Asimismo, para cualquier gestión administrativa relacionada con este episodio, se encuentra registrado bajo el número de historia clínica HC-2024-789012. La paciente, de sexo femenino, reside en la Comunidad Valenciana. Se recomienda mantener la pauta terapéutica actual y se programará una nueva valoración en consultas externas. Para cualquier duda o aclaración, queda a disposición el carlos.martinez@clinic.es. Se adjunta en el sistema la solicitud de autorización para la prueba complementaria, recordando que debe presentar la documentación del vehículo, identificado con el código 1234 BCD, en el acceso al recinto hospitalario. Otro dato de contacto disponible para el servicio de asistencia es el 634-89-12-45.",
+  "text_length": 1322,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 9,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9777199029922485,
+        "word": " 612-345-678",
+        "start": 590,
+        "end": 601,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7947661876678467,
+        "word": "-789012",
+        "start": 748,
+        "end": 755,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "SEXO_SUJETO_ASISTENCIA",
+        "score": 0.9884212017059326,
+        "word": " femenino",
+        "start": 778,
+        "end": 786,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.941057026386261,
+        "word": " Comunidad Valenciana",
+        "start": 801,
+        "end": 821,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9982374906539917,
+        "word": " car",
+        "start": 991,
+        "end": 994,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9989979863166809,
+        "word": "los.martinez@clinic.es",
+        "start": 994,
+        "end": 1016,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9164323210716248,
+        "word": " 1234 BCD",
+        "start": 1191,
+        "end": 1199,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9935095906257629,
+        "word": " 6",
+        "start": 1309,
+        "end": 1310,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9902127385139465,
+        "word": "34-89-12-45",
+        "start": 1310,
+        "end": 1321,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 9,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 3,
+        "ID_SUJETO_ASISTENCIA": 1,
+        "SEXO_SUJETO_ASISTENCIA": 1,
+        "PAIS": 1,
+        "CORREO_ELECTRONICO": 2,
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 8,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 612-345-678",
+          "actual_text": "612-345-678",
+          "confidence": 0.9777199029922485,
+          "start": 590,
+          "end": 601,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-789012",
+          "actual_text": "-789012",
+          "confidence": 0.7947661876678467,
+          "start": 748,
+          "end": 755,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9884212017059326,
+          "start": 778,
+          "end": 786,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.941057026386261,
+          "start": 801,
+          "end": 821,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.9982374906539917,
+          "start": 991,
+          "end": 994,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "los.martinez@clinic.es",
+          "actual_text": "los.martinez@clinic.es",
+          "confidence": 0.9989979863166809,
+          "start": 994,
+          "end": 1016,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " 1234 BCD",
+          "actual_text": "1234 BCD",
+          "confidence": 0.9164323210716248,
+          "start": 1191,
+          "end": 1199,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 6",
+          "actual_text": "6",
+          "confidence": 0.9935095906257629,
+          "start": 1309,
+          "end": 1310,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34-89-12-45",
+          "actual_text": "34-89-12-45",
+          "confidence": 0.9902127385139465,
+          "start": 1310,
+          "end": 1321,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 612-345-678",
+          "actual_text": "612-345-678",
+          "confidence": 0.9777199029922485,
+          "start": 590,
+          "end": 601,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-789012",
+          "actual_text": "-789012",
+          "confidence": 0.7947661876678467,
+          "start": 748,
+          "end": 755,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9884212017059326,
+          "start": 778,
+          "end": 786,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.941057026386261,
+          "start": 801,
+          "end": 821,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.9982374906539917,
+          "start": 991,
+          "end": 994,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "los.martinez@clinic.es",
+          "actual_text": "los.martinez@clinic.es",
+          "confidence": 0.9989979863166809,
+          "start": 994,
+          "end": 1016,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " 1234 BCD",
+          "actual_text": "1234 BCD",
+          "confidence": 0.9164323210716248,
+          "start": 1191,
+          "end": 1199,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 6",
+          "actual_text": "6",
+          "confidence": 0.9935095906257629,
+          "start": 1309,
+          "end": 1310,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34-89-12-45",
+          "actual_text": "34-89-12-45",
+          "confidence": 0.9902127385139465,
+          "start": 1310,
+          "end": 1321,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 14,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9969857335090637,
+        "word": " 6",
+        "start": 590,
+        "end": 591,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7468696236610413,
+        "word": "12-345-678",
+        "start": 591,
+        "end": 601,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7899984121322632,
+        "word": " número de",
+        "start": 714,
+        "end": 723,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8130941987037659,
+        "word": " historia clínica",
+        "start": 724,
+        "end": 740,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9576283693313599,
+        "word": " HC",
+        "start": 741,
+        "end": 743,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "SEXO_SUJETO_ASISTENCIA",
+        "score": 0.9568584561347961,
+        "word": " femenino",
+        "start": 778,
+        "end": 786,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9988993406295776,
+        "word": " Comunidad Valenciana",
+        "start": 801,
+        "end": 821,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.918556809425354,
+        "word": " car",
+        "start": 991,
+        "end": 994,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8908044099807739,
+        "word": "los",
+        "start": 994,
+        "end": 997,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.7102848291397095,
+        "word": "@clinic.es",
+        "start": 1006,
+        "end": 1016,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9899293780326843,
+        "word": " 12",
+        "start": 1191,
+        "end": 1193,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.8541193008422852,
+        "word": "34 BCD",
+        "start": 1193,
+        "end": 1199,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9963909983634949,
+        "word": " 6",
+        "start": 1309,
+        "end": 1310,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.832215428352356,
+        "word": "34-89-12-45",
+        "start": 1310,
+        "end": 1321,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 14,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 8,
+        "OTROS_SUJETO_ASISTENCIA": 2,
+        "SEXO_SUJETO_ASISTENCIA": 1,
+        "PAIS": 1,
+        "URL_WEB": 1,
+        "NUMERO_IDENTIF": 1
+      },
+      "entities_by_confidence": {
+        "high": 11,
+        "medium": 3,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 6",
+          "actual_text": "6",
+          "confidence": 0.9969857335090637,
+          "start": 590,
+          "end": 591,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12-345-678",
+          "actual_text": "12-345-678",
+          "confidence": 0.7468696236610413,
+          "start": 591,
+          "end": 601,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " número de",
+          "actual_text": "número de",
+          "confidence": 0.7899984121322632,
+          "start": 714,
+          "end": 723,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.8130941987037659,
+          "start": 724,
+          "end": 740,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " HC",
+          "actual_text": "HC",
+          "confidence": 0.9576283693313599,
+          "start": 741,
+          "end": 743,
+          "model": "CARMEN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9568584561347961,
+          "start": 778,
+          "end": 786,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.9988993406295776,
+          "start": 801,
+          "end": 821,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.918556809425354,
+          "start": 991,
+          "end": 994,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "los",
+          "actual_text": "los",
+          "confidence": 0.8908044099807739,
+          "start": 994,
+          "end": 997,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "@clinic.es",
+          "actual_text": "@clinic.es",
+          "confidence": 0.7102848291397095,
+          "start": 1006,
+          "end": 1016,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 12",
+          "actual_text": "12",
+          "confidence": 0.9899293780326843,
+          "start": 1191,
+          "end": 1193,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": "34 BCD",
+          "actual_text": "34 BCD",
+          "confidence": 0.8541193008422852,
+          "start": 1193,
+          "end": 1199,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 6",
+          "actual_text": "6",
+          "confidence": 0.9963909983634949,
+          "start": 1309,
+          "end": 1310,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34-89-12-45",
+          "actual_text": "34-89-12-45",
+          "confidence": 0.832215428352356,
+          "start": 1310,
+          "end": 1321,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 6",
+          "actual_text": "6",
+          "confidence": 0.9969857335090637,
+          "start": 590,
+          "end": 591,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12-345-678",
+          "actual_text": "12-345-678",
+          "confidence": 0.7468696236610413,
+          "start": 591,
+          "end": 601,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " número de",
+          "actual_text": "número de",
+          "confidence": 0.7899984121322632,
+          "start": 714,
+          "end": 723,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.8130941987037659,
+          "start": 724,
+          "end": 740,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " HC",
+          "actual_text": "HC",
+          "confidence": 0.9576283693313599,
+          "start": 741,
+          "end": 743,
+          "model": "CARMEN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9568584561347961,
+          "start": 778,
+          "end": 786,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.9988993406295776,
+          "start": 801,
+          "end": 821,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.918556809425354,
+          "start": 991,
+          "end": 994,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "los",
+          "actual_text": "los",
+          "confidence": 0.8908044099807739,
+          "start": 994,
+          "end": 997,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "@clinic.es",
+          "actual_text": "@clinic.es",
+          "confidence": 0.7102848291397095,
+          "start": 1006,
+          "end": 1016,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 12",
+          "actual_text": "12",
+          "confidence": 0.9899293780326843,
+          "start": 1191,
+          "end": 1193,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": "34 BCD",
+          "actual_text": "34 BCD",
+          "confidence": 0.8541193008422852,
+          "start": 1193,
+          "end": 1199,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 6",
+          "actual_text": "6",
+          "confidence": 0.9963909983634949,
+          "start": 1309,
+          "end": 1310,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34-89-12-45",
+          "actual_text": "34-89-12-45",
+          "confidence": 0.832215428352356,
+          "start": 1310,
+          "end": 1321,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 23,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "NUMERO_TELEFONO": 11,
+      "ID_SUJETO_ASISTENCIA": 1,
+      "SEXO_SUJETO_ASISTENCIA": 2,
+      "PAIS": 2,
+      "CORREO_ELECTRONICO": 2,
+      "OTROS_SUJETO_ASISTENCIA": 3,
+      "URL_WEB": 1,
+      "NUMERO_IDENTIF": 1
+    },
+    "entities_by_confidence": {
+      "high": 19,
+      "medium": 4,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 612-345-678",
+        "actual_text": "612-345-678",
+        "confidence": 0.9777199029922485,
+        "start": 590,
+        "end": 601,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-789012",
+        "actual_text": "-789012",
+        "confidence": 0.7947661876678467,
+        "start": 748,
+        "end": 755,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9884212017059326,
+        "start": 778,
+        "end": 786,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.941057026386261,
+        "start": 801,
+        "end": 821,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.9982374906539917,
+        "start": 991,
+        "end": 994,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "los.martinez@clinic.es",
+        "actual_text": "los.martinez@clinic.es",
+        "confidence": 0.9989979863166809,
+        "start": 994,
+        "end": 1016,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " 1234 BCD",
+        "actual_text": "1234 BCD",
+        "confidence": 0.9164323210716248,
+        "start": 1191,
+        "end": 1199,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 6",
+        "actual_text": "6",
+        "confidence": 0.9935095906257629,
+        "start": 1309,
+        "end": 1310,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34-89-12-45",
+        "actual_text": "34-89-12-45",
+        "confidence": 0.9902127385139465,
+        "start": 1310,
+        "end": 1321,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 6",
+        "actual_text": "6",
+        "confidence": 0.9969857335090637,
+        "start": 590,
+        "end": 591,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12-345-678",
+        "actual_text": "12-345-678",
+        "confidence": 0.7468696236610413,
+        "start": 591,
+        "end": 601,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " número de",
+        "actual_text": "número de",
+        "confidence": 0.7899984121322632,
+        "start": 714,
+        "end": 723,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.8130941987037659,
+        "start": 724,
+        "end": 740,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " HC",
+        "actual_text": "HC",
+        "confidence": 0.9576283693313599,
+        "start": 741,
+        "end": 743,
+        "model": "CARMEN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9568584561347961,
+        "start": 778,
+        "end": 786,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.9988993406295776,
+        "start": 801,
+        "end": 821,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.918556809425354,
+        "start": 991,
+        "end": 994,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "los",
+        "actual_text": "los",
+        "confidence": 0.8908044099807739,
+        "start": 994,
+        "end": 997,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "@clinic.es",
+        "actual_text": "@clinic.es",
+        "confidence": 0.7102848291397095,
+        "start": 1006,
+        "end": 1016,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 12",
+        "actual_text": "12",
+        "confidence": 0.9899293780326843,
+        "start": 1191,
+        "end": 1193,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": "34 BCD",
+        "actual_text": "34 BCD",
+        "confidence": 0.8541193008422852,
+        "start": 1193,
+        "end": 1199,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 6",
+        "actual_text": "6",
+        "confidence": 0.9963909983634949,
+        "start": 1309,
+        "end": 1310,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34-89-12-45",
+        "actual_text": "34-89-12-45",
+        "confidence": 0.832215428352356,
+        "start": 1310,
+        "end": 1321,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 612-345-678",
+        "actual_text": "612-345-678",
+        "confidence": 0.9777199029922485,
+        "start": 590,
+        "end": 601,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-789012",
+        "actual_text": "-789012",
+        "confidence": 0.7947661876678467,
+        "start": 748,
+        "end": 755,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9884212017059326,
+        "start": 778,
+        "end": 786,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.941057026386261,
+        "start": 801,
+        "end": 821,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.9982374906539917,
+        "start": 991,
+        "end": 994,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "los.martinez@clinic.es",
+        "actual_text": "los.martinez@clinic.es",
+        "confidence": 0.9989979863166809,
+        "start": 994,
+        "end": 1016,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " 1234 BCD",
+        "actual_text": "1234 BCD",
+        "confidence": 0.9164323210716248,
+        "start": 1191,
+        "end": 1199,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 6",
+        "actual_text": "6",
+        "confidence": 0.9935095906257629,
+        "start": 1309,
+        "end": 1310,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34-89-12-45",
+        "actual_text": "34-89-12-45",
+        "confidence": 0.9902127385139465,
+        "start": 1310,
+        "end": 1321,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 6",
+        "actual_text": "6",
+        "confidence": 0.9969857335090637,
+        "start": 590,
+        "end": 591,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12-345-678",
+        "actual_text": "12-345-678",
+        "confidence": 0.7468696236610413,
+        "start": 591,
+        "end": 601,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " número de",
+        "actual_text": "número de",
+        "confidence": 0.7899984121322632,
+        "start": 714,
+        "end": 723,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.8130941987037659,
+        "start": 724,
+        "end": 740,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " HC",
+        "actual_text": "HC",
+        "confidence": 0.9576283693313599,
+        "start": 741,
+        "end": 743,
+        "model": "CARMEN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9568584561347961,
+        "start": 778,
+        "end": 786,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.9988993406295776,
+        "start": 801,
+        "end": 821,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.918556809425354,
+        "start": 991,
+        "end": 994,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "los",
+        "actual_text": "los",
+        "confidence": 0.8908044099807739,
+        "start": 994,
+        "end": 997,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "@clinic.es",
+        "actual_text": "@clinic.es",
+        "confidence": 0.7102848291397095,
+        "start": 1006,
+        "end": 1016,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 12",
+        "actual_text": "12",
+        "confidence": 0.9899293780326843,
+        "start": 1191,
+        "end": 1193,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": "34 BCD",
+        "actual_text": "34 BCD",
+        "confidence": 0.8541193008422852,
+        "start": 1193,
+        "end": 1199,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 6",
+        "actual_text": "6",
+        "confidence": 0.9963909983634949,
+        "start": 1309,
+        "end": 1310,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34-89-12-45",
+        "actual_text": "34-89-12-45",
+        "confidence": 0.832215428352356,
+        "start": 1310,
+        "end": 1321,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 23,
+    "suspicious_detections": 23,
+    "xxxxxx_detections": 0,
+    "other_detections": 23
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "CORREO_ELECTRONICO",
+        "text": " car",
+        "confidence": 0.9982374906539917,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "text": "los.martinez@clinic.es",
+        "confidence": 0.9989979863166809,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " 6",
+        "confidence": 0.9935095906257629,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": "34-89-12-45",
+        "confidence": 0.9902127385139465,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " 6",
+        "confidence": 0.9969857335090637,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "text": " Comunidad Valenciana",
+        "confidence": 0.9988993406295776,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " 6",
+        "confidence": 0.9963909983634949,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 7
+  }
+}

@@ -1,0 +1,770 @@
+{
+  "document_id": "00a5d694-46ad-49ba-a2a0-82313738073f",
+  "success": true,
+  "anonymized_text": "A continuación se presenta el informe de valoración geriátrica integral. La paciente Laura Méndez Iglesias, de 67 años, acude a nuestra consulta para evaluación de su estado de salud general. Durante la anamnesis refiere buen estado general, aunque presenta algunas limitaciones funcionales propias de su edad que requieren seguimiento. La exploración física muestra paciente consciente y orientada en las tres esferas. A la auscultación cardiorrespiratoria se constatan ruidos cardíacos rítmicos sin soplos audibles, y murmullo vesicular conservado bilateralmente. En el examen abdominal se palpa abdomen blando y depresible, sin masas ni visceromegalias. Las constantes vitales se mantienen dentro de parámetros normales para su grupo etario. Los resultados analíticos recientes muestran un perfil bioquímico dentro de la normalidad, con glucemia basal de 98 mg/dl y creatinina en 0.9 mg/dl. La radiografía de tórax realizada no evidencia hallazgos patológicos significativos. Se ha proporcionado a la paciente material educativo adicional disponible a través del portal https://www.clinicabarcelona.org donde podrá consultar información fiable sobre los programas de prevención y promoción de la salud recomendados en su caso. Para cualquier gestión administrativa relacionada con su cobertura sanitaria, su número de identificación de aseguramiento es 46 08 28 123 45. Queda establecido como centro de referencia para su seguimiento el Centro de Salud Los Álamos, donde podrá acudir para sus controles periódicos. Para comunicaciones de carácter asistencial, se ha verificado el número de teléfono 91-765-4321 como contacto principal. Todo el proceso asistencial se desarrolla dentro del sistema sanitario de España, garantizando así la continuidad de cuidados según los protocolos establecidos en nuestra red.",
+  "text_length": 1814,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 6,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9902666211128235,
+        "word": " Laura Méndez Iglesias",
+        "start": 85,
+        "end": 106,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.9975693821907043,
+        "word": " 67 años",
+        "start": 111,
+        "end": 118,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.7976223826408386,
+        "word": "clinicabarcelona.org",
+        "start": 1085,
+        "end": 1105,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9881182909011841,
+        "word": " 46 08 28 123 45",
+        "start": 1356,
+        "end": 1371,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.9848876595497131,
+        "word": " Centro de Salud Los Álamos",
+        "start": 1440,
+        "end": 1466,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9946100115776062,
+        "word": " 91-765-4321",
+        "start": 1602,
+        "end": 1613,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 6,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 1,
+        "EDAD_SUJETO_ASISTENCIA": 1,
+        "CORREO_ELECTRONICO": 1,
+        "NUMERO_TELEFONO": 2,
+        "CENTRO_SALUD": 1
+      },
+      "entities_by_confidence": {
+        "high": 5,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Laura Méndez Iglesias",
+          "actual_text": "Laura Méndez Iglesias",
+          "confidence": 0.9902666211128235,
+          "start": 85,
+          "end": 106,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 67 años",
+          "actual_text": "67 años",
+          "confidence": 0.9975693821907043,
+          "start": 111,
+          "end": 118,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "clinicabarcelona.org",
+          "actual_text": "clinicabarcelona.org",
+          "confidence": 0.7976223826408386,
+          "start": 1085,
+          "end": 1105,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 46 08 28 123 45",
+          "actual_text": "46 08 28 123 45",
+          "confidence": 0.9881182909011841,
+          "start": 1356,
+          "end": 1371,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9848876595497131,
+          "start": 1440,
+          "end": 1466,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 91-765-4321",
+          "actual_text": "91-765-4321",
+          "confidence": 0.9946100115776062,
+          "start": 1602,
+          "end": 1613,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Laura Méndez Iglesias",
+          "actual_text": "Laura Méndez Iglesias",
+          "confidence": 0.9902666211128235,
+          "start": 85,
+          "end": 106,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 67 años",
+          "actual_text": "67 años",
+          "confidence": 0.9975693821907043,
+          "start": 111,
+          "end": 118,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "clinicabarcelona.org",
+          "actual_text": "clinicabarcelona.org",
+          "confidence": 0.7976223826408386,
+          "start": 1085,
+          "end": 1105,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 46 08 28 123 45",
+          "actual_text": "46 08 28 123 45",
+          "confidence": 0.9881182909011841,
+          "start": 1356,
+          "end": 1371,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9848876595497131,
+          "start": 1440,
+          "end": 1466,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 91-765-4321",
+          "actual_text": "91-765-4321",
+          "confidence": 0.9946100115776062,
+          "start": 1602,
+          "end": 1613,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 8,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9912629127502441,
+        "word": " Méndez",
+        "start": 91,
+        "end": 97,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.975702166557312,
+        "word": " Iglesias",
+        "start": 98,
+        "end": 106,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.9998184442520142,
+        "word": " 67 años",
+        "start": 111,
+        "end": 118,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9236587285995483,
+        "word": " 46 08 28 123 45",
+        "start": 1356,
+        "end": 1371,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.9994056224822998,
+        "word": " Centro de Salud Los Álamos",
+        "start": 1440,
+        "end": 1466,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8029770851135254,
+        "word": " 91-",
+        "start": 1602,
+        "end": 1605,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8067924380302429,
+        "word": "765-4321",
+        "start": 1605,
+        "end": 1613,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9990409016609192,
+        "word": " España",
+        "start": 1713,
+        "end": 1719,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 8,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 2,
+        "EDAD_SUJETO_ASISTENCIA": 1,
+        "NUMERO_TELEFONO": 3,
+        "CENTRO_SALUD": 1,
+        "PAIS": 1
+      },
+      "entities_by_confidence": {
+        "high": 8,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9912629127502441,
+          "start": 91,
+          "end": 97,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.975702166557312,
+          "start": 98,
+          "end": 106,
+          "model": "CARMEN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 67 años",
+          "actual_text": "67 años",
+          "confidence": 0.9998184442520142,
+          "start": 111,
+          "end": 118,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 46 08 28 123 45",
+          "actual_text": "46 08 28 123 45",
+          "confidence": 0.9236587285995483,
+          "start": 1356,
+          "end": 1371,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9994056224822998,
+          "start": 1440,
+          "end": 1466,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 91-",
+          "actual_text": "91-",
+          "confidence": 0.8029770851135254,
+          "start": 1602,
+          "end": 1605,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "765-4321",
+          "actual_text": "765-4321",
+          "confidence": 0.8067924380302429,
+          "start": 1605,
+          "end": 1613,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " España",
+          "actual_text": "España",
+          "confidence": 0.9990409016609192,
+          "start": 1713,
+          "end": 1719,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9912629127502441,
+          "start": 91,
+          "end": 97,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.975702166557312,
+          "start": 98,
+          "end": 106,
+          "model": "CARMEN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 67 años",
+          "actual_text": "67 años",
+          "confidence": 0.9998184442520142,
+          "start": 111,
+          "end": 118,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 46 08 28 123 45",
+          "actual_text": "46 08 28 123 45",
+          "confidence": 0.9236587285995483,
+          "start": 1356,
+          "end": 1371,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9994056224822998,
+          "start": 1440,
+          "end": 1466,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 91-",
+          "actual_text": "91-",
+          "confidence": 0.8029770851135254,
+          "start": 1602,
+          "end": 1605,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "765-4321",
+          "actual_text": "765-4321",
+          "confidence": 0.8067924380302429,
+          "start": 1605,
+          "end": 1613,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " España",
+          "actual_text": "España",
+          "confidence": 0.9990409016609192,
+          "start": 1713,
+          "end": 1719,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 14,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "NOMBRE_PERSONAL_SANITARIO": 3,
+      "EDAD_SUJETO_ASISTENCIA": 2,
+      "CORREO_ELECTRONICO": 1,
+      "NUMERO_TELEFONO": 5,
+      "CENTRO_SALUD": 2,
+      "PAIS": 1
+    },
+    "entities_by_confidence": {
+      "high": 13,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Laura Méndez Iglesias",
+        "actual_text": "Laura Méndez Iglesias",
+        "confidence": 0.9902666211128235,
+        "start": 85,
+        "end": 106,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 67 años",
+        "actual_text": "67 años",
+        "confidence": 0.9975693821907043,
+        "start": 111,
+        "end": 118,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "clinicabarcelona.org",
+        "actual_text": "clinicabarcelona.org",
+        "confidence": 0.7976223826408386,
+        "start": 1085,
+        "end": 1105,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 46 08 28 123 45",
+        "actual_text": "46 08 28 123 45",
+        "confidence": 0.9881182909011841,
+        "start": 1356,
+        "end": 1371,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9848876595497131,
+        "start": 1440,
+        "end": 1466,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 91-765-4321",
+        "actual_text": "91-765-4321",
+        "confidence": 0.9946100115776062,
+        "start": 1602,
+        "end": 1613,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9912629127502441,
+        "start": 91,
+        "end": 97,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.975702166557312,
+        "start": 98,
+        "end": 106,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 67 años",
+        "actual_text": "67 años",
+        "confidence": 0.9998184442520142,
+        "start": 111,
+        "end": 118,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 46 08 28 123 45",
+        "actual_text": "46 08 28 123 45",
+        "confidence": 0.9236587285995483,
+        "start": 1356,
+        "end": 1371,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9994056224822998,
+        "start": 1440,
+        "end": 1466,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 91-",
+        "actual_text": "91-",
+        "confidence": 0.8029770851135254,
+        "start": 1602,
+        "end": 1605,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "765-4321",
+        "actual_text": "765-4321",
+        "confidence": 0.8067924380302429,
+        "start": 1605,
+        "end": 1613,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " España",
+        "actual_text": "España",
+        "confidence": 0.9990409016609192,
+        "start": 1713,
+        "end": 1719,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Laura Méndez Iglesias",
+        "actual_text": "Laura Méndez Iglesias",
+        "confidence": 0.9902666211128235,
+        "start": 85,
+        "end": 106,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 67 años",
+        "actual_text": "67 años",
+        "confidence": 0.9975693821907043,
+        "start": 111,
+        "end": 118,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "clinicabarcelona.org",
+        "actual_text": "clinicabarcelona.org",
+        "confidence": 0.7976223826408386,
+        "start": 1085,
+        "end": 1105,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 46 08 28 123 45",
+        "actual_text": "46 08 28 123 45",
+        "confidence": 0.9881182909011841,
+        "start": 1356,
+        "end": 1371,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9848876595497131,
+        "start": 1440,
+        "end": 1466,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 91-765-4321",
+        "actual_text": "91-765-4321",
+        "confidence": 0.9946100115776062,
+        "start": 1602,
+        "end": 1613,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9912629127502441,
+        "start": 91,
+        "end": 97,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.975702166557312,
+        "start": 98,
+        "end": 106,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 67 años",
+        "actual_text": "67 años",
+        "confidence": 0.9998184442520142,
+        "start": 111,
+        "end": 118,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 46 08 28 123 45",
+        "actual_text": "46 08 28 123 45",
+        "confidence": 0.9236587285995483,
+        "start": 1356,
+        "end": 1371,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9994056224822998,
+        "start": 1440,
+        "end": 1466,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 91-",
+        "actual_text": "91-",
+        "confidence": 0.8029770851135254,
+        "start": 1602,
+        "end": 1605,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "765-4321",
+        "actual_text": "765-4321",
+        "confidence": 0.8067924380302429,
+        "start": 1605,
+        "end": 1613,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " España",
+        "actual_text": "España",
+        "confidence": 0.9990409016609192,
+        "start": 1713,
+        "end": 1719,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 14,
+    "suspicious_detections": 14,
+    "xxxxxx_detections": 0,
+    "other_detections": 14
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Laura Méndez Iglesias",
+        "confidence": 0.9902666211128235,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "text": " 67 años",
+        "confidence": 0.9975693821907043,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " 91-765-4321",
+        "confidence": 0.9946100115776062,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Méndez",
+        "confidence": 0.9912629127502441,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "text": " 67 años",
+        "confidence": 0.9998184442520142,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "text": " Centro de Salud Los Álamos",
+        "confidence": 0.9994056224822998,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "text": " España",
+        "confidence": 0.9990409016609192,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 7
+  }
+}

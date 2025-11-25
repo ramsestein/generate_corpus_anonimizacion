@@ -1,0 +1,1260 @@
+{
+  "document_id": "00a85666-62f1-413f-b1d7-16da8833a113",
+  "success": true,
+  "anonymized_text": "Informe de Seguimiento y Coordinación Paciente Laura Méndez Iglesias, de 67 años de edad, procedente de la Comunidad Valenciana, se presenta hoy para seguimiento de su condición crónica en el Centro de Salud Los Álamos. La paciente refiere buena adherencia al tratamiento establecido y participación activa en el Grupo de apoyo de diabetes tipo 2, lo cual ha contribuido favorablemente a su manejo metabólico. En la exploración física actual, se observa normopeso estable con índice de masa corporal de 26.3, tensión arterial de 128/76 mmHg y frecuencia cardíaca de 72 lpm. Los pulsos distales son palpables y simétricos, sin edemas en extremidades inferiores. La glucemia capilar en ayunas se sitúa en 112 mg/dL, mostrando mejoría respecto al último control. Se procede a la actualización de su historial clínico con referencia HC-2024-789456 y se registra el número de serie del dispositivo de monitorización continua E-789456 que la paciente utiliza para el autocontrol glucémico. Asimismo, queda documentado el identificador del sensor SN-98237641 y el vehículo asignado para transporte médico con placa 1234 BCD. Para facilitar la coordinación interdisciplinaria, se establece contacto con el cirujano de referencia mediante el correo electrónico carlos.martinez@clinic.es, dado su perfil profesional especializado. Se mantiene también el número de teléfono 612-34-56-78 como contacto principal para actualizaciones sobre su evolución. La paciente continúa bajo la supervisión de su médico de cabecera y se genera la referencia interna REF-8742-2024 para seguimiento nutricional especializado. Su profesión anterior no representa factores de riesgo adicionales para su condición actual. El manejo se orienta hacia el mantenimiento del buen control metabólico alcanzado y la prevención de complicaciones a largo plazo.",
+  "text_length": 1822,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 10,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9982528686523438,
+        "word": " Laura Méndez Iglesias",
+        "start": 47,
+        "end": 68,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.997593104839325,
+        "word": " 67 años",
+        "start": 73,
+        "end": 80,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9339880347251892,
+        "word": " Valenciana",
+        "start": 117,
+        "end": 127,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.9858952164649963,
+        "word": " Centro de Salud Los Álamos",
+        "start": 192,
+        "end": 218,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7778925895690918,
+        "word": " E-789456",
+        "start": 920,
+        "end": 928,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7043552994728088,
+        "word": " SN-98237641",
+        "start": 1040,
+        "end": 1051,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8477659225463867,
+        "word": " 1234 BCD",
+        "start": 1108,
+        "end": 1116,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.986760139465332,
+        "word": " carlos.martinez@clinic.es",
+        "start": 1252,
+        "end": 1277,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9768478870391846,
+        "word": " 612-34-56-78",
+        "start": 1363,
+        "end": 1375,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8764300346374512,
+        "word": "8742-2024",
+        "start": 1545,
+        "end": 1554,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 10,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 1,
+        "EDAD_SUJETO_ASISTENCIA": 1,
+        "PAIS": 1,
+        "CENTRO_SALUD": 1,
+        "OTROS_SUJETO_ASISTENCIA": 3,
+        "CORREO_ELECTRONICO": 1,
+        "NUMERO_TELEFONO": 2
+      },
+      "entities_by_confidence": {
+        "high": 8,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Laura Méndez Iglesias",
+          "actual_text": "Laura Méndez Iglesias",
+          "confidence": 0.9982528686523438,
+          "start": 47,
+          "end": 68,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 67 años",
+          "actual_text": "67 años",
+          "confidence": 0.997593104839325,
+          "start": 73,
+          "end": 80,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Valenciana",
+          "actual_text": "Valenciana",
+          "confidence": 0.9339880347251892,
+          "start": 117,
+          "end": 127,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9858952164649963,
+          "start": 192,
+          "end": 218,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " E-789456",
+          "actual_text": "E-789456",
+          "confidence": 0.7778925895690918,
+          "start": 920,
+          "end": 928,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " SN-98237641",
+          "actual_text": "SN-98237641",
+          "confidence": 0.7043552994728088,
+          "start": 1040,
+          "end": 1051,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " 1234 BCD",
+          "actual_text": "1234 BCD",
+          "confidence": 0.8477659225463867,
+          "start": 1108,
+          "end": 1116,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " carlos.martinez@clinic.es",
+          "actual_text": "carlos.martinez@clinic.es",
+          "confidence": 0.986760139465332,
+          "start": 1252,
+          "end": 1277,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 612-34-56-78",
+          "actual_text": "612-34-56-78",
+          "confidence": 0.9768478870391846,
+          "start": 1363,
+          "end": 1375,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "8742-2024",
+          "actual_text": "8742-2024",
+          "confidence": 0.8764300346374512,
+          "start": 1545,
+          "end": 1554,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Laura Méndez Iglesias",
+          "actual_text": "Laura Méndez Iglesias",
+          "confidence": 0.9982528686523438,
+          "start": 47,
+          "end": 68,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 67 años",
+          "actual_text": "67 años",
+          "confidence": 0.997593104839325,
+          "start": 73,
+          "end": 80,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Valenciana",
+          "actual_text": "Valenciana",
+          "confidence": 0.9339880347251892,
+          "start": 117,
+          "end": 127,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9858952164649963,
+          "start": 192,
+          "end": 218,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " E-789456",
+          "actual_text": "E-789456",
+          "confidence": 0.7778925895690918,
+          "start": 920,
+          "end": 928,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " SN-98237641",
+          "actual_text": "SN-98237641",
+          "confidence": 0.7043552994728088,
+          "start": 1040,
+          "end": 1051,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " 1234 BCD",
+          "actual_text": "1234 BCD",
+          "confidence": 0.8477659225463867,
+          "start": 1108,
+          "end": 1116,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " carlos.martinez@clinic.es",
+          "actual_text": "carlos.martinez@clinic.es",
+          "confidence": 0.986760139465332,
+          "start": 1252,
+          "end": 1277,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 612-34-56-78",
+          "actual_text": "612-34-56-78",
+          "confidence": 0.9768478870391846,
+          "start": 1363,
+          "end": 1375,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "8742-2024",
+          "actual_text": "8742-2024",
+          "confidence": 0.8764300346374512,
+          "start": 1545,
+          "end": 1554,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 15,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9837484359741211,
+        "word": " Méndez",
+        "start": 53,
+        "end": 59,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9694629907608032,
+        "word": " Iglesias",
+        "start": 60,
+        "end": 68,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.999719500541687,
+        "word": " 67 años",
+        "start": 73,
+        "end": 80,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.8438090682029724,
+        "word": " la",
+        "start": 104,
+        "end": 106,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9988608360290527,
+        "word": " Comunidad Valenciana",
+        "start": 107,
+        "end": 127,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.9994232654571533,
+        "word": " Centro de Salud Los Álamos",
+        "start": 192,
+        "end": 218,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.8199594020843506,
+        "word": " apoyo",
+        "start": 322,
+        "end": 327,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.845264196395874,
+        "word": " E",
+        "start": 920,
+        "end": 921,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7232384085655212,
+        "word": " car",
+        "start": 1252,
+        "end": 1255,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.7920492887496948,
+        "word": "mar",
+        "start": 1259,
+        "end": 1262,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.8149952292442322,
+        "word": "tin",
+        "start": 1262,
+        "end": 1265,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9066870808601379,
+        "word": "ez",
+        "start": 1265,
+        "end": 1267,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7483498454093933,
+        "word": " número",
+        "start": 1344,
+        "end": 1350,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7351610660552979,
+        "word": " 612-34-56-78",
+        "start": 1363,
+        "end": 1375,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.7941809892654419,
+        "word": " REF",
+        "start": 1541,
+        "end": 1544,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 15,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 5,
+        "EDAD_SUJETO_ASISTENCIA": 1,
+        "PAIS": 2,
+        "CENTRO_SALUD": 1,
+        "INSTITUCION": 1,
+        "NUMERO_IDENTIF": 2,
+        "NUMERO_TELEFONO": 3
+      },
+      "entities_by_confidence": {
+        "high": 10,
+        "medium": 5,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9837484359741211,
+          "start": 53,
+          "end": 59,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.9694629907608032,
+          "start": 60,
+          "end": 68,
+          "model": "CARMEN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 67 años",
+          "actual_text": "67 años",
+          "confidence": 0.999719500541687,
+          "start": 73,
+          "end": 80,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " la",
+          "actual_text": "la",
+          "confidence": 0.8438090682029724,
+          "start": 104,
+          "end": 106,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.9988608360290527,
+          "start": 107,
+          "end": 127,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9994232654571533,
+          "start": 192,
+          "end": 218,
+          "model": "CARMEN"
+        },
+        {
+          "label": "INSTITUCION",
+          "word": " apoyo",
+          "actual_text": "apoyo",
+          "confidence": 0.8199594020843506,
+          "start": 322,
+          "end": 327,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " E",
+          "actual_text": "E",
+          "confidence": 0.845264196395874,
+          "start": 920,
+          "end": 921,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.7232384085655212,
+          "start": 1252,
+          "end": 1255,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "mar",
+          "actual_text": "mar",
+          "confidence": 0.7920492887496948,
+          "start": 1259,
+          "end": 1262,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "tin",
+          "actual_text": "tin",
+          "confidence": 0.8149952292442322,
+          "start": 1262,
+          "end": 1265,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "ez",
+          "actual_text": "ez",
+          "confidence": 0.9066870808601379,
+          "start": 1265,
+          "end": 1267,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " número",
+          "actual_text": "número",
+          "confidence": 0.7483498454093933,
+          "start": 1344,
+          "end": 1350,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 612-34-56-78",
+          "actual_text": "612-34-56-78",
+          "confidence": 0.7351610660552979,
+          "start": 1363,
+          "end": 1375,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " REF",
+          "actual_text": "REF",
+          "confidence": 0.7941809892654419,
+          "start": 1541,
+          "end": 1544,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9837484359741211,
+          "start": 53,
+          "end": 59,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.9694629907608032,
+          "start": 60,
+          "end": 68,
+          "model": "CARMEN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 67 años",
+          "actual_text": "67 años",
+          "confidence": 0.999719500541687,
+          "start": 73,
+          "end": 80,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " la",
+          "actual_text": "la",
+          "confidence": 0.8438090682029724,
+          "start": 104,
+          "end": 106,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.9988608360290527,
+          "start": 107,
+          "end": 127,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9994232654571533,
+          "start": 192,
+          "end": 218,
+          "model": "CARMEN"
+        },
+        {
+          "label": "INSTITUCION",
+          "word": " apoyo",
+          "actual_text": "apoyo",
+          "confidence": 0.8199594020843506,
+          "start": 322,
+          "end": 327,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " E",
+          "actual_text": "E",
+          "confidence": 0.845264196395874,
+          "start": 920,
+          "end": 921,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.7232384085655212,
+          "start": 1252,
+          "end": 1255,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "mar",
+          "actual_text": "mar",
+          "confidence": 0.7920492887496948,
+          "start": 1259,
+          "end": 1262,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "tin",
+          "actual_text": "tin",
+          "confidence": 0.8149952292442322,
+          "start": 1262,
+          "end": 1265,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "ez",
+          "actual_text": "ez",
+          "confidence": 0.9066870808601379,
+          "start": 1265,
+          "end": 1267,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " número",
+          "actual_text": "número",
+          "confidence": 0.7483498454093933,
+          "start": 1344,
+          "end": 1350,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 612-34-56-78",
+          "actual_text": "612-34-56-78",
+          "confidence": 0.7351610660552979,
+          "start": 1363,
+          "end": 1375,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " REF",
+          "actual_text": "REF",
+          "confidence": 0.7941809892654419,
+          "start": 1541,
+          "end": 1544,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 25,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "NOMBRE_PERSONAL_SANITARIO": 6,
+      "EDAD_SUJETO_ASISTENCIA": 2,
+      "PAIS": 3,
+      "CENTRO_SALUD": 2,
+      "OTROS_SUJETO_ASISTENCIA": 3,
+      "CORREO_ELECTRONICO": 1,
+      "NUMERO_TELEFONO": 5,
+      "INSTITUCION": 1,
+      "NUMERO_IDENTIF": 2
+    },
+    "entities_by_confidence": {
+      "high": 18,
+      "medium": 7,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Laura Méndez Iglesias",
+        "actual_text": "Laura Méndez Iglesias",
+        "confidence": 0.9982528686523438,
+        "start": 47,
+        "end": 68,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 67 años",
+        "actual_text": "67 años",
+        "confidence": 0.997593104839325,
+        "start": 73,
+        "end": 80,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Valenciana",
+        "actual_text": "Valenciana",
+        "confidence": 0.9339880347251892,
+        "start": 117,
+        "end": 127,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9858952164649963,
+        "start": 192,
+        "end": 218,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " E-789456",
+        "actual_text": "E-789456",
+        "confidence": 0.7778925895690918,
+        "start": 920,
+        "end": 928,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " SN-98237641",
+        "actual_text": "SN-98237641",
+        "confidence": 0.7043552994728088,
+        "start": 1040,
+        "end": 1051,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " 1234 BCD",
+        "actual_text": "1234 BCD",
+        "confidence": 0.8477659225463867,
+        "start": 1108,
+        "end": 1116,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " carlos.martinez@clinic.es",
+        "actual_text": "carlos.martinez@clinic.es",
+        "confidence": 0.986760139465332,
+        "start": 1252,
+        "end": 1277,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 612-34-56-78",
+        "actual_text": "612-34-56-78",
+        "confidence": 0.9768478870391846,
+        "start": 1363,
+        "end": 1375,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "8742-2024",
+        "actual_text": "8742-2024",
+        "confidence": 0.8764300346374512,
+        "start": 1545,
+        "end": 1554,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9837484359741211,
+        "start": 53,
+        "end": 59,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.9694629907608032,
+        "start": 60,
+        "end": 68,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 67 años",
+        "actual_text": "67 años",
+        "confidence": 0.999719500541687,
+        "start": 73,
+        "end": 80,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " la",
+        "actual_text": "la",
+        "confidence": 0.8438090682029724,
+        "start": 104,
+        "end": 106,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.9988608360290527,
+        "start": 107,
+        "end": 127,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9994232654571533,
+        "start": 192,
+        "end": 218,
+        "model": "CARMEN"
+      },
+      {
+        "label": "INSTITUCION",
+        "word": " apoyo",
+        "actual_text": "apoyo",
+        "confidence": 0.8199594020843506,
+        "start": 322,
+        "end": 327,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " E",
+        "actual_text": "E",
+        "confidence": 0.845264196395874,
+        "start": 920,
+        "end": 921,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.7232384085655212,
+        "start": 1252,
+        "end": 1255,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "mar",
+        "actual_text": "mar",
+        "confidence": 0.7920492887496948,
+        "start": 1259,
+        "end": 1262,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "tin",
+        "actual_text": "tin",
+        "confidence": 0.8149952292442322,
+        "start": 1262,
+        "end": 1265,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "ez",
+        "actual_text": "ez",
+        "confidence": 0.9066870808601379,
+        "start": 1265,
+        "end": 1267,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " número",
+        "actual_text": "número",
+        "confidence": 0.7483498454093933,
+        "start": 1344,
+        "end": 1350,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 612-34-56-78",
+        "actual_text": "612-34-56-78",
+        "confidence": 0.7351610660552979,
+        "start": 1363,
+        "end": 1375,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " REF",
+        "actual_text": "REF",
+        "confidence": 0.7941809892654419,
+        "start": 1541,
+        "end": 1544,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Laura Méndez Iglesias",
+        "actual_text": "Laura Méndez Iglesias",
+        "confidence": 0.9982528686523438,
+        "start": 47,
+        "end": 68,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 67 años",
+        "actual_text": "67 años",
+        "confidence": 0.997593104839325,
+        "start": 73,
+        "end": 80,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Valenciana",
+        "actual_text": "Valenciana",
+        "confidence": 0.9339880347251892,
+        "start": 117,
+        "end": 127,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9858952164649963,
+        "start": 192,
+        "end": 218,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " E-789456",
+        "actual_text": "E-789456",
+        "confidence": 0.7778925895690918,
+        "start": 920,
+        "end": 928,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " SN-98237641",
+        "actual_text": "SN-98237641",
+        "confidence": 0.7043552994728088,
+        "start": 1040,
+        "end": 1051,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " 1234 BCD",
+        "actual_text": "1234 BCD",
+        "confidence": 0.8477659225463867,
+        "start": 1108,
+        "end": 1116,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " carlos.martinez@clinic.es",
+        "actual_text": "carlos.martinez@clinic.es",
+        "confidence": 0.986760139465332,
+        "start": 1252,
+        "end": 1277,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 612-34-56-78",
+        "actual_text": "612-34-56-78",
+        "confidence": 0.9768478870391846,
+        "start": 1363,
+        "end": 1375,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "8742-2024",
+        "actual_text": "8742-2024",
+        "confidence": 0.8764300346374512,
+        "start": 1545,
+        "end": 1554,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9837484359741211,
+        "start": 53,
+        "end": 59,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.9694629907608032,
+        "start": 60,
+        "end": 68,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 67 años",
+        "actual_text": "67 años",
+        "confidence": 0.999719500541687,
+        "start": 73,
+        "end": 80,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " la",
+        "actual_text": "la",
+        "confidence": 0.8438090682029724,
+        "start": 104,
+        "end": 106,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.9988608360290527,
+        "start": 107,
+        "end": 127,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9994232654571533,
+        "start": 192,
+        "end": 218,
+        "model": "CARMEN"
+      },
+      {
+        "label": "INSTITUCION",
+        "word": " apoyo",
+        "actual_text": "apoyo",
+        "confidence": 0.8199594020843506,
+        "start": 322,
+        "end": 327,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " E",
+        "actual_text": "E",
+        "confidence": 0.845264196395874,
+        "start": 920,
+        "end": 921,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.7232384085655212,
+        "start": 1252,
+        "end": 1255,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "mar",
+        "actual_text": "mar",
+        "confidence": 0.7920492887496948,
+        "start": 1259,
+        "end": 1262,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "tin",
+        "actual_text": "tin",
+        "confidence": 0.8149952292442322,
+        "start": 1262,
+        "end": 1265,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "ez",
+        "actual_text": "ez",
+        "confidence": 0.9066870808601379,
+        "start": 1265,
+        "end": 1267,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " número",
+        "actual_text": "número",
+        "confidence": 0.7483498454093933,
+        "start": 1344,
+        "end": 1350,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 612-34-56-78",
+        "actual_text": "612-34-56-78",
+        "confidence": 0.7351610660552979,
+        "start": 1363,
+        "end": 1375,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " REF",
+        "actual_text": "REF",
+        "confidence": 0.7941809892654419,
+        "start": 1541,
+        "end": 1544,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 25,
+    "suspicious_detections": 25,
+    "xxxxxx_detections": 0,
+    "other_detections": 25
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Laura Méndez Iglesias",
+        "confidence": 0.9982528686523438,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "text": " 67 años",
+        "confidence": 0.997593104839325,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "text": " 67 años",
+        "confidence": 0.999719500541687,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "text": " Comunidad Valenciana",
+        "confidence": 0.9988608360290527,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "text": " Centro de Salud Los Álamos",
+        "confidence": 0.9994232654571533,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 5
+  }
+}

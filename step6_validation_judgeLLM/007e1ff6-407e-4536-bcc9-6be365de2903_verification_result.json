@@ -1,0 +1,1079 @@
+{
+  "document_id": "007e1ff6-407e-4536-bcc9-6be365de2903",
+  "success": true,
+  "anonymized_text": "A continuación se presenta el resumen de la interconsulta realizada: El paciente con identificador asistencial AB12345CD fue valorado en consulta externa tras referencia desde su centro de atención primaria. La historia clínica accesible a través de https://historiaclinica.hgugm.es/paciente/12345 fue revisada en profundidad para contextualizar el caso actual. En la exploración física se constata buen estado general, con auscultación cardiorrespiratoria sin soplos ni ruidos sobreañadidos, abdomen blando y depresible sin masas palpables, y extremidades sin edemas ni signos de trombosis. Los estudios analíticos realizados muestran un perfil bioquímico dentro de parámetros normales, sin alteraciones significativas en el hemograma. Las pruebas de imagen complementarias no revelan hallazgos patológicos relevantes. Se mantiene el plan terapéutico establecido previamente, con seguimiento coordinado entre niveles asistenciales. Para cualquier actualización en el manejo del caso, se recomienda consultar los protocolos disponibles en https://www.clinicabarcelona.org. La próxima revisión quedó programada para el 12 de julio de 2023. Se ha establecido comunicación directa con el profesional referente a través de carlos.martinez@clinic.es para garantizar la continuidad asistencial. El documento completo de evolución ha sido incorporado al registro principal con el número de identificación 87654321B. El paciente continuará su control periódico en el Centro de Salud Los Álamos, donde se realizará el seguimiento clínico habitual. Como referencia adicional para la coordinación entre profesionales, se dispone de acceso a los protocolos institucionales a través de https://historiaclinica.hgugm.es/paciente/AB12345CD, donde podrán consultarse las guías de práctica clínica actualizadas.",
+  "text_length": 1794,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 8,
+    "entities": [
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9186833500862122,
+        "word": "ica.hgugm.es",
+        "start": 270,
+        "end": 282,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.7970614433288574,
+        "word": "clin",
+        "start": 1051,
+        "end": 1055,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.8937565684318542,
+        "word": "icabarcelona.org",
+        "start": 1055,
+        "end": 1071,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9986762404441833,
+        "word": " 12 de julio de 2023",
+        "start": 1118,
+        "end": 1137,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9962835907936096,
+        "word": " car",
+        "start": 1219,
+        "end": 1222,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9950663447380066,
+        "word": "los.martinez@clinic.es",
+        "start": 1222,
+        "end": 1244,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.968524158000946,
+        "word": " Centro de Salud Los Álamos",
+        "start": 1459,
+        "end": 1485,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9562559127807617,
+        "word": "toriaclinica.hgugm.es",
+        "start": 1684,
+        "end": 1705,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 8,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CORREO_ELECTRONICO": 5,
+        "INSTITUCION": 1,
+        "FECHAS": 1,
+        "CENTRO_SALUD": 1
+      },
+      "entities_by_confidence": {
+        "high": 7,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "ica.hgugm.es",
+          "actual_text": "ica.hgugm.es",
+          "confidence": 0.9186833500862122,
+          "start": 270,
+          "end": 282,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "INSTITUCION",
+          "word": "clin",
+          "actual_text": "clin",
+          "confidence": 0.7970614433288574,
+          "start": 1051,
+          "end": 1055,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "icabarcelona.org",
+          "actual_text": "icabarcelona.org",
+          "confidence": 0.8937565684318542,
+          "start": 1055,
+          "end": 1071,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9986762404441833,
+          "start": 1118,
+          "end": 1137,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.9962835907936096,
+          "start": 1219,
+          "end": 1222,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "los.martinez@clinic.es",
+          "actual_text": "los.martinez@clinic.es",
+          "confidence": 0.9950663447380066,
+          "start": 1222,
+          "end": 1244,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.968524158000946,
+          "start": 1459,
+          "end": 1485,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "toriaclinica.hgugm.es",
+          "actual_text": "toriaclinica.hgugm.es",
+          "confidence": 0.9562559127807617,
+          "start": 1684,
+          "end": 1705,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "ica.hgugm.es",
+          "actual_text": "ica.hgugm.es",
+          "confidence": 0.9186833500862122,
+          "start": 270,
+          "end": 282,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "INSTITUCION",
+          "word": "clin",
+          "actual_text": "clin",
+          "confidence": 0.7970614433288574,
+          "start": 1051,
+          "end": 1055,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "icabarcelona.org",
+          "actual_text": "icabarcelona.org",
+          "confidence": 0.8937565684318542,
+          "start": 1055,
+          "end": 1071,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9986762404441833,
+          "start": 1118,
+          "end": 1137,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.9962835907936096,
+          "start": 1219,
+          "end": 1222,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "los.martinez@clinic.es",
+          "actual_text": "los.martinez@clinic.es",
+          "confidence": 0.9950663447380066,
+          "start": 1222,
+          "end": 1244,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.968524158000946,
+          "start": 1459,
+          "end": 1485,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "toriaclinica.hgugm.es",
+          "actual_text": "toriaclinica.hgugm.es",
+          "confidence": 0.9562559127807617,
+          "start": 1684,
+          "end": 1705,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 13,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7517203688621521,
+        "word": " AB",
+        "start": 111,
+        "end": 113,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9838241338729858,
+        "word": " clínica",
+        "start": 220,
+        "end": 227,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.8056358695030212,
+        "word": " https://historiaclinica.hgugm.es/",
+        "start": 250,
+        "end": 283,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.706986129283905,
+        "word": " https://www.clinicabarcelona.org",
+        "start": 1039,
+        "end": 1071,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9998922944068909,
+        "word": " 12 de julio de 2023",
+        "start": 1118,
+        "end": 1137,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7866327166557312,
+        "word": " car",
+        "start": 1219,
+        "end": 1222,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.8623368144035339,
+        "word": "@clinic.es",
+        "start": 1234,
+        "end": 1244,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.914275050163269,
+        "word": " principal",
+        "start": 1356,
+        "end": 1365,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9965646862983704,
+        "word": " 8",
+        "start": 1398,
+        "end": 1399,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.9993740916252136,
+        "word": " Centro de Salud Los Álamos",
+        "start": 1459,
+        "end": 1485,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7436371445655823,
+        "word": "his",
+        "start": 1681,
+        "end": 1684,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.7589748501777649,
+        "word": "toriaclinica.hgugm.es",
+        "start": 1684,
+        "end": 1705,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7433589100837708,
+        "word": "AB",
+        "start": 1715,
+        "end": 1717,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 13,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 4,
+        "OTROS_SUJETO_ASISTENCIA": 3,
+        "URL_WEB": 4,
+        "FECHAS": 1,
+        "CENTRO_SALUD": 1
+      },
+      "entities_by_confidence": {
+        "high": 7,
+        "medium": 6,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " AB",
+          "actual_text": "AB",
+          "confidence": 0.7517203688621521,
+          "start": 111,
+          "end": 113,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.9838241338729858,
+          "start": 220,
+          "end": 227,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": " https://historiaclinica.hgugm.es/",
+          "actual_text": "https://historiaclinica.hgugm.es/",
+          "confidence": 0.8056358695030212,
+          "start": 250,
+          "end": 283,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": " https://www.clinicabarcelona.org",
+          "actual_text": "https://www.clinicabarcelona.org",
+          "confidence": 0.706986129283905,
+          "start": 1039,
+          "end": 1071,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9998922944068909,
+          "start": 1118,
+          "end": 1137,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.7866327166557312,
+          "start": 1219,
+          "end": 1222,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "@clinic.es",
+          "actual_text": "@clinic.es",
+          "confidence": 0.8623368144035339,
+          "start": 1234,
+          "end": 1244,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " principal",
+          "actual_text": "principal",
+          "confidence": 0.914275050163269,
+          "start": 1356,
+          "end": 1365,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 8",
+          "actual_text": "8",
+          "confidence": 0.9965646862983704,
+          "start": 1398,
+          "end": 1399,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9993740916252136,
+          "start": 1459,
+          "end": 1485,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "his",
+          "actual_text": "his",
+          "confidence": 0.7436371445655823,
+          "start": 1681,
+          "end": 1684,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "toriaclinica.hgugm.es",
+          "actual_text": "toriaclinica.hgugm.es",
+          "confidence": 0.7589748501777649,
+          "start": 1684,
+          "end": 1705,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "AB",
+          "actual_text": "AB",
+          "confidence": 0.7433589100837708,
+          "start": 1715,
+          "end": 1717,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " AB",
+          "actual_text": "AB",
+          "confidence": 0.7517203688621521,
+          "start": 111,
+          "end": 113,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.9838241338729858,
+          "start": 220,
+          "end": 227,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": " https://historiaclinica.hgugm.es/",
+          "actual_text": "https://historiaclinica.hgugm.es/",
+          "confidence": 0.8056358695030212,
+          "start": 250,
+          "end": 283,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": " https://www.clinicabarcelona.org",
+          "actual_text": "https://www.clinicabarcelona.org",
+          "confidence": 0.706986129283905,
+          "start": 1039,
+          "end": 1071,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9998922944068909,
+          "start": 1118,
+          "end": 1137,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.7866327166557312,
+          "start": 1219,
+          "end": 1222,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "@clinic.es",
+          "actual_text": "@clinic.es",
+          "confidence": 0.8623368144035339,
+          "start": 1234,
+          "end": 1244,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " principal",
+          "actual_text": "principal",
+          "confidence": 0.914275050163269,
+          "start": 1356,
+          "end": 1365,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 8",
+          "actual_text": "8",
+          "confidence": 0.9965646862983704,
+          "start": 1398,
+          "end": 1399,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9993740916252136,
+          "start": 1459,
+          "end": 1485,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "his",
+          "actual_text": "his",
+          "confidence": 0.7436371445655823,
+          "start": 1681,
+          "end": 1684,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "toriaclinica.hgugm.es",
+          "actual_text": "toriaclinica.hgugm.es",
+          "confidence": 0.7589748501777649,
+          "start": 1684,
+          "end": 1705,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "AB",
+          "actual_text": "AB",
+          "confidence": 0.7433589100837708,
+          "start": 1715,
+          "end": 1717,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 21,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CORREO_ELECTRONICO": 5,
+      "INSTITUCION": 1,
+      "FECHAS": 2,
+      "CENTRO_SALUD": 2,
+      "NUMERO_TELEFONO": 4,
+      "OTROS_SUJETO_ASISTENCIA": 3,
+      "URL_WEB": 4
+    },
+    "entities_by_confidence": {
+      "high": 14,
+      "medium": 7,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "ica.hgugm.es",
+        "actual_text": "ica.hgugm.es",
+        "confidence": 0.9186833500862122,
+        "start": 270,
+        "end": 282,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "INSTITUCION",
+        "word": "clin",
+        "actual_text": "clin",
+        "confidence": 0.7970614433288574,
+        "start": 1051,
+        "end": 1055,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "icabarcelona.org",
+        "actual_text": "icabarcelona.org",
+        "confidence": 0.8937565684318542,
+        "start": 1055,
+        "end": 1071,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9986762404441833,
+        "start": 1118,
+        "end": 1137,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.9962835907936096,
+        "start": 1219,
+        "end": 1222,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "los.martinez@clinic.es",
+        "actual_text": "los.martinez@clinic.es",
+        "confidence": 0.9950663447380066,
+        "start": 1222,
+        "end": 1244,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.968524158000946,
+        "start": 1459,
+        "end": 1485,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "toriaclinica.hgugm.es",
+        "actual_text": "toriaclinica.hgugm.es",
+        "confidence": 0.9562559127807617,
+        "start": 1684,
+        "end": 1705,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " AB",
+        "actual_text": "AB",
+        "confidence": 0.7517203688621521,
+        "start": 111,
+        "end": 113,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.9838241338729858,
+        "start": 220,
+        "end": 227,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": " https://historiaclinica.hgugm.es/",
+        "actual_text": "https://historiaclinica.hgugm.es/",
+        "confidence": 0.8056358695030212,
+        "start": 250,
+        "end": 283,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": " https://www.clinicabarcelona.org",
+        "actual_text": "https://www.clinicabarcelona.org",
+        "confidence": 0.706986129283905,
+        "start": 1039,
+        "end": 1071,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9998922944068909,
+        "start": 1118,
+        "end": 1137,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.7866327166557312,
+        "start": 1219,
+        "end": 1222,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "@clinic.es",
+        "actual_text": "@clinic.es",
+        "confidence": 0.8623368144035339,
+        "start": 1234,
+        "end": 1244,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " principal",
+        "actual_text": "principal",
+        "confidence": 0.914275050163269,
+        "start": 1356,
+        "end": 1365,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 8",
+        "actual_text": "8",
+        "confidence": 0.9965646862983704,
+        "start": 1398,
+        "end": 1399,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9993740916252136,
+        "start": 1459,
+        "end": 1485,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "his",
+        "actual_text": "his",
+        "confidence": 0.7436371445655823,
+        "start": 1681,
+        "end": 1684,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "toriaclinica.hgugm.es",
+        "actual_text": "toriaclinica.hgugm.es",
+        "confidence": 0.7589748501777649,
+        "start": 1684,
+        "end": 1705,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "AB",
+        "actual_text": "AB",
+        "confidence": 0.7433589100837708,
+        "start": 1715,
+        "end": 1717,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "ica.hgugm.es",
+        "actual_text": "ica.hgugm.es",
+        "confidence": 0.9186833500862122,
+        "start": 270,
+        "end": 282,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "INSTITUCION",
+        "word": "clin",
+        "actual_text": "clin",
+        "confidence": 0.7970614433288574,
+        "start": 1051,
+        "end": 1055,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "icabarcelona.org",
+        "actual_text": "icabarcelona.org",
+        "confidence": 0.8937565684318542,
+        "start": 1055,
+        "end": 1071,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9986762404441833,
+        "start": 1118,
+        "end": 1137,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.9962835907936096,
+        "start": 1219,
+        "end": 1222,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "los.martinez@clinic.es",
+        "actual_text": "los.martinez@clinic.es",
+        "confidence": 0.9950663447380066,
+        "start": 1222,
+        "end": 1244,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.968524158000946,
+        "start": 1459,
+        "end": 1485,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "toriaclinica.hgugm.es",
+        "actual_text": "toriaclinica.hgugm.es",
+        "confidence": 0.9562559127807617,
+        "start": 1684,
+        "end": 1705,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " AB",
+        "actual_text": "AB",
+        "confidence": 0.7517203688621521,
+        "start": 111,
+        "end": 113,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.9838241338729858,
+        "start": 220,
+        "end": 227,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": " https://historiaclinica.hgugm.es/",
+        "actual_text": "https://historiaclinica.hgugm.es/",
+        "confidence": 0.8056358695030212,
+        "start": 250,
+        "end": 283,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": " https://www.clinicabarcelona.org",
+        "actual_text": "https://www.clinicabarcelona.org",
+        "confidence": 0.706986129283905,
+        "start": 1039,
+        "end": 1071,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9998922944068909,
+        "start": 1118,
+        "end": 1137,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.7866327166557312,
+        "start": 1219,
+        "end": 1222,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "@clinic.es",
+        "actual_text": "@clinic.es",
+        "confidence": 0.8623368144035339,
+        "start": 1234,
+        "end": 1244,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " principal",
+        "actual_text": "principal",
+        "confidence": 0.914275050163269,
+        "start": 1356,
+        "end": 1365,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 8",
+        "actual_text": "8",
+        "confidence": 0.9965646862983704,
+        "start": 1398,
+        "end": 1399,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9993740916252136,
+        "start": 1459,
+        "end": 1485,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "his",
+        "actual_text": "his",
+        "confidence": 0.7436371445655823,
+        "start": 1681,
+        "end": 1684,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "toriaclinica.hgugm.es",
+        "actual_text": "toriaclinica.hgugm.es",
+        "confidence": 0.7589748501777649,
+        "start": 1684,
+        "end": 1705,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "AB",
+        "actual_text": "AB",
+        "confidence": 0.7433589100837708,
+        "start": 1715,
+        "end": 1717,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 21,
+    "suspicious_detections": 21,
+    "xxxxxx_detections": 0,
+    "other_detections": 21
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "FECHAS",
+        "text": " 12 de julio de 2023",
+        "confidence": 0.9986762404441833,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "text": " car",
+        "confidence": 0.9962835907936096,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "text": "los.martinez@clinic.es",
+        "confidence": 0.9950663447380066,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "text": " 12 de julio de 2023",
+        "confidence": 0.9998922944068909,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " 8",
+        "confidence": 0.9965646862983704,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "text": " Centro de Salud Los Álamos",
+        "confidence": 0.9993740916252136,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 6
+  }
+}

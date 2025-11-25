@@ -1,0 +1,1493 @@
+{
+  "document_id": "00218b06-d0d8-4bc9-a2c1-32d20d754334",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución - Consulta Externa** Se reevalúa en consulta a la paciente **Laura Méndez Iglesias**, identificada con el número de historia clínica **HC-2024-789456**. Refiere mejoría parcial de la sintomatología por la que acudió inicialmente, aunque persisten algunas molestias residuales. Se ha verificado que su información de contacto actual es el **612-345-678** y su domicilio en **Paseo de la Castellana 120**. En relación con su seguimiento, se procedió a la solicitud de una ecografía abdominal, asignándose al equipo el identificador **ES-87654321-1**. Los hallazgos fueron informados bajo el número de serie **SN-98237641** y no muestran alteraciones significativas. Los análisis de laboratorio, asociados al identificador de sujeto de asistencia **HC-2024-789012**, confirman la normalización de los parámetros hepáticos que se encontraban levemente alterados en controles previos. Para la gestión administrativa y de aseguramiento, se registra el identificador **B123456789** y el documento nacional de identidad **87654321B**. Asimismo, queda anotado en el sistema el código de aseguramiento **46 08 28 123 45**. La exploración física actual muestra un abdomen blando y depresible, sin masas palpables ni signos de irritación peritoneal. Los ruidos hidroaéreos son normales. Se ajusta el plan terapéutico y se cita para control en un mes. Atentamente, **Dra. Elena Rodríguez Santos** Identificación profesional: **E-789456**",
+  "text_length": 1444,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 12,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9982301592826843,
+        "word": "La",
+        "start": 81,
+        "end": 83,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9969098567962646,
+        "word": "ura Méndez Iglesias",
+        "start": 83,
+        "end": 102,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.9107029438018799,
+        "word": "20",
+        "start": 158,
+        "end": 160,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8885523080825806,
+        "word": "-789456",
+        "start": 162,
+        "end": 169,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9108471274375916,
+        "word": "612-345-678",
+        "start": 360,
+        "end": 371,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9985532164573669,
+        "word": "Pas",
+        "start": 394,
+        "end": 397,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9887862205505371,
+        "word": "eo de la Castellana 120",
+        "start": 397,
+        "end": 420,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8189948797225952,
+        "word": "98237641",
+        "start": 630,
+        "end": 638,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7865586280822754,
+        "word": "2024-789012",
+        "start": 769,
+        "end": 780,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8849830627441406,
+        "word": "46 08 28 123",
+        "start": 1114,
+        "end": 1126,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.999302089214325,
+        "word": " Elena Rodríguez Santos",
+        "start": 1379,
+        "end": 1401,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7070252299308777,
+        "word": "9456",
+        "start": 1438,
+        "end": 1442,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 12,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 3,
+        "ID_SUJETO_ASISTENCIA": 4,
+        "NUMERO_TELEFONO": 3,
+        "CALLE": 2
+      },
+      "entities_by_confidence": {
+        "high": 10,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "La",
+          "actual_text": "La",
+          "confidence": 0.9982301592826843,
+          "start": 81,
+          "end": 83,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "ura Méndez Iglesias",
+          "actual_text": "ura Méndez Iglesias",
+          "confidence": 0.9969098567962646,
+          "start": 83,
+          "end": 102,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "20",
+          "actual_text": "20",
+          "confidence": 0.9107029438018799,
+          "start": 158,
+          "end": 160,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-789456",
+          "actual_text": "-789456",
+          "confidence": 0.8885523080825806,
+          "start": 162,
+          "end": 169,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "612-345-678",
+          "actual_text": "612-345-678",
+          "confidence": 0.9108471274375916,
+          "start": 360,
+          "end": 371,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": "Pas",
+          "actual_text": "Pas",
+          "confidence": 0.9985532164573669,
+          "start": 394,
+          "end": 397,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": "eo de la Castellana 120",
+          "actual_text": "eo de la Castellana 120",
+          "confidence": 0.9887862205505371,
+          "start": 397,
+          "end": 420,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "98237641",
+          "actual_text": "98237641",
+          "confidence": 0.8189948797225952,
+          "start": 630,
+          "end": 638,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "2024-789012",
+          "actual_text": "2024-789012",
+          "confidence": 0.7865586280822754,
+          "start": 769,
+          "end": 780,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "46 08 28 123",
+          "actual_text": "46 08 28 123",
+          "confidence": 0.8849830627441406,
+          "start": 1114,
+          "end": 1126,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena Rodríguez Santos",
+          "actual_text": "Elena Rodríguez Santos",
+          "confidence": 0.999302089214325,
+          "start": 1379,
+          "end": 1401,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "9456",
+          "actual_text": "9456",
+          "confidence": 0.7070252299308777,
+          "start": 1438,
+          "end": 1442,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "La",
+          "actual_text": "La",
+          "confidence": 0.9982301592826843,
+          "start": 81,
+          "end": 83,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "ura Méndez Iglesias",
+          "actual_text": "ura Méndez Iglesias",
+          "confidence": 0.9969098567962646,
+          "start": 83,
+          "end": 102,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "20",
+          "actual_text": "20",
+          "confidence": 0.9107029438018799,
+          "start": 158,
+          "end": 160,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-789456",
+          "actual_text": "-789456",
+          "confidence": 0.8885523080825806,
+          "start": 162,
+          "end": 169,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "612-345-678",
+          "actual_text": "612-345-678",
+          "confidence": 0.9108471274375916,
+          "start": 360,
+          "end": 371,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": "Pas",
+          "actual_text": "Pas",
+          "confidence": 0.9985532164573669,
+          "start": 394,
+          "end": 397,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": "eo de la Castellana 120",
+          "actual_text": "eo de la Castellana 120",
+          "confidence": 0.9887862205505371,
+          "start": 397,
+          "end": 420,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "98237641",
+          "actual_text": "98237641",
+          "confidence": 0.8189948797225952,
+          "start": 630,
+          "end": 638,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "2024-789012",
+          "actual_text": "2024-789012",
+          "confidence": 0.7865586280822754,
+          "start": 769,
+          "end": 780,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "46 08 28 123",
+          "actual_text": "46 08 28 123",
+          "confidence": 0.8849830627441406,
+          "start": 1114,
+          "end": 1126,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena Rodríguez Santos",
+          "actual_text": "Elena Rodríguez Santos",
+          "confidence": 0.999302089214325,
+          "start": 1379,
+          "end": 1401,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "9456",
+          "actual_text": "9456",
+          "confidence": 0.7070252299308777,
+          "start": 1438,
+          "end": 1442,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 18,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9976385831832886,
+        "word": " Méndez",
+        "start": 87,
+        "end": 93,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9933845400810242,
+        "word": " Iglesias",
+        "start": 94,
+        "end": 102,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7253642082214355,
+        "word": " de historia clínica",
+        "start": 133,
+        "end": 152,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8688330054283142,
+        "word": "HC",
+        "start": 155,
+        "end": 157,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8493450284004211,
+        "word": " **",
+        "start": 358,
+        "end": 360,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9842866659164429,
+        "word": "Paseo de la Castellana 120",
+        "start": 394,
+        "end": 420,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7389490604400635,
+        "word": "SN",
+        "start": 627,
+        "end": 629,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7427389621734619,
+        "word": " **",
+        "start": 764,
+        "end": 766,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8835566639900208,
+        "word": "HC",
+        "start": 766,
+        "end": 768,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9215391874313354,
+        "word": " **",
+        "start": 980,
+        "end": 982,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9806330800056458,
+        "word": "B",
+        "start": 982,
+        "end": 983,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8434887528419495,
+        "word": " **",
+        "start": 1032,
+        "end": 1034,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9657136797904968,
+        "word": " **",
+        "start": 1112,
+        "end": 1114,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7841994762420654,
+        "word": "46 08 28 123 45",
+        "start": 1114,
+        "end": 1129,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9671501517295837,
+        "word": " Elena",
+        "start": 1379,
+        "end": 1384,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9992832541465759,
+        "word": " Rodríguez",
+        "start": 1385,
+        "end": 1394,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9987539052963257,
+        "word": " Santos",
+        "start": 1395,
+        "end": 1401,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8307303786277771,
+        "word": " **",
+        "start": 1432,
+        "end": 1434,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 18,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 5,
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "NUMERO_TELEFONO": 11,
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 14,
+        "medium": 4,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9976385831832886,
+          "start": 87,
+          "end": 93,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.9933845400810242,
+          "start": 94,
+          "end": 102,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " de historia clínica",
+          "actual_text": "de historia clínica",
+          "confidence": 0.7253642082214355,
+          "start": 133,
+          "end": 152,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "HC",
+          "actual_text": "HC",
+          "confidence": 0.8688330054283142,
+          "start": 155,
+          "end": 157,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.8493450284004211,
+          "start": 358,
+          "end": 360,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": "Paseo de la Castellana 120",
+          "actual_text": "Paseo de la Castellana 120",
+          "confidence": 0.9842866659164429,
+          "start": 394,
+          "end": 420,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "SN",
+          "actual_text": "SN",
+          "confidence": 0.7389490604400635,
+          "start": 627,
+          "end": 629,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.7427389621734619,
+          "start": 764,
+          "end": 766,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "HC",
+          "actual_text": "HC",
+          "confidence": 0.8835566639900208,
+          "start": 766,
+          "end": 768,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.9215391874313354,
+          "start": 980,
+          "end": 982,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "B",
+          "actual_text": "B",
+          "confidence": 0.9806330800056458,
+          "start": 982,
+          "end": 983,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.8434887528419495,
+          "start": 1032,
+          "end": 1034,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.9657136797904968,
+          "start": 1112,
+          "end": 1114,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "46 08 28 123 45",
+          "actual_text": "46 08 28 123 45",
+          "confidence": 0.7841994762420654,
+          "start": 1114,
+          "end": 1129,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena",
+          "actual_text": "Elena",
+          "confidence": 0.9671501517295837,
+          "start": 1379,
+          "end": 1384,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "Rodríguez",
+          "confidence": 0.9992832541465759,
+          "start": 1385,
+          "end": 1394,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Santos",
+          "actual_text": "Santos",
+          "confidence": 0.9987539052963257,
+          "start": 1395,
+          "end": 1401,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.8307303786277771,
+          "start": 1432,
+          "end": 1434,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9976385831832886,
+          "start": 87,
+          "end": 93,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.9933845400810242,
+          "start": 94,
+          "end": 102,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " de historia clínica",
+          "actual_text": "de historia clínica",
+          "confidence": 0.7253642082214355,
+          "start": 133,
+          "end": 152,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "HC",
+          "actual_text": "HC",
+          "confidence": 0.8688330054283142,
+          "start": 155,
+          "end": 157,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.8493450284004211,
+          "start": 358,
+          "end": 360,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": "Paseo de la Castellana 120",
+          "actual_text": "Paseo de la Castellana 120",
+          "confidence": 0.9842866659164429,
+          "start": 394,
+          "end": 420,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "SN",
+          "actual_text": "SN",
+          "confidence": 0.7389490604400635,
+          "start": 627,
+          "end": 629,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.7427389621734619,
+          "start": 764,
+          "end": 766,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "HC",
+          "actual_text": "HC",
+          "confidence": 0.8835566639900208,
+          "start": 766,
+          "end": 768,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.9215391874313354,
+          "start": 980,
+          "end": 982,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "B",
+          "actual_text": "B",
+          "confidence": 0.9806330800056458,
+          "start": 982,
+          "end": 983,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.8434887528419495,
+          "start": 1032,
+          "end": 1034,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.9657136797904968,
+          "start": 1112,
+          "end": 1114,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "46 08 28 123 45",
+          "actual_text": "46 08 28 123 45",
+          "confidence": 0.7841994762420654,
+          "start": 1114,
+          "end": 1129,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena",
+          "actual_text": "Elena",
+          "confidence": 0.9671501517295837,
+          "start": 1379,
+          "end": 1384,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "Rodríguez",
+          "confidence": 0.9992832541465759,
+          "start": 1385,
+          "end": 1394,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Santos",
+          "actual_text": "Santos",
+          "confidence": 0.9987539052963257,
+          "start": 1395,
+          "end": 1401,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " **",
+          "actual_text": "**",
+          "confidence": 0.8307303786277771,
+          "start": 1432,
+          "end": 1434,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 30,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "NOMBRE_PERSONAL_SANITARIO": 8,
+      "ID_SUJETO_ASISTENCIA": 4,
+      "NUMERO_TELEFONO": 14,
+      "CALLE": 3,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 24,
+      "medium": 6,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "La",
+        "actual_text": "La",
+        "confidence": 0.9982301592826843,
+        "start": 81,
+        "end": 83,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "ura Méndez Iglesias",
+        "actual_text": "ura Méndez Iglesias",
+        "confidence": 0.9969098567962646,
+        "start": 83,
+        "end": 102,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "20",
+        "actual_text": "20",
+        "confidence": 0.9107029438018799,
+        "start": 158,
+        "end": 160,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-789456",
+        "actual_text": "-789456",
+        "confidence": 0.8885523080825806,
+        "start": 162,
+        "end": 169,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "612-345-678",
+        "actual_text": "612-345-678",
+        "confidence": 0.9108471274375916,
+        "start": 360,
+        "end": 371,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": "Pas",
+        "actual_text": "Pas",
+        "confidence": 0.9985532164573669,
+        "start": 394,
+        "end": 397,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": "eo de la Castellana 120",
+        "actual_text": "eo de la Castellana 120",
+        "confidence": 0.9887862205505371,
+        "start": 397,
+        "end": 420,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "98237641",
+        "actual_text": "98237641",
+        "confidence": 0.8189948797225952,
+        "start": 630,
+        "end": 638,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "2024-789012",
+        "actual_text": "2024-789012",
+        "confidence": 0.7865586280822754,
+        "start": 769,
+        "end": 780,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "46 08 28 123",
+        "actual_text": "46 08 28 123",
+        "confidence": 0.8849830627441406,
+        "start": 1114,
+        "end": 1126,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena Rodríguez Santos",
+        "actual_text": "Elena Rodríguez Santos",
+        "confidence": 0.999302089214325,
+        "start": 1379,
+        "end": 1401,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "9456",
+        "actual_text": "9456",
+        "confidence": 0.7070252299308777,
+        "start": 1438,
+        "end": 1442,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9976385831832886,
+        "start": 87,
+        "end": 93,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.9933845400810242,
+        "start": 94,
+        "end": 102,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " de historia clínica",
+        "actual_text": "de historia clínica",
+        "confidence": 0.7253642082214355,
+        "start": 133,
+        "end": 152,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "HC",
+        "actual_text": "HC",
+        "confidence": 0.8688330054283142,
+        "start": 155,
+        "end": 157,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.8493450284004211,
+        "start": 358,
+        "end": 360,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": "Paseo de la Castellana 120",
+        "actual_text": "Paseo de la Castellana 120",
+        "confidence": 0.9842866659164429,
+        "start": 394,
+        "end": 420,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "SN",
+        "actual_text": "SN",
+        "confidence": 0.7389490604400635,
+        "start": 627,
+        "end": 629,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.7427389621734619,
+        "start": 764,
+        "end": 766,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "HC",
+        "actual_text": "HC",
+        "confidence": 0.8835566639900208,
+        "start": 766,
+        "end": 768,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.9215391874313354,
+        "start": 980,
+        "end": 982,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "B",
+        "actual_text": "B",
+        "confidence": 0.9806330800056458,
+        "start": 982,
+        "end": 983,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.8434887528419495,
+        "start": 1032,
+        "end": 1034,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.9657136797904968,
+        "start": 1112,
+        "end": 1114,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "46 08 28 123 45",
+        "actual_text": "46 08 28 123 45",
+        "confidence": 0.7841994762420654,
+        "start": 1114,
+        "end": 1129,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena",
+        "actual_text": "Elena",
+        "confidence": 0.9671501517295837,
+        "start": 1379,
+        "end": 1384,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "Rodríguez",
+        "confidence": 0.9992832541465759,
+        "start": 1385,
+        "end": 1394,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Santos",
+        "actual_text": "Santos",
+        "confidence": 0.9987539052963257,
+        "start": 1395,
+        "end": 1401,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.8307303786277771,
+        "start": 1432,
+        "end": 1434,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "La",
+        "actual_text": "La",
+        "confidence": 0.9982301592826843,
+        "start": 81,
+        "end": 83,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "ura Méndez Iglesias",
+        "actual_text": "ura Méndez Iglesias",
+        "confidence": 0.9969098567962646,
+        "start": 83,
+        "end": 102,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "20",
+        "actual_text": "20",
+        "confidence": 0.9107029438018799,
+        "start": 158,
+        "end": 160,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-789456",
+        "actual_text": "-789456",
+        "confidence": 0.8885523080825806,
+        "start": 162,
+        "end": 169,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "612-345-678",
+        "actual_text": "612-345-678",
+        "confidence": 0.9108471274375916,
+        "start": 360,
+        "end": 371,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": "Pas",
+        "actual_text": "Pas",
+        "confidence": 0.9985532164573669,
+        "start": 394,
+        "end": 397,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": "eo de la Castellana 120",
+        "actual_text": "eo de la Castellana 120",
+        "confidence": 0.9887862205505371,
+        "start": 397,
+        "end": 420,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "98237641",
+        "actual_text": "98237641",
+        "confidence": 0.8189948797225952,
+        "start": 630,
+        "end": 638,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "2024-789012",
+        "actual_text": "2024-789012",
+        "confidence": 0.7865586280822754,
+        "start": 769,
+        "end": 780,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "46 08 28 123",
+        "actual_text": "46 08 28 123",
+        "confidence": 0.8849830627441406,
+        "start": 1114,
+        "end": 1126,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena Rodríguez Santos",
+        "actual_text": "Elena Rodríguez Santos",
+        "confidence": 0.999302089214325,
+        "start": 1379,
+        "end": 1401,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "9456",
+        "actual_text": "9456",
+        "confidence": 0.7070252299308777,
+        "start": 1438,
+        "end": 1442,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9976385831832886,
+        "start": 87,
+        "end": 93,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.9933845400810242,
+        "start": 94,
+        "end": 102,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " de historia clínica",
+        "actual_text": "de historia clínica",
+        "confidence": 0.7253642082214355,
+        "start": 133,
+        "end": 152,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "HC",
+        "actual_text": "HC",
+        "confidence": 0.8688330054283142,
+        "start": 155,
+        "end": 157,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.8493450284004211,
+        "start": 358,
+        "end": 360,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": "Paseo de la Castellana 120",
+        "actual_text": "Paseo de la Castellana 120",
+        "confidence": 0.9842866659164429,
+        "start": 394,
+        "end": 420,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "SN",
+        "actual_text": "SN",
+        "confidence": 0.7389490604400635,
+        "start": 627,
+        "end": 629,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.7427389621734619,
+        "start": 764,
+        "end": 766,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "HC",
+        "actual_text": "HC",
+        "confidence": 0.8835566639900208,
+        "start": 766,
+        "end": 768,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.9215391874313354,
+        "start": 980,
+        "end": 982,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "B",
+        "actual_text": "B",
+        "confidence": 0.9806330800056458,
+        "start": 982,
+        "end": 983,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.8434887528419495,
+        "start": 1032,
+        "end": 1034,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.9657136797904968,
+        "start": 1112,
+        "end": 1114,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "46 08 28 123 45",
+        "actual_text": "46 08 28 123 45",
+        "confidence": 0.7841994762420654,
+        "start": 1114,
+        "end": 1129,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena",
+        "actual_text": "Elena",
+        "confidence": 0.9671501517295837,
+        "start": 1379,
+        "end": 1384,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "Rodríguez",
+        "confidence": 0.9992832541465759,
+        "start": 1385,
+        "end": 1394,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Santos",
+        "actual_text": "Santos",
+        "confidence": 0.9987539052963257,
+        "start": 1395,
+        "end": 1401,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " **",
+        "actual_text": "**",
+        "confidence": 0.8307303786277771,
+        "start": 1432,
+        "end": 1434,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 30,
+    "suspicious_detections": 30,
+    "xxxxxx_detections": 0,
+    "other_detections": 30
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": "La",
+        "confidence": 0.9982301592826843,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": "ura Méndez Iglesias",
+        "confidence": 0.9969098567962646,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "text": "Pas",
+        "confidence": 0.9985532164573669,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Elena Rodríguez Santos",
+        "confidence": 0.999302089214325,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Méndez",
+        "confidence": 0.9976385831832886,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Iglesias",
+        "confidence": 0.9933845400810242,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Rodríguez",
+        "confidence": 0.9992832541465759,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Santos",
+        "confidence": 0.9987539052963257,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 8
+  }
+}

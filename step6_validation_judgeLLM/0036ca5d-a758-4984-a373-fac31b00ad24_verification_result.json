@@ -1,0 +1,1085 @@
+{
+  "document_id": "0036ca5d-a758-4984-a373-fac31b00ad24",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente que acude para seguimiento y valoración de su proceso. Se trata de <>Laura Méndez Iglesias</>, con identificación SN-98237641, quien refiere mejoría parcial de la sintomatología previamente descrita. El <>femenino</> de la paciente constituye un factor relevante en el enfoque diagnóstico y terapéutico implementado. En la exploración física actual, se observa buen estado general, consciente y orientada. A la auscultación cardiopulmonar, ritmo cardíaco regular sin soplos, murmullo vesicular conservado bilateralmente. Abdomen blando y depresible, no doloroso a la palpación superficial ni profunda. Se procedió a la revisión de la documentación clínica asociada al número de historia HC-2024-789012, donde se constata la evolución del caso. Todos los hallazgos han sido notificados a la <>Consejería de Salud de la Comunidad de Madrid</> según los protocolos establecidos, bajo la referencia REF-2024-789123. Para completar el estudio, se recomienda a la paciente consultar los recursos educativos disponibles en nuestra página web oficial https://www.clinicabarcelona.org donde encontrará información validada sobre su condición. Asimismo, queda a su disposición el número de fax +34 91 876 54 32 para la recepción de cualquier documentación complementaria que considere necesaria. La dirección de contacto registrada es <>Avenida de la Constitución 12</>, dato que ha sido verificado durante la consulta. Se mantendrá la vigilancia activa del caso con los dispositivos médicos asignados, cuyas series están debidamente registradas en el sistema.",
+  "text_length": 1587,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 10,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9965594410896301,
+        "word": "La",
+        "start": 106,
+        "end": 108,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9501616358757019,
+        "word": "ura Méndez Iglesias",
+        "start": 108,
+        "end": 127,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7382856011390686,
+        "word": "98237641",
+        "start": 154,
+        "end": 162,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8403811454772949,
+        "word": "2024-789012",
+        "start": 727,
+        "end": 738,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8854839205741882,
+        "word": "2024-789123",
+        "start": 936,
+        "end": 947,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.7840530276298523,
+        "word": "abarcelona.",
+        "start": 1098,
+        "end": 1109,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9863297343254089,
+        "word": " +",
+        "start": 1221,
+        "end": 1222,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9823281168937683,
+        "word": "34 91 876 54 32",
+        "start": 1222,
+        "end": 1237,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9984099864959717,
+        "word": "A",
+        "start": 1364,
+        "end": 1365,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9990614652633667,
+        "word": "venida de la Constitución 12",
+        "start": 1365,
+        "end": 1393,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 10,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 2,
+        "ID_SUJETO_ASISTENCIA": 3,
+        "CORREO_ELECTRONICO": 1,
+        "NUMERO_TELEFONO": 2,
+        "CALLE": 2
+      },
+      "entities_by_confidence": {
+        "high": 8,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "La",
+          "actual_text": "La",
+          "confidence": 0.9965594410896301,
+          "start": 106,
+          "end": 108,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "ura Méndez Iglesias",
+          "actual_text": "ura Méndez Iglesias",
+          "confidence": 0.9501616358757019,
+          "start": 108,
+          "end": 127,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "98237641",
+          "actual_text": "98237641",
+          "confidence": 0.7382856011390686,
+          "start": 154,
+          "end": 162,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "2024-789012",
+          "actual_text": "2024-789012",
+          "confidence": 0.8403811454772949,
+          "start": 727,
+          "end": 738,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "2024-789123",
+          "actual_text": "2024-789123",
+          "confidence": 0.8854839205741882,
+          "start": 936,
+          "end": 947,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "abarcelona.",
+          "actual_text": "abarcelona.",
+          "confidence": 0.7840530276298523,
+          "start": 1098,
+          "end": 1109,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9863297343254089,
+          "start": 1221,
+          "end": 1222,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.9823281168937683,
+          "start": 1222,
+          "end": 1237,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": "A",
+          "actual_text": "A",
+          "confidence": 0.9984099864959717,
+          "start": 1364,
+          "end": 1365,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": "venida de la Constitución 12",
+          "actual_text": "venida de la Constitución 12",
+          "confidence": 0.9990614652633667,
+          "start": 1365,
+          "end": 1393,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "La",
+          "actual_text": "La",
+          "confidence": 0.9965594410896301,
+          "start": 106,
+          "end": 108,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "ura Méndez Iglesias",
+          "actual_text": "ura Méndez Iglesias",
+          "confidence": 0.9501616358757019,
+          "start": 108,
+          "end": 127,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "98237641",
+          "actual_text": "98237641",
+          "confidence": 0.7382856011390686,
+          "start": 154,
+          "end": 162,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "2024-789012",
+          "actual_text": "2024-789012",
+          "confidence": 0.8403811454772949,
+          "start": 727,
+          "end": 738,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "2024-789123",
+          "actual_text": "2024-789123",
+          "confidence": 0.8854839205741882,
+          "start": 936,
+          "end": 947,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "abarcelona.",
+          "actual_text": "abarcelona.",
+          "confidence": 0.7840530276298523,
+          "start": 1098,
+          "end": 1109,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9863297343254089,
+          "start": 1221,
+          "end": 1222,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.9823281168937683,
+          "start": 1222,
+          "end": 1237,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": "A",
+          "actual_text": "A",
+          "confidence": 0.9984099864959717,
+          "start": 1364,
+          "end": 1365,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": "venida de la Constitución 12",
+          "actual_text": "venida de la Constitución 12",
+          "confidence": 0.9990614652633667,
+          "start": 1365,
+          "end": 1393,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 11,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9953976273536682,
+        "word": " Méndez",
+        "start": 112,
+        "end": 118,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9897134304046631,
+        "word": " Iglesias",
+        "start": 119,
+        "end": 127,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9869983792304993,
+        "word": " SN",
+        "start": 151,
+        "end": 153,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8633577823638916,
+        "word": " <",
+        "start": 240,
+        "end": 241,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.9763715267181396,
+        "word": "f",
+        "start": 242,
+        "end": 243,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.9519738554954529,
+        "word": "emen",
+        "start": 243,
+        "end": 247,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.8824085593223572,
+        "word": " Comunidad de Madrid",
+        "start": 855,
+        "end": 874,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9967081546783447,
+        "word": " +",
+        "start": 1221,
+        "end": 1222,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8158156275749207,
+        "word": "34 91 876 54 32",
+        "start": 1222,
+        "end": 1237,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9924773573875427,
+        "word": "A",
+        "start": 1364,
+        "end": 1365,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9927369356155396,
+        "word": "venida de la Constitución 12",
+        "start": 1365,
+        "end": 1393,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 11,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 2,
+        "NUMERO_TELEFONO": 3,
+        "ID_SUJETO_ASISTENCIA": 3,
+        "PAIS": 1,
+        "CALLE": 2
+      },
+      "entities_by_confidence": {
+        "high": 11,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9953976273536682,
+          "start": 112,
+          "end": 118,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.9897134304046631,
+          "start": 119,
+          "end": 127,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " SN",
+          "actual_text": "SN",
+          "confidence": 0.9869983792304993,
+          "start": 151,
+          "end": 153,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " <",
+          "actual_text": "<",
+          "confidence": 0.8633577823638916,
+          "start": 240,
+          "end": 241,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "f",
+          "actual_text": "f",
+          "confidence": 0.9763715267181396,
+          "start": 242,
+          "end": 243,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "emen",
+          "actual_text": "emen",
+          "confidence": 0.9519738554954529,
+          "start": 243,
+          "end": 247,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Comunidad de Madrid",
+          "actual_text": "Comunidad de Madrid",
+          "confidence": 0.8824085593223572,
+          "start": 855,
+          "end": 874,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9967081546783447,
+          "start": 1221,
+          "end": 1222,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.8158156275749207,
+          "start": 1222,
+          "end": 1237,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": "A",
+          "actual_text": "A",
+          "confidence": 0.9924773573875427,
+          "start": 1364,
+          "end": 1365,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": "venida de la Constitución 12",
+          "actual_text": "venida de la Constitución 12",
+          "confidence": 0.9927369356155396,
+          "start": 1365,
+          "end": 1393,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9953976273536682,
+          "start": 112,
+          "end": 118,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.9897134304046631,
+          "start": 119,
+          "end": 127,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " SN",
+          "actual_text": "SN",
+          "confidence": 0.9869983792304993,
+          "start": 151,
+          "end": 153,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " <",
+          "actual_text": "<",
+          "confidence": 0.8633577823638916,
+          "start": 240,
+          "end": 241,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "f",
+          "actual_text": "f",
+          "confidence": 0.9763715267181396,
+          "start": 242,
+          "end": 243,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "emen",
+          "actual_text": "emen",
+          "confidence": 0.9519738554954529,
+          "start": 243,
+          "end": 247,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Comunidad de Madrid",
+          "actual_text": "Comunidad de Madrid",
+          "confidence": 0.8824085593223572,
+          "start": 855,
+          "end": 874,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9967081546783447,
+          "start": 1221,
+          "end": 1222,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.8158156275749207,
+          "start": 1222,
+          "end": 1237,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": "A",
+          "actual_text": "A",
+          "confidence": 0.9924773573875427,
+          "start": 1364,
+          "end": 1365,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": "venida de la Constitución 12",
+          "actual_text": "venida de la Constitución 12",
+          "confidence": 0.9927369356155396,
+          "start": 1365,
+          "end": 1393,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 21,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "NOMBRE_PERSONAL_SANITARIO": 4,
+      "ID_SUJETO_ASISTENCIA": 6,
+      "CORREO_ELECTRONICO": 1,
+      "NUMERO_TELEFONO": 5,
+      "CALLE": 4,
+      "PAIS": 1
+    },
+    "entities_by_confidence": {
+      "high": 19,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "La",
+        "actual_text": "La",
+        "confidence": 0.9965594410896301,
+        "start": 106,
+        "end": 108,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "ura Méndez Iglesias",
+        "actual_text": "ura Méndez Iglesias",
+        "confidence": 0.9501616358757019,
+        "start": 108,
+        "end": 127,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "98237641",
+        "actual_text": "98237641",
+        "confidence": 0.7382856011390686,
+        "start": 154,
+        "end": 162,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "2024-789012",
+        "actual_text": "2024-789012",
+        "confidence": 0.8403811454772949,
+        "start": 727,
+        "end": 738,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "2024-789123",
+        "actual_text": "2024-789123",
+        "confidence": 0.8854839205741882,
+        "start": 936,
+        "end": 947,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "abarcelona.",
+        "actual_text": "abarcelona.",
+        "confidence": 0.7840530276298523,
+        "start": 1098,
+        "end": 1109,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9863297343254089,
+        "start": 1221,
+        "end": 1222,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.9823281168937683,
+        "start": 1222,
+        "end": 1237,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": "A",
+        "actual_text": "A",
+        "confidence": 0.9984099864959717,
+        "start": 1364,
+        "end": 1365,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": "venida de la Constitución 12",
+        "actual_text": "venida de la Constitución 12",
+        "confidence": 0.9990614652633667,
+        "start": 1365,
+        "end": 1393,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9953976273536682,
+        "start": 112,
+        "end": 118,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.9897134304046631,
+        "start": 119,
+        "end": 127,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " SN",
+        "actual_text": "SN",
+        "confidence": 0.9869983792304993,
+        "start": 151,
+        "end": 153,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " <",
+        "actual_text": "<",
+        "confidence": 0.8633577823638916,
+        "start": 240,
+        "end": 241,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "f",
+        "actual_text": "f",
+        "confidence": 0.9763715267181396,
+        "start": 242,
+        "end": 243,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "emen",
+        "actual_text": "emen",
+        "confidence": 0.9519738554954529,
+        "start": 243,
+        "end": 247,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad de Madrid",
+        "actual_text": "Comunidad de Madrid",
+        "confidence": 0.8824085593223572,
+        "start": 855,
+        "end": 874,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9967081546783447,
+        "start": 1221,
+        "end": 1222,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.8158156275749207,
+        "start": 1222,
+        "end": 1237,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": "A",
+        "actual_text": "A",
+        "confidence": 0.9924773573875427,
+        "start": 1364,
+        "end": 1365,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": "venida de la Constitución 12",
+        "actual_text": "venida de la Constitución 12",
+        "confidence": 0.9927369356155396,
+        "start": 1365,
+        "end": 1393,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "La",
+        "actual_text": "La",
+        "confidence": 0.9965594410896301,
+        "start": 106,
+        "end": 108,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "ura Méndez Iglesias",
+        "actual_text": "ura Méndez Iglesias",
+        "confidence": 0.9501616358757019,
+        "start": 108,
+        "end": 127,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "98237641",
+        "actual_text": "98237641",
+        "confidence": 0.7382856011390686,
+        "start": 154,
+        "end": 162,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "2024-789012",
+        "actual_text": "2024-789012",
+        "confidence": 0.8403811454772949,
+        "start": 727,
+        "end": 738,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "2024-789123",
+        "actual_text": "2024-789123",
+        "confidence": 0.8854839205741882,
+        "start": 936,
+        "end": 947,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "abarcelona.",
+        "actual_text": "abarcelona.",
+        "confidence": 0.7840530276298523,
+        "start": 1098,
+        "end": 1109,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9863297343254089,
+        "start": 1221,
+        "end": 1222,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.9823281168937683,
+        "start": 1222,
+        "end": 1237,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": "A",
+        "actual_text": "A",
+        "confidence": 0.9984099864959717,
+        "start": 1364,
+        "end": 1365,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": "venida de la Constitución 12",
+        "actual_text": "venida de la Constitución 12",
+        "confidence": 0.9990614652633667,
+        "start": 1365,
+        "end": 1393,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9953976273536682,
+        "start": 112,
+        "end": 118,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.9897134304046631,
+        "start": 119,
+        "end": 127,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " SN",
+        "actual_text": "SN",
+        "confidence": 0.9869983792304993,
+        "start": 151,
+        "end": 153,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " <",
+        "actual_text": "<",
+        "confidence": 0.8633577823638916,
+        "start": 240,
+        "end": 241,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "f",
+        "actual_text": "f",
+        "confidence": 0.9763715267181396,
+        "start": 242,
+        "end": 243,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "emen",
+        "actual_text": "emen",
+        "confidence": 0.9519738554954529,
+        "start": 243,
+        "end": 247,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad de Madrid",
+        "actual_text": "Comunidad de Madrid",
+        "confidence": 0.8824085593223572,
+        "start": 855,
+        "end": 874,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9967081546783447,
+        "start": 1221,
+        "end": 1222,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.8158156275749207,
+        "start": 1222,
+        "end": 1237,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": "A",
+        "actual_text": "A",
+        "confidence": 0.9924773573875427,
+        "start": 1364,
+        "end": 1365,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": "venida de la Constitución 12",
+        "actual_text": "venida de la Constitución 12",
+        "confidence": 0.9927369356155396,
+        "start": 1365,
+        "end": 1393,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 21,
+    "suspicious_detections": 21,
+    "xxxxxx_detections": 0,
+    "other_detections": 21
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": "La",
+        "confidence": 0.9965594410896301,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "text": "A",
+        "confidence": 0.9984099864959717,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "text": "venida de la Constitución 12",
+        "confidence": 0.9990614652633667,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Méndez",
+        "confidence": 0.9953976273536682,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " +",
+        "confidence": 0.9967081546783447,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "text": "A",
+        "confidence": 0.9924773573875427,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "text": "venida de la Constitución 12",
+        "confidence": 0.9927369356155396,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 7
+  }
+}

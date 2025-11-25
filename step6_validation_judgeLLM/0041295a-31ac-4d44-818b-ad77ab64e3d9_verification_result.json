@@ -1,0 +1,1079 @@
+{
+  "document_id": "0041295a-31ac-4d44-818b-ad77ab64e3d9",
+  "success": true,
+  "anonymized_text": "En la valoración clínica realizada, se procedió a la identificación biométrica del paciente mediante la huella dactilar del pulgar derecho, como parte de nuestro protocolo de seguridad. El estado general es aceptable, aunque se debe destacar el antecedente de ser fumador ocasional, factor de riesgo sobre el que se ha insistido durante la consulta. Para cualquier comunicación relacionada con el seguimiento, queda a disposición el correo electrónico ana.martinez@clinic.es. Asimismo, se ha facilitado el número de teléfono 612-34-56-78 como contacto principal. En caso de no localización, existe la alternativa de contactar a través del número de fax +34 91 876 54 32. El informe clínico generado queda registrado bajo la referencia interna REF-84736215B. Todo el proceso asistencial se enmarca en la actividad del Hospital Clínico San Carlos, institución donde se realiza el seguimiento. Para información complementaria sobre recursos sanitarios, se puede consultar el portal institucional en https://www.clinicabarcelona.org. En la documentación adjunta al expediente figura el identificador E-987654, correspondiente al número de empleo del personal de enfermería asignado. La exploración física realizada no muestra hallazgos relevantes, con constantes dentro de la normalidad y auscultación cardiorrespiratoria sin soplos ni crepitantes. Se recomienda monitorizar la posible aparición de síntomas y mantener los canales de comunicación antes mencionados.",
+  "text_length": 1461,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 8,
+    "entities": [
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9979928731918335,
+        "word": " ana.martinez@clinic.es",
+        "start": 452,
+        "end": 474,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9945924282073975,
+        "word": " 612-34-56-78",
+        "start": 525,
+        "end": 537,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9896288514137268,
+        "word": " +",
+        "start": 653,
+        "end": 654,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9924660325050354,
+        "word": "34 91 876 54 32",
+        "start": 654,
+        "end": 669,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8258010149002075,
+        "word": "8",
+        "start": 747,
+        "end": 748,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7974644303321838,
+        "word": "4736215",
+        "start": 748,
+        "end": 755,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9983606338500977,
+        "word": " Hospital Clínico San Carlos",
+        "start": 817,
+        "end": 844,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.970252513885498,
+        "word": "icabarcelona.org",
+        "start": 1012,
+        "end": 1028,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 8,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CORREO_ELECTRONICO": 2,
+        "NUMERO_TELEFONO": 4,
+        "ID_SUJETO_ASISTENCIA": 1,
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 7,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " ana.martinez@clinic.es",
+          "actual_text": "ana.martinez@clinic.es",
+          "confidence": 0.9979928731918335,
+          "start": 452,
+          "end": 474,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 612-34-56-78",
+          "actual_text": "612-34-56-78",
+          "confidence": 0.9945924282073975,
+          "start": 525,
+          "end": 537,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9896288514137268,
+          "start": 653,
+          "end": 654,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.9924660325050354,
+          "start": 654,
+          "end": 669,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "8",
+          "actual_text": "8",
+          "confidence": 0.8258010149002075,
+          "start": 747,
+          "end": 748,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "4736215",
+          "actual_text": "4736215",
+          "confidence": 0.7974644303321838,
+          "start": 748,
+          "end": 755,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Hospital Clínico San Carlos",
+          "actual_text": "Hospital Clínico San Carlos",
+          "confidence": 0.9983606338500977,
+          "start": 817,
+          "end": 844,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "icabarcelona.org",
+          "actual_text": "icabarcelona.org",
+          "confidence": 0.970252513885498,
+          "start": 1012,
+          "end": 1028,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " ana.martinez@clinic.es",
+          "actual_text": "ana.martinez@clinic.es",
+          "confidence": 0.9979928731918335,
+          "start": 452,
+          "end": 474,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 612-34-56-78",
+          "actual_text": "612-34-56-78",
+          "confidence": 0.9945924282073975,
+          "start": 525,
+          "end": 537,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9896288514137268,
+          "start": 653,
+          "end": 654,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.9924660325050354,
+          "start": 654,
+          "end": 669,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "8",
+          "actual_text": "8",
+          "confidence": 0.8258010149002075,
+          "start": 747,
+          "end": 748,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "4736215",
+          "actual_text": "4736215",
+          "confidence": 0.7974644303321838,
+          "start": 748,
+          "end": 755,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Hospital Clínico San Carlos",
+          "actual_text": "Hospital Clínico San Carlos",
+          "confidence": 0.9983606338500977,
+          "start": 817,
+          "end": 844,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "icabarcelona.org",
+          "actual_text": "icabarcelona.org",
+          "confidence": 0.970252513885498,
+          "start": 1012,
+          "end": 1028,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 13,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7046654224395752,
+        "word": " ana",
+        "start": 452,
+        "end": 455,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.8479596376419067,
+        "word": "mar",
+        "start": 456,
+        "end": 459,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.8843706250190735,
+        "word": "tin",
+        "start": 459,
+        "end": 462,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.861223578453064,
+        "word": "ez",
+        "start": 462,
+        "end": 464,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9972426891326904,
+        "word": " 6",
+        "start": 525,
+        "end": 526,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8105069398880005,
+        "word": "12-34-56-78",
+        "start": 526,
+        "end": 537,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8844349980354309,
+        "word": " +34 91 876 54 32",
+        "start": 653,
+        "end": 669,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9076170325279236,
+        "word": " REF",
+        "start": 743,
+        "end": 746,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.8507977724075317,
+        "word": "B",
+        "start": 755,
+        "end": 756,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9997802972793579,
+        "word": " Hospital Clínico San Carlos",
+        "start": 817,
+        "end": 844,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.7115525007247925,
+        "word": " https://www.clinicabarcelona.org",
+        "start": 996,
+        "end": 1028,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9848614931106567,
+        "word": " E",
+        "start": 1096,
+        "end": 1097,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7185805439949036,
+        "word": "-",
+        "start": 1097,
+        "end": 1098,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 13,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 7,
+        "NOMBRE_PERSONAL_SANITARIO": 3,
+        "NUMERO_IDENTIF": 1,
+        "HOSPITAL": 1,
+        "URL_WEB": 1
+      },
+      "entities_by_confidence": {
+        "high": 10,
+        "medium": 3,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " ana",
+          "actual_text": "ana",
+          "confidence": 0.7046654224395752,
+          "start": 452,
+          "end": 455,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "mar",
+          "actual_text": "mar",
+          "confidence": 0.8479596376419067,
+          "start": 456,
+          "end": 459,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "tin",
+          "actual_text": "tin",
+          "confidence": 0.8843706250190735,
+          "start": 459,
+          "end": 462,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "ez",
+          "actual_text": "ez",
+          "confidence": 0.861223578453064,
+          "start": 462,
+          "end": 464,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 6",
+          "actual_text": "6",
+          "confidence": 0.9972426891326904,
+          "start": 525,
+          "end": 526,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12-34-56-78",
+          "actual_text": "12-34-56-78",
+          "confidence": 0.8105069398880005,
+          "start": 526,
+          "end": 537,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +34 91 876 54 32",
+          "actual_text": "+34 91 876 54 32",
+          "confidence": 0.8844349980354309,
+          "start": 653,
+          "end": 669,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " REF",
+          "actual_text": "REF",
+          "confidence": 0.9076170325279236,
+          "start": 743,
+          "end": 746,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": "B",
+          "actual_text": "B",
+          "confidence": 0.8507977724075317,
+          "start": 755,
+          "end": 756,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Hospital Clínico San Carlos",
+          "actual_text": "Hospital Clínico San Carlos",
+          "confidence": 0.9997802972793579,
+          "start": 817,
+          "end": 844,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": " https://www.clinicabarcelona.org",
+          "actual_text": "https://www.clinicabarcelona.org",
+          "confidence": 0.7115525007247925,
+          "start": 996,
+          "end": 1028,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " E",
+          "actual_text": "E",
+          "confidence": 0.9848614931106567,
+          "start": 1096,
+          "end": 1097,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.7185805439949036,
+          "start": 1097,
+          "end": 1098,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " ana",
+          "actual_text": "ana",
+          "confidence": 0.7046654224395752,
+          "start": 452,
+          "end": 455,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "mar",
+          "actual_text": "mar",
+          "confidence": 0.8479596376419067,
+          "start": 456,
+          "end": 459,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "tin",
+          "actual_text": "tin",
+          "confidence": 0.8843706250190735,
+          "start": 459,
+          "end": 462,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "ez",
+          "actual_text": "ez",
+          "confidence": 0.861223578453064,
+          "start": 462,
+          "end": 464,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 6",
+          "actual_text": "6",
+          "confidence": 0.9972426891326904,
+          "start": 525,
+          "end": 526,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12-34-56-78",
+          "actual_text": "12-34-56-78",
+          "confidence": 0.8105069398880005,
+          "start": 526,
+          "end": 537,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +34 91 876 54 32",
+          "actual_text": "+34 91 876 54 32",
+          "confidence": 0.8844349980354309,
+          "start": 653,
+          "end": 669,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " REF",
+          "actual_text": "REF",
+          "confidence": 0.9076170325279236,
+          "start": 743,
+          "end": 746,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": "B",
+          "actual_text": "B",
+          "confidence": 0.8507977724075317,
+          "start": 755,
+          "end": 756,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Hospital Clínico San Carlos",
+          "actual_text": "Hospital Clínico San Carlos",
+          "confidence": 0.9997802972793579,
+          "start": 817,
+          "end": 844,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": " https://www.clinicabarcelona.org",
+          "actual_text": "https://www.clinicabarcelona.org",
+          "confidence": 0.7115525007247925,
+          "start": 996,
+          "end": 1028,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " E",
+          "actual_text": "E",
+          "confidence": 0.9848614931106567,
+          "start": 1096,
+          "end": 1097,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.7185805439949036,
+          "start": 1097,
+          "end": 1098,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 21,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CORREO_ELECTRONICO": 2,
+      "NUMERO_TELEFONO": 11,
+      "ID_SUJETO_ASISTENCIA": 1,
+      "HOSPITAL": 2,
+      "NOMBRE_PERSONAL_SANITARIO": 3,
+      "NUMERO_IDENTIF": 1,
+      "URL_WEB": 1
+    },
+    "entities_by_confidence": {
+      "high": 17,
+      "medium": 4,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " ana.martinez@clinic.es",
+        "actual_text": "ana.martinez@clinic.es",
+        "confidence": 0.9979928731918335,
+        "start": 452,
+        "end": 474,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 612-34-56-78",
+        "actual_text": "612-34-56-78",
+        "confidence": 0.9945924282073975,
+        "start": 525,
+        "end": 537,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9896288514137268,
+        "start": 653,
+        "end": 654,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.9924660325050354,
+        "start": 654,
+        "end": 669,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "8",
+        "actual_text": "8",
+        "confidence": 0.8258010149002075,
+        "start": 747,
+        "end": 748,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "4736215",
+        "actual_text": "4736215",
+        "confidence": 0.7974644303321838,
+        "start": 748,
+        "end": 755,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Hospital Clínico San Carlos",
+        "actual_text": "Hospital Clínico San Carlos",
+        "confidence": 0.9983606338500977,
+        "start": 817,
+        "end": 844,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "icabarcelona.org",
+        "actual_text": "icabarcelona.org",
+        "confidence": 0.970252513885498,
+        "start": 1012,
+        "end": 1028,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " ana",
+        "actual_text": "ana",
+        "confidence": 0.7046654224395752,
+        "start": 452,
+        "end": 455,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "mar",
+        "actual_text": "mar",
+        "confidence": 0.8479596376419067,
+        "start": 456,
+        "end": 459,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "tin",
+        "actual_text": "tin",
+        "confidence": 0.8843706250190735,
+        "start": 459,
+        "end": 462,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "ez",
+        "actual_text": "ez",
+        "confidence": 0.861223578453064,
+        "start": 462,
+        "end": 464,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 6",
+        "actual_text": "6",
+        "confidence": 0.9972426891326904,
+        "start": 525,
+        "end": 526,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12-34-56-78",
+        "actual_text": "12-34-56-78",
+        "confidence": 0.8105069398880005,
+        "start": 526,
+        "end": 537,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +34 91 876 54 32",
+        "actual_text": "+34 91 876 54 32",
+        "confidence": 0.8844349980354309,
+        "start": 653,
+        "end": 669,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " REF",
+        "actual_text": "REF",
+        "confidence": 0.9076170325279236,
+        "start": 743,
+        "end": 746,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": "B",
+        "actual_text": "B",
+        "confidence": 0.8507977724075317,
+        "start": 755,
+        "end": 756,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Hospital Clínico San Carlos",
+        "actual_text": "Hospital Clínico San Carlos",
+        "confidence": 0.9997802972793579,
+        "start": 817,
+        "end": 844,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": " https://www.clinicabarcelona.org",
+        "actual_text": "https://www.clinicabarcelona.org",
+        "confidence": 0.7115525007247925,
+        "start": 996,
+        "end": 1028,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " E",
+        "actual_text": "E",
+        "confidence": 0.9848614931106567,
+        "start": 1096,
+        "end": 1097,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.7185805439949036,
+        "start": 1097,
+        "end": 1098,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " ana.martinez@clinic.es",
+        "actual_text": "ana.martinez@clinic.es",
+        "confidence": 0.9979928731918335,
+        "start": 452,
+        "end": 474,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 612-34-56-78",
+        "actual_text": "612-34-56-78",
+        "confidence": 0.9945924282073975,
+        "start": 525,
+        "end": 537,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9896288514137268,
+        "start": 653,
+        "end": 654,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.9924660325050354,
+        "start": 654,
+        "end": 669,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "8",
+        "actual_text": "8",
+        "confidence": 0.8258010149002075,
+        "start": 747,
+        "end": 748,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "4736215",
+        "actual_text": "4736215",
+        "confidence": 0.7974644303321838,
+        "start": 748,
+        "end": 755,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Hospital Clínico San Carlos",
+        "actual_text": "Hospital Clínico San Carlos",
+        "confidence": 0.9983606338500977,
+        "start": 817,
+        "end": 844,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "icabarcelona.org",
+        "actual_text": "icabarcelona.org",
+        "confidence": 0.970252513885498,
+        "start": 1012,
+        "end": 1028,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " ana",
+        "actual_text": "ana",
+        "confidence": 0.7046654224395752,
+        "start": 452,
+        "end": 455,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "mar",
+        "actual_text": "mar",
+        "confidence": 0.8479596376419067,
+        "start": 456,
+        "end": 459,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "tin",
+        "actual_text": "tin",
+        "confidence": 0.8843706250190735,
+        "start": 459,
+        "end": 462,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "ez",
+        "actual_text": "ez",
+        "confidence": 0.861223578453064,
+        "start": 462,
+        "end": 464,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 6",
+        "actual_text": "6",
+        "confidence": 0.9972426891326904,
+        "start": 525,
+        "end": 526,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12-34-56-78",
+        "actual_text": "12-34-56-78",
+        "confidence": 0.8105069398880005,
+        "start": 526,
+        "end": 537,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +34 91 876 54 32",
+        "actual_text": "+34 91 876 54 32",
+        "confidence": 0.8844349980354309,
+        "start": 653,
+        "end": 669,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " REF",
+        "actual_text": "REF",
+        "confidence": 0.9076170325279236,
+        "start": 743,
+        "end": 746,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": "B",
+        "actual_text": "B",
+        "confidence": 0.8507977724075317,
+        "start": 755,
+        "end": 756,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Hospital Clínico San Carlos",
+        "actual_text": "Hospital Clínico San Carlos",
+        "confidence": 0.9997802972793579,
+        "start": 817,
+        "end": 844,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": " https://www.clinicabarcelona.org",
+        "actual_text": "https://www.clinicabarcelona.org",
+        "confidence": 0.7115525007247925,
+        "start": 996,
+        "end": 1028,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " E",
+        "actual_text": "E",
+        "confidence": 0.9848614931106567,
+        "start": 1096,
+        "end": 1097,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.7185805439949036,
+        "start": 1097,
+        "end": 1098,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 21,
+    "suspicious_detections": 21,
+    "xxxxxx_detections": 0,
+    "other_detections": 21
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "CORREO_ELECTRONICO",
+        "text": " ana.martinez@clinic.es",
+        "confidence": 0.9979928731918335,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " 612-34-56-78",
+        "confidence": 0.9945924282073975,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": "34 91 876 54 32",
+        "confidence": 0.9924660325050354,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "text": " Hospital Clínico San Carlos",
+        "confidence": 0.9983606338500977,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " 6",
+        "confidence": 0.9972426891326904,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "text": " Hospital Clínico San Carlos",
+        "confidence": 0.9997802972793579,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 6
+  }
+}

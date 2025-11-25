@@ -1,0 +1,422 @@
+{
+  "document_id": "00697f6c-c83d-4ef0-b8bd-c3606ab93df6",
+  "success": true,
+  "anonymized_text": "Informe de El paciente, identificado con el código de asistencia E-2023-8745, ingresa a este documento tras completar su proceso asistencial en nuestro centro. Durante su estancia, se mantuvo un registro completo de su evolución clínica bajo los protocolos establecidos por esta institución. La exploración física al ingreso revelaba tensión arterial de 135/85 mmHg, frecuencia cardíaca de 78 lpm y saturación de oxígeno del 96% en aire ambiente. En las pruebas complementarias realizadas, la analítica mostró una hemoglobina de 14.2 g/dL con leucocitosis de 11.500/µL, mientras que el estudio radiológico torácico evidenció una consolidación en lóbulo inferior derecho compatible con el diagnóstico de presunción. Todos los procedimientos diagnósticos y terapéuticos se han realizado de acuerdo con los estándares de calidad asistencial del Hospital Clínico y bajo los criterios establecidos por la Consejería de Salud de la Comunidad de Madrid. La documentación clínica ha sido verificada con el identificador E-2023-8745 y validada con el número de empleado 87654321B del facultativo responsable. Cabe destacar que el proceso completo se ha desarrollado dentro del marco normativo del Ministerio de Sanidad, cumpliendo con todos los requisitos de documentación y seguridad clínica exigidos. La continuidad asistencial queda garantizada mediante los canales establecidos por nuestra institución para este tipo de procesos.",
+  "text_length": 1424,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9982854127883911,
+        "word": " Hospital Clínico",
+        "start": 842,
+        "end": 858,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "HOSPITAL": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "HOSPITAL",
+          "word": " Hospital Clínico",
+          "actual_text": "Hospital Clínico",
+          "confidence": 0.9982854127883911,
+          "start": 842,
+          "end": 858,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "HOSPITAL",
+          "word": " Hospital Clínico",
+          "actual_text": "Hospital Clínico",
+          "confidence": 0.9982854127883911,
+          "start": 842,
+          "end": 858,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 6,
+    "entities": [
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.7630142569541931,
+        "word": " E-2023-8745",
+        "start": 65,
+        "end": 76,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9994626045227051,
+        "word": " Hospital Clínico",
+        "start": 842,
+        "end": 858,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9545008540153503,
+        "word": " de",
+        "start": 911,
+        "end": 913,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9524720907211304,
+        "word": " de Madrid",
+        "start": 936,
+        "end": 945,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.831937313079834,
+        "word": " E",
+        "start": 1012,
+        "end": 1013,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9936527013778687,
+        "word": " 8",
+        "start": 1061,
+        "end": 1062,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 6,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_IDENTIF": 2,
+        "HOSPITAL": 3,
+        "NUMERO_TELEFONO": 1
+      },
+      "entities_by_confidence": {
+        "high": 5,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " E-2023-8745",
+          "actual_text": "E-2023-8745",
+          "confidence": 0.7630142569541931,
+          "start": 65,
+          "end": 76,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Hospital Clínico",
+          "actual_text": "Hospital Clínico",
+          "confidence": 0.9994626045227051,
+          "start": 842,
+          "end": 858,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " de",
+          "actual_text": "de",
+          "confidence": 0.9545008540153503,
+          "start": 911,
+          "end": 913,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " de Madrid",
+          "actual_text": "de Madrid",
+          "confidence": 0.9524720907211304,
+          "start": 936,
+          "end": 945,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " E",
+          "actual_text": "E",
+          "confidence": 0.831937313079834,
+          "start": 1012,
+          "end": 1013,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 8",
+          "actual_text": "8",
+          "confidence": 0.9936527013778687,
+          "start": 1061,
+          "end": 1062,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " E-2023-8745",
+          "actual_text": "E-2023-8745",
+          "confidence": 0.7630142569541931,
+          "start": 65,
+          "end": 76,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Hospital Clínico",
+          "actual_text": "Hospital Clínico",
+          "confidence": 0.9994626045227051,
+          "start": 842,
+          "end": 858,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " de",
+          "actual_text": "de",
+          "confidence": 0.9545008540153503,
+          "start": 911,
+          "end": 913,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " de Madrid",
+          "actual_text": "de Madrid",
+          "confidence": 0.9524720907211304,
+          "start": 936,
+          "end": 945,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " E",
+          "actual_text": "E",
+          "confidence": 0.831937313079834,
+          "start": 1012,
+          "end": 1013,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 8",
+          "actual_text": "8",
+          "confidence": 0.9936527013778687,
+          "start": 1061,
+          "end": 1062,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 7,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "HOSPITAL": 4,
+      "NUMERO_IDENTIF": 2,
+      "NUMERO_TELEFONO": 1
+    },
+    "entities_by_confidence": {
+      "high": 6,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "HOSPITAL",
+        "word": " Hospital Clínico",
+        "actual_text": "Hospital Clínico",
+        "confidence": 0.9982854127883911,
+        "start": 842,
+        "end": 858,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " E-2023-8745",
+        "actual_text": "E-2023-8745",
+        "confidence": 0.7630142569541931,
+        "start": 65,
+        "end": 76,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Hospital Clínico",
+        "actual_text": "Hospital Clínico",
+        "confidence": 0.9994626045227051,
+        "start": 842,
+        "end": 858,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " de",
+        "actual_text": "de",
+        "confidence": 0.9545008540153503,
+        "start": 911,
+        "end": 913,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " de Madrid",
+        "actual_text": "de Madrid",
+        "confidence": 0.9524720907211304,
+        "start": 936,
+        "end": 945,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " E",
+        "actual_text": "E",
+        "confidence": 0.831937313079834,
+        "start": 1012,
+        "end": 1013,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 8",
+        "actual_text": "8",
+        "confidence": 0.9936527013778687,
+        "start": 1061,
+        "end": 1062,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "HOSPITAL",
+        "word": " Hospital Clínico",
+        "actual_text": "Hospital Clínico",
+        "confidence": 0.9982854127883911,
+        "start": 842,
+        "end": 858,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " E-2023-8745",
+        "actual_text": "E-2023-8745",
+        "confidence": 0.7630142569541931,
+        "start": 65,
+        "end": 76,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Hospital Clínico",
+        "actual_text": "Hospital Clínico",
+        "confidence": 0.9994626045227051,
+        "start": 842,
+        "end": 858,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " de",
+        "actual_text": "de",
+        "confidence": 0.9545008540153503,
+        "start": 911,
+        "end": 913,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " de Madrid",
+        "actual_text": "de Madrid",
+        "confidence": 0.9524720907211304,
+        "start": 936,
+        "end": 945,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " E",
+        "actual_text": "E",
+        "confidence": 0.831937313079834,
+        "start": 1012,
+        "end": 1013,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 8",
+        "actual_text": "8",
+        "confidence": 0.9936527013778687,
+        "start": 1061,
+        "end": 1062,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 7,
+    "suspicious_detections": 7,
+    "xxxxxx_detections": 0,
+    "other_detections": 7
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "HOSPITAL",
+        "text": " Hospital Clínico",
+        "confidence": 0.9982854127883911,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "text": " Hospital Clínico",
+        "confidence": 0.9994626045227051,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " 8",
+        "confidence": 0.9936527013778687,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 3
+  }
+}

@@ -1,0 +1,687 @@
+{
+  "document_id": "0034e45c-4904-4f40-acac-950accd493ec",
+  "success": true,
+  "anonymized_text": "Informe de Interconsulta entre Servicios Se realiza interconsulta con el Servicio de Neurología para valoración integral del paciente. Se ha coordinado la revisión de la historia clínica y se procederá al intercambio de información mediante los canales establecidos. Para cualquier comunicación adicional relacionada con este caso, puede utilizarse la dirección de correo_electronico carlos.martinez@clinic.es, así como ana.martinez@clinic.es para aspectos de gestión de enfermería. En relación con los equipos médicos utilizados durante la valoración, se verifica que el monitor de constantes vitales con identif_dispositivos_nrserie SN-98217634 funcionó dentro de los parámetros técnicos especificados, mientras que el electrocardiógrafo identif_dispositivos_nrserie SN-98237641 mostró un trazado adecuado para el estudio. El profesional que suscribe este documento cuenta con la id_titulacion_personal_sanitario Grado en Medicina y ha supervisado personalmente la obtención e interpretación de los datos clínicos. Exploración física: Consciente y orientado. Pares craneales conservados. Fuerza muscular 5/5 en cuatro extremidades. Reflejos osteotendinosos normales y simétricos. Sensibilidad conservada a todos las modalidades. Coordinación y marcha dentro de la normalidad. Pruebas complementarias: Analítica completa sin hallazgos significativos. TC craneal informado como normal. EEG que muestra actividad de fondo organizada sin descargas epileptiformes. Se mantendrá en vigilancia activa y se procederá a reevaluación según evolución clínica.",
+  "text_length": 1550,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9984142780303955,
+        "word": " car",
+        "start": 384,
+        "end": 387,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9876078367233276,
+        "word": "los.martinez@clinic.es",
+        "start": 387,
+        "end": 409,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9989458322525024,
+        "word": " ana.martinez@clinic.es",
+        "start": 420,
+        "end": 442,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CORREO_ELECTRONICO": 3
+      },
+      "entities_by_confidence": {
+        "high": 3,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.9984142780303955,
+          "start": 384,
+          "end": 387,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "los.martinez@clinic.es",
+          "actual_text": "los.martinez@clinic.es",
+          "confidence": 0.9876078367233276,
+          "start": 387,
+          "end": 409,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " ana.martinez@clinic.es",
+          "actual_text": "ana.martinez@clinic.es",
+          "confidence": 0.9989458322525024,
+          "start": 420,
+          "end": 442,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.9984142780303955,
+          "start": 384,
+          "end": 387,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "los.martinez@clinic.es",
+          "actual_text": "los.martinez@clinic.es",
+          "confidence": 0.9876078367233276,
+          "start": 387,
+          "end": 409,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " ana.martinez@clinic.es",
+          "actual_text": "ana.martinez@clinic.es",
+          "confidence": 0.9989458322525024,
+          "start": 420,
+          "end": 442,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 10,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.8620172739028931,
+        "word": "mar",
+        "start": 391,
+        "end": 394,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9101807475090027,
+        "word": "tin",
+        "start": 394,
+        "end": 397,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.8710705637931824,
+        "word": "ez",
+        "start": 397,
+        "end": 399,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.8978189826011658,
+        "word": "mar",
+        "start": 424,
+        "end": 427,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9343341588973999,
+        "word": "tin",
+        "start": 427,
+        "end": 430,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9043235182762146,
+        "word": "ez",
+        "start": 430,
+        "end": 432,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.7040446400642395,
+        "word": "clinic.",
+        "start": 433,
+        "end": 440,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9187371134757996,
+        "word": " SN",
+        "start": 635,
+        "end": 637,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7952014803886414,
+        "word": "9",
+        "start": 638,
+        "end": 639,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8780357837677002,
+        "word": " SN",
+        "start": 769,
+        "end": 771,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 10,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 6,
+        "URL_WEB": 1,
+        "NUMERO_TELEFONO": 3
+      },
+      "entities_by_confidence": {
+        "high": 8,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "mar",
+          "actual_text": "mar",
+          "confidence": 0.8620172739028931,
+          "start": 391,
+          "end": 394,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "tin",
+          "actual_text": "tin",
+          "confidence": 0.9101807475090027,
+          "start": 394,
+          "end": 397,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "ez",
+          "actual_text": "ez",
+          "confidence": 0.8710705637931824,
+          "start": 397,
+          "end": 399,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "mar",
+          "actual_text": "mar",
+          "confidence": 0.8978189826011658,
+          "start": 424,
+          "end": 427,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "tin",
+          "actual_text": "tin",
+          "confidence": 0.9343341588973999,
+          "start": 427,
+          "end": 430,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "ez",
+          "actual_text": "ez",
+          "confidence": 0.9043235182762146,
+          "start": 430,
+          "end": 432,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "clinic.",
+          "actual_text": "clinic.",
+          "confidence": 0.7040446400642395,
+          "start": 433,
+          "end": 440,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " SN",
+          "actual_text": "SN",
+          "confidence": 0.9187371134757996,
+          "start": 635,
+          "end": 637,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "9",
+          "actual_text": "9",
+          "confidence": 0.7952014803886414,
+          "start": 638,
+          "end": 639,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " SN",
+          "actual_text": "SN",
+          "confidence": 0.8780357837677002,
+          "start": 769,
+          "end": 771,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "mar",
+          "actual_text": "mar",
+          "confidence": 0.8620172739028931,
+          "start": 391,
+          "end": 394,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "tin",
+          "actual_text": "tin",
+          "confidence": 0.9101807475090027,
+          "start": 394,
+          "end": 397,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "ez",
+          "actual_text": "ez",
+          "confidence": 0.8710705637931824,
+          "start": 397,
+          "end": 399,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "mar",
+          "actual_text": "mar",
+          "confidence": 0.8978189826011658,
+          "start": 424,
+          "end": 427,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "tin",
+          "actual_text": "tin",
+          "confidence": 0.9343341588973999,
+          "start": 427,
+          "end": 430,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "ez",
+          "actual_text": "ez",
+          "confidence": 0.9043235182762146,
+          "start": 430,
+          "end": 432,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "clinic.",
+          "actual_text": "clinic.",
+          "confidence": 0.7040446400642395,
+          "start": 433,
+          "end": 440,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " SN",
+          "actual_text": "SN",
+          "confidence": 0.9187371134757996,
+          "start": 635,
+          "end": 637,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "9",
+          "actual_text": "9",
+          "confidence": 0.7952014803886414,
+          "start": 638,
+          "end": 639,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " SN",
+          "actual_text": "SN",
+          "confidence": 0.8780357837677002,
+          "start": 769,
+          "end": 771,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 13,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CORREO_ELECTRONICO": 3,
+      "NOMBRE_PERSONAL_SANITARIO": 6,
+      "URL_WEB": 1,
+      "NUMERO_TELEFONO": 3
+    },
+    "entities_by_confidence": {
+      "high": 11,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.9984142780303955,
+        "start": 384,
+        "end": 387,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "los.martinez@clinic.es",
+        "actual_text": "los.martinez@clinic.es",
+        "confidence": 0.9876078367233276,
+        "start": 387,
+        "end": 409,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " ana.martinez@clinic.es",
+        "actual_text": "ana.martinez@clinic.es",
+        "confidence": 0.9989458322525024,
+        "start": 420,
+        "end": 442,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "mar",
+        "actual_text": "mar",
+        "confidence": 0.8620172739028931,
+        "start": 391,
+        "end": 394,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "tin",
+        "actual_text": "tin",
+        "confidence": 0.9101807475090027,
+        "start": 394,
+        "end": 397,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "ez",
+        "actual_text": "ez",
+        "confidence": 0.8710705637931824,
+        "start": 397,
+        "end": 399,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "mar",
+        "actual_text": "mar",
+        "confidence": 0.8978189826011658,
+        "start": 424,
+        "end": 427,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "tin",
+        "actual_text": "tin",
+        "confidence": 0.9343341588973999,
+        "start": 427,
+        "end": 430,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "ez",
+        "actual_text": "ez",
+        "confidence": 0.9043235182762146,
+        "start": 430,
+        "end": 432,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "clinic.",
+        "actual_text": "clinic.",
+        "confidence": 0.7040446400642395,
+        "start": 433,
+        "end": 440,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " SN",
+        "actual_text": "SN",
+        "confidence": 0.9187371134757996,
+        "start": 635,
+        "end": 637,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "9",
+        "actual_text": "9",
+        "confidence": 0.7952014803886414,
+        "start": 638,
+        "end": 639,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " SN",
+        "actual_text": "SN",
+        "confidence": 0.8780357837677002,
+        "start": 769,
+        "end": 771,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.9984142780303955,
+        "start": 384,
+        "end": 387,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "los.martinez@clinic.es",
+        "actual_text": "los.martinez@clinic.es",
+        "confidence": 0.9876078367233276,
+        "start": 387,
+        "end": 409,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " ana.martinez@clinic.es",
+        "actual_text": "ana.martinez@clinic.es",
+        "confidence": 0.9989458322525024,
+        "start": 420,
+        "end": 442,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "mar",
+        "actual_text": "mar",
+        "confidence": 0.8620172739028931,
+        "start": 391,
+        "end": 394,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "tin",
+        "actual_text": "tin",
+        "confidence": 0.9101807475090027,
+        "start": 394,
+        "end": 397,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "ez",
+        "actual_text": "ez",
+        "confidence": 0.8710705637931824,
+        "start": 397,
+        "end": 399,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "mar",
+        "actual_text": "mar",
+        "confidence": 0.8978189826011658,
+        "start": 424,
+        "end": 427,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "tin",
+        "actual_text": "tin",
+        "confidence": 0.9343341588973999,
+        "start": 427,
+        "end": 430,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "ez",
+        "actual_text": "ez",
+        "confidence": 0.9043235182762146,
+        "start": 430,
+        "end": 432,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "clinic.",
+        "actual_text": "clinic.",
+        "confidence": 0.7040446400642395,
+        "start": 433,
+        "end": 440,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " SN",
+        "actual_text": "SN",
+        "confidence": 0.9187371134757996,
+        "start": 635,
+        "end": 637,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "9",
+        "actual_text": "9",
+        "confidence": 0.7952014803886414,
+        "start": 638,
+        "end": 639,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " SN",
+        "actual_text": "SN",
+        "confidence": 0.8780357837677002,
+        "start": 769,
+        "end": 771,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 13,
+    "suspicious_detections": 13,
+    "xxxxxx_detections": 0,
+    "other_detections": 13
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "CORREO_ELECTRONICO",
+        "text": " car",
+        "confidence": 0.9984142780303955,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "text": " ana.martinez@clinic.es",
+        "confidence": 0.9989458322525024,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "count": 2
+  }
+}

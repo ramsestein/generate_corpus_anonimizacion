@@ -15,7 +15,7 @@ from typing import Dict, List, Optional
 # CONFIGURACIÓN DE LA PLANTILLA DEL PROMPT
 # ============================================================================
 
-PROMPT_CONFIG_an = {
+PROMPT_CONFIG = {
     "name": "Clasificador de entidad por palabra y contexto",
     "version": "1.0",
     "description": "Juez LLM que determina si una palabra, dentro de un contexto dado, pertenece a una etiqueta oficial según reglas.",
@@ -44,7 +44,7 @@ RESPONDE EXCLUSIVAMENTE:
     "expected_fields": ["TRUE or FALSE"]
 }
 
-PROMPT_CONFIG = {
+PROMPT_CONFIG_nue= {
     "name": "Auditor Paranoico con Guías Meddocan",
     "version": "3.0",
     "template": """ACTÚA COMO UN AUDITOR DE PRIVACIDAD CLÍNICA (DE-IDENTIFICATION).

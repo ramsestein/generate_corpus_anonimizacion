@@ -1,0 +1,631 @@
+{
+  "document_id": "0081a6c0-e244-4b51-af1a-216d03cfadd3",
+  "success": true,
+  "anonymized_text": "En la evolución correspondiente a la consulta de seguimiento de diabetes mellitus tipo 2, se documenta que la paciente, de sexo femenino, continúa con su régimen terapéutico habitual mostrando una adherencia satisfactoria. La exploración física actual revela una presión arterial de 128/76 mmHg y auscultación cardiorrespiratoria sin hallazgos patológicos. Los resultados analíticos recientes, con hemoglobina glucosilada en 6.8%, reflejan un buen control glucémico. Se ha reforzado la educación sanitaria, con especial énfasis en la importancia de la actividad física y la dieta equilibrada. Dado que el manejo de esta patología crónica beneficia del soporte psicosocial, se ha recomendado de forma específica la participación en un Grupo de apoyo de diabetes tipo 2. Para facilitar el acceso a esta información, se le ha proporcionado a la paciente el enlace https://www.clinicabarcelona.org, donde podrá encontrar recursos adicionales avalados por la Consejería de Salud de la Comunidad de Madrid y el Ministerio de Sanidad. Se considera que esta intervención complementaria puede contribuir positivamente a la evolución a largo plazo. La próxima cita de control quedó fijada para el 12 de julio de 2023. El presente registro, con identificador HC-2024-789456, queda incorporado a la historia clínica de la paciente, cuyo número de identificación es B-78423915. Toda la documentación generada en esta consulta en el Centro de Salud Los Álamos, situado en la Avenida de la Constitución 12, ha sido debidamente archivada. Se mantendrá una vigilancia activa de los parámetros clínicos y analíticos en las próximas revisiones.",
+  "text_length": 1625,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 5,
+    "entities": [
+      {
+        "entity_group": "SEXO_SUJETO_ASISTENCIA",
+        "score": 0.802514374256134,
+        "word": " femenino",
+        "start": 128,
+        "end": 136,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.781758189201355,
+        "word": "abarcelona.org",
+        "start": 879,
+        "end": 893,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9986305236816406,
+        "word": " 12 de julio de 2023",
+        "start": 1187,
+        "end": 1206,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.9878947734832764,
+        "word": " Centro de Salud Los Álamos",
+        "start": 1419,
+        "end": 1445,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9983454942703247,
+        "word": " Avenida de la Constitución 12",
+        "start": 1461,
+        "end": 1490,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 5,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "SEXO_SUJETO_ASISTENCIA": 1,
+        "CORREO_ELECTRONICO": 1,
+        "FECHAS": 1,
+        "CENTRO_SALUD": 1,
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 4,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.802514374256134,
+          "start": 128,
+          "end": 136,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "abarcelona.org",
+          "actual_text": "abarcelona.org",
+          "confidence": 0.781758189201355,
+          "start": 879,
+          "end": 893,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9986305236816406,
+          "start": 1187,
+          "end": 1206,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9878947734832764,
+          "start": 1419,
+          "end": 1445,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Avenida de la Constitución 12",
+          "actual_text": "Avenida de la Constitución 12",
+          "confidence": 0.9983454942703247,
+          "start": 1461,
+          "end": 1490,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.802514374256134,
+          "start": 128,
+          "end": 136,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "abarcelona.org",
+          "actual_text": "abarcelona.org",
+          "confidence": 0.781758189201355,
+          "start": 879,
+          "end": 893,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9986305236816406,
+          "start": 1187,
+          "end": 1206,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9878947734832764,
+          "start": 1419,
+          "end": 1445,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Avenida de la Constitución 12",
+          "actual_text": "Avenida de la Constitución 12",
+          "confidence": 0.9983454942703247,
+          "start": 1461,
+          "end": 1490,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 6,
+    "entities": [
+      {
+        "entity_group": "SEXO_SUJETO_ASISTENCIA",
+        "score": 0.9539719223976135,
+        "word": " femenino",
+        "start": 128,
+        "end": 136,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9998969435691833,
+        "word": " 12 de julio de 2023",
+        "start": 1187,
+        "end": 1206,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.7272650599479675,
+        "word": " HC",
+        "start": 1248,
+        "end": 1250,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9938502311706543,
+        "word": " B",
+        "start": 1353,
+        "end": 1354,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.9990754723548889,
+        "word": " Centro de Salud Los Álamos",
+        "start": 1419,
+        "end": 1445,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9979438781738281,
+        "word": " Avenida de la Constitución 12",
+        "start": 1461,
+        "end": 1490,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 6,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "SEXO_SUJETO_ASISTENCIA": 1,
+        "FECHAS": 1,
+        "NUMERO_IDENTIF": 1,
+        "NUMERO_TELEFONO": 1,
+        "CENTRO_SALUD": 1,
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 5,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9539719223976135,
+          "start": 128,
+          "end": 136,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9998969435691833,
+          "start": 1187,
+          "end": 1206,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " HC",
+          "actual_text": "HC",
+          "confidence": 0.7272650599479675,
+          "start": 1248,
+          "end": 1250,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.9938502311706543,
+          "start": 1353,
+          "end": 1354,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9990754723548889,
+          "start": 1419,
+          "end": 1445,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Avenida de la Constitución 12",
+          "actual_text": "Avenida de la Constitución 12",
+          "confidence": 0.9979438781738281,
+          "start": 1461,
+          "end": 1490,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9539719223976135,
+          "start": 128,
+          "end": 136,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9998969435691833,
+          "start": 1187,
+          "end": 1206,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " HC",
+          "actual_text": "HC",
+          "confidence": 0.7272650599479675,
+          "start": 1248,
+          "end": 1250,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.9938502311706543,
+          "start": 1353,
+          "end": 1354,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9990754723548889,
+          "start": 1419,
+          "end": 1445,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Avenida de la Constitución 12",
+          "actual_text": "Avenida de la Constitución 12",
+          "confidence": 0.9979438781738281,
+          "start": 1461,
+          "end": 1490,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 11,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "SEXO_SUJETO_ASISTENCIA": 2,
+      "CORREO_ELECTRONICO": 1,
+      "FECHAS": 2,
+      "CENTRO_SALUD": 2,
+      "CALLE": 2,
+      "NUMERO_IDENTIF": 1,
+      "NUMERO_TELEFONO": 1
+    },
+    "entities_by_confidence": {
+      "high": 9,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.802514374256134,
+        "start": 128,
+        "end": 136,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "abarcelona.org",
+        "actual_text": "abarcelona.org",
+        "confidence": 0.781758189201355,
+        "start": 879,
+        "end": 893,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9986305236816406,
+        "start": 1187,
+        "end": 1206,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9878947734832764,
+        "start": 1419,
+        "end": 1445,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Avenida de la Constitución 12",
+        "actual_text": "Avenida de la Constitución 12",
+        "confidence": 0.9983454942703247,
+        "start": 1461,
+        "end": 1490,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9539719223976135,
+        "start": 128,
+        "end": 136,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9998969435691833,
+        "start": 1187,
+        "end": 1206,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " HC",
+        "actual_text": "HC",
+        "confidence": 0.7272650599479675,
+        "start": 1248,
+        "end": 1250,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.9938502311706543,
+        "start": 1353,
+        "end": 1354,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9990754723548889,
+        "start": 1419,
+        "end": 1445,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Avenida de la Constitución 12",
+        "actual_text": "Avenida de la Constitución 12",
+        "confidence": 0.9979438781738281,
+        "start": 1461,
+        "end": 1490,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.802514374256134,
+        "start": 128,
+        "end": 136,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "abarcelona.org",
+        "actual_text": "abarcelona.org",
+        "confidence": 0.781758189201355,
+        "start": 879,
+        "end": 893,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9986305236816406,
+        "start": 1187,
+        "end": 1206,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9878947734832764,
+        "start": 1419,
+        "end": 1445,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Avenida de la Constitución 12",
+        "actual_text": "Avenida de la Constitución 12",
+        "confidence": 0.9983454942703247,
+        "start": 1461,
+        "end": 1490,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9539719223976135,
+        "start": 128,
+        "end": 136,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9998969435691833,
+        "start": 1187,
+        "end": 1206,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " HC",
+        "actual_text": "HC",
+        "confidence": 0.7272650599479675,
+        "start": 1248,
+        "end": 1250,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.9938502311706543,
+        "start": 1353,
+        "end": 1354,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9990754723548889,
+        "start": 1419,
+        "end": 1445,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Avenida de la Constitución 12",
+        "actual_text": "Avenida de la Constitución 12",
+        "confidence": 0.9979438781738281,
+        "start": 1461,
+        "end": 1490,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 11,
+    "suspicious_detections": 11,
+    "xxxxxx_detections": 0,
+    "other_detections": 11
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "FECHAS",
+        "text": " 12 de julio de 2023",
+        "confidence": 0.9986305236816406,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "text": " Avenida de la Constitución 12",
+        "confidence": 0.9983454942703247,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "text": " 12 de julio de 2023",
+        "confidence": 0.9998969435691833,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " B",
+        "confidence": 0.9938502311706543,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "text": " Centro de Salud Los Álamos",
+        "confidence": 0.9990754723548889,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "text": " Avenida de la Constitución 12",
+        "confidence": 0.9979438781738281,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 6
+  }
+}

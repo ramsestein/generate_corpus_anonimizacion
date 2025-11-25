@@ -1,0 +1,820 @@
+{
+  "document_id": "009a50d4-8a4d-4cc5-9964-a66511b8e1df",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente que acude a revisión en el Centro de Salud Los Álamos para seguimiento. Se trata de Laura Méndez Iglesias, con identificación sanitaria HC-2024-789012, de 67 años de edad y sexo femenino. Su documento de identidad es el 73482914B y posee también el número B-58294107. Refiere ser fumador ocasional, hábito que se le ha recomendado suspender en múltiples ocasiones. En la anamnesis por sistemas no refiere otros síntomas de interés. Como antecedentes personales de relevancia, destaca ser alérgico a la penicilina, dato que queda registrado en su historia para evitar prescripciones inapropiadas. En cuanto a su actividad laboral, ha trabajado como cirujano, profesión que ejerció hasta su jubilación. La paciente reside en la Comunidad Valenciana. A la exploración física actual, se encuentra consciente y orientada. Mucosas húmedas. Auscultación cardiorrespiratoria rítmica sin soplos, con murmullo vesicular conservado. Abdomen blando y depresible sin masas palpables. Extremidades sin edemas. Se solicita analítica de control con perfil básico y se cita para seguimiento en consultas externas. Se insiste en la importancia del abandono del hábito tabáquico.",
+  "text_length": 1197,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 7,
+    "entities": [
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.9893673062324524,
+        "word": " Centro de Salud Los Álamos",
+        "start": 64,
+        "end": 90,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9897327423095703,
+        "word": " Laura Méndez Iglesias",
+        "start": 121,
+        "end": 142,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7832047343254089,
+        "word": "-789012",
+        "start": 180,
+        "end": 187,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.9967993497848511,
+        "word": " 67 años",
+        "start": 192,
+        "end": 199,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "SEXO_SUJETO_ASISTENCIA",
+        "score": 0.8808663487434387,
+        "word": " femenino",
+        "start": 215,
+        "end": 223,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "PROFESION",
+        "score": 0.9933545589447021,
+        "word": " cirujano",
+        "start": 685,
+        "end": 693,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9722000360488892,
+        "word": " Comunidad Valenciana",
+        "start": 763,
+        "end": 783,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 7,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CENTRO_SALUD": 1,
+        "NOMBRE_PERSONAL_SANITARIO": 1,
+        "ID_SUJETO_ASISTENCIA": 1,
+        "EDAD_SUJETO_ASISTENCIA": 1,
+        "SEXO_SUJETO_ASISTENCIA": 1,
+        "PROFESION": 1,
+        "PAIS": 1
+      },
+      "entities_by_confidence": {
+        "high": 6,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9893673062324524,
+          "start": 64,
+          "end": 90,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Laura Méndez Iglesias",
+          "actual_text": "Laura Méndez Iglesias",
+          "confidence": 0.9897327423095703,
+          "start": 121,
+          "end": 142,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-789012",
+          "actual_text": "-789012",
+          "confidence": 0.7832047343254089,
+          "start": 180,
+          "end": 187,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 67 años",
+          "actual_text": "67 años",
+          "confidence": 0.9967993497848511,
+          "start": 192,
+          "end": 199,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.8808663487434387,
+          "start": 215,
+          "end": 223,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " cirujano",
+          "actual_text": "cirujano",
+          "confidence": 0.9933545589447021,
+          "start": 685,
+          "end": 693,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.9722000360488892,
+          "start": 763,
+          "end": 783,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9893673062324524,
+          "start": 64,
+          "end": 90,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Laura Méndez Iglesias",
+          "actual_text": "Laura Méndez Iglesias",
+          "confidence": 0.9897327423095703,
+          "start": 121,
+          "end": 142,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-789012",
+          "actual_text": "-789012",
+          "confidence": 0.7832047343254089,
+          "start": 180,
+          "end": 187,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 67 años",
+          "actual_text": "67 años",
+          "confidence": 0.9967993497848511,
+          "start": 192,
+          "end": 199,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.8808663487434387,
+          "start": 215,
+          "end": 223,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " cirujano",
+          "actual_text": "cirujano",
+          "confidence": 0.9933545589447021,
+          "start": 685,
+          "end": 693,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.9722000360488892,
+          "start": 763,
+          "end": 783,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 8,
+    "entities": [
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.9994800090789795,
+        "word": " Centro de Salud Los Álamos",
+        "start": 64,
+        "end": 90,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9829340577125549,
+        "word": " Méndez",
+        "start": 127,
+        "end": 133,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9688975214958191,
+        "word": " Iglesias",
+        "start": 134,
+        "end": 142,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8276340961456299,
+        "word": " HC",
+        "start": 173,
+        "end": 175,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.9997597932815552,
+        "word": " 67 años",
+        "start": 192,
+        "end": 199,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9939269423484802,
+        "word": " 7",
+        "start": 257,
+        "end": 258,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PROFESION",
+        "score": 0.9993112087249756,
+        "word": " cirujano",
+        "start": 685,
+        "end": 693,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9989749193191528,
+        "word": " Comunidad Valenciana",
+        "start": 763,
+        "end": 783,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 8,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CENTRO_SALUD": 1,
+        "NOMBRE_PERSONAL_SANITARIO": 2,
+        "NUMERO_TELEFONO": 2,
+        "EDAD_SUJETO_ASISTENCIA": 1,
+        "PROFESION": 1,
+        "PAIS": 1
+      },
+      "entities_by_confidence": {
+        "high": 8,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9994800090789795,
+          "start": 64,
+          "end": 90,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9829340577125549,
+          "start": 127,
+          "end": 133,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.9688975214958191,
+          "start": 134,
+          "end": 142,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " HC",
+          "actual_text": "HC",
+          "confidence": 0.8276340961456299,
+          "start": 173,
+          "end": 175,
+          "model": "CARMEN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 67 años",
+          "actual_text": "67 años",
+          "confidence": 0.9997597932815552,
+          "start": 192,
+          "end": 199,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 7",
+          "actual_text": "7",
+          "confidence": 0.9939269423484802,
+          "start": 257,
+          "end": 258,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " cirujano",
+          "actual_text": "cirujano",
+          "confidence": 0.9993112087249756,
+          "start": 685,
+          "end": 693,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.9989749193191528,
+          "start": 763,
+          "end": 783,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9994800090789795,
+          "start": 64,
+          "end": 90,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9829340577125549,
+          "start": 127,
+          "end": 133,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.9688975214958191,
+          "start": 134,
+          "end": 142,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " HC",
+          "actual_text": "HC",
+          "confidence": 0.8276340961456299,
+          "start": 173,
+          "end": 175,
+          "model": "CARMEN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 67 años",
+          "actual_text": "67 años",
+          "confidence": 0.9997597932815552,
+          "start": 192,
+          "end": 199,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 7",
+          "actual_text": "7",
+          "confidence": 0.9939269423484802,
+          "start": 257,
+          "end": 258,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " cirujano",
+          "actual_text": "cirujano",
+          "confidence": 0.9993112087249756,
+          "start": 685,
+          "end": 693,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.9989749193191528,
+          "start": 763,
+          "end": 783,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 15,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CENTRO_SALUD": 2,
+      "NOMBRE_PERSONAL_SANITARIO": 3,
+      "ID_SUJETO_ASISTENCIA": 1,
+      "EDAD_SUJETO_ASISTENCIA": 2,
+      "SEXO_SUJETO_ASISTENCIA": 1,
+      "PROFESION": 2,
+      "PAIS": 2,
+      "NUMERO_TELEFONO": 2
+    },
+    "entities_by_confidence": {
+      "high": 14,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9893673062324524,
+        "start": 64,
+        "end": 90,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Laura Méndez Iglesias",
+        "actual_text": "Laura Méndez Iglesias",
+        "confidence": 0.9897327423095703,
+        "start": 121,
+        "end": 142,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-789012",
+        "actual_text": "-789012",
+        "confidence": 0.7832047343254089,
+        "start": 180,
+        "end": 187,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 67 años",
+        "actual_text": "67 años",
+        "confidence": 0.9967993497848511,
+        "start": 192,
+        "end": 199,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.8808663487434387,
+        "start": 215,
+        "end": 223,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " cirujano",
+        "actual_text": "cirujano",
+        "confidence": 0.9933545589447021,
+        "start": 685,
+        "end": 693,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.9722000360488892,
+        "start": 763,
+        "end": 783,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9994800090789795,
+        "start": 64,
+        "end": 90,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9829340577125549,
+        "start": 127,
+        "end": 133,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.9688975214958191,
+        "start": 134,
+        "end": 142,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " HC",
+        "actual_text": "HC",
+        "confidence": 0.8276340961456299,
+        "start": 173,
+        "end": 175,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 67 años",
+        "actual_text": "67 años",
+        "confidence": 0.9997597932815552,
+        "start": 192,
+        "end": 199,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 7",
+        "actual_text": "7",
+        "confidence": 0.9939269423484802,
+        "start": 257,
+        "end": 258,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " cirujano",
+        "actual_text": "cirujano",
+        "confidence": 0.9993112087249756,
+        "start": 685,
+        "end": 693,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.9989749193191528,
+        "start": 763,
+        "end": 783,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9893673062324524,
+        "start": 64,
+        "end": 90,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Laura Méndez Iglesias",
+        "actual_text": "Laura Méndez Iglesias",
+        "confidence": 0.9897327423095703,
+        "start": 121,
+        "end": 142,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-789012",
+        "actual_text": "-789012",
+        "confidence": 0.7832047343254089,
+        "start": 180,
+        "end": 187,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 67 años",
+        "actual_text": "67 años",
+        "confidence": 0.9967993497848511,
+        "start": 192,
+        "end": 199,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.8808663487434387,
+        "start": 215,
+        "end": 223,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " cirujano",
+        "actual_text": "cirujano",
+        "confidence": 0.9933545589447021,
+        "start": 685,
+        "end": 693,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.9722000360488892,
+        "start": 763,
+        "end": 783,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9994800090789795,
+        "start": 64,
+        "end": 90,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9829340577125549,
+        "start": 127,
+        "end": 133,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.9688975214958191,
+        "start": 134,
+        "end": 142,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " HC",
+        "actual_text": "HC",
+        "confidence": 0.8276340961456299,
+        "start": 173,
+        "end": 175,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 67 años",
+        "actual_text": "67 años",
+        "confidence": 0.9997597932815552,
+        "start": 192,
+        "end": 199,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 7",
+        "actual_text": "7",
+        "confidence": 0.9939269423484802,
+        "start": 257,
+        "end": 258,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " cirujano",
+        "actual_text": "cirujano",
+        "confidence": 0.9993112087249756,
+        "start": 685,
+        "end": 693,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.9989749193191528,
+        "start": 763,
+        "end": 783,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 15,
+    "suspicious_detections": 15,
+    "xxxxxx_detections": 0,
+    "other_detections": 15
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "text": " 67 años",
+        "confidence": 0.9967993497848511,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PROFESION",
+        "text": " cirujano",
+        "confidence": 0.9933545589447021,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "text": " Centro de Salud Los Álamos",
+        "confidence": 0.9994800090789795,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "text": " 67 años",
+        "confidence": 0.9997597932815552,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " 7",
+        "confidence": 0.9939269423484802,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "text": " cirujano",
+        "confidence": 0.9993112087249756,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "text": " Comunidad Valenciana",
+        "confidence": 0.9989749193191528,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 7
+  }
+}

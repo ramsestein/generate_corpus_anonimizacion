@@ -1,0 +1,1149 @@
+{
+  "document_id": "00c6243c-3f48-48ed-8ad2-d86d60b24809",
+  "success": true,
+  "anonymized_text": "**INFORME DE VALORACIÓN PREOPERATORIA** Paciente: Laura Méndez Iglesias con edad de 67 años, quien ingresa para evaluación quirúrgica. Se identifica en el sistema con el número de historia clínica HC-2024-789012 y con el documento de identidad 73482914B. Como parte del protocolo de seguridad del Hospital Clínico San Carlos, se ha verificado su identidad mediante el registro biométrico correspondiente a la huella dactilar derecha índice, que muestra un patrón de arcos. Este dato biométrico queda incorporado a su expediente digital. La verificación de seguridad incluyó específicamente la huella dactilar derecha índice, patrón de arcos, como medida de identificación inequívoca. La paciente cuenta con el número de beneficiario del plan de salud B-458712369 y adicionalmente se registra el identificador B123456789. Cabe mencionar que en documentación adjunta figura el número 45872314B, el cual ha sido verificado. La paciente tiene nacionalidad española, siendo España su país de origen. Tras la valoración por el servicio de cirugía, se ha determinado que la intervención será realizada por la Dra. Elena Rodríguez Santos, cirujano de plantilla de este centro. Se ha generado un nuevo número de historia clínica para este proceso quirúrgico: HC-2024-789456, que estará vinculado a su identificación principal. En la exploración física realizada se incluyó la verificación de la huella dactilar derecha índice como parte de los protocolos de seguridad prequirúrgicos, confirmándose el patrón de arcos en la huella dactilar derecha índice. Los estudios complementarios muestran parámetros dentro de la normalidad para el procedimiento planeado. Como parte del protocolo de identificación biométrica, se registró la Huella dactilar derecha índice en el sistema de seguridad del centro. Como parte integral de los procedimientos de identificación biométrica del paciente, se ha documentado y verificado la huella dactilar derecha, índice. Este identificador biométrico forma parte del conjunto de datos de seguridad que garantizan la correcta identificación de la paciente a lo largo de todo su proceso asistencial.",
+  "text_length": 2119,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 6,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9987838268280029,
+        "word": " Laura Méndez Iglesias",
+        "start": 50,
+        "end": 71,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.9884175062179565,
+        "word": " 67 años",
+        "start": 84,
+        "end": 91,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9983802437782288,
+        "word": " Hospital Clínico San Carlos",
+        "start": 297,
+        "end": 324,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7424221038818359,
+        "word": " plan de salud",
+        "start": 737,
+        "end": 750,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.7299099564552307,
+        "word": " España",
+        "start": 969,
+        "end": 975,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9988601803779602,
+        "word": " Elena Rodríguez Santos",
+        "start": 1107,
+        "end": 1129,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 6,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 2,
+        "EDAD_SUJETO_ASISTENCIA": 1,
+        "HOSPITAL": 1,
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "PAIS": 1
+      },
+      "entities_by_confidence": {
+        "high": 4,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Laura Méndez Iglesias",
+          "actual_text": "Laura Méndez Iglesias",
+          "confidence": 0.9987838268280029,
+          "start": 50,
+          "end": 71,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 67 años",
+          "actual_text": "67 años",
+          "confidence": 0.9884175062179565,
+          "start": 84,
+          "end": 91,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Hospital Clínico San Carlos",
+          "actual_text": "Hospital Clínico San Carlos",
+          "confidence": 0.9983802437782288,
+          "start": 297,
+          "end": 324,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de salud",
+          "actual_text": "plan de salud",
+          "confidence": 0.7424221038818359,
+          "start": 737,
+          "end": 750,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PAIS",
+          "word": " España",
+          "actual_text": "España",
+          "confidence": 0.7299099564552307,
+          "start": 969,
+          "end": 975,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena Rodríguez Santos",
+          "actual_text": "Elena Rodríguez Santos",
+          "confidence": 0.9988601803779602,
+          "start": 1107,
+          "end": 1129,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Laura Méndez Iglesias",
+          "actual_text": "Laura Méndez Iglesias",
+          "confidence": 0.9987838268280029,
+          "start": 50,
+          "end": 71,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 67 años",
+          "actual_text": "67 años",
+          "confidence": 0.9884175062179565,
+          "start": 84,
+          "end": 91,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Hospital Clínico San Carlos",
+          "actual_text": "Hospital Clínico San Carlos",
+          "confidence": 0.9983802437782288,
+          "start": 297,
+          "end": 324,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de salud",
+          "actual_text": "plan de salud",
+          "confidence": 0.7424221038818359,
+          "start": 737,
+          "end": 750,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PAIS",
+          "word": " España",
+          "actual_text": "España",
+          "confidence": 0.7299099564552307,
+          "start": 969,
+          "end": 975,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena Rodríguez Santos",
+          "actual_text": "Elena Rodríguez Santos",
+          "confidence": 0.9988601803779602,
+          "start": 1107,
+          "end": 1129,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 16,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9969214797019958,
+        "word": " Méndez",
+        "start": 56,
+        "end": 62,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9916841983795166,
+        "word": " Iglesias",
+        "start": 63,
+        "end": 71,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.9996616244316101,
+        "word": " 67 años",
+        "start": 84,
+        "end": 91,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.735426664352417,
+        "word": " historia clínica",
+        "start": 180,
+        "end": 196,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7359714508056641,
+        "word": " HC",
+        "start": 197,
+        "end": 199,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8746600151062012,
+        "word": " 7",
+        "start": 244,
+        "end": 245,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9997352361679077,
+        "word": " Hospital Clínico San Carlos",
+        "start": 297,
+        "end": 324,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7579768896102905,
+        "word": " plan de",
+        "start": 737,
+        "end": 744,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8043334484100342,
+        "word": " B",
+        "start": 751,
+        "end": 752,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9684440493583679,
+        "word": " B",
+        "start": 809,
+        "end": 810,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9219257831573486,
+        "word": "12",
+        "start": 810,
+        "end": 812,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.955118715763092,
+        "word": " 45",
+        "start": 882,
+        "end": 884,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9991662502288818,
+        "word": " España",
+        "start": 969,
+        "end": 975,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9991258978843689,
+        "word": " Rodríguez",
+        "start": 1113,
+        "end": 1122,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9971243739128113,
+        "word": " Santos",
+        "start": 1123,
+        "end": 1129,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7768163681030273,
+        "word": " historia clínica",
+        "start": 1203,
+        "end": 1219,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 16,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 4,
+        "EDAD_SUJETO_ASISTENCIA": 1,
+        "OTROS_SUJETO_ASISTENCIA": 3,
+        "NUMERO_TELEFONO": 6,
+        "HOSPITAL": 1,
+        "PAIS": 1
+      },
+      "entities_by_confidence": {
+        "high": 12,
+        "medium": 4,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9969214797019958,
+          "start": 56,
+          "end": 62,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.9916841983795166,
+          "start": 63,
+          "end": 71,
+          "model": "CARMEN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 67 años",
+          "actual_text": "67 años",
+          "confidence": 0.9996616244316101,
+          "start": 84,
+          "end": 91,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.735426664352417,
+          "start": 180,
+          "end": 196,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " HC",
+          "actual_text": "HC",
+          "confidence": 0.7359714508056641,
+          "start": 197,
+          "end": 199,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 7",
+          "actual_text": "7",
+          "confidence": 0.8746600151062012,
+          "start": 244,
+          "end": 245,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Hospital Clínico San Carlos",
+          "actual_text": "Hospital Clínico San Carlos",
+          "confidence": 0.9997352361679077,
+          "start": 297,
+          "end": 324,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de",
+          "actual_text": "plan de",
+          "confidence": 0.7579768896102905,
+          "start": 737,
+          "end": 744,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.8043334484100342,
+          "start": 751,
+          "end": 752,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.9684440493583679,
+          "start": 809,
+          "end": 810,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12",
+          "actual_text": "12",
+          "confidence": 0.9219257831573486,
+          "start": 810,
+          "end": 812,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 45",
+          "actual_text": "45",
+          "confidence": 0.955118715763092,
+          "start": 882,
+          "end": 884,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " España",
+          "actual_text": "España",
+          "confidence": 0.9991662502288818,
+          "start": 969,
+          "end": 975,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "Rodríguez",
+          "confidence": 0.9991258978843689,
+          "start": 1113,
+          "end": 1122,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Santos",
+          "actual_text": "Santos",
+          "confidence": 0.9971243739128113,
+          "start": 1123,
+          "end": 1129,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.7768163681030273,
+          "start": 1203,
+          "end": 1219,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9969214797019958,
+          "start": 56,
+          "end": 62,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.9916841983795166,
+          "start": 63,
+          "end": 71,
+          "model": "CARMEN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 67 años",
+          "actual_text": "67 años",
+          "confidence": 0.9996616244316101,
+          "start": 84,
+          "end": 91,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.735426664352417,
+          "start": 180,
+          "end": 196,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " HC",
+          "actual_text": "HC",
+          "confidence": 0.7359714508056641,
+          "start": 197,
+          "end": 199,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 7",
+          "actual_text": "7",
+          "confidence": 0.8746600151062012,
+          "start": 244,
+          "end": 245,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Hospital Clínico San Carlos",
+          "actual_text": "Hospital Clínico San Carlos",
+          "confidence": 0.9997352361679077,
+          "start": 297,
+          "end": 324,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de",
+          "actual_text": "plan de",
+          "confidence": 0.7579768896102905,
+          "start": 737,
+          "end": 744,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.8043334484100342,
+          "start": 751,
+          "end": 752,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.9684440493583679,
+          "start": 809,
+          "end": 810,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12",
+          "actual_text": "12",
+          "confidence": 0.9219257831573486,
+          "start": 810,
+          "end": 812,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 45",
+          "actual_text": "45",
+          "confidence": 0.955118715763092,
+          "start": 882,
+          "end": 884,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " España",
+          "actual_text": "España",
+          "confidence": 0.9991662502288818,
+          "start": 969,
+          "end": 975,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "Rodríguez",
+          "confidence": 0.9991258978843689,
+          "start": 1113,
+          "end": 1122,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Santos",
+          "actual_text": "Santos",
+          "confidence": 0.9971243739128113,
+          "start": 1123,
+          "end": 1129,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " historia clínica",
+          "actual_text": "historia clínica",
+          "confidence": 0.7768163681030273,
+          "start": 1203,
+          "end": 1219,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 22,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "NOMBRE_PERSONAL_SANITARIO": 6,
+      "EDAD_SUJETO_ASISTENCIA": 2,
+      "HOSPITAL": 2,
+      "OTROS_SUJETO_ASISTENCIA": 4,
+      "PAIS": 2,
+      "NUMERO_TELEFONO": 6
+    },
+    "entities_by_confidence": {
+      "high": 16,
+      "medium": 6,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Laura Méndez Iglesias",
+        "actual_text": "Laura Méndez Iglesias",
+        "confidence": 0.9987838268280029,
+        "start": 50,
+        "end": 71,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 67 años",
+        "actual_text": "67 años",
+        "confidence": 0.9884175062179565,
+        "start": 84,
+        "end": 91,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Hospital Clínico San Carlos",
+        "actual_text": "Hospital Clínico San Carlos",
+        "confidence": 0.9983802437782288,
+        "start": 297,
+        "end": 324,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de salud",
+        "actual_text": "plan de salud",
+        "confidence": 0.7424221038818359,
+        "start": 737,
+        "end": 750,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " España",
+        "actual_text": "España",
+        "confidence": 0.7299099564552307,
+        "start": 969,
+        "end": 975,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena Rodríguez Santos",
+        "actual_text": "Elena Rodríguez Santos",
+        "confidence": 0.9988601803779602,
+        "start": 1107,
+        "end": 1129,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9969214797019958,
+        "start": 56,
+        "end": 62,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.9916841983795166,
+        "start": 63,
+        "end": 71,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 67 años",
+        "actual_text": "67 años",
+        "confidence": 0.9996616244316101,
+        "start": 84,
+        "end": 91,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.735426664352417,
+        "start": 180,
+        "end": 196,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " HC",
+        "actual_text": "HC",
+        "confidence": 0.7359714508056641,
+        "start": 197,
+        "end": 199,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 7",
+        "actual_text": "7",
+        "confidence": 0.8746600151062012,
+        "start": 244,
+        "end": 245,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Hospital Clínico San Carlos",
+        "actual_text": "Hospital Clínico San Carlos",
+        "confidence": 0.9997352361679077,
+        "start": 297,
+        "end": 324,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de",
+        "actual_text": "plan de",
+        "confidence": 0.7579768896102905,
+        "start": 737,
+        "end": 744,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.8043334484100342,
+        "start": 751,
+        "end": 752,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.9684440493583679,
+        "start": 809,
+        "end": 810,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12",
+        "actual_text": "12",
+        "confidence": 0.9219257831573486,
+        "start": 810,
+        "end": 812,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 45",
+        "actual_text": "45",
+        "confidence": 0.955118715763092,
+        "start": 882,
+        "end": 884,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " España",
+        "actual_text": "España",
+        "confidence": 0.9991662502288818,
+        "start": 969,
+        "end": 975,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "Rodríguez",
+        "confidence": 0.9991258978843689,
+        "start": 1113,
+        "end": 1122,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Santos",
+        "actual_text": "Santos",
+        "confidence": 0.9971243739128113,
+        "start": 1123,
+        "end": 1129,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.7768163681030273,
+        "start": 1203,
+        "end": 1219,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Laura Méndez Iglesias",
+        "actual_text": "Laura Méndez Iglesias",
+        "confidence": 0.9987838268280029,
+        "start": 50,
+        "end": 71,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 67 años",
+        "actual_text": "67 años",
+        "confidence": 0.9884175062179565,
+        "start": 84,
+        "end": 91,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Hospital Clínico San Carlos",
+        "actual_text": "Hospital Clínico San Carlos",
+        "confidence": 0.9983802437782288,
+        "start": 297,
+        "end": 324,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de salud",
+        "actual_text": "plan de salud",
+        "confidence": 0.7424221038818359,
+        "start": 737,
+        "end": 750,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " España",
+        "actual_text": "España",
+        "confidence": 0.7299099564552307,
+        "start": 969,
+        "end": 975,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena Rodríguez Santos",
+        "actual_text": "Elena Rodríguez Santos",
+        "confidence": 0.9988601803779602,
+        "start": 1107,
+        "end": 1129,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9969214797019958,
+        "start": 56,
+        "end": 62,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.9916841983795166,
+        "start": 63,
+        "end": 71,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 67 años",
+        "actual_text": "67 años",
+        "confidence": 0.9996616244316101,
+        "start": 84,
+        "end": 91,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.735426664352417,
+        "start": 180,
+        "end": 196,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " HC",
+        "actual_text": "HC",
+        "confidence": 0.7359714508056641,
+        "start": 197,
+        "end": 199,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 7",
+        "actual_text": "7",
+        "confidence": 0.8746600151062012,
+        "start": 244,
+        "end": 245,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Hospital Clínico San Carlos",
+        "actual_text": "Hospital Clínico San Carlos",
+        "confidence": 0.9997352361679077,
+        "start": 297,
+        "end": 324,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de",
+        "actual_text": "plan de",
+        "confidence": 0.7579768896102905,
+        "start": 737,
+        "end": 744,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.8043334484100342,
+        "start": 751,
+        "end": 752,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.9684440493583679,
+        "start": 809,
+        "end": 810,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12",
+        "actual_text": "12",
+        "confidence": 0.9219257831573486,
+        "start": 810,
+        "end": 812,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 45",
+        "actual_text": "45",
+        "confidence": 0.955118715763092,
+        "start": 882,
+        "end": 884,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " España",
+        "actual_text": "España",
+        "confidence": 0.9991662502288818,
+        "start": 969,
+        "end": 975,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "Rodríguez",
+        "confidence": 0.9991258978843689,
+        "start": 1113,
+        "end": 1122,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Santos",
+        "actual_text": "Santos",
+        "confidence": 0.9971243739128113,
+        "start": 1123,
+        "end": 1129,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " historia clínica",
+        "actual_text": "historia clínica",
+        "confidence": 0.7768163681030273,
+        "start": 1203,
+        "end": 1219,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 22,
+    "suspicious_detections": 22,
+    "xxxxxx_detections": 0,
+    "other_detections": 22
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Laura Méndez Iglesias",
+        "confidence": 0.9987838268280029,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "text": " Hospital Clínico San Carlos",
+        "confidence": 0.9983802437782288,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Elena Rodríguez Santos",
+        "confidence": 0.9988601803779602,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Méndez",
+        "confidence": 0.9969214797019958,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Iglesias",
+        "confidence": 0.9916841983795166,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "text": " 67 años",
+        "confidence": 0.9996616244316101,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "text": " Hospital Clínico San Carlos",
+        "confidence": 0.9997352361679077,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "text": " España",
+        "confidence": 0.9991662502288818,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Rodríguez",
+        "confidence": 0.9991258978843689,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Santos",
+        "confidence": 0.9971243739128113,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 10
+  }
+}

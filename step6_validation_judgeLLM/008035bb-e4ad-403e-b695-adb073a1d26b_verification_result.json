@@ -1,0 +1,1587 @@
+{
+  "document_id": "008035bb-e4ad-403e-b695-adb073a1d26b",
+  "success": true,
+  "anonymized_text": "**NOTA DE EVOLUCIÓN** Paciente: Laura Méndez Iglesias Identificación: HC-2024-789012 La paciente Laura Méndez Iglesias, de sexo femenino, acude a consulta para seguimiento. La exploración física actual muestra buen estado general, con tensión arterial 125/80 mmHg, frecuencia cardíaca 72 lpm y saturación de oxígeno del 98%. A la auscultación cardíaca y respiratoria no se evidencian soplos ni ruidos sobreañadidos. El abdomen es blando y depresible, sin masas ni megalias. En la analítica reciente se observa hemoglobina de 13.2 g/dL con leucocitos dentro de rangos normales. La función renal y hepática se mantiene estable. En cuanto a los estudios de imagen realizados, la ecografía abdominal no muestra hallazgos significativos. Se ha registrado en el sistema con el identificador E-459-23 y el número E-459321 para su seguimiento asistencial. Como persona de contacto para cualquier situación relacionada con su asistencia se ha designado a María del Carmen López, hermana, bajo el código FAM-2024-003, y también a María del Carmen Gutiérrez. La paciente tiene documentación de identificación con el número 87654321B y el código B-28473916. La paciente reside en la Comunidad Valenciana, territorio donde se presta la atención sanitaria. El país de residencia y atención es España. Se mantiene el plan terapéutico establecido y se programará próxima revisión en seis meses. La evolución se considera favorable.",
+  "text_length": 1415,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 14,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9217023849487305,
+        "word": ":",
+        "start": 30,
+        "end": 31,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9938948750495911,
+        "word": " Laura Méndez Iglesias",
+        "start": 32,
+        "end": 53,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7222662568092346,
+        "word": "-789012",
+        "start": 77,
+        "end": 84,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NOMBRE_SUJETO_ASISTENCIA",
+        "score": 0.8210989236831665,
+        "word": " Laura",
+        "start": 97,
+        "end": 102,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.7256950736045837,
+        "word": " Méndez Iglesias",
+        "start": 103,
+        "end": 118,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "SEXO_SUJETO_ASISTENCIA",
+        "score": 0.9576030969619751,
+        "word": " femenino",
+        "start": 128,
+        "end": 136,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8136299848556519,
+        "word": "-459-23",
+        "start": 786,
+        "end": 793,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7376090884208679,
+        "word": "-459321",
+        "start": 807,
+        "end": 814,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.7016863226890564,
+        "word": " del Carmen López",
+        "start": 952,
+        "end": 968,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9974103569984436,
+        "word": " hermana",
+        "start": 970,
+        "end": 977,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.7363730669021606,
+        "word": " María del",
+        "start": 1020,
+        "end": 1029,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7074074745178223,
+        "word": "28473916",
+        "start": 1136,
+        "end": 1144,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9054563045501709,
+        "word": " Comunidad Valenciana",
+        "start": 1171,
+        "end": 1191,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9969769716262817,
+        "word": " España",
+        "start": 1279,
+        "end": 1285,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 14,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 4,
+        "ID_SUJETO_ASISTENCIA": 2,
+        "NOMBRE_SUJETO_ASISTENCIA": 1,
+        "SEXO_SUJETO_ASISTENCIA": 1,
+        "OTROS_SUJETO_ASISTENCIA": 2,
+        "FAMILIARES_SUJETO_ASISTENCIA": 2,
+        "PAIS": 2
+      },
+      "entities_by_confidence": {
+        "high": 8,
+        "medium": 6,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": ":",
+          "actual_text": ":",
+          "confidence": 0.9217023849487305,
+          "start": 30,
+          "end": 31,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Laura Méndez Iglesias",
+          "actual_text": "Laura Méndez Iglesias",
+          "confidence": 0.9938948750495911,
+          "start": 32,
+          "end": 53,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-789012",
+          "actual_text": "-789012",
+          "confidence": 0.7222662568092346,
+          "start": 77,
+          "end": 84,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_SUJETO_ASISTENCIA",
+          "word": " Laura",
+          "actual_text": "Laura",
+          "confidence": 0.8210989236831665,
+          "start": 97,
+          "end": 102,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez Iglesias",
+          "actual_text": "Méndez Iglesias",
+          "confidence": 0.7256950736045837,
+          "start": 103,
+          "end": 118,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9576030969619751,
+          "start": 128,
+          "end": 136,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "-459-23",
+          "actual_text": "-459-23",
+          "confidence": 0.8136299848556519,
+          "start": 786,
+          "end": 793,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "-459321",
+          "actual_text": "-459321",
+          "confidence": 0.7376090884208679,
+          "start": 807,
+          "end": 814,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " del Carmen López",
+          "actual_text": "del Carmen López",
+          "confidence": 0.7016863226890564,
+          "start": 952,
+          "end": 968,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " hermana",
+          "actual_text": "hermana",
+          "confidence": 0.9974103569984436,
+          "start": 970,
+          "end": 977,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " María del",
+          "actual_text": "María del",
+          "confidence": 0.7363730669021606,
+          "start": 1020,
+          "end": 1029,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "28473916",
+          "actual_text": "28473916",
+          "confidence": 0.7074074745178223,
+          "start": 1136,
+          "end": 1144,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.9054563045501709,
+          "start": 1171,
+          "end": 1191,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PAIS",
+          "word": " España",
+          "actual_text": "España",
+          "confidence": 0.9969769716262817,
+          "start": 1279,
+          "end": 1285,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": ":",
+          "actual_text": ":",
+          "confidence": 0.9217023849487305,
+          "start": 30,
+          "end": 31,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Laura Méndez Iglesias",
+          "actual_text": "Laura Méndez Iglesias",
+          "confidence": 0.9938948750495911,
+          "start": 32,
+          "end": 53,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-789012",
+          "actual_text": "-789012",
+          "confidence": 0.7222662568092346,
+          "start": 77,
+          "end": 84,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_SUJETO_ASISTENCIA",
+          "word": " Laura",
+          "actual_text": "Laura",
+          "confidence": 0.8210989236831665,
+          "start": 97,
+          "end": 102,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez Iglesias",
+          "actual_text": "Méndez Iglesias",
+          "confidence": 0.7256950736045837,
+          "start": 103,
+          "end": 118,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9576030969619751,
+          "start": 128,
+          "end": 136,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "-459-23",
+          "actual_text": "-459-23",
+          "confidence": 0.8136299848556519,
+          "start": 786,
+          "end": 793,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "-459321",
+          "actual_text": "-459321",
+          "confidence": 0.7376090884208679,
+          "start": 807,
+          "end": 814,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " del Carmen López",
+          "actual_text": "del Carmen López",
+          "confidence": 0.7016863226890564,
+          "start": 952,
+          "end": 968,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " hermana",
+          "actual_text": "hermana",
+          "confidence": 0.9974103569984436,
+          "start": 970,
+          "end": 977,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " María del",
+          "actual_text": "María del",
+          "confidence": 0.7363730669021606,
+          "start": 1020,
+          "end": 1029,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "28473916",
+          "actual_text": "28473916",
+          "confidence": 0.7074074745178223,
+          "start": 1136,
+          "end": 1144,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.9054563045501709,
+          "start": 1171,
+          "end": 1191,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PAIS",
+          "word": " España",
+          "actual_text": "España",
+          "confidence": 0.9969769716262817,
+          "start": 1279,
+          "end": 1285,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 18,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9790335297584534,
+        "word": " Méndez",
+        "start": 38,
+        "end": 44,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9405108094215393,
+        "word": " Iglesias",
+        "start": 45,
+        "end": 53,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "SEXO_SUJETO_ASISTENCIA",
+        "score": 0.8972012996673584,
+        "word": " Laura",
+        "start": 97,
+        "end": 102,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9419729113578796,
+        "word": " Méndez",
+        "start": 103,
+        "end": 109,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.8474036455154419,
+        "word": " Iglesias",
+        "start": 110,
+        "end": 118,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7340561747550964,
+        "word": " sexo",
+        "start": 123,
+        "end": 127,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "SEXO_SUJETO_ASISTENCIA",
+        "score": 0.9905699491500854,
+        "word": " femenino",
+        "start": 128,
+        "end": 136,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.7486684918403625,
+        "word": " E",
+        "start": 785,
+        "end": 786,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9589099884033203,
+        "word": " E",
+        "start": 806,
+        "end": 807,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9333146214485168,
+        "word": " María del Carmen",
+        "start": 946,
+        "end": 962,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9632657170295715,
+        "word": " López",
+        "start": 963,
+        "end": 968,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9995555281639099,
+        "word": " hermana",
+        "start": 970,
+        "end": 977,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8486538529396057,
+        "word": " María del Carmen",
+        "start": 1020,
+        "end": 1036,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9892057180404663,
+        "word": " Gutiérrez",
+        "start": 1037,
+        "end": 1046,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.986039400100708,
+        "word": " 8",
+        "start": 1112,
+        "end": 1113,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.927632749080658,
+        "word": " B",
+        "start": 1134,
+        "end": 1135,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9988340139389038,
+        "word": " Comunidad Valenciana",
+        "start": 1171,
+        "end": 1191,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9992746710777283,
+        "word": " España",
+        "start": 1279,
+        "end": 1285,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 18,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 6,
+        "SEXO_SUJETO_ASISTENCIA": 2,
+        "ID_SUJETO_ASISTENCIA": 1,
+        "NUMERO_IDENTIF": 1,
+        "NUMERO_TELEFONO": 3,
+        "FAMILIARES_SUJETO_ASISTENCIA": 3,
+        "PAIS": 2
+      },
+      "entities_by_confidence": {
+        "high": 16,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9790335297584534,
+          "start": 38,
+          "end": 44,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.9405108094215393,
+          "start": 45,
+          "end": 53,
+          "model": "CARMEN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " Laura",
+          "actual_text": "Laura",
+          "confidence": 0.8972012996673584,
+          "start": 97,
+          "end": 102,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9419729113578796,
+          "start": 103,
+          "end": 109,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.8474036455154419,
+          "start": 110,
+          "end": 118,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.7340561747550964,
+          "start": 123,
+          "end": 127,
+          "model": "CARMEN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9905699491500854,
+          "start": 128,
+          "end": 136,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " E",
+          "actual_text": "E",
+          "confidence": 0.7486684918403625,
+          "start": 785,
+          "end": 786,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " E",
+          "actual_text": "E",
+          "confidence": 0.9589099884033203,
+          "start": 806,
+          "end": 807,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " María del Carmen",
+          "actual_text": "María del Carmen",
+          "confidence": 0.9333146214485168,
+          "start": 946,
+          "end": 962,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " López",
+          "actual_text": "López",
+          "confidence": 0.9632657170295715,
+          "start": 963,
+          "end": 968,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " hermana",
+          "actual_text": "hermana",
+          "confidence": 0.9995555281639099,
+          "start": 970,
+          "end": 977,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " María del Carmen",
+          "actual_text": "María del Carmen",
+          "confidence": 0.8486538529396057,
+          "start": 1020,
+          "end": 1036,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Gutiérrez",
+          "actual_text": "Gutiérrez",
+          "confidence": 0.9892057180404663,
+          "start": 1037,
+          "end": 1046,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 8",
+          "actual_text": "8",
+          "confidence": 0.986039400100708,
+          "start": 1112,
+          "end": 1113,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.927632749080658,
+          "start": 1134,
+          "end": 1135,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.9988340139389038,
+          "start": 1171,
+          "end": 1191,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " España",
+          "actual_text": "España",
+          "confidence": 0.9992746710777283,
+          "start": 1279,
+          "end": 1285,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9790335297584534,
+          "start": 38,
+          "end": 44,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.9405108094215393,
+          "start": 45,
+          "end": 53,
+          "model": "CARMEN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " Laura",
+          "actual_text": "Laura",
+          "confidence": 0.8972012996673584,
+          "start": 97,
+          "end": 102,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9419729113578796,
+          "start": 103,
+          "end": 109,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.8474036455154419,
+          "start": 110,
+          "end": 118,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.7340561747550964,
+          "start": 123,
+          "end": 127,
+          "model": "CARMEN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9905699491500854,
+          "start": 128,
+          "end": 136,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " E",
+          "actual_text": "E",
+          "confidence": 0.7486684918403625,
+          "start": 785,
+          "end": 786,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " E",
+          "actual_text": "E",
+          "confidence": 0.9589099884033203,
+          "start": 806,
+          "end": 807,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " María del Carmen",
+          "actual_text": "María del Carmen",
+          "confidence": 0.9333146214485168,
+          "start": 946,
+          "end": 962,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " López",
+          "actual_text": "López",
+          "confidence": 0.9632657170295715,
+          "start": 963,
+          "end": 968,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " hermana",
+          "actual_text": "hermana",
+          "confidence": 0.9995555281639099,
+          "start": 970,
+          "end": 977,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " María del Carmen",
+          "actual_text": "María del Carmen",
+          "confidence": 0.8486538529396057,
+          "start": 1020,
+          "end": 1036,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Gutiérrez",
+          "actual_text": "Gutiérrez",
+          "confidence": 0.9892057180404663,
+          "start": 1037,
+          "end": 1046,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 8",
+          "actual_text": "8",
+          "confidence": 0.986039400100708,
+          "start": 1112,
+          "end": 1113,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.927632749080658,
+          "start": 1134,
+          "end": 1135,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.9988340139389038,
+          "start": 1171,
+          "end": 1191,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " España",
+          "actual_text": "España",
+          "confidence": 0.9992746710777283,
+          "start": 1279,
+          "end": 1285,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 32,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "NOMBRE_PERSONAL_SANITARIO": 10,
+      "ID_SUJETO_ASISTENCIA": 3,
+      "NOMBRE_SUJETO_ASISTENCIA": 1,
+      "SEXO_SUJETO_ASISTENCIA": 3,
+      "OTROS_SUJETO_ASISTENCIA": 2,
+      "FAMILIARES_SUJETO_ASISTENCIA": 5,
+      "PAIS": 4,
+      "NUMERO_IDENTIF": 1,
+      "NUMERO_TELEFONO": 3
+    },
+    "entities_by_confidence": {
+      "high": 24,
+      "medium": 8,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": ":",
+        "actual_text": ":",
+        "confidence": 0.9217023849487305,
+        "start": 30,
+        "end": 31,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Laura Méndez Iglesias",
+        "actual_text": "Laura Méndez Iglesias",
+        "confidence": 0.9938948750495911,
+        "start": 32,
+        "end": 53,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-789012",
+        "actual_text": "-789012",
+        "confidence": 0.7222662568092346,
+        "start": 77,
+        "end": 84,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_SUJETO_ASISTENCIA",
+        "word": " Laura",
+        "actual_text": "Laura",
+        "confidence": 0.8210989236831665,
+        "start": 97,
+        "end": 102,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez Iglesias",
+        "actual_text": "Méndez Iglesias",
+        "confidence": 0.7256950736045837,
+        "start": 103,
+        "end": 118,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9576030969619751,
+        "start": 128,
+        "end": 136,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "-459-23",
+        "actual_text": "-459-23",
+        "confidence": 0.8136299848556519,
+        "start": 786,
+        "end": 793,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "-459321",
+        "actual_text": "-459321",
+        "confidence": 0.7376090884208679,
+        "start": 807,
+        "end": 814,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " del Carmen López",
+        "actual_text": "del Carmen López",
+        "confidence": 0.7016863226890564,
+        "start": 952,
+        "end": 968,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " hermana",
+        "actual_text": "hermana",
+        "confidence": 0.9974103569984436,
+        "start": 970,
+        "end": 977,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " María del",
+        "actual_text": "María del",
+        "confidence": 0.7363730669021606,
+        "start": 1020,
+        "end": 1029,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "28473916",
+        "actual_text": "28473916",
+        "confidence": 0.7074074745178223,
+        "start": 1136,
+        "end": 1144,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.9054563045501709,
+        "start": 1171,
+        "end": 1191,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " España",
+        "actual_text": "España",
+        "confidence": 0.9969769716262817,
+        "start": 1279,
+        "end": 1285,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9790335297584534,
+        "start": 38,
+        "end": 44,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.9405108094215393,
+        "start": 45,
+        "end": 53,
+        "model": "CARMEN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " Laura",
+        "actual_text": "Laura",
+        "confidence": 0.8972012996673584,
+        "start": 97,
+        "end": 102,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9419729113578796,
+        "start": 103,
+        "end": 109,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.8474036455154419,
+        "start": 110,
+        "end": 118,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.7340561747550964,
+        "start": 123,
+        "end": 127,
+        "model": "CARMEN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9905699491500854,
+        "start": 128,
+        "end": 136,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " E",
+        "actual_text": "E",
+        "confidence": 0.7486684918403625,
+        "start": 785,
+        "end": 786,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " E",
+        "actual_text": "E",
+        "confidence": 0.9589099884033203,
+        "start": 806,
+        "end": 807,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " María del Carmen",
+        "actual_text": "María del Carmen",
+        "confidence": 0.9333146214485168,
+        "start": 946,
+        "end": 962,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " López",
+        "actual_text": "López",
+        "confidence": 0.9632657170295715,
+        "start": 963,
+        "end": 968,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " hermana",
+        "actual_text": "hermana",
+        "confidence": 0.9995555281639099,
+        "start": 970,
+        "end": 977,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " María del Carmen",
+        "actual_text": "María del Carmen",
+        "confidence": 0.8486538529396057,
+        "start": 1020,
+        "end": 1036,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Gutiérrez",
+        "actual_text": "Gutiérrez",
+        "confidence": 0.9892057180404663,
+        "start": 1037,
+        "end": 1046,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 8",
+        "actual_text": "8",
+        "confidence": 0.986039400100708,
+        "start": 1112,
+        "end": 1113,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.927632749080658,
+        "start": 1134,
+        "end": 1135,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.9988340139389038,
+        "start": 1171,
+        "end": 1191,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " España",
+        "actual_text": "España",
+        "confidence": 0.9992746710777283,
+        "start": 1279,
+        "end": 1285,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": ":",
+        "actual_text": ":",
+        "confidence": 0.9217023849487305,
+        "start": 30,
+        "end": 31,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Laura Méndez Iglesias",
+        "actual_text": "Laura Méndez Iglesias",
+        "confidence": 0.9938948750495911,
+        "start": 32,
+        "end": 53,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-789012",
+        "actual_text": "-789012",
+        "confidence": 0.7222662568092346,
+        "start": 77,
+        "end": 84,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_SUJETO_ASISTENCIA",
+        "word": " Laura",
+        "actual_text": "Laura",
+        "confidence": 0.8210989236831665,
+        "start": 97,
+        "end": 102,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez Iglesias",
+        "actual_text": "Méndez Iglesias",
+        "confidence": 0.7256950736045837,
+        "start": 103,
+        "end": 118,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9576030969619751,
+        "start": 128,
+        "end": 136,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "-459-23",
+        "actual_text": "-459-23",
+        "confidence": 0.8136299848556519,
+        "start": 786,
+        "end": 793,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "-459321",
+        "actual_text": "-459321",
+        "confidence": 0.7376090884208679,
+        "start": 807,
+        "end": 814,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " del Carmen López",
+        "actual_text": "del Carmen López",
+        "confidence": 0.7016863226890564,
+        "start": 952,
+        "end": 968,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " hermana",
+        "actual_text": "hermana",
+        "confidence": 0.9974103569984436,
+        "start": 970,
+        "end": 977,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " María del",
+        "actual_text": "María del",
+        "confidence": 0.7363730669021606,
+        "start": 1020,
+        "end": 1029,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "28473916",
+        "actual_text": "28473916",
+        "confidence": 0.7074074745178223,
+        "start": 1136,
+        "end": 1144,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.9054563045501709,
+        "start": 1171,
+        "end": 1191,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " España",
+        "actual_text": "España",
+        "confidence": 0.9969769716262817,
+        "start": 1279,
+        "end": 1285,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9790335297584534,
+        "start": 38,
+        "end": 44,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.9405108094215393,
+        "start": 45,
+        "end": 53,
+        "model": "CARMEN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " Laura",
+        "actual_text": "Laura",
+        "confidence": 0.8972012996673584,
+        "start": 97,
+        "end": 102,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9419729113578796,
+        "start": 103,
+        "end": 109,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.8474036455154419,
+        "start": 110,
+        "end": 118,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.7340561747550964,
+        "start": 123,
+        "end": 127,
+        "model": "CARMEN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9905699491500854,
+        "start": 128,
+        "end": 136,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " E",
+        "actual_text": "E",
+        "confidence": 0.7486684918403625,
+        "start": 785,
+        "end": 786,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " E",
+        "actual_text": "E",
+        "confidence": 0.9589099884033203,
+        "start": 806,
+        "end": 807,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " María del Carmen",
+        "actual_text": "María del Carmen",
+        "confidence": 0.9333146214485168,
+        "start": 946,
+        "end": 962,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " López",
+        "actual_text": "López",
+        "confidence": 0.9632657170295715,
+        "start": 963,
+        "end": 968,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " hermana",
+        "actual_text": "hermana",
+        "confidence": 0.9995555281639099,
+        "start": 970,
+        "end": 977,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " María del Carmen",
+        "actual_text": "María del Carmen",
+        "confidence": 0.8486538529396057,
+        "start": 1020,
+        "end": 1036,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Gutiérrez",
+        "actual_text": "Gutiérrez",
+        "confidence": 0.9892057180404663,
+        "start": 1037,
+        "end": 1046,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 8",
+        "actual_text": "8",
+        "confidence": 0.986039400100708,
+        "start": 1112,
+        "end": 1113,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.927632749080658,
+        "start": 1134,
+        "end": 1135,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.9988340139389038,
+        "start": 1171,
+        "end": 1191,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " España",
+        "actual_text": "España",
+        "confidence": 0.9992746710777283,
+        "start": 1279,
+        "end": 1285,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 32,
+    "suspicious_detections": 32,
+    "xxxxxx_detections": 0,
+    "other_detections": 32
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Laura Méndez Iglesias",
+        "confidence": 0.9938948750495911,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "text": " hermana",
+        "confidence": 0.9974103569984436,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "text": " España",
+        "confidence": 0.9969769716262817,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "text": " femenino",
+        "confidence": 0.9905699491500854,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "text": " hermana",
+        "confidence": 0.9995555281639099,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "text": " Comunidad Valenciana",
+        "confidence": 0.9988340139389038,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "text": " España",
+        "confidence": 0.9992746710777283,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 7
+  }
+}

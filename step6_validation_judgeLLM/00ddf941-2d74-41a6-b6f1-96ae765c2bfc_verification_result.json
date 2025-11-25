@@ -1,0 +1,578 @@
+{
+  "document_id": "00ddf941-2d74-41a6-b6f1-96ae765c2bfc",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Se evalúa a la paciente en consulta externa para seguimiento de su cuadro. La exploración física actual muestra una tensión arterial de 125/80 mmHg, frecuencia cardíaca de 78 lpm y auscultación cardiorrespiratoria sin hallazgos patológicos. El abdomen es blando y depreciable. Se procedió a la descarga de los datos del dispositivo médico de monitorización, identificado con el número SN-98237641, para su análisis. La información recogida por el dispositivo será revisada en profundidad y cruzada con los datos del vehículo asociado, placa 1234 BCD, para completar la valoración contextual del caso. Dado que el sexo de la persona asistida es femenino, se tendrán en cuenta las consideraciones pertinentes en la interpretación de los resultados. Se concertará una nueva cita de control para el 12 de julio de 2023. El informe completo será remitido al Centro de Salud Los Álamos para su incorporación a la historia clínica principal. Cualquier actualización o resultado adicional será comunicado a través del correo electrónico carlos.martinez@clinic.es.",
+  "text_length": 1083,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 6,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8057321906089783,
+        "word": "98237641",
+        "start": 416,
+        "end": 424,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.901675820350647,
+        "word": " 1234 BCD",
+        "start": 569,
+        "end": 577,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9986959099769592,
+        "word": " 12 de julio de 2023",
+        "start": 823,
+        "end": 842,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.9891392588615417,
+        "word": " Centro de Salud Los Álamos",
+        "start": 881,
+        "end": 907,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9983692765235901,
+        "word": " car",
+        "start": 1057,
+        "end": 1060,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9988023042678833,
+        "word": "los.martinez@clinic.es",
+        "start": 1060,
+        "end": 1082,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 6,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1,
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "FECHAS": 1,
+        "CENTRO_SALUD": 1,
+        "CORREO_ELECTRONICO": 2
+      },
+      "entities_by_confidence": {
+        "high": 6,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "98237641",
+          "actual_text": "98237641",
+          "confidence": 0.8057321906089783,
+          "start": 416,
+          "end": 424,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " 1234 BCD",
+          "actual_text": "1234 BCD",
+          "confidence": 0.901675820350647,
+          "start": 569,
+          "end": 577,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9986959099769592,
+          "start": 823,
+          "end": 842,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9891392588615417,
+          "start": 881,
+          "end": 907,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.9983692765235901,
+          "start": 1057,
+          "end": 1060,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "los.martinez@clinic.es",
+          "actual_text": "los.martinez@clinic.es",
+          "confidence": 0.9988023042678833,
+          "start": 1060,
+          "end": 1082,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "98237641",
+          "actual_text": "98237641",
+          "confidence": 0.8057321906089783,
+          "start": 416,
+          "end": 424,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " 1234 BCD",
+          "actual_text": "1234 BCD",
+          "confidence": 0.901675820350647,
+          "start": 569,
+          "end": 577,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9986959099769592,
+          "start": 823,
+          "end": 842,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9891392588615417,
+          "start": 881,
+          "end": 907,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.9983692765235901,
+          "start": 1057,
+          "end": 1060,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "los.martinez@clinic.es",
+          "actual_text": "los.martinez@clinic.es",
+          "confidence": 0.9988023042678833,
+          "start": 1060,
+          "end": 1082,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 4,
+    "entities": [
+      {
+        "entity_group": "SEXO_SUJETO_ASISTENCIA",
+        "score": 0.9507305026054382,
+        "word": " femenino",
+        "start": 672,
+        "end": 680,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9998974800109863,
+        "word": " 12 de julio de 2023",
+        "start": 823,
+        "end": 842,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.9994342923164368,
+        "word": " Centro de Salud Los Álamos",
+        "start": 881,
+        "end": 907,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7594055533409119,
+        "word": " car",
+        "start": 1057,
+        "end": 1060,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 4,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "SEXO_SUJETO_ASISTENCIA": 1,
+        "FECHAS": 1,
+        "CENTRO_SALUD": 1,
+        "NUMERO_TELEFONO": 1
+      },
+      "entities_by_confidence": {
+        "high": 3,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9507305026054382,
+          "start": 672,
+          "end": 680,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9998974800109863,
+          "start": 823,
+          "end": 842,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9994342923164368,
+          "start": 881,
+          "end": 907,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.7594055533409119,
+          "start": 1057,
+          "end": 1060,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9507305026054382,
+          "start": 672,
+          "end": 680,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9998974800109863,
+          "start": 823,
+          "end": 842,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9994342923164368,
+          "start": 881,
+          "end": 907,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.7594055533409119,
+          "start": 1057,
+          "end": 1060,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 10,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "ID_SUJETO_ASISTENCIA": 1,
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "FECHAS": 2,
+      "CENTRO_SALUD": 2,
+      "CORREO_ELECTRONICO": 2,
+      "SEXO_SUJETO_ASISTENCIA": 1,
+      "NUMERO_TELEFONO": 1
+    },
+    "entities_by_confidence": {
+      "high": 9,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "98237641",
+        "actual_text": "98237641",
+        "confidence": 0.8057321906089783,
+        "start": 416,
+        "end": 424,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " 1234 BCD",
+        "actual_text": "1234 BCD",
+        "confidence": 0.901675820350647,
+        "start": 569,
+        "end": 577,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9986959099769592,
+        "start": 823,
+        "end": 842,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9891392588615417,
+        "start": 881,
+        "end": 907,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.9983692765235901,
+        "start": 1057,
+        "end": 1060,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "los.martinez@clinic.es",
+        "actual_text": "los.martinez@clinic.es",
+        "confidence": 0.9988023042678833,
+        "start": 1060,
+        "end": 1082,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9507305026054382,
+        "start": 672,
+        "end": 680,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9998974800109863,
+        "start": 823,
+        "end": 842,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9994342923164368,
+        "start": 881,
+        "end": 907,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.7594055533409119,
+        "start": 1057,
+        "end": 1060,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "98237641",
+        "actual_text": "98237641",
+        "confidence": 0.8057321906089783,
+        "start": 416,
+        "end": 424,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " 1234 BCD",
+        "actual_text": "1234 BCD",
+        "confidence": 0.901675820350647,
+        "start": 569,
+        "end": 577,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9986959099769592,
+        "start": 823,
+        "end": 842,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9891392588615417,
+        "start": 881,
+        "end": 907,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.9983692765235901,
+        "start": 1057,
+        "end": 1060,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "los.martinez@clinic.es",
+        "actual_text": "los.martinez@clinic.es",
+        "confidence": 0.9988023042678833,
+        "start": 1060,
+        "end": 1082,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9507305026054382,
+        "start": 672,
+        "end": 680,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9998974800109863,
+        "start": 823,
+        "end": 842,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9994342923164368,
+        "start": 881,
+        "end": 907,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.7594055533409119,
+        "start": 1057,
+        "end": 1060,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 10,
+    "suspicious_detections": 10,
+    "xxxxxx_detections": 0,
+    "other_detections": 10
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "FECHAS",
+        "text": " 12 de julio de 2023",
+        "confidence": 0.9986959099769592,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "text": " car",
+        "confidence": 0.9983692765235901,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "text": "los.martinez@clinic.es",
+        "confidence": 0.9988023042678833,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "text": " 12 de julio de 2023",
+        "confidence": 0.9998974800109863,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "text": " Centro de Salud Los Álamos",
+        "confidence": 0.9994342923164368,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 5
+  }
+}

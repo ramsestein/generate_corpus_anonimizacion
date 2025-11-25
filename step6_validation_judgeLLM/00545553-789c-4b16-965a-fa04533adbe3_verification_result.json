@@ -1,0 +1,328 @@
+{
+  "document_id": "00545553-789c-4b16-965a-fa04533adbe3",
+  "success": true,
+  "anonymized_text": "En la valoración inicial se documenta que la paciente, de sexo femenino, se encuentra consciente y orientada, colaborando activamente durante la anamnesis. Como parte de los procedimientos de identificación biométrica institucional, se ha registrado la huella dactilar del pulgar derecho para verificación en futuros accesos al sistema. Respecto a los parámetros de seguridad y trazabilidad, se confirma que el dispositivo médico utilizado para el registro de signos vitales porta el número de serie 1234 BCD, el cual opera dentro de los márgenes de calibración establecidos. Para la coordinación de cuidados se ha habilitado el acceso seguro a través de la dirección https://historiaclinica.hgugm.es/paciente/ donde el equipo asistencial podrá consignar las evoluciones correspondientes. En el apartado de datos administrativos, consta el identificador de aseguramiento ES-87654321-1 activo para la cobertura de los procedimientos diagnósticos y terapéuticos requeridos. Como información de localización figura el domicilio en Avenida de la Constitución 12. Adicionalmente, se registra el número SN-98237641 correspondiente al soporte técnico del equipo de monitorización continua asignado a la paciente. La exploración física revela normohidratación y buen estado general, con constantes vitales dentro de rangos aceptables. Los resultados analíticos iniciales muestran un hemograma sin alteraciones significativas y parámetros bioquímicos dentro de la normalidad. La radiografía de tórax realizada no evidencia hallazgos patológicos agudos. Se mantendrá observación clínica continuada con reevaluación periódica.",
+  "text_length": 1615,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9865947961807251,
+        "word": "aclinica.hgugm.es",
+        "start": 683,
+        "end": 700,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9990682601928711,
+        "word": " Avenida de la Constitución 12",
+        "start": 1028,
+        "end": 1057,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CORREO_ELECTRONICO": 1,
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "aclinica.hgugm.es",
+          "actual_text": "aclinica.hgugm.es",
+          "confidence": 0.9865947961807251,
+          "start": 683,
+          "end": 700,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Avenida de la Constitución 12",
+          "actual_text": "Avenida de la Constitución 12",
+          "confidence": 0.9990682601928711,
+          "start": 1028,
+          "end": 1057,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "aclinica.hgugm.es",
+          "actual_text": "aclinica.hgugm.es",
+          "confidence": 0.9865947961807251,
+          "start": 683,
+          "end": 700,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Avenida de la Constitución 12",
+          "actual_text": "Avenida de la Constitución 12",
+          "confidence": 0.9990682601928711,
+          "start": 1028,
+          "end": 1057,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.8514166474342346,
+        "word": " ES",
+        "start": 871,
+        "end": 873,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9979164004325867,
+        "word": " Avenida de la Constitución 12",
+        "start": 1028,
+        "end": 1057,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9388540387153625,
+        "word": " SN",
+        "start": 1097,
+        "end": 1099,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_IDENTIF": 1,
+        "CALLE": 1,
+        "NUMERO_TELEFONO": 1
+      },
+      "entities_by_confidence": {
+        "high": 3,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " ES",
+          "actual_text": "ES",
+          "confidence": 0.8514166474342346,
+          "start": 871,
+          "end": 873,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Avenida de la Constitución 12",
+          "actual_text": "Avenida de la Constitución 12",
+          "confidence": 0.9979164004325867,
+          "start": 1028,
+          "end": 1057,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " SN",
+          "actual_text": "SN",
+          "confidence": 0.9388540387153625,
+          "start": 1097,
+          "end": 1099,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " ES",
+          "actual_text": "ES",
+          "confidence": 0.8514166474342346,
+          "start": 871,
+          "end": 873,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Avenida de la Constitución 12",
+          "actual_text": "Avenida de la Constitución 12",
+          "confidence": 0.9979164004325867,
+          "start": 1028,
+          "end": 1057,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " SN",
+          "actual_text": "SN",
+          "confidence": 0.9388540387153625,
+          "start": 1097,
+          "end": 1099,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 5,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CORREO_ELECTRONICO": 1,
+      "CALLE": 2,
+      "NUMERO_IDENTIF": 1,
+      "NUMERO_TELEFONO": 1
+    },
+    "entities_by_confidence": {
+      "high": 5,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "aclinica.hgugm.es",
+        "actual_text": "aclinica.hgugm.es",
+        "confidence": 0.9865947961807251,
+        "start": 683,
+        "end": 700,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Avenida de la Constitución 12",
+        "actual_text": "Avenida de la Constitución 12",
+        "confidence": 0.9990682601928711,
+        "start": 1028,
+        "end": 1057,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " ES",
+        "actual_text": "ES",
+        "confidence": 0.8514166474342346,
+        "start": 871,
+        "end": 873,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Avenida de la Constitución 12",
+        "actual_text": "Avenida de la Constitución 12",
+        "confidence": 0.9979164004325867,
+        "start": 1028,
+        "end": 1057,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " SN",
+        "actual_text": "SN",
+        "confidence": 0.9388540387153625,
+        "start": 1097,
+        "end": 1099,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "aclinica.hgugm.es",
+        "actual_text": "aclinica.hgugm.es",
+        "confidence": 0.9865947961807251,
+        "start": 683,
+        "end": 700,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Avenida de la Constitución 12",
+        "actual_text": "Avenida de la Constitución 12",
+        "confidence": 0.9990682601928711,
+        "start": 1028,
+        "end": 1057,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " ES",
+        "actual_text": "ES",
+        "confidence": 0.8514166474342346,
+        "start": 871,
+        "end": 873,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Avenida de la Constitución 12",
+        "actual_text": "Avenida de la Constitución 12",
+        "confidence": 0.9979164004325867,
+        "start": 1028,
+        "end": 1057,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " SN",
+        "actual_text": "SN",
+        "confidence": 0.9388540387153625,
+        "start": 1097,
+        "end": 1099,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 5,
+    "suspicious_detections": 5,
+    "xxxxxx_detections": 0,
+    "other_detections": 5
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "CALLE",
+        "text": " Avenida de la Constitución 12",
+        "confidence": 0.9990682601928711,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "text": " Avenida de la Constitución 12",
+        "confidence": 0.9979164004325867,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 2
+  }
+}

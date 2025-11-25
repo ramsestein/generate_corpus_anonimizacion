@@ -1,0 +1,675 @@
+{
+  "document_id": "00cde67f-6fb5-4cf9-bef9-380719f69d4f",
+  "success": true,
+  "anonymized_text": "En el contexto del seguimiento postoperatorio, se reevalúa el estado de la paciente. La exploración física actual revela una herida quirúrgica limpia, sin signos de eritema o secreción, y con adecuada cicatrización. La movilidad es satisfactoria y refiere un control adecuado del dolor con la medicación pautada. Los resultados analíticos recientes, que pueden ser consultados a través del portal del paciente en https://www.hospitalregional.es/pacientes/consulta-resultados, se encuentran dentro de los parámetros de normalidad, sin evidencia de proceso infeccioso activo. El dispositivo médico implantado, identificado con el número SN-98273645, funciona dentro de sus especificaciones técnicas, según se confirma en la última valoración. La paciente, de sexo femenino, ejerce la profesión de cirujano, lo que se ha tenido en cuenta para planificar su reincorporación laboral progresiva y adaptada a sus necesidades físicas. Todo el proceso asistencial descrito se ha desarrollado dentro del territorio de la Comunidad Valenciana, en España. Se recomienda continuar con el plan de rehabilitación y se citará para una nueva valoración en el plazo establecido.",
+  "text_length": 1160,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 6,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8473867177963257,
+        "word": "-",
+        "start": 637,
+        "end": 638,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8219324350357056,
+        "word": "98273645",
+        "start": 638,
+        "end": 646,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "SEXO_SUJETO_ASISTENCIA",
+        "score": 0.9950436353683472,
+        "word": " femenino",
+        "start": 762,
+        "end": 770,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "PROFESION",
+        "score": 0.9915826916694641,
+        "word": " cirujano",
+        "start": 795,
+        "end": 803,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "TERRITORIO",
+        "score": 0.7569091320037842,
+        "word": " Comunidad",
+        "start": 1011,
+        "end": 1020,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9981381893157959,
+        "word": " España",
+        "start": 1036,
+        "end": 1042,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 6,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 2,
+        "SEXO_SUJETO_ASISTENCIA": 1,
+        "PROFESION": 1,
+        "TERRITORIO": 1,
+        "PAIS": 1
+      },
+      "entities_by_confidence": {
+        "high": 5,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.8473867177963257,
+          "start": 637,
+          "end": 638,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "98273645",
+          "actual_text": "98273645",
+          "confidence": 0.8219324350357056,
+          "start": 638,
+          "end": 646,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9950436353683472,
+          "start": 762,
+          "end": 770,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " cirujano",
+          "actual_text": "cirujano",
+          "confidence": 0.9915826916694641,
+          "start": 795,
+          "end": 803,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "TERRITORIO",
+          "word": " Comunidad",
+          "actual_text": "Comunidad",
+          "confidence": 0.7569091320037842,
+          "start": 1011,
+          "end": 1020,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PAIS",
+          "word": " España",
+          "actual_text": "España",
+          "confidence": 0.9981381893157959,
+          "start": 1036,
+          "end": 1042,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.8473867177963257,
+          "start": 637,
+          "end": 638,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "98273645",
+          "actual_text": "98273645",
+          "confidence": 0.8219324350357056,
+          "start": 638,
+          "end": 646,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9950436353683472,
+          "start": 762,
+          "end": 770,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " cirujano",
+          "actual_text": "cirujano",
+          "confidence": 0.9915826916694641,
+          "start": 795,
+          "end": 803,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "TERRITORIO",
+          "word": " Comunidad",
+          "actual_text": "Comunidad",
+          "confidence": 0.7569091320037842,
+          "start": 1011,
+          "end": 1020,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PAIS",
+          "word": " España",
+          "actual_text": "España",
+          "confidence": 0.9981381893157959,
+          "start": 1036,
+          "end": 1042,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 6,
+    "entities": [
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.7561254501342773,
+        "word": ".es",
+        "start": 441,
+        "end": 444,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9856159687042236,
+        "word": " SN",
+        "start": 635,
+        "end": 637,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "SEXO_SUJETO_ASISTENCIA",
+        "score": 0.9209920167922974,
+        "word": " femenino",
+        "start": 762,
+        "end": 770,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PROFESION",
+        "score": 0.999239444732666,
+        "word": " cirujano",
+        "start": 795,
+        "end": 803,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9984171390533447,
+        "word": " Comunidad Valenciana",
+        "start": 1011,
+        "end": 1031,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.999305009841919,
+        "word": " España",
+        "start": 1036,
+        "end": 1042,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 6,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "URL_WEB": 1,
+        "NUMERO_TELEFONO": 1,
+        "SEXO_SUJETO_ASISTENCIA": 1,
+        "PROFESION": 1,
+        "PAIS": 2
+      },
+      "entities_by_confidence": {
+        "high": 5,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "URL_WEB",
+          "word": ".es",
+          "actual_text": ".es",
+          "confidence": 0.7561254501342773,
+          "start": 441,
+          "end": 444,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " SN",
+          "actual_text": "SN",
+          "confidence": 0.9856159687042236,
+          "start": 635,
+          "end": 637,
+          "model": "CARMEN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9209920167922974,
+          "start": 762,
+          "end": 770,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " cirujano",
+          "actual_text": "cirujano",
+          "confidence": 0.999239444732666,
+          "start": 795,
+          "end": 803,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.9984171390533447,
+          "start": 1011,
+          "end": 1031,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " España",
+          "actual_text": "España",
+          "confidence": 0.999305009841919,
+          "start": 1036,
+          "end": 1042,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "URL_WEB",
+          "word": ".es",
+          "actual_text": ".es",
+          "confidence": 0.7561254501342773,
+          "start": 441,
+          "end": 444,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " SN",
+          "actual_text": "SN",
+          "confidence": 0.9856159687042236,
+          "start": 635,
+          "end": 637,
+          "model": "CARMEN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9209920167922974,
+          "start": 762,
+          "end": 770,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " cirujano",
+          "actual_text": "cirujano",
+          "confidence": 0.999239444732666,
+          "start": 795,
+          "end": 803,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.9984171390533447,
+          "start": 1011,
+          "end": 1031,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " España",
+          "actual_text": "España",
+          "confidence": 0.999305009841919,
+          "start": 1036,
+          "end": 1042,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 12,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "ID_SUJETO_ASISTENCIA": 2,
+      "SEXO_SUJETO_ASISTENCIA": 2,
+      "PROFESION": 2,
+      "TERRITORIO": 1,
+      "PAIS": 3,
+      "URL_WEB": 1,
+      "NUMERO_TELEFONO": 1
+    },
+    "entities_by_confidence": {
+      "high": 10,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.8473867177963257,
+        "start": 637,
+        "end": 638,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "98273645",
+        "actual_text": "98273645",
+        "confidence": 0.8219324350357056,
+        "start": 638,
+        "end": 646,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9950436353683472,
+        "start": 762,
+        "end": 770,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " cirujano",
+        "actual_text": "cirujano",
+        "confidence": 0.9915826916694641,
+        "start": 795,
+        "end": 803,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "TERRITORIO",
+        "word": " Comunidad",
+        "actual_text": "Comunidad",
+        "confidence": 0.7569091320037842,
+        "start": 1011,
+        "end": 1020,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " España",
+        "actual_text": "España",
+        "confidence": 0.9981381893157959,
+        "start": 1036,
+        "end": 1042,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": ".es",
+        "actual_text": ".es",
+        "confidence": 0.7561254501342773,
+        "start": 441,
+        "end": 444,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " SN",
+        "actual_text": "SN",
+        "confidence": 0.9856159687042236,
+        "start": 635,
+        "end": 637,
+        "model": "CARMEN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9209920167922974,
+        "start": 762,
+        "end": 770,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " cirujano",
+        "actual_text": "cirujano",
+        "confidence": 0.999239444732666,
+        "start": 795,
+        "end": 803,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.9984171390533447,
+        "start": 1011,
+        "end": 1031,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " España",
+        "actual_text": "España",
+        "confidence": 0.999305009841919,
+        "start": 1036,
+        "end": 1042,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.8473867177963257,
+        "start": 637,
+        "end": 638,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "98273645",
+        "actual_text": "98273645",
+        "confidence": 0.8219324350357056,
+        "start": 638,
+        "end": 646,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9950436353683472,
+        "start": 762,
+        "end": 770,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " cirujano",
+        "actual_text": "cirujano",
+        "confidence": 0.9915826916694641,
+        "start": 795,
+        "end": 803,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "TERRITORIO",
+        "word": " Comunidad",
+        "actual_text": "Comunidad",
+        "confidence": 0.7569091320037842,
+        "start": 1011,
+        "end": 1020,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " España",
+        "actual_text": "España",
+        "confidence": 0.9981381893157959,
+        "start": 1036,
+        "end": 1042,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": ".es",
+        "actual_text": ".es",
+        "confidence": 0.7561254501342773,
+        "start": 441,
+        "end": 444,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " SN",
+        "actual_text": "SN",
+        "confidence": 0.9856159687042236,
+        "start": 635,
+        "end": 637,
+        "model": "CARMEN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9209920167922974,
+        "start": 762,
+        "end": 770,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " cirujano",
+        "actual_text": "cirujano",
+        "confidence": 0.999239444732666,
+        "start": 795,
+        "end": 803,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.9984171390533447,
+        "start": 1011,
+        "end": 1031,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " España",
+        "actual_text": "España",
+        "confidence": 0.999305009841919,
+        "start": 1036,
+        "end": 1042,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 12,
+    "suspicious_detections": 12,
+    "xxxxxx_detections": 0,
+    "other_detections": 12
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "text": " femenino",
+        "confidence": 0.9950436353683472,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PROFESION",
+        "text": " cirujano",
+        "confidence": 0.9915826916694641,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "text": " España",
+        "confidence": 0.9981381893157959,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PROFESION",
+        "text": " cirujano",
+        "confidence": 0.999239444732666,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "text": " Comunidad Valenciana",
+        "confidence": 0.9984171390533447,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "text": " España",
+        "confidence": 0.999305009841919,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 6
+  }
+}

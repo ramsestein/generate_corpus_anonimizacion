@@ -4,136 +4,102 @@ CÁLCULO DE MÉTRICAS PARA EVALUACIÓN DE LLM JUDGE
 =================================================
 
 Script independiente para calcular métricas de evaluación comparando
-las predicciones del LLM contra la verdad terreno (etiquetas manuales).
+las predicciones del LLM contra la verdad terreno (ground truth).
+
+NO LLAMA A NINGÚN LLM. Solo lee JSONs y calcula métricas.
 
 ENTRADA:
 --------
-JSON con resultados del LLM que debe contener:
-- manual_correction (o manual_label, manual, ground_truth): Verdad terreno
-- llm_bool (o llm_response, llm_prediction, is_valid): Predicción del LLM
+1. JSON con resultados de predicciones del LLM (--predictions):
+   - Lista de objetos con: document_id, keyword/entity, label, is_valid/llm_decision
+   - Ejemplo: outputs/test_results.json
+
+2. Directorio con JSON de entidades reales (--corpus-dir):
+   - Un JSON por documento nombrado <document_id>.json
+   - Cada JSON tiene: { "id": "...", "data": [ {"entity": "...", "text": "..."}, ... ] }
+   - Ejemplo: corpus/ANTIGUO/entidades/
+
+LÓGICA DE MÉTRICAS:
+-------------------
+Para cada documento:
+  - TP: Entidad REAL que aparece en predicciones con TRUE
+  - FN: Entidad REAL que NO aparece o aparece como FALSE
+  - FP: Entidad marcada como TRUE que NO está en entidades reales
+
+Alineación por texto normalizado (lowercase + strip).
 
 SALIDA:
 -------
-CSV con métricas calculadas (TP, FP, FN, TN, precision, recall, F1, etc.)
+JSON con métricas globales y por documento:
+{
+  "global_metrics": { "tp": ..., "fp": ..., "fn": ..., "precision": ..., "recall": ..., "f1": ... },
+  "documents": [ { "document_id": ..., "tp": ..., ... }, ... ]
+}
 
 USO:
 ----
-python compute_llm_metrics.py --json outputs/test_ollama_results.json --output outputs/llm_judge_metrics.csv
+python compute_llm_metrics.py --predictions outputs/test_results.json --corpus-dir corpus/ANTIGUO/entidades --output outputs/llm_metrics.json
 """
 
 import os
 import sys
-import csv
 import json
 import argparse
 import datetime
-from typing import Optional, Dict, List
-from dataclasses import dataclass
+import unicodedata
+from typing import Dict, List, Set, Tuple, Optional, Any
+from dataclasses import dataclass, field, asdict
+from pathlib import Path
 
 
 # ============================================================================
-# CONFIGURACIÓN DE NOMBRES DE COLUMNAS
+# FUNCIONES DE NORMALIZACIÓN
 # ============================================================================
 
-# Nombres posibles para la columna de verdad terreno (manual)
-MANUAL_COLUMN_NAMES = ['manual_correction', 'Corrección manual', 'manual_label', 'manual', 'ground_truth', 'correccion_manual']
-
-# Nombres posibles para la columna de predicción del LLM
-LLM_COLUMN_NAMES = ['llm_bool', 'llm_response', 'llm_prediction', 'is_valid']
-
-
-# ============================================================================
-# ESTRUCTURAS DE DATOS
-# ============================================================================
-
-@dataclass
-class EvaluationMetrics:
+def normalize_text(text: str) -> str:
     """
-    Métricas de evaluación para clasificación binaria.
+    Normaliza texto para comparación robusta.
     
-    Compara predicciones del LLM contra verdad terreno (manual_correction).
+    - Convierte a minúsculas
+    - Elimina espacios al inicio/final
+    - Normaliza espacios múltiples
+    - Normaliza caracteres Unicode (acentos)
     
-    Attributes:
-        tp: True Positives (manual=TRUE y llm=TRUE)
-        fp: False Positives (manual=FALSE y llm=TRUE)
-        fn: False Negatives (manual=TRUE y llm=FALSE)
-        tn: True Negatives (manual=FALSE y llm=FALSE)
-        total: Total de ejemplos válidos evaluados
-    """
-    tp: int = 0
-    fp: int = 0
-    fn: int = 0
-    tn: int = 0
-    total: int = 0
-    
-    @property
-    def tp_pct(self) -> float:
-        """Porcentaje de True Positives sobre el total"""
-        return (self.tp / self.total * 100) if self.total > 0 else 0.0
-    
-    @property
-    def fp_pct(self) -> float:
-        """Porcentaje de False Positives sobre el total"""
-        return (self.fp / self.total * 100) if self.total > 0 else 0.0
-    
-    @property
-    def fn_pct(self) -> float:
-        """Porcentaje de False Negatives sobre el total"""
-        return (self.fn / self.total * 100) if self.total > 0 else 0.0
-    
-    @property
-    def tn_pct(self) -> float:
-        """Porcentaje de True Negatives sobre el total"""
-        return (self.tn / self.total * 100) if self.total > 0 else 0.0
-    
-    @property
-    def precision(self) -> float:
-        """
-        Precision = TP / (TP + FP)
-
-        "De las que el LLM dijo TRUE, ¿cuántas eran correctas?"
-        """
-        denominator = self.tp + self.fp
-        numerator = self.tp
-        return (numerator / denominator) if denominator > 0 else 0.0
-    
-    @property
-    def recall(self) -> float:
-        """
-        Recall = TP / (TP + FN)
-
-        "De las que son TRUE, ¿cuántas detectó el LLM?"
-        """
-        numerator = self.tp
-        denominator = self.tp + self.fn
-        return (numerator / denominator) if denominator > 0 else 0.0
-    
-    @property
-    def f1(self) -> float:
-        """
-        F1-Score = 2 * (precision * recall) / (precision + recall)
+    Args:
+        text: Texto a normalizar
         
-        Media armónica de precision y recall.
-        """
-        denominator = self.precision + self.recall
-        return (2 * self.precision * self.recall / denominator) if denominator > 0 else 0.0
+    Returns:
+        Texto normalizado
+    """
+    if not text or not isinstance(text, str):
+        return ""
     
-    def to_dict(self) -> Dict:
-        """Convierte las métricas a diccionario para exportación"""
-        return {
-            'tp': self.tp,
-            'fp': self.fp,
-            'fn': self.fn,
-            'tn': self.tn,
-            'tp_pct': round(self.tp_pct, 2),
-            'fp_pct': round(self.fp_pct, 2),
-            'fn_pct': round(self.fn_pct, 2),
-            'tn_pct': round(self.tn_pct, 2),
-            'precision': round(self.precision, 4),
-            'recall': round(self.recall, 4),
-            'f1': round(self.f1, 4),
-            'total': self.total
-        }
+    # Strip y lowercase
+    normalized = text.strip().lower()
+    
+    # Normalizar espacios múltiples a uno solo
+    normalized = " ".join(normalized.split())
+    
+    # Normalización Unicode (NFD -> NFC para consistencia)
+    normalized = unicodedata.normalize("NFC", normalized)
+    
+    return normalized
+
+
+def normalize_label(label: str) -> str:
+    """
+    Normaliza etiquetas/labels para comparación.
+    
+    Args:
+        label: Etiqueta a normalizar
+        
+    Returns:
+        Etiqueta normalizada
+    """
+    if not label or not isinstance(label, str):
+        return ""
+    
+    return label.strip().upper()
 
 
 # ============================================================================
@@ -152,328 +118,578 @@ def log_message(message: str, level: str = "INFO"):
     print(f"[{timestamp}] [{level}] {message}")
 
 
+def log_debug(message: str):
+    """Log de nivel DEBUG."""
+    log_message(message, "DEBUG")
+
+
+def log_info(message: str):
+    """Log de nivel INFO."""
+    log_message(message, "INFO")
+
+
+def log_warn(message: str):
+    """Log de nivel WARN."""
+    log_message(message, "WARN")
+
+
+def log_error(message: str):
+    """Log de nivel ERROR."""
+    log_message(message, "ERROR")
+
+
 # ============================================================================
-# FUNCIONES DE PARSEO
+# ESTRUCTURAS DE DATOS
 # ============================================================================
 
-def parse_bool_value(value: str) -> Optional[bool]:
+@dataclass
+class DocumentMetrics:
+    """Métricas de evaluación para un documento."""
+    document_id: str
+    tp: int = 0
+    fp: int = 0
+    fn: int = 0
+    precision: float = 0.0
+    recall: float = 0.0
+    f1: float = 0.0
+    total_real_entities: int = 0
+    total_predictions_true: int = 0
+    
+    def calculate_derived_metrics(self):
+        """Calcula precision, recall y F1 a partir de TP, FP, FN."""
+        # Precision = TP / (TP + FP)
+        if (self.tp + self.fp) > 0:
+            self.precision = self.tp / (self.tp + self.fp)
+        else:
+            self.precision = 0.0
+        
+        # Recall = TP / (TP + FN)
+        if (self.tp + self.fn) > 0:
+            self.recall = self.tp / (self.tp + self.fn)
+        else:
+            self.recall = 0.0
+        
+        # F1 = 2 * (precision * recall) / (precision + recall)
+        if (self.precision + self.recall) > 0:
+            self.f1 = 2 * (self.precision * self.recall) / (self.precision + self.recall)
+        else:
+            self.f1 = 0.0
+    
+    def to_dict(self) -> Dict:
+        """Convierte a diccionario para exportación."""
+        return {
+            "document_id": self.document_id,
+            "tp": self.tp,
+            "fp": self.fp,
+            "fn": self.fn,
+            "precision": round(self.precision, 4),
+            "recall": round(self.recall, 4),
+            "f1": round(self.f1, 4),
+            "total_real_entities": self.total_real_entities,
+            "total_predictions_true": self.total_predictions_true
+        }
+
+
+@dataclass
+class GlobalMetrics:
+    """Métricas globales de evaluación."""
+    tp: int = 0
+    fp: int = 0
+    fn: int = 0
+    precision: float = 0.0
+    recall: float = 0.0
+    f1: float = 0.0
+    total_documents: int = 0
+    total_real_entities: int = 0
+    total_predictions_true: int = 0
+    total_predictions: int = 0
+    
+    def calculate_derived_metrics(self):
+        """Calcula precision, recall y F1 a partir de TP, FP, FN."""
+        # Precision = TP / (TP + FP)
+        if (self.tp + self.fp) > 0:
+            self.precision = self.tp / (self.tp + self.fp)
+        else:
+            self.precision = 0.0
+        
+        # Recall = TP / (TP + FN)
+        if (self.tp + self.fn) > 0:
+            self.recall = self.tp / (self.tp + self.fn)
+        else:
+            self.recall = 0.0
+        
+        # F1 = 2 * (precision * recall) / (precision + recall)
+        if (self.precision + self.recall) > 0:
+            self.f1 = 2 * (self.precision * self.recall) / (self.precision + self.recall)
+        else:
+            self.f1 = 0.0
+    
+    def to_dict(self) -> Dict:
+        """Convierte a diccionario para exportación."""
+        return {
+            "tp": self.tp,
+            "fp": self.fp,
+            "fn": self.fn,
+            "precision": round(self.precision, 4),
+            "recall": round(self.recall, 4),
+            "f1": round(self.f1, 4),
+            "total_documents": self.total_documents,
+            "total_real_entities": self.total_real_entities,
+            "total_predictions_true": self.total_predictions_true,
+            "total_predictions": self.total_predictions
+        }
+
+
+# ============================================================================
+# CARGA DE DATOS
+# ============================================================================
+
+def load_predictions(predictions_path: str) -> List[Dict]:
     """
-    Parsea un valor string a booleano.
-    
-    Valores aceptados para TRUE:
-    - TRUE, True, true, 1, SI, Si, si, YES, Yes, yes, CORRECTO, VÁLIDO, VALIDO
-    
-    Valores aceptados para FALSE:
-    - FALSE, False, false, 0, NO, No, no, INCORRECTO, INVÁLIDO, INVALIDO
+    Carga el archivo JSON de predicciones del LLM.
     
     Args:
-        value: String a parsear
+        predictions_path: Ruta al archivo JSON de predicciones
         
     Returns:
-        True, False o None si no se puede determinar
+        Lista de predicciones
     """
-    if not value or not isinstance(value, str):
-        return None
+    log_info(f"Cargando predicciones desde: {predictions_path}")
     
-    value_clean = value.strip().upper()
+    if not os.path.exists(predictions_path):
+        raise FileNotFoundError(f"No se encontró el archivo de predicciones: {predictions_path}")
     
-    # Valores que se consideran TRUE
-    if value_clean in ('TRUE', '1', 'SI', 'YES', 'CORRECTO', 'VÁLIDO', 'VALIDO'):
-        return True
-    # Valores que se consideran FALSE
-    elif value_clean in ('FALSE', '0', 'NO', 'INCORRECTO', 'INVÁLIDO', 'INVALIDO'):
-        return False
-    # Cualquier otro valor → None (se ignorará la fila)
-    else:
-        return None
+    with open(predictions_path, 'r', encoding='utf-8') as f:
+        predictions = json.load(f)
+    
+    if not isinstance(predictions, list):
+        raise ValueError("El archivo de predicciones debe ser una lista JSON")
+    
+    log_info(f"  → Cargadas {len(predictions)} predicciones")
+    return predictions
 
 
-# ============================================================================
-# FUNCIÓN PRINCIPAL DE CÁLCULO DE MÉTRICAS
-# ============================================================================
-
-def calculate_metrics_from_json(json_path: str) -> EvaluationMetrics:
+def load_corpus_entities(corpus_dir: str) -> Dict[str, Set[str]]:
     """
-    Lee un JSON con resultados del LLM y calcula métricas de evaluación.
+    Carga todas las entidades reales del corpus.
     
-    El JSON debe ser una lista de objetos, cada uno conteniendo (como mínimo):
-    - Una clave de verdad terreno: manual_correction, manual_label, manual, o ground_truth
-    - Una clave de predicción LLM: llm_bool, llm_response, llm_prediction, o is_valid
+    Cada archivo JSON en el directorio representa un documento con sus entidades.
     
     Args:
-        json_path: Ruta al JSON con resultados del LLM
+        corpus_dir: Directorio con los JSON de entidades
         
     Returns:
-        EvaluationMetrics con TP, FP, FN, TN y métricas derivadas
-        
-    Raises:
-        FileNotFoundError: Si el JSON no existe
-        ValueError: Si el JSON no tiene las columnas necesarias
+        Diccionario: { document_id: set(texto_normalizado, ...) }
     """
-    log_message(f"Leyendo JSON: {json_path}")
+    log_info(f"Cargando entidades del corpus desde: {corpus_dir}")
     
-    if not os.path.exists(json_path):
-        raise FileNotFoundError(f"No se encontró el archivo JSON: {json_path}")
+    if not os.path.exists(corpus_dir):
+        raise FileNotFoundError(f"No se encontró el directorio del corpus: {corpus_dir}")
     
-    metrics = EvaluationMetrics()
-    skipped_rows = 0
+    corpus_entities: Dict[str, Set[str]] = {}
+    total_entities = 0
+    files_loaded = 0
     
-    try:
-        with open(json_path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        
-        # El JSON debe ser una lista de objetos
-        if not isinstance(data, list):
-            raise ValueError(
-                f"El JSON debe ser una lista de objetos.\n"
-                f"Tipo recibido: {type(data).__name__}"
-            )
-        
-        if len(data) == 0:
-            raise ValueError("El JSON está vacío, no hay datos para procesar")
-        
-        # Usar el primer objeto para detectar las claves disponibles
-        first_item = data[0]
-        if not isinstance(first_item, dict):
-            raise ValueError(
-                f"Cada elemento del JSON debe ser un objeto/diccionario.\n"
-                f"Tipo del primer elemento: {type(first_item).__name__}"
-            )
-        
-        # Detectar nombres de columnas
-        fieldnames = list(first_item.keys())
-        
-        # Buscar columna de verdad terreno
-        manual_col = None
-        for col in MANUAL_COLUMN_NAMES:
-            if col in fieldnames:
-                manual_col = col
-                break
-        
-        # Buscar columna de predicción LLM
-        llm_col = None
-        for col in LLM_COLUMN_NAMES:
-            if col in fieldnames:
-                llm_col = col
-                break
-        
-        # Validar que encontramos ambas columnas
-        if not manual_col:
-            raise ValueError(
-                f"JSON debe contener una clave de verdad terreno.\n"
-                f"Claves esperadas: {', '.join(MANUAL_COLUMN_NAMES)}\n"
-                f"Claves encontradas: {', '.join(fieldnames)}"
-            )
-        
-        if not llm_col:
-            raise ValueError(
-                f"JSON debe contener una clave de predicción del LLM.\n"
-                f"Claves esperadas: {', '.join(LLM_COLUMN_NAMES)}\n"
-                f"Claves encontradas: {', '.join(fieldnames)}"
-            )
-        
-        log_message(f"  → Clave verdad terreno: '{manual_col}'")
-        log_message(f"  → Clave predicción LLM: '{llm_col}'")
-        
-        # Procesar cada objeto del JSON
-        for row_num, row in enumerate(data, start=1):
-            # Parsear valores booleanos
-            manual_value = parse_bool_value(row.get(manual_col, ''))
-            llm_value = parse_bool_value(row.get(llm_col, ''))
+    # Buscar todos los archivos JSON
+    json_files = list(Path(corpus_dir).glob("*.json"))
+    
+    if not json_files:
+        raise ValueError(f"No se encontraron archivos JSON en: {corpus_dir}")
+    
+    for json_file in json_files:
+        try:
+            with open(json_file, 'r', encoding='utf-8') as f:
+                doc_data = json.load(f)
             
-            # Saltar filas sin valores válidos
-            if manual_value is None or llm_value is None:
-                skipped_rows += 1
-                continue
+            # Obtener document_id del archivo
+            # Puede estar en "id", "document_id" o en el nombre del archivo
+            doc_id = None
+            if "id" in doc_data:
+                doc_id = doc_data["id"]
+            elif "document_id" in doc_data:
+                doc_id = doc_data["document_id"]
+            else:
+                # Usar el nombre del archivo sin extensión
+                doc_id = json_file.stem
             
-            # Contar según la matriz de confusión
-            # TP: manual=TRUE y llm=TRUE → Correcto, detectó entidad válida
-            if manual_value is True and llm_value is True:
-                metrics.tp += 1
-            # FP: manual=FALSE y llm=TRUE → Error, falso positivo
-            elif manual_value is False and llm_value is True:
-                metrics.fp += 1
-            # FN: manual=TRUE y llm=FALSE → Error, falso negativo (missed)
-            elif manual_value is True and llm_value is False:
-                metrics.fn += 1
-            # TN: manual=FALSE y llm=FALSE → Correcto, rechazó entidad inválida
-            elif manual_value is False and llm_value is False:
-                metrics.tn += 1
+            # Extraer entidades
+            entities_set: Set[str] = set()
             
-            metrics.total += 1
-        
-        # Mostrar advertencia si se saltaron filas
-        if skipped_rows > 0:
-            log_message(
-                f"  ⚠ Se saltaron {skipped_rows} objetos sin valores válidos",
-                "WARN"
-            )
-        
-        log_message(f"  ✓ Procesadas {metrics.total} entradas válidas")
-        
-        return metrics
-        
-    except Exception as e:
-        log_message(f"Error calculando métricas: {e}", "ERROR")
-        raise
+            # Las entidades pueden estar en "data" o "entities"
+            entities_list = doc_data.get("data", doc_data.get("entities", []))
+            
+            for entity in entities_list:
+                # El texto puede estar en "text", "entity_text", "palabra", "keyword"
+                text = entity.get("text", entity.get("entity_text", entity.get("palabra", entity.get("keyword", ""))))
+                
+                if text:
+                    normalized = normalize_text(text)
+                    if normalized:
+                        entities_set.add(normalized)
+            
+            if doc_id:
+                corpus_entities[doc_id] = entities_set
+                total_entities += len(entities_set)
+                files_loaded += 1
+                
+        except Exception as e:
+            log_warn(f"Error al cargar {json_file}: {e}")
+            continue
+    
+    log_info(f"  → Cargados {files_loaded} documentos con {total_entities} entidades únicas")
+    return corpus_entities
 
 
 # ============================================================================
-# FUNCIONES DE EXPORTACIÓN
+# PROCESAMIENTO Y CÁLCULO DE MÉTRICAS
 # ============================================================================
 
-def save_metrics_to_csv(metrics: EvaluationMetrics, output_path: str):
+def extract_prediction_info(prediction: Dict) -> Tuple[str, str, bool]:
     """
-    Guarda las métricas de evaluación en un archivo CSV.
-    
-    Genera un CSV con una sola fila que contiene todas las métricas.
+    Extrae document_id, texto y decisión del LLM de una predicción.
     
     Args:
-        metrics: Objeto EvaluationMetrics con las métricas calculadas
-        output_path: Ruta del archivo CSV de salida
+        prediction: Diccionario con los datos de una predicción
+        
+    Returns:
+        Tupla (document_id, texto_normalizado, llm_decision_bool)
     """
-    log_message(f"Guardando métricas en: {output_path}")
+    # Document ID
+    doc_id = prediction.get("document_id", prediction.get("doc_id", ""))
     
-    try:
-        # Crear directorio si no existe
-        output_dir = os.path.dirname(output_path)
-        if output_dir:
-            os.makedirs(output_dir, exist_ok=True)
-        
-        # Convertir métricas a diccionario
-        metrics_dict = metrics.to_dict()
-        
-        # Escribir CSV
-        with open(output_path, 'w', newline='', encoding='utf-8') as f:
-            fieldnames = list(metrics_dict.keys())
-            writer = csv.DictWriter(f, fieldnames=fieldnames)
-            writer.writeheader()
-            writer.writerow(metrics_dict)
-        
-        log_message(f"  ✓ Métricas guardadas exitosamente")
-        
-    except Exception as e:
-        log_message(f"Error guardando métricas: {e}", "ERROR")
-        raise
+    # Texto de la entidad (puede tener varios nombres)
+    text = prediction.get("keyword", 
+           prediction.get("entity", 
+           prediction.get("entity_text", 
+           prediction.get("text", 
+           prediction.get("texto_detectado", "")))))
+    
+    # Decisión del LLM (puede ser bool o string)
+    llm_decision = prediction.get("is_valid",
+                   prediction.get("llm_decision",
+                   prediction.get("llm_bool", False)))
+    
+    # Convertir a bool si es string
+    if isinstance(llm_decision, str):
+        llm_decision = llm_decision.strip().upper() in ["TRUE", "1", "YES", "SI", "VÁLIDO", "CORRECTO"]
+    elif not isinstance(llm_decision, bool):
+        llm_decision = bool(llm_decision)
+    
+    return doc_id, normalize_text(text), llm_decision
 
 
-def print_metrics_summary(metrics: EvaluationMetrics):
+def calculate_document_metrics(
+    doc_id: str,
+    real_entities: Set[str],
+    predictions_true: Set[str],
+    predictions_false: Set[str]
+) -> DocumentMetrics:
     """
-    Imprime resumen de las métricas de evaluación en consola.
+    Calcula métricas para un documento individual.
+    
+    Definición de métricas:
+    - TP: Entidad REAL que está en predicciones TRUE
+    - FN: Entidad REAL que NO está en predicciones o está como FALSE  
+    - FP: Entidad en predicciones TRUE que NO está en entidades reales
     
     Args:
-        metrics: Objeto EvaluationMetrics con las métricas calculadas
+        doc_id: ID del documento
+        real_entities: Set de textos normalizados de entidades reales
+        predictions_true: Set de textos normalizados marcados como TRUE por LLM
+        predictions_false: Set de textos normalizados marcados como FALSE por LLM
+        
+    Returns:
+        DocumentMetrics con los valores calculados
     """
-    print(f"\n{'='*70}")
-    print(f"MÉTRICAS DE EVALUACIÓN")
-    print(f"{'='*70}")
+    metrics = DocumentMetrics(document_id=doc_id)
+    metrics.total_real_entities = len(real_entities)
+    metrics.total_predictions_true = len(predictions_true)
     
-    print(f"\n📊 MATRIZ DE CONFUSIÓN")
-    print(f"  Total de ejemplos evaluados: {metrics.total}")
-    print(f"")
-    print(f"  True Positives (TP):   {metrics.tp:5d} ({metrics.tp_pct:5.1f}%)")
-    print(f"  False Positives (FP):  {metrics.fp:5d} ({metrics.fp_pct:5.1f}%)")
-    print(f"  False Negatives (FN):  {metrics.fn:5d} ({metrics.fn_pct:5.1f}%)")
-    print(f"  True Negatives (TN):   {metrics.tn:5d} ({metrics.tn_pct:5.1f}%)")
+    # TP: Entidades reales que están en predicciones TRUE
+    tp_entities = real_entities & predictions_true
+    metrics.tp = len(tp_entities)
     
-    print(f"\n📈 MÉTRICAS DE RENDIMIENTO")
-    print(f"  Precision: {metrics.precision:.4f} ({metrics.precision*100:.2f}%)")
-    print(f"  Recall:    {metrics.recall:.4f} ({metrics.recall*100:.2f}%)")
-    print(f"  F1-Score:  {metrics.f1:.4f} ({metrics.f1*100:.2f}%)")
+    # FN: Entidades reales que NO están en predicciones TRUE
+    # (ya sea porque no aparecen o porque están como FALSE)
+    fn_entities = real_entities - predictions_true
+    metrics.fn = len(fn_entities)
     
-    print(f"\n{'='*70}\n")
+    # FP: Entidades en predicciones TRUE que NO son reales
+    fp_entities = predictions_true - real_entities
+    metrics.fp = len(fp_entities)
+    
+    # Calcular métricas derivadas
+    metrics.calculate_derived_metrics()
+    
+    return metrics
+
+
+def process_metrics(
+    predictions: List[Dict],
+    corpus_entities: Dict[str, Set[str]],
+    verbose: bool = False
+) -> Tuple[GlobalMetrics, List[DocumentMetrics]]:
+    """
+    Procesa todas las predicciones y calcula métricas.
+    
+    Args:
+        predictions: Lista de predicciones del LLM
+        corpus_entities: Diccionario de entidades reales por documento
+        verbose: Si True, muestra información detallada
+        
+    Returns:
+        Tupla (GlobalMetrics, lista de DocumentMetrics)
+    """
+    log_info("Procesando predicciones y calculando métricas...")
+    
+    # Agrupar predicciones por documento
+    predictions_by_doc: Dict[str, Dict[str, Set[str]]] = {}
+    
+    for pred in predictions:
+        doc_id, text, llm_decision = extract_prediction_info(pred)
+        
+        if not doc_id or not text:
+            continue
+        
+        if doc_id not in predictions_by_doc:
+            predictions_by_doc[doc_id] = {"true": set(), "false": set()}
+        
+        if llm_decision:
+            predictions_by_doc[doc_id]["true"].add(text)
+        else:
+            predictions_by_doc[doc_id]["false"].add(text)
+    
+    log_info(f"  → Predicciones agrupadas en {len(predictions_by_doc)} documentos")
+    
+    # Calcular métricas por documento
+    document_metrics_list: List[DocumentMetrics] = []
+    global_metrics = GlobalMetrics()
+    
+    # Documentos que tienen predicciones
+    docs_with_predictions = set(predictions_by_doc.keys())
+    # Documentos que tienen entidades reales
+    docs_with_entities = set(corpus_entities.keys())
+    
+    # Procesar documentos que tienen predicciones
+    for doc_id in docs_with_predictions:
+        preds_true = predictions_by_doc[doc_id]["true"]
+        preds_false = predictions_by_doc[doc_id]["false"]
+        
+        # Obtener entidades reales (si no hay, set vacío)
+        real_entities = corpus_entities.get(doc_id, set())
+        
+        if not real_entities and verbose:
+            log_warn(f"  → Documento {doc_id}: sin entidades reales en corpus")
+        
+        # Calcular métricas del documento
+        doc_metrics = calculate_document_metrics(
+            doc_id, real_entities, preds_true, preds_false
+        )
+        document_metrics_list.append(doc_metrics)
+        
+        # Acumular en métricas globales
+        global_metrics.tp += doc_metrics.tp
+        global_metrics.fp += doc_metrics.fp
+        global_metrics.fn += doc_metrics.fn
+        global_metrics.total_real_entities += doc_metrics.total_real_entities
+        global_metrics.total_predictions_true += doc_metrics.total_predictions_true
+        
+        if verbose:
+            log_debug(f"  → Doc {doc_id}: TP={doc_metrics.tp}, FP={doc_metrics.fp}, FN={doc_metrics.fn}")
+    
+    # Contar documentos y predicciones
+    global_metrics.total_documents = len(document_metrics_list)
+    global_metrics.total_predictions = len(predictions)
+    
+    # Calcular métricas derivadas globales
+    global_metrics.calculate_derived_metrics()
+    
+    log_info(f"  → Procesados {global_metrics.total_documents} documentos")
+    log_info(f"  → Métricas globales: TP={global_metrics.tp}, FP={global_metrics.fp}, FN={global_metrics.fn}")
+    log_info(f"  → Precision={global_metrics.precision:.4f}, Recall={global_metrics.recall:.4f}, F1={global_metrics.f1:.4f}")
+    
+    return global_metrics, document_metrics_list
+
+
+# ============================================================================
+# EXPORTACIÓN DE RESULTADOS
+# ============================================================================
+
+def export_results(
+    global_metrics: GlobalMetrics,
+    document_metrics: List[DocumentMetrics],
+    output_path: str
+):
+    """
+    Exporta los resultados a un archivo JSON.
+    
+    Args:
+        global_metrics: Métricas globales
+        document_metrics: Lista de métricas por documento
+        output_path: Ruta del archivo de salida
+    """
+    log_info(f"Exportando resultados a: {output_path}")
+    
+    # Crear directorio si no existe
+    output_dir = os.path.dirname(output_path)
+    if output_dir and not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+    
+    # Construir estructura de salida
+    results = {
+        "metadata": {
+            "generated_at": datetime.datetime.now().isoformat(),
+            "script": "compute_llm_metrics.py",
+            "description": "Métricas de evaluación LLM vs Ground Truth"
+        },
+        "global_metrics": global_metrics.to_dict(),
+        "documents": [doc.to_dict() for doc in document_metrics]
+    }
+    
+    # Guardar JSON
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(results, f, indent=2, ensure_ascii=False)
+    
+    log_info(f"  → Resultados guardados exitosamente")
+
+
+def print_summary(global_metrics: GlobalMetrics, document_metrics: List[DocumentMetrics]):
+    """
+    Imprime un resumen de las métricas en consola.
+    
+    Args:
+        global_metrics: Métricas globales
+        document_metrics: Lista de métricas por documento
+    """
+    print("\n" + "="*70)
+    print("RESUMEN DE MÉTRICAS")
+    print("="*70)
+    
+    print(f"\n📊 MÉTRICAS GLOBALES:")
+    print(f"   Total documentos evaluados: {global_metrics.total_documents}")
+    print(f"   Total predicciones:         {global_metrics.total_predictions}")
+    print(f"   Total entidades reales:     {global_metrics.total_real_entities}")
+    print(f"   Predicciones TRUE:          {global_metrics.total_predictions_true}")
+    
+    print(f"\n📈 MATRIZ DE CONFUSIÓN:")
+    print(f"   TP (True Positives):  {global_metrics.tp}")
+    print(f"   FP (False Positives): {global_metrics.fp}")
+    print(f"   FN (False Negatives): {global_metrics.fn}")
+    
+    print(f"\n📉 MÉTRICAS DE RENDIMIENTO:")
+    print(f"   Precision: {global_metrics.precision:.4f} ({global_metrics.precision*100:.2f}%)")
+    print(f"   Recall:    {global_metrics.recall:.4f} ({global_metrics.recall*100:.2f}%)")
+    print(f"   F1-Score:  {global_metrics.f1:.4f} ({global_metrics.f1*100:.2f}%)")
+    
+    # Top 5 documentos con peor rendimiento (F1 más bajo)
+    if document_metrics:
+        sorted_docs = sorted(document_metrics, key=lambda x: x.f1)
+        print(f"\n⚠️  TOP 5 DOCUMENTOS CON PEOR F1:")
+        for i, doc in enumerate(sorted_docs[:5], 1):
+            print(f"   {i}. {doc.document_id}: F1={doc.f1:.4f} (TP={doc.tp}, FP={doc.fp}, FN={doc.fn})")
+        
+        # Top 5 documentos con mejor rendimiento
+        sorted_docs_best = sorted(document_metrics, key=lambda x: x.f1, reverse=True)
+        print(f"\n✅ TOP 5 DOCUMENTOS CON MEJOR F1:")
+        for i, doc in enumerate(sorted_docs_best[:5], 1):
+            print(f"   {i}. {doc.document_id}: F1={doc.f1:.4f} (TP={doc.tp}, FP={doc.fp}, FN={doc.fn})")
+    
+    print("\n" + "="*70 + "\n")
 
 
 # ============================================================================
 # CLI Y MAIN
 # ============================================================================
 
-def main():
-    """Función principal del script"""
+def parse_args():
+    """Parsea argumentos de línea de comandos."""
     parser = argparse.ArgumentParser(
-        description='Cálculo de métricas de evaluación para LLM Judge',
+        description="Calcula métricas de evaluación LLM comparando predicciones con entidades reales.",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Ejemplos de uso:
-
-  # Calcular métricas desde JSON de resultados del LLM
-  python compute_llm_metrics.py --json outputs/test_ollama_results.json --output outputs/llm_judge_metrics.csv
-  
-  # Con rutas relativas
-  python compute_llm_metrics.py --json outputs/llm_results.json --output outputs/metrics.csv
-
-CLAVES REQUERIDAS EN EL JSON DE ENTRADA:
-=========================================
-
-El JSON debe ser una lista de objetos, cada uno conteniendo estas claves
-(el script las detecta automáticamente):
-
-Verdad terreno (ground truth) - al menos una de:
-  - manual_correction
-  - manual_label
-  - manual
-  - ground_truth
-
-Predicción del LLM - al menos una de:
-  - llm_bool
-  - llm_response
-  - llm_prediction
-  - is_valid
-
-Valores aceptados: true/false, TRUE/FALSE, 1/0, SI/NO, YES/NO, etc.
-
-MÉTRICAS CALCULADAS:
-====================
-
-- TP (True Positive):   manual=TRUE y llm=TRUE   → Correcto
-- FP (False Positive):  manual=FALSE y llm=TRUE  → Falso positivo
-- FN (False Negative):  manual=TRUE y llm=FALSE  → Falso negativo (missed)
-- TN (True Negative):   manual=FALSE y llm=FALSE → Correcto
-
-- Precision = TP / (TP + FP)
-- Recall    = TP / (TP + FN)
-- F1        = 2 * (Precision * Recall) / (Precision + Recall)
+  python compute_llm_metrics.py --predictions outputs/test_results.json --corpus-dir corpus/ANTIGUO/entidades --output outputs/metrics.json
+  python compute_llm_metrics.py -p outputs/test_results.json -c corpus/ANTIGUO/entidades -o outputs/metrics.json -v
         """
     )
     
     parser.add_argument(
-        '--json',
+        "--predictions", "-p",
         required=True,
-        help='Ruta al JSON con resultados del LLM (debe contener manual_correction y llm_bool o equivalentes)'
+        help="Ruta al archivo JSON con las predicciones del LLM"
     )
     
     parser.add_argument(
-        '--output',
+        "--corpus-dir", "-c",
         required=True,
-        help='Ruta de salida para el CSV de métricas'
+        help="Directorio con los JSON de entidades reales del corpus"
     )
     
-    args = parser.parse_args()
+    parser.add_argument(
+        "--output", "-o",
+        required=True,
+        help="Ruta del archivo JSON de salida con las métricas"
+    )
+    
+    parser.add_argument(
+        "--verbose", "-v",
+        action="store_true",
+        help="Muestra información detallada de depuración"
+    )
+    
+    parser.add_argument(
+        "--no-summary",
+        action="store_true",
+        help="No mostrar el resumen en consola"
+    )
+    
+    return parser.parse_args()
+
+
+def main():
+    """Función principal del script."""
+    args = parse_args()
+    
+    print("\n" + "="*70)
+    print("COMPUTE LLM METRICS - Evaluación de predicciones LLM")
+    print("="*70 + "\n")
     
     try:
-        log_message("="*70)
-        log_message("CÁLCULO DE MÉTRICAS DE EVALUACIÓN")
-        log_message("="*70)
+        # 1. Cargar predicciones
+        predictions = load_predictions(args.predictions)
         
-        # 1. Calcular métricas desde JSON
-        metrics = calculate_metrics_from_json(args.json)
+        # 2. Cargar entidades del corpus
+        corpus_entities = load_corpus_entities(args.corpus_dir)
         
-        # 2. Imprimir resumen en consola
-        print_metrics_summary(metrics)
+        # 3. Procesar y calcular métricas
+        global_metrics, document_metrics = process_metrics(
+            predictions, 
+            corpus_entities,
+            verbose=args.verbose
+        )
         
-        # 3. Guardar resultados en CSV
-        save_metrics_to_csv(metrics, args.output)
+        # 4. Exportar resultados
+        export_results(global_metrics, document_metrics, args.output)
         
-        log_message("="*70)
-        log_message("✓ CÁLCULO DE MÉTRICAS COMPLETADO")
-        log_message("="*70)
+        # 5. Mostrar resumen (opcional)
+        if not args.no_summary:
+            print_summary(global_metrics, document_metrics)
         
+        log_info("✅ Proceso completado exitosamente")
+        return 0
+        
+    except FileNotFoundError as e:
+        log_error(f"Archivo no encontrado: {e}")
+        return 1
+    except ValueError as e:
+        log_error(f"Error de validación: {e}")
+        return 1
     except Exception as e:
-        log_message(f"Error: {e}", "ERROR")
+        log_error(f"Error inesperado: {e}")
         import traceback
         traceback.print_exc()
-        sys.exit(1)
+        return 1
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

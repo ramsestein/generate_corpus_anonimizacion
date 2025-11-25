@@ -1,0 +1,1479 @@
+{
+  "document_id": "00ca4c0f-859c-4891-acdb-0698c2ded3e1",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA DE CIRUGÍA GENERAL** Paciente: Laura Méndez Iglesias que acude para valoración y seguimiento en consultas externas. La paciente, de sexo femenino, se encuentra en situación estable tras el procedimiento quirúrgico realizado. Se revisa la analítica reciente que muestra parámetros dentro de la normalidad y se correlaciona con la buena evolución clínica. Se ha contactado con el cirujano de referencia para coordinar el alta hospitalaria. El dispositivo médico implantado, con número de serie SN-98237641, funciona dentro de los parámetros establecidos y no se evidencian complicaciones asociadas al mismo. La paciente continúa con el plan terapéutico establecido y se deriva a control ambulatorio. Para cualquier gestión o consulta relacionada con este caso, puede contactarse con el equipo asistencial a través de los siguientes canales de correo electrónico: ana.garcia@clinic.es, carlos.martinez@clinic.es o ana.martinez@clinic.es. El parte de interconsulta ha sido remitido al Hospital Clínico San Carlos para su archivo en la historia clínica digital. La Dra. Elena Rodríguez Santos, profesional con Grado en Medicina, será la encargada del seguimiento posterior. Cabe mencionar que el proceso asistencial se ajusta a los protocolos establecidos por el Ministerio de Sanidad y la Comunidad Valenciana. La paciente presenta el número de beneficiaria del plan de salud B-458712369 activo y vigente.",
+  "text_length": 1423,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 9,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9993465542793274,
+        "word": " Laura Méndez Iglesias",
+        "start": 53,
+        "end": 74,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7376992702484131,
+        "word": "-",
+        "start": 516,
+        "end": 517,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9984365105628967,
+        "word": " ana.garcia@clinic.es",
+        "start": 883,
+        "end": 903,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9982591271400452,
+        "word": " car",
+        "start": 905,
+        "end": 908,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9965763092041016,
+        "word": "los.martinez@clinic.es",
+        "start": 908,
+        "end": 930,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9982536435127258,
+        "word": " ana.martinez@clinic.es",
+        "start": 933,
+        "end": 955,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9984965324401855,
+        "word": " Hospital Clínico San Carlos",
+        "start": 1003,
+        "end": 1030,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9993783831596375,
+        "word": " Elena Rodríguez Santos",
+        "start": 1087,
+        "end": 1109,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7023686170578003,
+        "word": " plan de salud B-458712369",
+        "start": 1380,
+        "end": 1405,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 9,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 2,
+        "ID_SUJETO_ASISTENCIA": 1,
+        "CORREO_ELECTRONICO": 4,
+        "HOSPITAL": 1,
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 7,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Laura Méndez Iglesias",
+          "actual_text": "Laura Méndez Iglesias",
+          "confidence": 0.9993465542793274,
+          "start": 53,
+          "end": 74,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.7376992702484131,
+          "start": 516,
+          "end": 517,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " ana.garcia@clinic.es",
+          "actual_text": "ana.garcia@clinic.es",
+          "confidence": 0.9984365105628967,
+          "start": 883,
+          "end": 903,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.9982591271400452,
+          "start": 905,
+          "end": 908,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "los.martinez@clinic.es",
+          "actual_text": "los.martinez@clinic.es",
+          "confidence": 0.9965763092041016,
+          "start": 908,
+          "end": 930,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " ana.martinez@clinic.es",
+          "actual_text": "ana.martinez@clinic.es",
+          "confidence": 0.9982536435127258,
+          "start": 933,
+          "end": 955,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Hospital Clínico San Carlos",
+          "actual_text": "Hospital Clínico San Carlos",
+          "confidence": 0.9984965324401855,
+          "start": 1003,
+          "end": 1030,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena Rodríguez Santos",
+          "actual_text": "Elena Rodríguez Santos",
+          "confidence": 0.9993783831596375,
+          "start": 1087,
+          "end": 1109,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de salud B-458712369",
+          "actual_text": "plan de salud B-458712369",
+          "confidence": 0.7023686170578003,
+          "start": 1380,
+          "end": 1405,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Laura Méndez Iglesias",
+          "actual_text": "Laura Méndez Iglesias",
+          "confidence": 0.9993465542793274,
+          "start": 53,
+          "end": 74,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.7376992702484131,
+          "start": 516,
+          "end": 517,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " ana.garcia@clinic.es",
+          "actual_text": "ana.garcia@clinic.es",
+          "confidence": 0.9984365105628967,
+          "start": 883,
+          "end": 903,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.9982591271400452,
+          "start": 905,
+          "end": 908,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "los.martinez@clinic.es",
+          "actual_text": "los.martinez@clinic.es",
+          "confidence": 0.9965763092041016,
+          "start": 908,
+          "end": 930,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " ana.martinez@clinic.es",
+          "actual_text": "ana.martinez@clinic.es",
+          "confidence": 0.9982536435127258,
+          "start": 933,
+          "end": 955,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Hospital Clínico San Carlos",
+          "actual_text": "Hospital Clínico San Carlos",
+          "confidence": 0.9984965324401855,
+          "start": 1003,
+          "end": 1030,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena Rodríguez Santos",
+          "actual_text": "Elena Rodríguez Santos",
+          "confidence": 0.9993783831596375,
+          "start": 1087,
+          "end": 1109,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de salud B-458712369",
+          "actual_text": "plan de salud B-458712369",
+          "confidence": 0.7023686170578003,
+          "start": 1380,
+          "end": 1405,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 20,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9950286746025085,
+        "word": " Méndez",
+        "start": 59,
+        "end": 65,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9882276654243469,
+        "word": " Iglesias",
+        "start": 66,
+        "end": 74,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.9197606444358826,
+        "word": " sexo",
+        "start": 154,
+        "end": 158,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "SEXO_SUJETO_ASISTENCIA",
+        "score": 0.9345507621765137,
+        "word": " femenino",
+        "start": 159,
+        "end": 167,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.991305410861969,
+        "word": " SN",
+        "start": 514,
+        "end": 516,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9826340079307556,
+        "word": "gar",
+        "start": 887,
+        "end": 890,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9566115736961365,
+        "word": "cia",
+        "start": 890,
+        "end": 893,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9458407759666443,
+        "word": "mar",
+        "start": 912,
+        "end": 915,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9544210433959961,
+        "word": "tin",
+        "start": 915,
+        "end": 918,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9656279683113098,
+        "word": "ez",
+        "start": 918,
+        "end": 920,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9193872809410095,
+        "word": "mar",
+        "start": 937,
+        "end": 940,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.953176736831665,
+        "word": "tin",
+        "start": 940,
+        "end": 943,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9490261077880859,
+        "word": "ez",
+        "start": 943,
+        "end": 945,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9997666478157043,
+        "word": " Hospital Clínico San Carlos",
+        "start": 1003,
+        "end": 1030,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9539788365364075,
+        "word": " clínica",
+        "start": 1062,
+        "end": 1069,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.8007628321647644,
+        "word": " Elena",
+        "start": 1087,
+        "end": 1092,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9981523156166077,
+        "word": " Rodríguez",
+        "start": 1093,
+        "end": 1102,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9936234354972839,
+        "word": " Santos",
+        "start": 1103,
+        "end": 1109,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.8479442000389099,
+        "word": " de Sanidad",
+        "start": 1291,
+        "end": 1301,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9889539480209351,
+        "word": " Comunidad Valenciana",
+        "start": 1307,
+        "end": 1327,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 20,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 13,
+        "ID_SUJETO_ASISTENCIA": 1,
+        "SEXO_SUJETO_ASISTENCIA": 1,
+        "NUMERO_TELEFONO": 1,
+        "HOSPITAL": 1,
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "PAIS": 2
+      },
+      "entities_by_confidence": {
+        "high": 20,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9950286746025085,
+          "start": 59,
+          "end": 65,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.9882276654243469,
+          "start": 66,
+          "end": 74,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.9197606444358826,
+          "start": 154,
+          "end": 158,
+          "model": "CARMEN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9345507621765137,
+          "start": 159,
+          "end": 167,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " SN",
+          "actual_text": "SN",
+          "confidence": 0.991305410861969,
+          "start": 514,
+          "end": 516,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "gar",
+          "actual_text": "gar",
+          "confidence": 0.9826340079307556,
+          "start": 887,
+          "end": 890,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "cia",
+          "actual_text": "cia",
+          "confidence": 0.9566115736961365,
+          "start": 890,
+          "end": 893,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "mar",
+          "actual_text": "mar",
+          "confidence": 0.9458407759666443,
+          "start": 912,
+          "end": 915,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "tin",
+          "actual_text": "tin",
+          "confidence": 0.9544210433959961,
+          "start": 915,
+          "end": 918,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "ez",
+          "actual_text": "ez",
+          "confidence": 0.9656279683113098,
+          "start": 918,
+          "end": 920,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "mar",
+          "actual_text": "mar",
+          "confidence": 0.9193872809410095,
+          "start": 937,
+          "end": 940,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "tin",
+          "actual_text": "tin",
+          "confidence": 0.953176736831665,
+          "start": 940,
+          "end": 943,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "ez",
+          "actual_text": "ez",
+          "confidence": 0.9490261077880859,
+          "start": 943,
+          "end": 945,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Hospital Clínico San Carlos",
+          "actual_text": "Hospital Clínico San Carlos",
+          "confidence": 0.9997666478157043,
+          "start": 1003,
+          "end": 1030,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.9539788365364075,
+          "start": 1062,
+          "end": 1069,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena",
+          "actual_text": "Elena",
+          "confidence": 0.8007628321647644,
+          "start": 1087,
+          "end": 1092,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "Rodríguez",
+          "confidence": 0.9981523156166077,
+          "start": 1093,
+          "end": 1102,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Santos",
+          "actual_text": "Santos",
+          "confidence": 0.9936234354972839,
+          "start": 1103,
+          "end": 1109,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " de Sanidad",
+          "actual_text": "de Sanidad",
+          "confidence": 0.8479442000389099,
+          "start": 1291,
+          "end": 1301,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.9889539480209351,
+          "start": 1307,
+          "end": 1327,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9950286746025085,
+          "start": 59,
+          "end": 65,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.9882276654243469,
+          "start": 66,
+          "end": 74,
+          "model": "CARMEN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.9197606444358826,
+          "start": 154,
+          "end": 158,
+          "model": "CARMEN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9345507621765137,
+          "start": 159,
+          "end": 167,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " SN",
+          "actual_text": "SN",
+          "confidence": 0.991305410861969,
+          "start": 514,
+          "end": 516,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "gar",
+          "actual_text": "gar",
+          "confidence": 0.9826340079307556,
+          "start": 887,
+          "end": 890,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "cia",
+          "actual_text": "cia",
+          "confidence": 0.9566115736961365,
+          "start": 890,
+          "end": 893,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "mar",
+          "actual_text": "mar",
+          "confidence": 0.9458407759666443,
+          "start": 912,
+          "end": 915,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "tin",
+          "actual_text": "tin",
+          "confidence": 0.9544210433959961,
+          "start": 915,
+          "end": 918,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "ez",
+          "actual_text": "ez",
+          "confidence": 0.9656279683113098,
+          "start": 918,
+          "end": 920,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "mar",
+          "actual_text": "mar",
+          "confidence": 0.9193872809410095,
+          "start": 937,
+          "end": 940,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "tin",
+          "actual_text": "tin",
+          "confidence": 0.953176736831665,
+          "start": 940,
+          "end": 943,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "ez",
+          "actual_text": "ez",
+          "confidence": 0.9490261077880859,
+          "start": 943,
+          "end": 945,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Hospital Clínico San Carlos",
+          "actual_text": "Hospital Clínico San Carlos",
+          "confidence": 0.9997666478157043,
+          "start": 1003,
+          "end": 1030,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " clínica",
+          "actual_text": "clínica",
+          "confidence": 0.9539788365364075,
+          "start": 1062,
+          "end": 1069,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena",
+          "actual_text": "Elena",
+          "confidence": 0.8007628321647644,
+          "start": 1087,
+          "end": 1092,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "Rodríguez",
+          "confidence": 0.9981523156166077,
+          "start": 1093,
+          "end": 1102,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Santos",
+          "actual_text": "Santos",
+          "confidence": 0.9936234354972839,
+          "start": 1103,
+          "end": 1109,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " de Sanidad",
+          "actual_text": "de Sanidad",
+          "confidence": 0.8479442000389099,
+          "start": 1291,
+          "end": 1301,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.9889539480209351,
+          "start": 1307,
+          "end": 1327,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 29,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "NOMBRE_PERSONAL_SANITARIO": 15,
+      "ID_SUJETO_ASISTENCIA": 2,
+      "CORREO_ELECTRONICO": 4,
+      "HOSPITAL": 2,
+      "OTROS_SUJETO_ASISTENCIA": 2,
+      "SEXO_SUJETO_ASISTENCIA": 1,
+      "NUMERO_TELEFONO": 1,
+      "PAIS": 2
+    },
+    "entities_by_confidence": {
+      "high": 27,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Laura Méndez Iglesias",
+        "actual_text": "Laura Méndez Iglesias",
+        "confidence": 0.9993465542793274,
+        "start": 53,
+        "end": 74,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.7376992702484131,
+        "start": 516,
+        "end": 517,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " ana.garcia@clinic.es",
+        "actual_text": "ana.garcia@clinic.es",
+        "confidence": 0.9984365105628967,
+        "start": 883,
+        "end": 903,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.9982591271400452,
+        "start": 905,
+        "end": 908,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "los.martinez@clinic.es",
+        "actual_text": "los.martinez@clinic.es",
+        "confidence": 0.9965763092041016,
+        "start": 908,
+        "end": 930,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " ana.martinez@clinic.es",
+        "actual_text": "ana.martinez@clinic.es",
+        "confidence": 0.9982536435127258,
+        "start": 933,
+        "end": 955,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Hospital Clínico San Carlos",
+        "actual_text": "Hospital Clínico San Carlos",
+        "confidence": 0.9984965324401855,
+        "start": 1003,
+        "end": 1030,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena Rodríguez Santos",
+        "actual_text": "Elena Rodríguez Santos",
+        "confidence": 0.9993783831596375,
+        "start": 1087,
+        "end": 1109,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de salud B-458712369",
+        "actual_text": "plan de salud B-458712369",
+        "confidence": 0.7023686170578003,
+        "start": 1380,
+        "end": 1405,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9950286746025085,
+        "start": 59,
+        "end": 65,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.9882276654243469,
+        "start": 66,
+        "end": 74,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.9197606444358826,
+        "start": 154,
+        "end": 158,
+        "model": "CARMEN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9345507621765137,
+        "start": 159,
+        "end": 167,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " SN",
+        "actual_text": "SN",
+        "confidence": 0.991305410861969,
+        "start": 514,
+        "end": 516,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "gar",
+        "actual_text": "gar",
+        "confidence": 0.9826340079307556,
+        "start": 887,
+        "end": 890,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "cia",
+        "actual_text": "cia",
+        "confidence": 0.9566115736961365,
+        "start": 890,
+        "end": 893,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "mar",
+        "actual_text": "mar",
+        "confidence": 0.9458407759666443,
+        "start": 912,
+        "end": 915,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "tin",
+        "actual_text": "tin",
+        "confidence": 0.9544210433959961,
+        "start": 915,
+        "end": 918,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "ez",
+        "actual_text": "ez",
+        "confidence": 0.9656279683113098,
+        "start": 918,
+        "end": 920,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "mar",
+        "actual_text": "mar",
+        "confidence": 0.9193872809410095,
+        "start": 937,
+        "end": 940,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "tin",
+        "actual_text": "tin",
+        "confidence": 0.953176736831665,
+        "start": 940,
+        "end": 943,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "ez",
+        "actual_text": "ez",
+        "confidence": 0.9490261077880859,
+        "start": 943,
+        "end": 945,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Hospital Clínico San Carlos",
+        "actual_text": "Hospital Clínico San Carlos",
+        "confidence": 0.9997666478157043,
+        "start": 1003,
+        "end": 1030,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.9539788365364075,
+        "start": 1062,
+        "end": 1069,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena",
+        "actual_text": "Elena",
+        "confidence": 0.8007628321647644,
+        "start": 1087,
+        "end": 1092,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "Rodríguez",
+        "confidence": 0.9981523156166077,
+        "start": 1093,
+        "end": 1102,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Santos",
+        "actual_text": "Santos",
+        "confidence": 0.9936234354972839,
+        "start": 1103,
+        "end": 1109,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " de Sanidad",
+        "actual_text": "de Sanidad",
+        "confidence": 0.8479442000389099,
+        "start": 1291,
+        "end": 1301,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.9889539480209351,
+        "start": 1307,
+        "end": 1327,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Laura Méndez Iglesias",
+        "actual_text": "Laura Méndez Iglesias",
+        "confidence": 0.9993465542793274,
+        "start": 53,
+        "end": 74,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.7376992702484131,
+        "start": 516,
+        "end": 517,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " ana.garcia@clinic.es",
+        "actual_text": "ana.garcia@clinic.es",
+        "confidence": 0.9984365105628967,
+        "start": 883,
+        "end": 903,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.9982591271400452,
+        "start": 905,
+        "end": 908,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "los.martinez@clinic.es",
+        "actual_text": "los.martinez@clinic.es",
+        "confidence": 0.9965763092041016,
+        "start": 908,
+        "end": 930,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " ana.martinez@clinic.es",
+        "actual_text": "ana.martinez@clinic.es",
+        "confidence": 0.9982536435127258,
+        "start": 933,
+        "end": 955,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Hospital Clínico San Carlos",
+        "actual_text": "Hospital Clínico San Carlos",
+        "confidence": 0.9984965324401855,
+        "start": 1003,
+        "end": 1030,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena Rodríguez Santos",
+        "actual_text": "Elena Rodríguez Santos",
+        "confidence": 0.9993783831596375,
+        "start": 1087,
+        "end": 1109,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de salud B-458712369",
+        "actual_text": "plan de salud B-458712369",
+        "confidence": 0.7023686170578003,
+        "start": 1380,
+        "end": 1405,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9950286746025085,
+        "start": 59,
+        "end": 65,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.9882276654243469,
+        "start": 66,
+        "end": 74,
+        "model": "CARMEN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.9197606444358826,
+        "start": 154,
+        "end": 158,
+        "model": "CARMEN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9345507621765137,
+        "start": 159,
+        "end": 167,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " SN",
+        "actual_text": "SN",
+        "confidence": 0.991305410861969,
+        "start": 514,
+        "end": 516,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "gar",
+        "actual_text": "gar",
+        "confidence": 0.9826340079307556,
+        "start": 887,
+        "end": 890,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "cia",
+        "actual_text": "cia",
+        "confidence": 0.9566115736961365,
+        "start": 890,
+        "end": 893,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "mar",
+        "actual_text": "mar",
+        "confidence": 0.9458407759666443,
+        "start": 912,
+        "end": 915,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "tin",
+        "actual_text": "tin",
+        "confidence": 0.9544210433959961,
+        "start": 915,
+        "end": 918,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "ez",
+        "actual_text": "ez",
+        "confidence": 0.9656279683113098,
+        "start": 918,
+        "end": 920,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "mar",
+        "actual_text": "mar",
+        "confidence": 0.9193872809410095,
+        "start": 937,
+        "end": 940,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "tin",
+        "actual_text": "tin",
+        "confidence": 0.953176736831665,
+        "start": 940,
+        "end": 943,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "ez",
+        "actual_text": "ez",
+        "confidence": 0.9490261077880859,
+        "start": 943,
+        "end": 945,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Hospital Clínico San Carlos",
+        "actual_text": "Hospital Clínico San Carlos",
+        "confidence": 0.9997666478157043,
+        "start": 1003,
+        "end": 1030,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " clínica",
+        "actual_text": "clínica",
+        "confidence": 0.9539788365364075,
+        "start": 1062,
+        "end": 1069,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena",
+        "actual_text": "Elena",
+        "confidence": 0.8007628321647644,
+        "start": 1087,
+        "end": 1092,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "Rodríguez",
+        "confidence": 0.9981523156166077,
+        "start": 1093,
+        "end": 1102,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Santos",
+        "actual_text": "Santos",
+        "confidence": 0.9936234354972839,
+        "start": 1103,
+        "end": 1109,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " de Sanidad",
+        "actual_text": "de Sanidad",
+        "confidence": 0.8479442000389099,
+        "start": 1291,
+        "end": 1301,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.9889539480209351,
+        "start": 1307,
+        "end": 1327,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 29,
+    "suspicious_detections": 29,
+    "xxxxxx_detections": 0,
+    "other_detections": 29
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Laura Méndez Iglesias",
+        "confidence": 0.9993465542793274,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "text": " ana.garcia@clinic.es",
+        "confidence": 0.9984365105628967,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "text": " car",
+        "confidence": 0.9982591271400452,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "text": "los.martinez@clinic.es",
+        "confidence": 0.9965763092041016,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "text": " ana.martinez@clinic.es",
+        "confidence": 0.9982536435127258,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "text": " Hospital Clínico San Carlos",
+        "confidence": 0.9984965324401855,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Elena Rodríguez Santos",
+        "confidence": 0.9993783831596375,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Méndez",
+        "confidence": 0.9950286746025085,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " SN",
+        "confidence": 0.991305410861969,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "text": " Hospital Clínico San Carlos",
+        "confidence": 0.9997666478157043,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Rodríguez",
+        "confidence": 0.9981523156166077,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Santos",
+        "confidence": 0.9936234354972839,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 12
+  }
+}

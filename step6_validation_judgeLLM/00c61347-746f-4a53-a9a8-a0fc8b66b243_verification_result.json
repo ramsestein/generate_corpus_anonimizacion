@@ -1,0 +1,1294 @@
+{
+  "document_id": "00c61347-746f-4a53-a9a8-a0fc8b66b243",
+  "success": true,
+  "anonymized_text": "**NOTA DE EVOLUCIÓN – CONSULTA EXTERNA DE MEDICINA INTERNA** Se procede a la evaluación de la paciente Laura Méndez Iglesias, identificada en nuestro sistema con el código HC-2024-789012 y con documento de identidad 87654321B. La paciente refiere mejoría parcial de la sintomatología previamente descrita, manteniendo algún episodio ocasional que no limita sus actividades básicas diarias. A nivel analítico, se observa normalización de los parámetros hepáticos que presentaban alteraciones menores en controles previos. El hemograma se mantiene dentro de rangos de normalidad, sin evidencia de procesos infecciosos o inflamatorios activos. En la exploración física actual, el abdomen es blando y depresible, no doloroso a la palpación superficial ni profunda. Los ruidos hidroaéreos son normoactivos y no se perciben masas ni visceromegalias. Se ha facilitado a la paciente el CONT-78451209 para la gestión de futuras consultas o incidencias. Asimismo, se le ha recordado que puede utilizar el 612-345-678 para confirmaciones o cambios de cita. Para cualquier duda clínica no urgente, puede contactar también a través del carlos.martinez@clinic.es. Se recomienda a la paciente consultar los recursos educativos disponibles en la https://www.clinicabarcelona.org, donde encontrará información fiable sobre el manejo de su condición. El profesional que la atiende posee la Grado en Medicina, garantizando la cualificación necesaria para su seguimiento. Se mantiene el plan terapéutico establecido y se programará próxima revisión en un plazo de seis meses. Se instruye a la paciente para que, en caso de necesidad de contactar con el servicio de enfermería, utilice el 612-34-56-78 asignado específicamente para dichas gestiones.",
+  "text_length": 1728,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 10,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9714017510414124,
+        "word": " Laura Méndez Iglesias",
+        "start": 103,
+        "end": 124,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7581992149353027,
+        "word": " 8",
+        "start": 216,
+        "end": 217,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.744645357131958,
+        "word": "54321B",
+        "start": 219,
+        "end": 225,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9266988635063171,
+        "word": " 612-345-678",
+        "start": 995,
+        "end": 1006,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9943155646324158,
+        "word": " car",
+        "start": 1123,
+        "end": 1126,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9956341981887817,
+        "word": "los.martinez@clinic.es",
+        "start": 1126,
+        "end": 1148,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.7933940887451172,
+        "word": "clinic",
+        "start": 1242,
+        "end": 1248,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.8379644751548767,
+        "word": "abarcelona.org",
+        "start": 1248,
+        "end": 1262,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9891581535339355,
+        "word": " 6",
+        "start": 1668,
+        "end": 1669,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9347741007804871,
+        "word": "12-34-56-",
+        "start": 1669,
+        "end": 1678,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 10,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 1,
+        "NUMERO_TELEFONO": 5,
+        "CORREO_ELECTRONICO": 3,
+        "INSTITUCION": 1
+      },
+      "entities_by_confidence": {
+        "high": 7,
+        "medium": 3,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Laura Méndez Iglesias",
+          "actual_text": "Laura Méndez Iglesias",
+          "confidence": 0.9714017510414124,
+          "start": 103,
+          "end": 124,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 8",
+          "actual_text": "8",
+          "confidence": 0.7581992149353027,
+          "start": 216,
+          "end": 217,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "54321B",
+          "actual_text": "54321B",
+          "confidence": 0.744645357131958,
+          "start": 219,
+          "end": 225,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 612-345-678",
+          "actual_text": "612-345-678",
+          "confidence": 0.9266988635063171,
+          "start": 995,
+          "end": 1006,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.9943155646324158,
+          "start": 1123,
+          "end": 1126,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "los.martinez@clinic.es",
+          "actual_text": "los.martinez@clinic.es",
+          "confidence": 0.9956341981887817,
+          "start": 1126,
+          "end": 1148,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "INSTITUCION",
+          "word": "clinic",
+          "actual_text": "clinic",
+          "confidence": 0.7933940887451172,
+          "start": 1242,
+          "end": 1248,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "abarcelona.org",
+          "actual_text": "abarcelona.org",
+          "confidence": 0.8379644751548767,
+          "start": 1248,
+          "end": 1262,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 6",
+          "actual_text": "6",
+          "confidence": 0.9891581535339355,
+          "start": 1668,
+          "end": 1669,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12-34-56-",
+          "actual_text": "12-34-56-",
+          "confidence": 0.9347741007804871,
+          "start": 1669,
+          "end": 1678,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Laura Méndez Iglesias",
+          "actual_text": "Laura Méndez Iglesias",
+          "confidence": 0.9714017510414124,
+          "start": 103,
+          "end": 124,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 8",
+          "actual_text": "8",
+          "confidence": 0.7581992149353027,
+          "start": 216,
+          "end": 217,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "54321B",
+          "actual_text": "54321B",
+          "confidence": 0.744645357131958,
+          "start": 219,
+          "end": 225,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 612-345-678",
+          "actual_text": "612-345-678",
+          "confidence": 0.9266988635063171,
+          "start": 995,
+          "end": 1006,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.9943155646324158,
+          "start": 1123,
+          "end": 1126,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "los.martinez@clinic.es",
+          "actual_text": "los.martinez@clinic.es",
+          "confidence": 0.9956341981887817,
+          "start": 1126,
+          "end": 1148,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "INSTITUCION",
+          "word": "clinic",
+          "actual_text": "clinic",
+          "confidence": 0.7933940887451172,
+          "start": 1242,
+          "end": 1248,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "abarcelona.org",
+          "actual_text": "abarcelona.org",
+          "confidence": 0.8379644751548767,
+          "start": 1248,
+          "end": 1262,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 6",
+          "actual_text": "6",
+          "confidence": 0.9891581535339355,
+          "start": 1668,
+          "end": 1669,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12-34-56-",
+          "actual_text": "12-34-56-",
+          "confidence": 0.9347741007804871,
+          "start": 1669,
+          "end": 1678,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 16,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9787217974662781,
+        "word": " Méndez",
+        "start": 109,
+        "end": 115,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9638792276382446,
+        "word": " Iglesias",
+        "start": 116,
+        "end": 124,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.971850574016571,
+        "word": " HC",
+        "start": 172,
+        "end": 174,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.996796190738678,
+        "word": " 8",
+        "start": 216,
+        "end": 217,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7866668105125427,
+        "word": " CON",
+        "start": 878,
+        "end": 881,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9643034934997559,
+        "word": "T",
+        "start": 881,
+        "end": 882,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9726082682609558,
+        "word": "-",
+        "start": 882,
+        "end": 883,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9634670615196228,
+        "word": "78",
+        "start": 883,
+        "end": 885,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9966453909873962,
+        "word": " 6",
+        "start": 995,
+        "end": 996,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7120084762573242,
+        "word": "12-345-678",
+        "start": 996,
+        "end": 1006,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8389032483100891,
+        "word": " car",
+        "start": 1123,
+        "end": 1126,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7552974820137024,
+        "word": "los",
+        "start": 1126,
+        "end": 1129,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.712518036365509,
+        "word": "tin",
+        "start": 1133,
+        "end": 1136,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.8133869171142578,
+        "word": "ez",
+        "start": 1136,
+        "end": 1138,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.7316456437110901,
+        "word": "@clinic.es",
+        "start": 1138,
+        "end": 1148,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9947941899299622,
+        "word": " 6",
+        "start": 1668,
+        "end": 1669,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 16,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 4,
+        "NUMERO_TELEFONO": 11,
+        "URL_WEB": 1
+      },
+      "entities_by_confidence": {
+        "high": 11,
+        "medium": 5,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9787217974662781,
+          "start": 109,
+          "end": 115,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.9638792276382446,
+          "start": 116,
+          "end": 124,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " HC",
+          "actual_text": "HC",
+          "confidence": 0.971850574016571,
+          "start": 172,
+          "end": 174,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 8",
+          "actual_text": "8",
+          "confidence": 0.996796190738678,
+          "start": 216,
+          "end": 217,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " CON",
+          "actual_text": "CON",
+          "confidence": 0.7866668105125427,
+          "start": 878,
+          "end": 881,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "T",
+          "actual_text": "T",
+          "confidence": 0.9643034934997559,
+          "start": 881,
+          "end": 882,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.9726082682609558,
+          "start": 882,
+          "end": 883,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "78",
+          "actual_text": "78",
+          "confidence": 0.9634670615196228,
+          "start": 883,
+          "end": 885,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 6",
+          "actual_text": "6",
+          "confidence": 0.9966453909873962,
+          "start": 995,
+          "end": 996,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12-345-678",
+          "actual_text": "12-345-678",
+          "confidence": 0.7120084762573242,
+          "start": 996,
+          "end": 1006,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.8389032483100891,
+          "start": 1123,
+          "end": 1126,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "los",
+          "actual_text": "los",
+          "confidence": 0.7552974820137024,
+          "start": 1126,
+          "end": 1129,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "tin",
+          "actual_text": "tin",
+          "confidence": 0.712518036365509,
+          "start": 1133,
+          "end": 1136,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "ez",
+          "actual_text": "ez",
+          "confidence": 0.8133869171142578,
+          "start": 1136,
+          "end": 1138,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "@clinic.es",
+          "actual_text": "@clinic.es",
+          "confidence": 0.7316456437110901,
+          "start": 1138,
+          "end": 1148,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 6",
+          "actual_text": "6",
+          "confidence": 0.9947941899299622,
+          "start": 1668,
+          "end": 1669,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9787217974662781,
+          "start": 109,
+          "end": 115,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.9638792276382446,
+          "start": 116,
+          "end": 124,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " HC",
+          "actual_text": "HC",
+          "confidence": 0.971850574016571,
+          "start": 172,
+          "end": 174,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 8",
+          "actual_text": "8",
+          "confidence": 0.996796190738678,
+          "start": 216,
+          "end": 217,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " CON",
+          "actual_text": "CON",
+          "confidence": 0.7866668105125427,
+          "start": 878,
+          "end": 881,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "T",
+          "actual_text": "T",
+          "confidence": 0.9643034934997559,
+          "start": 881,
+          "end": 882,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.9726082682609558,
+          "start": 882,
+          "end": 883,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "78",
+          "actual_text": "78",
+          "confidence": 0.9634670615196228,
+          "start": 883,
+          "end": 885,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 6",
+          "actual_text": "6",
+          "confidence": 0.9966453909873962,
+          "start": 995,
+          "end": 996,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12-345-678",
+          "actual_text": "12-345-678",
+          "confidence": 0.7120084762573242,
+          "start": 996,
+          "end": 1006,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.8389032483100891,
+          "start": 1123,
+          "end": 1126,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "los",
+          "actual_text": "los",
+          "confidence": 0.7552974820137024,
+          "start": 1126,
+          "end": 1129,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "tin",
+          "actual_text": "tin",
+          "confidence": 0.712518036365509,
+          "start": 1133,
+          "end": 1136,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "ez",
+          "actual_text": "ez",
+          "confidence": 0.8133869171142578,
+          "start": 1136,
+          "end": 1138,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "@clinic.es",
+          "actual_text": "@clinic.es",
+          "confidence": 0.7316456437110901,
+          "start": 1138,
+          "end": 1148,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 6",
+          "actual_text": "6",
+          "confidence": 0.9947941899299622,
+          "start": 1668,
+          "end": 1669,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 26,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "NOMBRE_PERSONAL_SANITARIO": 5,
+      "NUMERO_TELEFONO": 16,
+      "CORREO_ELECTRONICO": 3,
+      "INSTITUCION": 1,
+      "URL_WEB": 1
+    },
+    "entities_by_confidence": {
+      "high": 18,
+      "medium": 8,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Laura Méndez Iglesias",
+        "actual_text": "Laura Méndez Iglesias",
+        "confidence": 0.9714017510414124,
+        "start": 103,
+        "end": 124,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 8",
+        "actual_text": "8",
+        "confidence": 0.7581992149353027,
+        "start": 216,
+        "end": 217,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "54321B",
+        "actual_text": "54321B",
+        "confidence": 0.744645357131958,
+        "start": 219,
+        "end": 225,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 612-345-678",
+        "actual_text": "612-345-678",
+        "confidence": 0.9266988635063171,
+        "start": 995,
+        "end": 1006,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.9943155646324158,
+        "start": 1123,
+        "end": 1126,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "los.martinez@clinic.es",
+        "actual_text": "los.martinez@clinic.es",
+        "confidence": 0.9956341981887817,
+        "start": 1126,
+        "end": 1148,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "INSTITUCION",
+        "word": "clinic",
+        "actual_text": "clinic",
+        "confidence": 0.7933940887451172,
+        "start": 1242,
+        "end": 1248,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "abarcelona.org",
+        "actual_text": "abarcelona.org",
+        "confidence": 0.8379644751548767,
+        "start": 1248,
+        "end": 1262,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 6",
+        "actual_text": "6",
+        "confidence": 0.9891581535339355,
+        "start": 1668,
+        "end": 1669,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12-34-56-",
+        "actual_text": "12-34-56-",
+        "confidence": 0.9347741007804871,
+        "start": 1669,
+        "end": 1678,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9787217974662781,
+        "start": 109,
+        "end": 115,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.9638792276382446,
+        "start": 116,
+        "end": 124,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " HC",
+        "actual_text": "HC",
+        "confidence": 0.971850574016571,
+        "start": 172,
+        "end": 174,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 8",
+        "actual_text": "8",
+        "confidence": 0.996796190738678,
+        "start": 216,
+        "end": 217,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " CON",
+        "actual_text": "CON",
+        "confidence": 0.7866668105125427,
+        "start": 878,
+        "end": 881,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "T",
+        "actual_text": "T",
+        "confidence": 0.9643034934997559,
+        "start": 881,
+        "end": 882,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.9726082682609558,
+        "start": 882,
+        "end": 883,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "78",
+        "actual_text": "78",
+        "confidence": 0.9634670615196228,
+        "start": 883,
+        "end": 885,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 6",
+        "actual_text": "6",
+        "confidence": 0.9966453909873962,
+        "start": 995,
+        "end": 996,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12-345-678",
+        "actual_text": "12-345-678",
+        "confidence": 0.7120084762573242,
+        "start": 996,
+        "end": 1006,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.8389032483100891,
+        "start": 1123,
+        "end": 1126,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "los",
+        "actual_text": "los",
+        "confidence": 0.7552974820137024,
+        "start": 1126,
+        "end": 1129,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "tin",
+        "actual_text": "tin",
+        "confidence": 0.712518036365509,
+        "start": 1133,
+        "end": 1136,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "ez",
+        "actual_text": "ez",
+        "confidence": 0.8133869171142578,
+        "start": 1136,
+        "end": 1138,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "@clinic.es",
+        "actual_text": "@clinic.es",
+        "confidence": 0.7316456437110901,
+        "start": 1138,
+        "end": 1148,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 6",
+        "actual_text": "6",
+        "confidence": 0.9947941899299622,
+        "start": 1668,
+        "end": 1669,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Laura Méndez Iglesias",
+        "actual_text": "Laura Méndez Iglesias",
+        "confidence": 0.9714017510414124,
+        "start": 103,
+        "end": 124,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 8",
+        "actual_text": "8",
+        "confidence": 0.7581992149353027,
+        "start": 216,
+        "end": 217,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "54321B",
+        "actual_text": "54321B",
+        "confidence": 0.744645357131958,
+        "start": 219,
+        "end": 225,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 612-345-678",
+        "actual_text": "612-345-678",
+        "confidence": 0.9266988635063171,
+        "start": 995,
+        "end": 1006,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.9943155646324158,
+        "start": 1123,
+        "end": 1126,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "los.martinez@clinic.es",
+        "actual_text": "los.martinez@clinic.es",
+        "confidence": 0.9956341981887817,
+        "start": 1126,
+        "end": 1148,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "INSTITUCION",
+        "word": "clinic",
+        "actual_text": "clinic",
+        "confidence": 0.7933940887451172,
+        "start": 1242,
+        "end": 1248,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "abarcelona.org",
+        "actual_text": "abarcelona.org",
+        "confidence": 0.8379644751548767,
+        "start": 1248,
+        "end": 1262,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 6",
+        "actual_text": "6",
+        "confidence": 0.9891581535339355,
+        "start": 1668,
+        "end": 1669,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12-34-56-",
+        "actual_text": "12-34-56-",
+        "confidence": 0.9347741007804871,
+        "start": 1669,
+        "end": 1678,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9787217974662781,
+        "start": 109,
+        "end": 115,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.9638792276382446,
+        "start": 116,
+        "end": 124,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " HC",
+        "actual_text": "HC",
+        "confidence": 0.971850574016571,
+        "start": 172,
+        "end": 174,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 8",
+        "actual_text": "8",
+        "confidence": 0.996796190738678,
+        "start": 216,
+        "end": 217,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " CON",
+        "actual_text": "CON",
+        "confidence": 0.7866668105125427,
+        "start": 878,
+        "end": 881,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "T",
+        "actual_text": "T",
+        "confidence": 0.9643034934997559,
+        "start": 881,
+        "end": 882,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.9726082682609558,
+        "start": 882,
+        "end": 883,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "78",
+        "actual_text": "78",
+        "confidence": 0.9634670615196228,
+        "start": 883,
+        "end": 885,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 6",
+        "actual_text": "6",
+        "confidence": 0.9966453909873962,
+        "start": 995,
+        "end": 996,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12-345-678",
+        "actual_text": "12-345-678",
+        "confidence": 0.7120084762573242,
+        "start": 996,
+        "end": 1006,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.8389032483100891,
+        "start": 1123,
+        "end": 1126,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "los",
+        "actual_text": "los",
+        "confidence": 0.7552974820137024,
+        "start": 1126,
+        "end": 1129,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "tin",
+        "actual_text": "tin",
+        "confidence": 0.712518036365509,
+        "start": 1133,
+        "end": 1136,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "ez",
+        "actual_text": "ez",
+        "confidence": 0.8133869171142578,
+        "start": 1136,
+        "end": 1138,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "@clinic.es",
+        "actual_text": "@clinic.es",
+        "confidence": 0.7316456437110901,
+        "start": 1138,
+        "end": 1148,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 6",
+        "actual_text": "6",
+        "confidence": 0.9947941899299622,
+        "start": 1668,
+        "end": 1669,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 26,
+    "suspicious_detections": 26,
+    "xxxxxx_detections": 0,
+    "other_detections": 26
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "CORREO_ELECTRONICO",
+        "text": " car",
+        "confidence": 0.9943155646324158,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "text": "los.martinez@clinic.es",
+        "confidence": 0.9956341981887817,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " 8",
+        "confidence": 0.996796190738678,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " 6",
+        "confidence": 0.9966453909873962,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " 6",
+        "confidence": 0.9947941899299622,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 5
+  }
+}

@@ -1,0 +1,1433 @@
+{
+  "document_id": "00876078-5df8-469b-b521-648cac0f9fe7",
+  "success": true,
+  "anonymized_text": "**NOTA DE EVOLUCIÓN** En seguimiento del caso clínico identificado bajo el número HC-2024-789012, se procede a la actualización de la situación. El paciente fue valorado inicialmente el 12 de julio de 2023 en el Centro de Salud Los Álamos, presentando un cuadro que requirió evaluación quirúrgica especializada. Tras la correspondiente valoración por el cirujano, se estableció un plan terapéutico que el paciente ha seguido de manera satisfactoria. La exploración física actual muestra una evolución favorable de la herida quirúrgica, sin signos de infección y con adecuado proceso de cicatrización. Los parámetros analíticos se mantienen dentro de rangos de normalidad. Se ha coordinado con el servicio de radiología para el control imagenológico programado, cuyos resultados serán revisados en la próxima consulta. Respecto a los datos de contacto y identificación, el 87654321B cuenta con el ES-87654321-1. Para cualquier gestión o comunicación, los están representados por María del Carmen Rodríguez, madre del paciente, quien puede ser contactada a través del 612-34-56-78. Adicionalmente, para asuntos administrativos, este centro dispone del 634-12-89-07 y del +34 91 876 54 32. Se recomienda al paciente mantener la actividad física moderada y continuar con la medicación analgésica según necesidad. Para información complementaria sobre su condición, se sugiere consultar la https://www.clinicabarcelona.org donde encontrará recursos educativos sobre su proceso. Se citará para control en un mes para reevaluación.",
+  "text_length": 1524,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 15,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7487806081771851,
+        "word": "2024-7890",
+        "start": 85,
+        "end": 94,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9987233281135559,
+        "word": " 12 de julio de 2023",
+        "start": 186,
+        "end": 205,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.9855136275291443,
+        "word": " Centro de Salud Los Álamos",
+        "start": 212,
+        "end": 238,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9881315231323242,
+        "word": " 8",
+        "start": 872,
+        "end": 873,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.972819983959198,
+        "word": "7654321B",
+        "start": 873,
+        "end": 881,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7472294569015503,
+        "word": "7654321-",
+        "start": 900,
+        "end": 908,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9818397760391235,
+        "word": " María del Carmen Rodríguez",
+        "start": 978,
+        "end": 1004,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9955072402954102,
+        "word": " madre",
+        "start": 1006,
+        "end": 1011,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9911993145942688,
+        "word": " 6",
+        "start": 1066,
+        "end": 1067,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9833350777626038,
+        "word": "12-34-56-78",
+        "start": 1067,
+        "end": 1078,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9910679459571838,
+        "word": " 6",
+        "start": 1150,
+        "end": 1151,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9730119705200195,
+        "word": "34-12-89-07",
+        "start": 1151,
+        "end": 1162,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9709977507591248,
+        "word": " +",
+        "start": 1169,
+        "end": 1170,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9379982948303223,
+        "word": "34 91 876 54 32",
+        "start": 1170,
+        "end": 1185,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.7509034872055054,
+        "word": "abarcelona.org",
+        "start": 1403,
+        "end": 1417,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 15,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1,
+        "FECHAS": 1,
+        "CENTRO_SALUD": 1,
+        "NUMERO_TELEFONO": 9,
+        "NOMBRE_PERSONAL_SANITARIO": 1,
+        "FAMILIARES_SUJETO_ASISTENCIA": 1,
+        "CORREO_ELECTRONICO": 1
+      },
+      "entities_by_confidence": {
+        "high": 12,
+        "medium": 3,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "2024-7890",
+          "actual_text": "2024-7890",
+          "confidence": 0.7487806081771851,
+          "start": 85,
+          "end": 94,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9987233281135559,
+          "start": 186,
+          "end": 205,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9855136275291443,
+          "start": 212,
+          "end": 238,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 8",
+          "actual_text": "8",
+          "confidence": 0.9881315231323242,
+          "start": 872,
+          "end": 873,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "7654321B",
+          "actual_text": "7654321B",
+          "confidence": 0.972819983959198,
+          "start": 873,
+          "end": 881,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "7654321-",
+          "actual_text": "7654321-",
+          "confidence": 0.7472294569015503,
+          "start": 900,
+          "end": 908,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " María del Carmen Rodríguez",
+          "actual_text": "María del Carmen Rodríguez",
+          "confidence": 0.9818397760391235,
+          "start": 978,
+          "end": 1004,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " madre",
+          "actual_text": "madre",
+          "confidence": 0.9955072402954102,
+          "start": 1006,
+          "end": 1011,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 6",
+          "actual_text": "6",
+          "confidence": 0.9911993145942688,
+          "start": 1066,
+          "end": 1067,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12-34-56-78",
+          "actual_text": "12-34-56-78",
+          "confidence": 0.9833350777626038,
+          "start": 1067,
+          "end": 1078,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 6",
+          "actual_text": "6",
+          "confidence": 0.9910679459571838,
+          "start": 1150,
+          "end": 1151,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34-12-89-07",
+          "actual_text": "34-12-89-07",
+          "confidence": 0.9730119705200195,
+          "start": 1151,
+          "end": 1162,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9709977507591248,
+          "start": 1169,
+          "end": 1170,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.9379982948303223,
+          "start": 1170,
+          "end": 1185,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "abarcelona.org",
+          "actual_text": "abarcelona.org",
+          "confidence": 0.7509034872055054,
+          "start": 1403,
+          "end": 1417,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "2024-7890",
+          "actual_text": "2024-7890",
+          "confidence": 0.7487806081771851,
+          "start": 85,
+          "end": 94,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9987233281135559,
+          "start": 186,
+          "end": 205,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9855136275291443,
+          "start": 212,
+          "end": 238,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 8",
+          "actual_text": "8",
+          "confidence": 0.9881315231323242,
+          "start": 872,
+          "end": 873,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "7654321B",
+          "actual_text": "7654321B",
+          "confidence": 0.972819983959198,
+          "start": 873,
+          "end": 881,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "7654321-",
+          "actual_text": "7654321-",
+          "confidence": 0.7472294569015503,
+          "start": 900,
+          "end": 908,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " María del Carmen Rodríguez",
+          "actual_text": "María del Carmen Rodríguez",
+          "confidence": 0.9818397760391235,
+          "start": 978,
+          "end": 1004,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " madre",
+          "actual_text": "madre",
+          "confidence": 0.9955072402954102,
+          "start": 1006,
+          "end": 1011,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 6",
+          "actual_text": "6",
+          "confidence": 0.9911993145942688,
+          "start": 1066,
+          "end": 1067,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12-34-56-78",
+          "actual_text": "12-34-56-78",
+          "confidence": 0.9833350777626038,
+          "start": 1067,
+          "end": 1078,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 6",
+          "actual_text": "6",
+          "confidence": 0.9910679459571838,
+          "start": 1150,
+          "end": 1151,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34-12-89-07",
+          "actual_text": "34-12-89-07",
+          "confidence": 0.9730119705200195,
+          "start": 1151,
+          "end": 1162,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9709977507591248,
+          "start": 1169,
+          "end": 1170,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.9379982948303223,
+          "start": 1170,
+          "end": 1185,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "abarcelona.org",
+          "actual_text": "abarcelona.org",
+          "confidence": 0.7509034872055054,
+          "start": 1403,
+          "end": 1417,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 13,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7593996524810791,
+        "word": " HC",
+        "start": 82,
+        "end": 84,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9998930096626282,
+        "word": " 12 de julio de 2023",
+        "start": 186,
+        "end": 205,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.999216616153717,
+        "word": " Centro de Salud Los Álamos",
+        "start": 212,
+        "end": 238,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9967272281646729,
+        "word": " 8",
+        "start": 872,
+        "end": 873,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9751269817352295,
+        "word": " ES",
+        "start": 896,
+        "end": 898,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9903717041015625,
+        "word": " Rodríguez",
+        "start": 995,
+        "end": 1004,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9988497495651245,
+        "word": " madre",
+        "start": 1006,
+        "end": 1011,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.996604323387146,
+        "word": " 6",
+        "start": 1066,
+        "end": 1067,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7846794128417969,
+        "word": "12-34-56-78",
+        "start": 1067,
+        "end": 1078,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9951416254043579,
+        "word": " 6",
+        "start": 1150,
+        "end": 1151,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7627358436584473,
+        "word": "34-12-89-07",
+        "start": 1151,
+        "end": 1162,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9964554309844971,
+        "word": " +",
+        "start": 1169,
+        "end": 1170,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8380742073059082,
+        "word": "34 91 876 54 32",
+        "start": 1170,
+        "end": 1185,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 13,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 9,
+        "FECHAS": 1,
+        "CENTRO_SALUD": 1,
+        "NOMBRE_PERSONAL_SANITARIO": 1,
+        "FAMILIARES_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 10,
+        "medium": 3,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " HC",
+          "actual_text": "HC",
+          "confidence": 0.7593996524810791,
+          "start": 82,
+          "end": 84,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9998930096626282,
+          "start": 186,
+          "end": 205,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.999216616153717,
+          "start": 212,
+          "end": 238,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 8",
+          "actual_text": "8",
+          "confidence": 0.9967272281646729,
+          "start": 872,
+          "end": 873,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " ES",
+          "actual_text": "ES",
+          "confidence": 0.9751269817352295,
+          "start": 896,
+          "end": 898,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "Rodríguez",
+          "confidence": 0.9903717041015625,
+          "start": 995,
+          "end": 1004,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " madre",
+          "actual_text": "madre",
+          "confidence": 0.9988497495651245,
+          "start": 1006,
+          "end": 1011,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 6",
+          "actual_text": "6",
+          "confidence": 0.996604323387146,
+          "start": 1066,
+          "end": 1067,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12-34-56-78",
+          "actual_text": "12-34-56-78",
+          "confidence": 0.7846794128417969,
+          "start": 1067,
+          "end": 1078,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 6",
+          "actual_text": "6",
+          "confidence": 0.9951416254043579,
+          "start": 1150,
+          "end": 1151,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34-12-89-07",
+          "actual_text": "34-12-89-07",
+          "confidence": 0.7627358436584473,
+          "start": 1151,
+          "end": 1162,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9964554309844971,
+          "start": 1169,
+          "end": 1170,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.8380742073059082,
+          "start": 1170,
+          "end": 1185,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " HC",
+          "actual_text": "HC",
+          "confidence": 0.7593996524810791,
+          "start": 82,
+          "end": 84,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9998930096626282,
+          "start": 186,
+          "end": 205,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.999216616153717,
+          "start": 212,
+          "end": 238,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 8",
+          "actual_text": "8",
+          "confidence": 0.9967272281646729,
+          "start": 872,
+          "end": 873,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " ES",
+          "actual_text": "ES",
+          "confidence": 0.9751269817352295,
+          "start": 896,
+          "end": 898,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "Rodríguez",
+          "confidence": 0.9903717041015625,
+          "start": 995,
+          "end": 1004,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " madre",
+          "actual_text": "madre",
+          "confidence": 0.9988497495651245,
+          "start": 1006,
+          "end": 1011,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 6",
+          "actual_text": "6",
+          "confidence": 0.996604323387146,
+          "start": 1066,
+          "end": 1067,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12-34-56-78",
+          "actual_text": "12-34-56-78",
+          "confidence": 0.7846794128417969,
+          "start": 1067,
+          "end": 1078,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 6",
+          "actual_text": "6",
+          "confidence": 0.9951416254043579,
+          "start": 1150,
+          "end": 1151,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34-12-89-07",
+          "actual_text": "34-12-89-07",
+          "confidence": 0.7627358436584473,
+          "start": 1151,
+          "end": 1162,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9964554309844971,
+          "start": 1169,
+          "end": 1170,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.8380742073059082,
+          "start": 1170,
+          "end": 1185,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 28,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "ID_SUJETO_ASISTENCIA": 1,
+      "FECHAS": 2,
+      "CENTRO_SALUD": 2,
+      "NUMERO_TELEFONO": 18,
+      "NOMBRE_PERSONAL_SANITARIO": 2,
+      "FAMILIARES_SUJETO_ASISTENCIA": 2,
+      "CORREO_ELECTRONICO": 1
+    },
+    "entities_by_confidence": {
+      "high": 22,
+      "medium": 6,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "2024-7890",
+        "actual_text": "2024-7890",
+        "confidence": 0.7487806081771851,
+        "start": 85,
+        "end": 94,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9987233281135559,
+        "start": 186,
+        "end": 205,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9855136275291443,
+        "start": 212,
+        "end": 238,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 8",
+        "actual_text": "8",
+        "confidence": 0.9881315231323242,
+        "start": 872,
+        "end": 873,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "7654321B",
+        "actual_text": "7654321B",
+        "confidence": 0.972819983959198,
+        "start": 873,
+        "end": 881,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "7654321-",
+        "actual_text": "7654321-",
+        "confidence": 0.7472294569015503,
+        "start": 900,
+        "end": 908,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " María del Carmen Rodríguez",
+        "actual_text": "María del Carmen Rodríguez",
+        "confidence": 0.9818397760391235,
+        "start": 978,
+        "end": 1004,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " madre",
+        "actual_text": "madre",
+        "confidence": 0.9955072402954102,
+        "start": 1006,
+        "end": 1011,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 6",
+        "actual_text": "6",
+        "confidence": 0.9911993145942688,
+        "start": 1066,
+        "end": 1067,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12-34-56-78",
+        "actual_text": "12-34-56-78",
+        "confidence": 0.9833350777626038,
+        "start": 1067,
+        "end": 1078,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 6",
+        "actual_text": "6",
+        "confidence": 0.9910679459571838,
+        "start": 1150,
+        "end": 1151,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34-12-89-07",
+        "actual_text": "34-12-89-07",
+        "confidence": 0.9730119705200195,
+        "start": 1151,
+        "end": 1162,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9709977507591248,
+        "start": 1169,
+        "end": 1170,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.9379982948303223,
+        "start": 1170,
+        "end": 1185,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "abarcelona.org",
+        "actual_text": "abarcelona.org",
+        "confidence": 0.7509034872055054,
+        "start": 1403,
+        "end": 1417,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " HC",
+        "actual_text": "HC",
+        "confidence": 0.7593996524810791,
+        "start": 82,
+        "end": 84,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9998930096626282,
+        "start": 186,
+        "end": 205,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.999216616153717,
+        "start": 212,
+        "end": 238,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 8",
+        "actual_text": "8",
+        "confidence": 0.9967272281646729,
+        "start": 872,
+        "end": 873,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " ES",
+        "actual_text": "ES",
+        "confidence": 0.9751269817352295,
+        "start": 896,
+        "end": 898,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "Rodríguez",
+        "confidence": 0.9903717041015625,
+        "start": 995,
+        "end": 1004,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " madre",
+        "actual_text": "madre",
+        "confidence": 0.9988497495651245,
+        "start": 1006,
+        "end": 1011,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 6",
+        "actual_text": "6",
+        "confidence": 0.996604323387146,
+        "start": 1066,
+        "end": 1067,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12-34-56-78",
+        "actual_text": "12-34-56-78",
+        "confidence": 0.7846794128417969,
+        "start": 1067,
+        "end": 1078,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 6",
+        "actual_text": "6",
+        "confidence": 0.9951416254043579,
+        "start": 1150,
+        "end": 1151,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34-12-89-07",
+        "actual_text": "34-12-89-07",
+        "confidence": 0.7627358436584473,
+        "start": 1151,
+        "end": 1162,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9964554309844971,
+        "start": 1169,
+        "end": 1170,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.8380742073059082,
+        "start": 1170,
+        "end": 1185,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "2024-7890",
+        "actual_text": "2024-7890",
+        "confidence": 0.7487806081771851,
+        "start": 85,
+        "end": 94,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9987233281135559,
+        "start": 186,
+        "end": 205,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9855136275291443,
+        "start": 212,
+        "end": 238,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 8",
+        "actual_text": "8",
+        "confidence": 0.9881315231323242,
+        "start": 872,
+        "end": 873,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "7654321B",
+        "actual_text": "7654321B",
+        "confidence": 0.972819983959198,
+        "start": 873,
+        "end": 881,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "7654321-",
+        "actual_text": "7654321-",
+        "confidence": 0.7472294569015503,
+        "start": 900,
+        "end": 908,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " María del Carmen Rodríguez",
+        "actual_text": "María del Carmen Rodríguez",
+        "confidence": 0.9818397760391235,
+        "start": 978,
+        "end": 1004,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " madre",
+        "actual_text": "madre",
+        "confidence": 0.9955072402954102,
+        "start": 1006,
+        "end": 1011,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 6",
+        "actual_text": "6",
+        "confidence": 0.9911993145942688,
+        "start": 1066,
+        "end": 1067,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12-34-56-78",
+        "actual_text": "12-34-56-78",
+        "confidence": 0.9833350777626038,
+        "start": 1067,
+        "end": 1078,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 6",
+        "actual_text": "6",
+        "confidence": 0.9910679459571838,
+        "start": 1150,
+        "end": 1151,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34-12-89-07",
+        "actual_text": "34-12-89-07",
+        "confidence": 0.9730119705200195,
+        "start": 1151,
+        "end": 1162,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9709977507591248,
+        "start": 1169,
+        "end": 1170,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.9379982948303223,
+        "start": 1170,
+        "end": 1185,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "abarcelona.org",
+        "actual_text": "abarcelona.org",
+        "confidence": 0.7509034872055054,
+        "start": 1403,
+        "end": 1417,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " HC",
+        "actual_text": "HC",
+        "confidence": 0.7593996524810791,
+        "start": 82,
+        "end": 84,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9998930096626282,
+        "start": 186,
+        "end": 205,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.999216616153717,
+        "start": 212,
+        "end": 238,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 8",
+        "actual_text": "8",
+        "confidence": 0.9967272281646729,
+        "start": 872,
+        "end": 873,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " ES",
+        "actual_text": "ES",
+        "confidence": 0.9751269817352295,
+        "start": 896,
+        "end": 898,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "Rodríguez",
+        "confidence": 0.9903717041015625,
+        "start": 995,
+        "end": 1004,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " madre",
+        "actual_text": "madre",
+        "confidence": 0.9988497495651245,
+        "start": 1006,
+        "end": 1011,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 6",
+        "actual_text": "6",
+        "confidence": 0.996604323387146,
+        "start": 1066,
+        "end": 1067,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12-34-56-78",
+        "actual_text": "12-34-56-78",
+        "confidence": 0.7846794128417969,
+        "start": 1067,
+        "end": 1078,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 6",
+        "actual_text": "6",
+        "confidence": 0.9951416254043579,
+        "start": 1150,
+        "end": 1151,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34-12-89-07",
+        "actual_text": "34-12-89-07",
+        "confidence": 0.7627358436584473,
+        "start": 1151,
+        "end": 1162,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9964554309844971,
+        "start": 1169,
+        "end": 1170,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.8380742073059082,
+        "start": 1170,
+        "end": 1185,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 28,
+    "suspicious_detections": 28,
+    "xxxxxx_detections": 0,
+    "other_detections": 28
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "FECHAS",
+        "text": " 12 de julio de 2023",
+        "confidence": 0.9987233281135559,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "text": " madre",
+        "confidence": 0.9955072402954102,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " 6",
+        "confidence": 0.9911993145942688,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " 6",
+        "confidence": 0.9910679459571838,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "text": " 12 de julio de 2023",
+        "confidence": 0.9998930096626282,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "text": " Centro de Salud Los Álamos",
+        "confidence": 0.999216616153717,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " 8",
+        "confidence": 0.9967272281646729,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Rodríguez",
+        "confidence": 0.9903717041015625,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "text": " madre",
+        "confidence": 0.9988497495651245,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " 6",
+        "confidence": 0.996604323387146,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " 6",
+        "confidence": 0.9951416254043579,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " +",
+        "confidence": 0.9964554309844971,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 12
+  }
+}

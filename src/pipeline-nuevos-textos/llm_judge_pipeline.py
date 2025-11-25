@@ -64,7 +64,7 @@ PROFESION, etc. Esa lógica ha sido **COMPLETAMENTE ELIMINADA**.
 5. COLUMNA MANUAL_CORRECTION
    Esta columna almacena correcciones/etiquetas manuales humanas.
    
-   ⚠️  IMPORTANTE - EXCLUSIÓN DEL LLM:
+    IMPORTANTE - EXCLUSIÓN DEL LLM:
    - Esta columna se carga y preserva en todo el pipeline
    - Se incluye en exportaciones finales para métricas
    - NO se envía NUNCA al LLM en los prompts
@@ -205,19 +205,30 @@ def load_csv_detections(csv_path: str) -> Tuple[List[Entity], ProcessingStats]:
     last_error = None
     file_content = None
     
+    delimiter = None
     for encoding in encodings_to_try:
         try:
             with open(csv_path, 'r', encoding=encoding) as f:
-                reader = csv.DictReader(f, delimiter=';')
-                
+                # Leer una muestra para detectar delimitador (',' o ';')
+                sample = f.read(4096)
+                try:
+                    dialect = csv.Sniffer().sniff(sample, delimiters=',;')
+                    delimiter = dialect.delimiter
+                except Exception:
+                    # Fallback simple: prefer ';' if present, otherwise ','
+                    delimiter = ';' if ';' in sample else ','
+
+                f.seek(0)
+                reader = csv.DictReader(f, delimiter=delimiter)
+
                 # Verificar columnas requeridas
                 required_columns = {'doc_id', 'etiqueta', 'modelo_detector', 
                                   'texto_detectado', 'confianza', 'posicion_inicio', 'posicion_fin'}
-                
+
                 if not required_columns.issubset(set(reader.fieldnames or [])):
                     raise ValueError(f"CSV debe contener columnas: {required_columns}")
-                
-                debug_print(f"  ✓ Archivo leído con encoding: {encoding}", "INFO")
+
+                debug_print(f"  ✓ Archivo leído con encoding: {encoding} and delimiter: '{delimiter}'", "INFO")
                 break  # Encoding exitoso, salir del loop
         except UnicodeDecodeError as e:
             last_error = e
@@ -231,7 +242,7 @@ def load_csv_detections(csv_path: str) -> Tuple[List[Entity], ProcessingStats]:
     
     try:
         with open(csv_path, 'r', encoding=encoding) as f:
-            reader = csv.DictReader(f, delimiter=';')
+            reader = csv.DictReader(f, delimiter=delimiter)
             
             # Verificar columnas requeridas ya realizada arriba
             required_columns = {'doc_id', 'etiqueta', 'modelo_detector', 

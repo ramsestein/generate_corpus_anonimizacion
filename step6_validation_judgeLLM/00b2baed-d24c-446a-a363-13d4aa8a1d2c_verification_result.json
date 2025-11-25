@@ -1,0 +1,397 @@
+{
+  "document_id": "00b2baed-d24c-446a-a363-13d4aa8a1d2c",
+  "success": true,
+  "anonymized_text": "Tras la valoración inicial realizada en el Centro de Salud Los Álamos, se decide el traslado del paciente para una valoración especializada más completa. El paciente ingresa en el Hospital Clínico San Carlos para completar el estudio. La resonancia magnética realizada muestra hallazgos inespecíficos en la región lumbar, compatibles con cambios degenerativos incipientes sin compromiso radicular agudo. Los análisis de sangre revelan un hemograma dentro de los parámetros de normalidad y una bioquímica básica sin alteraciones significativas. Se establece un plan de manejo conservador con control clínico estrecho. Para seguimiento ambulatorio y acceso a recursos de educación para la salud, se recomienda consultar la información disponible en el portal https://www.clinicabarcelona.org. Se programará una visita de control para reevaluación en las próximas semanas. Este informe fue completado el 12 de julio de 2023.",
+  "text_length": 921,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.9903940558433533,
+        "word": " Centro de Salud Los Álamos",
+        "start": 43,
+        "end": 69,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9985764622688293,
+        "word": " Hospital Clínico San Carlos",
+        "start": 180,
+        "end": 207,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9988336563110352,
+        "word": " 12 de julio de 2023",
+        "start": 901,
+        "end": 920,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CENTRO_SALUD": 1,
+        "HOSPITAL": 1,
+        "FECHAS": 1
+      },
+      "entities_by_confidence": {
+        "high": 3,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9903940558433533,
+          "start": 43,
+          "end": 69,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Hospital Clínico San Carlos",
+          "actual_text": "Hospital Clínico San Carlos",
+          "confidence": 0.9985764622688293,
+          "start": 180,
+          "end": 207,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9988336563110352,
+          "start": 901,
+          "end": 920,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9903940558433533,
+          "start": 43,
+          "end": 69,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Hospital Clínico San Carlos",
+          "actual_text": "Hospital Clínico San Carlos",
+          "confidence": 0.9985764622688293,
+          "start": 180,
+          "end": 207,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9988336563110352,
+          "start": 901,
+          "end": 920,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.9994418025016785,
+        "word": " Centro de Salud Los Álamos",
+        "start": 43,
+        "end": 69,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9997749924659729,
+        "word": " Hospital Clínico San Carlos",
+        "start": 180,
+        "end": 207,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9999013543128967,
+        "word": " 12 de julio de 2023",
+        "start": 901,
+        "end": 920,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CENTRO_SALUD": 1,
+        "HOSPITAL": 1,
+        "FECHAS": 1
+      },
+      "entities_by_confidence": {
+        "high": 3,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9994418025016785,
+          "start": 43,
+          "end": 69,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Hospital Clínico San Carlos",
+          "actual_text": "Hospital Clínico San Carlos",
+          "confidence": 0.9997749924659729,
+          "start": 180,
+          "end": 207,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9999013543128967,
+          "start": 901,
+          "end": 920,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9994418025016785,
+          "start": 43,
+          "end": 69,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Hospital Clínico San Carlos",
+          "actual_text": "Hospital Clínico San Carlos",
+          "confidence": 0.9997749924659729,
+          "start": 180,
+          "end": 207,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9999013543128967,
+          "start": 901,
+          "end": 920,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 6,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CENTRO_SALUD": 2,
+      "HOSPITAL": 2,
+      "FECHAS": 2
+    },
+    "entities_by_confidence": {
+      "high": 6,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9903940558433533,
+        "start": 43,
+        "end": 69,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Hospital Clínico San Carlos",
+        "actual_text": "Hospital Clínico San Carlos",
+        "confidence": 0.9985764622688293,
+        "start": 180,
+        "end": 207,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9988336563110352,
+        "start": 901,
+        "end": 920,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9994418025016785,
+        "start": 43,
+        "end": 69,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Hospital Clínico San Carlos",
+        "actual_text": "Hospital Clínico San Carlos",
+        "confidence": 0.9997749924659729,
+        "start": 180,
+        "end": 207,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9999013543128967,
+        "start": 901,
+        "end": 920,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9903940558433533,
+        "start": 43,
+        "end": 69,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Hospital Clínico San Carlos",
+        "actual_text": "Hospital Clínico San Carlos",
+        "confidence": 0.9985764622688293,
+        "start": 180,
+        "end": 207,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9988336563110352,
+        "start": 901,
+        "end": 920,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9994418025016785,
+        "start": 43,
+        "end": 69,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Hospital Clínico San Carlos",
+        "actual_text": "Hospital Clínico San Carlos",
+        "confidence": 0.9997749924659729,
+        "start": 180,
+        "end": 207,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9999013543128967,
+        "start": 901,
+        "end": 920,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 6,
+    "suspicious_detections": 6,
+    "xxxxxx_detections": 0,
+    "other_detections": 6
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "CENTRO_SALUD",
+        "text": " Centro de Salud Los Álamos",
+        "confidence": 0.9903940558433533,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "text": " Hospital Clínico San Carlos",
+        "confidence": 0.9985764622688293,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "text": " 12 de julio de 2023",
+        "confidence": 0.9988336563110352,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "text": " Centro de Salud Los Álamos",
+        "confidence": 0.9994418025016785,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "text": " Hospital Clínico San Carlos",
+        "confidence": 0.9997749924659729,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FECHAS",
+        "text": " 12 de julio de 2023",
+        "confidence": 0.9999013543128967,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 6
+  }
+}

@@ -1,0 +1,504 @@
+{
+  "document_id": "008ed118-d0b5-4f1d-a2ef-fdaa7be19fe0",
+  "success": true,
+  "anonymized_text": "En el contexto de la valoración integral, se procede a la elaboración del presente informe clínico. La persona bajo estudio, de sexo femenino, presenta una situación clínica que requiere seguimiento y análisis detallado. Durante la exploración física, se constata un estado general conservado, con auscultación cardiorrespiratoria rítmica y sin soplos, y abdomen blando y depresible sin masas palpables ni megalias. En relación con la documentación administrativa asociada al proceso, se verifica que el número de beneficiaria del plan de salud es el B-458712369. Asimismo, para la correcta identificación en los registros, se confirma la asignación del código REF-87463215, habiéndose validado también la referencia interna REF-87463215B. La asistencia se presta dentro del ámbito de la Comunidad Valenciana, lo que determina los protocolos asistenciales aplicables. Los estudios complementarios realizados, que incluyen analítica completa y pruebas de imagen, muestran parámetros dentro de la normalidad sin hallazgos de relevancia patológica inmediata. Se mantendrá la observación clínica según lo establecido en los procedimientos habituales.",
+  "text_length": 1146,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 5,
+    "entities": [
+      {
+        "entity_group": "SEXO_SUJETO_ASISTENCIA",
+        "score": 0.9875180125236511,
+        "word": " femenino",
+        "start": 133,
+        "end": 141,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7631862759590149,
+        "word": "45",
+        "start": 553,
+        "end": 555,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7287248373031616,
+        "word": "87",
+        "start": 665,
+        "end": 667,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7720219492912292,
+        "word": "87",
+        "start": 729,
+        "end": 731,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.7835662364959717,
+        "word": " Valenciana",
+        "start": 798,
+        "end": 808,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 5,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "SEXO_SUJETO_ASISTENCIA": 1,
+        "ID_SUJETO_ASISTENCIA": 3,
+        "PAIS": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 4,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9875180125236511,
+          "start": 133,
+          "end": 141,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "45",
+          "actual_text": "45",
+          "confidence": 0.7631862759590149,
+          "start": 553,
+          "end": 555,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "87",
+          "actual_text": "87",
+          "confidence": 0.7287248373031616,
+          "start": 665,
+          "end": 667,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "87",
+          "actual_text": "87",
+          "confidence": 0.7720219492912292,
+          "start": 729,
+          "end": 731,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Valenciana",
+          "actual_text": "Valenciana",
+          "confidence": 0.7835662364959717,
+          "start": 798,
+          "end": 808,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9875180125236511,
+          "start": 133,
+          "end": 141,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "45",
+          "actual_text": "45",
+          "confidence": 0.7631862759590149,
+          "start": 553,
+          "end": 555,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "87",
+          "actual_text": "87",
+          "confidence": 0.7287248373031616,
+          "start": 665,
+          "end": 667,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "87",
+          "actual_text": "87",
+          "confidence": 0.7720219492912292,
+          "start": 729,
+          "end": 731,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Valenciana",
+          "actual_text": "Valenciana",
+          "confidence": 0.7835662364959717,
+          "start": 798,
+          "end": 808,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 4,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7168219685554504,
+        "word": " sexo",
+        "start": 128,
+        "end": 132,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "SEXO_SUJETO_ASISTENCIA",
+        "score": 0.9857782125473022,
+        "word": " femenino",
+        "start": 133,
+        "end": 141,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.7603973746299744,
+        "word": " REF",
+        "start": 725,
+        "end": 728,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9970682859420776,
+        "word": " Comunidad Valenciana",
+        "start": 788,
+        "end": 808,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 4,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1,
+        "SEXO_SUJETO_ASISTENCIA": 1,
+        "NUMERO_IDENTIF": 1,
+        "PAIS": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.7168219685554504,
+          "start": 128,
+          "end": 132,
+          "model": "CARMEN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9857782125473022,
+          "start": 133,
+          "end": 141,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " REF",
+          "actual_text": "REF",
+          "confidence": 0.7603973746299744,
+          "start": 725,
+          "end": 728,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.9970682859420776,
+          "start": 788,
+          "end": 808,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": " sexo",
+          "actual_text": "sexo",
+          "confidence": 0.7168219685554504,
+          "start": 128,
+          "end": 132,
+          "model": "CARMEN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9857782125473022,
+          "start": 133,
+          "end": 141,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " REF",
+          "actual_text": "REF",
+          "confidence": 0.7603973746299744,
+          "start": 725,
+          "end": 728,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.9970682859420776,
+          "start": 788,
+          "end": 808,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 9,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "SEXO_SUJETO_ASISTENCIA": 2,
+      "ID_SUJETO_ASISTENCIA": 4,
+      "PAIS": 2,
+      "NUMERO_IDENTIF": 1
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 6,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9875180125236511,
+        "start": 133,
+        "end": 141,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "45",
+        "actual_text": "45",
+        "confidence": 0.7631862759590149,
+        "start": 553,
+        "end": 555,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "87",
+        "actual_text": "87",
+        "confidence": 0.7287248373031616,
+        "start": 665,
+        "end": 667,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "87",
+        "actual_text": "87",
+        "confidence": 0.7720219492912292,
+        "start": 729,
+        "end": 731,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Valenciana",
+        "actual_text": "Valenciana",
+        "confidence": 0.7835662364959717,
+        "start": 798,
+        "end": 808,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.7168219685554504,
+        "start": 128,
+        "end": 132,
+        "model": "CARMEN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9857782125473022,
+        "start": 133,
+        "end": 141,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " REF",
+        "actual_text": "REF",
+        "confidence": 0.7603973746299744,
+        "start": 725,
+        "end": 728,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.9970682859420776,
+        "start": 788,
+        "end": 808,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9875180125236511,
+        "start": 133,
+        "end": 141,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "45",
+        "actual_text": "45",
+        "confidence": 0.7631862759590149,
+        "start": 553,
+        "end": 555,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "87",
+        "actual_text": "87",
+        "confidence": 0.7287248373031616,
+        "start": 665,
+        "end": 667,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "87",
+        "actual_text": "87",
+        "confidence": 0.7720219492912292,
+        "start": 729,
+        "end": 731,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Valenciana",
+        "actual_text": "Valenciana",
+        "confidence": 0.7835662364959717,
+        "start": 798,
+        "end": 808,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": " sexo",
+        "actual_text": "sexo",
+        "confidence": 0.7168219685554504,
+        "start": 128,
+        "end": 132,
+        "model": "CARMEN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9857782125473022,
+        "start": 133,
+        "end": 141,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " REF",
+        "actual_text": "REF",
+        "confidence": 0.7603973746299744,
+        "start": 725,
+        "end": 728,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.9970682859420776,
+        "start": 788,
+        "end": 808,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 9,
+    "suspicious_detections": 9,
+    "xxxxxx_detections": 0,
+    "other_detections": 9
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "PAIS",
+        "text": " Comunidad Valenciana",
+        "confidence": 0.9970682859420776,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 1
+  }
+}

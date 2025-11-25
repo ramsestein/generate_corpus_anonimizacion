@@ -1,0 +1,842 @@
+{
+  "document_id": "007ce0b2-c0fb-41be-855d-be03d7ec6280",
+  "success": true,
+  "anonymized_text": "En el contexto de la valoración clínica actual, se procede a la revisión de la documentación asistencial disponible. Se confirma que el número de identificación de aseguramiento asociado al presente episodio es 46 08 28 123 45. La situación se ha comunicado y coordinado con los , en concreto con doña María López Martínez, quien se ha mostrado colaboradora y receptiva a las indicaciones terapéuticas propuestas. El plan diagnóstico se establece tras una exploración física que revela un estado general conservado, con tensión arterial de 128/76 mmHg y frecuencia cardíaca de 68 lpm. La auscultación cardiorrespiratoria resulta dentro de la normalidad y el abdomen es blando y depresible, sin masas ni megalias. Se solicita una analítica completa con perfil bioquímico y hemograma, así como un ecocardiograma para completar el estudio. Para cualquier gestión o aclaración, el profesional sanitario asignado, con titulación de Grado en Medicina, queda localizable a través del siguiente contacto: +34 612 34 56 78. Cabe destacar que la documentación ha sido revisada y validada bajo mi supervisión, constatando que toda la información clínica se ajusta a los protocolos establecidos. La paciente, doña María del Carmen Rodríguez, ha sido informada de los hallazgos y del plan a seguir, mostrando una adecuada comprensión del proceso.",
+  "text_length": 1333,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 6,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9853323101997375,
+        "word": " 46 08 28 123 45",
+        "start": 211,
+        "end": 226,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.8799732327461243,
+        "word": " María López Martínez",
+        "start": 302,
+        "end": 322,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9944730401039124,
+        "word": " +",
+        "start": 997,
+        "end": 998,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9890254139900208,
+        "word": "34 612 34 56 78",
+        "start": 998,
+        "end": 1013,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.8246638774871826,
+        "word": " doña",
+        "start": 1197,
+        "end": 1201,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9949618577957153,
+        "word": " María del Carmen Rodríguez",
+        "start": 1202,
+        "end": 1228,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 6,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 3,
+        "NOMBRE_PERSONAL_SANITARIO": 3
+      },
+      "entities_by_confidence": {
+        "high": 6,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 46 08 28 123 45",
+          "actual_text": "46 08 28 123 45",
+          "confidence": 0.9853323101997375,
+          "start": 211,
+          "end": 226,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " María López Martínez",
+          "actual_text": "María López Martínez",
+          "confidence": 0.8799732327461243,
+          "start": 302,
+          "end": 322,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9944730401039124,
+          "start": 997,
+          "end": 998,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 612 34 56 78",
+          "actual_text": "34 612 34 56 78",
+          "confidence": 0.9890254139900208,
+          "start": 998,
+          "end": 1013,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " doña",
+          "actual_text": "doña",
+          "confidence": 0.8246638774871826,
+          "start": 1197,
+          "end": 1201,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " María del Carmen Rodríguez",
+          "actual_text": "María del Carmen Rodríguez",
+          "confidence": 0.9949618577957153,
+          "start": 1202,
+          "end": 1228,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 46 08 28 123 45",
+          "actual_text": "46 08 28 123 45",
+          "confidence": 0.9853323101997375,
+          "start": 211,
+          "end": 226,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " María López Martínez",
+          "actual_text": "María López Martínez",
+          "confidence": 0.8799732327461243,
+          "start": 302,
+          "end": 322,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9944730401039124,
+          "start": 997,
+          "end": 998,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 612 34 56 78",
+          "actual_text": "34 612 34 56 78",
+          "confidence": 0.9890254139900208,
+          "start": 998,
+          "end": 1013,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " doña",
+          "actual_text": "doña",
+          "confidence": 0.8246638774871826,
+          "start": 1197,
+          "end": 1201,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " María del Carmen Rodríguez",
+          "actual_text": "María del Carmen Rodríguez",
+          "confidence": 0.9949618577957153,
+          "start": 1202,
+          "end": 1228,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 10,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9200371503829956,
+        "word": " 46 08 28 123 45",
+        "start": 211,
+        "end": 226,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8246562480926514,
+        "word": " María",
+        "start": 302,
+        "end": 307,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.990347146987915,
+        "word": " López",
+        "start": 308,
+        "end": 313,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9865434765815735,
+        "word": " Martínez",
+        "start": 314,
+        "end": 322,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PROFESION",
+        "score": 0.8776891827583313,
+        "word": " Grado en Medicina",
+        "start": 927,
+        "end": 944,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9970266222953796,
+        "word": " +",
+        "start": 997,
+        "end": 998,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8169282078742981,
+        "word": "34",
+        "start": 998,
+        "end": 1000,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8176549077033997,
+        "word": " 612 34 56 78",
+        "start": 1001,
+        "end": 1013,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.802984893321991,
+        "word": " María",
+        "start": 1202,
+        "end": 1207,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9944169521331787,
+        "word": " Rodríguez",
+        "start": 1219,
+        "end": 1228,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 10,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 4,
+        "FAMILIARES_SUJETO_ASISTENCIA": 2,
+        "NOMBRE_PERSONAL_SANITARIO": 3,
+        "PROFESION": 1
+      },
+      "entities_by_confidence": {
+        "high": 10,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 46 08 28 123 45",
+          "actual_text": "46 08 28 123 45",
+          "confidence": 0.9200371503829956,
+          "start": 211,
+          "end": 226,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " María",
+          "actual_text": "María",
+          "confidence": 0.8246562480926514,
+          "start": 302,
+          "end": 307,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " López",
+          "actual_text": "López",
+          "confidence": 0.990347146987915,
+          "start": 308,
+          "end": 313,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Martínez",
+          "actual_text": "Martínez",
+          "confidence": 0.9865434765815735,
+          "start": 314,
+          "end": 322,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " Grado en Medicina",
+          "actual_text": "Grado en Medicina",
+          "confidence": 0.8776891827583313,
+          "start": 927,
+          "end": 944,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9970266222953796,
+          "start": 997,
+          "end": 998,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34",
+          "actual_text": "34",
+          "confidence": 0.8169282078742981,
+          "start": 998,
+          "end": 1000,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 612 34 56 78",
+          "actual_text": "612 34 56 78",
+          "confidence": 0.8176549077033997,
+          "start": 1001,
+          "end": 1013,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " María",
+          "actual_text": "María",
+          "confidence": 0.802984893321991,
+          "start": 1202,
+          "end": 1207,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "Rodríguez",
+          "confidence": 0.9944169521331787,
+          "start": 1219,
+          "end": 1228,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 46 08 28 123 45",
+          "actual_text": "46 08 28 123 45",
+          "confidence": 0.9200371503829956,
+          "start": 211,
+          "end": 226,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " María",
+          "actual_text": "María",
+          "confidence": 0.8246562480926514,
+          "start": 302,
+          "end": 307,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " López",
+          "actual_text": "López",
+          "confidence": 0.990347146987915,
+          "start": 308,
+          "end": 313,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Martínez",
+          "actual_text": "Martínez",
+          "confidence": 0.9865434765815735,
+          "start": 314,
+          "end": 322,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " Grado en Medicina",
+          "actual_text": "Grado en Medicina",
+          "confidence": 0.8776891827583313,
+          "start": 927,
+          "end": 944,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9970266222953796,
+          "start": 997,
+          "end": 998,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34",
+          "actual_text": "34",
+          "confidence": 0.8169282078742981,
+          "start": 998,
+          "end": 1000,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 612 34 56 78",
+          "actual_text": "612 34 56 78",
+          "confidence": 0.8176549077033997,
+          "start": 1001,
+          "end": 1013,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " María",
+          "actual_text": "María",
+          "confidence": 0.802984893321991,
+          "start": 1202,
+          "end": 1207,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "Rodríguez",
+          "confidence": 0.9944169521331787,
+          "start": 1219,
+          "end": 1228,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 16,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "NUMERO_TELEFONO": 7,
+      "NOMBRE_PERSONAL_SANITARIO": 6,
+      "FAMILIARES_SUJETO_ASISTENCIA": 2,
+      "PROFESION": 1
+    },
+    "entities_by_confidence": {
+      "high": 16,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 46 08 28 123 45",
+        "actual_text": "46 08 28 123 45",
+        "confidence": 0.9853323101997375,
+        "start": 211,
+        "end": 226,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " María López Martínez",
+        "actual_text": "María López Martínez",
+        "confidence": 0.8799732327461243,
+        "start": 302,
+        "end": 322,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9944730401039124,
+        "start": 997,
+        "end": 998,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 612 34 56 78",
+        "actual_text": "34 612 34 56 78",
+        "confidence": 0.9890254139900208,
+        "start": 998,
+        "end": 1013,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " doña",
+        "actual_text": "doña",
+        "confidence": 0.8246638774871826,
+        "start": 1197,
+        "end": 1201,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " María del Carmen Rodríguez",
+        "actual_text": "María del Carmen Rodríguez",
+        "confidence": 0.9949618577957153,
+        "start": 1202,
+        "end": 1228,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 46 08 28 123 45",
+        "actual_text": "46 08 28 123 45",
+        "confidence": 0.9200371503829956,
+        "start": 211,
+        "end": 226,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " María",
+        "actual_text": "María",
+        "confidence": 0.8246562480926514,
+        "start": 302,
+        "end": 307,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " López",
+        "actual_text": "López",
+        "confidence": 0.990347146987915,
+        "start": 308,
+        "end": 313,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Martínez",
+        "actual_text": "Martínez",
+        "confidence": 0.9865434765815735,
+        "start": 314,
+        "end": 322,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " Grado en Medicina",
+        "actual_text": "Grado en Medicina",
+        "confidence": 0.8776891827583313,
+        "start": 927,
+        "end": 944,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9970266222953796,
+        "start": 997,
+        "end": 998,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34",
+        "actual_text": "34",
+        "confidence": 0.8169282078742981,
+        "start": 998,
+        "end": 1000,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 612 34 56 78",
+        "actual_text": "612 34 56 78",
+        "confidence": 0.8176549077033997,
+        "start": 1001,
+        "end": 1013,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " María",
+        "actual_text": "María",
+        "confidence": 0.802984893321991,
+        "start": 1202,
+        "end": 1207,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "Rodríguez",
+        "confidence": 0.9944169521331787,
+        "start": 1219,
+        "end": 1228,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 46 08 28 123 45",
+        "actual_text": "46 08 28 123 45",
+        "confidence": 0.9853323101997375,
+        "start": 211,
+        "end": 226,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " María López Martínez",
+        "actual_text": "María López Martínez",
+        "confidence": 0.8799732327461243,
+        "start": 302,
+        "end": 322,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9944730401039124,
+        "start": 997,
+        "end": 998,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 612 34 56 78",
+        "actual_text": "34 612 34 56 78",
+        "confidence": 0.9890254139900208,
+        "start": 998,
+        "end": 1013,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " doña",
+        "actual_text": "doña",
+        "confidence": 0.8246638774871826,
+        "start": 1197,
+        "end": 1201,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " María del Carmen Rodríguez",
+        "actual_text": "María del Carmen Rodríguez",
+        "confidence": 0.9949618577957153,
+        "start": 1202,
+        "end": 1228,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 46 08 28 123 45",
+        "actual_text": "46 08 28 123 45",
+        "confidence": 0.9200371503829956,
+        "start": 211,
+        "end": 226,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " María",
+        "actual_text": "María",
+        "confidence": 0.8246562480926514,
+        "start": 302,
+        "end": 307,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " López",
+        "actual_text": "López",
+        "confidence": 0.990347146987915,
+        "start": 308,
+        "end": 313,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Martínez",
+        "actual_text": "Martínez",
+        "confidence": 0.9865434765815735,
+        "start": 314,
+        "end": 322,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " Grado en Medicina",
+        "actual_text": "Grado en Medicina",
+        "confidence": 0.8776891827583313,
+        "start": 927,
+        "end": 944,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9970266222953796,
+        "start": 997,
+        "end": 998,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34",
+        "actual_text": "34",
+        "confidence": 0.8169282078742981,
+        "start": 998,
+        "end": 1000,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 612 34 56 78",
+        "actual_text": "612 34 56 78",
+        "confidence": 0.8176549077033997,
+        "start": 1001,
+        "end": 1013,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " María",
+        "actual_text": "María",
+        "confidence": 0.802984893321991,
+        "start": 1202,
+        "end": 1207,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "Rodríguez",
+        "confidence": 0.9944169521331787,
+        "start": 1219,
+        "end": 1228,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 16,
+    "suspicious_detections": 16,
+    "xxxxxx_detections": 0,
+    "other_detections": 16
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " +",
+        "confidence": 0.9944730401039124,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " María del Carmen Rodríguez",
+        "confidence": 0.9949618577957153,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " López",
+        "confidence": 0.990347146987915,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " +",
+        "confidence": 0.9970266222953796,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Rodríguez",
+        "confidence": 0.9944169521331787,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 5
+  }
+}

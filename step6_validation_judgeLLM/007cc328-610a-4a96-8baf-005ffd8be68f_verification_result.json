@@ -1,0 +1,416 @@
+{
+  "document_id": "007cc328-610a-4a96-8baf-005ffd8be68f",
+  "success": true,
+  "anonymized_text": "A tenor de la documentación clínica disponible, se procede a la elaboración del presente informe de valoración. La primera consulta de referencia para este proceso tuvo lugar el 12 de julio de 2023, donde se establecieron las bases del manejo terapéutico actual. La evolución del cuadro ha sido monitorizada dentro del sistema sanitario de la Comunidad Valenciana, garantizando la continuidad asistencial. En relación con la identificación del caso, el identificador principal de contacto asistencial es HC-2024-789456. Cabe mencionar que, para una correcta trazabilidad en los sistemas de información, se encuentra también asociado el otro número de identificación HC-2024-789012, el cual debe ser consignado en toda comunicación interdepartamental para evitar duplicidades. Desde el punto de vista clínico, la exploración física actual revela un estado general conservado. La auscultación cardiorrespiratoria resulta dentro de parámetros normales, sin soplos ni ruidos sobreañadidos. En cuanto a las pruebas complementarias recientes, el hemograma y la bioquímica básica no muestran desviaciones significativas de los rangos de normalidad. Las pruebas de imagen realizadas, concretamente una radiografía de tórax en proyección posteroanterior, informan de campos pulmonares libres sin consolidaciones patológicas. Se mantendrá la pauta de seguimiento establecida, coordinando la próxima revisión para valorar la respuesta a las medidas instauradas. Se considera que la situación clínica actual es estable.",
+  "text_length": 1507,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 1,
+    "entities": [
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9988143444061279,
+        "word": " 12 de julio de 2023",
+        "start": 178,
+        "end": 197,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 1,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FECHAS": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9988143444061279,
+          "start": 178,
+          "end": 197,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9988143444061279,
+          "start": 178,
+          "end": 197,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 6,
+    "entities": [
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9999006390571594,
+        "word": " 12 de julio de 2023",
+        "start": 178,
+        "end": 197,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9845098853111267,
+        "word": " Comunidad Valenciana",
+        "start": 343,
+        "end": 363,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7478676438331604,
+        "word": " HC",
+        "start": 504,
+        "end": 506,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8711565136909485,
+        "word": "-",
+        "start": 506,
+        "end": 507,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8350841403007507,
+        "word": " HC",
+        "start": 666,
+        "end": 668,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7999221086502075,
+        "word": "-",
+        "start": 668,
+        "end": 669,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 6,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FECHAS": 1,
+        "PAIS": 1,
+        "NUMERO_TELEFONO": 4
+      },
+      "entities_by_confidence": {
+        "high": 4,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9999006390571594,
+          "start": 178,
+          "end": 197,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.9845098853111267,
+          "start": 343,
+          "end": 363,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " HC",
+          "actual_text": "HC",
+          "confidence": 0.7478676438331604,
+          "start": 504,
+          "end": 506,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.8711565136909485,
+          "start": 506,
+          "end": 507,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " HC",
+          "actual_text": "HC",
+          "confidence": 0.8350841403007507,
+          "start": 666,
+          "end": 668,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.7999221086502075,
+          "start": 668,
+          "end": 669,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9999006390571594,
+          "start": 178,
+          "end": 197,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.9845098853111267,
+          "start": 343,
+          "end": 363,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " HC",
+          "actual_text": "HC",
+          "confidence": 0.7478676438331604,
+          "start": 504,
+          "end": 506,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.8711565136909485,
+          "start": 506,
+          "end": 507,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " HC",
+          "actual_text": "HC",
+          "confidence": 0.8350841403007507,
+          "start": 666,
+          "end": 668,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.7999221086502075,
+          "start": 668,
+          "end": 669,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 7,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FECHAS": 2,
+      "PAIS": 1,
+      "NUMERO_TELEFONO": 4
+    },
+    "entities_by_confidence": {
+      "high": 5,
+      "medium": 2,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9988143444061279,
+        "start": 178,
+        "end": 197,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9999006390571594,
+        "start": 178,
+        "end": 197,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.9845098853111267,
+        "start": 343,
+        "end": 363,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " HC",
+        "actual_text": "HC",
+        "confidence": 0.7478676438331604,
+        "start": 504,
+        "end": 506,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.8711565136909485,
+        "start": 506,
+        "end": 507,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " HC",
+        "actual_text": "HC",
+        "confidence": 0.8350841403007507,
+        "start": 666,
+        "end": 668,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.7999221086502075,
+        "start": 668,
+        "end": 669,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9988143444061279,
+        "start": 178,
+        "end": 197,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9999006390571594,
+        "start": 178,
+        "end": 197,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.9845098853111267,
+        "start": 343,
+        "end": 363,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " HC",
+        "actual_text": "HC",
+        "confidence": 0.7478676438331604,
+        "start": 504,
+        "end": 506,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.8711565136909485,
+        "start": 506,
+        "end": 507,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " HC",
+        "actual_text": "HC",
+        "confidence": 0.8350841403007507,
+        "start": 666,
+        "end": 668,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.7999221086502075,
+        "start": 668,
+        "end": 669,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 7,
+    "suspicious_detections": 7,
+    "xxxxxx_detections": 0,
+    "other_detections": 7
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "FECHAS",
+        "text": " 12 de julio de 2023",
+        "confidence": 0.9988143444061279,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "text": " 12 de julio de 2023",
+        "confidence": 0.9999006390571594,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 2
+  }
+}

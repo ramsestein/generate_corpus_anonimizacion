@@ -1,0 +1,649 @@
+{
+  "document_id": "00d874a1-ee5e-4e6f-9fe7-4c66681cd7ac",
+  "success": true,
+  "anonymized_text": "**NOTA DE EVOLUCIÓN - CONSULTA DE SEGUIMIENTO** La paciente María del Carmen Rodríguez se presenta hoy para seguimiento de su cuadro ansioso-depresivo. Refiere mejoría parcial de la sintomatología ansiosa desde la última consulta, aunque persisten episodios de inquietud psicomotriz. Se observa adecuada adherencia al tratamiento farmacológico establecido y buena tolerancia al mismo. En la exploración física actual, se constata: tensión arterial 126/78 mmHg, frecuencia cardíaca 88 lpm, saturación de oxígeno 98%. Estado general conservado, consciente y orientada en las tres esferas. No se evidencian signos de focalidad neurológica. Resto de la exploración por aparatos dentro de la normalidad. Se destaca en su historial que presenta condición de alérgico a la penicilina, dato que queda registrado en su documentación clínica con el número de beneficiario del plan de salud B-45872316. Se verifica igualmente la correspondencia con su identificación de aseguramiento E-789456. Para completar la documentación administrativa, se confirma el código ES-87654321-X correspondiente a su identificación laboral en el sistema. Como parte del abordaje multimodal, se ha recomendado la incorporación a actividades psicoeducativas complementarias, específicamente se ha sugerido su participación en el Grupo de apoyo de ansiedad que considera beneficioso para su evolución. Se mantendrá contacto con su red de apoyo a través del correo electrónico carlos.martinez@clinic.es para coordinar los aspectos logísticos de su participación en dichas actividades. Se programará nueva visita en cuatro semanas para reevaluación, manteniendo por el momento el mismo esquema terapéutico. Se enfatiza la importancia de la continuidad en las intervenciones no farmacológicas para optimizar los resultados a medio plazo.",
+  "text_length": 1802,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 5,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9566280841827393,
+        "word": " María del Carmen Rodríguez",
+        "start": 60,
+        "end": 86,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7715225219726562,
+        "word": "45",
+        "start": 882,
+        "end": 884,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7707473039627075,
+        "word": "8",
+        "start": 1056,
+        "end": 1057,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9981040954589844,
+        "word": " car",
+        "start": 1444,
+        "end": 1447,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9987021684646606,
+        "word": "los.martinez@clinic.es",
+        "start": 1447,
+        "end": 1469,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 5,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 1,
+        "ID_SUJETO_ASISTENCIA": 2,
+        "CORREO_ELECTRONICO": 2
+      },
+      "entities_by_confidence": {
+        "high": 3,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " María del Carmen Rodríguez",
+          "actual_text": "María del Carmen Rodríguez",
+          "confidence": 0.9566280841827393,
+          "start": 60,
+          "end": 86,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "45",
+          "actual_text": "45",
+          "confidence": 0.7715225219726562,
+          "start": 882,
+          "end": 884,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "8",
+          "actual_text": "8",
+          "confidence": 0.7707473039627075,
+          "start": 1056,
+          "end": 1057,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.9981040954589844,
+          "start": 1444,
+          "end": 1447,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "los.martinez@clinic.es",
+          "actual_text": "los.martinez@clinic.es",
+          "confidence": 0.9987021684646606,
+          "start": 1447,
+          "end": 1469,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " María del Carmen Rodríguez",
+          "actual_text": "María del Carmen Rodríguez",
+          "confidence": 0.9566280841827393,
+          "start": 60,
+          "end": 86,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "45",
+          "actual_text": "45",
+          "confidence": 0.7715225219726562,
+          "start": 882,
+          "end": 884,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "8",
+          "actual_text": "8",
+          "confidence": 0.7707473039627075,
+          "start": 1056,
+          "end": 1057,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.9981040954589844,
+          "start": 1444,
+          "end": 1447,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "los.martinez@clinic.es",
+          "actual_text": "los.martinez@clinic.es",
+          "confidence": 0.9987021684646606,
+          "start": 1447,
+          "end": 1469,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 7,
+    "entities": [
+      {
+        "entity_group": "SEXO_SUJETO_ASISTENCIA",
+        "score": 0.860166609287262,
+        "word": " María",
+        "start": 60,
+        "end": 65,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9513072967529297,
+        "word": " Rodríguez",
+        "start": 77,
+        "end": 86,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.8607819676399231,
+        "word": " B",
+        "start": 880,
+        "end": 881,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8700700402259827,
+        "word": " E",
+        "start": 973,
+        "end": 974,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.7652756571769714,
+        "word": " ES",
+        "start": 1053,
+        "end": 1055,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8088614344596863,
+        "word": " car",
+        "start": 1444,
+        "end": 1447,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.7243775725364685,
+        "word": "@clinic.es",
+        "start": 1459,
+        "end": 1469,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 7,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "SEXO_SUJETO_ASISTENCIA": 1,
+        "NOMBRE_PERSONAL_SANITARIO": 1,
+        "NUMERO_IDENTIF": 2,
+        "NUMERO_TELEFONO": 2,
+        "URL_WEB": 1
+      },
+      "entities_by_confidence": {
+        "high": 5,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " María",
+          "actual_text": "María",
+          "confidence": 0.860166609287262,
+          "start": 60,
+          "end": 65,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "Rodríguez",
+          "confidence": 0.9513072967529297,
+          "start": 77,
+          "end": 86,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.8607819676399231,
+          "start": 880,
+          "end": 881,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " E",
+          "actual_text": "E",
+          "confidence": 0.8700700402259827,
+          "start": 973,
+          "end": 974,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " ES",
+          "actual_text": "ES",
+          "confidence": 0.7652756571769714,
+          "start": 1053,
+          "end": 1055,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.8088614344596863,
+          "start": 1444,
+          "end": 1447,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "@clinic.es",
+          "actual_text": "@clinic.es",
+          "confidence": 0.7243775725364685,
+          "start": 1459,
+          "end": 1469,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " María",
+          "actual_text": "María",
+          "confidence": 0.860166609287262,
+          "start": 60,
+          "end": 65,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "Rodríguez",
+          "confidence": 0.9513072967529297,
+          "start": 77,
+          "end": 86,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.8607819676399231,
+          "start": 880,
+          "end": 881,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " E",
+          "actual_text": "E",
+          "confidence": 0.8700700402259827,
+          "start": 973,
+          "end": 974,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " ES",
+          "actual_text": "ES",
+          "confidence": 0.7652756571769714,
+          "start": 1053,
+          "end": 1055,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.8088614344596863,
+          "start": 1444,
+          "end": 1447,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "@clinic.es",
+          "actual_text": "@clinic.es",
+          "confidence": 0.7243775725364685,
+          "start": 1459,
+          "end": 1469,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 12,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "NOMBRE_PERSONAL_SANITARIO": 2,
+      "ID_SUJETO_ASISTENCIA": 2,
+      "CORREO_ELECTRONICO": 2,
+      "SEXO_SUJETO_ASISTENCIA": 1,
+      "NUMERO_IDENTIF": 2,
+      "NUMERO_TELEFONO": 2,
+      "URL_WEB": 1
+    },
+    "entities_by_confidence": {
+      "high": 8,
+      "medium": 4,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " María del Carmen Rodríguez",
+        "actual_text": "María del Carmen Rodríguez",
+        "confidence": 0.9566280841827393,
+        "start": 60,
+        "end": 86,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "45",
+        "actual_text": "45",
+        "confidence": 0.7715225219726562,
+        "start": 882,
+        "end": 884,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "8",
+        "actual_text": "8",
+        "confidence": 0.7707473039627075,
+        "start": 1056,
+        "end": 1057,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.9981040954589844,
+        "start": 1444,
+        "end": 1447,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "los.martinez@clinic.es",
+        "actual_text": "los.martinez@clinic.es",
+        "confidence": 0.9987021684646606,
+        "start": 1447,
+        "end": 1469,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " María",
+        "actual_text": "María",
+        "confidence": 0.860166609287262,
+        "start": 60,
+        "end": 65,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "Rodríguez",
+        "confidence": 0.9513072967529297,
+        "start": 77,
+        "end": 86,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.8607819676399231,
+        "start": 880,
+        "end": 881,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " E",
+        "actual_text": "E",
+        "confidence": 0.8700700402259827,
+        "start": 973,
+        "end": 974,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " ES",
+        "actual_text": "ES",
+        "confidence": 0.7652756571769714,
+        "start": 1053,
+        "end": 1055,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.8088614344596863,
+        "start": 1444,
+        "end": 1447,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "@clinic.es",
+        "actual_text": "@clinic.es",
+        "confidence": 0.7243775725364685,
+        "start": 1459,
+        "end": 1469,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " María del Carmen Rodríguez",
+        "actual_text": "María del Carmen Rodríguez",
+        "confidence": 0.9566280841827393,
+        "start": 60,
+        "end": 86,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "45",
+        "actual_text": "45",
+        "confidence": 0.7715225219726562,
+        "start": 882,
+        "end": 884,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "8",
+        "actual_text": "8",
+        "confidence": 0.7707473039627075,
+        "start": 1056,
+        "end": 1057,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.9981040954589844,
+        "start": 1444,
+        "end": 1447,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "los.martinez@clinic.es",
+        "actual_text": "los.martinez@clinic.es",
+        "confidence": 0.9987021684646606,
+        "start": 1447,
+        "end": 1469,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " María",
+        "actual_text": "María",
+        "confidence": 0.860166609287262,
+        "start": 60,
+        "end": 65,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "Rodríguez",
+        "confidence": 0.9513072967529297,
+        "start": 77,
+        "end": 86,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.8607819676399231,
+        "start": 880,
+        "end": 881,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " E",
+        "actual_text": "E",
+        "confidence": 0.8700700402259827,
+        "start": 973,
+        "end": 974,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " ES",
+        "actual_text": "ES",
+        "confidence": 0.7652756571769714,
+        "start": 1053,
+        "end": 1055,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.8088614344596863,
+        "start": 1444,
+        "end": 1447,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "@clinic.es",
+        "actual_text": "@clinic.es",
+        "confidence": 0.7243775725364685,
+        "start": 1459,
+        "end": 1469,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 12,
+    "suspicious_detections": 12,
+    "xxxxxx_detections": 0,
+    "other_detections": 12
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "CORREO_ELECTRONICO",
+        "text": " car",
+        "confidence": 0.9981040954589844,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "text": "los.martinez@clinic.es",
+        "confidence": 0.9987021684646606,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "count": 2
+  }
+}

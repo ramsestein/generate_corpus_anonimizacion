@@ -1,0 +1,1055 @@
+{
+  "document_id": "00930499-2021-4d95-a3f2-3b0053ead40c",
+  "success": true,
+  "anonymized_text": "En la valoración clínica realizada, se documenta el estado de la paciente Laura Méndez Iglesias, cuyo seguimiento se coordina con el sistema de salud correspondiente. Durante la exploración física, se observa normotensión, frecuencia cardíaca regular sin soplos audibles, y abdomen blando y depresible sin masas palpables. Los resultados analíticos recientes, asociados al número de serie del dispositivo analizador SN-98273645, fueron dentro de parámetros normales. Para una revisión más exhaustiva de su historial completo, se ha consultado la dirección de protocolo de internet https://historiaclinica.hospitalregional.org/paciente/AB12345. Respecto a la cobertura sanitaria, la paciente cuenta con el número de beneficio del plan de salud B-458712369, gestionado a través del Ministerio de Sanidad. Su identificación de aseguramiento es ES-87654321X. Se ha procedido a la verificación de los equipos médicos utilizados en la consulta, confirmando el correcto funcionamiento del electrocardiógrafo con número de serie SN-98237641. Toda esta información queda consolidada en su expediente digital principal, accesible también mediante la dirección de protocolo de internet https://historiaclinica.hgugm.es/paciente/AB12345CD. Se mantendrá una vigilancia activa del caso. Para cualquier comunicación administrativa o envío de documentación complementaria, se dispone del número de fax +34 91 876 54 32. Cabe mencionar que en la documentación aportada figura también el nombre de Laura Martínez Sánchez, lo cual ha sido anotado para su debida aclaración en próximas revisiones y para garantizar la correcta trazabilidad de toda la información clínica.",
+  "text_length": 1651,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 7,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9026269912719727,
+        "word": " Laura Méndez Iglesias",
+        "start": 74,
+        "end": 95,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9133574366569519,
+        "word": "aclinica.hospitalregional.org",
+        "start": 596,
+        "end": 625,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8057484030723572,
+        "word": "98",
+        "start": 1024,
+        "end": 1026,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9834977984428406,
+        "word": "ica.hgugm.es",
+        "start": 1195,
+        "end": 1207,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9902709722518921,
+        "word": " +",
+        "start": 1386,
+        "end": 1387,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9906601905822754,
+        "word": "34 91 876 54 32",
+        "start": 1387,
+        "end": 1402,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9801713824272156,
+        "word": " Martínez Sánchez",
+        "start": 1486,
+        "end": 1502,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 7,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 2,
+        "CORREO_ELECTRONICO": 2,
+        "ID_SUJETO_ASISTENCIA": 1,
+        "NUMERO_TELEFONO": 2
+      },
+      "entities_by_confidence": {
+        "high": 7,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Laura Méndez Iglesias",
+          "actual_text": "Laura Méndez Iglesias",
+          "confidence": 0.9026269912719727,
+          "start": 74,
+          "end": 95,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "aclinica.hospitalregional.org",
+          "actual_text": "aclinica.hospitalregional.org",
+          "confidence": 0.9133574366569519,
+          "start": 596,
+          "end": 625,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "98",
+          "actual_text": "98",
+          "confidence": 0.8057484030723572,
+          "start": 1024,
+          "end": 1026,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "ica.hgugm.es",
+          "actual_text": "ica.hgugm.es",
+          "confidence": 0.9834977984428406,
+          "start": 1195,
+          "end": 1207,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9902709722518921,
+          "start": 1386,
+          "end": 1387,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.9906601905822754,
+          "start": 1387,
+          "end": 1402,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Martínez Sánchez",
+          "actual_text": "Martínez Sánchez",
+          "confidence": 0.9801713824272156,
+          "start": 1486,
+          "end": 1502,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Laura Méndez Iglesias",
+          "actual_text": "Laura Méndez Iglesias",
+          "confidence": 0.9026269912719727,
+          "start": 74,
+          "end": 95,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "aclinica.hospitalregional.org",
+          "actual_text": "aclinica.hospitalregional.org",
+          "confidence": 0.9133574366569519,
+          "start": 596,
+          "end": 625,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "98",
+          "actual_text": "98",
+          "confidence": 0.8057484030723572,
+          "start": 1024,
+          "end": 1026,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "ica.hgugm.es",
+          "actual_text": "ica.hgugm.es",
+          "confidence": 0.9834977984428406,
+          "start": 1195,
+          "end": 1207,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9902709722518921,
+          "start": 1386,
+          "end": 1387,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.9906601905822754,
+          "start": 1387,
+          "end": 1402,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Martínez Sánchez",
+          "actual_text": "Martínez Sánchez",
+          "confidence": 0.9801713824272156,
+          "start": 1486,
+          "end": 1502,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 14,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9332306981086731,
+        "word": " Méndez",
+        "start": 80,
+        "end": 86,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.8912219405174255,
+        "word": " Iglesias",
+        "start": 87,
+        "end": 95,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.7461845874786377,
+        "word": " SN-",
+        "start": 416,
+        "end": 419,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.7137345671653748,
+        "word": "toriaclinica.hospitalregional.org/paciente",
+        "start": 592,
+        "end": 634,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8350195288658142,
+        "word": "AB",
+        "start": 635,
+        "end": 637,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.7136557102203369,
+        "word": " B-",
+        "start": 743,
+        "end": 745,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.7609614729881287,
+        "word": " ES",
+        "start": 841,
+        "end": 843,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.8316954970359802,
+        "word": " SN",
+        "start": 1021,
+        "end": 1023,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7624486088752747,
+        "word": "his",
+        "start": 1183,
+        "end": 1186,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.7829908728599548,
+        "word": "ica.hgugm.es/",
+        "start": 1195,
+        "end": 1208,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8595044612884521,
+        "word": "AB",
+        "start": 1217,
+        "end": 1219,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8615703582763672,
+        "word": " +34 91 876 54 32",
+        "start": 1386,
+        "end": 1402,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9708729982376099,
+        "word": " Martínez",
+        "start": 1486,
+        "end": 1494,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9718043208122253,
+        "word": " Sánchez",
+        "start": 1495,
+        "end": 1502,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 14,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 4,
+        "NUMERO_IDENTIF": 4,
+        "URL_WEB": 2,
+        "NUMERO_TELEFONO": 3,
+        "OTROS_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 8,
+        "medium": 6,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9332306981086731,
+          "start": 80,
+          "end": 86,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.8912219405174255,
+          "start": 87,
+          "end": 95,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " SN-",
+          "actual_text": "SN-",
+          "confidence": 0.7461845874786377,
+          "start": 416,
+          "end": 419,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "toriaclinica.hospitalregional.org/paciente",
+          "actual_text": "toriaclinica.hospitalregional.org/paciente",
+          "confidence": 0.7137345671653748,
+          "start": 592,
+          "end": 634,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "AB",
+          "actual_text": "AB",
+          "confidence": 0.8350195288658142,
+          "start": 635,
+          "end": 637,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " B-",
+          "actual_text": "B-",
+          "confidence": 0.7136557102203369,
+          "start": 743,
+          "end": 745,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " ES",
+          "actual_text": "ES",
+          "confidence": 0.7609614729881287,
+          "start": 841,
+          "end": 843,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " SN",
+          "actual_text": "SN",
+          "confidence": 0.8316954970359802,
+          "start": 1021,
+          "end": 1023,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "his",
+          "actual_text": "his",
+          "confidence": 0.7624486088752747,
+          "start": 1183,
+          "end": 1186,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "ica.hgugm.es/",
+          "actual_text": "ica.hgugm.es/",
+          "confidence": 0.7829908728599548,
+          "start": 1195,
+          "end": 1208,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "AB",
+          "actual_text": "AB",
+          "confidence": 0.8595044612884521,
+          "start": 1217,
+          "end": 1219,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +34 91 876 54 32",
+          "actual_text": "+34 91 876 54 32",
+          "confidence": 0.8615703582763672,
+          "start": 1386,
+          "end": 1402,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Martínez",
+          "actual_text": "Martínez",
+          "confidence": 0.9708729982376099,
+          "start": 1486,
+          "end": 1494,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Sánchez",
+          "actual_text": "Sánchez",
+          "confidence": 0.9718043208122253,
+          "start": 1495,
+          "end": 1502,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9332306981086731,
+          "start": 80,
+          "end": 86,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.8912219405174255,
+          "start": 87,
+          "end": 95,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " SN-",
+          "actual_text": "SN-",
+          "confidence": 0.7461845874786377,
+          "start": 416,
+          "end": 419,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "toriaclinica.hospitalregional.org/paciente",
+          "actual_text": "toriaclinica.hospitalregional.org/paciente",
+          "confidence": 0.7137345671653748,
+          "start": 592,
+          "end": 634,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "AB",
+          "actual_text": "AB",
+          "confidence": 0.8350195288658142,
+          "start": 635,
+          "end": 637,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " B-",
+          "actual_text": "B-",
+          "confidence": 0.7136557102203369,
+          "start": 743,
+          "end": 745,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " ES",
+          "actual_text": "ES",
+          "confidence": 0.7609614729881287,
+          "start": 841,
+          "end": 843,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " SN",
+          "actual_text": "SN",
+          "confidence": 0.8316954970359802,
+          "start": 1021,
+          "end": 1023,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "his",
+          "actual_text": "his",
+          "confidence": 0.7624486088752747,
+          "start": 1183,
+          "end": 1186,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "ica.hgugm.es/",
+          "actual_text": "ica.hgugm.es/",
+          "confidence": 0.7829908728599548,
+          "start": 1195,
+          "end": 1208,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "AB",
+          "actual_text": "AB",
+          "confidence": 0.8595044612884521,
+          "start": 1217,
+          "end": 1219,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +34 91 876 54 32",
+          "actual_text": "+34 91 876 54 32",
+          "confidence": 0.8615703582763672,
+          "start": 1386,
+          "end": 1402,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Martínez",
+          "actual_text": "Martínez",
+          "confidence": 0.9708729982376099,
+          "start": 1486,
+          "end": 1494,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Sánchez",
+          "actual_text": "Sánchez",
+          "confidence": 0.9718043208122253,
+          "start": 1495,
+          "end": 1502,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 21,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "NOMBRE_PERSONAL_SANITARIO": 6,
+      "CORREO_ELECTRONICO": 2,
+      "ID_SUJETO_ASISTENCIA": 1,
+      "NUMERO_TELEFONO": 5,
+      "NUMERO_IDENTIF": 4,
+      "URL_WEB": 2,
+      "OTROS_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 15,
+      "medium": 6,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Laura Méndez Iglesias",
+        "actual_text": "Laura Méndez Iglesias",
+        "confidence": 0.9026269912719727,
+        "start": 74,
+        "end": 95,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "aclinica.hospitalregional.org",
+        "actual_text": "aclinica.hospitalregional.org",
+        "confidence": 0.9133574366569519,
+        "start": 596,
+        "end": 625,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "98",
+        "actual_text": "98",
+        "confidence": 0.8057484030723572,
+        "start": 1024,
+        "end": 1026,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "ica.hgugm.es",
+        "actual_text": "ica.hgugm.es",
+        "confidence": 0.9834977984428406,
+        "start": 1195,
+        "end": 1207,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9902709722518921,
+        "start": 1386,
+        "end": 1387,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.9906601905822754,
+        "start": 1387,
+        "end": 1402,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Martínez Sánchez",
+        "actual_text": "Martínez Sánchez",
+        "confidence": 0.9801713824272156,
+        "start": 1486,
+        "end": 1502,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9332306981086731,
+        "start": 80,
+        "end": 86,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.8912219405174255,
+        "start": 87,
+        "end": 95,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " SN-",
+        "actual_text": "SN-",
+        "confidence": 0.7461845874786377,
+        "start": 416,
+        "end": 419,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "toriaclinica.hospitalregional.org/paciente",
+        "actual_text": "toriaclinica.hospitalregional.org/paciente",
+        "confidence": 0.7137345671653748,
+        "start": 592,
+        "end": 634,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "AB",
+        "actual_text": "AB",
+        "confidence": 0.8350195288658142,
+        "start": 635,
+        "end": 637,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " B-",
+        "actual_text": "B-",
+        "confidence": 0.7136557102203369,
+        "start": 743,
+        "end": 745,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " ES",
+        "actual_text": "ES",
+        "confidence": 0.7609614729881287,
+        "start": 841,
+        "end": 843,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " SN",
+        "actual_text": "SN",
+        "confidence": 0.8316954970359802,
+        "start": 1021,
+        "end": 1023,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "his",
+        "actual_text": "his",
+        "confidence": 0.7624486088752747,
+        "start": 1183,
+        "end": 1186,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "ica.hgugm.es/",
+        "actual_text": "ica.hgugm.es/",
+        "confidence": 0.7829908728599548,
+        "start": 1195,
+        "end": 1208,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "AB",
+        "actual_text": "AB",
+        "confidence": 0.8595044612884521,
+        "start": 1217,
+        "end": 1219,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +34 91 876 54 32",
+        "actual_text": "+34 91 876 54 32",
+        "confidence": 0.8615703582763672,
+        "start": 1386,
+        "end": 1402,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Martínez",
+        "actual_text": "Martínez",
+        "confidence": 0.9708729982376099,
+        "start": 1486,
+        "end": 1494,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Sánchez",
+        "actual_text": "Sánchez",
+        "confidence": 0.9718043208122253,
+        "start": 1495,
+        "end": 1502,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Laura Méndez Iglesias",
+        "actual_text": "Laura Méndez Iglesias",
+        "confidence": 0.9026269912719727,
+        "start": 74,
+        "end": 95,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "aclinica.hospitalregional.org",
+        "actual_text": "aclinica.hospitalregional.org",
+        "confidence": 0.9133574366569519,
+        "start": 596,
+        "end": 625,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "98",
+        "actual_text": "98",
+        "confidence": 0.8057484030723572,
+        "start": 1024,
+        "end": 1026,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "ica.hgugm.es",
+        "actual_text": "ica.hgugm.es",
+        "confidence": 0.9834977984428406,
+        "start": 1195,
+        "end": 1207,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9902709722518921,
+        "start": 1386,
+        "end": 1387,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.9906601905822754,
+        "start": 1387,
+        "end": 1402,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Martínez Sánchez",
+        "actual_text": "Martínez Sánchez",
+        "confidence": 0.9801713824272156,
+        "start": 1486,
+        "end": 1502,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9332306981086731,
+        "start": 80,
+        "end": 86,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.8912219405174255,
+        "start": 87,
+        "end": 95,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " SN-",
+        "actual_text": "SN-",
+        "confidence": 0.7461845874786377,
+        "start": 416,
+        "end": 419,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "toriaclinica.hospitalregional.org/paciente",
+        "actual_text": "toriaclinica.hospitalregional.org/paciente",
+        "confidence": 0.7137345671653748,
+        "start": 592,
+        "end": 634,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "AB",
+        "actual_text": "AB",
+        "confidence": 0.8350195288658142,
+        "start": 635,
+        "end": 637,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " B-",
+        "actual_text": "B-",
+        "confidence": 0.7136557102203369,
+        "start": 743,
+        "end": 745,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " ES",
+        "actual_text": "ES",
+        "confidence": 0.7609614729881287,
+        "start": 841,
+        "end": 843,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " SN",
+        "actual_text": "SN",
+        "confidence": 0.8316954970359802,
+        "start": 1021,
+        "end": 1023,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "his",
+        "actual_text": "his",
+        "confidence": 0.7624486088752747,
+        "start": 1183,
+        "end": 1186,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "ica.hgugm.es/",
+        "actual_text": "ica.hgugm.es/",
+        "confidence": 0.7829908728599548,
+        "start": 1195,
+        "end": 1208,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "AB",
+        "actual_text": "AB",
+        "confidence": 0.8595044612884521,
+        "start": 1217,
+        "end": 1219,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +34 91 876 54 32",
+        "actual_text": "+34 91 876 54 32",
+        "confidence": 0.8615703582763672,
+        "start": 1386,
+        "end": 1402,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Martínez",
+        "actual_text": "Martínez",
+        "confidence": 0.9708729982376099,
+        "start": 1486,
+        "end": 1494,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Sánchez",
+        "actual_text": "Sánchez",
+        "confidence": 0.9718043208122253,
+        "start": 1495,
+        "end": 1502,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 21,
+    "suspicious_detections": 21,
+    "xxxxxx_detections": 0,
+    "other_detections": 21
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " +",
+        "confidence": 0.9902709722518921,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": "34 91 876 54 32",
+        "confidence": 0.9906601905822754,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "count": 2
+  }
+}

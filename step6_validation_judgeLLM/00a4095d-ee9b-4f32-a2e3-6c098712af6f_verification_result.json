@@ -1,0 +1,565 @@
+{
+  "document_id": "00a4095d-ee9b-4f32-a2e3-6c098712af6f",
+  "success": true,
+  "anonymized_text": "En la documentación clínica del paciente identificado con el código 87654321B, se procede a registrar los hallazgos de la exploración física realizada en el Centro de Salud Los Álamos. Durante la evaluación, se ha verificado la identidad del sujeto mediante la comparación de su huella dactilar del pulgar derecho y su huella dactilar derecha índice, procedimiento estándar de seguridad biométrica. Respecto a los parámetros analíticos, el hemograma muestra leucocitosis con desviación izquierda, y la bioquímica revela elevación de reactantes de fase aguda. En las pruebas de imagen realizadas, la radiografía de tórax presenta un infiltrado alveolar en lóbulo inferior derecho, compatible con proceso neumónico. Se ha establecido contacto con el centro de referencia a través del número +34 91 876 54 32 para coordinar posibles interconsultas. Para completar los registros administrativos, se anota que el vehículo asociado al paciente porta la placa 1234 BCD, y toda esta documentación queda vinculada al expediente interno REF-2024-789234. Cabe destacar que el sujeto de asistencia tiene su residencia principal en España, lo que determina el marco de cobertura sanitaria aplicable. Los hallazgos serán monitorizados estrechamente en próximas visitas de seguimiento.",
+  "text_length": 1270,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 5,
+    "entities": [
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.9871305823326111,
+        "word": " Centro de Salud Los Álamos",
+        "start": 157,
+        "end": 183,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9510082602500916,
+        "word": "34 91 876 54 32",
+        "start": 790,
+        "end": 805,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8459980487823486,
+        "word": " 1234 BCD",
+        "start": 953,
+        "end": 961,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.9080943465232849,
+        "word": "2024-789234",
+        "start": 1031,
+        "end": 1042,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9973576664924622,
+        "word": " España",
+        "start": 1119,
+        "end": 1125,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 5,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CENTRO_SALUD": 1,
+        "NUMERO_TELEFONO": 1,
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "ID_SUJETO_ASISTENCIA": 1,
+        "PAIS": 1
+      },
+      "entities_by_confidence": {
+        "high": 5,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9871305823326111,
+          "start": 157,
+          "end": 183,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.9510082602500916,
+          "start": 790,
+          "end": 805,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " 1234 BCD",
+          "actual_text": "1234 BCD",
+          "confidence": 0.8459980487823486,
+          "start": 953,
+          "end": 961,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "2024-789234",
+          "actual_text": "2024-789234",
+          "confidence": 0.9080943465232849,
+          "start": 1031,
+          "end": 1042,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PAIS",
+          "word": " España",
+          "actual_text": "España",
+          "confidence": 0.9973576664924622,
+          "start": 1119,
+          "end": 1125,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9871305823326111,
+          "start": 157,
+          "end": 183,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.9510082602500916,
+          "start": 790,
+          "end": 805,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " 1234 BCD",
+          "actual_text": "1234 BCD",
+          "confidence": 0.8459980487823486,
+          "start": 953,
+          "end": 961,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "2024-789234",
+          "actual_text": "2024-789234",
+          "confidence": 0.9080943465232849,
+          "start": 1031,
+          "end": 1042,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PAIS",
+          "word": " España",
+          "actual_text": "España",
+          "confidence": 0.9973576664924622,
+          "start": 1119,
+          "end": 1125,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 5,
+    "entities": [
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.9994444251060486,
+        "word": " Centro de Salud Los Álamos",
+        "start": 157,
+        "end": 183,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8333026766777039,
+        "word": " +34 91 876 54 32",
+        "start": 789,
+        "end": 805,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9066318273544312,
+        "word": " 12",
+        "start": 953,
+        "end": 955,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.8700200319290161,
+        "word": " REF",
+        "start": 1027,
+        "end": 1030,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9993188381195068,
+        "word": " España",
+        "start": 1119,
+        "end": 1125,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 5,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CENTRO_SALUD": 1,
+        "NUMERO_TELEFONO": 2,
+        "NUMERO_IDENTIF": 1,
+        "PAIS": 1
+      },
+      "entities_by_confidence": {
+        "high": 5,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9994444251060486,
+          "start": 157,
+          "end": 183,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +34 91 876 54 32",
+          "actual_text": "+34 91 876 54 32",
+          "confidence": 0.8333026766777039,
+          "start": 789,
+          "end": 805,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 12",
+          "actual_text": "12",
+          "confidence": 0.9066318273544312,
+          "start": 953,
+          "end": 955,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " REF",
+          "actual_text": "REF",
+          "confidence": 0.8700200319290161,
+          "start": 1027,
+          "end": 1030,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " España",
+          "actual_text": "España",
+          "confidence": 0.9993188381195068,
+          "start": 1119,
+          "end": 1125,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9994444251060486,
+          "start": 157,
+          "end": 183,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +34 91 876 54 32",
+          "actual_text": "+34 91 876 54 32",
+          "confidence": 0.8333026766777039,
+          "start": 789,
+          "end": 805,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 12",
+          "actual_text": "12",
+          "confidence": 0.9066318273544312,
+          "start": 953,
+          "end": 955,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " REF",
+          "actual_text": "REF",
+          "confidence": 0.8700200319290161,
+          "start": 1027,
+          "end": 1030,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " España",
+          "actual_text": "España",
+          "confidence": 0.9993188381195068,
+          "start": 1119,
+          "end": 1125,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 10,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CENTRO_SALUD": 2,
+      "NUMERO_TELEFONO": 3,
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "ID_SUJETO_ASISTENCIA": 1,
+      "PAIS": 2,
+      "NUMERO_IDENTIF": 1
+    },
+    "entities_by_confidence": {
+      "high": 10,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9871305823326111,
+        "start": 157,
+        "end": 183,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.9510082602500916,
+        "start": 790,
+        "end": 805,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " 1234 BCD",
+        "actual_text": "1234 BCD",
+        "confidence": 0.8459980487823486,
+        "start": 953,
+        "end": 961,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "2024-789234",
+        "actual_text": "2024-789234",
+        "confidence": 0.9080943465232849,
+        "start": 1031,
+        "end": 1042,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " España",
+        "actual_text": "España",
+        "confidence": 0.9973576664924622,
+        "start": 1119,
+        "end": 1125,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9994444251060486,
+        "start": 157,
+        "end": 183,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +34 91 876 54 32",
+        "actual_text": "+34 91 876 54 32",
+        "confidence": 0.8333026766777039,
+        "start": 789,
+        "end": 805,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 12",
+        "actual_text": "12",
+        "confidence": 0.9066318273544312,
+        "start": 953,
+        "end": 955,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " REF",
+        "actual_text": "REF",
+        "confidence": 0.8700200319290161,
+        "start": 1027,
+        "end": 1030,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " España",
+        "actual_text": "España",
+        "confidence": 0.9993188381195068,
+        "start": 1119,
+        "end": 1125,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9871305823326111,
+        "start": 157,
+        "end": 183,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.9510082602500916,
+        "start": 790,
+        "end": 805,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " 1234 BCD",
+        "actual_text": "1234 BCD",
+        "confidence": 0.8459980487823486,
+        "start": 953,
+        "end": 961,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "2024-789234",
+        "actual_text": "2024-789234",
+        "confidence": 0.9080943465232849,
+        "start": 1031,
+        "end": 1042,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " España",
+        "actual_text": "España",
+        "confidence": 0.9973576664924622,
+        "start": 1119,
+        "end": 1125,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9994444251060486,
+        "start": 157,
+        "end": 183,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +34 91 876 54 32",
+        "actual_text": "+34 91 876 54 32",
+        "confidence": 0.8333026766777039,
+        "start": 789,
+        "end": 805,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 12",
+        "actual_text": "12",
+        "confidence": 0.9066318273544312,
+        "start": 953,
+        "end": 955,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " REF",
+        "actual_text": "REF",
+        "confidence": 0.8700200319290161,
+        "start": 1027,
+        "end": 1030,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " España",
+        "actual_text": "España",
+        "confidence": 0.9993188381195068,
+        "start": 1119,
+        "end": 1125,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 10,
+    "suspicious_detections": 10,
+    "xxxxxx_detections": 0,
+    "other_detections": 10
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "PAIS",
+        "text": " España",
+        "confidence": 0.9973576664924622,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "text": " Centro de Salud Los Álamos",
+        "confidence": 0.9994444251060486,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "text": " España",
+        "confidence": 0.9993188381195068,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 3
+  }
+}

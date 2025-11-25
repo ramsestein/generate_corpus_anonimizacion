@@ -1,0 +1,320 @@
+{
+  "document_id": "005f478a-d71e-4f59-920e-94284c89e644",
+  "success": true,
+  "anonymized_text": "En el contexto de la valoración quirúrgica integral, se procede a la elaboración del presente informe. El cuadro clínico actual del señor Carlos Rodríguez Méndez, cuya historia clínica se registra bajo el identificador HC-2024-789012, ha sido evaluado minuciosamente. La exploración física revela un abdomen blando y depresible, sin signos de irritación peritoneal, y la auscultación cardiopulmonar resulta dentro de los parámetros de normalidad. Los estudios analíticos complementarios, incluyendo un hemograma y una bioquímica básica, no muestran alteraciones significativas que contraindiquen una intervención. Tras analizar la situación, se ha considerado que la mejor opción terapéutica es proceder con una intervención quirúrgica programada. Para ello, se ha coordinado con el equipo del cirujano de referencia, quien supervisará todo el proceso operatorio y el postoperatorio inmediato. Con el fin de que el paciente disponga de información adicional y recursos de apoyo, se le ha recomendado consultar la página web https://www.clinicabarcelona.org, donde podrá encontrar material educativo fiable sobre su proceso. El plan establecido ha sido comprendido y aceptado en su totalidad.",
+  "text_length": 1191,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.7928962707519531,
+        "word": " Rodríguez Méndez",
+        "start": 145,
+        "end": 161,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.8192750811576843,
+        "word": "icabarcelona.org",
+        "start": 1040,
+        "end": 1056,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 1,
+        "CORREO_ELECTRONICO": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez Méndez",
+          "actual_text": "Rodríguez Méndez",
+          "confidence": 0.7928962707519531,
+          "start": 145,
+          "end": 161,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "icabarcelona.org",
+          "actual_text": "icabarcelona.org",
+          "confidence": 0.8192750811576843,
+          "start": 1040,
+          "end": 1056,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez Méndez",
+          "actual_text": "Rodríguez Méndez",
+          "confidence": 0.7928962707519531,
+          "start": 145,
+          "end": 161,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "icabarcelona.org",
+          "actual_text": "icabarcelona.org",
+          "confidence": 0.8192750811576843,
+          "start": 1040,
+          "end": 1056,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 3,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9905917048454285,
+        "word": " Rodríguez",
+        "start": 145,
+        "end": 154,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9548913836479187,
+        "word": " Méndez",
+        "start": 155,
+        "end": 161,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8692790269851685,
+        "word": " HC",
+        "start": 219,
+        "end": 221,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 3,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 2,
+        "NUMERO_TELEFONO": 1
+      },
+      "entities_by_confidence": {
+        "high": 3,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "Rodríguez",
+          "confidence": 0.9905917048454285,
+          "start": 145,
+          "end": 154,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9548913836479187,
+          "start": 155,
+          "end": 161,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " HC",
+          "actual_text": "HC",
+          "confidence": 0.8692790269851685,
+          "start": 219,
+          "end": 221,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "Rodríguez",
+          "confidence": 0.9905917048454285,
+          "start": 145,
+          "end": 154,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9548913836479187,
+          "start": 155,
+          "end": 161,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " HC",
+          "actual_text": "HC",
+          "confidence": 0.8692790269851685,
+          "start": 219,
+          "end": 221,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 5,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "NOMBRE_PERSONAL_SANITARIO": 3,
+      "CORREO_ELECTRONICO": 1,
+      "NUMERO_TELEFONO": 1
+    },
+    "entities_by_confidence": {
+      "high": 4,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez Méndez",
+        "actual_text": "Rodríguez Méndez",
+        "confidence": 0.7928962707519531,
+        "start": 145,
+        "end": 161,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "icabarcelona.org",
+        "actual_text": "icabarcelona.org",
+        "confidence": 0.8192750811576843,
+        "start": 1040,
+        "end": 1056,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "Rodríguez",
+        "confidence": 0.9905917048454285,
+        "start": 145,
+        "end": 154,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9548913836479187,
+        "start": 155,
+        "end": 161,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " HC",
+        "actual_text": "HC",
+        "confidence": 0.8692790269851685,
+        "start": 219,
+        "end": 221,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez Méndez",
+        "actual_text": "Rodríguez Méndez",
+        "confidence": 0.7928962707519531,
+        "start": 145,
+        "end": 161,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "icabarcelona.org",
+        "actual_text": "icabarcelona.org",
+        "confidence": 0.8192750811576843,
+        "start": 1040,
+        "end": 1056,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "Rodríguez",
+        "confidence": 0.9905917048454285,
+        "start": 145,
+        "end": 154,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9548913836479187,
+        "start": 155,
+        "end": 161,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " HC",
+        "actual_text": "HC",
+        "confidence": 0.8692790269851685,
+        "start": 219,
+        "end": 221,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 5,
+    "suspicious_detections": 5,
+    "xxxxxx_detections": 0,
+    "other_detections": 5
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Rodríguez",
+        "confidence": 0.9905917048454285,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 1
+  }
+}

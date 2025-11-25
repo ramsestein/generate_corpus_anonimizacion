@@ -1,0 +1,721 @@
+{
+  "document_id": "0092f519-85eb-41bc-9eda-0cc7ed7dcbb0",
+  "success": true,
+  "anonymized_text": "Informe de Consulta Externa Paciente que acude a revisión presentando un cuadro de sintomatología inespecífica consistente en astenia y cefalea de varias semanas de evolución. Refiere haber realizado consulta previa en su comunidad autónoma de origen, la Comunidad Valenciana, sin haber obtenido un diagnóstico definitivo. La exploración física actual muestra constantes vitales dentro de la normalidad, con presión arterial de 120/70 mmHg y frecuencia cardíaca de 72 lpm. A la auscultación cardiorrespiratoria no se evidencian soplos ni ruidos sobreañadidos. El abdomen es blando y depresible, sin masas palpables ni dolor a la palpación superficial o profunda. En cuanto a los antecedentes personales, cabe destacar que se trata de una persona de sexo femenino, cuyo país de residencia habitual es España. Los estudios analíticos realizados muestran una bioquímica básica dentro de rangos normales, con hemograma sin alteraciones significativas y perfil tiroideo normal. Se solicitarán pruebas complementarias adicionales para completar el estudio. Para la coordinación con sus familiares sujetos de asistencia, específicamente con María Rodríguez Sánchez, se ha facilitado el número de fax correspondiente: +34 91 876 54 32. En relación con la cualificación del personal sanitario que atiende a la paciente, el facultativo responsable cuenta con la titulación universitaria de Grado en Medicina, garantizando así la adecuada atención médica durante todo el proceso asistencial. El territorio de asistencia sanitaria queda establecido según la normativa vigente.",
+  "text_length": 1564,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 6,
+    "entities": [
+      {
+        "entity_group": "PAIS",
+        "score": 0.9293763637542725,
+        "word": " Comunidad Valenciana",
+        "start": 255,
+        "end": 275,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9976479411125183,
+        "word": " España",
+        "start": 800,
+        "end": 806,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9845007658004761,
+        "word": " familiares sujetos",
+        "start": 1080,
+        "end": 1098,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8853952288627625,
+        "word": " María Rodríguez Sánchez",
+        "start": 1134,
+        "end": 1157,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9903415441513062,
+        "word": " +",
+        "start": 1210,
+        "end": 1211,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9606795907020569,
+        "word": "34 91 876 54 32",
+        "start": 1211,
+        "end": 1226,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 6,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "PAIS": 2,
+        "FAMILIARES_SUJETO_ASISTENCIA": 2,
+        "NUMERO_TELEFONO": 2
+      },
+      "entities_by_confidence": {
+        "high": 6,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.9293763637542725,
+          "start": 255,
+          "end": 275,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PAIS",
+          "word": " España",
+          "actual_text": "España",
+          "confidence": 0.9976479411125183,
+          "start": 800,
+          "end": 806,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares sujetos",
+          "actual_text": "familiares sujetos",
+          "confidence": 0.9845007658004761,
+          "start": 1080,
+          "end": 1098,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " María Rodríguez Sánchez",
+          "actual_text": "María Rodríguez Sánchez",
+          "confidence": 0.8853952288627625,
+          "start": 1134,
+          "end": 1157,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9903415441513062,
+          "start": 1210,
+          "end": 1211,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.9606795907020569,
+          "start": 1211,
+          "end": 1226,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.9293763637542725,
+          "start": 255,
+          "end": 275,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "PAIS",
+          "word": " España",
+          "actual_text": "España",
+          "confidence": 0.9976479411125183,
+          "start": 800,
+          "end": 806,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " familiares sujetos",
+          "actual_text": "familiares sujetos",
+          "confidence": 0.9845007658004761,
+          "start": 1080,
+          "end": 1098,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " María Rodríguez Sánchez",
+          "actual_text": "María Rodríguez Sánchez",
+          "confidence": 0.8853952288627625,
+          "start": 1134,
+          "end": 1157,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9903415441513062,
+          "start": 1210,
+          "end": 1211,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.9606795907020569,
+          "start": 1211,
+          "end": 1226,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 7,
+    "entities": [
+      {
+        "entity_group": "PAIS",
+        "score": 0.9989619851112366,
+        "word": " Comunidad Valenciana",
+        "start": 255,
+        "end": 275,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "SEXO_SUJETO_ASISTENCIA",
+        "score": 0.98200523853302,
+        "word": " femenino",
+        "start": 754,
+        "end": 762,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9993674159049988,
+        "word": " España",
+        "start": 800,
+        "end": 806,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9917396306991577,
+        "word": " Rodríguez",
+        "start": 1140,
+        "end": 1149,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9913124442100525,
+        "word": " Sánchez",
+        "start": 1150,
+        "end": 1157,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9966211318969727,
+        "word": " +",
+        "start": 1210,
+        "end": 1211,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8672625422477722,
+        "word": "34 91 876 54 32",
+        "start": 1211,
+        "end": 1226,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 7,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "PAIS": 2,
+        "SEXO_SUJETO_ASISTENCIA": 1,
+        "NOMBRE_PERSONAL_SANITARIO": 2,
+        "NUMERO_TELEFONO": 2
+      },
+      "entities_by_confidence": {
+        "high": 7,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.9989619851112366,
+          "start": 255,
+          "end": 275,
+          "model": "CARMEN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.98200523853302,
+          "start": 754,
+          "end": 762,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " España",
+          "actual_text": "España",
+          "confidence": 0.9993674159049988,
+          "start": 800,
+          "end": 806,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "Rodríguez",
+          "confidence": 0.9917396306991577,
+          "start": 1140,
+          "end": 1149,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Sánchez",
+          "actual_text": "Sánchez",
+          "confidence": 0.9913124442100525,
+          "start": 1150,
+          "end": 1157,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9966211318969727,
+          "start": 1210,
+          "end": 1211,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.8672625422477722,
+          "start": 1211,
+          "end": 1226,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.9989619851112366,
+          "start": 255,
+          "end": 275,
+          "model": "CARMEN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.98200523853302,
+          "start": 754,
+          "end": 762,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " España",
+          "actual_text": "España",
+          "confidence": 0.9993674159049988,
+          "start": 800,
+          "end": 806,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "Rodríguez",
+          "confidence": 0.9917396306991577,
+          "start": 1140,
+          "end": 1149,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Sánchez",
+          "actual_text": "Sánchez",
+          "confidence": 0.9913124442100525,
+          "start": 1150,
+          "end": 1157,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9966211318969727,
+          "start": 1210,
+          "end": 1211,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.8672625422477722,
+          "start": 1211,
+          "end": 1226,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 13,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "PAIS": 4,
+      "FAMILIARES_SUJETO_ASISTENCIA": 2,
+      "NUMERO_TELEFONO": 4,
+      "SEXO_SUJETO_ASISTENCIA": 1,
+      "NOMBRE_PERSONAL_SANITARIO": 2
+    },
+    "entities_by_confidence": {
+      "high": 13,
+      "medium": 0,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.9293763637542725,
+        "start": 255,
+        "end": 275,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " España",
+        "actual_text": "España",
+        "confidence": 0.9976479411125183,
+        "start": 800,
+        "end": 806,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares sujetos",
+        "actual_text": "familiares sujetos",
+        "confidence": 0.9845007658004761,
+        "start": 1080,
+        "end": 1098,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " María Rodríguez Sánchez",
+        "actual_text": "María Rodríguez Sánchez",
+        "confidence": 0.8853952288627625,
+        "start": 1134,
+        "end": 1157,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9903415441513062,
+        "start": 1210,
+        "end": 1211,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.9606795907020569,
+        "start": 1211,
+        "end": 1226,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.9989619851112366,
+        "start": 255,
+        "end": 275,
+        "model": "CARMEN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.98200523853302,
+        "start": 754,
+        "end": 762,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " España",
+        "actual_text": "España",
+        "confidence": 0.9993674159049988,
+        "start": 800,
+        "end": 806,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "Rodríguez",
+        "confidence": 0.9917396306991577,
+        "start": 1140,
+        "end": 1149,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Sánchez",
+        "actual_text": "Sánchez",
+        "confidence": 0.9913124442100525,
+        "start": 1150,
+        "end": 1157,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9966211318969727,
+        "start": 1210,
+        "end": 1211,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.8672625422477722,
+        "start": 1211,
+        "end": 1226,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.9293763637542725,
+        "start": 255,
+        "end": 275,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " España",
+        "actual_text": "España",
+        "confidence": 0.9976479411125183,
+        "start": 800,
+        "end": 806,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " familiares sujetos",
+        "actual_text": "familiares sujetos",
+        "confidence": 0.9845007658004761,
+        "start": 1080,
+        "end": 1098,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " María Rodríguez Sánchez",
+        "actual_text": "María Rodríguez Sánchez",
+        "confidence": 0.8853952288627625,
+        "start": 1134,
+        "end": 1157,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9903415441513062,
+        "start": 1210,
+        "end": 1211,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.9606795907020569,
+        "start": 1211,
+        "end": 1226,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.9989619851112366,
+        "start": 255,
+        "end": 275,
+        "model": "CARMEN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.98200523853302,
+        "start": 754,
+        "end": 762,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " España",
+        "actual_text": "España",
+        "confidence": 0.9993674159049988,
+        "start": 800,
+        "end": 806,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "Rodríguez",
+        "confidence": 0.9917396306991577,
+        "start": 1140,
+        "end": 1149,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Sánchez",
+        "actual_text": "Sánchez",
+        "confidence": 0.9913124442100525,
+        "start": 1150,
+        "end": 1157,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9966211318969727,
+        "start": 1210,
+        "end": 1211,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.8672625422477722,
+        "start": 1211,
+        "end": 1226,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 13,
+    "suspicious_detections": 13,
+    "xxxxxx_detections": 0,
+    "other_detections": 13
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "PAIS",
+        "text": " España",
+        "confidence": 0.9976479411125183,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " +",
+        "confidence": 0.9903415441513062,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "PAIS",
+        "text": " Comunidad Valenciana",
+        "confidence": 0.9989619851112366,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "text": " España",
+        "confidence": 0.9993674159049988,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Rodríguez",
+        "confidence": 0.9917396306991577,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Sánchez",
+        "confidence": 0.9913124442100525,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " +",
+        "confidence": 0.9966211318969727,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 7
+  }
+}

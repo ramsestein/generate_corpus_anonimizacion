@@ -1,0 +1,873 @@
+{
+  "document_id": "002bc8a8-ae0f-4973-b3df-909cb5a476fc",
+  "success": true,
+  "anonymized_text": "Informe de Interconsulta de Cirugía Se remite a la consulta de cirugía para valoración y seguimiento especializado. El paciente, identificado con el número HC-2024-789012, acude para control postoperatorio de su proceso. A la exploración física, el abdomen es blando y depresible, no doloroso a la palpación superficial ni profunda. La herida quirúrgica presenta un correcto estado de cicatrización, sin signos de infección o dehiscencia. Los ruidos hidroaéreos están presentes en los cuatro cuadrantes. El resto de la exploración por aparatos no revela hallazgos significativos. Respecto a los estudios complementarios, se ha procedido a la verificación de los equipos. Los identificadores de los dispositivos utilizados en la monitorización fueron SN-98237641 y SN-98246731, cuyos registros se encuentran dentro de los parámetros normales de funcionamiento. Los análisis de laboratorio mostraron un hemograma dentro de la normalidad y una bioquímica sin alteraciones destacables. Para una documentación más exhaustiva del caso, se puede consultar la plataforma institucional en la dirección https://www.clinicabarcelona.org, donde se encuentran disponibles los protocolos actualizados. Toda la evolución del paciente queda registrada bajo el mismo identificador, HC-2024-789012, y es accesible para el equipo asistencial a través de la URL https://historiaclinica.hgugm.es/paciente/12345678A. Se recomienda continuar con la pauta analgésica actual y reiniciar la deambulación progresiva. Queda establecido como canal de contacto principal el ana.garcia@clinic.es para cualquier coordinación necesaria con el cirujano responsable. Se citará para nueva revisión en un plazo de cuatro semanas.",
+  "text_length": 1692,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 5,
+    "entities": [
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7336485981941223,
+        "word": "-2024-789012",
+        "start": 158,
+        "end": 170,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.8334295153617859,
+        "word": "clin",
+        "start": 1105,
+        "end": 1109,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.950890839099884,
+        "word": "icabarcelona.org",
+        "start": 1109,
+        "end": 1125,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9496068954467773,
+        "word": "aclinica.hgugm.es",
+        "start": 1357,
+        "end": 1374,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9978653788566589,
+        "word": " ana.garcia@clinic.es",
+        "start": 1544,
+        "end": 1564,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 5,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "INSTITUCION": 1,
+        "CORREO_ELECTRONICO": 3
+      },
+      "entities_by_confidence": {
+        "high": 4,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "-2024-789012",
+          "actual_text": "-2024-789012",
+          "confidence": 0.7336485981941223,
+          "start": 158,
+          "end": 170,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "INSTITUCION",
+          "word": "clin",
+          "actual_text": "clin",
+          "confidence": 0.8334295153617859,
+          "start": 1105,
+          "end": 1109,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "icabarcelona.org",
+          "actual_text": "icabarcelona.org",
+          "confidence": 0.950890839099884,
+          "start": 1109,
+          "end": 1125,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "aclinica.hgugm.es",
+          "actual_text": "aclinica.hgugm.es",
+          "confidence": 0.9496068954467773,
+          "start": 1357,
+          "end": 1374,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " ana.garcia@clinic.es",
+          "actual_text": "ana.garcia@clinic.es",
+          "confidence": 0.9978653788566589,
+          "start": 1544,
+          "end": 1564,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "-2024-789012",
+          "actual_text": "-2024-789012",
+          "confidence": 0.7336485981941223,
+          "start": 158,
+          "end": 170,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "INSTITUCION",
+          "word": "clin",
+          "actual_text": "clin",
+          "confidence": 0.8334295153617859,
+          "start": 1105,
+          "end": 1109,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "icabarcelona.org",
+          "actual_text": "icabarcelona.org",
+          "confidence": 0.950890839099884,
+          "start": 1109,
+          "end": 1125,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "aclinica.hgugm.es",
+          "actual_text": "aclinica.hgugm.es",
+          "confidence": 0.9496068954467773,
+          "start": 1357,
+          "end": 1374,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " ana.garcia@clinic.es",
+          "actual_text": "ana.garcia@clinic.es",
+          "confidence": 0.9978653788566589,
+          "start": 1544,
+          "end": 1564,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 12,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9423028230667114,
+        "word": " HC",
+        "start": 156,
+        "end": 158,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7170860171318054,
+        "word": "-",
+        "start": 158,
+        "end": 159,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.7911372780799866,
+        "word": " SN",
+        "start": 750,
+        "end": 752,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.743705153465271,
+        "word": " SN",
+        "start": 764,
+        "end": 766,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.7427119016647339,
+        "word": " https://www.clinicabarcelona.org",
+        "start": 1093,
+        "end": 1125,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7571015954017639,
+        "word": " HC",
+        "start": 1265,
+        "end": 1267,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.8424458503723145,
+        "word": "toriaclinica.hgugm.es/",
+        "start": 1353,
+        "end": 1375,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7805092930793762,
+        "word": "/",
+        "start": 1383,
+        "end": 1384,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9943804144859314,
+        "word": "12",
+        "start": 1384,
+        "end": 1386,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7115417718887329,
+        "word": " ana",
+        "start": 1544,
+        "end": 1547,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.8461756706237793,
+        "word": "gar",
+        "start": 1548,
+        "end": 1551,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.7930254936218262,
+        "word": "@clinic.es",
+        "start": 1554,
+        "end": 1564,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 12,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 6,
+        "NUMERO_IDENTIF": 2,
+        "URL_WEB": 3,
+        "NOMBRE_PERSONAL_SANITARIO": 1
+      },
+      "entities_by_confidence": {
+        "high": 4,
+        "medium": 8,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " HC",
+          "actual_text": "HC",
+          "confidence": 0.9423028230667114,
+          "start": 156,
+          "end": 158,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.7170860171318054,
+          "start": 158,
+          "end": 159,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " SN",
+          "actual_text": "SN",
+          "confidence": 0.7911372780799866,
+          "start": 750,
+          "end": 752,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " SN",
+          "actual_text": "SN",
+          "confidence": 0.743705153465271,
+          "start": 764,
+          "end": 766,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": " https://www.clinicabarcelona.org",
+          "actual_text": "https://www.clinicabarcelona.org",
+          "confidence": 0.7427119016647339,
+          "start": 1093,
+          "end": 1125,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " HC",
+          "actual_text": "HC",
+          "confidence": 0.7571015954017639,
+          "start": 1265,
+          "end": 1267,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "toriaclinica.hgugm.es/",
+          "actual_text": "toriaclinica.hgugm.es/",
+          "confidence": 0.8424458503723145,
+          "start": 1353,
+          "end": 1375,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "/",
+          "actual_text": "/",
+          "confidence": 0.7805092930793762,
+          "start": 1383,
+          "end": 1384,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12",
+          "actual_text": "12",
+          "confidence": 0.9943804144859314,
+          "start": 1384,
+          "end": 1386,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " ana",
+          "actual_text": "ana",
+          "confidence": 0.7115417718887329,
+          "start": 1544,
+          "end": 1547,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "gar",
+          "actual_text": "gar",
+          "confidence": 0.8461756706237793,
+          "start": 1548,
+          "end": 1551,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "@clinic.es",
+          "actual_text": "@clinic.es",
+          "confidence": 0.7930254936218262,
+          "start": 1554,
+          "end": 1564,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " HC",
+          "actual_text": "HC",
+          "confidence": 0.9423028230667114,
+          "start": 156,
+          "end": 158,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.7170860171318054,
+          "start": 158,
+          "end": 159,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " SN",
+          "actual_text": "SN",
+          "confidence": 0.7911372780799866,
+          "start": 750,
+          "end": 752,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " SN",
+          "actual_text": "SN",
+          "confidence": 0.743705153465271,
+          "start": 764,
+          "end": 766,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": " https://www.clinicabarcelona.org",
+          "actual_text": "https://www.clinicabarcelona.org",
+          "confidence": 0.7427119016647339,
+          "start": 1093,
+          "end": 1125,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " HC",
+          "actual_text": "HC",
+          "confidence": 0.7571015954017639,
+          "start": 1265,
+          "end": 1267,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "toriaclinica.hgugm.es/",
+          "actual_text": "toriaclinica.hgugm.es/",
+          "confidence": 0.8424458503723145,
+          "start": 1353,
+          "end": 1375,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "/",
+          "actual_text": "/",
+          "confidence": 0.7805092930793762,
+          "start": 1383,
+          "end": 1384,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12",
+          "actual_text": "12",
+          "confidence": 0.9943804144859314,
+          "start": 1384,
+          "end": 1386,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " ana",
+          "actual_text": "ana",
+          "confidence": 0.7115417718887329,
+          "start": 1544,
+          "end": 1547,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "gar",
+          "actual_text": "gar",
+          "confidence": 0.8461756706237793,
+          "start": 1548,
+          "end": 1551,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "@clinic.es",
+          "actual_text": "@clinic.es",
+          "confidence": 0.7930254936218262,
+          "start": 1554,
+          "end": 1564,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 17,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "INSTITUCION": 1,
+      "CORREO_ELECTRONICO": 3,
+      "NUMERO_TELEFONO": 6,
+      "NUMERO_IDENTIF": 2,
+      "URL_WEB": 3,
+      "NOMBRE_PERSONAL_SANITARIO": 1
+    },
+    "entities_by_confidence": {
+      "high": 8,
+      "medium": 9,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "-2024-789012",
+        "actual_text": "-2024-789012",
+        "confidence": 0.7336485981941223,
+        "start": 158,
+        "end": 170,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "INSTITUCION",
+        "word": "clin",
+        "actual_text": "clin",
+        "confidence": 0.8334295153617859,
+        "start": 1105,
+        "end": 1109,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "icabarcelona.org",
+        "actual_text": "icabarcelona.org",
+        "confidence": 0.950890839099884,
+        "start": 1109,
+        "end": 1125,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "aclinica.hgugm.es",
+        "actual_text": "aclinica.hgugm.es",
+        "confidence": 0.9496068954467773,
+        "start": 1357,
+        "end": 1374,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " ana.garcia@clinic.es",
+        "actual_text": "ana.garcia@clinic.es",
+        "confidence": 0.9978653788566589,
+        "start": 1544,
+        "end": 1564,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " HC",
+        "actual_text": "HC",
+        "confidence": 0.9423028230667114,
+        "start": 156,
+        "end": 158,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.7170860171318054,
+        "start": 158,
+        "end": 159,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " SN",
+        "actual_text": "SN",
+        "confidence": 0.7911372780799866,
+        "start": 750,
+        "end": 752,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " SN",
+        "actual_text": "SN",
+        "confidence": 0.743705153465271,
+        "start": 764,
+        "end": 766,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": " https://www.clinicabarcelona.org",
+        "actual_text": "https://www.clinicabarcelona.org",
+        "confidence": 0.7427119016647339,
+        "start": 1093,
+        "end": 1125,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " HC",
+        "actual_text": "HC",
+        "confidence": 0.7571015954017639,
+        "start": 1265,
+        "end": 1267,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "toriaclinica.hgugm.es/",
+        "actual_text": "toriaclinica.hgugm.es/",
+        "confidence": 0.8424458503723145,
+        "start": 1353,
+        "end": 1375,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "/",
+        "actual_text": "/",
+        "confidence": 0.7805092930793762,
+        "start": 1383,
+        "end": 1384,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12",
+        "actual_text": "12",
+        "confidence": 0.9943804144859314,
+        "start": 1384,
+        "end": 1386,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " ana",
+        "actual_text": "ana",
+        "confidence": 0.7115417718887329,
+        "start": 1544,
+        "end": 1547,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "gar",
+        "actual_text": "gar",
+        "confidence": 0.8461756706237793,
+        "start": 1548,
+        "end": 1551,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "@clinic.es",
+        "actual_text": "@clinic.es",
+        "confidence": 0.7930254936218262,
+        "start": 1554,
+        "end": 1564,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "-2024-789012",
+        "actual_text": "-2024-789012",
+        "confidence": 0.7336485981941223,
+        "start": 158,
+        "end": 170,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "INSTITUCION",
+        "word": "clin",
+        "actual_text": "clin",
+        "confidence": 0.8334295153617859,
+        "start": 1105,
+        "end": 1109,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "icabarcelona.org",
+        "actual_text": "icabarcelona.org",
+        "confidence": 0.950890839099884,
+        "start": 1109,
+        "end": 1125,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "aclinica.hgugm.es",
+        "actual_text": "aclinica.hgugm.es",
+        "confidence": 0.9496068954467773,
+        "start": 1357,
+        "end": 1374,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " ana.garcia@clinic.es",
+        "actual_text": "ana.garcia@clinic.es",
+        "confidence": 0.9978653788566589,
+        "start": 1544,
+        "end": 1564,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " HC",
+        "actual_text": "HC",
+        "confidence": 0.9423028230667114,
+        "start": 156,
+        "end": 158,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.7170860171318054,
+        "start": 158,
+        "end": 159,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " SN",
+        "actual_text": "SN",
+        "confidence": 0.7911372780799866,
+        "start": 750,
+        "end": 752,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " SN",
+        "actual_text": "SN",
+        "confidence": 0.743705153465271,
+        "start": 764,
+        "end": 766,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": " https://www.clinicabarcelona.org",
+        "actual_text": "https://www.clinicabarcelona.org",
+        "confidence": 0.7427119016647339,
+        "start": 1093,
+        "end": 1125,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " HC",
+        "actual_text": "HC",
+        "confidence": 0.7571015954017639,
+        "start": 1265,
+        "end": 1267,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "toriaclinica.hgugm.es/",
+        "actual_text": "toriaclinica.hgugm.es/",
+        "confidence": 0.8424458503723145,
+        "start": 1353,
+        "end": 1375,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "/",
+        "actual_text": "/",
+        "confidence": 0.7805092930793762,
+        "start": 1383,
+        "end": 1384,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12",
+        "actual_text": "12",
+        "confidence": 0.9943804144859314,
+        "start": 1384,
+        "end": 1386,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " ana",
+        "actual_text": "ana",
+        "confidence": 0.7115417718887329,
+        "start": 1544,
+        "end": 1547,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "gar",
+        "actual_text": "gar",
+        "confidence": 0.8461756706237793,
+        "start": 1548,
+        "end": 1551,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "@clinic.es",
+        "actual_text": "@clinic.es",
+        "confidence": 0.7930254936218262,
+        "start": 1554,
+        "end": 1564,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 17,
+    "suspicious_detections": 17,
+    "xxxxxx_detections": 0,
+    "other_detections": 17
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "CORREO_ELECTRONICO",
+        "text": " ana.garcia@clinic.es",
+        "confidence": 0.9978653788566589,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": "12",
+        "confidence": 0.9943804144859314,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 2
+  }
+}

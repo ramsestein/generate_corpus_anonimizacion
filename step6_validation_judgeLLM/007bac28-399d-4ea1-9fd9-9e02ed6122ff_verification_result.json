@@ -1,0 +1,898 @@
+{
+  "document_id": "007bac28-399d-4ea1-9fd9-9e02ed6122ff",
+  "success": true,
+  "anonymized_text": "Informe de Cardiología Se reevalúa al paciente en consulta externa para seguimiento de su cardiopatía isquémica crónica estable. El sujeto de asistencia identificado con el número 87654321B presenta una evolución clínica favorable desde la última revisión, refiriendo mejoría significativa en su capacidad funcional y ausencia de angina en reposo o con esfuerzos habituales. En cuanto a los parámetros de control, se registra el dispositivo médico con identificador B123456789, que corresponde al holter de arritmias implantado, cuyo funcionamiento se reporta dentro de los límites normales sin detección de eventos arrítmicos significativos en el período de monitorización. Asimismo, se ha procedido a la verificación del marcapasos con número de serie B-458712369, confirmando su correcto funcionamiento y adecuada programación de los parámetros establecidos. Los estudios complementarios realizados incluyen analítica completa que muestra perfil lipídico dentro de objetivos terapéuticos y electrocardiograma de doce derivaciones sin cambios significativos respecto a controles previos. Se mantiene la medicación crónica actual sin modificaciones. Para la gestión administrativa del proceso, se actualizan los datos de aseguramiento con identificación B-58246901 correspondiente a la cobertura sanitaria vigente. El número de beneficio del plan de salud SN-98237641 queda registrado en el sistema junto con el identificador adicional HC-2024-789456 para completar la documentación clínica. La coordinación con los servicios sanitarios de la Comunidad Valenciana se mantiene activa para garantizar la continuidad asistencial. Según los protocolos establecidos por el Ministerio de Sanidad, se ha generado el código ES-87654321-X para la trazabilidad del proceso. La comunicación con el paciente se realizará preferentemente a través del correo electrónico carlos.martinez@clinic.es para agilizar los contactos futuros. Como dato de localización, consta el domicilio en Avenida de la Constitución 12 para cualquier requerimiento de documentación física. Se programa próxima revisión en seis meses, manteniéndose las recomendaciones sobre estilo de vida y control de factores de riesgo cardiovascular.",
+  "text_length": 2201,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 5,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7376934289932251,
+        "word": "458712369",
+        "start": 756,
+        "end": 765,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.993826687335968,
+        "word": " car",
+        "start": 1858,
+        "end": 1861,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9717815518379211,
+        "word": "los.martinez@clinic.es",
+        "start": 1861,
+        "end": 1883,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9990044832229614,
+        "word": " Avenida de la Constitución 12",
+        "start": 1971,
+        "end": 2000,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.999268651008606,
+        "word": " Avenida de la Constitución 12",
+        "start": 367,
+        "end": 396,
+        "chunk_id": 1,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 5,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 1,
+        "CORREO_ELECTRONICO": 2,
+        "CALLE": 2
+      },
+      "entities_by_confidence": {
+        "high": 4,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "458712369",
+          "actual_text": "458712369",
+          "confidence": 0.7376934289932251,
+          "start": 756,
+          "end": 765,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.993826687335968,
+          "start": 1858,
+          "end": 1861,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "los.martinez@clinic.es",
+          "actual_text": "los.martinez@clinic.es",
+          "confidence": 0.9717815518379211,
+          "start": 1861,
+          "end": 1883,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Avenida de la Constitución 12",
+          "actual_text": "Avenida de la Constitución 12",
+          "confidence": 0.9990044832229614,
+          "start": 1971,
+          "end": 2000,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Avenida de la Constitución 12",
+          "actual_text": "tuales. En cuanto a los parám",
+          "confidence": 0.999268651008606,
+          "start": 367,
+          "end": 396,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "458712369",
+          "actual_text": "458712369",
+          "confidence": 0.7376934289932251,
+          "start": 756,
+          "end": 765,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.993826687335968,
+          "start": 1858,
+          "end": 1861,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "los.martinez@clinic.es",
+          "actual_text": "los.martinez@clinic.es",
+          "confidence": 0.9717815518379211,
+          "start": 1861,
+          "end": 1883,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Avenida de la Constitución 12",
+          "actual_text": "Avenida de la Constitución 12",
+          "confidence": 0.9990044832229614,
+          "start": 1971,
+          "end": 2000,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Avenida de la Constitución 12",
+          "actual_text": "tuales. En cuanto a los parám",
+          "confidence": 0.999268651008606,
+          "start": 367,
+          "end": 396,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 12,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9921393990516663,
+        "word": " 8",
+        "start": 180,
+        "end": 181,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7181452512741089,
+        "word": " B",
+        "start": 466,
+        "end": 467,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7867286801338196,
+        "word": "12",
+        "start": 467,
+        "end": 469,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9258044362068176,
+        "word": " de serie",
+        "start": 745,
+        "end": 753,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.867256224155426,
+        "word": " B",
+        "start": 754,
+        "end": 755,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.9021950960159302,
+        "word": " HC",
+        "start": 1437,
+        "end": 1439,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PAIS",
+        "score": 0.9695978760719299,
+        "word": " Comunidad Valenciana",
+        "start": 1544,
+        "end": 1564,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.7639690637588501,
+        "word": " ES",
+        "start": 1717,
+        "end": 1719,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7724460363388062,
+        "word": " car",
+        "start": 1858,
+        "end": 1861,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.819929838180542,
+        "word": ".",
+        "start": 1880,
+        "end": 1881,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9976436495780945,
+        "word": " Avenida de la Constitución 12",
+        "start": 1971,
+        "end": 2000,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9979766607284546,
+        "word": " Avenida de la Constitución 12",
+        "start": 367,
+        "end": 396,
+        "chunk_id": 1,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 12,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 5,
+        "CALLE": 3,
+        "NUMERO_IDENTIF": 2,
+        "PAIS": 1,
+        "URL_WEB": 1
+      },
+      "entities_by_confidence": {
+        "high": 8,
+        "medium": 4,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 8",
+          "actual_text": "8",
+          "confidence": 0.9921393990516663,
+          "start": 180,
+          "end": 181,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.7181452512741089,
+          "start": 466,
+          "end": 467,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12",
+          "actual_text": "12",
+          "confidence": 0.7867286801338196,
+          "start": 467,
+          "end": 469,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " de serie",
+          "actual_text": "de serie",
+          "confidence": 0.9258044362068176,
+          "start": 745,
+          "end": 753,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.867256224155426,
+          "start": 754,
+          "end": 755,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " HC",
+          "actual_text": "HC",
+          "confidence": 0.9021950960159302,
+          "start": 1437,
+          "end": 1439,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.9695978760719299,
+          "start": 1544,
+          "end": 1564,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " ES",
+          "actual_text": "ES",
+          "confidence": 0.7639690637588501,
+          "start": 1717,
+          "end": 1719,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.7724460363388062,
+          "start": 1858,
+          "end": 1861,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": ".",
+          "actual_text": ".",
+          "confidence": 0.819929838180542,
+          "start": 1880,
+          "end": 1881,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Avenida de la Constitución 12",
+          "actual_text": "Avenida de la Constitución 12",
+          "confidence": 0.9976436495780945,
+          "start": 1971,
+          "end": 2000,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Avenida de la Constitución 12",
+          "actual_text": "tuales. En cuanto a los parám",
+          "confidence": 0.9979766607284546,
+          "start": 367,
+          "end": 396,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 8",
+          "actual_text": "8",
+          "confidence": 0.9921393990516663,
+          "start": 180,
+          "end": 181,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.7181452512741089,
+          "start": 466,
+          "end": 467,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12",
+          "actual_text": "12",
+          "confidence": 0.7867286801338196,
+          "start": 467,
+          "end": 469,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " de serie",
+          "actual_text": "de serie",
+          "confidence": 0.9258044362068176,
+          "start": 745,
+          "end": 753,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.867256224155426,
+          "start": 754,
+          "end": 755,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " HC",
+          "actual_text": "HC",
+          "confidence": 0.9021950960159302,
+          "start": 1437,
+          "end": 1439,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PAIS",
+          "word": " Comunidad Valenciana",
+          "actual_text": "Comunidad Valenciana",
+          "confidence": 0.9695978760719299,
+          "start": 1544,
+          "end": 1564,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " ES",
+          "actual_text": "ES",
+          "confidence": 0.7639690637588501,
+          "start": 1717,
+          "end": 1719,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.7724460363388062,
+          "start": 1858,
+          "end": 1861,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": ".",
+          "actual_text": ".",
+          "confidence": 0.819929838180542,
+          "start": 1880,
+          "end": 1881,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Avenida de la Constitución 12",
+          "actual_text": "Avenida de la Constitución 12",
+          "confidence": 0.9976436495780945,
+          "start": 1971,
+          "end": 2000,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Avenida de la Constitución 12",
+          "actual_text": "tuales. En cuanto a los parám",
+          "confidence": 0.9979766607284546,
+          "start": 367,
+          "end": 396,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 17,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "ID_SUJETO_ASISTENCIA": 1,
+      "CORREO_ELECTRONICO": 2,
+      "CALLE": 5,
+      "NUMERO_TELEFONO": 5,
+      "NUMERO_IDENTIF": 2,
+      "PAIS": 1,
+      "URL_WEB": 1
+    },
+    "entities_by_confidence": {
+      "high": 12,
+      "medium": 5,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "458712369",
+        "actual_text": "458712369",
+        "confidence": 0.7376934289932251,
+        "start": 756,
+        "end": 765,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.993826687335968,
+        "start": 1858,
+        "end": 1861,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "los.martinez@clinic.es",
+        "actual_text": "los.martinez@clinic.es",
+        "confidence": 0.9717815518379211,
+        "start": 1861,
+        "end": 1883,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Avenida de la Constitución 12",
+        "actual_text": "Avenida de la Constitución 12",
+        "confidence": 0.9990044832229614,
+        "start": 1971,
+        "end": 2000,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Avenida de la Constitución 12",
+        "actual_text": "tuales. En cuanto a los parám",
+        "confidence": 0.999268651008606,
+        "start": 367,
+        "end": 396,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 8",
+        "actual_text": "8",
+        "confidence": 0.9921393990516663,
+        "start": 180,
+        "end": 181,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.7181452512741089,
+        "start": 466,
+        "end": 467,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12",
+        "actual_text": "12",
+        "confidence": 0.7867286801338196,
+        "start": 467,
+        "end": 469,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " de serie",
+        "actual_text": "de serie",
+        "confidence": 0.9258044362068176,
+        "start": 745,
+        "end": 753,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.867256224155426,
+        "start": 754,
+        "end": 755,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " HC",
+        "actual_text": "HC",
+        "confidence": 0.9021950960159302,
+        "start": 1437,
+        "end": 1439,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.9695978760719299,
+        "start": 1544,
+        "end": 1564,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " ES",
+        "actual_text": "ES",
+        "confidence": 0.7639690637588501,
+        "start": 1717,
+        "end": 1719,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.7724460363388062,
+        "start": 1858,
+        "end": 1861,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": ".",
+        "actual_text": ".",
+        "confidence": 0.819929838180542,
+        "start": 1880,
+        "end": 1881,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Avenida de la Constitución 12",
+        "actual_text": "Avenida de la Constitución 12",
+        "confidence": 0.9976436495780945,
+        "start": 1971,
+        "end": 2000,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Avenida de la Constitución 12",
+        "actual_text": "tuales. En cuanto a los parám",
+        "confidence": 0.9979766607284546,
+        "start": 367,
+        "end": 396,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "458712369",
+        "actual_text": "458712369",
+        "confidence": 0.7376934289932251,
+        "start": 756,
+        "end": 765,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.993826687335968,
+        "start": 1858,
+        "end": 1861,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "los.martinez@clinic.es",
+        "actual_text": "los.martinez@clinic.es",
+        "confidence": 0.9717815518379211,
+        "start": 1861,
+        "end": 1883,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Avenida de la Constitución 12",
+        "actual_text": "Avenida de la Constitución 12",
+        "confidence": 0.9990044832229614,
+        "start": 1971,
+        "end": 2000,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Avenida de la Constitución 12",
+        "actual_text": "tuales. En cuanto a los parám",
+        "confidence": 0.999268651008606,
+        "start": 367,
+        "end": 396,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 8",
+        "actual_text": "8",
+        "confidence": 0.9921393990516663,
+        "start": 180,
+        "end": 181,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.7181452512741089,
+        "start": 466,
+        "end": 467,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12",
+        "actual_text": "12",
+        "confidence": 0.7867286801338196,
+        "start": 467,
+        "end": 469,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " de serie",
+        "actual_text": "de serie",
+        "confidence": 0.9258044362068176,
+        "start": 745,
+        "end": 753,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.867256224155426,
+        "start": 754,
+        "end": 755,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " HC",
+        "actual_text": "HC",
+        "confidence": 0.9021950960159302,
+        "start": 1437,
+        "end": 1439,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PAIS",
+        "word": " Comunidad Valenciana",
+        "actual_text": "Comunidad Valenciana",
+        "confidence": 0.9695978760719299,
+        "start": 1544,
+        "end": 1564,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " ES",
+        "actual_text": "ES",
+        "confidence": 0.7639690637588501,
+        "start": 1717,
+        "end": 1719,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.7724460363388062,
+        "start": 1858,
+        "end": 1861,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": ".",
+        "actual_text": ".",
+        "confidence": 0.819929838180542,
+        "start": 1880,
+        "end": 1881,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Avenida de la Constitución 12",
+        "actual_text": "Avenida de la Constitución 12",
+        "confidence": 0.9976436495780945,
+        "start": 1971,
+        "end": 2000,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Avenida de la Constitución 12",
+        "actual_text": "tuales. En cuanto a los parám",
+        "confidence": 0.9979766607284546,
+        "start": 367,
+        "end": 396,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 17,
+    "suspicious_detections": 17,
+    "xxxxxx_detections": 0,
+    "other_detections": 17
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "CORREO_ELECTRONICO",
+        "text": " car",
+        "confidence": 0.993826687335968,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "text": " Avenida de la Constitución 12",
+        "confidence": 0.9990044832229614,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "text": " Avenida de la Constitución 12",
+        "confidence": 0.999268651008606,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " 8",
+        "confidence": 0.9921393990516663,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "text": " Avenida de la Constitución 12",
+        "confidence": 0.9976436495780945,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "text": " Avenida de la Constitución 12",
+        "confidence": 0.9979766607284546,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 6
+  }
+}

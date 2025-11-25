@@ -1,0 +1,1318 @@
+{
+  "document_id": "00ce2e9e-9757-403c-8dbf-33234b632b9b",
+  "success": true,
+  "anonymized_text": "**INFORME DE CONSULTA EXTERNA DE TRAUMATOLOGÍA** En la consulta externa de Traumatología del día 12 de julio de 2023 se atiende al paciente para seguimiento de su proceso. Se revisa la documentación asociada a su historia clínica principal, identificada con el número HC-2024-789012. Para la validación de identidad y acceso a los sistemas digitales, se ha verificado la huella dactilar derecha índice del paciente, procediendo sin incidencias. El contacto asistencial activo en nuestro sistema para notificaciones y gestión de citas es el identificado con el código CONT-2024-789123. En el apartado de contacto familiar, se ha actualizado la información, figurando como persona de contacto principal para asuntos relacionados con la asistencia a María del Carmen Rodríguez, esposa. Asimismo, en el apartado de antecedentes familiares de interés, se consigna que María del Carmen Rodríguez, madre del paciente, no refiere antecedentes traumáticos ortopédicos relevantes. El facultativo que emite el presente informe está acreditado con el correspondiente Grado en Medicina. Para cualquier comunicación profesional derivada de este informe, puede utilizarse la dirección de correo electrónico ana.martinez@clinic.es. Adicionalmente, para la coordinación con la unidad de radiodiagnóstico, se ha establecido contacto a través de ana.garcia@clinicabarcelona.com. El paciente presenta cobertura sanitaria a través del plan con número de beneficiario B-45872316. La exploración física actual revela una correcta alineación articular y la evolución del cuadro se considera satisfactoria, por lo que se da por concluido el episodio asistencial.",
+  "text_length": 1637,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 12,
+    "entities": [
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9977861046791077,
+        "word": " 12 de julio de 2023",
+        "start": 97,
+        "end": 116,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.799462616443634,
+        "word": "20",
+        "start": 271,
+        "end": 273,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7438565492630005,
+        "word": "-789012",
+        "start": 275,
+        "end": 282,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7367150187492371,
+        "word": "24",
+        "start": 574,
+        "end": 576,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8788236975669861,
+        "word": " María",
+        "start": 747,
+        "end": 752,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9961304664611816,
+        "word": " esposa",
+        "start": 775,
+        "end": 781,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.7782583832740784,
+        "word": " María del Carmen Rodríguez",
+        "start": 863,
+        "end": 889,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.996807336807251,
+        "word": " madre",
+        "start": 891,
+        "end": 896,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9987956881523132,
+        "word": " ana.martinez@clinic.es",
+        "start": 1192,
+        "end": 1214,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9983795285224915,
+        "word": " ana.garcia@clinicabarcelona.com",
+        "start": 1327,
+        "end": 1358,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8668050169944763,
+        "word": "-",
+        "start": 1447,
+        "end": 1448,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8068205714225769,
+        "word": "45872316",
+        "start": 1448,
+        "end": 1456,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 12,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FECHAS": 1,
+        "ID_SUJETO_ASISTENCIA": 4,
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "FAMILIARES_SUJETO_ASISTENCIA": 4,
+        "CORREO_ELECTRONICO": 2
+      },
+      "entities_by_confidence": {
+        "high": 8,
+        "medium": 4,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9977861046791077,
+          "start": 97,
+          "end": 116,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "20",
+          "actual_text": "20",
+          "confidence": 0.799462616443634,
+          "start": 271,
+          "end": 273,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-789012",
+          "actual_text": "-789012",
+          "confidence": 0.7438565492630005,
+          "start": 275,
+          "end": 282,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "24",
+          "actual_text": "24",
+          "confidence": 0.7367150187492371,
+          "start": 574,
+          "end": 576,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " María",
+          "actual_text": "María",
+          "confidence": 0.8788236975669861,
+          "start": 747,
+          "end": 752,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " esposa",
+          "actual_text": "esposa",
+          "confidence": 0.9961304664611816,
+          "start": 775,
+          "end": 781,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " María del Carmen Rodríguez",
+          "actual_text": "María del Carmen Rodríguez",
+          "confidence": 0.7782583832740784,
+          "start": 863,
+          "end": 889,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " madre",
+          "actual_text": "madre",
+          "confidence": 0.996807336807251,
+          "start": 891,
+          "end": 896,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " ana.martinez@clinic.es",
+          "actual_text": "ana.martinez@clinic.es",
+          "confidence": 0.9987956881523132,
+          "start": 1192,
+          "end": 1214,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " ana.garcia@clinicabarcelona.com",
+          "actual_text": "ana.garcia@clinicabarcelona.com",
+          "confidence": 0.9983795285224915,
+          "start": 1327,
+          "end": 1358,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.8668050169944763,
+          "start": 1447,
+          "end": 1448,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "45872316",
+          "actual_text": "45872316",
+          "confidence": 0.8068205714225769,
+          "start": 1448,
+          "end": 1456,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9977861046791077,
+          "start": 97,
+          "end": 116,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "20",
+          "actual_text": "20",
+          "confidence": 0.799462616443634,
+          "start": 271,
+          "end": 273,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-789012",
+          "actual_text": "-789012",
+          "confidence": 0.7438565492630005,
+          "start": 275,
+          "end": 282,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "24",
+          "actual_text": "24",
+          "confidence": 0.7367150187492371,
+          "start": 574,
+          "end": 576,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " María",
+          "actual_text": "María",
+          "confidence": 0.8788236975669861,
+          "start": 747,
+          "end": 752,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " esposa",
+          "actual_text": "esposa",
+          "confidence": 0.9961304664611816,
+          "start": 775,
+          "end": 781,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " María del Carmen Rodríguez",
+          "actual_text": "María del Carmen Rodríguez",
+          "confidence": 0.7782583832740784,
+          "start": 863,
+          "end": 889,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " madre",
+          "actual_text": "madre",
+          "confidence": 0.996807336807251,
+          "start": 891,
+          "end": 896,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " ana.martinez@clinic.es",
+          "actual_text": "ana.martinez@clinic.es",
+          "confidence": 0.9987956881523132,
+          "start": 1192,
+          "end": 1214,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " ana.garcia@clinicabarcelona.com",
+          "actual_text": "ana.garcia@clinicabarcelona.com",
+          "confidence": 0.9983795285224915,
+          "start": 1327,
+          "end": 1358,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.8668050169944763,
+          "start": 1447,
+          "end": 1448,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "45872316",
+          "actual_text": "45872316",
+          "confidence": 0.8068205714225769,
+          "start": 1448,
+          "end": 1456,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 14,
+    "entities": [
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9998920559883118,
+        "word": " 12 de julio de 2023",
+        "start": 97,
+        "end": 116,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.877038836479187,
+        "word": " HC",
+        "start": 268,
+        "end": 270,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.8844189047813416,
+        "word": " María del Carmen",
+        "start": 747,
+        "end": 763,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9995574355125427,
+        "word": " esposa",
+        "start": 775,
+        "end": 781,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9740177989006042,
+        "word": " María del Carmen",
+        "start": 863,
+        "end": 879,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "FAMILIARES_SUJETO_ASISTENCIA",
+        "score": 0.9993557333946228,
+        "word": " madre",
+        "start": 891,
+        "end": 896,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.8864630460739136,
+        "word": "mar",
+        "start": 1196,
+        "end": 1199,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.8620147109031677,
+        "word": "tin",
+        "start": 1199,
+        "end": 1202,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.8511740565299988,
+        "word": "ez",
+        "start": 1202,
+        "end": 1204,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.7052887678146362,
+        "word": "@clinic.es",
+        "start": 1204,
+        "end": 1214,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7975978851318359,
+        "word": " ana",
+        "start": 1327,
+        "end": 1330,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.7585999369621277,
+        "word": "gar",
+        "start": 1331,
+        "end": 1334,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.8411056399345398,
+        "word": "@clinicabarcelona.com",
+        "start": 1337,
+        "end": 1358,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9890440702438354,
+        "word": " B",
+        "start": 1446,
+        "end": 1447,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 14,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FECHAS": 1,
+        "NUMERO_TELEFONO": 3,
+        "FAMILIARES_SUJETO_ASISTENCIA": 4,
+        "NOMBRE_PERSONAL_SANITARIO": 4,
+        "URL_WEB": 2
+      },
+      "entities_by_confidence": {
+        "high": 11,
+        "medium": 3,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9998920559883118,
+          "start": 97,
+          "end": 116,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " HC",
+          "actual_text": "HC",
+          "confidence": 0.877038836479187,
+          "start": 268,
+          "end": 270,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " María del Carmen",
+          "actual_text": "María del Carmen",
+          "confidence": 0.8844189047813416,
+          "start": 747,
+          "end": 763,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " esposa",
+          "actual_text": "esposa",
+          "confidence": 0.9995574355125427,
+          "start": 775,
+          "end": 781,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " María del Carmen",
+          "actual_text": "María del Carmen",
+          "confidence": 0.9740177989006042,
+          "start": 863,
+          "end": 879,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " madre",
+          "actual_text": "madre",
+          "confidence": 0.9993557333946228,
+          "start": 891,
+          "end": 896,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "mar",
+          "actual_text": "mar",
+          "confidence": 0.8864630460739136,
+          "start": 1196,
+          "end": 1199,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "tin",
+          "actual_text": "tin",
+          "confidence": 0.8620147109031677,
+          "start": 1199,
+          "end": 1202,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "ez",
+          "actual_text": "ez",
+          "confidence": 0.8511740565299988,
+          "start": 1202,
+          "end": 1204,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "@clinic.es",
+          "actual_text": "@clinic.es",
+          "confidence": 0.7052887678146362,
+          "start": 1204,
+          "end": 1214,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " ana",
+          "actual_text": "ana",
+          "confidence": 0.7975978851318359,
+          "start": 1327,
+          "end": 1330,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "gar",
+          "actual_text": "gar",
+          "confidence": 0.7585999369621277,
+          "start": 1331,
+          "end": 1334,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "@clinicabarcelona.com",
+          "actual_text": "@clinicabarcelona.com",
+          "confidence": 0.8411056399345398,
+          "start": 1337,
+          "end": 1358,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.9890440702438354,
+          "start": 1446,
+          "end": 1447,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9998920559883118,
+          "start": 97,
+          "end": 116,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " HC",
+          "actual_text": "HC",
+          "confidence": 0.877038836479187,
+          "start": 268,
+          "end": 270,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " María del Carmen",
+          "actual_text": "María del Carmen",
+          "confidence": 0.8844189047813416,
+          "start": 747,
+          "end": 763,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " esposa",
+          "actual_text": "esposa",
+          "confidence": 0.9995574355125427,
+          "start": 775,
+          "end": 781,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " María del Carmen",
+          "actual_text": "María del Carmen",
+          "confidence": 0.9740177989006042,
+          "start": 863,
+          "end": 879,
+          "model": "CARMEN"
+        },
+        {
+          "label": "FAMILIARES_SUJETO_ASISTENCIA",
+          "word": " madre",
+          "actual_text": "madre",
+          "confidence": 0.9993557333946228,
+          "start": 891,
+          "end": 896,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "mar",
+          "actual_text": "mar",
+          "confidence": 0.8864630460739136,
+          "start": 1196,
+          "end": 1199,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "tin",
+          "actual_text": "tin",
+          "confidence": 0.8620147109031677,
+          "start": 1199,
+          "end": 1202,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "ez",
+          "actual_text": "ez",
+          "confidence": 0.8511740565299988,
+          "start": 1202,
+          "end": 1204,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "@clinic.es",
+          "actual_text": "@clinic.es",
+          "confidence": 0.7052887678146362,
+          "start": 1204,
+          "end": 1214,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " ana",
+          "actual_text": "ana",
+          "confidence": 0.7975978851318359,
+          "start": 1327,
+          "end": 1330,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "gar",
+          "actual_text": "gar",
+          "confidence": 0.7585999369621277,
+          "start": 1331,
+          "end": 1334,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "@clinicabarcelona.com",
+          "actual_text": "@clinicabarcelona.com",
+          "confidence": 0.8411056399345398,
+          "start": 1337,
+          "end": 1358,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.9890440702438354,
+          "start": 1446,
+          "end": 1447,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 26,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FECHAS": 2,
+      "ID_SUJETO_ASISTENCIA": 4,
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "FAMILIARES_SUJETO_ASISTENCIA": 8,
+      "CORREO_ELECTRONICO": 2,
+      "NUMERO_TELEFONO": 3,
+      "NOMBRE_PERSONAL_SANITARIO": 4,
+      "URL_WEB": 2
+    },
+    "entities_by_confidence": {
+      "high": 19,
+      "medium": 7,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9977861046791077,
+        "start": 97,
+        "end": 116,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "20",
+        "actual_text": "20",
+        "confidence": 0.799462616443634,
+        "start": 271,
+        "end": 273,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-789012",
+        "actual_text": "-789012",
+        "confidence": 0.7438565492630005,
+        "start": 275,
+        "end": 282,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "24",
+        "actual_text": "24",
+        "confidence": 0.7367150187492371,
+        "start": 574,
+        "end": 576,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " María",
+        "actual_text": "María",
+        "confidence": 0.8788236975669861,
+        "start": 747,
+        "end": 752,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " esposa",
+        "actual_text": "esposa",
+        "confidence": 0.9961304664611816,
+        "start": 775,
+        "end": 781,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " María del Carmen Rodríguez",
+        "actual_text": "María del Carmen Rodríguez",
+        "confidence": 0.7782583832740784,
+        "start": 863,
+        "end": 889,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " madre",
+        "actual_text": "madre",
+        "confidence": 0.996807336807251,
+        "start": 891,
+        "end": 896,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " ana.martinez@clinic.es",
+        "actual_text": "ana.martinez@clinic.es",
+        "confidence": 0.9987956881523132,
+        "start": 1192,
+        "end": 1214,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " ana.garcia@clinicabarcelona.com",
+        "actual_text": "ana.garcia@clinicabarcelona.com",
+        "confidence": 0.9983795285224915,
+        "start": 1327,
+        "end": 1358,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.8668050169944763,
+        "start": 1447,
+        "end": 1448,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "45872316",
+        "actual_text": "45872316",
+        "confidence": 0.8068205714225769,
+        "start": 1448,
+        "end": 1456,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9998920559883118,
+        "start": 97,
+        "end": 116,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " HC",
+        "actual_text": "HC",
+        "confidence": 0.877038836479187,
+        "start": 268,
+        "end": 270,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " María del Carmen",
+        "actual_text": "María del Carmen",
+        "confidence": 0.8844189047813416,
+        "start": 747,
+        "end": 763,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " esposa",
+        "actual_text": "esposa",
+        "confidence": 0.9995574355125427,
+        "start": 775,
+        "end": 781,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " María del Carmen",
+        "actual_text": "María del Carmen",
+        "confidence": 0.9740177989006042,
+        "start": 863,
+        "end": 879,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " madre",
+        "actual_text": "madre",
+        "confidence": 0.9993557333946228,
+        "start": 891,
+        "end": 896,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "mar",
+        "actual_text": "mar",
+        "confidence": 0.8864630460739136,
+        "start": 1196,
+        "end": 1199,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "tin",
+        "actual_text": "tin",
+        "confidence": 0.8620147109031677,
+        "start": 1199,
+        "end": 1202,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "ez",
+        "actual_text": "ez",
+        "confidence": 0.8511740565299988,
+        "start": 1202,
+        "end": 1204,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "@clinic.es",
+        "actual_text": "@clinic.es",
+        "confidence": 0.7052887678146362,
+        "start": 1204,
+        "end": 1214,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " ana",
+        "actual_text": "ana",
+        "confidence": 0.7975978851318359,
+        "start": 1327,
+        "end": 1330,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "gar",
+        "actual_text": "gar",
+        "confidence": 0.7585999369621277,
+        "start": 1331,
+        "end": 1334,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "@clinicabarcelona.com",
+        "actual_text": "@clinicabarcelona.com",
+        "confidence": 0.8411056399345398,
+        "start": 1337,
+        "end": 1358,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.9890440702438354,
+        "start": 1446,
+        "end": 1447,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9977861046791077,
+        "start": 97,
+        "end": 116,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "20",
+        "actual_text": "20",
+        "confidence": 0.799462616443634,
+        "start": 271,
+        "end": 273,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-789012",
+        "actual_text": "-789012",
+        "confidence": 0.7438565492630005,
+        "start": 275,
+        "end": 282,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "24",
+        "actual_text": "24",
+        "confidence": 0.7367150187492371,
+        "start": 574,
+        "end": 576,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " María",
+        "actual_text": "María",
+        "confidence": 0.8788236975669861,
+        "start": 747,
+        "end": 752,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " esposa",
+        "actual_text": "esposa",
+        "confidence": 0.9961304664611816,
+        "start": 775,
+        "end": 781,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " María del Carmen Rodríguez",
+        "actual_text": "María del Carmen Rodríguez",
+        "confidence": 0.7782583832740784,
+        "start": 863,
+        "end": 889,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " madre",
+        "actual_text": "madre",
+        "confidence": 0.996807336807251,
+        "start": 891,
+        "end": 896,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " ana.martinez@clinic.es",
+        "actual_text": "ana.martinez@clinic.es",
+        "confidence": 0.9987956881523132,
+        "start": 1192,
+        "end": 1214,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " ana.garcia@clinicabarcelona.com",
+        "actual_text": "ana.garcia@clinicabarcelona.com",
+        "confidence": 0.9983795285224915,
+        "start": 1327,
+        "end": 1358,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.8668050169944763,
+        "start": 1447,
+        "end": 1448,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "45872316",
+        "actual_text": "45872316",
+        "confidence": 0.8068205714225769,
+        "start": 1448,
+        "end": 1456,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9998920559883118,
+        "start": 97,
+        "end": 116,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " HC",
+        "actual_text": "HC",
+        "confidence": 0.877038836479187,
+        "start": 268,
+        "end": 270,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " María del Carmen",
+        "actual_text": "María del Carmen",
+        "confidence": 0.8844189047813416,
+        "start": 747,
+        "end": 763,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " esposa",
+        "actual_text": "esposa",
+        "confidence": 0.9995574355125427,
+        "start": 775,
+        "end": 781,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " María del Carmen",
+        "actual_text": "María del Carmen",
+        "confidence": 0.9740177989006042,
+        "start": 863,
+        "end": 879,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "word": " madre",
+        "actual_text": "madre",
+        "confidence": 0.9993557333946228,
+        "start": 891,
+        "end": 896,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "mar",
+        "actual_text": "mar",
+        "confidence": 0.8864630460739136,
+        "start": 1196,
+        "end": 1199,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "tin",
+        "actual_text": "tin",
+        "confidence": 0.8620147109031677,
+        "start": 1199,
+        "end": 1202,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "ez",
+        "actual_text": "ez",
+        "confidence": 0.8511740565299988,
+        "start": 1202,
+        "end": 1204,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "@clinic.es",
+        "actual_text": "@clinic.es",
+        "confidence": 0.7052887678146362,
+        "start": 1204,
+        "end": 1214,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " ana",
+        "actual_text": "ana",
+        "confidence": 0.7975978851318359,
+        "start": 1327,
+        "end": 1330,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "gar",
+        "actual_text": "gar",
+        "confidence": 0.7585999369621277,
+        "start": 1331,
+        "end": 1334,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "@clinicabarcelona.com",
+        "actual_text": "@clinicabarcelona.com",
+        "confidence": 0.8411056399345398,
+        "start": 1337,
+        "end": 1358,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.9890440702438354,
+        "start": 1446,
+        "end": 1447,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 26,
+    "suspicious_detections": 26,
+    "xxxxxx_detections": 0,
+    "other_detections": 26
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "FECHAS",
+        "text": " 12 de julio de 2023",
+        "confidence": 0.9977861046791077,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "text": " esposa",
+        "confidence": 0.9961304664611816,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "text": " madre",
+        "confidence": 0.996807336807251,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "text": " ana.martinez@clinic.es",
+        "confidence": 0.9987956881523132,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "text": " ana.garcia@clinicabarcelona.com",
+        "confidence": 0.9983795285224915,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "text": " 12 de julio de 2023",
+        "confidence": 0.9998920559883118,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "text": " esposa",
+        "confidence": 0.9995574355125427,
+        "model": "CARMEN"
+      },
+      {
+        "label": "FAMILIARES_SUJETO_ASISTENCIA",
+        "text": " madre",
+        "confidence": 0.9993557333946228,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 8
+  }
+}

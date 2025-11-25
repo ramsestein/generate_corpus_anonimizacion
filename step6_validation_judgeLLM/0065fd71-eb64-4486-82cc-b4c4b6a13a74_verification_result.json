@@ -1,0 +1,583 @@
+{
+  "document_id": "0065fd71-eb64-4486-82cc-b4c4b6a13a74",
+  "success": true,
+  "anonymized_text": "En el informe de alta quirúrgica se detalla que el procedimiento fue realizado por un cirujano cardiovascular. Durante la intervención, se utilizó el equipo de circulación extracorpórea cuyo número de serie es SN-98246731, así como el monitor de presión intracardíaca con identificador SN-98237641. El profesional interviniente, un cirujano con la identificación E-987654, estuvo supervisado por el cirujano jefe de servicio, identificado con E-789456. Para la coordinación del postoperatorio inmediato, se ha facilitado el número de fax +34 91 876 54 32 al equipo de cuidados intensivos para el envío inmediato de la documentación pertinente. El paciente, beneficiario del plan de salud con número B-458712369, ha sido derivado a rehabilitación cardíaca. La exploración física postoperatoria muestra ruidos respiratorios claros bilateralmente y herida quirúrgica limpia sin signos de infección. Los resultados analíticos postintervención, incluyendo hemograma y perfil de coagulación, se encuentran dentro de parámetros aceptables. El ecocardiograma de control realizado antes del alta evidencia buena función ventricular y correcta posición de los implantes valvulares. Se mantendrá un estrecho seguimiento ambulatorio por parte del servicio de cirugía. Toda la instrumentación utilizada ha sido verificada y registrada según los protocolos establecidos.",
+  "text_length": 1356,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 6,
+    "entities": [
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.9192076325416565,
+        "word": "98",
+        "start": 213,
+        "end": 215,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7295952439308167,
+        "word": "98",
+        "start": 289,
+        "end": 291,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.882606029510498,
+        "word": "78",
+        "start": 445,
+        "end": 447,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9860929846763611,
+        "word": " +",
+        "start": 538,
+        "end": 539,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9682397842407227,
+        "word": "34 91 876 54 32",
+        "start": 539,
+        "end": 554,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7158318758010864,
+        "word": "458712369",
+        "start": 701,
+        "end": 710,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 6,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "ID_SUJETO_ASISTENCIA": 4,
+        "NUMERO_TELEFONO": 2
+      },
+      "entities_by_confidence": {
+        "high": 4,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "98",
+          "actual_text": "98",
+          "confidence": 0.9192076325416565,
+          "start": 213,
+          "end": 215,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "98",
+          "actual_text": "98",
+          "confidence": 0.7295952439308167,
+          "start": 289,
+          "end": 291,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "78",
+          "actual_text": "78",
+          "confidence": 0.882606029510498,
+          "start": 445,
+          "end": 447,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9860929846763611,
+          "start": 538,
+          "end": 539,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.9682397842407227,
+          "start": 539,
+          "end": 554,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "458712369",
+          "actual_text": "458712369",
+          "confidence": 0.7158318758010864,
+          "start": 701,
+          "end": 710,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "98",
+          "actual_text": "98",
+          "confidence": 0.9192076325416565,
+          "start": 213,
+          "end": 215,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "98",
+          "actual_text": "98",
+          "confidence": 0.7295952439308167,
+          "start": 289,
+          "end": 291,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "78",
+          "actual_text": "78",
+          "confidence": 0.882606029510498,
+          "start": 445,
+          "end": 447,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9860929846763611,
+          "start": 538,
+          "end": 539,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.9682397842407227,
+          "start": 539,
+          "end": 554,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "458712369",
+          "actual_text": "458712369",
+          "confidence": 0.7158318758010864,
+          "start": 701,
+          "end": 710,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 5,
+    "entities": [
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8185099363327026,
+        "word": " E",
+        "start": 443,
+        "end": 444,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7817062139511108,
+        "word": "-",
+        "start": 444,
+        "end": 445,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7602043151855469,
+        "word": "78",
+        "start": 445,
+        "end": 447,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8383843302726746,
+        "word": " +34 91 876 54 32",
+        "start": 538,
+        "end": 554,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.7776057124137878,
+        "word": " B",
+        "start": 699,
+        "end": 700,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 5,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NUMERO_TELEFONO": 4,
+        "NUMERO_IDENTIF": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 3,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " E",
+          "actual_text": "E",
+          "confidence": 0.8185099363327026,
+          "start": 443,
+          "end": 444,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.7817062139511108,
+          "start": 444,
+          "end": 445,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "78",
+          "actual_text": "78",
+          "confidence": 0.7602043151855469,
+          "start": 445,
+          "end": 447,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +34 91 876 54 32",
+          "actual_text": "+34 91 876 54 32",
+          "confidence": 0.8383843302726746,
+          "start": 538,
+          "end": 554,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.7776057124137878,
+          "start": 699,
+          "end": 700,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " E",
+          "actual_text": "E",
+          "confidence": 0.8185099363327026,
+          "start": 443,
+          "end": 444,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.7817062139511108,
+          "start": 444,
+          "end": 445,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "78",
+          "actual_text": "78",
+          "confidence": 0.7602043151855469,
+          "start": 445,
+          "end": 447,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +34 91 876 54 32",
+          "actual_text": "+34 91 876 54 32",
+          "confidence": 0.8383843302726746,
+          "start": 538,
+          "end": 554,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.7776057124137878,
+          "start": 699,
+          "end": 700,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 11,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "ID_SUJETO_ASISTENCIA": 4,
+      "NUMERO_TELEFONO": 6,
+      "NUMERO_IDENTIF": 1
+    },
+    "entities_by_confidence": {
+      "high": 6,
+      "medium": 5,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "98",
+        "actual_text": "98",
+        "confidence": 0.9192076325416565,
+        "start": 213,
+        "end": 215,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "98",
+        "actual_text": "98",
+        "confidence": 0.7295952439308167,
+        "start": 289,
+        "end": 291,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "78",
+        "actual_text": "78",
+        "confidence": 0.882606029510498,
+        "start": 445,
+        "end": 447,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9860929846763611,
+        "start": 538,
+        "end": 539,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.9682397842407227,
+        "start": 539,
+        "end": 554,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "458712369",
+        "actual_text": "458712369",
+        "confidence": 0.7158318758010864,
+        "start": 701,
+        "end": 710,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " E",
+        "actual_text": "E",
+        "confidence": 0.8185099363327026,
+        "start": 443,
+        "end": 444,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.7817062139511108,
+        "start": 444,
+        "end": 445,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "78",
+        "actual_text": "78",
+        "confidence": 0.7602043151855469,
+        "start": 445,
+        "end": 447,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +34 91 876 54 32",
+        "actual_text": "+34 91 876 54 32",
+        "confidence": 0.8383843302726746,
+        "start": 538,
+        "end": 554,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.7776057124137878,
+        "start": 699,
+        "end": 700,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "98",
+        "actual_text": "98",
+        "confidence": 0.9192076325416565,
+        "start": 213,
+        "end": 215,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "98",
+        "actual_text": "98",
+        "confidence": 0.7295952439308167,
+        "start": 289,
+        "end": 291,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "78",
+        "actual_text": "78",
+        "confidence": 0.882606029510498,
+        "start": 445,
+        "end": 447,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9860929846763611,
+        "start": 538,
+        "end": 539,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.9682397842407227,
+        "start": 539,
+        "end": 554,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "458712369",
+        "actual_text": "458712369",
+        "confidence": 0.7158318758010864,
+        "start": 701,
+        "end": 710,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " E",
+        "actual_text": "E",
+        "confidence": 0.8185099363327026,
+        "start": 443,
+        "end": 444,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.7817062139511108,
+        "start": 444,
+        "end": 445,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "78",
+        "actual_text": "78",
+        "confidence": 0.7602043151855469,
+        "start": 445,
+        "end": 447,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +34 91 876 54 32",
+        "actual_text": "+34 91 876 54 32",
+        "confidence": 0.8383843302726746,
+        "start": 538,
+        "end": 554,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.7776057124137878,
+        "start": 699,
+        "end": 700,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 11,
+    "suspicious_detections": 11,
+    "xxxxxx_detections": 0,
+    "other_detections": 11
+  },
+  "high_confidence_check": {
+    "should_delete": false,
+    "high_confidence_entities": [],
+    "count": 0
+  }
+}

@@ -1,0 +1,744 @@
+{
+  "document_id": "00bd7258-533d-47d5-bcd7-f4d008a106ea",
+  "success": true,
+  "anonymized_text": "En la valoración clínica realizada en el Centro de Salud Los Álamos, se documenta que la paciente María Fernández López presenta una evolución favorable del cuadro agudo manejado previamente. La exploración física actual muestra ruidos respiratorios conservados sin sibilancias ni crepitantes, y la auscultación cardíaca es rítmica sin soplos. Los resultados analíticos recientes reflejan un hemograma dentro de parámetros normales y una bioquímica sin alteraciones significativas. Se procedió a la verificación del equipo de monitorización doméstica, cuyo 1234 BCD funciona dentro de los parámetros técnicos especificados. Se recomienda a los mantener la supervisión del cumplimiento terapéutico y de la técnica inhalatoria. Para cualquier gestión administrativa o envío de documentación, queda a disposición el +34 91 876 54 32. Como complemento a la información proporcionada durante la consulta, se sugiere consultar los recursos educativos disponibles en la https://www.clinicabarcelona.es donde se encuentra material actualizado sobre el manejo de la condición. Finalmente, se registra el SN-98237641 correspondiente al transporte medicalizado utilizado para el desplazamiento al centro. Se mantendrá seguimiento ambulatorio según la planificación establecida.",
+  "text_length": 1266,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 7,
+    "entities": [
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.9906099438667297,
+        "word": " Centro de Salud Los Álamos",
+        "start": 41,
+        "end": 67,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NOMBRE_SUJETO_ASISTENCIA",
+        "score": 0.9250823259353638,
+        "word": " Fernández López",
+        "start": 104,
+        "end": 119,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9168209433555603,
+        "word": " +",
+        "start": 813,
+        "end": 814,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9843714237213135,
+        "word": "34 91 876 54 32",
+        "start": 814,
+        "end": 829,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.7466238141059875,
+        "word": "clinicab",
+        "start": 975,
+        "end": 983,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.7004265785217285,
+        "word": "arcelona.es",
+        "start": 983,
+        "end": 994,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.9024107456207275,
+        "word": "98",
+        "start": 1098,
+        "end": 1100,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 7,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CENTRO_SALUD": 1,
+        "NOMBRE_SUJETO_ASISTENCIA": 1,
+        "NUMERO_TELEFONO": 2,
+        "INSTITUCION": 1,
+        "CORREO_ELECTRONICO": 1,
+        "ID_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 5,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9906099438667297,
+          "start": 41,
+          "end": 67,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_SUJETO_ASISTENCIA",
+          "word": " Fernández López",
+          "actual_text": "Fernández López",
+          "confidence": 0.9250823259353638,
+          "start": 104,
+          "end": 119,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9168209433555603,
+          "start": 813,
+          "end": 814,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.9843714237213135,
+          "start": 814,
+          "end": 829,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "INSTITUCION",
+          "word": "clinicab",
+          "actual_text": "clinicab",
+          "confidence": 0.7466238141059875,
+          "start": 975,
+          "end": 983,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "arcelona.es",
+          "actual_text": "arcelona.es",
+          "confidence": 0.7004265785217285,
+          "start": 983,
+          "end": 994,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "98",
+          "actual_text": "98",
+          "confidence": 0.9024107456207275,
+          "start": 1098,
+          "end": 1100,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9906099438667297,
+          "start": 41,
+          "end": 67,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_SUJETO_ASISTENCIA",
+          "word": " Fernández López",
+          "actual_text": "Fernández López",
+          "confidence": 0.9250823259353638,
+          "start": 104,
+          "end": 119,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9168209433555603,
+          "start": 813,
+          "end": 814,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.9843714237213135,
+          "start": 814,
+          "end": 829,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "INSTITUCION",
+          "word": "clinicab",
+          "actual_text": "clinicab",
+          "confidence": 0.7466238141059875,
+          "start": 975,
+          "end": 983,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "arcelona.es",
+          "actual_text": "arcelona.es",
+          "confidence": 0.7004265785217285,
+          "start": 983,
+          "end": 994,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "98",
+          "actual_text": "98",
+          "confidence": 0.9024107456207275,
+          "start": 1098,
+          "end": 1100,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 7,
+    "entities": [
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.9994380474090576,
+        "word": " Centro de Salud Los Álamos",
+        "start": 41,
+        "end": 67,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.9852163195610046,
+        "word": " María Fernández López",
+        "start": 98,
+        "end": 119,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9965623021125793,
+        "word": " +",
+        "start": 813,
+        "end": 814,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8532602190971375,
+        "word": "34 91 876 54 32",
+        "start": 814,
+        "end": 829,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9830617904663086,
+        "word": " SN",
+        "start": 1095,
+        "end": 1097,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7258694171905518,
+        "word": "-",
+        "start": 1097,
+        "end": 1098,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8257645964622498,
+        "word": "98237641",
+        "start": 1098,
+        "end": 1106,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 7,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CENTRO_SALUD": 2,
+        "NUMERO_TELEFONO": 5
+      },
+      "entities_by_confidence": {
+        "high": 6,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9994380474090576,
+          "start": 41,
+          "end": 67,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " María Fernández López",
+          "actual_text": "María Fernández López",
+          "confidence": 0.9852163195610046,
+          "start": 98,
+          "end": 119,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9965623021125793,
+          "start": 813,
+          "end": 814,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.8532602190971375,
+          "start": 814,
+          "end": 829,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " SN",
+          "actual_text": "SN",
+          "confidence": 0.9830617904663086,
+          "start": 1095,
+          "end": 1097,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.7258694171905518,
+          "start": 1097,
+          "end": 1098,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "98237641",
+          "actual_text": "98237641",
+          "confidence": 0.8257645964622498,
+          "start": 1098,
+          "end": 1106,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9994380474090576,
+          "start": 41,
+          "end": 67,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CENTRO_SALUD",
+          "word": " María Fernández López",
+          "actual_text": "María Fernández López",
+          "confidence": 0.9852163195610046,
+          "start": 98,
+          "end": 119,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9965623021125793,
+          "start": 813,
+          "end": 814,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.8532602190971375,
+          "start": 814,
+          "end": 829,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " SN",
+          "actual_text": "SN",
+          "confidence": 0.9830617904663086,
+          "start": 1095,
+          "end": 1097,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "-",
+          "actual_text": "-",
+          "confidence": 0.7258694171905518,
+          "start": 1097,
+          "end": 1098,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "98237641",
+          "actual_text": "98237641",
+          "confidence": 0.8257645964622498,
+          "start": 1098,
+          "end": 1106,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 14,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CENTRO_SALUD": 3,
+      "NOMBRE_SUJETO_ASISTENCIA": 1,
+      "NUMERO_TELEFONO": 7,
+      "INSTITUCION": 1,
+      "CORREO_ELECTRONICO": 1,
+      "ID_SUJETO_ASISTENCIA": 1
+    },
+    "entities_by_confidence": {
+      "high": 11,
+      "medium": 3,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9906099438667297,
+        "start": 41,
+        "end": 67,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_SUJETO_ASISTENCIA",
+        "word": " Fernández López",
+        "actual_text": "Fernández López",
+        "confidence": 0.9250823259353638,
+        "start": 104,
+        "end": 119,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9168209433555603,
+        "start": 813,
+        "end": 814,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.9843714237213135,
+        "start": 814,
+        "end": 829,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "INSTITUCION",
+        "word": "clinicab",
+        "actual_text": "clinicab",
+        "confidence": 0.7466238141059875,
+        "start": 975,
+        "end": 983,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "arcelona.es",
+        "actual_text": "arcelona.es",
+        "confidence": 0.7004265785217285,
+        "start": 983,
+        "end": 994,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "98",
+        "actual_text": "98",
+        "confidence": 0.9024107456207275,
+        "start": 1098,
+        "end": 1100,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9994380474090576,
+        "start": 41,
+        "end": 67,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " María Fernández López",
+        "actual_text": "María Fernández López",
+        "confidence": 0.9852163195610046,
+        "start": 98,
+        "end": 119,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9965623021125793,
+        "start": 813,
+        "end": 814,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.8532602190971375,
+        "start": 814,
+        "end": 829,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " SN",
+        "actual_text": "SN",
+        "confidence": 0.9830617904663086,
+        "start": 1095,
+        "end": 1097,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.7258694171905518,
+        "start": 1097,
+        "end": 1098,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "98237641",
+        "actual_text": "98237641",
+        "confidence": 0.8257645964622498,
+        "start": 1098,
+        "end": 1106,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9906099438667297,
+        "start": 41,
+        "end": 67,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_SUJETO_ASISTENCIA",
+        "word": " Fernández López",
+        "actual_text": "Fernández López",
+        "confidence": 0.9250823259353638,
+        "start": 104,
+        "end": 119,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9168209433555603,
+        "start": 813,
+        "end": 814,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.9843714237213135,
+        "start": 814,
+        "end": 829,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "INSTITUCION",
+        "word": "clinicab",
+        "actual_text": "clinicab",
+        "confidence": 0.7466238141059875,
+        "start": 975,
+        "end": 983,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "arcelona.es",
+        "actual_text": "arcelona.es",
+        "confidence": 0.7004265785217285,
+        "start": 983,
+        "end": 994,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "98",
+        "actual_text": "98",
+        "confidence": 0.9024107456207275,
+        "start": 1098,
+        "end": 1100,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9994380474090576,
+        "start": 41,
+        "end": 67,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " María Fernández López",
+        "actual_text": "María Fernández López",
+        "confidence": 0.9852163195610046,
+        "start": 98,
+        "end": 119,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9965623021125793,
+        "start": 813,
+        "end": 814,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.8532602190971375,
+        "start": 814,
+        "end": 829,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " SN",
+        "actual_text": "SN",
+        "confidence": 0.9830617904663086,
+        "start": 1095,
+        "end": 1097,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "-",
+        "actual_text": "-",
+        "confidence": 0.7258694171905518,
+        "start": 1097,
+        "end": 1098,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "98237641",
+        "actual_text": "98237641",
+        "confidence": 0.8257645964622498,
+        "start": 1098,
+        "end": 1106,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 14,
+    "suspicious_detections": 14,
+    "xxxxxx_detections": 0,
+    "other_detections": 14
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "CENTRO_SALUD",
+        "text": " Centro de Salud Los Álamos",
+        "confidence": 0.9906099438667297,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "text": " Centro de Salud Los Álamos",
+        "confidence": 0.9994380474090576,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " +",
+        "confidence": 0.9965623021125793,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 3
+  }
+}

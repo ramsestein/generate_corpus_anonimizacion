@@ -1,0 +1,1508 @@
+{
+  "document_id": "009d2053-4bba-49ef-ae60-5ef67cd43e30",
+  "success": true,
+  "anonymized_text": "**Nota de Evolución - Hospitalización** A fecha de 12 de julio de 2023, se procede a la reevaluación del paciente en planta de hospitalización. La situación clínica se mantiene estable, con mejoría progresiva de los parámetros analíticos. Se ha establecido contacto con el servicio de farmacia para la gestión de un fármaco de uso compasivo, facilitando el número de teléfono 612-345-678 para agilizar la logística. Asimismo, se ha remitido la documentación pertinente al departamento de gestión interna vía fax al +34 91 876 54 32. Respecto a la identificación biométrica, se ha registrado la huella dactilar del pulgar derecho en el sistema para la firma electrónica de consentimientos. El dispositivo médico de monitorización continua en uso, con número de serie B123456789, funciona dentro de los parámetros establecidos. Para la consulta de pruebas complementarias, se puede acceder al portal del paciente mediante el siguiente enlace: https://historiaclinica.hospitalregional.es/paciente/area-segura. El cuadro se maneja en coordinación con el Hospital Clínico San Carlos, donde el paciente tiene registrado el número de beneficiario de plan de salud 46 200984 12 9. En su historial figura también el identificador de aseguramiento B-45872316. El equipo a cargo tiene acceso a la historia clínica digital complementaria a través de https://historiaclinica.hgugm.es/paciente/AB123CD para una valoración integral. El procedimiento de alta se planificará de manera ambulatoria, con seguimiento en el domicilio particular situado en la Avenida de la Constitución 12. El médico adjunto responsable de la emisión del informe de alta, cuyo identificador de empleo del personal sanitario es E-459-23 y cuya titulación acredita un Grado en Medicina, ha quedado registrado. Toda la documentación clínica queda archivada bajo el número de serie SN-98273645 y es accesible para el cuerpo facultativo en la plataforma central: https://historiaclinica.hospitalcentral.es/paciente/ZXC456TYU.",
+  "text_length": 1982,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 15,
+    "entities": [
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9983310103416443,
+        "word": " 12 de julio de 2023",
+        "start": 51,
+        "end": 70,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9945478439331055,
+        "word": " 612-345-678",
+        "start": 376,
+        "end": 387,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9610622525215149,
+        "word": " +",
+        "start": 515,
+        "end": 516,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9869479537010193,
+        "word": "34 91 876 54 32",
+        "start": 516,
+        "end": 531,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.8686950206756592,
+        "word": "aclinica.hospitalregional.es",
+        "start": 956,
+        "end": 984,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9984568357467651,
+        "word": " Hospital Clínico San Carlos",
+        "start": 1050,
+        "end": 1077,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7742471694946289,
+        "word": " plan de salud 46",
+        "start": 1143,
+        "end": 1159,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7150089144706726,
+        "word": "-45872316",
+        "start": 1239,
+        "end": 1248,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9442214965820312,
+        "word": "linica.hgugm.es",
+        "start": 1355,
+        "end": 1370,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9904572367668152,
+        "word": " Avenida de la Constitución 12",
+        "start": 1538,
+        "end": 1567,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.7355455756187439,
+        "word": "central",
+        "start": 1952,
+        "end": 1959,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.8749542236328125,
+        "word": ".",
+        "start": 1959,
+        "end": 1960,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7985345721244812,
+        "word": "-",
+        "start": 374,
+        "end": 375,
+        "chunk_id": 1,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.9108204245567322,
+        "word": "98273645",
+        "start": 375,
+        "end": 383,
+        "chunk_id": 1,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9291545152664185,
+        "word": "aclinica.hospitalcentral.es",
+        "start": 467,
+        "end": 494,
+        "chunk_id": 1,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 15,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FECHAS": 1,
+        "NUMERO_TELEFONO": 3,
+        "CORREO_ELECTRONICO": 4,
+        "HOSPITAL": 1,
+        "OTROS_SUJETO_ASISTENCIA": 2,
+        "CALLE": 1,
+        "INSTITUCION": 1,
+        "ID_SUJETO_ASISTENCIA": 2
+      },
+      "entities_by_confidence": {
+        "high": 11,
+        "medium": 4,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9983310103416443,
+          "start": 51,
+          "end": 70,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 612-345-678",
+          "actual_text": "612-345-678",
+          "confidence": 0.9945478439331055,
+          "start": 376,
+          "end": 387,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9610622525215149,
+          "start": 515,
+          "end": 516,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.9869479537010193,
+          "start": 516,
+          "end": 531,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "aclinica.hospitalregional.es",
+          "actual_text": "aclinica.hospitalregional.es",
+          "confidence": 0.8686950206756592,
+          "start": 956,
+          "end": 984,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Hospital Clínico San Carlos",
+          "actual_text": "Hospital Clínico San Carlos",
+          "confidence": 0.9984568357467651,
+          "start": 1050,
+          "end": 1077,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de salud 46",
+          "actual_text": "plan de salud 46",
+          "confidence": 0.7742471694946289,
+          "start": 1143,
+          "end": 1159,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "-45872316",
+          "actual_text": "-45872316",
+          "confidence": 0.7150089144706726,
+          "start": 1239,
+          "end": 1248,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "linica.hgugm.es",
+          "actual_text": "linica.hgugm.es",
+          "confidence": 0.9442214965820312,
+          "start": 1355,
+          "end": 1370,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Avenida de la Constitución 12",
+          "actual_text": "Avenida de la Constitución 12",
+          "confidence": 0.9904572367668152,
+          "start": 1538,
+          "end": 1567,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "INSTITUCION",
+          "word": "central",
+          "actual_text": "central",
+          "confidence": 0.7355455756187439,
+          "start": 1952,
+          "end": 1959,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": ".",
+          "actual_text": ".",
+          "confidence": 0.8749542236328125,
+          "start": 1959,
+          "end": 1960,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-",
+          "actual_text": "o",
+          "confidence": 0.7985345721244812,
+          "start": 374,
+          "end": 375,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "98273645",
+          "actual_text": " 612-345",
+          "confidence": 0.9108204245567322,
+          "start": 375,
+          "end": 383,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "aclinica.hospitalcentral.es",
+          "actual_text": "e al departamento de gestió",
+          "confidence": 0.9291545152664185,
+          "start": 467,
+          "end": 494,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9983310103416443,
+          "start": 51,
+          "end": 70,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 612-345-678",
+          "actual_text": "612-345-678",
+          "confidence": 0.9945478439331055,
+          "start": 376,
+          "end": 387,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9610622525215149,
+          "start": 515,
+          "end": 516,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.9869479537010193,
+          "start": 516,
+          "end": 531,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "aclinica.hospitalregional.es",
+          "actual_text": "aclinica.hospitalregional.es",
+          "confidence": 0.8686950206756592,
+          "start": 956,
+          "end": 984,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Hospital Clínico San Carlos",
+          "actual_text": "Hospital Clínico San Carlos",
+          "confidence": 0.9984568357467651,
+          "start": 1050,
+          "end": 1077,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " plan de salud 46",
+          "actual_text": "plan de salud 46",
+          "confidence": 0.7742471694946289,
+          "start": 1143,
+          "end": 1159,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "-45872316",
+          "actual_text": "-45872316",
+          "confidence": 0.7150089144706726,
+          "start": 1239,
+          "end": 1248,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "linica.hgugm.es",
+          "actual_text": "linica.hgugm.es",
+          "confidence": 0.9442214965820312,
+          "start": 1355,
+          "end": 1370,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Avenida de la Constitución 12",
+          "actual_text": "Avenida de la Constitución 12",
+          "confidence": 0.9904572367668152,
+          "start": 1538,
+          "end": 1567,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "INSTITUCION",
+          "word": "central",
+          "actual_text": "central",
+          "confidence": 0.7355455756187439,
+          "start": 1952,
+          "end": 1959,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": ".",
+          "actual_text": ".",
+          "confidence": 0.8749542236328125,
+          "start": 1959,
+          "end": 1960,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-",
+          "actual_text": "o",
+          "confidence": 0.7985345721244812,
+          "start": 374,
+          "end": 375,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "98273645",
+          "actual_text": " 612-345",
+          "confidence": 0.9108204245567322,
+          "start": 375,
+          "end": 383,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "aclinica.hospitalcentral.es",
+          "actual_text": "e al departamento de gestió",
+          "confidence": 0.9291545152664185,
+          "start": 467,
+          "end": 494,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 15,
+    "entities": [
+      {
+        "entity_group": "FECHAS",
+        "score": 0.9998696446418762,
+        "word": " 12 de julio de 2023",
+        "start": 51,
+        "end": 70,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7707298994064331,
+        "word": " 612-345-678",
+        "start": 376,
+        "end": 387,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9963845014572144,
+        "word": " +",
+        "start": 515,
+        "end": 516,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8281355500221252,
+        "word": "34 91 876 54 32",
+        "start": 516,
+        "end": 531,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9915446043014526,
+        "word": " B",
+        "start": 766,
+        "end": 767,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.8248626589775085,
+        "word": "toriaclinica.hospitalregional.es/",
+        "start": 952,
+        "end": 985,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "HOSPITAL",
+        "score": 0.9997321963310242,
+        "word": " Hospital Clínico San Carlos",
+        "start": 1050,
+        "end": 1077,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.985431432723999,
+        "word": " B",
+        "start": 1238,
+        "end": 1239,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.7987406849861145,
+        "word": "toriaclinica.hgugm.es/paciente",
+        "start": 1349,
+        "end": 1379,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9977809190750122,
+        "word": " Avenida de la Constitución 12",
+        "start": 1538,
+        "end": 1567,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8549036383628845,
+        "word": " E",
+        "start": 1689,
+        "end": 1690,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9581676125526428,
+        "word": "Z",
+        "start": 1972,
+        "end": 1973,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9205359220504761,
+        "word": " SN",
+        "start": 372,
+        "end": 374,
+        "chunk_id": 1,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.8202124238014221,
+        "word": "toriaclinica.hospitalcentral.es/paciente/",
+        "start": 463,
+        "end": 504,
+        "chunk_id": 1,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7531804442405701,
+        "word": "Z",
+        "start": 504,
+        "end": 505,
+        "chunk_id": 1,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 15,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "FECHAS": 1,
+        "NUMERO_TELEFONO": 9,
+        "URL_WEB": 3,
+        "HOSPITAL": 1,
+        "CALLE": 1
+      },
+      "entities_by_confidence": {
+        "high": 12,
+        "medium": 3,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9998696446418762,
+          "start": 51,
+          "end": 70,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 612-345-678",
+          "actual_text": "612-345-678",
+          "confidence": 0.7707298994064331,
+          "start": 376,
+          "end": 387,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9963845014572144,
+          "start": 515,
+          "end": 516,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.8281355500221252,
+          "start": 516,
+          "end": 531,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.9915446043014526,
+          "start": 766,
+          "end": 767,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "toriaclinica.hospitalregional.es/",
+          "actual_text": "toriaclinica.hospitalregional.es/",
+          "confidence": 0.8248626589775085,
+          "start": 952,
+          "end": 985,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Hospital Clínico San Carlos",
+          "actual_text": "Hospital Clínico San Carlos",
+          "confidence": 0.9997321963310242,
+          "start": 1050,
+          "end": 1077,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.985431432723999,
+          "start": 1238,
+          "end": 1239,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "toriaclinica.hgugm.es/paciente",
+          "actual_text": "toriaclinica.hgugm.es/paciente",
+          "confidence": 0.7987406849861145,
+          "start": 1349,
+          "end": 1379,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Avenida de la Constitución 12",
+          "actual_text": "Avenida de la Constitución 12",
+          "confidence": 0.9977809190750122,
+          "start": 1538,
+          "end": 1567,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " E",
+          "actual_text": "E",
+          "confidence": 0.8549036383628845,
+          "start": 1689,
+          "end": 1690,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "Z",
+          "actual_text": "Z",
+          "confidence": 0.9581676125526428,
+          "start": 1972,
+          "end": 1973,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " SN",
+          "actual_text": "on",
+          "confidence": 0.9205359220504761,
+          "start": 372,
+          "end": 374,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "toriaclinica.hospitalcentral.es/paciente/",
+          "actual_text": "nente al departamento de gestión interna ",
+          "confidence": 0.8202124238014221,
+          "start": 463,
+          "end": 504,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "Z",
+          "actual_text": "v",
+          "confidence": 0.7531804442405701,
+          "start": 504,
+          "end": 505,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "FECHAS",
+          "word": " 12 de julio de 2023",
+          "actual_text": "12 de julio de 2023",
+          "confidence": 0.9998696446418762,
+          "start": 51,
+          "end": 70,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 612-345-678",
+          "actual_text": "612-345-678",
+          "confidence": 0.7707298994064331,
+          "start": 376,
+          "end": 387,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " +",
+          "actual_text": "+",
+          "confidence": 0.9963845014572144,
+          "start": 515,
+          "end": 516,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "34 91 876 54 32",
+          "actual_text": "34 91 876 54 32",
+          "confidence": 0.8281355500221252,
+          "start": 516,
+          "end": 531,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.9915446043014526,
+          "start": 766,
+          "end": 767,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "toriaclinica.hospitalregional.es/",
+          "actual_text": "toriaclinica.hospitalregional.es/",
+          "confidence": 0.8248626589775085,
+          "start": 952,
+          "end": 985,
+          "model": "CARMEN"
+        },
+        {
+          "label": "HOSPITAL",
+          "word": " Hospital Clínico San Carlos",
+          "actual_text": "Hospital Clínico San Carlos",
+          "confidence": 0.9997321963310242,
+          "start": 1050,
+          "end": 1077,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.985431432723999,
+          "start": 1238,
+          "end": 1239,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "toriaclinica.hgugm.es/paciente",
+          "actual_text": "toriaclinica.hgugm.es/paciente",
+          "confidence": 0.7987406849861145,
+          "start": 1349,
+          "end": 1379,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Avenida de la Constitución 12",
+          "actual_text": "Avenida de la Constitución 12",
+          "confidence": 0.9977809190750122,
+          "start": 1538,
+          "end": 1567,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " E",
+          "actual_text": "E",
+          "confidence": 0.8549036383628845,
+          "start": 1689,
+          "end": 1690,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "Z",
+          "actual_text": "Z",
+          "confidence": 0.9581676125526428,
+          "start": 1972,
+          "end": 1973,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " SN",
+          "actual_text": "on",
+          "confidence": 0.9205359220504761,
+          "start": 372,
+          "end": 374,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "toriaclinica.hospitalcentral.es/paciente/",
+          "actual_text": "nente al departamento de gestión interna ",
+          "confidence": 0.8202124238014221,
+          "start": 463,
+          "end": 504,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "Z",
+          "actual_text": "v",
+          "confidence": 0.7531804442405701,
+          "start": 504,
+          "end": 505,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 30,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "FECHAS": 2,
+      "NUMERO_TELEFONO": 12,
+      "CORREO_ELECTRONICO": 4,
+      "HOSPITAL": 2,
+      "OTROS_SUJETO_ASISTENCIA": 2,
+      "CALLE": 2,
+      "INSTITUCION": 1,
+      "ID_SUJETO_ASISTENCIA": 2,
+      "URL_WEB": 3
+    },
+    "entities_by_confidence": {
+      "high": 23,
+      "medium": 7,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9983310103416443,
+        "start": 51,
+        "end": 70,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 612-345-678",
+        "actual_text": "612-345-678",
+        "confidence": 0.9945478439331055,
+        "start": 376,
+        "end": 387,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9610622525215149,
+        "start": 515,
+        "end": 516,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.9869479537010193,
+        "start": 516,
+        "end": 531,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "aclinica.hospitalregional.es",
+        "actual_text": "aclinica.hospitalregional.es",
+        "confidence": 0.8686950206756592,
+        "start": 956,
+        "end": 984,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Hospital Clínico San Carlos",
+        "actual_text": "Hospital Clínico San Carlos",
+        "confidence": 0.9984568357467651,
+        "start": 1050,
+        "end": 1077,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de salud 46",
+        "actual_text": "plan de salud 46",
+        "confidence": 0.7742471694946289,
+        "start": 1143,
+        "end": 1159,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "-45872316",
+        "actual_text": "-45872316",
+        "confidence": 0.7150089144706726,
+        "start": 1239,
+        "end": 1248,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "linica.hgugm.es",
+        "actual_text": "linica.hgugm.es",
+        "confidence": 0.9442214965820312,
+        "start": 1355,
+        "end": 1370,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Avenida de la Constitución 12",
+        "actual_text": "Avenida de la Constitución 12",
+        "confidence": 0.9904572367668152,
+        "start": 1538,
+        "end": 1567,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "INSTITUCION",
+        "word": "central",
+        "actual_text": "central",
+        "confidence": 0.7355455756187439,
+        "start": 1952,
+        "end": 1959,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": ".",
+        "actual_text": ".",
+        "confidence": 0.8749542236328125,
+        "start": 1959,
+        "end": 1960,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-",
+        "actual_text": "o",
+        "confidence": 0.7985345721244812,
+        "start": 374,
+        "end": 375,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "98273645",
+        "actual_text": " 612-345",
+        "confidence": 0.9108204245567322,
+        "start": 375,
+        "end": 383,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "aclinica.hospitalcentral.es",
+        "actual_text": "e al departamento de gestió",
+        "confidence": 0.9291545152664185,
+        "start": 467,
+        "end": 494,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9998696446418762,
+        "start": 51,
+        "end": 70,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 612-345-678",
+        "actual_text": "612-345-678",
+        "confidence": 0.7707298994064331,
+        "start": 376,
+        "end": 387,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9963845014572144,
+        "start": 515,
+        "end": 516,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.8281355500221252,
+        "start": 516,
+        "end": 531,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.9915446043014526,
+        "start": 766,
+        "end": 767,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "toriaclinica.hospitalregional.es/",
+        "actual_text": "toriaclinica.hospitalregional.es/",
+        "confidence": 0.8248626589775085,
+        "start": 952,
+        "end": 985,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Hospital Clínico San Carlos",
+        "actual_text": "Hospital Clínico San Carlos",
+        "confidence": 0.9997321963310242,
+        "start": 1050,
+        "end": 1077,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.985431432723999,
+        "start": 1238,
+        "end": 1239,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "toriaclinica.hgugm.es/paciente",
+        "actual_text": "toriaclinica.hgugm.es/paciente",
+        "confidence": 0.7987406849861145,
+        "start": 1349,
+        "end": 1379,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Avenida de la Constitución 12",
+        "actual_text": "Avenida de la Constitución 12",
+        "confidence": 0.9977809190750122,
+        "start": 1538,
+        "end": 1567,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " E",
+        "actual_text": "E",
+        "confidence": 0.8549036383628845,
+        "start": 1689,
+        "end": 1690,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "Z",
+        "actual_text": "Z",
+        "confidence": 0.9581676125526428,
+        "start": 1972,
+        "end": 1973,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " SN",
+        "actual_text": "on",
+        "confidence": 0.9205359220504761,
+        "start": 372,
+        "end": 374,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "toriaclinica.hospitalcentral.es/paciente/",
+        "actual_text": "nente al departamento de gestión interna ",
+        "confidence": 0.8202124238014221,
+        "start": 463,
+        "end": 504,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "Z",
+        "actual_text": "v",
+        "confidence": 0.7531804442405701,
+        "start": 504,
+        "end": 505,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9983310103416443,
+        "start": 51,
+        "end": 70,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 612-345-678",
+        "actual_text": "612-345-678",
+        "confidence": 0.9945478439331055,
+        "start": 376,
+        "end": 387,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9610622525215149,
+        "start": 515,
+        "end": 516,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.9869479537010193,
+        "start": 516,
+        "end": 531,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "aclinica.hospitalregional.es",
+        "actual_text": "aclinica.hospitalregional.es",
+        "confidence": 0.8686950206756592,
+        "start": 956,
+        "end": 984,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Hospital Clínico San Carlos",
+        "actual_text": "Hospital Clínico San Carlos",
+        "confidence": 0.9984568357467651,
+        "start": 1050,
+        "end": 1077,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " plan de salud 46",
+        "actual_text": "plan de salud 46",
+        "confidence": 0.7742471694946289,
+        "start": 1143,
+        "end": 1159,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "-45872316",
+        "actual_text": "-45872316",
+        "confidence": 0.7150089144706726,
+        "start": 1239,
+        "end": 1248,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "linica.hgugm.es",
+        "actual_text": "linica.hgugm.es",
+        "confidence": 0.9442214965820312,
+        "start": 1355,
+        "end": 1370,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Avenida de la Constitución 12",
+        "actual_text": "Avenida de la Constitución 12",
+        "confidence": 0.9904572367668152,
+        "start": 1538,
+        "end": 1567,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "INSTITUCION",
+        "word": "central",
+        "actual_text": "central",
+        "confidence": 0.7355455756187439,
+        "start": 1952,
+        "end": 1959,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": ".",
+        "actual_text": ".",
+        "confidence": 0.8749542236328125,
+        "start": 1959,
+        "end": 1960,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-",
+        "actual_text": "o",
+        "confidence": 0.7985345721244812,
+        "start": 374,
+        "end": 375,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "98273645",
+        "actual_text": " 612-345",
+        "confidence": 0.9108204245567322,
+        "start": 375,
+        "end": 383,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "aclinica.hospitalcentral.es",
+        "actual_text": "e al departamento de gestió",
+        "confidence": 0.9291545152664185,
+        "start": 467,
+        "end": 494,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "word": " 12 de julio de 2023",
+        "actual_text": "12 de julio de 2023",
+        "confidence": 0.9998696446418762,
+        "start": 51,
+        "end": 70,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 612-345-678",
+        "actual_text": "612-345-678",
+        "confidence": 0.7707298994064331,
+        "start": 376,
+        "end": 387,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " +",
+        "actual_text": "+",
+        "confidence": 0.9963845014572144,
+        "start": 515,
+        "end": 516,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "34 91 876 54 32",
+        "actual_text": "34 91 876 54 32",
+        "confidence": 0.8281355500221252,
+        "start": 516,
+        "end": 531,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.9915446043014526,
+        "start": 766,
+        "end": 767,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "toriaclinica.hospitalregional.es/",
+        "actual_text": "toriaclinica.hospitalregional.es/",
+        "confidence": 0.8248626589775085,
+        "start": 952,
+        "end": 985,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "word": " Hospital Clínico San Carlos",
+        "actual_text": "Hospital Clínico San Carlos",
+        "confidence": 0.9997321963310242,
+        "start": 1050,
+        "end": 1077,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.985431432723999,
+        "start": 1238,
+        "end": 1239,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "toriaclinica.hgugm.es/paciente",
+        "actual_text": "toriaclinica.hgugm.es/paciente",
+        "confidence": 0.7987406849861145,
+        "start": 1349,
+        "end": 1379,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Avenida de la Constitución 12",
+        "actual_text": "Avenida de la Constitución 12",
+        "confidence": 0.9977809190750122,
+        "start": 1538,
+        "end": 1567,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " E",
+        "actual_text": "E",
+        "confidence": 0.8549036383628845,
+        "start": 1689,
+        "end": 1690,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "Z",
+        "actual_text": "Z",
+        "confidence": 0.9581676125526428,
+        "start": 1972,
+        "end": 1973,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " SN",
+        "actual_text": "on",
+        "confidence": 0.9205359220504761,
+        "start": 372,
+        "end": 374,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "toriaclinica.hospitalcentral.es/paciente/",
+        "actual_text": "nente al departamento de gestión interna ",
+        "confidence": 0.8202124238014221,
+        "start": 463,
+        "end": 504,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "Z",
+        "actual_text": "v",
+        "confidence": 0.7531804442405701,
+        "start": 504,
+        "end": 505,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 30,
+    "suspicious_detections": 30,
+    "xxxxxx_detections": 0,
+    "other_detections": 30
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "FECHAS",
+        "text": " 12 de julio de 2023",
+        "confidence": 0.9983310103416443,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " 612-345-678",
+        "confidence": 0.9945478439331055,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "HOSPITAL",
+        "text": " Hospital Clínico San Carlos",
+        "confidence": 0.9984568357467651,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "text": " Avenida de la Constitución 12",
+        "confidence": 0.9904572367668152,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "FECHAS",
+        "text": " 12 de julio de 2023",
+        "confidence": 0.9998696446418762,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " +",
+        "confidence": 0.9963845014572144,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " B",
+        "confidence": 0.9915446043014526,
+        "model": "CARMEN"
+      },
+      {
+        "label": "HOSPITAL",
+        "text": " Hospital Clínico San Carlos",
+        "confidence": 0.9997321963310242,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "text": " Avenida de la Constitución 12",
+        "confidence": 0.9977809190750122,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 9
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "document_id": "00eba044-6fff-4e32-8222-36f9003f5bba",
+  "success": true,
+  "anonymized_text": "Durante la valoración clínica realizada en el Centro de Salud Los Álamos, se documenta un cuadro de evolución favorable del proceso postoperatorio. Los parámetros analíticos se mantienen dentro de rangos aceptables y la herida quirúrgica presenta adecuada cicatrización sin signos de infección local. Se ha coordinado con el cirujano el plan de seguimiento para los próximos días, quedando establecido que cualquier modificación en el estado general debe ser comunicada de inmediato al 612-345-678 para valoración urgente. Se mantiene la pauta analgésica actual y se recomienda movilización progresiva según tolerancia.",
+  "text_length": 619,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.9912593364715576,
+        "word": " Centro de Salud Los Álamos",
+        "start": 46,
+        "end": 72,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9949034452438354,
+        "word": " 612-345-678",
+        "start": 486,
+        "end": 497,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CENTRO_SALUD": 1,
+        "NUMERO_TELEFONO": 1
+      },
+      "entities_by_confidence": {
+        "high": 2,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9912593364715576,
+          "start": 46,
+          "end": 72,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 612-345-678",
+          "actual_text": "612-345-678",
+          "confidence": 0.9949034452438354,
+          "start": 486,
+          "end": 497,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9912593364715576,
+          "start": 46,
+          "end": 72,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 612-345-678",
+          "actual_text": "612-345-678",
+          "confidence": 0.9949034452438354,
+          "start": 486,
+          "end": 497,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 2,
+    "entities": [
+      {
+        "entity_group": "CENTRO_SALUD",
+        "score": 0.9994502663612366,
+        "word": " Centro de Salud Los Álamos",
+        "start": 46,
+        "end": 72,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7249492406845093,
+        "word": " 612",
+        "start": 486,
+        "end": 489,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 2,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CENTRO_SALUD": 1,
+        "NUMERO_TELEFONO": 1
+      },
+      "entities_by_confidence": {
+        "high": 1,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9994502663612366,
+          "start": 46,
+          "end": 72,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 612",
+          "actual_text": "612",
+          "confidence": 0.7249492406845093,
+          "start": 486,
+          "end": 489,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CENTRO_SALUD",
+          "word": " Centro de Salud Los Álamos",
+          "actual_text": "Centro de Salud Los Álamos",
+          "confidence": 0.9994502663612366,
+          "start": 46,
+          "end": 72,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " 612",
+          "actual_text": "612",
+          "confidence": 0.7249492406845093,
+          "start": 486,
+          "end": 489,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 4,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CENTRO_SALUD": 2,
+      "NUMERO_TELEFONO": 2
+    },
+    "entities_by_confidence": {
+      "high": 3,
+      "medium": 1,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9912593364715576,
+        "start": 46,
+        "end": 72,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 612-345-678",
+        "actual_text": "612-345-678",
+        "confidence": 0.9949034452438354,
+        "start": 486,
+        "end": 497,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9994502663612366,
+        "start": 46,
+        "end": 72,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 612",
+        "actual_text": "612",
+        "confidence": 0.7249492406845093,
+        "start": 486,
+        "end": 489,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9912593364715576,
+        "start": 46,
+        "end": 72,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 612-345-678",
+        "actual_text": "612-345-678",
+        "confidence": 0.9949034452438354,
+        "start": 486,
+        "end": 497,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "word": " Centro de Salud Los Álamos",
+        "actual_text": "Centro de Salud Los Álamos",
+        "confidence": 0.9994502663612366,
+        "start": 46,
+        "end": 72,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " 612",
+        "actual_text": "612",
+        "confidence": 0.7249492406845093,
+        "start": 486,
+        "end": 489,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 4,
+    "suspicious_detections": 4,
+    "xxxxxx_detections": 0,
+    "other_detections": 4
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "CENTRO_SALUD",
+        "text": " Centro de Salud Los Álamos",
+        "confidence": 0.9912593364715576,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " 612-345-678",
+        "confidence": 0.9949034452438354,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CENTRO_SALUD",
+        "text": " Centro de Salud Los Álamos",
+        "confidence": 0.9994502663612366,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 3
+  }
+}

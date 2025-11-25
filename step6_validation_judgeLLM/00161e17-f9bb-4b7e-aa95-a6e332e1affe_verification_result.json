@@ -1,0 +1,1257 @@
+{
+  "document_id": "00161e17-f9bb-4b7e-aa95-a6e332e1affe",
+  "success": true,
+  "anonymized_text": "Informe de Consulta de Seguimiento Paciente Laura Méndez Iglesias que acude a consulta externa para control evolutivo tras intervención quirúrgica mayor realizada el mes pasado. La paciente se encuentra actualmente en situación de estabilidad hemodinámica, con buena tolerancia a la actividad física progresiva que ha ido incorporando según las indicaciones del servicio de rehabilitación cardíaca. En la exploración física actual se aprecia cicatriz esternal bien consolidada, sin signos de infección o dehiscencia. Auscultación cardíaca con ritmo regular, sin soplos significativos, y auscultación pulmonar con murmullo vesicular conservado bilateralmente. Los pulsos periféricos son simétricos y presentes. Respecto a las pruebas complementarias recientes, el ecocardiograma transtorácico muestra función ventricular izquierda preservada, con fracción de eyección del 60%, y prótesis valvular funcionante sin evidencias de fugas significativas. El electrocardiograma muestra ritmo sinusal a 72 lpm, sin alteraciones agudas de la repolarización. La paciente reside actualmente en Paseo de la Castellana 120, donde refiere contar con adecuado apoyo familiar para las actividades de la vida diaria. Se mantiene la recomendación de acudir a consultas programadas en Avenida de la Constitución 12 para continuar con el seguimiento protocolizado. Como documentación adjunta se incluye el informe de interconsulta con número de referencia E-2023-8745, donde se detalla la técnica quirúrgica empleada y las recomendaciones específicas para el manejo ambulatorio. La paciente cuenta con identificación de aseguramiento B123456789 activa para la cobertura de los tratamientos farmacológicos prescritos. Para cualquier actualización de protocolos o guías clínicas aplicables, se recomienda consultar los recursos disponibles en https://www.clinicabarcelona.es y https://www.clinicabarcelona.org, donde se mantiene información técnica actualizada para el equipo asistencial. Atentamente, Dra. Elena Rodríguez Santos cirujano cardiovascular ID profesional:",
+  "text_length": 2046,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 9,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9993554949760437,
+        "word": " Laura Méndez Iglesias",
+        "start": 44,
+        "end": 65,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9992620348930359,
+        "word": " Paseo de la Castellana 120",
+        "start": 1082,
+        "end": 1108,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9991661310195923,
+        "word": " Avenida de la Constitución 12",
+        "start": 1265,
+        "end": 1294,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7937507629394531,
+        "word": "2023-8745",
+        "start": 1437,
+        "end": 1446,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7434498071670532,
+        "word": " aseguramiento",
+        "start": 1599,
+        "end": 1612,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.8506689071655273,
+        "word": "icabarcelona.es",
+        "start": 1836,
+        "end": 1851,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.8798063397407532,
+        "word": "icabarcelona.org",
+        "start": 1870,
+        "end": 1886,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9993996024131775,
+        "word": " Elena Rodríguez Santos",
+        "start": 1984,
+        "end": 2006,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9995300769805908,
+        "word": " Elena Rodríguez Santos",
+        "start": 305,
+        "end": 327,
+        "chunk_id": 1,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 9,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 3,
+        "CALLE": 2,
+        "NUMERO_TELEFONO": 1,
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "CORREO_ELECTRONICO": 2
+      },
+      "entities_by_confidence": {
+        "high": 7,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Laura Méndez Iglesias",
+          "actual_text": "Laura Méndez Iglesias",
+          "confidence": 0.9993554949760437,
+          "start": 44,
+          "end": 65,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Paseo de la Castellana 120",
+          "actual_text": "Paseo de la Castellana 120",
+          "confidence": 0.9992620348930359,
+          "start": 1082,
+          "end": 1108,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Avenida de la Constitución 12",
+          "actual_text": "Avenida de la Constitución 12",
+          "confidence": 0.9991661310195923,
+          "start": 1265,
+          "end": 1294,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "2023-8745",
+          "actual_text": "2023-8745",
+          "confidence": 0.7937507629394531,
+          "start": 1437,
+          "end": 1446,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " aseguramiento",
+          "actual_text": "aseguramiento",
+          "confidence": 0.7434498071670532,
+          "start": 1599,
+          "end": 1612,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "icabarcelona.es",
+          "actual_text": "icabarcelona.es",
+          "confidence": 0.8506689071655273,
+          "start": 1836,
+          "end": 1851,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "icabarcelona.org",
+          "actual_text": "icabarcelona.org",
+          "confidence": 0.8798063397407532,
+          "start": 1870,
+          "end": 1886,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena Rodríguez Santos",
+          "actual_text": "Elena Rodríguez Santos",
+          "confidence": 0.9993996024131775,
+          "start": 1984,
+          "end": 2006,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena Rodríguez Santos",
+          "actual_text": "esiva que ha ido incor",
+          "confidence": 0.9995300769805908,
+          "start": 305,
+          "end": 327,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Laura Méndez Iglesias",
+          "actual_text": "Laura Méndez Iglesias",
+          "confidence": 0.9993554949760437,
+          "start": 44,
+          "end": 65,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Paseo de la Castellana 120",
+          "actual_text": "Paseo de la Castellana 120",
+          "confidence": 0.9992620348930359,
+          "start": 1082,
+          "end": 1108,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Avenida de la Constitución 12",
+          "actual_text": "Avenida de la Constitución 12",
+          "confidence": 0.9991661310195923,
+          "start": 1265,
+          "end": 1294,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "2023-8745",
+          "actual_text": "2023-8745",
+          "confidence": 0.7937507629394531,
+          "start": 1437,
+          "end": 1446,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " aseguramiento",
+          "actual_text": "aseguramiento",
+          "confidence": 0.7434498071670532,
+          "start": 1599,
+          "end": 1612,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "icabarcelona.es",
+          "actual_text": "icabarcelona.es",
+          "confidence": 0.8506689071655273,
+          "start": 1836,
+          "end": 1851,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "icabarcelona.org",
+          "actual_text": "icabarcelona.org",
+          "confidence": 0.8798063397407532,
+          "start": 1870,
+          "end": 1886,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena Rodríguez Santos",
+          "actual_text": "Elena Rodríguez Santos",
+          "confidence": 0.9993996024131775,
+          "start": 1984,
+          "end": 2006,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena Rodríguez Santos",
+          "actual_text": "esiva que ha ido incor",
+          "confidence": 0.9995300769805908,
+          "start": 305,
+          "end": 327,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 15,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9917603731155396,
+        "word": " Méndez",
+        "start": 50,
+        "end": 56,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9852723479270935,
+        "word": " Iglesias",
+        "start": 57,
+        "end": 65,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9980349540710449,
+        "word": " Paseo de la Castellana 120",
+        "start": 1082,
+        "end": 1108,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "CALLE",
+        "score": 0.9979673624038696,
+        "word": " Avenida de la Constitución 12",
+        "start": 1265,
+        "end": 1294,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9707328081130981,
+        "word": " E",
+        "start": 1435,
+        "end": 1436,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.9940181970596313,
+        "word": " B",
+        "start": 1613,
+        "end": 1614,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8672110438346863,
+        "word": "12",
+        "start": 1614,
+        "end": 1616,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.7145467400550842,
+        "word": "www.clinicabarcelona.",
+        "start": 1828,
+        "end": 1849,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.957490861415863,
+        "word": " Elena",
+        "start": 1984,
+        "end": 1989,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9991870522499084,
+        "word": " Rodríguez",
+        "start": 1990,
+        "end": 1999,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9962865114212036,
+        "word": " Santos",
+        "start": 2000,
+        "end": 2006,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9629406929016113,
+        "word": " Elena",
+        "start": 305,
+        "end": 310,
+        "chunk_id": 1,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9994522929191589,
+        "word": " Rodríguez",
+        "start": 311,
+        "end": 320,
+        "chunk_id": 1,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9988910555839539,
+        "word": " Santos",
+        "start": 321,
+        "end": 327,
+        "chunk_id": 1,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "PROFESION",
+        "score": 0.9692269563674927,
+        "word": " cirujano cardiovascular",
+        "start": 328,
+        "end": 351,
+        "chunk_id": 1,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 15,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 8,
+        "CALLE": 2,
+        "NUMERO_TELEFONO": 3,
+        "URL_WEB": 1,
+        "PROFESION": 1
+      },
+      "entities_by_confidence": {
+        "high": 14,
+        "medium": 1,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9917603731155396,
+          "start": 50,
+          "end": 56,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.9852723479270935,
+          "start": 57,
+          "end": 65,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Paseo de la Castellana 120",
+          "actual_text": "Paseo de la Castellana 120",
+          "confidence": 0.9980349540710449,
+          "start": 1082,
+          "end": 1108,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Avenida de la Constitución 12",
+          "actual_text": "Avenida de la Constitución 12",
+          "confidence": 0.9979673624038696,
+          "start": 1265,
+          "end": 1294,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " E",
+          "actual_text": "E",
+          "confidence": 0.9707328081130981,
+          "start": 1435,
+          "end": 1436,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.9940181970596313,
+          "start": 1613,
+          "end": 1614,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12",
+          "actual_text": "12",
+          "confidence": 0.8672110438346863,
+          "start": 1614,
+          "end": 1616,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "www.clinicabarcelona.",
+          "actual_text": "www.clinicabarcelona.",
+          "confidence": 0.7145467400550842,
+          "start": 1828,
+          "end": 1849,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena",
+          "actual_text": "Elena",
+          "confidence": 0.957490861415863,
+          "start": 1984,
+          "end": 1989,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "Rodríguez",
+          "confidence": 0.9991870522499084,
+          "start": 1990,
+          "end": 1999,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Santos",
+          "actual_text": "Santos",
+          "confidence": 0.9962865114212036,
+          "start": 2000,
+          "end": 2006,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena",
+          "actual_text": "esiva",
+          "confidence": 0.9629406929016113,
+          "start": 305,
+          "end": 310,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "que ha id",
+          "confidence": 0.9994522929191589,
+          "start": 311,
+          "end": 320,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Santos",
+          "actual_text": " incor",
+          "confidence": 0.9988910555839539,
+          "start": 321,
+          "end": 327,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " cirujano cardiovascular",
+          "actual_text": "orando según las indica",
+          "confidence": 0.9692269563674927,
+          "start": 328,
+          "end": 351,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9917603731155396,
+          "start": 50,
+          "end": 56,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.9852723479270935,
+          "start": 57,
+          "end": 65,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Paseo de la Castellana 120",
+          "actual_text": "Paseo de la Castellana 120",
+          "confidence": 0.9980349540710449,
+          "start": 1082,
+          "end": 1108,
+          "model": "CARMEN"
+        },
+        {
+          "label": "CALLE",
+          "word": " Avenida de la Constitución 12",
+          "actual_text": "Avenida de la Constitución 12",
+          "confidence": 0.9979673624038696,
+          "start": 1265,
+          "end": 1294,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " E",
+          "actual_text": "E",
+          "confidence": 0.9707328081130981,
+          "start": 1435,
+          "end": 1436,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.9940181970596313,
+          "start": 1613,
+          "end": 1614,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12",
+          "actual_text": "12",
+          "confidence": 0.8672110438346863,
+          "start": 1614,
+          "end": 1616,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "www.clinicabarcelona.",
+          "actual_text": "www.clinicabarcelona.",
+          "confidence": 0.7145467400550842,
+          "start": 1828,
+          "end": 1849,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena",
+          "actual_text": "Elena",
+          "confidence": 0.957490861415863,
+          "start": 1984,
+          "end": 1989,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "Rodríguez",
+          "confidence": 0.9991870522499084,
+          "start": 1990,
+          "end": 1999,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Santos",
+          "actual_text": "Santos",
+          "confidence": 0.9962865114212036,
+          "start": 2000,
+          "end": 2006,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena",
+          "actual_text": "esiva",
+          "confidence": 0.9629406929016113,
+          "start": 305,
+          "end": 310,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "que ha id",
+          "confidence": 0.9994522929191589,
+          "start": 311,
+          "end": 320,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Santos",
+          "actual_text": " incor",
+          "confidence": 0.9988910555839539,
+          "start": 321,
+          "end": 327,
+          "model": "CARMEN"
+        },
+        {
+          "label": "PROFESION",
+          "word": " cirujano cardiovascular",
+          "actual_text": "orando según las indica",
+          "confidence": 0.9692269563674927,
+          "start": 328,
+          "end": 351,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 24,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "NOMBRE_PERSONAL_SANITARIO": 11,
+      "CALLE": 4,
+      "NUMERO_TELEFONO": 4,
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "CORREO_ELECTRONICO": 2,
+      "URL_WEB": 1,
+      "PROFESION": 1
+    },
+    "entities_by_confidence": {
+      "high": 21,
+      "medium": 3,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Laura Méndez Iglesias",
+        "actual_text": "Laura Méndez Iglesias",
+        "confidence": 0.9993554949760437,
+        "start": 44,
+        "end": 65,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Paseo de la Castellana 120",
+        "actual_text": "Paseo de la Castellana 120",
+        "confidence": 0.9992620348930359,
+        "start": 1082,
+        "end": 1108,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Avenida de la Constitución 12",
+        "actual_text": "Avenida de la Constitución 12",
+        "confidence": 0.9991661310195923,
+        "start": 1265,
+        "end": 1294,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "2023-8745",
+        "actual_text": "2023-8745",
+        "confidence": 0.7937507629394531,
+        "start": 1437,
+        "end": 1446,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " aseguramiento",
+        "actual_text": "aseguramiento",
+        "confidence": 0.7434498071670532,
+        "start": 1599,
+        "end": 1612,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "icabarcelona.es",
+        "actual_text": "icabarcelona.es",
+        "confidence": 0.8506689071655273,
+        "start": 1836,
+        "end": 1851,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "icabarcelona.org",
+        "actual_text": "icabarcelona.org",
+        "confidence": 0.8798063397407532,
+        "start": 1870,
+        "end": 1886,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena Rodríguez Santos",
+        "actual_text": "Elena Rodríguez Santos",
+        "confidence": 0.9993996024131775,
+        "start": 1984,
+        "end": 2006,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena Rodríguez Santos",
+        "actual_text": "esiva que ha ido incor",
+        "confidence": 0.9995300769805908,
+        "start": 305,
+        "end": 327,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9917603731155396,
+        "start": 50,
+        "end": 56,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.9852723479270935,
+        "start": 57,
+        "end": 65,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Paseo de la Castellana 120",
+        "actual_text": "Paseo de la Castellana 120",
+        "confidence": 0.9980349540710449,
+        "start": 1082,
+        "end": 1108,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Avenida de la Constitución 12",
+        "actual_text": "Avenida de la Constitución 12",
+        "confidence": 0.9979673624038696,
+        "start": 1265,
+        "end": 1294,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " E",
+        "actual_text": "E",
+        "confidence": 0.9707328081130981,
+        "start": 1435,
+        "end": 1436,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.9940181970596313,
+        "start": 1613,
+        "end": 1614,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12",
+        "actual_text": "12",
+        "confidence": 0.8672110438346863,
+        "start": 1614,
+        "end": 1616,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "www.clinicabarcelona.",
+        "actual_text": "www.clinicabarcelona.",
+        "confidence": 0.7145467400550842,
+        "start": 1828,
+        "end": 1849,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena",
+        "actual_text": "Elena",
+        "confidence": 0.957490861415863,
+        "start": 1984,
+        "end": 1989,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "Rodríguez",
+        "confidence": 0.9991870522499084,
+        "start": 1990,
+        "end": 1999,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Santos",
+        "actual_text": "Santos",
+        "confidence": 0.9962865114212036,
+        "start": 2000,
+        "end": 2006,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena",
+        "actual_text": "esiva",
+        "confidence": 0.9629406929016113,
+        "start": 305,
+        "end": 310,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "que ha id",
+        "confidence": 0.9994522929191589,
+        "start": 311,
+        "end": 320,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Santos",
+        "actual_text": " incor",
+        "confidence": 0.9988910555839539,
+        "start": 321,
+        "end": 327,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " cirujano cardiovascular",
+        "actual_text": "orando según las indica",
+        "confidence": 0.9692269563674927,
+        "start": 328,
+        "end": 351,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Laura Méndez Iglesias",
+        "actual_text": "Laura Méndez Iglesias",
+        "confidence": 0.9993554949760437,
+        "start": 44,
+        "end": 65,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Paseo de la Castellana 120",
+        "actual_text": "Paseo de la Castellana 120",
+        "confidence": 0.9992620348930359,
+        "start": 1082,
+        "end": 1108,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Avenida de la Constitución 12",
+        "actual_text": "Avenida de la Constitución 12",
+        "confidence": 0.9991661310195923,
+        "start": 1265,
+        "end": 1294,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "2023-8745",
+        "actual_text": "2023-8745",
+        "confidence": 0.7937507629394531,
+        "start": 1437,
+        "end": 1446,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " aseguramiento",
+        "actual_text": "aseguramiento",
+        "confidence": 0.7434498071670532,
+        "start": 1599,
+        "end": 1612,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "icabarcelona.es",
+        "actual_text": "icabarcelona.es",
+        "confidence": 0.8506689071655273,
+        "start": 1836,
+        "end": 1851,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "icabarcelona.org",
+        "actual_text": "icabarcelona.org",
+        "confidence": 0.8798063397407532,
+        "start": 1870,
+        "end": 1886,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena Rodríguez Santos",
+        "actual_text": "Elena Rodríguez Santos",
+        "confidence": 0.9993996024131775,
+        "start": 1984,
+        "end": 2006,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena Rodríguez Santos",
+        "actual_text": "esiva que ha ido incor",
+        "confidence": 0.9995300769805908,
+        "start": 305,
+        "end": 327,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9917603731155396,
+        "start": 50,
+        "end": 56,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.9852723479270935,
+        "start": 57,
+        "end": 65,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Paseo de la Castellana 120",
+        "actual_text": "Paseo de la Castellana 120",
+        "confidence": 0.9980349540710449,
+        "start": 1082,
+        "end": 1108,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "word": " Avenida de la Constitución 12",
+        "actual_text": "Avenida de la Constitución 12",
+        "confidence": 0.9979673624038696,
+        "start": 1265,
+        "end": 1294,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " E",
+        "actual_text": "E",
+        "confidence": 0.9707328081130981,
+        "start": 1435,
+        "end": 1436,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.9940181970596313,
+        "start": 1613,
+        "end": 1614,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12",
+        "actual_text": "12",
+        "confidence": 0.8672110438346863,
+        "start": 1614,
+        "end": 1616,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "www.clinicabarcelona.",
+        "actual_text": "www.clinicabarcelona.",
+        "confidence": 0.7145467400550842,
+        "start": 1828,
+        "end": 1849,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena",
+        "actual_text": "Elena",
+        "confidence": 0.957490861415863,
+        "start": 1984,
+        "end": 1989,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "Rodríguez",
+        "confidence": 0.9991870522499084,
+        "start": 1990,
+        "end": 1999,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Santos",
+        "actual_text": "Santos",
+        "confidence": 0.9962865114212036,
+        "start": 2000,
+        "end": 2006,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena",
+        "actual_text": "esiva",
+        "confidence": 0.9629406929016113,
+        "start": 305,
+        "end": 310,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "que ha id",
+        "confidence": 0.9994522929191589,
+        "start": 311,
+        "end": 320,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Santos",
+        "actual_text": " incor",
+        "confidence": 0.9988910555839539,
+        "start": 321,
+        "end": 327,
+        "model": "CARMEN"
+      },
+      {
+        "label": "PROFESION",
+        "word": " cirujano cardiovascular",
+        "actual_text": "orando según las indica",
+        "confidence": 0.9692269563674927,
+        "start": 328,
+        "end": 351,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 24,
+    "suspicious_detections": 24,
+    "xxxxxx_detections": 0,
+    "other_detections": 24
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Laura Méndez Iglesias",
+        "confidence": 0.9993554949760437,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "text": " Paseo de la Castellana 120",
+        "confidence": 0.9992620348930359,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CALLE",
+        "text": " Avenida de la Constitución 12",
+        "confidence": 0.9991661310195923,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Elena Rodríguez Santos",
+        "confidence": 0.9993996024131775,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Elena Rodríguez Santos",
+        "confidence": 0.9995300769805908,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Méndez",
+        "confidence": 0.9917603731155396,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "text": " Paseo de la Castellana 120",
+        "confidence": 0.9980349540710449,
+        "model": "CARMEN"
+      },
+      {
+        "label": "CALLE",
+        "text": " Avenida de la Constitución 12",
+        "confidence": 0.9979673624038696,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": " B",
+        "confidence": 0.9940181970596313,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Rodríguez",
+        "confidence": 0.9991870522499084,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Santos",
+        "confidence": 0.9962865114212036,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Rodríguez",
+        "confidence": 0.9994522929191589,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Santos",
+        "confidence": 0.9988910555839539,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 13
+  }
+}

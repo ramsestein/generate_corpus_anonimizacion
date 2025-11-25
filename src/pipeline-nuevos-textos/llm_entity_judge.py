@@ -100,7 +100,7 @@ def call_ollama_gemma(system_prompt: str, user_prompt: str, debug: bool = False)
         # Usar text=True y pasar string como input para simplificar decoding
         # Añadir reintentos si la respuesta viene vacía (puede pasar por carga/streaming)
         max_retries = 2
-        wait_seconds = 1
+        wait_seconds = 5
         last_stdout = ""
         last_stderr = ""
         for attempt in range(1, max_retries + 1):
@@ -297,7 +297,7 @@ def build_prompt_for_entity(
         user_prompt = 'Responde SOLO: "TRUE" o "FALSE".'
     else:
         # Fallback al prompt anterior si la plantilla no está disponible
-        system_prompt = f"ERES UN DETECTOR PROFESIONAL DE ENTIDADES MÉDICAS.\n\nREGLAS:\n{rules_text}\n\nOBJETIVO: MAXIMIZAR RECALL. En caso de duda, prefiere TRUE.\nResponde SOLO 'TRUE' o 'FALSE'."
+        system_prompt = f"ERES UN VERIFICADOR ESTRICTO DE ENTIDADES.\n\nREGLAS:\n{rules_text}\n\nOBJETIVO: MAXIMIZAR PRECISION. \nResponde SOLO 'TRUE' o 'FALSE'."
         user_prompt = f"PALABRA CANDIDATA: \"{keyword}\"\n\nTEXTO: \"{context_text}\"\n\nETIQUETA: {label}\nUBICACIÓN: {location}\n\nResponde SOLO 'TRUE' o 'FALSE'."
 
     return system_prompt, user_prompt

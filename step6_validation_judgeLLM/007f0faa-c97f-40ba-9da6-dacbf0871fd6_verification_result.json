@@ -1,0 +1,802 @@
+{
+  "document_id": "007f0faa-c97f-40ba-9da6-dacbf0871fd6",
+  "success": true,
+  "anonymized_text": "En la valoración geriátrica integral se recoge la situación actual de la paciente Laura Méndez Iglesias, que cuenta con 78 años de edad. La exploración física actual muestra una estabilidad de los parámetros cardiopulmonares respecto a su última revisión a los 72 años. Se ha procedido a la verificación de su identidad mediante la huella dactilar del pulgar derecho, vinculada a su número de beneficiaria del plan de salud B123456789, como parte de los protocolos de seguridad establecidos. El documento clínico con referencia HC-2024-789012 queda formalmente registrado. Durante la intervención quirúrgica programada, el profesional designado, cuya identificación profesional es E-789456 y que posee el correspondiente Grado en Medicina, actuó en su capacidad de cirujano. Dicho profesional, cuya profesión sanitaria está debidamente acreditada, supervisó todo el procedimiento. Cabe destacar que el sexo de la paciente, femenino, se tuvo en consideración para todos los aspectos del manejo perioperatorio específico. La evolución postoperatoria inmediata ha sido satisfactoria, manteniéndose una vigilancia clínica estrecha.",
+  "text_length": 1127,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 8,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9792088866233826,
+        "word": " Laura Méndez Iglesias",
+        "start": 82,
+        "end": 103,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.9971373081207275,
+        "word": " 78 años",
+        "start": 120,
+        "end": 127,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.9962407350540161,
+        "word": " 72 años",
+        "start": 261,
+        "end": 268,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7495604753494263,
+        "word": "123456789",
+        "start": 425,
+        "end": 434,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.8163226842880249,
+        "word": "20",
+        "start": 531,
+        "end": 533,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.7643635869026184,
+        "word": "-789012",
+        "start": 535,
+        "end": 542,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7445772290229797,
+        "word": "-789456",
+        "start": 682,
+        "end": 689,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "SEXO_SUJETO_ASISTENCIA",
+        "score": 0.9924994111061096,
+        "word": " femenino",
+        "start": 923,
+        "end": 931,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 8,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 1,
+        "EDAD_SUJETO_ASISTENCIA": 2,
+        "ID_SUJETO_ASISTENCIA": 3,
+        "OTROS_SUJETO_ASISTENCIA": 1,
+        "SEXO_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 5,
+        "medium": 3,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Laura Méndez Iglesias",
+          "actual_text": "Laura Méndez Iglesias",
+          "confidence": 0.9792088866233826,
+          "start": 82,
+          "end": 103,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 78 años",
+          "actual_text": "78 años",
+          "confidence": 0.9971373081207275,
+          "start": 120,
+          "end": 127,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 72 años",
+          "actual_text": "72 años",
+          "confidence": 0.9962407350540161,
+          "start": 261,
+          "end": 268,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "123456789",
+          "actual_text": "123456789",
+          "confidence": 0.7495604753494263,
+          "start": 425,
+          "end": 434,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "20",
+          "actual_text": "20",
+          "confidence": 0.8163226842880249,
+          "start": 531,
+          "end": 533,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-789012",
+          "actual_text": "-789012",
+          "confidence": 0.7643635869026184,
+          "start": 535,
+          "end": 542,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "-789456",
+          "actual_text": "-789456",
+          "confidence": 0.7445772290229797,
+          "start": 682,
+          "end": 689,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9924994111061096,
+          "start": 923,
+          "end": 931,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Laura Méndez Iglesias",
+          "actual_text": "Laura Méndez Iglesias",
+          "confidence": 0.9792088866233826,
+          "start": 82,
+          "end": 103,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 78 años",
+          "actual_text": "78 años",
+          "confidence": 0.9971373081207275,
+          "start": 120,
+          "end": 127,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 72 años",
+          "actual_text": "72 años",
+          "confidence": 0.9962407350540161,
+          "start": 261,
+          "end": 268,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "123456789",
+          "actual_text": "123456789",
+          "confidence": 0.7495604753494263,
+          "start": 425,
+          "end": 434,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "20",
+          "actual_text": "20",
+          "confidence": 0.8163226842880249,
+          "start": 531,
+          "end": 533,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "-789012",
+          "actual_text": "-789012",
+          "confidence": 0.7643635869026184,
+          "start": 535,
+          "end": 542,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "-789456",
+          "actual_text": "-789456",
+          "confidence": 0.7445772290229797,
+          "start": 682,
+          "end": 689,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9924994111061096,
+          "start": 923,
+          "end": 931,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 7,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9721229076385498,
+        "word": " Méndez",
+        "start": 88,
+        "end": 94,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.958633542060852,
+        "word": " Iglesias",
+        "start": 95,
+        "end": 103,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.9996451139450073,
+        "word": " 78 años",
+        "start": 120,
+        "end": 127,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "EDAD_SUJETO_ASISTENCIA",
+        "score": 0.999736487865448,
+        "word": " 72 años",
+        "start": 261,
+        "end": 268,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.9599568843841553,
+        "word": " B",
+        "start": 424,
+        "end": 425,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_IDENTIF",
+        "score": 0.9783622622489929,
+        "word": " HC",
+        "start": 528,
+        "end": 530,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "SEXO_SUJETO_ASISTENCIA",
+        "score": 0.9832239151000977,
+        "word": " femenino",
+        "start": 923,
+        "end": 931,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 7,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 2,
+        "EDAD_SUJETO_ASISTENCIA": 2,
+        "NUMERO_IDENTIF": 2,
+        "SEXO_SUJETO_ASISTENCIA": 1
+      },
+      "entities_by_confidence": {
+        "high": 7,
+        "medium": 0,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9721229076385498,
+          "start": 88,
+          "end": 94,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.958633542060852,
+          "start": 95,
+          "end": 103,
+          "model": "CARMEN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 78 años",
+          "actual_text": "78 años",
+          "confidence": 0.9996451139450073,
+          "start": 120,
+          "end": 127,
+          "model": "CARMEN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 72 años",
+          "actual_text": "72 años",
+          "confidence": 0.999736487865448,
+          "start": 261,
+          "end": 268,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.9599568843841553,
+          "start": 424,
+          "end": 425,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " HC",
+          "actual_text": "HC",
+          "confidence": 0.9783622622489929,
+          "start": 528,
+          "end": 530,
+          "model": "CARMEN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9832239151000977,
+          "start": 923,
+          "end": 931,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Méndez",
+          "actual_text": "Méndez",
+          "confidence": 0.9721229076385498,
+          "start": 88,
+          "end": 94,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Iglesias",
+          "actual_text": "Iglesias",
+          "confidence": 0.958633542060852,
+          "start": 95,
+          "end": 103,
+          "model": "CARMEN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 78 años",
+          "actual_text": "78 años",
+          "confidence": 0.9996451139450073,
+          "start": 120,
+          "end": 127,
+          "model": "CARMEN"
+        },
+        {
+          "label": "EDAD_SUJETO_ASISTENCIA",
+          "word": " 72 años",
+          "actual_text": "72 años",
+          "confidence": 0.999736487865448,
+          "start": 261,
+          "end": 268,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " B",
+          "actual_text": "B",
+          "confidence": 0.9599568843841553,
+          "start": 424,
+          "end": 425,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_IDENTIF",
+          "word": " HC",
+          "actual_text": "HC",
+          "confidence": 0.9783622622489929,
+          "start": 528,
+          "end": 530,
+          "model": "CARMEN"
+        },
+        {
+          "label": "SEXO_SUJETO_ASISTENCIA",
+          "word": " femenino",
+          "actual_text": "femenino",
+          "confidence": 0.9832239151000977,
+          "start": 923,
+          "end": 931,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 15,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "NOMBRE_PERSONAL_SANITARIO": 3,
+      "EDAD_SUJETO_ASISTENCIA": 4,
+      "ID_SUJETO_ASISTENCIA": 3,
+      "OTROS_SUJETO_ASISTENCIA": 1,
+      "SEXO_SUJETO_ASISTENCIA": 2,
+      "NUMERO_IDENTIF": 2
+    },
+    "entities_by_confidence": {
+      "high": 12,
+      "medium": 3,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Laura Méndez Iglesias",
+        "actual_text": "Laura Méndez Iglesias",
+        "confidence": 0.9792088866233826,
+        "start": 82,
+        "end": 103,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 78 años",
+        "actual_text": "78 años",
+        "confidence": 0.9971373081207275,
+        "start": 120,
+        "end": 127,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 72 años",
+        "actual_text": "72 años",
+        "confidence": 0.9962407350540161,
+        "start": 261,
+        "end": 268,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "123456789",
+        "actual_text": "123456789",
+        "confidence": 0.7495604753494263,
+        "start": 425,
+        "end": 434,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "20",
+        "actual_text": "20",
+        "confidence": 0.8163226842880249,
+        "start": 531,
+        "end": 533,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-789012",
+        "actual_text": "-789012",
+        "confidence": 0.7643635869026184,
+        "start": 535,
+        "end": 542,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "-789456",
+        "actual_text": "-789456",
+        "confidence": 0.7445772290229797,
+        "start": 682,
+        "end": 689,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9924994111061096,
+        "start": 923,
+        "end": 931,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9721229076385498,
+        "start": 88,
+        "end": 94,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.958633542060852,
+        "start": 95,
+        "end": 103,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 78 años",
+        "actual_text": "78 años",
+        "confidence": 0.9996451139450073,
+        "start": 120,
+        "end": 127,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 72 años",
+        "actual_text": "72 años",
+        "confidence": 0.999736487865448,
+        "start": 261,
+        "end": 268,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.9599568843841553,
+        "start": 424,
+        "end": 425,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " HC",
+        "actual_text": "HC",
+        "confidence": 0.9783622622489929,
+        "start": 528,
+        "end": 530,
+        "model": "CARMEN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9832239151000977,
+        "start": 923,
+        "end": 931,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Laura Méndez Iglesias",
+        "actual_text": "Laura Méndez Iglesias",
+        "confidence": 0.9792088866233826,
+        "start": 82,
+        "end": 103,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 78 años",
+        "actual_text": "78 años",
+        "confidence": 0.9971373081207275,
+        "start": 120,
+        "end": 127,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 72 años",
+        "actual_text": "72 años",
+        "confidence": 0.9962407350540161,
+        "start": 261,
+        "end": 268,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "123456789",
+        "actual_text": "123456789",
+        "confidence": 0.7495604753494263,
+        "start": 425,
+        "end": 434,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "20",
+        "actual_text": "20",
+        "confidence": 0.8163226842880249,
+        "start": 531,
+        "end": 533,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "-789012",
+        "actual_text": "-789012",
+        "confidence": 0.7643635869026184,
+        "start": 535,
+        "end": 542,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "-789456",
+        "actual_text": "-789456",
+        "confidence": 0.7445772290229797,
+        "start": 682,
+        "end": 689,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9924994111061096,
+        "start": 923,
+        "end": 931,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Méndez",
+        "actual_text": "Méndez",
+        "confidence": 0.9721229076385498,
+        "start": 88,
+        "end": 94,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Iglesias",
+        "actual_text": "Iglesias",
+        "confidence": 0.958633542060852,
+        "start": 95,
+        "end": 103,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 78 años",
+        "actual_text": "78 años",
+        "confidence": 0.9996451139450073,
+        "start": 120,
+        "end": 127,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "word": " 72 años",
+        "actual_text": "72 años",
+        "confidence": 0.999736487865448,
+        "start": 261,
+        "end": 268,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " B",
+        "actual_text": "B",
+        "confidence": 0.9599568843841553,
+        "start": 424,
+        "end": 425,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_IDENTIF",
+        "word": " HC",
+        "actual_text": "HC",
+        "confidence": 0.9783622622489929,
+        "start": 528,
+        "end": 530,
+        "model": "CARMEN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "word": " femenino",
+        "actual_text": "femenino",
+        "confidence": 0.9832239151000977,
+        "start": 923,
+        "end": 931,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 15,
+    "suspicious_detections": 15,
+    "xxxxxx_detections": 0,
+    "other_detections": 15
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "text": " 78 años",
+        "confidence": 0.9971373081207275,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "text": " 72 años",
+        "confidence": 0.9962407350540161,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "SEXO_SUJETO_ASISTENCIA",
+        "text": " femenino",
+        "confidence": 0.9924994111061096,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "text": " 78 años",
+        "confidence": 0.9996451139450073,
+        "model": "CARMEN"
+      },
+      {
+        "label": "EDAD_SUJETO_ASISTENCIA",
+        "text": " 72 años",
+        "confidence": 0.999736487865448,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 5
+  }
+}

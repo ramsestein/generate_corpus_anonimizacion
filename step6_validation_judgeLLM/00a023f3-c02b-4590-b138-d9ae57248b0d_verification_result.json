@@ -1,0 +1,1456 @@
+{
+  "document_id": "00a023f3-c02b-4590-b138-d9ae57248b0d",
+  "success": true,
+  "anonymized_text": "En la valoración clínica realizada, se ha coordinado con el equipo quirúrgico para la evaluación preoperatoria del paciente. El plan terapéutico establecido ha sido revisado y consensuado con el **cirujano** de referencia. Se recomienda seguimiento estrecho en consultas externas. La exploración física actual muestra buen estado general, con auscultación cardiorrespiratoria rítmica y sin soplos, abdomen blando y depresible sin masas palpables ni dolor a la palpación. Los resultados analíticos recientes se encuentran dentro de parámetros normales, sin alteraciones significativas en el hemograma o la bioquímica básica. En cuanto a las pruebas de imagen, la radiografía de tórax no evidencia hallazgos patológicos agudos. Para cualquier comunicación profesional, puede utilizarse el siguiente : carlos.martinez@clinic.es. La documentación clínica completa del paciente está disponible a través de la : https://historiaclinica.hospitalregional.es/paciente/consulta/456789. Asimismo, se ha subido la resonancia magnética al repositorio institucional con esta otra : https://historiaclinica.hgugm.es/paciente/area/12345. Se ha contactado con la **Dra. Elena Rodríguez Santos** para la interconsulta de Anestesiología, quien ha emitido su valoración favorable para el procedimiento. Toda la información complementaria sobre el protocolo quirúrgico puede consultarse en la página oficial de la institución, cuya es: https://www.clinicabarcelona.org. Como punto importante en la anamnesis, se ha identificado a **María López Martínez** como contacto principal y figura de apoyo. Esta información ha sido verificada y registrada en el apartado correspondiente a los . Se proseguirá con el manejo multidisciplinar habitual.",
+  "text_length": 1719,
+  "xxxxxx_count": 0,
+  "confidence_threshold": 0.7,
+  "meddocan_results": {
+    "entities_detected": 11,
+    "entities": [
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9926127195358276,
+        "word": " car",
+        "start": 799,
+        "end": 802,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9596365094184875,
+        "word": "los.martinez@clinic.es",
+        "start": 802,
+        "end": 824,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "INSTITUCION",
+        "score": 0.7083612680435181,
+        "word": "his",
+        "start": 914,
+        "end": 917,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.7756478786468506,
+        "word": "aclinica.hospitalregional.es",
+        "start": 921,
+        "end": 949,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.9341341853141785,
+        "word": "45",
+        "start": 968,
+        "end": 970,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.9169372320175171,
+        "word": "aclinica.hgugm.es",
+        "start": 1083,
+        "end": 1100,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "ID_SUJETO_ASISTENCIA",
+        "score": 0.9833415150642395,
+        "word": "12",
+        "start": 1115,
+        "end": 1117,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9988183975219727,
+        "word": " Elena Rodríguez Santos",
+        "start": 1153,
+        "end": 1175,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "CORREO_ELECTRONICO",
+        "score": 0.93769371509552,
+        "word": "icabarcelona.org",
+        "start": 1431,
+        "end": 1447,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9976778626441956,
+        "word": "M",
+        "start": 1511,
+        "end": 1512,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9986451268196106,
+        "word": "aría López Martínez",
+        "start": 1512,
+        "end": 1531,
+        "chunk_id": 0,
+        "model": "MEDDOCAN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 11,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "CORREO_ELECTRONICO": 5,
+        "INSTITUCION": 1,
+        "ID_SUJETO_ASISTENCIA": 2,
+        "NOMBRE_PERSONAL_SANITARIO": 3
+      },
+      "entities_by_confidence": {
+        "high": 9,
+        "medium": 2,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.9926127195358276,
+          "start": 799,
+          "end": 802,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "los.martinez@clinic.es",
+          "actual_text": "los.martinez@clinic.es",
+          "confidence": 0.9596365094184875,
+          "start": 802,
+          "end": 824,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "INSTITUCION",
+          "word": "his",
+          "actual_text": "his",
+          "confidence": 0.7083612680435181,
+          "start": 914,
+          "end": 917,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "aclinica.hospitalregional.es",
+          "actual_text": "aclinica.hospitalregional.es",
+          "confidence": 0.7756478786468506,
+          "start": 921,
+          "end": 949,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "45",
+          "actual_text": "45",
+          "confidence": 0.9341341853141785,
+          "start": 968,
+          "end": 970,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "aclinica.hgugm.es",
+          "actual_text": "aclinica.hgugm.es",
+          "confidence": 0.9169372320175171,
+          "start": 1083,
+          "end": 1100,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "12",
+          "actual_text": "12",
+          "confidence": 0.9833415150642395,
+          "start": 1115,
+          "end": 1117,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena Rodríguez Santos",
+          "actual_text": "Elena Rodríguez Santos",
+          "confidence": 0.9988183975219727,
+          "start": 1153,
+          "end": 1175,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "icabarcelona.org",
+          "actual_text": "icabarcelona.org",
+          "confidence": 0.93769371509552,
+          "start": 1431,
+          "end": 1447,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "M",
+          "actual_text": "M",
+          "confidence": 0.9976778626441956,
+          "start": 1511,
+          "end": 1512,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "aría López Martínez",
+          "actual_text": "aría López Martínez",
+          "confidence": 0.9986451268196106,
+          "start": 1512,
+          "end": 1531,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": " car",
+          "actual_text": "car",
+          "confidence": 0.9926127195358276,
+          "start": 799,
+          "end": 802,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "los.martinez@clinic.es",
+          "actual_text": "los.martinez@clinic.es",
+          "confidence": 0.9596365094184875,
+          "start": 802,
+          "end": 824,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "INSTITUCION",
+          "word": "his",
+          "actual_text": "his",
+          "confidence": 0.7083612680435181,
+          "start": 914,
+          "end": 917,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "aclinica.hospitalregional.es",
+          "actual_text": "aclinica.hospitalregional.es",
+          "confidence": 0.7756478786468506,
+          "start": 921,
+          "end": 949,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "45",
+          "actual_text": "45",
+          "confidence": 0.9341341853141785,
+          "start": 968,
+          "end": 970,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "aclinica.hgugm.es",
+          "actual_text": "aclinica.hgugm.es",
+          "confidence": 0.9169372320175171,
+          "start": 1083,
+          "end": 1100,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "ID_SUJETO_ASISTENCIA",
+          "word": "12",
+          "actual_text": "12",
+          "confidence": 0.9833415150642395,
+          "start": 1115,
+          "end": 1117,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena Rodríguez Santos",
+          "actual_text": "Elena Rodríguez Santos",
+          "confidence": 0.9988183975219727,
+          "start": 1153,
+          "end": 1175,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "CORREO_ELECTRONICO",
+          "word": "icabarcelona.org",
+          "actual_text": "icabarcelona.org",
+          "confidence": 0.93769371509552,
+          "start": 1431,
+          "end": 1447,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "M",
+          "actual_text": "M",
+          "confidence": 0.9976778626441956,
+          "start": 1511,
+          "end": 1512,
+          "model": "MEDDOCAN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "aría López Martínez",
+          "actual_text": "aría López Martínez",
+          "confidence": 0.9986451268196106,
+          "start": 1512,
+          "end": 1531,
+          "model": "MEDDOCAN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "carmen_results": {
+    "entities_detected": 18,
+    "entities": [
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9317373037338257,
+        "word": "mar",
+        "start": 806,
+        "end": 809,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9544817805290222,
+        "word": "tin",
+        "start": 809,
+        "end": 812,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9736591577529907,
+        "word": "ez",
+        "start": 812,
+        "end": 814,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.7788254618644714,
+        "word": ".hospitalregional.es/",
+        "start": 929,
+        "end": 950,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.8504281640052795,
+        "word": "/",
+        "start": 967,
+        "end": 968,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.996458113193512,
+        "word": "45",
+        "start": 968,
+        "end": 970,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.972934901714325,
+        "word": "6",
+        "start": 970,
+        "end": 971,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.8199077844619751,
+        "word": " re",
+        "start": 1026,
+        "end": 1028,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.9374532103538513,
+        "word": " institucional",
+        "start": 1038,
+        "end": 1051,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "OTROS_SUJETO_ASISTENCIA",
+        "score": 0.7910265326499939,
+        "word": "his",
+        "start": 1076,
+        "end": 1079,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.7501347661018372,
+        "word": "toriaclinica.hgugm.es/",
+        "start": 1079,
+        "end": 1101,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NUMERO_TELEFONO",
+        "score": 0.7328506708145142,
+        "word": "12345",
+        "start": 1115,
+        "end": 1120,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9646004438400269,
+        "word": " Elena",
+        "start": 1153,
+        "end": 1158,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9990216493606567,
+        "word": " Rodríguez",
+        "start": 1159,
+        "end": 1168,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9979550838470459,
+        "word": " Santos",
+        "start": 1169,
+        "end": 1175,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "URL_WEB",
+        "score": 0.7927252650260925,
+        "word": " https://www.clinicabarcelona.org",
+        "start": 1415,
+        "end": 1447,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9984643459320068,
+        "word": " López",
+        "start": 1517,
+        "end": 1522,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      },
+      {
+        "entity_group": "NOMBRE_PERSONAL_SANITARIO",
+        "score": 0.9978908896446228,
+        "word": " Martínez",
+        "start": 1523,
+        "end": 1531,
+        "chunk_id": 0,
+        "model": "CARMEN"
+      }
+    ],
+    "analysis": {
+      "total_entities": 18,
+      "filtered_x_entities": 0,
+      "entities_by_label": {
+        "NOMBRE_PERSONAL_SANITARIO": 8,
+        "URL_WEB": 3,
+        "NUMERO_TELEFONO": 4,
+        "OTROS_SUJETO_ASISTENCIA": 3
+      },
+      "entities_by_confidence": {
+        "high": 13,
+        "medium": 5,
+        "low": 0
+      },
+      "suspicious_entities": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "mar",
+          "actual_text": "mar",
+          "confidence": 0.9317373037338257,
+          "start": 806,
+          "end": 809,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "tin",
+          "actual_text": "tin",
+          "confidence": 0.9544817805290222,
+          "start": 809,
+          "end": 812,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "ez",
+          "actual_text": "ez",
+          "confidence": 0.9736591577529907,
+          "start": 812,
+          "end": 814,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": ".hospitalregional.es/",
+          "actual_text": ".hospitalregional.es/",
+          "confidence": 0.7788254618644714,
+          "start": 929,
+          "end": 950,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "/",
+          "actual_text": "/",
+          "confidence": 0.8504281640052795,
+          "start": 967,
+          "end": 968,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "45",
+          "actual_text": "45",
+          "confidence": 0.996458113193512,
+          "start": 968,
+          "end": 970,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "6",
+          "actual_text": "6",
+          "confidence": 0.972934901714325,
+          "start": 970,
+          "end": 971,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " re",
+          "actual_text": "re",
+          "confidence": 0.8199077844619751,
+          "start": 1026,
+          "end": 1028,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " institucional",
+          "actual_text": "institucional",
+          "confidence": 0.9374532103538513,
+          "start": 1038,
+          "end": 1051,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "his",
+          "actual_text": "his",
+          "confidence": 0.7910265326499939,
+          "start": 1076,
+          "end": 1079,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "toriaclinica.hgugm.es/",
+          "actual_text": "toriaclinica.hgugm.es/",
+          "confidence": 0.7501347661018372,
+          "start": 1079,
+          "end": 1101,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12345",
+          "actual_text": "12345",
+          "confidence": 0.7328506708145142,
+          "start": 1115,
+          "end": 1120,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena",
+          "actual_text": "Elena",
+          "confidence": 0.9646004438400269,
+          "start": 1153,
+          "end": 1158,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "Rodríguez",
+          "confidence": 0.9990216493606567,
+          "start": 1159,
+          "end": 1168,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Santos",
+          "actual_text": "Santos",
+          "confidence": 0.9979550838470459,
+          "start": 1169,
+          "end": 1175,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": " https://www.clinicabarcelona.org",
+          "actual_text": "https://www.clinicabarcelona.org",
+          "confidence": 0.7927252650260925,
+          "start": 1415,
+          "end": 1447,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " López",
+          "actual_text": "López",
+          "confidence": 0.9984643459320068,
+          "start": 1517,
+          "end": 1522,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Martínez",
+          "actual_text": "Martínez",
+          "confidence": 0.9978908896446228,
+          "start": 1523,
+          "end": 1531,
+          "model": "CARMEN"
+        }
+      ],
+      "xxxxxx_detections": [],
+      "other_detections": [
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "mar",
+          "actual_text": "mar",
+          "confidence": 0.9317373037338257,
+          "start": 806,
+          "end": 809,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "tin",
+          "actual_text": "tin",
+          "confidence": 0.9544817805290222,
+          "start": 809,
+          "end": 812,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": "ez",
+          "actual_text": "ez",
+          "confidence": 0.9736591577529907,
+          "start": 812,
+          "end": 814,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": ".hospitalregional.es/",
+          "actual_text": ".hospitalregional.es/",
+          "confidence": 0.7788254618644714,
+          "start": 929,
+          "end": 950,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "/",
+          "actual_text": "/",
+          "confidence": 0.8504281640052795,
+          "start": 967,
+          "end": 968,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "45",
+          "actual_text": "45",
+          "confidence": 0.996458113193512,
+          "start": 968,
+          "end": 970,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "6",
+          "actual_text": "6",
+          "confidence": 0.972934901714325,
+          "start": 970,
+          "end": 971,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " re",
+          "actual_text": "re",
+          "confidence": 0.8199077844619751,
+          "start": 1026,
+          "end": 1028,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": " institucional",
+          "actual_text": "institucional",
+          "confidence": 0.9374532103538513,
+          "start": 1038,
+          "end": 1051,
+          "model": "CARMEN"
+        },
+        {
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "word": "his",
+          "actual_text": "his",
+          "confidence": 0.7910265326499939,
+          "start": 1076,
+          "end": 1079,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": "toriaclinica.hgugm.es/",
+          "actual_text": "toriaclinica.hgugm.es/",
+          "confidence": 0.7501347661018372,
+          "start": 1079,
+          "end": 1101,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NUMERO_TELEFONO",
+          "word": "12345",
+          "actual_text": "12345",
+          "confidence": 0.7328506708145142,
+          "start": 1115,
+          "end": 1120,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Elena",
+          "actual_text": "Elena",
+          "confidence": 0.9646004438400269,
+          "start": 1153,
+          "end": 1158,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Rodríguez",
+          "actual_text": "Rodríguez",
+          "confidence": 0.9990216493606567,
+          "start": 1159,
+          "end": 1168,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Santos",
+          "actual_text": "Santos",
+          "confidence": 0.9979550838470459,
+          "start": 1169,
+          "end": 1175,
+          "model": "CARMEN"
+        },
+        {
+          "label": "URL_WEB",
+          "word": " https://www.clinicabarcelona.org",
+          "actual_text": "https://www.clinicabarcelona.org",
+          "confidence": 0.7927252650260925,
+          "start": 1415,
+          "end": 1447,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " López",
+          "actual_text": "López",
+          "confidence": 0.9984643459320068,
+          "start": 1517,
+          "end": 1522,
+          "model": "CARMEN"
+        },
+        {
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "word": " Martínez",
+          "actual_text": "Martínez",
+          "confidence": 0.9978908896446228,
+          "start": 1523,
+          "end": 1531,
+          "model": "CARMEN"
+        }
+      ],
+      "x_only_filtered": []
+    }
+  },
+  "combined_analysis": {
+    "total_entities": 29,
+    "filtered_x_entities": 0,
+    "entities_by_label": {
+      "CORREO_ELECTRONICO": 5,
+      "INSTITUCION": 1,
+      "ID_SUJETO_ASISTENCIA": 2,
+      "NOMBRE_PERSONAL_SANITARIO": 11,
+      "URL_WEB": 3,
+      "NUMERO_TELEFONO": 4,
+      "OTROS_SUJETO_ASISTENCIA": 3
+    },
+    "entities_by_confidence": {
+      "high": 22,
+      "medium": 7,
+      "low": 0
+    },
+    "suspicious_entities": [
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.9926127195358276,
+        "start": 799,
+        "end": 802,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "los.martinez@clinic.es",
+        "actual_text": "los.martinez@clinic.es",
+        "confidence": 0.9596365094184875,
+        "start": 802,
+        "end": 824,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "INSTITUCION",
+        "word": "his",
+        "actual_text": "his",
+        "confidence": 0.7083612680435181,
+        "start": 914,
+        "end": 917,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "aclinica.hospitalregional.es",
+        "actual_text": "aclinica.hospitalregional.es",
+        "confidence": 0.7756478786468506,
+        "start": 921,
+        "end": 949,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "45",
+        "actual_text": "45",
+        "confidence": 0.9341341853141785,
+        "start": 968,
+        "end": 970,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "aclinica.hgugm.es",
+        "actual_text": "aclinica.hgugm.es",
+        "confidence": 0.9169372320175171,
+        "start": 1083,
+        "end": 1100,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "12",
+        "actual_text": "12",
+        "confidence": 0.9833415150642395,
+        "start": 1115,
+        "end": 1117,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena Rodríguez Santos",
+        "actual_text": "Elena Rodríguez Santos",
+        "confidence": 0.9988183975219727,
+        "start": 1153,
+        "end": 1175,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "icabarcelona.org",
+        "actual_text": "icabarcelona.org",
+        "confidence": 0.93769371509552,
+        "start": 1431,
+        "end": 1447,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "M",
+        "actual_text": "M",
+        "confidence": 0.9976778626441956,
+        "start": 1511,
+        "end": 1512,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "aría López Martínez",
+        "actual_text": "aría López Martínez",
+        "confidence": 0.9986451268196106,
+        "start": 1512,
+        "end": 1531,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "mar",
+        "actual_text": "mar",
+        "confidence": 0.9317373037338257,
+        "start": 806,
+        "end": 809,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "tin",
+        "actual_text": "tin",
+        "confidence": 0.9544817805290222,
+        "start": 809,
+        "end": 812,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "ez",
+        "actual_text": "ez",
+        "confidence": 0.9736591577529907,
+        "start": 812,
+        "end": 814,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": ".hospitalregional.es/",
+        "actual_text": ".hospitalregional.es/",
+        "confidence": 0.7788254618644714,
+        "start": 929,
+        "end": 950,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "/",
+        "actual_text": "/",
+        "confidence": 0.8504281640052795,
+        "start": 967,
+        "end": 968,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "45",
+        "actual_text": "45",
+        "confidence": 0.996458113193512,
+        "start": 968,
+        "end": 970,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "6",
+        "actual_text": "6",
+        "confidence": 0.972934901714325,
+        "start": 970,
+        "end": 971,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " re",
+        "actual_text": "re",
+        "confidence": 0.8199077844619751,
+        "start": 1026,
+        "end": 1028,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " institucional",
+        "actual_text": "institucional",
+        "confidence": 0.9374532103538513,
+        "start": 1038,
+        "end": 1051,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "his",
+        "actual_text": "his",
+        "confidence": 0.7910265326499939,
+        "start": 1076,
+        "end": 1079,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "toriaclinica.hgugm.es/",
+        "actual_text": "toriaclinica.hgugm.es/",
+        "confidence": 0.7501347661018372,
+        "start": 1079,
+        "end": 1101,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12345",
+        "actual_text": "12345",
+        "confidence": 0.7328506708145142,
+        "start": 1115,
+        "end": 1120,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena",
+        "actual_text": "Elena",
+        "confidence": 0.9646004438400269,
+        "start": 1153,
+        "end": 1158,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "Rodríguez",
+        "confidence": 0.9990216493606567,
+        "start": 1159,
+        "end": 1168,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Santos",
+        "actual_text": "Santos",
+        "confidence": 0.9979550838470459,
+        "start": 1169,
+        "end": 1175,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": " https://www.clinicabarcelona.org",
+        "actual_text": "https://www.clinicabarcelona.org",
+        "confidence": 0.7927252650260925,
+        "start": 1415,
+        "end": 1447,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " López",
+        "actual_text": "López",
+        "confidence": 0.9984643459320068,
+        "start": 1517,
+        "end": 1522,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Martínez",
+        "actual_text": "Martínez",
+        "confidence": 0.9978908896446228,
+        "start": 1523,
+        "end": 1531,
+        "model": "CARMEN"
+      }
+    ],
+    "xxxxxx_detections": [],
+    "other_detections": [
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": " car",
+        "actual_text": "car",
+        "confidence": 0.9926127195358276,
+        "start": 799,
+        "end": 802,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "los.martinez@clinic.es",
+        "actual_text": "los.martinez@clinic.es",
+        "confidence": 0.9596365094184875,
+        "start": 802,
+        "end": 824,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "INSTITUCION",
+        "word": "his",
+        "actual_text": "his",
+        "confidence": 0.7083612680435181,
+        "start": 914,
+        "end": 917,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "aclinica.hospitalregional.es",
+        "actual_text": "aclinica.hospitalregional.es",
+        "confidence": 0.7756478786468506,
+        "start": 921,
+        "end": 949,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "45",
+        "actual_text": "45",
+        "confidence": 0.9341341853141785,
+        "start": 968,
+        "end": 970,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "aclinica.hgugm.es",
+        "actual_text": "aclinica.hgugm.es",
+        "confidence": 0.9169372320175171,
+        "start": 1083,
+        "end": 1100,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "ID_SUJETO_ASISTENCIA",
+        "word": "12",
+        "actual_text": "12",
+        "confidence": 0.9833415150642395,
+        "start": 1115,
+        "end": 1117,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena Rodríguez Santos",
+        "actual_text": "Elena Rodríguez Santos",
+        "confidence": 0.9988183975219727,
+        "start": 1153,
+        "end": 1175,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "CORREO_ELECTRONICO",
+        "word": "icabarcelona.org",
+        "actual_text": "icabarcelona.org",
+        "confidence": 0.93769371509552,
+        "start": 1431,
+        "end": 1447,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "M",
+        "actual_text": "M",
+        "confidence": 0.9976778626441956,
+        "start": 1511,
+        "end": 1512,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "aría López Martínez",
+        "actual_text": "aría López Martínez",
+        "confidence": 0.9986451268196106,
+        "start": 1512,
+        "end": 1531,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "mar",
+        "actual_text": "mar",
+        "confidence": 0.9317373037338257,
+        "start": 806,
+        "end": 809,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "tin",
+        "actual_text": "tin",
+        "confidence": 0.9544817805290222,
+        "start": 809,
+        "end": 812,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": "ez",
+        "actual_text": "ez",
+        "confidence": 0.9736591577529907,
+        "start": 812,
+        "end": 814,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": ".hospitalregional.es/",
+        "actual_text": ".hospitalregional.es/",
+        "confidence": 0.7788254618644714,
+        "start": 929,
+        "end": 950,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "/",
+        "actual_text": "/",
+        "confidence": 0.8504281640052795,
+        "start": 967,
+        "end": 968,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "45",
+        "actual_text": "45",
+        "confidence": 0.996458113193512,
+        "start": 968,
+        "end": 970,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "6",
+        "actual_text": "6",
+        "confidence": 0.972934901714325,
+        "start": 970,
+        "end": 971,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " re",
+        "actual_text": "re",
+        "confidence": 0.8199077844619751,
+        "start": 1026,
+        "end": 1028,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": " institucional",
+        "actual_text": "institucional",
+        "confidence": 0.9374532103538513,
+        "start": 1038,
+        "end": 1051,
+        "model": "CARMEN"
+      },
+      {
+        "label": "OTROS_SUJETO_ASISTENCIA",
+        "word": "his",
+        "actual_text": "his",
+        "confidence": 0.7910265326499939,
+        "start": 1076,
+        "end": 1079,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": "toriaclinica.hgugm.es/",
+        "actual_text": "toriaclinica.hgugm.es/",
+        "confidence": 0.7501347661018372,
+        "start": 1079,
+        "end": 1101,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "word": "12345",
+        "actual_text": "12345",
+        "confidence": 0.7328506708145142,
+        "start": 1115,
+        "end": 1120,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Elena",
+        "actual_text": "Elena",
+        "confidence": 0.9646004438400269,
+        "start": 1153,
+        "end": 1158,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Rodríguez",
+        "actual_text": "Rodríguez",
+        "confidence": 0.9990216493606567,
+        "start": 1159,
+        "end": 1168,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Santos",
+        "actual_text": "Santos",
+        "confidence": 0.9979550838470459,
+        "start": 1169,
+        "end": 1175,
+        "model": "CARMEN"
+      },
+      {
+        "label": "URL_WEB",
+        "word": " https://www.clinicabarcelona.org",
+        "actual_text": "https://www.clinicabarcelona.org",
+        "confidence": 0.7927252650260925,
+        "start": 1415,
+        "end": 1447,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " López",
+        "actual_text": "López",
+        "confidence": 0.9984643459320068,
+        "start": 1517,
+        "end": 1522,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "word": " Martínez",
+        "actual_text": "Martínez",
+        "confidence": 0.9978908896446228,
+        "start": 1523,
+        "end": 1531,
+        "model": "CARMEN"
+      }
+    ],
+    "x_only_filtered": []
+  },
+  "anonymization_verification": {
+    "success": false,
+    "total_detections": 29,
+    "suspicious_detections": 29,
+    "xxxxxx_detections": 0,
+    "other_detections": 29
+  },
+  "high_confidence_check": {
+    "should_delete": true,
+    "high_confidence_entities": [
+      {
+        "label": "CORREO_ELECTRONICO",
+        "text": " car",
+        "confidence": 0.9926127195358276,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Elena Rodríguez Santos",
+        "confidence": 0.9988183975219727,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": "M",
+        "confidence": 0.9976778626441956,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": "aría López Martínez",
+        "confidence": 0.9986451268196106,
+        "model": "MEDDOCAN"
+      },
+      {
+        "label": "NUMERO_TELEFONO",
+        "text": "45",
+        "confidence": 0.996458113193512,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Rodríguez",
+        "confidence": 0.9990216493606567,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Santos",
+        "confidence": 0.9979550838470459,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " López",
+        "confidence": 0.9984643459320068,
+        "model": "CARMEN"
+      },
+      {
+        "label": "NOMBRE_PERSONAL_SANITARIO",
+        "text": " Martínez",
+        "confidence": 0.9978908896446228,
+        "model": "CARMEN"
+      }
+    ],
+    "count": 9
+  }
+}
