@@ -233,6 +233,12 @@ Ejemplos de uso:
       --whitelist data/hospitales.json data/lugares.json \\
       --blacklist data/medicamentos.json data/patologias.json
 
+  # Con CIE10 para filtrado de patologías médicas
+  python apply_first_filter.py -i outputs/test_results.json -o outputs/first_filter_results.json \\
+      --whitelist data/hospitales.json data/lugares.json \\
+      --blacklist data/medicamentos.json data/patologias.json \\
+      --cie10 LISTAS/cie10.xls
+
   # Modo verbose
   python apply_first_filter.py -i outputs/test_results.json -o outputs/first_filter_results.json -v
         """
@@ -263,6 +269,11 @@ Ejemplos de uso:
     )
     
     parser.add_argument(
+        "--cie10", "-c",
+        help="Ruta al archivo Excel CIE10 (.xls o .xlsx) con códigos de diagnósticos médicos"
+    )
+    
+    parser.add_argument(
         "--verbose", "-v",
         action="store_true",
         help="Muestra información detallada del procesamiento"
@@ -285,13 +296,16 @@ def main():
         
         entity_filter = EntityFastFilter(
             whitelist_paths=args.whitelist,
-            blacklist_paths=args.blacklist
+            blacklist_paths=args.blacklist,
+            cie10_path=args.cie10
         )
         
         stats = entity_filter.get_stats()
         log_info(f"  → {entity_filter}")
         log_info(f"     - WhiteList terms: {stats['whitelist_terms']}")
         log_info(f"     - BlackList terms: {stats['blacklist_terms']}")
+        if stats.get('cie10_loaded'):
+            log_info(f"     - CIE10 terms: {stats['cie10_terms']}")
         
         if stats['whitelist_terms'] == 0 and stats['blacklist_terms'] == 0:
             log_warn("  ⚠ No se cargaron listas, todas las entidades irán a ESCALATE_TO_LLM")
