@@ -60,7 +60,8 @@ def run_setfit_filter(
                     "is_pii": True,
                     "confidence": 0.92,
                     "classification_method": "setfit",
-                    "decision": "KEEP",  # KEEP = es PII, FILTER = es ruido
+                    "classification": "PII",  # PII = es PII real, RUIDO = no es PII
+                    "classification_source": "setfit",  # Trazabilidad
                     "details": {...}
                 },
                 ...
@@ -119,6 +120,9 @@ def run_setfit_filter(
         )
         
         # Construir resultado
+        # SetFit actúa como filtro binario de primera línea:
+        # - PII: Modelo cree que es información sensible → va directo a salida final
+        # - RUIDO: Modelo cree que NO es PII → pasa a dict_filters/LLM para posible rescate
         result = {
             # Datos originales
             "document_id": doc_id,
@@ -127,11 +131,12 @@ def run_setfit_filter(
             "start": start,
             "end": end,
             "context": context,
-            # Clasificación SetFit
+            # Clasificación SetFit (binaria)
             "is_pii": classification.is_pii,
             "confidence": classification.confidence,
             "classification_method": classification.classification_method,
-            "decision": "KEEP" if classification.is_pii else "FILTER",
+            "classification": "PII" if classification.is_pii else "RUIDO",
+            "classification_source": "setfit",  # Trazabilidad: quién clasificó
             "details": classification.details,
         }
         

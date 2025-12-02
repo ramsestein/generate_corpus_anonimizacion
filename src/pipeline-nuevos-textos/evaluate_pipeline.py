@@ -312,19 +312,39 @@ def evaluate_pipeline(
     """
     metrics = PipelineMetrics()
     
-    # Extraer metadata
+    # Extraer metadata - soportar múltiples formatos de salida
     metadata = results.get('metadata', {})
-    pipeline_stats = results.get('pipeline_stats', metadata.get('pipeline_stats', {}))
     
-    metrics.total_input = pipeline_stats.get('input_entities', 0)
-    metrics.total_output = pipeline_stats.get('output_entities', 0)
-    metrics.total_time_seconds = pipeline_stats.get('total_time_seconds', 0)
+    # El pipeline guarda stats en metadata.stats, no pipeline_stats
+    pipeline_stats = results.get('pipeline_stats', {})
+    if not pipeline_stats:
+        pipeline_stats = metadata.get('pipeline_stats', {})
+    if not pipeline_stats:
+        pipeline_stats = metadata.get('stats', {})  # Formato de resultados_completo.json
+    
+    # Mapear campos correctamente según el formato
+    # resultados_completo.json usa: total_input, final_output, execution_time
+    metrics.total_input = pipeline_stats.get('input_entities', 
+                         pipeline_stats.get('total_input', 0))
+    metrics.total_output = pipeline_stats.get('output_entities',
+                          pipeline_stats.get('final_output', 
+                          metadata.get('total_entities', 0)))
+    metrics.total_time_seconds = pipeline_stats.get('total_time_seconds',
+                                pipeline_stats.get('execution_time', 0))
     
     # Extraer decisiones
     decisions = results.get('decisions', results.get('results', []))
     
-    # Métricas por etapa
+    # Métricas por etapa - soportar formato de resultados_completo.json
     setfit_stats = pipeline_stats.get('setfit', {})
+    if not setfit_stats and 'setfit_kept' in pipeline_stats:
+        # Reconstruir desde formato plano
+        setfit_stats = {
+            'input': pipeline_stats.get('total_input', 0),
+            'kept': pipeline_stats.get('setfit_kept', 0),
+            'filtered': pipeline_stats.get('setfit_filtered', 0),
+        }
+        setfit_stats['output'] = setfit_stats['kept']
     if setfit_stats:
         metrics.stages['setfit'] = StageMetrics(
             name='setfit',
@@ -335,6 +355,14 @@ def evaluate_pipeline(
         )
     
     dict_stats = pipeline_stats.get('dict_filters', {})
+    if not dict_stats and 'dict_kept' in pipeline_stats:
+        dict_stats = {
+            'input': pipeline_stats.get('setfit_kept', 0),
+            'kept': pipeline_stats.get('dict_kept', 0),
+            'filtered': pipeline_stats.get('dict_filtered', 0),
+            'escalated': pipeline_stats.get('dict_escalated', 0),
+        }
+        dict_stats['output'] = dict_stats['kept'] + dict_stats['escalated']
     if dict_stats:
         metrics.stages['dict_filters'] = StageMetrics(
             name='dict_filters',
@@ -346,6 +374,13 @@ def evaluate_pipeline(
         )
     
     llm_stats = pipeline_stats.get('llm', {})
+    if not llm_stats and 'llm_kept' in pipeline_stats:
+        llm_stats = {
+            'input': pipeline_stats.get('dict_escalated', 0),
+            'kept': pipeline_stats.get('llm_kept', 0),
+            'filtered': pipeline_stats.get('llm_filtered', 0),
+        }
+        llm_stats['output'] = llm_stats['kept']
     if llm_stats:
         metrics.stages['llm'] = StageMetrics(
             name='llm',
@@ -376,8 +411,13 @@ def evaluate_pipeline(
     if ground_truth:
         logger.info("Evaluando contra ground truth...")
         
-        # Agrupar predicciones por documento
-        predictions_by_doc = defaultdict(set)
+        # Agrupar predicciones por documento - SOLO POR TEXTO (ignorar label)
+        # Esto es porque los modelos NER asignan etiquetas diferentes al GT
+        # pero lo importante es si detectamos/conservamos las entidades sensibles
+        predictions_by_doc_text = defaultdict(set)  # Solo textos normalizados
+        predictions_by_doc_full = defaultdict(set)  # (texto, label) para métricas por label
+        processed_doc_ids = set()
+        
         for decision in decisions:
             doc_id = decision.get('document_id', decision.get('doc_id', ''))
             text = decision.get('entity_text', decision.get('text', ''))
@@ -385,39 +425,73 @@ def evaluate_pipeline(
             final = decision.get('final_decision', decision.get('decision', ''))
             is_kept = final == 'KEEP' or final is True
             
-            if text and label and doc_id and is_kept:
+            if doc_id:
+                processed_doc_ids.add(doc_id)
+            
+            if text and doc_id and is_kept:
                 text_norm = normalize_text(text)
-                predictions_by_doc[doc_id].add((text_norm, label))
+                predictions_by_doc_text[doc_id].add(text_norm)
+                if label:
+                    predictions_by_doc_full[doc_id].add((text_norm, label))
         
-        # Calcular métricas globales
-        all_docs = set(ground_truth.keys()) | set(predictions_by_doc.keys())
+        # Extraer solo textos del GT (ignorar labels para métricas globales)
+        gt_by_doc_text = defaultdict(set)
+        for doc_id, gt_set in ground_truth.items():
+            for text, label in gt_set:
+                gt_by_doc_text[doc_id].add(text)
         
-        for doc_id in all_docs:
-            gt_set = ground_truth.get(doc_id, set())
-            pred_set = predictions_by_doc.get(doc_id, set())
+        # CRÍTICO: Solo evaluar documentos que fueron procesados por el pipeline
+        if processed_doc_ids:
+            eval_docs = processed_doc_ids
+            logger.info(f"Evaluando {len(eval_docs)} documentos procesados contra GT")
+        else:
+            eval_docs = set(predictions_by_doc_text.keys())
+            logger.warning("No se encontraron doc_ids en decisiones, usando predicciones")
+        
+        # Calcular métricas globales SOLO POR TEXTO (ignorar labels)
+        for doc_id in eval_docs:
+            gt_texts = gt_by_doc_text.get(doc_id, set())
+            pred_texts = predictions_by_doc_text.get(doc_id, set())
             
-            metrics.tp += len(gt_set & pred_set)
-            metrics.fp += len(pred_set - gt_set)
-            metrics.fn += len(gt_set - pred_set)
+            # TP: textos que están en GT Y en predicciones KEEP
+            metrics.tp += len(gt_texts & pred_texts)
+            # FP: textos en predicciones KEEP pero NO en GT (falsos positivos)
+            metrics.fp += len(pred_texts - gt_texts)
+            # FN: textos en GT pero NO en predicciones KEEP (perdimos entidades reales)
+            metrics.fn += len(gt_texts - pred_texts)
         
-        # Calcular métricas por etiqueta
-        for doc_id in all_docs:
+        # Info de diagnóstico
+        docs_with_gt = len([d for d in eval_docs if d in ground_truth])
+        docs_without_gt = len([d for d in eval_docs if d not in ground_truth])
+        logger.info(f"Documentos con GT: {docs_with_gt}, sin GT: {docs_without_gt}")
+        
+        total_gt_texts = sum(len(gt_by_doc_text.get(d, set())) for d in eval_docs)
+        total_pred_texts = sum(len(predictions_by_doc_text.get(d, set())) for d in eval_docs)
+        logger.info(f"Total textos GT: {total_gt_texts}, Total textos KEEP: {total_pred_texts}")
+        
+        # Calcular métricas por etiqueta (usando label del GT)
+        for doc_id in eval_docs:
             gt_set = ground_truth.get(doc_id, set())
-            pred_set = predictions_by_doc.get(doc_id, set())
+            pred_texts = predictions_by_doc_text.get(doc_id, set())
             
-            for text, label in gt_set | pred_set:
+            for text, label in gt_set:
                 if label not in metrics.labels:
                     metrics.labels[label] = LabelMetrics(label=label)
                 
-                in_gt = (text, label) in gt_set
-                in_pred = (text, label) in pred_set
-                
-                if in_gt and in_pred:
+                # Buscar si el texto (sin importar label) está en predicciones
+                if text in pred_texts:
                     metrics.labels[label].tp += 1
-                elif in_pred and not in_gt:
-                    metrics.labels[label].fp += 1
-                elif in_gt and not in_pred:
+                else:
                     metrics.labels[label].fn += 1
+            
+            # FP por label: predicciones que no están en GT
+            gt_texts = gt_by_doc_text.get(doc_id, set())
+            pred_set = predictions_by_doc_full.get(doc_id, set())
+            for text, label in pred_set:
+                if text not in gt_texts:
+                    if label not in metrics.labels:
+                        metrics.labels[label] = LabelMetrics(label=label)
+                    metrics.labels[label].fp += 1
     
     return metrics
 
@@ -430,10 +504,11 @@ def print_metrics(metrics: PipelineMetrics):
     
     print(f"\n🔢 MÉTRICAS GLOBALES:")
     print(f"  Entidades entrada: {metrics.total_input}")
-    print(f"  Entidades salida: {metrics.total_output}")
+    print(f"  Entidades salida (total_output): {metrics.total_output}")
     print(f"  Mantenidas (KEEP): {metrics.total_kept}")
     print(f"  Filtradas (FILTER): {metrics.total_filtered}")
-    print(f"  Reducción: {metrics.reduction_rate:.1f}%")
+    if metrics.total_input > 0:
+        print(f"  Reducción: {metrics.reduction_rate:.1f}%")
     print(f"  Tiempo total: {metrics.total_time_seconds:.2f}s")
     
     if metrics.stages:

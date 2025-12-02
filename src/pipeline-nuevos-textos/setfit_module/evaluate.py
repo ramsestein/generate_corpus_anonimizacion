@@ -151,6 +151,21 @@ def load_entities(file_path: str) -> List[Dict[str, Any]]:
     raise ValueError(f"Formato no reconocido en {file_path}")
 
 
+def normalize_text(text: str) -> str:
+    """Normaliza texto para comparación: minúsculas, sin tildes, espacios normalizados."""
+    import unicodedata
+    # Minúsculas y strip
+    text = text.lower().strip()
+    # Quitar tildes/acentos
+    text = ''.join(
+        c for c in unicodedata.normalize('NFD', text)
+        if unicodedata.category(c) != 'Mn'
+    )
+    # Normalizar espacios múltiples
+    text = ' '.join(text.split())
+    return text
+
+
 def load_ground_truth(gt_path: str) -> Dict[str, Set[Tuple[str, str]]]:
     """
     Carga ground truth desde directorio o archivo consolidado.
@@ -170,28 +185,38 @@ def load_ground_truth(gt_path: str) -> Dict[str, Set[Tuple[str, str]]]:
         
         for ent in entities:
             doc_id = ent.get('doc_id', ent.get('document_id', ''))
-            text = ent.get('texto_detectado', ent.get('entity_text', ent.get('text', ''))).strip().lower()
-            label = ent.get('etiqueta', ent.get('label', ''))
+            text = ent.get('texto_detectado', ent.get('entity_text', ent.get('text', '')))
+            label = ent.get('etiqueta', ent.get('label', ent.get('entity', '')))
             
             if text and label and doc_id:
-                ground_truth[doc_id].add((text, label))
+                text_norm = normalize_text(text)
+                ground_truth[doc_id].add((text_norm, label))
     
     elif gt_path.is_dir():
         # Directorio con archivos individuales
+        # Formato corpus ANTIGUO: {"id": "...", "data": [{"entity": "...", "text": "..."}]}
         for json_file in gt_path.glob("*.json"):
             doc_id = json_file.stem
             
             with open(json_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
             
-            entities = data if isinstance(data, list) else data.get('entities', data.get('entidades', []))
+            # Soportar múltiples formatos
+            if isinstance(data, dict) and 'data' in data:
+                entities = data['data']
+            elif isinstance(data, list):
+                entities = data
+            else:
+                entities = data.get('entities', data.get('entidades', []))
             
             for ent in entities:
-                text = ent.get('text', ent.get('texto_detectado', '')).strip().lower()
-                label = ent.get('label', ent.get('etiqueta', ''))
+                # Campos del formato ANTIGUO: "entity" y "text"
+                text = ent.get('text', ent.get('texto_detectado', ''))
+                label = ent.get('entity', ent.get('label', ent.get('etiqueta', '')))
                 
                 if text and label:
-                    ground_truth[doc_id].add((text, label))
+                    text_norm = normalize_text(text)
+                    ground_truth[doc_id].add((text_norm, label))
     
     return dict(ground_truth)
 
@@ -253,19 +278,30 @@ def evaluate_setfit(
         
         # Agrupar predicciones por documento
         predictions_by_doc = defaultdict(set)
+        processed_doc_ids = set()
+        
         for result in results:
             doc_id = result.get('document_id', result.get('doc_id', ''))
-            text = result.get('entity_text', result.get('text', '')).strip().lower()
+            text = result.get('entity_text', result.get('text', ''))
             label = result.get('label', '')
             is_pii = result.get('is_pii', result.get('decision') == 'KEEP')
             
+            if doc_id:
+                processed_doc_ids.add(doc_id)
+            
             if text and label and doc_id and is_pii:
-                predictions_by_doc[doc_id].add((text, label))
+                text_norm = normalize_text(text)
+                predictions_by_doc[doc_id].add((text_norm, label))
         
-        # Calcular métricas por documento
-        all_docs = set(ground_truth.keys()) | set(predictions_by_doc.keys())
+        # CRÍTICO: Solo evaluar documentos procesados, no todos los del GT
+        if processed_doc_ids:
+            eval_docs = processed_doc_ids
+            logger.info(f"Evaluando {len(eval_docs)} documentos procesados contra GT")
+        else:
+            eval_docs = set(predictions_by_doc.keys())
         
-        for doc_id in all_docs:
+        # Calcular métricas por documento (solo docs procesados)
+        for doc_id in eval_docs:
             gt_set = ground_truth.get(doc_id, set())
             pred_set = predictions_by_doc.get(doc_id, set())
             

@@ -150,6 +150,21 @@ def load_entities(file_path: str) -> List[Dict[str, Any]]:
     raise ValueError(f"Formato no reconocido en {file_path}")
 
 
+def normalize_text(text: str) -> str:
+    """Normaliza texto para comparación: minúsculas, sin tildes, espacios normalizados."""
+    import unicodedata
+    # Minúsculas y strip
+    text = text.lower().strip()
+    # Quitar tildes/acentos
+    text = ''.join(
+        c for c in unicodedata.normalize('NFD', text)
+        if unicodedata.category(c) != 'Mn'
+    )
+    # Normalizar espacios múltiples
+    text = ' '.join(text.split())
+    return text
+
+
 def load_ground_truth(gt_path: str) -> Dict[str, Set[Tuple[str, str]]]:
     """Carga ground truth desde directorio o archivo."""
     gt_path = Path(gt_path)
@@ -163,27 +178,38 @@ def load_ground_truth(gt_path: str) -> Dict[str, Set[Tuple[str, str]]]:
         
         for ent in entities:
             doc_id = ent.get('doc_id', ent.get('document_id', ''))
-            text = ent.get('texto_detectado', ent.get('entity_text', ent.get('text', ''))).strip().lower()
-            label = ent.get('etiqueta', ent.get('label', ''))
+            text = ent.get('texto_detectado', ent.get('entity_text', ent.get('text', '')))
+            label = ent.get('etiqueta', ent.get('label', ent.get('entity', '')))
             
             if text and label and doc_id:
-                ground_truth[doc_id].add((text, label))
+                text_norm = normalize_text(text)
+                ground_truth[doc_id].add((text_norm, label))
     
     elif gt_path.is_dir():
+        # Directorio con archivos individuales
+        # Formato corpus ANTIGUO: {"id": "...", "data": [{"entity": "...", "text": "..."}]}
         for json_file in gt_path.glob("*.json"):
             doc_id = json_file.stem
             
             with open(json_file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
             
-            entities = data if isinstance(data, list) else data.get('entities', [])
+            # Soportar múltiples formatos
+            if isinstance(data, dict) and 'data' in data:
+                entities = data['data']
+            elif isinstance(data, list):
+                entities = data
+            else:
+                entities = data.get('entities', [])
             
             for ent in entities:
-                text = ent.get('text', ent.get('texto_detectado', '')).strip().lower()
-                label = ent.get('label', ent.get('etiqueta', ''))
+                # Campos del formato ANTIGUO: "entity" y "text"
+                text = ent.get('text', ent.get('texto_detectado', ''))
+                label = ent.get('entity', ent.get('label', ent.get('etiqueta', '')))
                 
                 if text and label:
-                    ground_truth[doc_id].add((text, label))
+                    text_norm = normalize_text(text)
+                    ground_truth[doc_id].add((text_norm, label))
     
     return dict(ground_truth)
 
@@ -247,15 +273,25 @@ def evaluate_llm_judge(
     if ground_truth:
         logger.info("Evaluando contra ground truth...")
         
+        # Recopilar doc_ids procesados
+        processed_doc_ids = set()
         for result in results:
             doc_id = result.get('document_id', result.get('doc_id', ''))
-            text = result.get('entity_text', result.get('text', '')).strip().lower()
+            if doc_id:
+                processed_doc_ids.add(doc_id)
+        
+        for result in results:
+            doc_id = result.get('document_id', result.get('doc_id', ''))
+            text = result.get('entity_text', result.get('text', ''))
             label = result.get('label', '')
             decision = result.get('llm_decision', result.get('decision', ''))
             is_pii = decision == 'KEEP' or decision is True
             
+            # Normalizar texto para comparación
+            text_norm = normalize_text(text)
+            
             gt_set = ground_truth.get(doc_id, set())
-            is_in_gt = (text, label) in gt_set
+            is_in_gt = (text_norm, label) in gt_set
             
             if is_pii and is_in_gt:
                 metrics.tp += 1
