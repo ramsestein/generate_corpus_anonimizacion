@@ -178,38 +178,34 @@ class TestEntityFastFilterEvaluateCandidate:
 
     def test_evaluate_hospital_in_sentence_force_anonymize(self, filter_with_test_data):
         """Entidad con hospital en contexto → FORCE_ANONYMIZE."""
-        candidate = {
-            "text": "Hospital Clínic de Barcelona",
-            "label": "INSTITUCION"
-        }
-        decision = filter_with_test_data.evaluate_candidate(candidate)
+        decision = filter_with_test_data.evaluate_candidate(
+            "Hospital Clínic de Barcelona",
+            "INSTITUCION"
+        )
         assert decision == EnumDecision.FORCE_ANONYMIZE
 
     def test_evaluate_medication_force_ignore(self, filter_with_test_data):
         """Entidad que es medicamento → FORCE_IGNORE."""
-        candidate = {
-            "text": "ibuprofeno",
-            "label": "OTRO"
-        }
-        decision = filter_with_test_data.evaluate_candidate(candidate)
+        decision = filter_with_test_data.evaluate_candidate(
+            "ibuprofeno",
+            "OTRO"
+        )
         assert decision == EnumDecision.FORCE_IGNORE
 
     def test_evaluate_medication_with_dose_force_ignore(self, filter_with_test_data):
         """Medicamento con dosis → FORCE_IGNORE."""
-        candidate = {
-            "text": "paracetamol 500mg comprimidos",
-            "label": "OTRO"
-        }
-        decision = filter_with_test_data.evaluate_candidate(candidate)
+        decision = filter_with_test_data.evaluate_candidate(
+            "paracetamol 500mg comprimidos",
+            "OTRO"
+        )
         assert decision == EnumDecision.FORCE_IGNORE
 
     def test_evaluate_unknown_escalate(self, filter_with_test_data):
         """Entidad no reconocida → ESCALATE_TO_LLM."""
-        candidate = {
-            "text": "Pedro González",
-            "label": "NOMBRE"
-        }
-        decision = filter_with_test_data.evaluate_candidate(candidate)
+        decision = filter_with_test_data.evaluate_candidate(
+            "Pedro González",
+            "NOMBRE"
+        )
         assert decision == EnumDecision.ESCALATE_TO_LLM
 
 

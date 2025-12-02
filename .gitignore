@@ -48,3 +48,8 @@ step*_localization_metadata.json
 
 # Logs
 *.log
+
+# Checkpoints
+checkpoints/
+*.safetensors
+*.pt

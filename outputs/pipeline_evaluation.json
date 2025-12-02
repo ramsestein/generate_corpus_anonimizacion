@@ -1,0 +1,236 @@
+{
+  "metadata": {
+    "generated_at": "2025-12-02T09:38:44.645985",
+    "evaluation_type": "pipeline"
+  },
+  "metrics": {
+    "global": {
+      "total_input": 0,
+      "total_output": 0,
+      "total_kept": 702,
+      "total_filtered": 0,
+      "reduction_rate_percent": 0.0,
+      "total_time_seconds": 0
+    },
+    "vs_ground_truth": {
+      "tp": 574,
+      "fp": 0,
+      "fn": 23,
+      "precision": 1.0,
+      "recall": 0.9615,
+      "f1": 0.9804
+    },
+    "by_stage": {},
+    "by_label": {
+      "CALLE": {
+        "total": 26,
+        "kept": 26,
+        "filtered": 0,
+        "tp": 14,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "CENTRO_SALUD": {
+        "total": 28,
+        "kept": 28,
+        "filtered": 0,
+        "tp": 15,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "CORREO_ELECTRONICO": {
+        "total": 53,
+        "kept": 53,
+        "filtered": 0,
+        "tp": 53,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.9815,
+        "f1": 0.9907
+      },
+      "EDAD_SUJETO_ASISTENCIA": {
+        "total": 16,
+        "kept": 16,
+        "filtered": 0,
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "FAMILIARES_SUJETO_ASISTENCIA": {
+        "total": 24,
+        "kept": 24,
+        "filtered": 0,
+        "tp": 15,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "FECHAS": {
+        "total": 26,
+        "kept": 26,
+        "filtered": 0,
+        "tp": 14,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "HOSPITAL": {
+        "total": 13,
+        "kept": 13,
+        "filtered": 0,
+        "tp": 7,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.7778,
+        "f1": 0.875
+      },
+      "ID_SUJETO_ASISTENCIA": {
+        "total": 44,
+        "kept": 44,
+        "filtered": 0,
+        "tp": 42,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.9767,
+        "f1": 0.9882
+      },
+      "INSTITUCION": {
+        "total": 4,
+        "kept": 4,
+        "filtered": 0,
+        "tp": 4,
+        "fp": 0,
+        "fn": 4,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6667
+      },
+      "NOMBRE_PERSONAL_SANITARIO": {
+        "total": 98,
+        "kept": 98,
+        "filtered": 0,
+        "tp": 91,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "NOMBRE_SUJETO_ASISTENCIA": {
+        "total": 2,
+        "kept": 2,
+        "filtered": 0,
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "NUMERO_IDENTIF": {
+        "total": 28,
+        "kept": 28,
+        "filtered": 0,
+        "tp": 26,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.9286,
+        "f1": 0.963
+      },
+      "NUMERO_TELEFONO": {
+        "total": 203,
+        "kept": 203,
+        "filtered": 0,
+        "tp": 167,
+        "fp": 0,
+        "fn": 10,
+        "precision": 1.0,
+        "recall": 0.9435,
+        "f1": 0.9709
+      },
+      "OTROS_SUJETO_ASISTENCIA": {
+        "total": 32,
+        "kept": 32,
+        "filtered": 0,
+        "tp": 31,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.9394,
+        "f1": 0.9688
+      },
+      "PAIS": {
+        "total": 39,
+        "kept": 39,
+        "filtered": 0,
+        "tp": 30,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "PROFESION": {
+        "total": 8,
+        "kept": 8,
+        "filtered": 0,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "SEXO_SUJETO_ASISTENCIA": {
+        "total": 26,
+        "kept": 26,
+        "filtered": 0,
+        "tp": 17,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.9444,
+        "f1": 0.9714
+      },
+      "TERRITORIO": {
+        "total": 1,
+        "kept": 1,
+        "filtered": 0,
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "URL_WEB": {
+        "total": 31,
+        "kept": 31,
+        "filtered": 0,
+        "tp": 31,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    }
+  }
+}

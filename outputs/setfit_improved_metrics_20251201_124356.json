@@ -1,0 +1,47 @@
+{
+  "timestamp": "2025-12-01T12:43:56.255892",
+  "config": {
+    "confidence_threshold": 0.75,
+    "min_entity_length": 2,
+    "fragment_length_threshold": 3,
+    "context_window_chars": 250
+  },
+  "classifier_stats": {
+    "total": 729,
+    "obvious_noise_filtered": 94,
+    "obvious_pii_passed": 90,
+    "fragment_filtered": 64,
+    "low_confidence_filtered": 4,
+    "setfit_pii": 432,
+    "setfit_ruido": 45
+  },
+  "changes_summary": {
+    "total_entities": 729,
+    "entities_changed": 209,
+    "pii_to_ruido": 189,
+    "ruido_to_pii": 20
+  },
+  "metrics_original": {
+    "tp": 161,
+    "fp": 396,
+    "fn": 247,
+    "precision": 0.289048473967684,
+    "recall": 0.3946078431372549,
+    "f1": 0.33367875647668394
+  },
+  "metrics_improved": {
+    "tp": 155,
+    "fp": 266,
+    "fn": 253,
+    "precision": 0.3681710213776722,
+    "recall": 0.3799019607843137,
+    "f1": 0.3739445114595899
+  },
+  "improvement": {
+    "precision_delta": 0.0791225474099882,
+    "recall_delta": -0.01470588235294118,
+    "f1_delta": 0.040265754982905966,
+    "fp_reduction": 130,
+    "fp_reduction_pct": 32.82828282828283
+  }
+}
