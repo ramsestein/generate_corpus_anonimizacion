@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2025-12-02T12:29:18.148461",
-    "input_file": "..\\..\\outputs\\temp_pipeline_input.json",
-    "total_entities": 486,
+    "generated_at": "2025-12-02T10:52:21.067547",
+    "input_file": "outputs\\temp_pipeline_input.json",
+    "total_entities": 485,
     "pipeline_version": "2.0",
     "stats": {
       "total_input": 511,
@@ -11,10 +11,10 @@
       "dict_kept": 0,
       "dict_filtered": 9,
       "dict_escalated": 22,
-      "llm_kept": 6,
-      "llm_filtered": 16,
-      "final_output": 486,
-      "execution_time": 291.5566701889038
+      "llm_kept": 5,
+      "llm_filtered": 17,
+      "final_output": 485,
+      "execution_time": 245.49616050720215
     }
   },
   "decisions": [
@@ -7219,56 +7219,6 @@
       }
     },
     {
-      "document_id": "00697f6c-c83d-4ef0-b8bd-c3606ab93df6",
-      "entity_text": "Hospital ClínicoHospital Clínico",
-      "label": "HOSPITAL",
-      "start": 842,
-      "end": 858,
-      "context": "nóstico de presunción. Todos los procedimientos diagnósticos y terapéuticos se han realizado de acuerdo con los estándares de calidad asistencial del Hospital Clínico y bajo los criterios establecidos por la Consejería de Salud de la Comunidad de Madrid. La documentación clínica ha sido verificada con el identifica",
-      "is_pii": false,
-      "confidence": 0.5586042753489631,
-      "classification_method": "setfit",
-      "decision": "KEEP",
-      "details": {
-        "raw_prediction": 0
-      },
-      "filter_decision": "ESCALATE",
-      "filter_reason": "No hay coincidencias determinísticas",
-      "matched_list": "none",
-      "matched_term": null,
-      "heuristic_applied": null,
-      "llm_decision": true,
-      "llm_confidence": 1.0,
-      "llm_response": "TRUE",
-      "llm_status": "success",
-      "llm_processing_time": 1.2528598308563232
-    },
-    {
-      "document_id": "007bac28-399d-4ea1-9fd9-9e02ed6122ff",
-      "entity_text": "ES",
-      "label": "NUMERO_IDENTIF",
-      "start": 1717,
-      "end": 1719,
-      "context": "Según los protocolos establecidos por el Ministerio de Sanidad, se ha generado el código ES-87654321-X para la trazabilidad del proceso.",
-      "is_pii": false,
-      "confidence": 0.8051352467756037,
-      "classification_method": "setfit",
-      "decision": "KEEP",
-      "details": {
-        "raw_prediction": 0
-      },
-      "filter_decision": "ESCALATE",
-      "filter_reason": "No hay coincidencias determinísticas",
-      "matched_list": "none",
-      "matched_term": null,
-      "heuristic_applied": null,
-      "llm_decision": true,
-      "llm_confidence": 1.0,
-      "llm_response": "TRUE",
-      "llm_status": "success",
-      "llm_processing_time": 0.6808650493621826
-    },
-    {
       "document_id": "00930499-2021-4d95-a3f2-3b0053ead40c",
       "entity_text": "SN-",
       "label": "NUMERO_IDENTIF",
@@ -7291,17 +7241,17 @@
       "llm_confidence": 1.0,
       "llm_response": "TRUE",
       "llm_status": "success",
-      "llm_processing_time": 0.7138376235961914
+      "llm_processing_time": 0.9226152896881104
     },
     {
-      "document_id": "00930499-2021-4d95-a3f2-3b0053ead40c",
-      "entity_text": "SN",
-      "label": "NUMERO_IDENTIF",
-      "start": 1021,
-      "end": 1023,
-      "context": "Se ha procedido a la verificación de los equipos médicos utilizados en la consulta, confirmando el correcto funcionamiento del electrocardiógrafo con número de serie SN-98237641.",
+      "document_id": "009d2053-4bba-49ef-ae60-5ef67cd43e30",
+      "entity_text": "central",
+      "label": "INSTITUCION",
+      "start": 1952,
+      "end": 1959,
+      "context": "hospitalcentral.",
       "is_pii": false,
-      "confidence": 0.8157445226838028,
+      "confidence": 0.9925896981711871,
       "classification_method": "setfit",
       "decision": "KEEP",
       "details": {
@@ -7316,7 +7266,32 @@
       "llm_confidence": 1.0,
       "llm_response": "TRUE",
       "llm_status": "success",
-      "llm_processing_time": 0.8774993419647217
+      "llm_processing_time": 0.6967751979827881
+    },
+    {
+      "document_id": "00a1a66e-094d-48bb-85b0-5fabb0cbdb2e",
+      "entity_text": "Centro de Salud Los ÁlamosCentro de Salud Los Álamos",
+      "label": "CENTRO_SALUD",
+      "start": 46,
+      "end": 72,
+      "context": "En la consulta de seguimiento realizada en el Centro de Salud Los Álamos, se reevalúa al paciente que en esta ocasión presenta una sintomatología inespecífica consistente en astenia y artralgias migratorias. Se trata de un",
+      "is_pii": false,
+      "confidence": 0.5700169132499932,
+      "classification_method": "setfit",
+      "decision": "KEEP",
+      "details": {
+        "raw_prediction": 0
+      },
+      "filter_decision": "ESCALATE",
+      "filter_reason": "No hay coincidencias determinísticas",
+      "matched_list": "none",
+      "matched_term": null,
+      "heuristic_applied": null,
+      "llm_decision": true,
+      "llm_confidence": 1.0,
+      "llm_response": "TRUE",
+      "llm_status": "success",
+      "llm_processing_time": 0.6851034164428711
     },
     {
       "document_id": "00a85666-62f1-413f-b1d7-16da8833a113",
@@ -7341,7 +7316,7 @@
       "llm_confidence": 1.0,
       "llm_response": "TRUE",
       "llm_status": "success",
-      "llm_processing_time": 0.8841934204101562
+      "llm_processing_time": 0.7169408798217773
     },
     {
       "document_id": "00eba044-6fff-4e32-8222-36f9003f5bba",
@@ -7366,7 +7341,7 @@
       "llm_confidence": 1.0,
       "llm_response": "TRUE",
       "llm_status": "success",
-      "llm_processing_time": 0.8390989303588867
+      "llm_processing_time": 0.6748089790344238
     }
   ]
 }

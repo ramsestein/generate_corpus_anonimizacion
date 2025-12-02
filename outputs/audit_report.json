@@ -1,0 +1,307 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-02T14:40:34.409302",
+    "total_checks": 36,
+    "passed": 35,
+    "failed": 1,
+    "errors": 0,
+    "warnings": 1
+  },
+  "checks": [
+    {
+      "name": "Módulo: setfit_module/__init__.py",
+      "passed": true,
+      "details": "C:\\Users\\JVILAO\\Desktop\\Trabajo\\REPOS\\generate_corpus_anonimizacion\\src\\pipeline-nuevos-textos\\setfit_module\\__init__.py"
+    },
+    {
+      "name": "Módulo: setfit_module/api.py",
+      "passed": true,
+      "details": "C:\\Users\\JVILAO\\Desktop\\Trabajo\\REPOS\\generate_corpus_anonimizacion\\src\\pipeline-nuevos-textos\\setfit_module\\api.py"
+    },
+    {
+      "name": "Módulo: setfit_module/gatekeeper.py",
+      "passed": true,
+      "details": "C:\\Users\\JVILAO\\Desktop\\Trabajo\\REPOS\\generate_corpus_anonimizacion\\src\\pipeline-nuevos-textos\\setfit_module\\gatekeeper.py"
+    },
+    {
+      "name": "Módulo: dict_filters/__init__.py",
+      "passed": true,
+      "details": "C:\\Users\\JVILAO\\Desktop\\Trabajo\\REPOS\\generate_corpus_anonimizacion\\src\\pipeline-nuevos-textos\\dict_filters\\__init__.py"
+    },
+    {
+      "name": "Módulo: dict_filters/api.py",
+      "passed": true,
+      "details": "C:\\Users\\JVILAO\\Desktop\\Trabajo\\REPOS\\generate_corpus_anonimizacion\\src\\pipeline-nuevos-textos\\dict_filters\\api.py"
+    },
+    {
+      "name": "Módulo: dict_filters/filter.py",
+      "passed": true,
+      "details": "C:\\Users\\JVILAO\\Desktop\\Trabajo\\REPOS\\generate_corpus_anonimizacion\\src\\pipeline-nuevos-textos\\dict_filters\\filter.py"
+    },
+    {
+      "name": "Módulo: llm_judge/__init__.py",
+      "passed": true,
+      "details": "C:\\Users\\JVILAO\\Desktop\\Trabajo\\REPOS\\generate_corpus_anonimizacion\\src\\pipeline-nuevos-textos\\llm_judge\\__init__.py"
+    },
+    {
+      "name": "Módulo: llm_judge/api.py",
+      "passed": true,
+      "details": "C:\\Users\\JVILAO\\Desktop\\Trabajo\\REPOS\\generate_corpus_anonimizacion\\src\\pipeline-nuevos-textos\\llm_judge\\api.py"
+    },
+    {
+      "name": "Módulo: llm_judge/judge.py",
+      "passed": true,
+      "details": "C:\\Users\\JVILAO\\Desktop\\Trabajo\\REPOS\\generate_corpus_anonimizacion\\src\\pipeline-nuevos-textos\\llm_judge\\judge.py"
+    },
+    {
+      "name": "Módulo: io_json/__init__.py",
+      "passed": true,
+      "details": "C:\\Users\\JVILAO\\Desktop\\Trabajo\\REPOS\\generate_corpus_anonimizacion\\src\\pipeline-nuevos-textos\\io_json\\__init__.py"
+    },
+    {
+      "name": "Módulo: io_json/loaders.py",
+      "passed": true,
+      "details": "C:\\Users\\JVILAO\\Desktop\\Trabajo\\REPOS\\generate_corpus_anonimizacion\\src\\pipeline-nuevos-textos\\io_json\\loaders.py"
+    },
+    {
+      "name": "Módulo: run_full_pipeline.py",
+      "passed": true,
+      "details": "C:\\Users\\JVILAO\\Desktop\\Trabajo\\REPOS\\generate_corpus_anonimizacion\\src\\pipeline-nuevos-textos\\run_full_pipeline.py"
+    },
+    {
+      "name": "Archivo de entrada existe",
+      "passed": true,
+      "details": "C:\\Users\\JVILAO\\Desktop\\Trabajo\\REPOS\\generate_corpus_anonimizacion\\src\\entidades-pipeline.json"
+    },
+    {
+      "name": "Directorio GT existe",
+      "passed": true,
+      "details": "14035 archivos JSON en C:\\Users\\JVILAO\\Desktop\\Trabajo\\REPOS\\generate_corpus_anonimizacion\\corpus\\ANTIGUO\\entidades"
+    },
+    {
+      "name": "Directorio documentos existe",
+      "passed": true,
+      "details": "C:\\Users\\JVILAO\\Desktop\\Trabajo\\REPOS\\generate_corpus_anonimizacion\\corpus\\ANTIGUO\\documents"
+    },
+    {
+      "name": "Modelo SetFit existe",
+      "passed": true,
+      "details": "C:\\Users\\JVILAO\\Desktop\\Trabajo\\REPOS\\generate_corpus_anonimizacion\\models\\gatekeeper_setfit"
+    },
+    {
+      "name": "Import setfit_module.run_setfit_filter",
+      "passed": true,
+      "details": "Función exportada: True"
+    },
+    {
+      "name": "Import dict_filters.apply_dict_filters",
+      "passed": true,
+      "details": "Función exportada: True"
+    },
+    {
+      "name": "Import llm_judge.run_llm_judge",
+      "passed": true,
+      "details": "Función exportada: True"
+    },
+    {
+      "name": "Import io_json.load_entities",
+      "passed": true,
+      "details": "Función exportada: True"
+    },
+    {
+      "name": "Estructura entrada: campo 'entities'",
+      "passed": true,
+      "details": "511 entidades"
+    },
+    {
+      "name": "Campos requeridos en entidades",
+      "passed": true,
+      "details": "Campos presentes: ['doc_id', 'label', 'model', 'text', 'confidence', 'start', 'end', 'unified', 'manual_correction']"
+    },
+    {
+      "name": "Documentos en entrada",
+      "passed": true,
+      "details": "50 documentos únicos"
+    },
+    {
+      "name": "Textos no vacíos",
+      "passed": true,
+      "details": "0 textos vacíos de 511"
+    },
+    {
+      "name": "Archivos GT disponibles",
+      "passed": true,
+      "details": "14035 archivos"
+    },
+    {
+      "name": "GT para documentos de entrada",
+      "passed": true,
+      "details": "50/50 documentos tienen GT"
+    },
+    {
+      "name": "SetFit ejecutado",
+      "passed": true,
+      "details": "KEEP=394, FILTER=117"
+    },
+    {
+      "name": "Dict Filters ejecutado",
+      "passed": true,
+      "details": "KEEP=0, FILTER=39, ESCALATE=78"
+    },
+    {
+      "name": "LLM Judge omitido",
+      "passed": true,
+      "details": "Todas las escaladas asumidas como KEEP"
+    },
+    {
+      "name": "Métricas calculadas",
+      "passed": true,
+      "details": "TP=164, FP=68, TN=100, FN=179"
+    },
+    {
+      "name": "F1 > 0.5 (razonable)",
+      "passed": true,
+      "details": "F1 = 0.5704"
+    },
+    {
+      "name": "Recall > 0.8 (conservador)",
+      "passed": false,
+      "details": "Recall = 0.4781"
+    },
+    {
+      "name": "SetFit procesa todas las entidades",
+      "passed": true,
+      "details": "Input=511, SetFit procesó=511"
+    },
+    {
+      "name": "Dict recibe todas las filtradas",
+      "passed": true,
+      "details": "SetFit FILTER=117, Dict procesó=117"
+    },
+    {
+      "name": "LLM recibe todas las escaladas",
+      "passed": true,
+      "details": "Dict ESCALATE=78, LLM procesó=78"
+    },
+    {
+      "name": "Salida final = suma de KEEPs",
+      "passed": true,
+      "details": "Esperado=472, Actual=472"
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "Directorio de listas no encontrado: C:\\Users\\JVILAO\\Desktop\\Trabajo\\REPOS\\generate_corpus_anonimizacion\\src\\pipeline-nuevos-textos\\dict_filters\\lists"
+  ],
+  "pipeline_stats": {
+    "total_input": 511,
+    "setfit_keep": 394,
+    "setfit_filter": 117,
+    "dict_keep": 0,
+    "dict_filter": 39,
+    "dict_escalate": 78,
+    "llm_keep": 78,
+    "llm_filter": 0,
+    "final_output": 472
+  },
+  "metrics": {
+    "tp": 164,
+    "fp": 68,
+    "tn": 100,
+    "fn": 179,
+    "precision": 0.7069,
+    "recall": 0.4781,
+    "f1": 0.5704,
+    "accuracy": 0.5166,
+    "examples": {
+      "tp": [
+        {
+          "text": "887654321B",
+          "label": "NUMERO_TELEFONO",
+          "doc": "00039e89"
+        },
+        {
+          "text": "B-78423915",
+          "label": "NUMERO_TELEFONO",
+          "doc": "00039e89"
+        },
+        {
+          "text": "linica.hgugm.es",
+          "label": "CORREO_ELECTRONICO",
+          "doc": "00039e89"
+        }
+      ],
+      "fp": [
+        {
+          "text": "historia clínica",
+          "label": "OTROS_SUJETO_ASISTENCIA",
+          "doc": "00039e89"
+        },
+        {
+          "text": "HC",
+          "label": "NUMERO_TELEFONO",
+          "doc": "00039e89"
+        },
+        {
+          "text": ".gugm.es",
+          "label": "URL_WEB",
+          "doc": "00039e89"
+        },
+        {
+          "text": "ElenaElena Rodríguez SantosRodríguezSant",
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "doc": "00161e17"
+        },
+        {
+          "text": "E2023-8745",
+          "label": "NUMERO_TELEFONO",
+          "doc": "00161e17"
+        }
+      ],
+      "tn": [
+        {
+          "text": "B",
+          "label": "NUMERO_IDENTIF",
+          "doc": "00039e89"
+        },
+        {
+          "text": "B",
+          "label": "NUMERO_IDENTIF",
+          "doc": "001f45d6"
+        },
+        {
+          "text": "Z",
+          "label": "NUMERO_TELEFONO",
+          "doc": "001f45d6"
+        }
+      ],
+      "fn": [
+        {
+          "text": "Laura Méndez IglesiasMéndezIglesias",
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "doc": "001f45d6"
+        },
+        {
+          "text": "12 de julio de 202312 de julio de 2023",
+          "label": "FECHAS",
+          "doc": "001f45d6"
+        },
+        {
+          "text": "Laura Méndez IglesiasMéndezIglesias",
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "doc": "00218b06"
+        },
+        {
+          "text": "Paseo de la Castellana 120Paseo de la Ca",
+          "label": "CALLE",
+          "doc": "00218b06"
+        },
+        {
+          "text": "Laura Méndez IglesiasMéndezIglesias",
+          "label": "NOMBRE_PERSONAL_SANITARIO",
+          "doc": "0036ca5d"
+        }
+      ]
+    }
+  }
+}

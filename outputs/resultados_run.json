@@ -1,20 +1,20 @@
 {
   "metadata": {
-    "generated_at": "2025-12-02T12:29:18.148461",
-    "input_file": "..\\..\\outputs\\temp_pipeline_input.json",
-    "total_entities": 486,
+    "generated_at": "2025-12-02T15:32:22.376472",
+    "input_file": "../../src/entidades-pipeline.json",
+    "total_entities": 490,
     "pipeline_version": "2.0",
     "stats": {
       "total_input": 511,
-      "setfit_kept": 480,
-      "setfit_filtered": 31,
-      "dict_kept": 0,
+      "setfit_pii": 480,
+      "setfit_ruido": 31,
+      "dict_rescued": 0,
       "dict_filtered": 9,
       "dict_escalated": 22,
-      "llm_kept": 6,
-      "llm_filtered": 16,
-      "final_output": 486,
-      "execution_time": 291.5566701889038
+      "llm_rescued": 10,
+      "llm_filtered": 12,
+      "final_output": 490,
+      "execution_time": 65.09222435951233
     }
   },
   "decisions": [
@@ -28,7 +28,8 @@
       "is_pii": true,
       "confidence": 0.9982412921052086,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -43,7 +44,8 @@
       "is_pii": true,
       "confidence": 0.9941723857617901,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -58,7 +60,8 @@
       "is_pii": true,
       "confidence": 0.9941622056668107,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -73,7 +76,8 @@
       "is_pii": true,
       "confidence": 0.9991983074713912,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -88,7 +92,8 @@
       "is_pii": true,
       "confidence": 0.9993108388945852,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -103,7 +108,8 @@
       "is_pii": true,
       "confidence": 0.9988900859887707,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -118,7 +124,8 @@
       "is_pii": true,
       "confidence": 0.9760223744295251,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -133,7 +140,8 @@
       "is_pii": true,
       "confidence": 0.8358889585979272,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -148,7 +156,8 @@
       "is_pii": true,
       "confidence": 0.9989831237897298,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -163,7 +172,8 @@
       "is_pii": true,
       "confidence": 0.9892671748503601,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -178,7 +188,8 @@
       "is_pii": true,
       "confidence": 0.9953913118843438,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -193,7 +204,8 @@
       "is_pii": true,
       "confidence": 0.9968216083679003,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -208,7 +220,8 @@
       "is_pii": true,
       "confidence": 0.9259744150288363,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -223,7 +236,8 @@
       "is_pii": true,
       "confidence": 0.9953595165451508,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -238,7 +252,8 @@
       "is_pii": true,
       "confidence": 0.9980890129512524,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -253,7 +268,8 @@
       "is_pii": true,
       "confidence": 0.9934758904884726,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -268,7 +284,8 @@
       "is_pii": true,
       "confidence": 0.9840321285500424,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -283,7 +300,8 @@
       "is_pii": true,
       "confidence": 0.9640300864480181,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -298,7 +316,8 @@
       "is_pii": true,
       "confidence": 0.9791829734458892,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -313,7 +332,8 @@
       "is_pii": true,
       "confidence": 0.9993552916052768,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -328,7 +348,8 @@
       "is_pii": true,
       "confidence": 0.9966522450955838,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -343,7 +364,8 @@
       "is_pii": true,
       "confidence": 0.9992946601946224,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -358,7 +380,8 @@
       "is_pii": true,
       "confidence": 0.9992081058993567,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -373,7 +396,8 @@
       "is_pii": true,
       "confidence": 0.999009264905731,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -388,7 +412,8 @@
       "is_pii": true,
       "confidence": 0.9989537573997673,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -403,7 +428,8 @@
       "is_pii": true,
       "confidence": 0.9992084797585332,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -418,7 +444,8 @@
       "is_pii": true,
       "confidence": 0.9992413889487332,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -433,7 +460,8 @@
       "is_pii": true,
       "confidence": 0.9993024806296454,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -448,7 +476,8 @@
       "is_pii": true,
       "confidence": 0.9992902410789174,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -463,7 +492,8 @@
       "is_pii": true,
       "confidence": 0.9990716994354862,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -478,7 +508,8 @@
       "is_pii": true,
       "confidence": 0.9993494943662513,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -493,7 +524,8 @@
       "is_pii": true,
       "confidence": 0.9992981537237295,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -508,7 +540,8 @@
       "is_pii": true,
       "confidence": 0.9993984639479578,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -523,7 +556,8 @@
       "is_pii": true,
       "confidence": 0.9994155975004583,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -538,7 +572,8 @@
       "is_pii": true,
       "confidence": 0.9992478744446055,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -553,7 +588,8 @@
       "is_pii": true,
       "confidence": 0.9993528932541962,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -568,7 +604,8 @@
       "is_pii": true,
       "confidence": 0.9993638812190946,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -583,7 +620,8 @@
       "is_pii": true,
       "confidence": 0.9968184892695162,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -598,7 +636,8 @@
       "is_pii": true,
       "confidence": 0.9994082922094515,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -613,7 +652,8 @@
       "is_pii": true,
       "confidence": 0.9992716176392644,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -628,7 +668,8 @@
       "is_pii": true,
       "confidence": 0.9672459146496328,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -643,7 +684,8 @@
       "is_pii": true,
       "confidence": 0.9980710631705569,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -658,7 +700,8 @@
       "is_pii": true,
       "confidence": 0.9993777049236413,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -673,7 +716,8 @@
       "is_pii": true,
       "confidence": 0.9993813609379252,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -688,7 +732,8 @@
       "is_pii": true,
       "confidence": 0.9277342493993052,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -703,7 +748,8 @@
       "is_pii": true,
       "confidence": 0.8697617863797714,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -718,7 +764,8 @@
       "is_pii": true,
       "confidence": 0.9994682094473691,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -733,7 +780,8 @@
       "is_pii": true,
       "confidence": 0.9994745322966843,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -748,7 +796,8 @@
       "is_pii": true,
       "confidence": 0.9955164443494517,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -763,7 +812,8 @@
       "is_pii": true,
       "confidence": 0.9988841012173529,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -778,7 +828,8 @@
       "is_pii": true,
       "confidence": 0.9930491548326277,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -793,7 +844,8 @@
       "is_pii": true,
       "confidence": 0.9930491548326277,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -808,7 +860,8 @@
       "is_pii": true,
       "confidence": 0.9940891638339884,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -823,7 +876,8 @@
       "is_pii": true,
       "confidence": 0.9616432952172742,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -838,7 +892,8 @@
       "is_pii": true,
       "confidence": 0.9987497441156665,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -853,7 +908,8 @@
       "is_pii": true,
       "confidence": 0.9993534325330157,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -868,7 +924,8 @@
       "is_pii": true,
       "confidence": 0.9993335772941756,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -883,7 +940,8 @@
       "is_pii": true,
       "confidence": 0.9994872003480977,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -898,7 +956,8 @@
       "is_pii": true,
       "confidence": 0.9988294500418514,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -913,7 +972,8 @@
       "is_pii": true,
       "confidence": 0.9993897977061541,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -928,7 +988,8 @@
       "is_pii": true,
       "confidence": 0.9985563416516028,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -943,7 +1004,8 @@
       "is_pii": true,
       "confidence": 0.999140584763523,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -958,7 +1020,8 @@
       "is_pii": true,
       "confidence": 0.9993719769277117,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -973,7 +1036,8 @@
       "is_pii": true,
       "confidence": 0.9991216976214617,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -988,7 +1052,8 @@
       "is_pii": true,
       "confidence": 0.9993719769277117,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1003,7 +1068,8 @@
       "is_pii": true,
       "confidence": 0.9991144099426335,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1018,7 +1084,8 @@
       "is_pii": true,
       "confidence": 0.9990945101114728,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1033,7 +1100,8 @@
       "is_pii": true,
       "confidence": 0.9985546682653924,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1048,7 +1116,8 @@
       "is_pii": true,
       "confidence": 0.9984245807001458,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1063,7 +1132,8 @@
       "is_pii": true,
       "confidence": 0.9833196109494546,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1078,7 +1148,8 @@
       "is_pii": true,
       "confidence": 0.9989380003305007,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1093,7 +1164,8 @@
       "is_pii": true,
       "confidence": 0.9979804118731337,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1108,7 +1180,8 @@
       "is_pii": true,
       "confidence": 0.9988229972327708,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1123,7 +1196,8 @@
       "is_pii": true,
       "confidence": 0.9976733480024937,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1138,7 +1212,8 @@
       "is_pii": true,
       "confidence": 0.9993331180753354,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1153,7 +1228,8 @@
       "is_pii": true,
       "confidence": 0.9991448987512082,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1168,7 +1244,8 @@
       "is_pii": true,
       "confidence": 0.979424988961182,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1183,7 +1260,8 @@
       "is_pii": true,
       "confidence": 0.9995149313985107,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1198,7 +1276,8 @@
       "is_pii": true,
       "confidence": 0.999490677042671,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1213,7 +1292,8 @@
       "is_pii": true,
       "confidence": 0.9382522483044046,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1228,7 +1308,8 @@
       "is_pii": true,
       "confidence": 0.9994709839825721,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1243,7 +1324,8 @@
       "is_pii": true,
       "confidence": 0.9994856820802988,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1258,7 +1340,8 @@
       "is_pii": true,
       "confidence": 0.9994771502234148,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1273,7 +1356,8 @@
       "is_pii": true,
       "confidence": 0.9988040267877082,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1288,7 +1372,8 @@
       "is_pii": true,
       "confidence": 0.9991580935519515,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1303,7 +1388,8 @@
       "is_pii": true,
       "confidence": 0.9993719769277117,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1318,7 +1404,8 @@
       "is_pii": true,
       "confidence": 0.9992796729417105,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1333,7 +1420,8 @@
       "is_pii": true,
       "confidence": 0.9991785994667486,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1348,7 +1436,8 @@
       "is_pii": true,
       "confidence": 0.9954658395549362,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1363,7 +1452,8 @@
       "is_pii": true,
       "confidence": 0.9958630873786674,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1378,7 +1468,8 @@
       "is_pii": true,
       "confidence": 0.9994121036894275,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1393,7 +1484,8 @@
       "is_pii": true,
       "confidence": 0.9950129461098217,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1408,7 +1500,8 @@
       "is_pii": true,
       "confidence": 0.9983875716431011,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1423,7 +1516,8 @@
       "is_pii": true,
       "confidence": 0.9959966347106198,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1438,7 +1532,8 @@
       "is_pii": true,
       "confidence": 0.9992681836106125,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1453,7 +1548,8 @@
       "is_pii": true,
       "confidence": 0.9992073854727093,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1468,7 +1564,8 @@
       "is_pii": true,
       "confidence": 0.9993621612313729,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1483,7 +1580,8 @@
       "is_pii": true,
       "confidence": 0.9992915054672828,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1498,7 +1596,8 @@
       "is_pii": true,
       "confidence": 0.9992542794813887,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1513,7 +1612,8 @@
       "is_pii": true,
       "confidence": 0.9993726209295839,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1528,7 +1628,8 @@
       "is_pii": true,
       "confidence": 0.9989371061174802,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1543,7 +1644,8 @@
       "is_pii": true,
       "confidence": 0.9988040279455629,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1558,7 +1660,8 @@
       "is_pii": true,
       "confidence": 0.9975587959320884,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1573,7 +1676,8 @@
       "is_pii": true,
       "confidence": 0.9975587959320884,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1588,7 +1692,8 @@
       "is_pii": true,
       "confidence": 0.9920359859884945,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1603,7 +1708,8 @@
       "is_pii": true,
       "confidence": 0.9992747254435009,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1618,7 +1724,8 @@
       "is_pii": true,
       "confidence": 0.999407629324116,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1633,7 +1740,8 @@
       "is_pii": true,
       "confidence": 0.9965714542908973,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1648,7 +1756,8 @@
       "is_pii": true,
       "confidence": 0.9924408650260845,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1663,7 +1772,8 @@
       "is_pii": true,
       "confidence": 0.9968121931453782,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1678,7 +1788,8 @@
       "is_pii": true,
       "confidence": 0.9993871012418675,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1693,7 +1804,8 @@
       "is_pii": true,
       "confidence": 0.9959874139503045,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1708,7 +1820,8 @@
       "is_pii": true,
       "confidence": 0.755851564685019,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1723,7 +1836,8 @@
       "is_pii": true,
       "confidence": 0.9990811143984709,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1738,7 +1852,8 @@
       "is_pii": true,
       "confidence": 0.9988977514794188,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1753,7 +1868,8 @@
       "is_pii": true,
       "confidence": 0.9597465802084029,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1768,7 +1884,8 @@
       "is_pii": true,
       "confidence": 0.9987957716480493,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1783,7 +1900,8 @@
       "is_pii": true,
       "confidence": 0.9993984639479578,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1798,7 +1916,8 @@
       "is_pii": true,
       "confidence": 0.9994074767023681,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1813,7 +1932,8 @@
       "is_pii": true,
       "confidence": 0.9994301995196005,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1828,7 +1948,8 @@
       "is_pii": true,
       "confidence": 0.9992271814881619,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1843,7 +1964,8 @@
       "is_pii": true,
       "confidence": 0.9991135346786992,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1858,7 +1980,8 @@
       "is_pii": true,
       "confidence": 0.9991062179735221,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1873,7 +1996,8 @@
       "is_pii": true,
       "confidence": 0.9992477689914526,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1888,7 +2012,8 @@
       "is_pii": true,
       "confidence": 0.998687120004738,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1903,7 +2028,8 @@
       "is_pii": true,
       "confidence": 0.9951575317674816,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1918,7 +2044,8 @@
       "is_pii": true,
       "confidence": 0.9992159421862378,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1933,7 +2060,8 @@
       "is_pii": true,
       "confidence": 0.9942188773918867,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1948,7 +2076,8 @@
       "is_pii": true,
       "confidence": 0.9942717490829553,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1963,7 +2092,8 @@
       "is_pii": true,
       "confidence": 0.9942717490829553,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1978,7 +2108,8 @@
       "is_pii": true,
       "confidence": 0.9993411598788918,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -1993,7 +2124,8 @@
       "is_pii": true,
       "confidence": 0.9993235624686629,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2008,7 +2140,8 @@
       "is_pii": true,
       "confidence": 0.999180075540594,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2023,7 +2156,8 @@
       "is_pii": true,
       "confidence": 0.9989727334940222,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2038,7 +2172,8 @@
       "is_pii": true,
       "confidence": 0.9991840505072923,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2053,7 +2188,8 @@
       "is_pii": true,
       "confidence": 0.9992785569339677,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2068,7 +2204,8 @@
       "is_pii": true,
       "confidence": 0.9993531571889477,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2083,7 +2220,8 @@
       "is_pii": true,
       "confidence": 0.9987189382688896,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2098,7 +2236,8 @@
       "is_pii": true,
       "confidence": 0.6959058253464355,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2113,7 +2252,8 @@
       "is_pii": true,
       "confidence": 0.9992681836106125,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2128,7 +2268,8 @@
       "is_pii": true,
       "confidence": 0.9992780010114077,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2143,7 +2284,8 @@
       "is_pii": true,
       "confidence": 0.9992740951575461,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2158,7 +2300,8 @@
       "is_pii": true,
       "confidence": 0.9992859073204984,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2173,7 +2316,8 @@
       "is_pii": true,
       "confidence": 0.7837174719543665,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2188,7 +2332,8 @@
       "is_pii": true,
       "confidence": 0.985192764448061,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2203,7 +2348,8 @@
       "is_pii": true,
       "confidence": 0.9443980655044806,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2218,7 +2364,8 @@
       "is_pii": true,
       "confidence": 0.9529428418597476,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2233,7 +2380,8 @@
       "is_pii": true,
       "confidence": 0.9974752199877063,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2248,7 +2396,8 @@
       "is_pii": true,
       "confidence": 0.9993192421067996,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2263,7 +2412,8 @@
       "is_pii": true,
       "confidence": 0.9747312949710348,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2278,7 +2428,8 @@
       "is_pii": true,
       "confidence": 0.9975357366724091,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2293,7 +2444,8 @@
       "is_pii": true,
       "confidence": 0.9990072889179733,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2308,7 +2460,8 @@
       "is_pii": true,
       "confidence": 0.9991784726509995,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2323,7 +2476,8 @@
       "is_pii": true,
       "confidence": 0.9987469189627908,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2338,7 +2492,8 @@
       "is_pii": true,
       "confidence": 0.9801765950303735,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2353,7 +2508,8 @@
       "is_pii": true,
       "confidence": 0.9594182773735845,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2368,7 +2524,8 @@
       "is_pii": true,
       "confidence": 0.9991338250059857,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2383,7 +2540,8 @@
       "is_pii": true,
       "confidence": 0.999188892826613,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2398,7 +2556,8 @@
       "is_pii": true,
       "confidence": 0.9906101868247585,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2413,7 +2572,8 @@
       "is_pii": true,
       "confidence": 0.9977392181542565,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2428,7 +2588,8 @@
       "is_pii": true,
       "confidence": 0.9993165556099116,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2443,7 +2604,8 @@
       "is_pii": true,
       "confidence": 0.9992078496363098,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2458,7 +2620,8 @@
       "is_pii": true,
       "confidence": 0.9917940227032607,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2473,7 +2636,8 @@
       "is_pii": true,
       "confidence": 0.9917467888950408,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2488,7 +2652,8 @@
       "is_pii": true,
       "confidence": 0.9831790328795939,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2503,7 +2668,8 @@
       "is_pii": true,
       "confidence": 0.9012986716564692,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2518,7 +2684,8 @@
       "is_pii": true,
       "confidence": 0.9988215740024414,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2533,7 +2700,8 @@
       "is_pii": true,
       "confidence": 0.9989853702095343,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2548,7 +2716,8 @@
       "is_pii": true,
       "confidence": 0.9990633164521039,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2563,7 +2732,8 @@
       "is_pii": true,
       "confidence": 0.9895646090409671,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2578,7 +2748,8 @@
       "is_pii": true,
       "confidence": 0.9992681836106125,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2593,7 +2764,8 @@
       "is_pii": true,
       "confidence": 0.999167434654119,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2608,7 +2780,8 @@
       "is_pii": true,
       "confidence": 0.9976790473685356,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2623,7 +2796,8 @@
       "is_pii": true,
       "confidence": 0.9987922375478696,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2638,7 +2812,8 @@
       "is_pii": true,
       "confidence": 0.9990819463641761,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2653,7 +2828,8 @@
       "is_pii": true,
       "confidence": 0.9987236183891733,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2668,7 +2844,8 @@
       "is_pii": true,
       "confidence": 0.999108079243623,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2683,7 +2860,8 @@
       "is_pii": true,
       "confidence": 0.9981504787241192,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2698,7 +2876,8 @@
       "is_pii": true,
       "confidence": 0.9882192856049047,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2713,7 +2892,8 @@
       "is_pii": true,
       "confidence": 0.9939013453232618,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2728,7 +2908,8 @@
       "is_pii": true,
       "confidence": 0.9939013453232618,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2743,7 +2924,8 @@
       "is_pii": true,
       "confidence": 0.9981713735204982,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2758,7 +2940,8 @@
       "is_pii": true,
       "confidence": 0.9676966477013883,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2773,7 +2956,8 @@
       "is_pii": true,
       "confidence": 0.9949380048023991,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2788,7 +2972,8 @@
       "is_pii": true,
       "confidence": 0.8420341657374468,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2803,7 +2988,8 @@
       "is_pii": true,
       "confidence": 0.9972731821966699,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2818,7 +3004,8 @@
       "is_pii": true,
       "confidence": 0.9989279647875612,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2833,7 +3020,8 @@
       "is_pii": true,
       "confidence": 0.989002737162938,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2848,7 +3036,8 @@
       "is_pii": true,
       "confidence": 0.9993343350463565,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2863,7 +3052,8 @@
       "is_pii": true,
       "confidence": 0.9992930102688218,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2878,7 +3068,8 @@
       "is_pii": true,
       "confidence": 0.941530727855397,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2893,7 +3084,8 @@
       "is_pii": true,
       "confidence": 0.9994341460447848,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2908,7 +3100,8 @@
       "is_pii": true,
       "confidence": 0.9994394054324383,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2923,7 +3116,8 @@
       "is_pii": true,
       "confidence": 0.9994266694635437,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2938,7 +3132,8 @@
       "is_pii": true,
       "confidence": 0.9994266694635437,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2953,7 +3148,8 @@
       "is_pii": true,
       "confidence": 0.9991568630668435,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2968,7 +3164,8 @@
       "is_pii": true,
       "confidence": 0.9994395363171727,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2983,7 +3180,8 @@
       "is_pii": true,
       "confidence": 0.9968967620177666,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -2998,7 +3196,8 @@
       "is_pii": true,
       "confidence": 0.9993129033360899,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3013,7 +3212,8 @@
       "is_pii": true,
       "confidence": 0.9994249255203219,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3028,7 +3228,8 @@
       "is_pii": true,
       "confidence": 0.9993129033360899,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3043,7 +3244,8 @@
       "is_pii": true,
       "confidence": 0.9994113664275115,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3058,7 +3260,8 @@
       "is_pii": true,
       "confidence": 0.9992294559115628,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3073,7 +3276,8 @@
       "is_pii": true,
       "confidence": 0.9993613838174213,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3088,7 +3292,8 @@
       "is_pii": true,
       "confidence": 0.9993144313966937,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3103,7 +3308,8 @@
       "is_pii": true,
       "confidence": 0.9993744206786038,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3118,7 +3324,8 @@
       "is_pii": true,
       "confidence": 0.9992575388511329,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3133,7 +3340,8 @@
       "is_pii": true,
       "confidence": 0.9994850749010055,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3148,7 +3356,8 @@
       "is_pii": true,
       "confidence": 0.9994702856888921,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3163,7 +3372,8 @@
       "is_pii": true,
       "confidence": 0.9994842192289293,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3178,7 +3388,8 @@
       "is_pii": true,
       "confidence": 0.9993561100581462,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3193,7 +3404,8 @@
       "is_pii": true,
       "confidence": 0.9979650581471304,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3208,7 +3420,8 @@
       "is_pii": true,
       "confidence": 0.997872837613564,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3223,7 +3436,8 @@
       "is_pii": true,
       "confidence": 0.9984681450398064,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3238,7 +3452,8 @@
       "is_pii": true,
       "confidence": 0.9994380793635153,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3253,7 +3468,8 @@
       "is_pii": true,
       "confidence": 0.9994379155869888,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3268,7 +3484,8 @@
       "is_pii": true,
       "confidence": 0.9990888667338126,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3283,7 +3500,8 @@
       "is_pii": true,
       "confidence": 0.9988222887572833,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3298,7 +3516,8 @@
       "is_pii": true,
       "confidence": 0.838377204514534,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3313,7 +3532,8 @@
       "is_pii": true,
       "confidence": 0.9989288185972788,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3328,7 +3548,8 @@
       "is_pii": true,
       "confidence": 0.9990108210018221,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3343,7 +3564,8 @@
       "is_pii": true,
       "confidence": 0.998596261248041,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3358,7 +3580,8 @@
       "is_pii": true,
       "confidence": 0.9992539873350285,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3373,7 +3596,8 @@
       "is_pii": true,
       "confidence": 0.9992965471442145,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3388,7 +3612,8 @@
       "is_pii": true,
       "confidence": 0.999364655073266,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3403,7 +3628,8 @@
       "is_pii": true,
       "confidence": 0.9993534872185149,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3418,7 +3644,8 @@
       "is_pii": true,
       "confidence": 0.9993073040997379,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3433,7 +3660,8 @@
       "is_pii": true,
       "confidence": 0.9990747044741322,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3448,7 +3676,8 @@
       "is_pii": true,
       "confidence": 0.999094234535296,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3463,7 +3692,8 @@
       "is_pii": true,
       "confidence": 0.9958207488945428,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3478,7 +3708,8 @@
       "is_pii": true,
       "confidence": 0.9953804562977322,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3493,7 +3724,8 @@
       "is_pii": true,
       "confidence": 0.9991063089533109,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3508,7 +3740,8 @@
       "is_pii": true,
       "confidence": 0.9993471644259838,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3523,7 +3756,8 @@
       "is_pii": true,
       "confidence": 0.9990566816284072,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3538,7 +3772,8 @@
       "is_pii": true,
       "confidence": 0.9993471644259838,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3553,7 +3788,8 @@
       "is_pii": true,
       "confidence": 0.9983540744354278,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3568,7 +3804,8 @@
       "is_pii": true,
       "confidence": 0.9408744828918186,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3583,7 +3820,8 @@
       "is_pii": true,
       "confidence": 0.9988864865228227,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3598,7 +3836,8 @@
       "is_pii": true,
       "confidence": 0.9803308955508173,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3613,7 +3852,8 @@
       "is_pii": true,
       "confidence": 0.9992726062853444,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3628,7 +3868,8 @@
       "is_pii": true,
       "confidence": 0.999325855296602,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3643,7 +3884,8 @@
       "is_pii": true,
       "confidence": 0.9990346035722434,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3658,7 +3900,8 @@
       "is_pii": true,
       "confidence": 0.9992923291907875,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3673,7 +3916,8 @@
       "is_pii": true,
       "confidence": 0.8630625286420626,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3688,7 +3932,8 @@
       "is_pii": true,
       "confidence": 0.999268133493525,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3703,7 +3948,8 @@
       "is_pii": true,
       "confidence": 0.9992468043780811,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3718,7 +3964,8 @@
       "is_pii": true,
       "confidence": 0.9994941980622228,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3733,7 +3980,8 @@
       "is_pii": true,
       "confidence": 0.998986616722668,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3748,7 +3996,8 @@
       "is_pii": true,
       "confidence": 0.9994695996904678,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3763,7 +4012,8 @@
       "is_pii": true,
       "confidence": 0.8109959747994453,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3778,7 +4028,8 @@
       "is_pii": true,
       "confidence": 0.992929365690544,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3793,7 +4044,8 @@
       "is_pii": true,
       "confidence": 0.9988957495124708,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3808,7 +4060,8 @@
       "is_pii": true,
       "confidence": 0.9988332984146321,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3823,7 +4076,8 @@
       "is_pii": true,
       "confidence": 0.999509790776029,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3838,7 +4092,8 @@
       "is_pii": true,
       "confidence": 0.9993468687898356,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3853,7 +4108,8 @@
       "is_pii": true,
       "confidence": 0.9992346437312586,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3868,7 +4124,8 @@
       "is_pii": true,
       "confidence": 0.9993467271464104,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3883,7 +4140,8 @@
       "is_pii": true,
       "confidence": 0.9994050245601829,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3898,7 +4156,8 @@
       "is_pii": true,
       "confidence": 0.9994534387579336,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3913,7 +4172,8 @@
       "is_pii": true,
       "confidence": 0.9994603791738119,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3928,7 +4188,8 @@
       "is_pii": true,
       "confidence": 0.9994119579640821,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3943,7 +4204,8 @@
       "is_pii": true,
       "confidence": 0.999435092274204,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3958,7 +4220,8 @@
       "is_pii": true,
       "confidence": 0.9994400517541125,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3973,7 +4236,8 @@
       "is_pii": true,
       "confidence": 0.9970665406828667,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -3988,7 +4252,8 @@
       "is_pii": true,
       "confidence": 0.9984049824989127,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4003,7 +4268,8 @@
       "is_pii": true,
       "confidence": 0.9972852232249777,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4018,7 +4284,8 @@
       "is_pii": true,
       "confidence": 0.999039340960637,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4033,7 +4300,8 @@
       "is_pii": true,
       "confidence": 0.9993308082399588,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4048,7 +4316,8 @@
       "is_pii": true,
       "confidence": 0.9985449526052304,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4063,7 +4332,8 @@
       "is_pii": true,
       "confidence": 0.9994027940333439,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4078,7 +4348,8 @@
       "is_pii": true,
       "confidence": 0.9993045143597417,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4093,7 +4364,8 @@
       "is_pii": true,
       "confidence": 0.9995113553546725,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4108,7 +4380,8 @@
       "is_pii": true,
       "confidence": 0.9987925793130407,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4123,7 +4396,8 @@
       "is_pii": true,
       "confidence": 0.9680267272603992,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4138,7 +4412,8 @@
       "is_pii": true,
       "confidence": 0.9987922021400056,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4153,7 +4428,8 @@
       "is_pii": true,
       "confidence": 0.9987550095417354,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4168,7 +4444,8 @@
       "is_pii": true,
       "confidence": 0.9993373121335527,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4183,7 +4460,8 @@
       "is_pii": true,
       "confidence": 0.999286136399987,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4198,7 +4476,8 @@
       "is_pii": true,
       "confidence": 0.9994092786985225,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4213,7 +4492,8 @@
       "is_pii": true,
       "confidence": 0.9994629955970132,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4228,7 +4508,8 @@
       "is_pii": true,
       "confidence": 0.9973382455547672,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4243,7 +4524,8 @@
       "is_pii": true,
       "confidence": 0.9979297968653386,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4258,7 +4540,8 @@
       "is_pii": true,
       "confidence": 0.9987691887891771,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4273,7 +4556,8 @@
       "is_pii": true,
       "confidence": 0.9989569778842637,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4288,7 +4572,8 @@
       "is_pii": true,
       "confidence": 0.9995018726635109,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4303,7 +4588,8 @@
       "is_pii": true,
       "confidence": 0.9995113553546725,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4318,7 +4604,8 @@
       "is_pii": true,
       "confidence": 0.9990684595540981,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4333,7 +4620,8 @@
       "is_pii": true,
       "confidence": 0.9993102616695758,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4348,7 +4636,8 @@
       "is_pii": true,
       "confidence": 0.9993193551343768,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4363,7 +4652,8 @@
       "is_pii": true,
       "confidence": 0.9989677327591584,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4378,7 +4668,8 @@
       "is_pii": true,
       "confidence": 0.9978080078175484,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4393,7 +4684,8 @@
       "is_pii": true,
       "confidence": 0.9927545919462771,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4408,7 +4700,8 @@
       "is_pii": true,
       "confidence": 0.9970786063649633,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4423,7 +4716,8 @@
       "is_pii": true,
       "confidence": 0.9989844271708845,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4438,7 +4732,8 @@
       "is_pii": true,
       "confidence": 0.9984017175098487,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4453,7 +4748,8 @@
       "is_pii": true,
       "confidence": 0.9992719082972675,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4468,7 +4764,8 @@
       "is_pii": true,
       "confidence": 0.999407629324116,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4483,7 +4780,8 @@
       "is_pii": true,
       "confidence": 0.9970453979448146,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4498,7 +4796,8 @@
       "is_pii": true,
       "confidence": 0.996510852560009,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4513,7 +4812,8 @@
       "is_pii": true,
       "confidence": 0.9993251259865006,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4528,7 +4828,8 @@
       "is_pii": true,
       "confidence": 0.9993719769277117,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4543,7 +4844,8 @@
       "is_pii": true,
       "confidence": 0.9989278680503187,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4558,7 +4860,8 @@
       "is_pii": true,
       "confidence": 0.999288487889585,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4573,7 +4876,8 @@
       "is_pii": true,
       "confidence": 0.9992679749646147,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4588,7 +4892,8 @@
       "is_pii": true,
       "confidence": 0.9994679168578496,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4603,7 +4908,8 @@
       "is_pii": true,
       "confidence": 0.9994630896902902,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4618,7 +4924,8 @@
       "is_pii": true,
       "confidence": 0.9994584326106853,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4633,7 +4940,8 @@
       "is_pii": true,
       "confidence": 0.9673959699549493,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4648,7 +4956,8 @@
       "is_pii": true,
       "confidence": 0.9557054007829957,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4663,7 +4972,8 @@
       "is_pii": true,
       "confidence": 0.9958162047850365,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4678,7 +4988,8 @@
       "is_pii": true,
       "confidence": 0.9966563486950534,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4693,7 +5004,8 @@
       "is_pii": true,
       "confidence": 0.99659710156286,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4708,7 +5020,8 @@
       "is_pii": true,
       "confidence": 0.999509346087549,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4723,7 +5036,8 @@
       "is_pii": true,
       "confidence": 0.9995063744916461,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4738,7 +5052,8 @@
       "is_pii": true,
       "confidence": 0.9992426949808798,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4753,7 +5068,8 @@
       "is_pii": true,
       "confidence": 0.9816241227167241,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4768,7 +5084,8 @@
       "is_pii": true,
       "confidence": 0.9992681836106125,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4783,7 +5100,8 @@
       "is_pii": true,
       "confidence": 0.9992386146826048,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4798,7 +5116,8 @@
       "is_pii": true,
       "confidence": 0.9942465719999748,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4813,7 +5132,8 @@
       "is_pii": true,
       "confidence": 0.987151269794947,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4828,7 +5148,8 @@
       "is_pii": true,
       "confidence": 0.9985265068421858,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4843,7 +5164,8 @@
       "is_pii": true,
       "confidence": 0.9939377302219736,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4858,7 +5180,8 @@
       "is_pii": true,
       "confidence": 0.9966895722204636,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4873,7 +5196,8 @@
       "is_pii": true,
       "confidence": 0.9867414821498104,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4888,7 +5212,8 @@
       "is_pii": true,
       "confidence": 0.9990404997268569,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4903,7 +5228,8 @@
       "is_pii": true,
       "confidence": 0.9944559739817882,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4918,7 +5244,8 @@
       "is_pii": true,
       "confidence": 0.9983616021168077,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4933,7 +5260,8 @@
       "is_pii": true,
       "confidence": 0.9984186743394737,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4948,7 +5276,8 @@
       "is_pii": true,
       "confidence": 0.9769716197340391,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4963,7 +5292,8 @@
       "is_pii": true,
       "confidence": 0.9991610451598296,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4978,7 +5308,8 @@
       "is_pii": true,
       "confidence": 0.9991901215643546,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -4993,7 +5324,8 @@
       "is_pii": true,
       "confidence": 0.998279449059018,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5008,7 +5340,8 @@
       "is_pii": true,
       "confidence": 0.5149844913227154,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5023,7 +5356,8 @@
       "is_pii": true,
       "confidence": 0.999254513077581,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5038,7 +5372,8 @@
       "is_pii": true,
       "confidence": 0.9992053887936803,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5053,7 +5388,8 @@
       "is_pii": true,
       "confidence": 0.9987016812711117,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5068,7 +5404,8 @@
       "is_pii": true,
       "confidence": 0.994551141978672,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5083,7 +5420,8 @@
       "is_pii": true,
       "confidence": 0.962862528496082,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5098,7 +5436,8 @@
       "is_pii": true,
       "confidence": 0.9932196258445456,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5113,7 +5452,8 @@
       "is_pii": true,
       "confidence": 0.9993432266567847,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5128,7 +5468,8 @@
       "is_pii": true,
       "confidence": 0.9990034236620121,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5143,7 +5484,8 @@
       "is_pii": true,
       "confidence": 0.7371502600484725,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5158,7 +5500,8 @@
       "is_pii": true,
       "confidence": 0.9984197600329382,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5173,7 +5516,8 @@
       "is_pii": true,
       "confidence": 0.9993719769277117,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5188,7 +5532,8 @@
       "is_pii": true,
       "confidence": 0.9991171574019758,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5203,7 +5548,8 @@
       "is_pii": true,
       "confidence": 0.999242978192178,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5218,7 +5564,8 @@
       "is_pii": true,
       "confidence": 0.9953587064696214,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5233,7 +5580,8 @@
       "is_pii": true,
       "confidence": 0.9986336750714803,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5248,7 +5596,8 @@
       "is_pii": true,
       "confidence": 0.9873746051510108,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5263,7 +5612,8 @@
       "is_pii": true,
       "confidence": 0.763303893260225,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5278,7 +5628,8 @@
       "is_pii": true,
       "confidence": 0.9990834522342443,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5293,7 +5644,8 @@
       "is_pii": true,
       "confidence": 0.9687364513445881,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5308,7 +5660,8 @@
       "is_pii": true,
       "confidence": 0.9991215452386708,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5323,7 +5676,8 @@
       "is_pii": true,
       "confidence": 0.9992711878794139,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5338,7 +5692,8 @@
       "is_pii": true,
       "confidence": 0.9992542592900295,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5353,7 +5708,8 @@
       "is_pii": true,
       "confidence": 0.9992709569376494,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5368,7 +5724,8 @@
       "is_pii": true,
       "confidence": 0.9992542592900295,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5383,7 +5740,8 @@
       "is_pii": true,
       "confidence": 0.9992085170637353,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5398,7 +5756,8 @@
       "is_pii": true,
       "confidence": 0.9978595082790243,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5413,7 +5772,8 @@
       "is_pii": true,
       "confidence": 0.9284824506112851,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5428,7 +5788,8 @@
       "is_pii": true,
       "confidence": 0.9913112792625224,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5443,7 +5804,8 @@
       "is_pii": true,
       "confidence": 0.9952503259737034,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5458,7 +5820,8 @@
       "is_pii": true,
       "confidence": 0.9939865847937822,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5473,7 +5836,8 @@
       "is_pii": true,
       "confidence": 0.826529322028027,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5488,7 +5852,8 @@
       "is_pii": true,
       "confidence": 0.9992611592912166,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5503,7 +5868,8 @@
       "is_pii": true,
       "confidence": 0.9991091709989695,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5518,7 +5884,8 @@
       "is_pii": true,
       "confidence": 0.9992325384711938,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5533,7 +5900,8 @@
       "is_pii": true,
       "confidence": 0.9993176851865656,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5548,7 +5916,8 @@
       "is_pii": true,
       "confidence": 0.9976267885256339,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5563,7 +5932,8 @@
       "is_pii": true,
       "confidence": 0.9991248129852776,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5578,7 +5948,8 @@
       "is_pii": true,
       "confidence": 0.9991941067896516,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5593,7 +5964,8 @@
       "is_pii": true,
       "confidence": 0.9983186544733309,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5608,7 +5980,8 @@
       "is_pii": true,
       "confidence": 0.9983186544733309,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5623,7 +5996,8 @@
       "is_pii": true,
       "confidence": 0.9976145839298773,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5638,7 +6012,8 @@
       "is_pii": true,
       "confidence": 0.999093273943652,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5653,7 +6028,8 @@
       "is_pii": true,
       "confidence": 0.9994035441045654,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5668,7 +6044,8 @@
       "is_pii": true,
       "confidence": 0.999407629324116,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5683,7 +6060,8 @@
       "is_pii": true,
       "confidence": 0.9933957829230127,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5698,7 +6076,8 @@
       "is_pii": true,
       "confidence": 0.999170168257867,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5713,7 +6092,8 @@
       "is_pii": true,
       "confidence": 0.9994268550929778,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5728,7 +6108,8 @@
       "is_pii": true,
       "confidence": 0.9994261915297643,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5743,7 +6124,8 @@
       "is_pii": true,
       "confidence": 0.9994443340535419,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5758,7 +6140,8 @@
       "is_pii": true,
       "confidence": 0.9994538922379173,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5773,7 +6156,8 @@
       "is_pii": true,
       "confidence": 0.9994755643353616,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5788,7 +6172,8 @@
       "is_pii": true,
       "confidence": 0.9992703895568508,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5803,7 +6188,8 @@
       "is_pii": true,
       "confidence": 0.9984202518811204,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5818,7 +6204,8 @@
       "is_pii": true,
       "confidence": 0.9993532330645788,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5833,7 +6220,8 @@
       "is_pii": true,
       "confidence": 0.999375238099296,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5848,7 +6236,8 @@
       "is_pii": true,
       "confidence": 0.9994319345012708,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5863,7 +6252,8 @@
       "is_pii": true,
       "confidence": 0.9989901805875286,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5878,7 +6268,8 @@
       "is_pii": true,
       "confidence": 0.9986511798417049,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5893,7 +6284,8 @@
       "is_pii": true,
       "confidence": 0.9929187852330305,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5908,7 +6300,8 @@
       "is_pii": true,
       "confidence": 0.9989167270816127,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5923,7 +6316,8 @@
       "is_pii": true,
       "confidence": 0.9976798219449273,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5938,7 +6332,8 @@
       "is_pii": true,
       "confidence": 0.9976779160245087,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5953,7 +6348,8 @@
       "is_pii": true,
       "confidence": 0.8123705836992193,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5968,7 +6364,8 @@
       "is_pii": true,
       "confidence": 0.9987306432668692,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5983,7 +6380,8 @@
       "is_pii": true,
       "confidence": 0.9993984639479578,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -5998,7 +6396,8 @@
       "is_pii": true,
       "confidence": 0.9993639695377948,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6013,7 +6412,8 @@
       "is_pii": true,
       "confidence": 0.9993719769277117,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6028,7 +6428,8 @@
       "is_pii": true,
       "confidence": 0.9993216540835657,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6043,7 +6444,8 @@
       "is_pii": true,
       "confidence": 0.9993719769277117,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6058,7 +6460,8 @@
       "is_pii": true,
       "confidence": 0.999252947374152,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6073,7 +6476,8 @@
       "is_pii": true,
       "confidence": 0.9988286256762136,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6088,7 +6492,8 @@
       "is_pii": true,
       "confidence": 0.9990624667246535,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6103,7 +6508,8 @@
       "is_pii": true,
       "confidence": 0.8211782034546464,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6118,7 +6524,8 @@
       "is_pii": true,
       "confidence": 0.8384864156877749,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6133,7 +6540,8 @@
       "is_pii": true,
       "confidence": 0.9993636383572511,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6148,7 +6556,8 @@
       "is_pii": true,
       "confidence": 0.9327835174221983,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6163,7 +6572,8 @@
       "is_pii": true,
       "confidence": 0.9484730419714853,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6178,7 +6588,8 @@
       "is_pii": true,
       "confidence": 0.9992645700568481,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6193,7 +6604,8 @@
       "is_pii": true,
       "confidence": 0.9985752480273163,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6208,7 +6620,8 @@
       "is_pii": true,
       "confidence": 0.9941941488110347,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6223,7 +6636,8 @@
       "is_pii": true,
       "confidence": 0.9982547205378008,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6238,7 +6652,8 @@
       "is_pii": true,
       "confidence": 0.9937238899324529,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6253,7 +6668,8 @@
       "is_pii": true,
       "confidence": 0.9770607844834392,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6268,7 +6684,8 @@
       "is_pii": true,
       "confidence": 0.9989247555412271,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6283,7 +6700,8 @@
       "is_pii": true,
       "confidence": 0.9992687208388366,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6298,7 +6716,8 @@
       "is_pii": true,
       "confidence": 0.9918424461337177,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6313,7 +6732,8 @@
       "is_pii": true,
       "confidence": 0.9967287056939835,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6328,7 +6748,8 @@
       "is_pii": true,
       "confidence": 0.9989383063679921,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6343,7 +6764,8 @@
       "is_pii": true,
       "confidence": 0.9987016115235128,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6358,7 +6780,8 @@
       "is_pii": true,
       "confidence": 0.9991077145868089,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6373,7 +6796,8 @@
       "is_pii": true,
       "confidence": 0.9990915622472071,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6388,7 +6812,8 @@
       "is_pii": true,
       "confidence": 0.9993719769277117,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6403,7 +6828,8 @@
       "is_pii": true,
       "confidence": 0.999407629324116,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6418,7 +6844,8 @@
       "is_pii": true,
       "confidence": 0.9956906596243236,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6433,7 +6860,8 @@
       "is_pii": true,
       "confidence": 0.9994359901910337,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6448,7 +6876,8 @@
       "is_pii": true,
       "confidence": 0.9993707459150499,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6463,7 +6892,8 @@
       "is_pii": true,
       "confidence": 0.9993893217806882,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6478,7 +6908,8 @@
       "is_pii": true,
       "confidence": 0.9994269524388729,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6493,7 +6924,8 @@
       "is_pii": true,
       "confidence": 0.999424527896243,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6508,7 +6940,8 @@
       "is_pii": true,
       "confidence": 0.9992982555000287,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6523,7 +6956,8 @@
       "is_pii": true,
       "confidence": 0.9992671148438033,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6538,7 +6972,8 @@
       "is_pii": true,
       "confidence": 0.9994239598509354,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6553,7 +6988,8 @@
       "is_pii": true,
       "confidence": 0.9994532852719547,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6568,7 +7004,8 @@
       "is_pii": true,
       "confidence": 0.9994308027765207,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6583,7 +7020,8 @@
       "is_pii": true,
       "confidence": 0.9994330276837102,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6598,7 +7036,8 @@
       "is_pii": true,
       "confidence": 0.9980238763417258,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6613,7 +7052,8 @@
       "is_pii": true,
       "confidence": 0.9993932195939784,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6628,7 +7068,8 @@
       "is_pii": true,
       "confidence": 0.9926170576712016,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6643,7 +7084,8 @@
       "is_pii": true,
       "confidence": 0.9991258416932924,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6658,7 +7100,8 @@
       "is_pii": true,
       "confidence": 0.9993145272095167,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6673,7 +7116,8 @@
       "is_pii": true,
       "confidence": 0.9021329162701663,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6688,7 +7132,8 @@
       "is_pii": true,
       "confidence": 0.9992303823243295,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6703,7 +7148,8 @@
       "is_pii": true,
       "confidence": 0.9953111132853707,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6718,7 +7164,8 @@
       "is_pii": true,
       "confidence": 0.9914349979075279,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6733,7 +7180,8 @@
       "is_pii": true,
       "confidence": 0.9951497770577296,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6748,7 +7196,8 @@
       "is_pii": true,
       "confidence": 0.999235049707566,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6763,7 +7212,8 @@
       "is_pii": true,
       "confidence": 0.9985408297298068,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6778,7 +7228,8 @@
       "is_pii": true,
       "confidence": 0.9989910863568261,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6793,7 +7244,8 @@
       "is_pii": true,
       "confidence": 0.998922706777493,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6808,7 +7260,8 @@
       "is_pii": true,
       "confidence": 0.9985418402579145,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6823,7 +7276,8 @@
       "is_pii": true,
       "confidence": 0.9952312505086578,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6838,7 +7292,8 @@
       "is_pii": true,
       "confidence": 0.9496635934543963,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6853,7 +7308,8 @@
       "is_pii": true,
       "confidence": 0.9834778237544779,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6868,7 +7324,8 @@
       "is_pii": true,
       "confidence": 0.9992806149662694,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6883,7 +7340,8 @@
       "is_pii": true,
       "confidence": 0.9991353414608424,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6898,7 +7356,8 @@
       "is_pii": true,
       "confidence": 0.9991599215246323,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6913,7 +7372,8 @@
       "is_pii": true,
       "confidence": 0.9942978593209718,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6928,7 +7388,8 @@
       "is_pii": true,
       "confidence": 0.9990528086480992,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6943,7 +7404,8 @@
       "is_pii": true,
       "confidence": 0.9942978593209718,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6958,7 +7420,8 @@
       "is_pii": true,
       "confidence": 0.9994324674296461,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6973,7 +7436,8 @@
       "is_pii": true,
       "confidence": 0.9994180569557602,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -6988,7 +7452,8 @@
       "is_pii": true,
       "confidence": 0.999442320979435,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -7003,7 +7468,8 @@
       "is_pii": true,
       "confidence": 0.9986072806121524,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -7018,7 +7484,8 @@
       "is_pii": true,
       "confidence": 0.9669349113308537,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -7033,7 +7500,8 @@
       "is_pii": true,
       "confidence": 0.9980670600223146,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -7048,7 +7516,8 @@
       "is_pii": true,
       "confidence": 0.9941772534830879,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -7063,7 +7532,8 @@
       "is_pii": true,
       "confidence": 0.9979161568948052,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -7078,7 +7548,8 @@
       "is_pii": true,
       "confidence": 0.9989085182175059,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -7093,7 +7564,8 @@
       "is_pii": true,
       "confidence": 0.993249648842677,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -7108,7 +7580,8 @@
       "is_pii": true,
       "confidence": 0.9977451551473939,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -7123,7 +7596,8 @@
       "is_pii": true,
       "confidence": 0.9948263047660587,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -7138,7 +7612,8 @@
       "is_pii": true,
       "confidence": 0.9819835647044988,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -7153,7 +7628,8 @@
       "is_pii": true,
       "confidence": 0.9974965795072765,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -7168,7 +7644,8 @@
       "is_pii": true,
       "confidence": 0.9991810521995144,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -7183,7 +7660,8 @@
       "is_pii": true,
       "confidence": 0.999347493044218,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -7198,7 +7676,8 @@
       "is_pii": true,
       "confidence": 0.9994365623543663,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
@@ -7213,10 +7692,38 @@
       "is_pii": true,
       "confidence": 0.98889403614592,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "setfit",
       "details": {
         "raw_prediction": 1
       }
+    },
+    {
+      "document_id": "00218b06-d0d8-4bc9-a2c1-32d20d754334",
+      "entity_text": "**HC",
+      "label": "NUMERO_TELEFONO",
+      "start": 764,
+      "end": 768,
+      "context": "Los análisis de laboratorio, asociados al identificador de sujeto de asistencia **HC-2024-789012**, confirman la normalización de los parámetros hepáticos que se encontraban levemente alterados en controles previos.",
+      "is_pii": false,
+      "confidence": 0.9993925148484119,
+      "classification_method": "setfit",
+      "classification": "PII",
+      "classification_source": "llm_rescue",
+      "details": {
+        "raw_prediction": 0
+      },
+      "filter_decision": "ESCALATE",
+      "filter_reason": "No hay coincidencias determinísticas",
+      "matched_list": "none",
+      "matched_term": null,
+      "heuristic_applied": null,
+      "decision": "KEEP",
+      "llm_decision": true,
+      "llm_confidence": 1.0,
+      "llm_response": "TRUE",
+      "llm_status": "success",
+      "llm_processing_time": 0.9821279048919678
     },
     {
       "document_id": "00697f6c-c83d-4ef0-b8bd-c3606ab93df6",
@@ -7228,7 +7735,8 @@
       "is_pii": false,
       "confidence": 0.5586042753489631,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "llm_rescue",
       "details": {
         "raw_prediction": 0
       },
@@ -7237,11 +7745,39 @@
       "matched_list": "none",
       "matched_term": null,
       "heuristic_applied": null,
+      "decision": "KEEP",
       "llm_decision": true,
       "llm_confidence": 1.0,
       "llm_response": "TRUE",
       "llm_status": "success",
-      "llm_processing_time": 1.2528598308563232
+      "llm_processing_time": 1.0938587188720703
+    },
+    {
+      "document_id": "00697f6c-c83d-4ef0-b8bd-c3606ab93df6",
+      "entity_text": "de Madrid",
+      "label": "HOSPITAL",
+      "start": 936,
+      "end": 945,
+      "context": "Todos los procedimientos diagnósticos y terapéuticos se han realizado de acuerdo con los estándares de calidad asistencial del Hospital Clínico y bajo los criterios establecidos por la Consejería de Salud de la Comunidad de Madrid.",
+      "is_pii": false,
+      "confidence": 0.5600629389831815,
+      "classification_method": "setfit",
+      "classification": "PII",
+      "classification_source": "llm_rescue",
+      "details": {
+        "raw_prediction": 0
+      },
+      "filter_decision": "ESCALATE",
+      "filter_reason": "No hay coincidencias determinísticas",
+      "matched_list": "none",
+      "matched_term": null,
+      "heuristic_applied": null,
+      "decision": "KEEP",
+      "llm_decision": true,
+      "llm_confidence": 1.0,
+      "llm_response": "TRUE",
+      "llm_status": "success",
+      "llm_processing_time": 0.9000542163848877
     },
     {
       "document_id": "007bac28-399d-4ea1-9fd9-9e02ed6122ff",
@@ -7253,7 +7789,8 @@
       "is_pii": false,
       "confidence": 0.8051352467756037,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "llm_rescue",
       "details": {
         "raw_prediction": 0
       },
@@ -7262,23 +7799,25 @@
       "matched_list": "none",
       "matched_term": null,
       "heuristic_applied": null,
+      "decision": "KEEP",
       "llm_decision": true,
       "llm_confidence": 1.0,
       "llm_response": "TRUE",
       "llm_status": "success",
-      "llm_processing_time": 0.6808650493621826
+      "llm_processing_time": 0.9360997676849365
     },
     {
-      "document_id": "00930499-2021-4d95-a3f2-3b0053ead40c",
-      "entity_text": "SN-",
-      "label": "NUMERO_IDENTIF",
-      "start": 416,
-      "end": 419,
-      "context": "Los resultados analíticos recientes, asociados al número de serie del dispositivo analizador SN-98273645, fueron dentro de parámetros normales.",
+      "document_id": "007e1ff6-407e-4536-bcc9-6be365de2903",
+      "entity_text": "clin",
+      "label": "INSTITUCION",
+      "start": 1051,
+      "end": 1055,
+      "context": "clinicabarcelona.",
       "is_pii": false,
-      "confidence": 0.9994976354963492,
+      "confidence": 0.9984544520690914,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "llm_rescue",
       "details": {
         "raw_prediction": 0
       },
@@ -7287,11 +7826,39 @@
       "matched_list": "none",
       "matched_term": null,
       "heuristic_applied": null,
+      "decision": "KEEP",
       "llm_decision": true,
       "llm_confidence": 1.0,
       "llm_response": "TRUE",
       "llm_status": "success",
-      "llm_processing_time": 0.7138376235961914
+      "llm_processing_time": 0.7709379196166992
+    },
+    {
+      "document_id": "008ed118-d0b5-4f1d-a2ef-fdaa7be19fe0",
+      "entity_text": "femeninofemenino",
+      "label": "SEXO_SUJETO_ASISTENCIA",
+      "start": 133,
+      "end": 141,
+      "context": "En el contexto de la valoración integral, se procede a la elaboración del presente informe clínico. La persona bajo estudio, de sexo femenino, presenta una situación clínica que requiere seguimiento y análisis detallado. Durante la exploración física, se constata un estado general conservad",
+      "is_pii": false,
+      "confidence": 0.8918883985397693,
+      "classification_method": "setfit",
+      "classification": "PII",
+      "classification_source": "llm_rescue",
+      "details": {
+        "raw_prediction": 0
+      },
+      "filter_decision": "ESCALATE",
+      "filter_reason": "No hay coincidencias determinísticas",
+      "matched_list": "none",
+      "matched_term": null,
+      "heuristic_applied": null,
+      "decision": "KEEP",
+      "llm_decision": true,
+      "llm_confidence": 1.0,
+      "llm_response": "TRUE",
+      "llm_status": "success",
+      "llm_processing_time": 0.8356671333312988
     },
     {
       "document_id": "00930499-2021-4d95-a3f2-3b0053ead40c",
@@ -7303,7 +7870,8 @@
       "is_pii": false,
       "confidence": 0.8157445226838028,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "llm_rescue",
       "details": {
         "raw_prediction": 0
       },
@@ -7312,23 +7880,25 @@
       "matched_list": "none",
       "matched_term": null,
       "heuristic_applied": null,
+      "decision": "KEEP",
       "llm_decision": true,
       "llm_confidence": 1.0,
       "llm_response": "TRUE",
       "llm_status": "success",
-      "llm_processing_time": 0.8774993419647217
+      "llm_processing_time": 0.7133975028991699
     },
     {
-      "document_id": "00a85666-62f1-413f-b1d7-16da8833a113",
-      "entity_text": "apoyo",
+      "document_id": "009d2053-4bba-49ef-ae60-5ef67cd43e30",
+      "entity_text": "central",
       "label": "INSTITUCION",
-      "start": 322,
-      "end": 327,
-      "context": "La paciente refiere buena adherencia al tratamiento establecido y participación activa en el Grupo de apoyo de diabetes tipo 2, lo cual ha contribuido favorablemente a su manejo metabólico.",
+      "start": 1952,
+      "end": 1959,
+      "context": "hospitalcentral.",
       "is_pii": false,
-      "confidence": 0.9486395822103321,
+      "confidence": 0.9925896981711871,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "llm_rescue",
       "details": {
         "raw_prediction": 0
       },
@@ -7337,23 +7907,25 @@
       "matched_list": "none",
       "matched_term": null,
       "heuristic_applied": null,
+      "decision": "KEEP",
       "llm_decision": true,
       "llm_confidence": 1.0,
       "llm_response": "TRUE",
       "llm_status": "success",
-      "llm_processing_time": 0.8841934204101562
+      "llm_processing_time": 0.749267578125
     },
     {
-      "document_id": "00eba044-6fff-4e32-8222-36f9003f5bba",
-      "entity_text": "Centro de Salud Los ÁlamosCentro de Salud Los Álamos",
-      "label": "CENTRO_SALUD",
-      "start": 46,
-      "end": 72,
-      "context": "Durante la valoración clínica realizada en el Centro de Salud Los Álamos, se documenta un cuadro de evolución favorable del proceso postoperatorio. Los parámetros analíticos se mantienen dentro de rangos aceptables y la he",
+      "document_id": "00ddf941-2d74-41a6-b6f1-96ae765c2bfc",
+      "entity_text": "1234 BCD",
+      "label": "OTROS_SUJETO_ASISTENCIA",
+      "start": 569,
+      "end": 577,
+      "context": "La información recogida por el dispositivo será revisada en profundidad y cruzada con los datos del vehículo asociado, placa 1234 BCD, para completar la valoración contextual del caso.",
       "is_pii": false,
-      "confidence": 0.9908061228721781,
+      "confidence": 0.9982663606743521,
       "classification_method": "setfit",
-      "decision": "KEEP",
+      "classification": "PII",
+      "classification_source": "llm_rescue",
       "details": {
         "raw_prediction": 0
       },
@@ -7362,11 +7934,39 @@
       "matched_list": "none",
       "matched_term": null,
       "heuristic_applied": null,
+      "decision": "KEEP",
       "llm_decision": true,
       "llm_confidence": 1.0,
       "llm_response": "TRUE",
       "llm_status": "success",
-      "llm_processing_time": 0.8390989303588867
+      "llm_processing_time": 0.7912538051605225
+    },
+    {
+      "document_id": "00e189ee-7ed8-4ea2-8b61-a05df4dc7a5b",
+      "entity_text": "1234",
+      "label": "OTROS_SUJETO_ASISTENCIA",
+      "start": 1093,
+      "end": 1097,
+      "context": "El vehículo institucional asignado para el transporte de material específico para el procedimiento porta la placa 1234 BCD.",
+      "is_pii": false,
+      "confidence": 0.9957025852282432,
+      "classification_method": "setfit",
+      "classification": "PII",
+      "classification_source": "llm_rescue",
+      "details": {
+        "raw_prediction": 0
+      },
+      "filter_decision": "ESCALATE",
+      "filter_reason": "No hay coincidencias determinísticas",
+      "matched_list": "none",
+      "matched_term": null,
+      "heuristic_applied": null,
+      "decision": "KEEP",
+      "llm_decision": true,
+      "llm_confidence": 1.0,
+      "llm_response": "TRUE",
+      "llm_status": "success",
+      "llm_processing_time": 0.6956934928894043
     }
   ]
 }
