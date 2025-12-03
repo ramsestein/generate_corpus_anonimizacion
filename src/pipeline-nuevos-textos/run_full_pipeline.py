@@ -674,7 +674,7 @@ def main():
     
     # Si no se especifica input, buscar el CSV por defecto
     if not input_path:
-        default_csv = SCRIPT_DIR.parent / "pipeline-axuliar" / "step6_validation_judgeLLM" / "detecciones_detalladas.csv"
+        default_csv = SCRIPT_DIR.parent / "pipeline-auxiliar" / "step6_validation_judgeLLM" / "detecciones_detalladas.csv"
         if default_csv.exists():
             logger.info(f"Input no especificado. Detectado CSV por defecto: {default_csv}")
             input_path = str(default_csv)

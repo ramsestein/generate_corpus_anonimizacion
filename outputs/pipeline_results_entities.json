@@ -1,0 +1,2559 @@
+{
+  "entities": [
+    {
+      "doc_id": "00039e89-4b9a-4a81-bb08-334cf20b482c",
+      "text": "historia clínica",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00039e89-4b9a-4a81-bb08-334cf20b482c",
+      "text": "HC",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00039e89-4b9a-4a81-bb08-334cf20b482c",
+      "text": "887654321B",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00039e89-4b9a-4a81-bb08-334cf20b482c",
+      "text": "B",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "00039e89-4b9a-4a81-bb08-334cf20b482c",
+      "text": "B-78423915",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00039e89-4b9a-4a81-bb08-334cf20b482c",
+      "text": "linica.hgugm.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "00039e89-4b9a-4a81-bb08-334cf20b482c",
+      "text": ".gugm.es",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "00039e89-4b9a-4a81-bb08-334cf20b482c",
+      "text": "España",
+      "label": "PAIS"
+    },
+    {
+      "doc_id": "00111c95-4102-441d-b21c-e1fb68a0fdb1",
+      "text": "12 de julio de 202312 de julio de 2023",
+      "label": "FECHAS"
+    },
+    {
+      "doc_id": "00111c95-4102-441d-b21c-e1fb68a0fdb1",
+      "text": "femeninofemenino",
+      "label": "SEXO_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00111c95-4102-441d-b21c-e1fb68a0fdb1",
+      "text": "+34 91 876 54 32+34 91 876 54 32",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00161e17-f9bb-4b7e-aa95-a6e332e1affe",
+      "text": "Laura Méndez IglesiasMéndezIglesias",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "00161e17-f9bb-4b7e-aa95-a6e332e1affe",
+      "text": "ElenaElena Rodríguez SantosRodríguezSantos",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "00161e17-f9bb-4b7e-aa95-a6e332e1affe",
+      "text": "cirujano cardiovascular",
+      "label": "PROFESION"
+    },
+    {
+      "doc_id": "00161e17-f9bb-4b7e-aa95-a6e332e1affe",
+      "text": "Paseo de la Castellana 120Paseo de la Castellana 120",
+      "label": "CALLE"
+    },
+    {
+      "doc_id": "00161e17-f9bb-4b7e-aa95-a6e332e1affe",
+      "text": "Avenida de la Constitución 12Avenida de la Constitución 12",
+      "label": "CALLE"
+    },
+    {
+      "doc_id": "00161e17-f9bb-4b7e-aa95-a6e332e1affe",
+      "text": "E2023-8745",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00161e17-f9bb-4b7e-aa95-a6e332e1affe",
+      "text": "aseguramiento",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00161e17-f9bb-4b7e-aa95-a6e332e1affe",
+      "text": "B12",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00161e17-f9bb-4b7e-aa95-a6e332e1affe",
+      "text": "www.clinicabarcelona.",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "00161e17-f9bb-4b7e-aa95-a6e332e1affe",
+      "text": "icabarcelona.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "00161e17-f9bb-4b7e-aa95-a6e332e1affe",
+      "text": "icabarcelona.org",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "00161e17-f9bb-4b7e-aa95-a6e332e1affe",
+      "text": "ElenaElena Rodríguez SantosRodríguezSantos",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "001f45d6-19f4-4b97-87f7-a85644d37947",
+      "text": "Laura Méndez IglesiasMéndezIglesias",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "001f45d6-19f4-4b97-87f7-a85644d37947",
+      "text": "Centro de Salud Los ÁlamosCentro de Salud Los Álamos",
+      "label": "CENTRO_SALUD"
+    },
+    {
+      "doc_id": "001f45d6-19f4-4b97-87f7-a85644d37947",
+      "text": "EspañaEspaña",
+      "label": "PAIS"
+    },
+    {
+      "doc_id": "001f45d6-19f4-4b97-87f7-a85644d37947",
+      "text": "12 de julio de 202312 de julio de 2023",
+      "label": "FECHAS"
+    },
+    {
+      "doc_id": "001f45d6-19f4-4b97-87f7-a85644d37947",
+      "text": "B",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "001f45d6-19f4-4b97-87f7-a85644d37947",
+      "text": "12",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "001f45d6-19f4-4b97-87f7-a85644d37947",
+      "text": "toriaclinica.hospitalcentral.es/paciente/",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "001f45d6-19f4-4b97-87f7-a85644d37947",
+      "text": "aclinica.hospitalcentral.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "001f45d6-19f4-4b97-87f7-a85644d37947",
+      "text": "Z",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "001f45d6-19f4-4b97-87f7-a85644d37947",
+      "text": "ana.garcia@clinic.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "001f45d6-19f4-4b97-87f7-a85644d37947",
+      "text": "garcia",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "001f45d6-19f4-4b97-87f7-a85644d37947",
+      "text": "@clinic.es",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "00218b06-d0d8-4bc9-a2c1-32d20d754334",
+      "text": "Laura Méndez IglesiasMéndezIglesias",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "00218b06-d0d8-4bc9-a2c1-32d20d754334",
+      "text": "de historia clínica",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00218b06-d0d8-4bc9-a2c1-32d20d754334",
+      "text": "HC",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00218b06-d0d8-4bc9-a2c1-32d20d754334",
+      "text": "20-789456",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00218b06-d0d8-4bc9-a2c1-32d20d754334",
+      "text": "**612-345-678",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00218b06-d0d8-4bc9-a2c1-32d20d754334",
+      "text": "Paseo de la Castellana 120Paseo de la Castellana 120",
+      "label": "CALLE"
+    },
+    {
+      "doc_id": "00218b06-d0d8-4bc9-a2c1-32d20d754334",
+      "text": "SN",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00218b06-d0d8-4bc9-a2c1-32d20d754334",
+      "text": "98237641",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00218b06-d0d8-4bc9-a2c1-32d20d754334",
+      "text": "**HC",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00218b06-d0d8-4bc9-a2c1-32d20d754334",
+      "text": "2024-789012",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00218b06-d0d8-4bc9-a2c1-32d20d754334",
+      "text": "**B",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00218b06-d0d8-4bc9-a2c1-32d20d754334",
+      "text": "**",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00218b06-d0d8-4bc9-a2c1-32d20d754334",
+      "text": "**46 08 28 123 4546 08 28 123",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00218b06-d0d8-4bc9-a2c1-32d20d754334",
+      "text": "ElenaElena Rodríguez SantosRodríguezSantos",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "00218b06-d0d8-4bc9-a2c1-32d20d754334",
+      "text": "**",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00218b06-d0d8-4bc9-a2c1-32d20d754334",
+      "text": "9456",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "002bc8a8-ae0f-4973-b3df-909cb5a476fc",
+      "text": "HC-",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "002bc8a8-ae0f-4973-b3df-909cb5a476fc",
+      "text": "-2024-789012",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "002bc8a8-ae0f-4973-b3df-909cb5a476fc",
+      "text": "SN",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "002bc8a8-ae0f-4973-b3df-909cb5a476fc",
+      "text": "SN",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "002bc8a8-ae0f-4973-b3df-909cb5a476fc",
+      "text": "https://www.clinicabarcelona.org",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "002bc8a8-ae0f-4973-b3df-909cb5a476fc",
+      "text": "clin",
+      "label": "INSTITUCION"
+    },
+    {
+      "doc_id": "002bc8a8-ae0f-4973-b3df-909cb5a476fc",
+      "text": "icabarcelona.org",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "002bc8a8-ae0f-4973-b3df-909cb5a476fc",
+      "text": "HC",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "002bc8a8-ae0f-4973-b3df-909cb5a476fc",
+      "text": "toriaclinica.hgugm.es/",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "002bc8a8-ae0f-4973-b3df-909cb5a476fc",
+      "text": "aclinica.hgugm.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "002bc8a8-ae0f-4973-b3df-909cb5a476fc",
+      "text": "/12",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "002bc8a8-ae0f-4973-b3df-909cb5a476fc",
+      "text": "ana",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "002bc8a8-ae0f-4973-b3df-909cb5a476fc",
+      "text": "ana.garcia@clinic.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "002bc8a8-ae0f-4973-b3df-909cb5a476fc",
+      "text": "gar",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "002bc8a8-ae0f-4973-b3df-909cb5a476fc",
+      "text": "@clinic.es",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "0034e45c-4904-4f40-acac-950accd493ec",
+      "text": "carlos.martinez@clinic.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "0034e45c-4904-4f40-acac-950accd493ec",
+      "text": "martinez",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "0034e45c-4904-4f40-acac-950accd493ec",
+      "text": "ana.martinez@clinic.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "0034e45c-4904-4f40-acac-950accd493ec",
+      "text": "martinez",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "0034e45c-4904-4f40-acac-950accd493ec",
+      "text": "clinic.",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "0034e45c-4904-4f40-acac-950accd493ec",
+      "text": "SN9",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "0034e45c-4904-4f40-acac-950accd493ec",
+      "text": "SN",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "0036ca5d-a758-4984-a373-fac31b00ad24",
+      "text": "Laura Méndez IglesiasMéndezIglesias",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "0036ca5d-a758-4984-a373-fac31b00ad24",
+      "text": "SN",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "0036ca5d-a758-4984-a373-fac31b00ad24",
+      "text": "98237641",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "0036ca5d-a758-4984-a373-fac31b00ad24",
+      "text": "<femen",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "0036ca5d-a758-4984-a373-fac31b00ad24",
+      "text": "2024-789012",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "0036ca5d-a758-4984-a373-fac31b00ad24",
+      "text": "Comunidad de Madrid",
+      "label": "PAIS"
+    },
+    {
+      "doc_id": "0036ca5d-a758-4984-a373-fac31b00ad24",
+      "text": "2024-789123",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "0036ca5d-a758-4984-a373-fac31b00ad24",
+      "text": "abarcelona.",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "0036ca5d-a758-4984-a373-fac31b00ad24",
+      "text": "++34 91 876 54 3234 91 876 54 32",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "0036ca5d-a758-4984-a373-fac31b00ad24",
+      "text": "AAvenida de la Constitución 12venida de la Constitución 12",
+      "label": "CALLE"
+    },
+    {
+      "doc_id": "003c64ee-b779-4804-8413-6f9312d93f09",
+      "text": "E",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "003c64ee-b779-4804-8413-6f9312d93f09",
+      "text": "linica.hgugm.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "003c64ee-b779-4804-8413-6f9312d93f09",
+      "text": "/12345",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "003c64ee-b779-4804-8413-6f9312d93f09",
+      "text": "12",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "003c64ee-b779-4804-8413-6f9312d93f09",
+      "text": "ElenaElena Rodríguez SantosRodríguezSantos",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "003c64ee-b779-4804-8413-6f9312d93f09",
+      "text": "SN",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "003c64ee-b779-4804-8413-6f9312d93f09",
+      "text": "-98246731",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "003c64ee-b779-4804-8413-6f9312d93f09",
+      "text": "Grado en Medicina",
+      "label": "PROFESION"
+    },
+    {
+      "doc_id": "0041295a-31ac-4d44-818b-ad77ab64e3d9",
+      "text": "ana",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "0041295a-31ac-4d44-818b-ad77ab64e3d9",
+      "text": "ana.martinez@clinic.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "0041295a-31ac-4d44-818b-ad77ab64e3d9",
+      "text": "martinez",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "0041295a-31ac-4d44-818b-ad77ab64e3d9",
+      "text": "6612-34-56-7812-34-56-78",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "0041295a-31ac-4d44-818b-ad77ab64e3d9",
+      "text": "+34 91 876 54 32+34 91 876 54 32",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "0041295a-31ac-4d44-818b-ad77ab64e3d9",
+      "text": "REF",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "0041295a-31ac-4d44-818b-ad77ab64e3d9",
+      "text": "8",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "0041295a-31ac-4d44-818b-ad77ab64e3d9",
+      "text": "4736215",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "0041295a-31ac-4d44-818b-ad77ab64e3d9",
+      "text": "B",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "0041295a-31ac-4d44-818b-ad77ab64e3d9",
+      "text": "Hospital Clínico San CarlosHospital Clínico San Carlos",
+      "label": "HOSPITAL"
+    },
+    {
+      "doc_id": "0041295a-31ac-4d44-818b-ad77ab64e3d9",
+      "text": "https://www.clinicabarcelona.org",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "0041295a-31ac-4d44-818b-ad77ab64e3d9",
+      "text": "icabarcelona.org",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "0041295a-31ac-4d44-818b-ad77ab64e3d9",
+      "text": "E-",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "0048cc97-c3e5-462f-b8c9-2acb398fad05",
+      "text": "6612-345-67812-345-678",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "0048cc97-c3e5-462f-b8c9-2acb398fad05",
+      "text": "número dehistoria clínica",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "0048cc97-c3e5-462f-b8c9-2acb398fad05",
+      "text": "HC",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "0048cc97-c3e5-462f-b8c9-2acb398fad05",
+      "text": "-789012",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "0048cc97-c3e5-462f-b8c9-2acb398fad05",
+      "text": "femeninofemenino",
+      "label": "SEXO_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "0048cc97-c3e5-462f-b8c9-2acb398fad05",
+      "text": "Comunidad ValencianaComunidad Valenciana",
+      "label": "PAIS"
+    },
+    {
+      "doc_id": "0048cc97-c3e5-462f-b8c9-2acb398fad05",
+      "text": "car",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "0048cc97-c3e5-462f-b8c9-2acb398fad05",
+      "text": "car",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "0048cc97-c3e5-462f-b8c9-2acb398fad05",
+      "text": "los",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "0048cc97-c3e5-462f-b8c9-2acb398fad05",
+      "text": "los.martinez@clinic.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "0048cc97-c3e5-462f-b8c9-2acb398fad05",
+      "text": "@clinic.es",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "0048cc97-c3e5-462f-b8c9-2acb398fad05",
+      "text": "12",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "0048cc97-c3e5-462f-b8c9-2acb398fad05",
+      "text": "1234 BCD",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "0048cc97-c3e5-462f-b8c9-2acb398fad05",
+      "text": "34 BCD",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "0048cc97-c3e5-462f-b8c9-2acb398fad05",
+      "text": "6634-89-12-4534-89-12-45",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00545553-789c-4b16-965a-fa04533adbe3",
+      "text": "aclinica.hgugm.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "00545553-789c-4b16-965a-fa04533adbe3",
+      "text": "ES",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "00545553-789c-4b16-965a-fa04533adbe3",
+      "text": "Avenida de la Constitución 12Avenida de la Constitución 12",
+      "label": "CALLE"
+    },
+    {
+      "doc_id": "00545553-789c-4b16-965a-fa04533adbe3",
+      "text": "SN",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "0056164d-35e5-42ed-ae24-ab3fbf2b91fc",
+      "text": "Calle de la Alameda 12Calle de la Alameda 12",
+      "label": "CALLE"
+    },
+    {
+      "doc_id": "0056164d-35e5-42ed-ae24-ab3fbf2b91fc",
+      "text": "ana.garcia@clinic.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "0056164d-35e5-42ed-ae24-ab3fbf2b91fc",
+      "text": "garcia",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "0056164d-35e5-42ed-ae24-ab3fbf2b91fc",
+      "text": "carlos.gomez@clinicamadrid.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "0056164d-35e5-42ed-ae24-ab3fbf2b91fc",
+      "text": ".gomez",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "0056164d-35e5-42ed-ae24-ab3fbf2b91fc",
+      "text": "documento",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "0056164d-35e5-42ed-ae24-ab3fbf2b91fc",
+      "text": "454572314B",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "0056164d-35e5-42ed-ae24-ab3fbf2b91fc",
+      "text": "plan de salud",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "0056164d-35e5-42ed-ae24-ab3fbf2b91fc",
+      "text": "B458712369458712369",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "0056164d-35e5-42ed-ae24-ab3fbf2b91fc",
+      "text": "6612-345-67812-345-678",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "005f478a-d71e-4f59-920e-94284c89e644",
+      "text": "RodríguezRodríguez MéndezMéndez",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "005f478a-d71e-4f59-920e-94284c89e644",
+      "text": "HC",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "005f478a-d71e-4f59-920e-94284c89e644",
+      "text": "icabarcelona.org",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "0065fd71-eb64-4486-82cc-b4c4b6a13a74",
+      "text": "98",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "0065fd71-eb64-4486-82cc-b4c4b6a13a74",
+      "text": "98",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "0065fd71-eb64-4486-82cc-b4c4b6a13a74",
+      "text": "E-78",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "0065fd71-eb64-4486-82cc-b4c4b6a13a74",
+      "text": "78",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "0065fd71-eb64-4486-82cc-b4c4b6a13a74",
+      "text": "+34 91 876 54 32+34 91 876 54 32",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "0065fd71-eb64-4486-82cc-b4c4b6a13a74",
+      "text": "B",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "0065fd71-eb64-4486-82cc-b4c4b6a13a74",
+      "text": "458712369",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "0066ed9f-17d8-4bbb-894e-010119d9edc5",
+      "text": "B-58293471293471",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "0066ed9f-17d8-4bbb-894e-010119d9edc5",
+      "text": "12 de julio de 202312 de julio de 2023",
+      "label": "FECHAS"
+    },
+    {
+      "doc_id": "0066ed9f-17d8-4bbb-894e-010119d9edc5",
+      "text": "+34 91 876 54 3234 91 876 54 32",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "0066ed9f-17d8-4bbb-894e-010119d9edc5",
+      "text": "España",
+      "label": "PAIS"
+    },
+    {
+      "doc_id": "0066ed9f-17d8-4bbb-894e-010119d9edc5",
+      "text": "icabarcelona.org",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "00697f6c-c83d-4ef0-b8bd-c3606ab93df6",
+      "text": "E-2023-8745",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "00697f6c-c83d-4ef0-b8bd-c3606ab93df6",
+      "text": "Hospital ClínicoHospital Clínico",
+      "label": "HOSPITAL"
+    },
+    {
+      "doc_id": "00697f6c-c83d-4ef0-b8bd-c3606ab93df6",
+      "text": "de",
+      "label": "HOSPITAL"
+    },
+    {
+      "doc_id": "00697f6c-c83d-4ef0-b8bd-c3606ab93df6",
+      "text": "de Madrid",
+      "label": "HOSPITAL"
+    },
+    {
+      "doc_id": "00697f6c-c83d-4ef0-b8bd-c3606ab93df6",
+      "text": "E",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "00697f6c-c83d-4ef0-b8bd-c3606ab93df6",
+      "text": "8",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "007bac28-399d-4ea1-9fd9-9e02ed6122ff",
+      "text": "8",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "007bac28-399d-4ea1-9fd9-9e02ed6122ff",
+      "text": "Avenida de la Constitución 12Avenida de la Constitución 12",
+      "label": "CALLE"
+    },
+    {
+      "doc_id": "007bac28-399d-4ea1-9fd9-9e02ed6122ff",
+      "text": "B12",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "007bac28-399d-4ea1-9fd9-9e02ed6122ff",
+      "text": "de serie",
+      "label": "CALLE"
+    },
+    {
+      "doc_id": "007bac28-399d-4ea1-9fd9-9e02ed6122ff",
+      "text": "B",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "007bac28-399d-4ea1-9fd9-9e02ed6122ff",
+      "text": "458712369",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "007bac28-399d-4ea1-9fd9-9e02ed6122ff",
+      "text": "HC",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "007bac28-399d-4ea1-9fd9-9e02ed6122ff",
+      "text": "Comunidad Valenciana",
+      "label": "PAIS"
+    },
+    {
+      "doc_id": "007bac28-399d-4ea1-9fd9-9e02ed6122ff",
+      "text": "ES",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "007bac28-399d-4ea1-9fd9-9e02ed6122ff",
+      "text": "car",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "007bac28-399d-4ea1-9fd9-9e02ed6122ff",
+      "text": "carlos.martinez@clinic.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "007bac28-399d-4ea1-9fd9-9e02ed6122ff",
+      "text": ".",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "007bac28-399d-4ea1-9fd9-9e02ed6122ff",
+      "text": "Avenida de la Constitución 12Avenida de la Constitución 12",
+      "label": "CALLE"
+    },
+    {
+      "doc_id": "007cc328-610a-4a96-8baf-005ffd8be68f",
+      "text": "12 de julio de 202312 de julio de 2023",
+      "label": "FECHAS"
+    },
+    {
+      "doc_id": "007cc328-610a-4a96-8baf-005ffd8be68f",
+      "text": "Comunidad Valenciana",
+      "label": "PAIS"
+    },
+    {
+      "doc_id": "007cc328-610a-4a96-8baf-005ffd8be68f",
+      "text": "HC-",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "007cc328-610a-4a96-8baf-005ffd8be68f",
+      "text": "HC-",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "007ce0b2-c0fb-41be-855d-be03d7ec6280",
+      "text": "46 08 28 123 4546 08 28 123 45",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "007ce0b2-c0fb-41be-855d-be03d7ec6280",
+      "text": "María",
+      "label": "FAMILIARES_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "007ce0b2-c0fb-41be-855d-be03d7ec6280",
+      "text": "María López MartínezLópezMartínez",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "007ce0b2-c0fb-41be-855d-be03d7ec6280",
+      "text": "Grado en Medicina",
+      "label": "PROFESION"
+    },
+    {
+      "doc_id": "007ce0b2-c0fb-41be-855d-be03d7ec6280",
+      "text": "++3434 612 34 56 78612 34 56 78",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "007ce0b2-c0fb-41be-855d-be03d7ec6280",
+      "text": "doña",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "007ce0b2-c0fb-41be-855d-be03d7ec6280",
+      "text": "María",
+      "label": "FAMILIARES_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "007ce0b2-c0fb-41be-855d-be03d7ec6280",
+      "text": "María del Carmen RodríguezRodríguez",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "007e1ff6-407e-4536-bcc9-6be365de2903",
+      "text": "AB",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "007e1ff6-407e-4536-bcc9-6be365de2903",
+      "text": "clínica",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "007e1ff6-407e-4536-bcc9-6be365de2903",
+      "text": "https://historiaclinica.hgugm.es/",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "007e1ff6-407e-4536-bcc9-6be365de2903",
+      "text": "ica.hgugm.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "007e1ff6-407e-4536-bcc9-6be365de2903",
+      "text": "https://www.clinicabarcelona.org",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "007e1ff6-407e-4536-bcc9-6be365de2903",
+      "text": "clin",
+      "label": "INSTITUCION"
+    },
+    {
+      "doc_id": "007e1ff6-407e-4536-bcc9-6be365de2903",
+      "text": "icabarcelona.org",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "007e1ff6-407e-4536-bcc9-6be365de2903",
+      "text": "12 de julio de 202312 de julio de 2023",
+      "label": "FECHAS"
+    },
+    {
+      "doc_id": "007e1ff6-407e-4536-bcc9-6be365de2903",
+      "text": "car",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "007e1ff6-407e-4536-bcc9-6be365de2903",
+      "text": "carlos.martinez@clinic.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "007e1ff6-407e-4536-bcc9-6be365de2903",
+      "text": "@clinic.es",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "007e1ff6-407e-4536-bcc9-6be365de2903",
+      "text": "principal",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "007e1ff6-407e-4536-bcc9-6be365de2903",
+      "text": "8",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "007e1ff6-407e-4536-bcc9-6be365de2903",
+      "text": "Centro de Salud Los ÁlamosCentro de Salud Los Álamos",
+      "label": "CENTRO_SALUD"
+    },
+    {
+      "doc_id": "007e1ff6-407e-4536-bcc9-6be365de2903",
+      "text": "his",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "007e1ff6-407e-4536-bcc9-6be365de2903",
+      "text": "toriaclinica.hgugm.es",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "007e1ff6-407e-4536-bcc9-6be365de2903",
+      "text": "toriaclinica.hgugm.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "007e1ff6-407e-4536-bcc9-6be365de2903",
+      "text": "AB",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "007f0faa-c97f-40ba-9da6-dacbf0871fd6",
+      "text": "Laura Méndez IglesiasMéndezIglesias",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "007f0faa-c97f-40ba-9da6-dacbf0871fd6",
+      "text": "78 años78 años",
+      "label": "EDAD_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "007f0faa-c97f-40ba-9da6-dacbf0871fd6",
+      "text": "72 años72 años",
+      "label": "EDAD_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "007f0faa-c97f-40ba-9da6-dacbf0871fd6",
+      "text": "B",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "007f0faa-c97f-40ba-9da6-dacbf0871fd6",
+      "text": "123456789",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "007f0faa-c97f-40ba-9da6-dacbf0871fd6",
+      "text": "HC",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "007f0faa-c97f-40ba-9da6-dacbf0871fd6",
+      "text": "20-789012",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "007f0faa-c97f-40ba-9da6-dacbf0871fd6",
+      "text": "-789456",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "007f0faa-c97f-40ba-9da6-dacbf0871fd6",
+      "text": "femeninofemenino",
+      "label": "SEXO_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "008035bb-e4ad-403e-b695-adb073a1d26b",
+      "text": ":Laura Méndez IglesiasMéndezIglesias",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "008035bb-e4ad-403e-b695-adb073a1d26b",
+      "text": "-789012",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "008035bb-e4ad-403e-b695-adb073a1d26b",
+      "text": "Laura",
+      "label": "SEXO_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "008035bb-e4ad-403e-b695-adb073a1d26b",
+      "text": "Laura",
+      "label": "NOMBRE_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "008035bb-e4ad-403e-b695-adb073a1d26b",
+      "text": "MéndezMéndez IglesiasIglesias",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "008035bb-e4ad-403e-b695-adb073a1d26b",
+      "text": "sexo",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "008035bb-e4ad-403e-b695-adb073a1d26b",
+      "text": "femeninofemenino",
+      "label": "SEXO_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "008035bb-e4ad-403e-b695-adb073a1d26b",
+      "text": "E",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "008035bb-e4ad-403e-b695-adb073a1d26b",
+      "text": "-459-23",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "008035bb-e4ad-403e-b695-adb073a1d26b",
+      "text": "E",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "008035bb-e4ad-403e-b695-adb073a1d26b",
+      "text": "-459321",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "008035bb-e4ad-403e-b695-adb073a1d26b",
+      "text": "María del Carmen",
+      "label": "FAMILIARES_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "008035bb-e4ad-403e-b695-adb073a1d26b",
+      "text": "del Carmen LópezLópez",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "008035bb-e4ad-403e-b695-adb073a1d26b",
+      "text": "hermanahermana",
+      "label": "FAMILIARES_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "008035bb-e4ad-403e-b695-adb073a1d26b",
+      "text": "María del CarmenMaría del",
+      "label": "FAMILIARES_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "008035bb-e4ad-403e-b695-adb073a1d26b",
+      "text": "Gutiérrez",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "008035bb-e4ad-403e-b695-adb073a1d26b",
+      "text": "8",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "008035bb-e4ad-403e-b695-adb073a1d26b",
+      "text": "B",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "008035bb-e4ad-403e-b695-adb073a1d26b",
+      "text": "28473916",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "008035bb-e4ad-403e-b695-adb073a1d26b",
+      "text": "Comunidad ValencianaComunidad Valenciana",
+      "label": "PAIS"
+    },
+    {
+      "doc_id": "008035bb-e4ad-403e-b695-adb073a1d26b",
+      "text": "EspañaEspaña",
+      "label": "PAIS"
+    },
+    {
+      "doc_id": "0081a6c0-e244-4b51-af1a-216d03cfadd3",
+      "text": "femeninofemenino",
+      "label": "SEXO_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "0081a6c0-e244-4b51-af1a-216d03cfadd3",
+      "text": "abarcelona.org",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "0081a6c0-e244-4b51-af1a-216d03cfadd3",
+      "text": "12 de julio de 202312 de julio de 2023",
+      "label": "FECHAS"
+    },
+    {
+      "doc_id": "0081a6c0-e244-4b51-af1a-216d03cfadd3",
+      "text": "HC",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "0081a6c0-e244-4b51-af1a-216d03cfadd3",
+      "text": "B",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "0081a6c0-e244-4b51-af1a-216d03cfadd3",
+      "text": "Centro de Salud Los ÁlamosCentro de Salud Los Álamos",
+      "label": "CENTRO_SALUD"
+    },
+    {
+      "doc_id": "0081a6c0-e244-4b51-af1a-216d03cfadd3",
+      "text": "Avenida de la Constitución 12Avenida de la Constitución 12",
+      "label": "CALLE"
+    },
+    {
+      "doc_id": "00876078-5df8-469b-b521-648cac0f9fe7",
+      "text": "HC",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00876078-5df8-469b-b521-648cac0f9fe7",
+      "text": "2024-7890",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00876078-5df8-469b-b521-648cac0f9fe7",
+      "text": "12 de julio de 202312 de julio de 2023",
+      "label": "FECHAS"
+    },
+    {
+      "doc_id": "00876078-5df8-469b-b521-648cac0f9fe7",
+      "text": "Centro de Salud Los ÁlamosCentro de Salud Los Álamos",
+      "label": "CENTRO_SALUD"
+    },
+    {
+      "doc_id": "00876078-5df8-469b-b521-648cac0f9fe7",
+      "text": "887654321B",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00876078-5df8-469b-b521-648cac0f9fe7",
+      "text": "ES7654321-",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00876078-5df8-469b-b521-648cac0f9fe7",
+      "text": "María del Carmen RodríguezRodríguez",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "00876078-5df8-469b-b521-648cac0f9fe7",
+      "text": "madremadre",
+      "label": "FAMILIARES_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00876078-5df8-469b-b521-648cac0f9fe7",
+      "text": "6612-34-56-7812-34-56-78",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00876078-5df8-469b-b521-648cac0f9fe7",
+      "text": "6634-12-89-0734-12-89-07",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00876078-5df8-469b-b521-648cac0f9fe7",
+      "text": "++34 91 876 54 3234 91 876 54 32",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00876078-5df8-469b-b521-648cac0f9fe7",
+      "text": "abarcelona.org",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "008ed118-d0b5-4f1d-a2ef-fdaa7be19fe0",
+      "text": "sexo",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "008ed118-d0b5-4f1d-a2ef-fdaa7be19fe0",
+      "text": "femeninofemenino",
+      "label": "SEXO_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "008ed118-d0b5-4f1d-a2ef-fdaa7be19fe0",
+      "text": "45",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "008ed118-d0b5-4f1d-a2ef-fdaa7be19fe0",
+      "text": "87",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "008ed118-d0b5-4f1d-a2ef-fdaa7be19fe0",
+      "text": "REF",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "008ed118-d0b5-4f1d-a2ef-fdaa7be19fe0",
+      "text": "87",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "008ed118-d0b5-4f1d-a2ef-fdaa7be19fe0",
+      "text": "Comunidad ValencianaValenciana",
+      "label": "PAIS"
+    },
+    {
+      "doc_id": "0092f519-85eb-41bc-9eda-0cc7ed7dcbb0",
+      "text": "Comunidad ValencianaComunidad Valenciana",
+      "label": "PAIS"
+    },
+    {
+      "doc_id": "0092f519-85eb-41bc-9eda-0cc7ed7dcbb0",
+      "text": "femenino",
+      "label": "SEXO_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "0092f519-85eb-41bc-9eda-0cc7ed7dcbb0",
+      "text": "EspañaEspaña",
+      "label": "PAIS"
+    },
+    {
+      "doc_id": "0092f519-85eb-41bc-9eda-0cc7ed7dcbb0",
+      "text": "familiares sujetos",
+      "label": "FAMILIARES_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "0092f519-85eb-41bc-9eda-0cc7ed7dcbb0",
+      "text": "María Rodríguez Sánchez",
+      "label": "FAMILIARES_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "0092f519-85eb-41bc-9eda-0cc7ed7dcbb0",
+      "text": "RodríguezSánchez",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "0092f519-85eb-41bc-9eda-0cc7ed7dcbb0",
+      "text": "++34 91 876 54 3234 91 876 54 32",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00930499-2021-4d95-a3f2-3b0053ead40c",
+      "text": "Laura Méndez IglesiasMéndezIglesias",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "00930499-2021-4d95-a3f2-3b0053ead40c",
+      "text": "SN-",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "00930499-2021-4d95-a3f2-3b0053ead40c",
+      "text": "toriaclinica.hospitalregional.org/paciente",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "00930499-2021-4d95-a3f2-3b0053ead40c",
+      "text": "aclinica.hospitalregional.org",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "00930499-2021-4d95-a3f2-3b0053ead40c",
+      "text": "AB",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00930499-2021-4d95-a3f2-3b0053ead40c",
+      "text": "B-",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "00930499-2021-4d95-a3f2-3b0053ead40c",
+      "text": "ES",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "00930499-2021-4d95-a3f2-3b0053ead40c",
+      "text": "SN",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "00930499-2021-4d95-a3f2-3b0053ead40c",
+      "text": "98",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00930499-2021-4d95-a3f2-3b0053ead40c",
+      "text": "his",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00930499-2021-4d95-a3f2-3b0053ead40c",
+      "text": "ica.hgugm.es/",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "00930499-2021-4d95-a3f2-3b0053ead40c",
+      "text": "ica.hgugm.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "00930499-2021-4d95-a3f2-3b0053ead40c",
+      "text": "AB",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00930499-2021-4d95-a3f2-3b0053ead40c",
+      "text": "+34 91 876 54 32+34 91 876 54 32",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00930499-2021-4d95-a3f2-3b0053ead40c",
+      "text": "MartínezMartínez SánchezSánchez",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "009a50d4-8a4d-4cc5-9964-a66511b8e1df",
+      "text": "Centro de Salud Los ÁlamosCentro de Salud Los Álamos",
+      "label": "CENTRO_SALUD"
+    },
+    {
+      "doc_id": "009a50d4-8a4d-4cc5-9964-a66511b8e1df",
+      "text": "Laura Méndez IglesiasMéndezIglesias",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "009a50d4-8a4d-4cc5-9964-a66511b8e1df",
+      "text": "HC",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "009a50d4-8a4d-4cc5-9964-a66511b8e1df",
+      "text": "-789012",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "009a50d4-8a4d-4cc5-9964-a66511b8e1df",
+      "text": "67 años67 años",
+      "label": "EDAD_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "009a50d4-8a4d-4cc5-9964-a66511b8e1df",
+      "text": "femenino",
+      "label": "SEXO_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "009a50d4-8a4d-4cc5-9964-a66511b8e1df",
+      "text": "7",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "009a50d4-8a4d-4cc5-9964-a66511b8e1df",
+      "text": "cirujanocirujano",
+      "label": "PROFESION"
+    },
+    {
+      "doc_id": "009a50d4-8a4d-4cc5-9964-a66511b8e1df",
+      "text": "Comunidad ValencianaComunidad Valenciana",
+      "label": "PAIS"
+    },
+    {
+      "doc_id": "009d2053-4bba-49ef-ae60-5ef67cd43e30",
+      "text": "12 de julio de 202312 de julio de 2023",
+      "label": "FECHAS"
+    },
+    {
+      "doc_id": "009d2053-4bba-49ef-ae60-5ef67cd43e30",
+      "text": "SN",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "009d2053-4bba-49ef-ae60-5ef67cd43e30",
+      "text": "-98273645",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "009d2053-4bba-49ef-ae60-5ef67cd43e30",
+      "text": "612-345-678612-345-678",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "009d2053-4bba-49ef-ae60-5ef67cd43e30",
+      "text": "toriaclinica.hospitalcentral.es/paciente/",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "009d2053-4bba-49ef-ae60-5ef67cd43e30",
+      "text": "aclinica.hospitalcentral.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "009d2053-4bba-49ef-ae60-5ef67cd43e30",
+      "text": "Z",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "009d2053-4bba-49ef-ae60-5ef67cd43e30",
+      "text": "++34 91 876 54 3234 91 876 54 32",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "009d2053-4bba-49ef-ae60-5ef67cd43e30",
+      "text": "B",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "009d2053-4bba-49ef-ae60-5ef67cd43e30",
+      "text": "toriaclinica.hospitalregional.es/",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "009d2053-4bba-49ef-ae60-5ef67cd43e30",
+      "text": "aclinica.hospitalregional.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "009d2053-4bba-49ef-ae60-5ef67cd43e30",
+      "text": "Hospital Clínico San CarlosHospital Clínico San Carlos",
+      "label": "HOSPITAL"
+    },
+    {
+      "doc_id": "009d2053-4bba-49ef-ae60-5ef67cd43e30",
+      "text": "plan de salud 46",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "009d2053-4bba-49ef-ae60-5ef67cd43e30",
+      "text": "B",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "009d2053-4bba-49ef-ae60-5ef67cd43e30",
+      "text": "-45872316",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "009d2053-4bba-49ef-ae60-5ef67cd43e30",
+      "text": "toriaclinica.hgugm.es/paciente",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "009d2053-4bba-49ef-ae60-5ef67cd43e30",
+      "text": "linica.hgugm.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "009d2053-4bba-49ef-ae60-5ef67cd43e30",
+      "text": "Avenida de la Constitución 12Avenida de la Constitución 12",
+      "label": "CALLE"
+    },
+    {
+      "doc_id": "009d2053-4bba-49ef-ae60-5ef67cd43e30",
+      "text": "E",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "009d2053-4bba-49ef-ae60-5ef67cd43e30",
+      "text": "central",
+      "label": "INSTITUCION"
+    },
+    {
+      "doc_id": "009d2053-4bba-49ef-ae60-5ef67cd43e30",
+      "text": ".",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "009d2053-4bba-49ef-ae60-5ef67cd43e30",
+      "text": "Z",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "009d313d-186b-4023-a396-8e5fabe03d0e",
+      "text": "femeninofemenino",
+      "label": "SEXO_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "009d313d-186b-4023-a396-8e5fabe03d0e",
+      "text": "de",
+      "label": "INSTITUCION"
+    },
+    {
+      "doc_id": "009d313d-186b-4023-a396-8e5fabe03d0e",
+      "text": "12",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "009d313d-186b-4023-a396-8e5fabe03d0e",
+      "text": "B",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "009d313d-186b-4023-a396-8e5fabe03d0e",
+      "text": "98",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "009d313d-186b-4023-a396-8e5fabe03d0e",
+      "text": "B12",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "009d313d-186b-4023-a396-8e5fabe03d0e",
+      "text": "Centro de Salud Los ÁlamosCentro de Salud Los Álamos",
+      "label": "CENTRO_SALUD"
+    },
+    {
+      "doc_id": "009d313d-186b-4023-a396-8e5fabe03d0e",
+      "text": "Comunidad ValencianaValenciana",
+      "label": "PAIS"
+    },
+    {
+      "doc_id": "009d313d-186b-4023-a396-8e5fabe03d0e",
+      "text": "car",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "009d313d-186b-4023-a396-8e5fabe03d0e",
+      "text": "carlos.martinez@clinic.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "009d313d-186b-4023-a396-8e5fabe03d0e",
+      "text": "@clinic.es",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "009d313d-186b-4023-a396-8e5fabe03d0e",
+      "text": "https://www.clinicabarcelona.org",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "009d313d-186b-4023-a396-8e5fabe03d0e",
+      "text": "clinicabarcelona.org",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "00a023f3-c02b-4590-b138-d9ae57248b0d",
+      "text": "carlos.martinez@clinic.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "00a023f3-c02b-4590-b138-d9ae57248b0d",
+      "text": "martinez",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "00a023f3-c02b-4590-b138-d9ae57248b0d",
+      "text": "his",
+      "label": "INSTITUCION"
+    },
+    {
+      "doc_id": "00a023f3-c02b-4590-b138-d9ae57248b0d",
+      "text": "aclinica.hospitalregional.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "00a023f3-c02b-4590-b138-d9ae57248b0d",
+      "text": ".hospitalregional.es/",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "00a023f3-c02b-4590-b138-d9ae57248b0d",
+      "text": "/45",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00a023f3-c02b-4590-b138-d9ae57248b0d",
+      "text": "45",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00a023f3-c02b-4590-b138-d9ae57248b0d",
+      "text": "6",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00a023f3-c02b-4590-b138-d9ae57248b0d",
+      "text": "re",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00a023f3-c02b-4590-b138-d9ae57248b0d",
+      "text": "institucional",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00a023f3-c02b-4590-b138-d9ae57248b0d",
+      "text": "his",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00a023f3-c02b-4590-b138-d9ae57248b0d",
+      "text": "toriaclinica.hgugm.es/",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "00a023f3-c02b-4590-b138-d9ae57248b0d",
+      "text": "aclinica.hgugm.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "00a023f3-c02b-4590-b138-d9ae57248b0d",
+      "text": "12345",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00a023f3-c02b-4590-b138-d9ae57248b0d",
+      "text": "12",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00a023f3-c02b-4590-b138-d9ae57248b0d",
+      "text": "ElenaElena Rodríguez SantosRodríguezSantos",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "00a023f3-c02b-4590-b138-d9ae57248b0d",
+      "text": "https://www.clinicabarcelona.org",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "00a023f3-c02b-4590-b138-d9ae57248b0d",
+      "text": "icabarcelona.org",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "00a023f3-c02b-4590-b138-d9ae57248b0d",
+      "text": "María López MartínezLópezMartínez",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "00a1a66e-094d-48bb-85b0-5fabb0cbdb2e",
+      "text": "Centro de Salud Los ÁlamosCentro de Salud Los Álamos",
+      "label": "CENTRO_SALUD"
+    },
+    {
+      "doc_id": "00a1a66e-094d-48bb-85b0-5fabb0cbdb2e",
+      "text": "67 años67 años",
+      "label": "EDAD_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00a4095d-ee9b-4f32-a2e3-6c098712af6f",
+      "text": "Centro de Salud Los ÁlamosCentro de Salud Los Álamos",
+      "label": "CENTRO_SALUD"
+    },
+    {
+      "doc_id": "00a4095d-ee9b-4f32-a2e3-6c098712af6f",
+      "text": "+34 91 876 54 3234 91 876 54 32",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00a4095d-ee9b-4f32-a2e3-6c098712af6f",
+      "text": "12",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00a4095d-ee9b-4f32-a2e3-6c098712af6f",
+      "text": "1234 BCD",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00a4095d-ee9b-4f32-a2e3-6c098712af6f",
+      "text": "REF",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "00a4095d-ee9b-4f32-a2e3-6c098712af6f",
+      "text": "2024-789234",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00a4095d-ee9b-4f32-a2e3-6c098712af6f",
+      "text": "EspañaEspaña",
+      "label": "PAIS"
+    },
+    {
+      "doc_id": "00a5d694-46ad-49ba-a2a0-82313738073f",
+      "text": "Laura Méndez IglesiasMéndezIglesias",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "00a5d694-46ad-49ba-a2a0-82313738073f",
+      "text": "67 años67 años",
+      "label": "EDAD_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00a5d694-46ad-49ba-a2a0-82313738073f",
+      "text": "clinicabarcelona.org",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "00a5d694-46ad-49ba-a2a0-82313738073f",
+      "text": "46 08 28 123 4546 08 28 123 45",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00a5d694-46ad-49ba-a2a0-82313738073f",
+      "text": "Centro de Salud Los ÁlamosCentro de Salud Los Álamos",
+      "label": "CENTRO_SALUD"
+    },
+    {
+      "doc_id": "00a5d694-46ad-49ba-a2a0-82313738073f",
+      "text": "91-91-765-4321765-4321",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00a5d694-46ad-49ba-a2a0-82313738073f",
+      "text": "España",
+      "label": "PAIS"
+    },
+    {
+      "doc_id": "00a85666-62f1-413f-b1d7-16da8833a113",
+      "text": "Laura Méndez IglesiasMéndezIglesias",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "00a85666-62f1-413f-b1d7-16da8833a113",
+      "text": "67 años67 años",
+      "label": "EDAD_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00a85666-62f1-413f-b1d7-16da8833a113",
+      "text": "laComunidad ValencianaValenciana",
+      "label": "PAIS"
+    },
+    {
+      "doc_id": "00a85666-62f1-413f-b1d7-16da8833a113",
+      "text": "Centro de Salud Los ÁlamosCentro de Salud Los Álamos",
+      "label": "CENTRO_SALUD"
+    },
+    {
+      "doc_id": "00a85666-62f1-413f-b1d7-16da8833a113",
+      "text": "apoyo",
+      "label": "INSTITUCION"
+    },
+    {
+      "doc_id": "00a85666-62f1-413f-b1d7-16da8833a113",
+      "text": "E",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "00a85666-62f1-413f-b1d7-16da8833a113",
+      "text": "E-789456",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00a85666-62f1-413f-b1d7-16da8833a113",
+      "text": "SN-98237641",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00a85666-62f1-413f-b1d7-16da8833a113",
+      "text": "1234 BCD",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00a85666-62f1-413f-b1d7-16da8833a113",
+      "text": "car",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00a85666-62f1-413f-b1d7-16da8833a113",
+      "text": "carlos.martinez@clinic.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "00a85666-62f1-413f-b1d7-16da8833a113",
+      "text": "martinez",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "00a85666-62f1-413f-b1d7-16da8833a113",
+      "text": "número",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00a85666-62f1-413f-b1d7-16da8833a113",
+      "text": "612-34-56-78612-34-56-78",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00a85666-62f1-413f-b1d7-16da8833a113",
+      "text": "REF",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "00a85666-62f1-413f-b1d7-16da8833a113",
+      "text": "8742-2024",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00b2baed-d24c-446a-a363-13d4aa8a1d2c",
+      "text": "Centro de Salud Los ÁlamosCentro de Salud Los Álamos",
+      "label": "CENTRO_SALUD"
+    },
+    {
+      "doc_id": "00b2baed-d24c-446a-a363-13d4aa8a1d2c",
+      "text": "Hospital Clínico San CarlosHospital Clínico San Carlos",
+      "label": "HOSPITAL"
+    },
+    {
+      "doc_id": "00b2baed-d24c-446a-a363-13d4aa8a1d2c",
+      "text": "12 de julio de 202312 de julio de 2023",
+      "label": "FECHAS"
+    },
+    {
+      "doc_id": "00b811d5-4e1e-4909-a77a-d643dcae9b17",
+      "text": "femeninofemenino",
+      "label": "SEXO_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00b811d5-4e1e-4909-a77a-d643dcae9b17",
+      "text": "E",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00b811d5-4e1e-4909-a77a-d643dcae9b17",
+      "text": "28",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00b811d5-4e1e-4909-a77a-d643dcae9b17",
+      "text": "B",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00b811d5-4e1e-4909-a77a-d643dcae9b17",
+      "text": "7",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00b811d5-4e1e-4909-a77a-d643dcae9b17",
+      "text": "B",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "00b811d5-4e1e-4909-a77a-d643dcae9b17",
+      "text": "++34 91 876 54 3234 91 876 54 32",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00b811d5-4e1e-4909-a77a-d643dcae9b17",
+      "text": "B",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "00bd7258-533d-47d5-bcd7-f4d008a106ea",
+      "text": "Centro de Salud Los ÁlamosCentro de Salud Los Álamos",
+      "label": "CENTRO_SALUD"
+    },
+    {
+      "doc_id": "00bd7258-533d-47d5-bcd7-f4d008a106ea",
+      "text": "María Fernández López",
+      "label": "CENTRO_SALUD"
+    },
+    {
+      "doc_id": "00bd7258-533d-47d5-bcd7-f4d008a106ea",
+      "text": "Fernández López",
+      "label": "NOMBRE_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00bd7258-533d-47d5-bcd7-f4d008a106ea",
+      "text": "++34 91 876 54 3234 91 876 54 32",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00bd7258-533d-47d5-bcd7-f4d008a106ea",
+      "text": "clinicab",
+      "label": "INSTITUCION"
+    },
+    {
+      "doc_id": "00bd7258-533d-47d5-bcd7-f4d008a106ea",
+      "text": "arcelona.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "00bd7258-533d-47d5-bcd7-f4d008a106ea",
+      "text": "SN-98237641",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00bd7258-533d-47d5-bcd7-f4d008a106ea",
+      "text": "98",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00c61347-746f-4a53-a9a8-a0fc8b66b243",
+      "text": "Laura Méndez IglesiasMéndezIglesias",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "00c61347-746f-4a53-a9a8-a0fc8b66b243",
+      "text": "HC",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00c61347-746f-4a53-a9a8-a0fc8b66b243",
+      "text": "8854321B",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00c61347-746f-4a53-a9a8-a0fc8b66b243",
+      "text": "CONT-78",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00c61347-746f-4a53-a9a8-a0fc8b66b243",
+      "text": "6612-345-67812-345-678",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00c61347-746f-4a53-a9a8-a0fc8b66b243",
+      "text": "car",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00c61347-746f-4a53-a9a8-a0fc8b66b243",
+      "text": "car",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "00c61347-746f-4a53-a9a8-a0fc8b66b243",
+      "text": "los",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00c61347-746f-4a53-a9a8-a0fc8b66b243",
+      "text": "los.martinez@clinic.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "00c61347-746f-4a53-a9a8-a0fc8b66b243",
+      "text": "tinez",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "00c61347-746f-4a53-a9a8-a0fc8b66b243",
+      "text": "@clinic.es",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "00c61347-746f-4a53-a9a8-a0fc8b66b243",
+      "text": "clinic",
+      "label": "INSTITUCION"
+    },
+    {
+      "doc_id": "00c61347-746f-4a53-a9a8-a0fc8b66b243",
+      "text": "abarcelona.org",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "00c61347-746f-4a53-a9a8-a0fc8b66b243",
+      "text": "6612-34-56-",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00c6243c-3f48-48ed-8ad2-d86d60b24809",
+      "text": "Laura Méndez IglesiasMéndezIglesias",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "00c6243c-3f48-48ed-8ad2-d86d60b24809",
+      "text": "67 años67 años",
+      "label": "EDAD_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00c6243c-3f48-48ed-8ad2-d86d60b24809",
+      "text": "historia clínica",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00c6243c-3f48-48ed-8ad2-d86d60b24809",
+      "text": "HC",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00c6243c-3f48-48ed-8ad2-d86d60b24809",
+      "text": "7",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00c6243c-3f48-48ed-8ad2-d86d60b24809",
+      "text": "Hospital Clínico San CarlosHospital Clínico San Carlos",
+      "label": "HOSPITAL"
+    },
+    {
+      "doc_id": "00c6243c-3f48-48ed-8ad2-d86d60b24809",
+      "text": "plan deplan de salud",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00c6243c-3f48-48ed-8ad2-d86d60b24809",
+      "text": "B",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00c6243c-3f48-48ed-8ad2-d86d60b24809",
+      "text": "B12",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00c6243c-3f48-48ed-8ad2-d86d60b24809",
+      "text": "45",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00c6243c-3f48-48ed-8ad2-d86d60b24809",
+      "text": "EspañaEspaña",
+      "label": "PAIS"
+    },
+    {
+      "doc_id": "00c6243c-3f48-48ed-8ad2-d86d60b24809",
+      "text": "Elena Rodríguez SantosRodríguezSantos",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "00c6243c-3f48-48ed-8ad2-d86d60b24809",
+      "text": "historia clínica",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00ca4c0f-859c-4891-acdb-0698c2ded3e1",
+      "text": "Laura Méndez IglesiasMéndezIglesias",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "00ca4c0f-859c-4891-acdb-0698c2ded3e1",
+      "text": "sexo",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00ca4c0f-859c-4891-acdb-0698c2ded3e1",
+      "text": "femenino",
+      "label": "SEXO_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00ca4c0f-859c-4891-acdb-0698c2ded3e1",
+      "text": "SN",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00ca4c0f-859c-4891-acdb-0698c2ded3e1",
+      "text": "-",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00ca4c0f-859c-4891-acdb-0698c2ded3e1",
+      "text": "ana.garcia@clinic.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "00ca4c0f-859c-4891-acdb-0698c2ded3e1",
+      "text": "garcia",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "00ca4c0f-859c-4891-acdb-0698c2ded3e1",
+      "text": "carlos.martinez@clinic.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "00ca4c0f-859c-4891-acdb-0698c2ded3e1",
+      "text": "martinez",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "00ca4c0f-859c-4891-acdb-0698c2ded3e1",
+      "text": "ana.martinez@clinic.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "00ca4c0f-859c-4891-acdb-0698c2ded3e1",
+      "text": "martinez",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "00ca4c0f-859c-4891-acdb-0698c2ded3e1",
+      "text": "Hospital Clínico San CarlosHospital Clínico San Carlos",
+      "label": "HOSPITAL"
+    },
+    {
+      "doc_id": "00ca4c0f-859c-4891-acdb-0698c2ded3e1",
+      "text": "clínica",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00ca4c0f-859c-4891-acdb-0698c2ded3e1",
+      "text": "ElenaElena Rodríguez SantosRodríguezSantos",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "00ca4c0f-859c-4891-acdb-0698c2ded3e1",
+      "text": "de Sanidad",
+      "label": "PAIS"
+    },
+    {
+      "doc_id": "00ca4c0f-859c-4891-acdb-0698c2ded3e1",
+      "text": "Comunidad Valenciana",
+      "label": "PAIS"
+    },
+    {
+      "doc_id": "00ca4c0f-859c-4891-acdb-0698c2ded3e1",
+      "text": "plan de salud B-458712369",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00cde67f-6fb5-4cf9-bef9-380719f69d4f",
+      "text": ".es",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "00cde67f-6fb5-4cf9-bef9-380719f69d4f",
+      "text": "SN",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00cde67f-6fb5-4cf9-bef9-380719f69d4f",
+      "text": "-98273645",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00cde67f-6fb5-4cf9-bef9-380719f69d4f",
+      "text": "femeninofemenino",
+      "label": "SEXO_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00cde67f-6fb5-4cf9-bef9-380719f69d4f",
+      "text": "cirujanocirujano",
+      "label": "PROFESION"
+    },
+    {
+      "doc_id": "00cde67f-6fb5-4cf9-bef9-380719f69d4f",
+      "text": "Comunidad Valenciana",
+      "label": "PAIS"
+    },
+    {
+      "doc_id": "00cde67f-6fb5-4cf9-bef9-380719f69d4f",
+      "text": "Comunidad",
+      "label": "TERRITORIO"
+    },
+    {
+      "doc_id": "00cde67f-6fb5-4cf9-bef9-380719f69d4f",
+      "text": "EspañaEspaña",
+      "label": "PAIS"
+    },
+    {
+      "doc_id": "00ce2e9e-9757-403c-8dbf-33234b632b9b",
+      "text": "12 de julio de 202312 de julio de 2023",
+      "label": "FECHAS"
+    },
+    {
+      "doc_id": "00ce2e9e-9757-403c-8dbf-33234b632b9b",
+      "text": "HC",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00ce2e9e-9757-403c-8dbf-33234b632b9b",
+      "text": "20-789012",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00ce2e9e-9757-403c-8dbf-33234b632b9b",
+      "text": "24",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00ce2e9e-9757-403c-8dbf-33234b632b9b",
+      "text": "María del CarmenMaría",
+      "label": "FAMILIARES_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00ce2e9e-9757-403c-8dbf-33234b632b9b",
+      "text": "esposaesposa",
+      "label": "FAMILIARES_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00ce2e9e-9757-403c-8dbf-33234b632b9b",
+      "text": "María del CarmenMaría del Carmen Rodríguezmadremadre",
+      "label": "FAMILIARES_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00ce2e9e-9757-403c-8dbf-33234b632b9b",
+      "text": "ana.martinez@clinic.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "00ce2e9e-9757-403c-8dbf-33234b632b9b",
+      "text": "martinez",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "00ce2e9e-9757-403c-8dbf-33234b632b9b",
+      "text": "@clinic.es",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "00ce2e9e-9757-403c-8dbf-33234b632b9b",
+      "text": "ana",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00ce2e9e-9757-403c-8dbf-33234b632b9b",
+      "text": "ana.garcia@clinicabarcelona.com",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "00ce2e9e-9757-403c-8dbf-33234b632b9b",
+      "text": "gar",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "00ce2e9e-9757-403c-8dbf-33234b632b9b",
+      "text": "@clinicabarcelona.com",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "00ce2e9e-9757-403c-8dbf-33234b632b9b",
+      "text": "B",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00ce2e9e-9757-403c-8dbf-33234b632b9b",
+      "text": "-45872316",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00d05a74-bec1-4834-a0eb-29d75a93a784",
+      "text": "Laura Méndez IglesiasMéndezIglesias",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "00d05a74-bec1-4834-a0eb-29d75a93a784",
+      "text": "historia clínica",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00d05a74-bec1-4834-a0eb-29d75a93a784",
+      "text": "HC",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00d05a74-bec1-4834-a0eb-29d75a93a784",
+      "text": "20-789123",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00d05a74-bec1-4834-a0eb-29d75a93a784",
+      "text": "**B",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00d05a74-bec1-4834-a0eb-29d75a93a784",
+      "text": "femenino",
+      "label": "SEXO_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00d05a74-bec1-4834-a0eb-29d75a93a784",
+      "text": "Comunidad Valenciana",
+      "label": "PAIS"
+    },
+    {
+      "doc_id": "00d05a74-bec1-4834-a0eb-29d75a93a784",
+      "text": "**E-284739-B",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "00d05a74-bec1-4834-a0eb-29d75a93a784",
+      "text": "ElenaElena RodríguezRodríguez",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "00d05a74-bec1-4834-a0eb-29d75a93a784",
+      "text": "**cirujano cardiovascular",
+      "label": "PROFESION"
+    },
+    {
+      "doc_id": "00d05a74-bec1-4834-a0eb-29d75a93a784",
+      "text": "**46 08 28 453 0146 08 28 453 01",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00d05a74-bec1-4834-a0eb-29d75a93a784",
+      "text": "+34 91 876 54 32+34 91 876 54 32",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00d05a74-bec1-4834-a0eb-29d75a93a784",
+      "text": "https://www.clinicabarcelona.org",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "00d05a74-bec1-4834-a0eb-29d75a93a784",
+      "text": "icabarcelona.org",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "00d874a1-ee5e-4e6f-9fe7-4c66681cd7ac",
+      "text": "María",
+      "label": "SEXO_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00d874a1-ee5e-4e6f-9fe7-4c66681cd7ac",
+      "text": "María del Carmen RodríguezRodríguez",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "00d874a1-ee5e-4e6f-9fe7-4c66681cd7ac",
+      "text": "B",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "00d874a1-ee5e-4e6f-9fe7-4c66681cd7ac",
+      "text": "45",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00d874a1-ee5e-4e6f-9fe7-4c66681cd7ac",
+      "text": "E",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00d874a1-ee5e-4e6f-9fe7-4c66681cd7ac",
+      "text": "ES",
+      "label": "NUMERO_IDENTIF"
+    },
+    {
+      "doc_id": "00d874a1-ee5e-4e6f-9fe7-4c66681cd7ac",
+      "text": "8",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00d874a1-ee5e-4e6f-9fe7-4c66681cd7ac",
+      "text": "car",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00d874a1-ee5e-4e6f-9fe7-4c66681cd7ac",
+      "text": "carlos.martinez@clinic.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "00d874a1-ee5e-4e6f-9fe7-4c66681cd7ac",
+      "text": "@clinic.es",
+      "label": "URL_WEB"
+    },
+    {
+      "doc_id": "00db709f-42a2-484e-80bc-d06eab80c07d",
+      "text": "herhermanamana",
+      "label": "FAMILIARES_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00db709f-42a2-484e-80bc-d06eab80c07d",
+      "text": "**",
+      "label": "FAMILIARES_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00db709f-42a2-484e-80bc-d06eab80c07d",
+      "text": "femenino",
+      "label": "SEXO_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00db709f-42a2-484e-80bc-d06eab80c07d",
+      "text": "**12 de julio de 202312 de julio de 2023",
+      "label": "FECHAS"
+    },
+    {
+      "doc_id": "00db709f-42a2-484e-80bc-d06eab80c07d",
+      "text": "**",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00db709f-42a2-484e-80bc-d06eab80c07d",
+      "text": "**+34 91 876 54 3291 876 54 32",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00db709f-42a2-484e-80bc-d06eab80c07d",
+      "text": "HC",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00db709f-42a2-484e-80bc-d06eab80c07d",
+      "text": "2024-789123",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00db709f-42a2-484e-80bc-d06eab80c07d",
+      "text": "HC",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00db709f-42a2-484e-80bc-d06eab80c07d",
+      "text": "ElenaElena Rodríguez SantosRodríguezSantos",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "00db709f-42a2-484e-80bc-d06eab80c07d",
+      "text": "Comunidad Valenciana",
+      "label": "PAIS"
+    },
+    {
+      "doc_id": "00db709f-42a2-484e-80bc-d06eab80c07d",
+      "text": "**España**España",
+      "label": "PAIS"
+    },
+    {
+      "doc_id": "00ddf941-2d74-41a6-b6f1-96ae765c2bfc",
+      "text": "98237641",
+      "label": "ID_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00ddf941-2d74-41a6-b6f1-96ae765c2bfc",
+      "text": "1234 BCD",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00ddf941-2d74-41a6-b6f1-96ae765c2bfc",
+      "text": "femenino",
+      "label": "SEXO_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00ddf941-2d74-41a6-b6f1-96ae765c2bfc",
+      "text": "12 de julio de 202312 de julio de 2023",
+      "label": "FECHAS"
+    },
+    {
+      "doc_id": "00ddf941-2d74-41a6-b6f1-96ae765c2bfc",
+      "text": "Centro de Salud Los ÁlamosCentro de Salud Los Álamos",
+      "label": "CENTRO_SALUD"
+    },
+    {
+      "doc_id": "00ddf941-2d74-41a6-b6f1-96ae765c2bfc",
+      "text": "car",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00ddf941-2d74-41a6-b6f1-96ae765c2bfc",
+      "text": "carlos.martinez@clinic.es",
+      "label": "CORREO_ELECTRONICO"
+    },
+    {
+      "doc_id": "00e189ee-7ed8-4ea2-8b61-a05df4dc7a5b",
+      "text": "femeninofemenino",
+      "label": "SEXO_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00e189ee-7ed8-4ea2-8b61-a05df4dc7a5b",
+      "text": "67 años67 años",
+      "label": "EDAD_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00e189ee-7ed8-4ea2-8b61-a05df4dc7a5b",
+      "text": "12 de julio de 202312 de julio de 2023",
+      "label": "FECHAS"
+    },
+    {
+      "doc_id": "00e189ee-7ed8-4ea2-8b61-a05df4dc7a5b",
+      "text": "Elena Rodríguez SantosRodríguezSantos",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "00e189ee-7ed8-4ea2-8b61-a05df4dc7a5b",
+      "text": "ElenaElena Rodríguez SantosRodríguezSantos",
+      "label": "NOMBRE_PERSONAL_SANITARIO"
+    },
+    {
+      "doc_id": "00e189ee-7ed8-4ea2-8b61-a05df4dc7a5b",
+      "text": "1234",
+      "label": "OTROS_SUJETO_ASISTENCIA"
+    },
+    {
+      "doc_id": "00e189ee-7ed8-4ea2-8b61-a05df4dc7a5b",
+      "text": "Hospital Clínico San CarlosHospital Clínico San Carlos",
+      "label": "HOSPITAL"
+    },
+    {
+      "doc_id": "00e189ee-7ed8-4ea2-8b61-a05df4dc7a5b",
+      "text": "Avenida de la Constitución 12Avenida de la Constitución 12",
+      "label": "CALLE"
+    },
+    {
+      "doc_id": "00e189ee-7ed8-4ea2-8b61-a05df4dc7a5b",
+      "text": "++34 91 876 54 3234 91 876 54 32",
+      "label": "NUMERO_TELEFONO"
+    },
+    {
+      "doc_id": "00eba044-6fff-4e32-8222-36f9003f5bba",
+      "text": "Centro de Salud Los ÁlamosCentro de Salud Los Álamos",
+      "label": "CENTRO_SALUD"
+    },
+    {
+      "doc_id": "00eba044-6fff-4e32-8222-36f9003f5bba",
+      "text": "612612-345-678",
+      "label": "NUMERO_TELEFONO"
+    }
+  ]
+}

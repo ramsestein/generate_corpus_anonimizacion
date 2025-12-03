@@ -1,41 +1,41 @@
 {
   "metadata": {
-    "generated_at": "2025-12-02T15:23:53.765021",
+    "generated_at": "2025-12-03T11:53:25.570938",
     "evaluation_type": "pipeline_filtering_inverted",
     "flow": "SetFit(PII/RUIDO) -> RUIDO: DictFilters(rescue) -> LLM(rescue)"
   },
   "metrics": {
     "global": {
-      "tp": 334,
-      "fp": 162,
-      "tn": 6,
-      "fn": 9,
-      "precision": 0.6734,
-      "recall": 0.9738,
-      "f1": 0.7962,
-      "accuracy": 0.6654
+      "tp": 510,
+      "fp": 206,
+      "tn": 7,
+      "fn": 6,
+      "precision": 0.7123,
+      "recall": 0.9884,
+      "f1": 0.8279,
+      "accuracy": 0.7092
     },
     "by_label": {
       "OTROS_SUJETO_ASISTENCIA": {
-        "tp": 16,
-        "fp": 16,
-        "fn": 1,
-        "total": 33,
-        "kept": 32
+        "tp": 17,
+        "fp": 17,
+        "fn": 0,
+        "total": 34,
+        "kept": 34
       },
       "NUMERO_TELEFONO": {
-        "tp": 65,
-        "fp": 66,
+        "tp": 104,
+        "fp": 103,
         "fn": 1,
-        "total": 136,
-        "kept": 131
+        "total": 214,
+        "kept": 207
       },
       "NUMERO_IDENTIF": {
         "tp": 6,
-        "fp": 22,
+        "fp": 23,
         "fn": 1,
         "total": 30,
-        "kept": 28
+        "kept": 29
       },
       "CORREO_ELECTRONICO": {
         "tp": 53,
@@ -52,60 +52,60 @@
         "kept": 31
       },
       "PAIS": {
-        "tp": 25,
-        "fp": 0,
-        "fn": 0,
-        "total": 25,
-        "kept": 25
-      },
-      "FECHAS": {
-        "tp": 13,
-        "fp": 0,
-        "fn": 0,
-        "total": 13,
-        "kept": 13
-      },
-      "SEXO_SUJETO_ASISTENCIA": {
-        "tp": 16,
-        "fp": 0,
-        "fn": 2,
-        "total": 18,
-        "kept": 16
-      },
-      "NOMBRE_PERSONAL_SANITARIO": {
-        "tp": 34,
-        "fp": 18,
-        "fn": 0,
-        "total": 52,
-        "kept": 52
-      },
-      "PROFESION": {
-        "tp": 6,
-        "fp": 0,
-        "fn": 0,
-        "total": 6,
-        "kept": 6
-      },
-      "CALLE": {
-        "tp": 11,
+        "tp": 38,
         "fp": 1,
         "fn": 0,
-        "total": 12,
-        "kept": 12
+        "total": 39,
+        "kept": 39
+      },
+      "FECHAS": {
+        "tp": 26,
+        "fp": 0,
+        "fn": 0,
+        "total": 26,
+        "kept": 26
+      },
+      "SEXO_SUJETO_ASISTENCIA": {
+        "tp": 26,
+        "fp": 0,
+        "fn": 2,
+        "total": 28,
+        "kept": 26
+      },
+      "NOMBRE_PERSONAL_SANITARIO": {
+        "tp": 70,
+        "fp": 28,
+        "fn": 0,
+        "total": 98,
+        "kept": 98
+      },
+      "PROFESION": {
+        "tp": 8,
+        "fp": 0,
+        "fn": 0,
+        "total": 8,
+        "kept": 8
+      },
+      "CALLE": {
+        "tp": 23,
+        "fp": 3,
+        "fn": 0,
+        "total": 26,
+        "kept": 26
       },
       "CENTRO_SALUD": {
-        "tp": 14,
+        "tp": 29,
         "fp": 0,
-        "fn": 1,
-        "total": 15,
-        "kept": 14
+        "fn": 0,
+        "total": 29,
+        "kept": 29
       },
       "ID_SUJETO_ASISTENCIA": {
-        "tp": 19,
+        "tp": 20,
         "fp": 25,
-        "fn": 1,
+        "fn": 0,
         "total": 45,
-        "kept": 44
+        "kept": 45
       },
       "INSTITUCION": {
         "tp": 5,
@@ -115,25 +115,25 @@
         "kept": 6
       },
       "HOSPITAL": {
-        "tp": 7,
-        "fp": 1,
-        "fn": 0,
-        "total": 9,
-        "kept": 8
-      },
-      "FAMILIARES_SUJETO_ASISTENCIA": {
-        "tp": 4,
-        "fp": 9,
-        "fn": 0,
-        "total": 13,
-        "kept": 13
-      },
-      "EDAD_SUJETO_ASISTENCIA": {
-        "tp": 8,
+        "tp": 15,
         "fp": 0,
         "fn": 0,
-        "total": 8,
-        "kept": 8
+        "total": 16,
+        "kept": 15
+      },
+      "FAMILIARES_SUJETO_ASISTENCIA": {
+        "tp": 22,
+        "fp": 2,
+        "fn": 0,
+        "total": 24,
+        "kept": 24
+      },
+      "EDAD_SUJETO_ASISTENCIA": {
+        "tp": 16,
+        "fp": 0,
+        "fn": 0,
+        "total": 16,
+        "kept": 16
       },
       "NOMBRE_SUJETO_ASISTENCIA": {
         "tp": 2,
@@ -152,10 +152,10 @@
     },
     "by_source": {
       "setfit": {
-        "tp": 323,
-        "fp": 159,
-        "total": 482,
-        "precision": 0.6701244813278008
+        "tp": 493,
+        "fp": 204,
+        "total": 697,
+        "precision": 0.7073170731707317
       },
       "dict_whitelist": {
         "tp": 0,
@@ -164,15 +164,15 @@
         "precision": 0.0
       },
       "llm_rescue": {
-        "tp": 4,
-        "fp": 3,
-        "total": 7,
-        "precision": 0.5714285714285714
+        "tp": 11,
+        "fp": 2,
+        "total": 13,
+        "precision": 0.8461538461538461
       },
       "unknown": {
-        "tp": 7,
+        "tp": 6,
         "fp": 0,
-        "total": 7,
+        "total": 6,
         "precision": 1.0
       }
     }
