@@ -97,12 +97,82 @@ def load_data(results_path: str, input_path: str, gt_dir: str):
     # Cargar GT para docs procesados
     gt_by_doc = {}
     gt_path = Path(gt_dir)
-    for doc_id in doc_ids:
-        gt_file = gt_path / f"{doc_id}.json"
-        if gt_file.exists():
-            with open(gt_file, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-            gt_by_doc[doc_id] = {normalize_text(e['text']) for e in data.get('data', [])}
+
+    # Si 'gt_dir' apunta a un archivo combinado (ej. dataset_unificado.json), cargarlo
+    if gt_path.is_file():
+        with open(gt_path, 'r', encoding='utf-8') as f:
+            combined = json.load(f)
+
+        # Si el archivo es un dict mapping doc_id -> list[entities]
+        if isinstance(combined, dict):
+            for doc_id in doc_ids:
+                doc_obj = combined.get(doc_id) or combined.get(str(doc_id))
+                
+                # Normalizar estructura: obtener lista de entidades
+                ents = []
+                if isinstance(doc_obj, list):
+                    ents = doc_obj
+                elif isinstance(doc_obj, dict):
+                    # Caso dataset_unificado.json: {"id": "...", "data": [...]}
+                    if 'data' in doc_obj:
+                        ents = doc_obj['data']
+                    elif 'entities' in doc_obj:
+                        ents = doc_obj['entities']
+                    else:
+                        ents = []
+                
+                texts = set()
+                # soportar formatos: lista de dicts o lista de strings
+                for e in ents:
+                    if isinstance(e, dict):
+                        txt = e.get('text') or e.get('entity_text') or ''
+                        if txt:
+                            texts.add(normalize_text(txt))
+                    elif isinstance(e, str):
+                        texts.add(normalize_text(e))
+                if texts:
+                    gt_by_doc[doc_id] = texts
+        else:
+            # Si es una lista plana de entidades con campo 'doc_id', agruparlas
+            if isinstance(combined, list):
+                grouped = defaultdict(set)
+                for e in combined:
+                    doc = e.get('doc_id') or e.get('document_id')
+                    if not doc:
+                        continue
+                    txt = e.get('text') or e.get('entity_text') or ''
+                    if txt:
+                        grouped[doc].add(normalize_text(txt))
+                for doc_id in doc_ids:
+                    if grouped.get(doc_id):
+                        gt_by_doc[doc_id] = grouped[doc_id]
+    else:
+        # gt_dir es un directorio con archivos por documento
+        for doc_id in doc_ids:
+            gt_file = gt_path / f"{doc_id}.json"
+            if gt_file.exists():
+                with open(gt_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                # soportar estructuras comunes: {'data': [...]}, lista directa, {'entities': [...]}
+                ents = []
+                if isinstance(data, dict) and 'data' in data:
+                    ents = data.get('data', [])
+                elif isinstance(data, dict) and 'entities' in data:
+                    ents = data.get('entities', [])
+                elif isinstance(data, list):
+                    ents = data
+
+                texts = set()
+                for e in ents:
+                    if isinstance(e, dict):
+                        txt = e.get('text') or e.get('entity_text') or ''
+                        if txt:
+                            texts.add(normalize_text(txt))
+                    elif isinstance(e, str):
+                        texts.add(normalize_text(e))
+
+                if texts:
+                    gt_by_doc[doc_id] = texts
     
     return results, entrada, gt_by_doc, doc_ids
 

@@ -4,9 +4,9 @@
 
 | Campo | Valor |
 |-------|-------|
-| **Fecha/Hora** | 2025-12-01 11:13:52 |
-| **Modelo Base** | `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` |
-| **Ruta del Modelo** | `models\gatekeeper_setfit` |
+| **Fecha/Hora** | 2025-12-09 13:01:08 |
+| **Modelo Base** | `sentence-transformers/paraphrase-multilingual-mpnet-base-v2` |
+| **Ruta del Modelo** | `models\setfit_high_precision_v2` |
 
 ---
 
@@ -14,18 +14,28 @@
 
 | Métrica | Valor |
 |---------|-------|
-| **Total de frases** | 1160 |
-| **Clase 1 (PII)** | 560 (48.3%) |
-| **Clase 0 (Ruido)** | 600 (51.7%) |
+| **Total de frases** | 1800 |
+| **Clase 1 (PII)** | 900 (50.0%) |
+| **Clase 0 (Ruido)** | 900 (50.0%) |
 | **Categorías procesadas** | 30 |
 
 ---
 
 ## 📈 Métricas de Evaluación
 
+### 🎯 Métricas Críticas (Clase 1 - PII)
+
+| Métrica | Valor | Interpretación |
+|---------|-------|----------------|
+| **Precision** | 0.0000 | Reducción de Falsos Positivos |
+| **Recall** | 0.0000 | ⚠️ CRÍTICO: No perder datos sensibles |
+| **F1-Score** | 0.0000 | Balance óptimo Precision/Recall |
+
+### 📊 Métricas Generales
+
 | Métrica | Valor |
 |---------|-------|
-| **accuracy** | 0.9914 |
+| **error** | (MaxRetryError("HTTPSConnectionPool(host='cas-bridge.xethub.hf.co', port=443): Max retries exceeded with url: /xet-bridge-us/621ffdc136468d709f1802ed/c253da53de897bed72b0c450f220f159fd512827b02704b12d98b363eb0274a8?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251209%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251209T115309Z&X-Amz-Expires=3600&X-Amz-Signature=f6290751353cb965938abd7d6b29c07349e1b087a65ac2861ed59c0770c34593&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&x-id=GetObject&Expires=1765284789&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NTI4NDc4OX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82MjFmZmRjMTM2NDY4ZDcwOWYxODAyZWQvYzI1M2RhNTNkZTg5N2JlZDcyYjBjNDUwZjIyMGYxNTlmZDUxMjgyN2IwMjcwNGIxMmQ5OGIzNjNlYjAyNzRhOCoifV19&Signature=KI9H3R6NuExxu8HrTBY9uobttszXV9vyKoNTavhffPsxpmi0POrCt~WdmswU7iO6d1v7EvBoCLZlP~XRQ7MYs~RWwnEdv8qKOvtoQZy6S3S1vAX1yGAUwP5dfaDpz3RDxOOuf~~foUJDGNnXquq9RFpmRQ9Gie-vBGJXJIYZC-qaOdOliRabNtfObjeDX2oyQvacLaIXXc6X6lBD3wAI4RJLrYxOzBYIXP7FKD4oEQoqtTooksipa~fFcDXKGn2rOYVHy77k-G-zz3Cbodm3mqoSj6Cu1HmdpOmk7i9mFXaaoOKspwpFL9QOexGUJ5JyiB7lQikmACUl2wBEdYrihA__&Key-Pair-Id=K2L8F4GPSG1IFC (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1032)')))"), '(Request ID: 407f7d76-de94-4d8b-814d-c597734d9f1a)') |
 
 ---
 
@@ -35,56 +45,73 @@
 
 | # | Categoría | Texto |
 |---|-----------|-------|
-| 1 | `ID_TITULACION_PERSONAL_SANITARIO` | Nº Colegiado: [50-71148]. |
-| 2 | `SEXO_SUJETO_ASISTENCIA` | Enfermo [mujer] que acude. |
-| 3 | `CORREO_ELECTRONICO` | Email: [mauricio01@example.org]. |
-| 4 | `ID_SUJETO_ASISTENCIA` | Identificador paciente: [P29212]. |
-| 5 | `NUMERO_FAX` | Fax: [982 698 901]. |
+| 1 | `OTROS_SUJETO_ASISTENCIA` | Conocido como 'Chato'. |
+| 2 | `FAMILIARES_SUJETO_ASISTENCIA` | Padre: [Jose Manuel de Cerezo]. |
+| 3 | `ID_SUJETO_ASISTENCIA` | CIPA: [nhc-907498]. |
+| 4 | `OTRO_NUMERO_IDENTIF` | Nº Socio: [9766137210]. |
+| 5 | `PROFESION` | Trabaja como [electricista]. |
 
 ### ❌ Ejemplos Clase 0 (Ruido - NO Anonimizar)
 
 | # | Categoría | Texto |
 |---|-----------|-------|
-| 1 | `IDENTIF_VEHICULOS_NRSERIE_PLACAS` | Término médico no sensible para IDENTIF_VEHICULOS_NRSERIE_PLACAS. |
-| 2 | `ID_EMPLEO_PERSONAL_SANITARIO` | Término médico no sensible para ID_EMPLEO_PERSONAL_SANITARIO. |
-| 3 | `OTROS_SUJETO_ASISTENCIA` | Contexto clínico seguro, no PII (OTROS_SUJETO_ASISTENCIA). |
-| 4 | `CALLE` | T[3]N[1]M[0]. |
-| 5 | `ID_TITULACION_PERSONAL_SANITARIO` | Contexto clínico seguro, no PII (ID_TITULACION_PERSONAL_SANITARIO). |
+| 1 | `SEXO_SUJETO_ASISTENCIA` | Cromosoma [X] normal. |
+| 2 | `CALLE` | Administrar [pauta 3x1]. |
+| 3 | `EDAD_SUJETO_ASISTENCIA` | Glucemia [110] mg/dl. |
+| 4 | `PROFESION` | Paciente [trabajador] respiratorio. |
+| 5 | `URL_WEB` | Término médico no sensible para URL_WEB. |
 
 ---
 
 ## 📋 Categorías Procesadas
 
-- `CALLE` (40 ejemplos)
-- `CENTRO_SALUD` (40 ejemplos)
-- `CORREO_ELECTRONICO` (40 ejemplos)
-- `DIREC_PROT_INTERNET` (40 ejemplos)
-- `EDAD_SUJETO_ASISTENCIA` (40 ejemplos)
-- `FAMILIARES_SUJETO_ASISTENCIA` (40 ejemplos)
-- `FECHAS` (40 ejemplos)
-- `HOSPITAL` (40 ejemplos)
-- `IDENTIF_BIOMETRICOS` (20 ejemplos)
-- `IDENTIF_DISPOSITIVOS_NRSERIE` (40 ejemplos)
-- `IDENTIF_VEHICULOS_NRSERIE_PLACAS` (40 ejemplos)
-- `ID_ASEGURAMIENTO` (40 ejemplos)
-- `ID_CONTACTO_ASISTENCIAL` (40 ejemplos)
-- `ID_EMPLEO_PERSONAL_SANITARIO` (40 ejemplos)
-- `ID_SUJETO_ASISTENCIA` (40 ejemplos)
-- `ID_TITULACION_PERSONAL_SANITARIO` (40 ejemplos)
-- `INSTITUCION` (40 ejemplos)
-- `NOMBRE_PERSONAL_SANITARIO` (40 ejemplos)
-- `NOMBRE_SUJETO_ASISTENCIA` (40 ejemplos)
-- `NUMERO_BENEF_PLAN_SALUD` (40 ejemplos)
-- `NUMERO_FAX` (40 ejemplos)
-- `NUMERO_IDENTIF` (20 ejemplos)
-- `NUMERO_TELEFONO` (40 ejemplos)
-- `OTROS_SUJETO_ASISTENCIA` (40 ejemplos)
-- `OTRO_NUMERO_IDENTIF` (40 ejemplos)
-- `PAIS` (40 ejemplos)
-- `PROFESION` (40 ejemplos)
-- `SEXO_SUJETO_ASISTENCIA` (40 ejemplos)
-- `TERRITORIO` (40 ejemplos)
-- `URL_WEB` (40 ejemplos)
+- `CALLE` (60 ejemplos)
+- `CENTRO_SALUD` (60 ejemplos)
+- `CORREO_ELECTRONICO` (60 ejemplos)
+- `DIREC_PROT_INTERNET` (60 ejemplos)
+- `EDAD_SUJETO_ASISTENCIA` (60 ejemplos)
+- `FAMILIARES_SUJETO_ASISTENCIA` (60 ejemplos)
+- `FECHAS` (60 ejemplos)
+- `HOSPITAL` (60 ejemplos)
+- `IDENTIF_BIOMETRICOS` (60 ejemplos)
+- `IDENTIF_DISPOSITIVOS_NRSERIE` (60 ejemplos)
+- `IDENTIF_VEHICULOS_NRSERIE_PLACAS` (60 ejemplos)
+- `ID_ASEGURAMIENTO` (60 ejemplos)
+- `ID_CONTACTO_ASISTENCIAL` (60 ejemplos)
+- `ID_EMPLEO_PERSONAL_SANITARIO` (60 ejemplos)
+- `ID_SUJETO_ASISTENCIA` (60 ejemplos)
+- `ID_TITULACION_PERSONAL_SANITARIO` (60 ejemplos)
+- `INSTITUCION` (60 ejemplos)
+- `NOMBRE_PERSONAL_SANITARIO` (60 ejemplos)
+- `NOMBRE_SUJETO_ASISTENCIA` (60 ejemplos)
+- `NUMERO_BENEF_PLAN_SALUD` (60 ejemplos)
+- `NUMERO_FAX` (60 ejemplos)
+- `NUMERO_IDENTIF` (60 ejemplos)
+- `NUMERO_TELEFONO` (60 ejemplos)
+- `OTROS_SUJETO_ASISTENCIA` (60 ejemplos)
+- `OTRO_NUMERO_IDENTIF` (60 ejemplos)
+- `PAIS` (60 ejemplos)
+- `PROFESION` (60 ejemplos)
+- `SEXO_SUJETO_ASISTENCIA` (60 ejemplos)
+- `TERRITORIO` (60 ejemplos)
+- `URL_WEB` (60 ejemplos)
+
+---
+
+## 🔧 Configuración de Entrenamiento (v2 - High Precision)
+
+### Hiperparámetros Aplicados
+
+| Parámetro | Valor | Justificación |
+|-----------|-------|---------------|
+| **num_iterations** | 40 | Más pares contrastivos → mejor boundary |
+| **learning_rate** | 2e-05 | Learning rate conservador para estabilidad |
+| **batch_size** | 16 | Balance entre velocidad y precisión |
+| **metric** | F1-Score | Optimización del balance Precision/Recall |
+
+### ⚠️ Análisis de Recall
+
+🚨 **Recall BAJO** (<95%): RIESGO de pérdida de datos sensibles. Reentrenar.
 
 ---
 

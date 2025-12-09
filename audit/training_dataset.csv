@@ -1,1161 +1,1801 @@
 text,label,category
-[Conductor] del haz de His.,0,PROFESION
-"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
-Ingreso en [Virgen del Rocío].,1,HOSPITAL
-Intervención quirúrgica programada para el [17/04/2009].,1,FECHAS
-"Contexto clínico seguro, no PII (IDENTIF_VEHICULOS_NRSERIE_PLACAS).",0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-Conocido como 'Chato'.,1,OTROS_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (ID_TITULACION_PERSONAL_SANITARIO).",0,ID_TITULACION_PERSONAL_SANITARIO
-"[Javiera Cózar Iriarte], Servicio de Medicina Interna.",1,NOMBRE_PERSONAL_SANITARIO
-Dr./Dra. [Natalia Pujadas Pinedo].,1,NOMBRE_PERSONAL_SANITARIO
-NIF: [29219517-B].,1,ID_SUJETO_ASISTENCIA
-Afiliación SS: [96 7904482 45].,1,ID_ASEGURAMIENTO
-"Contexto clínico seguro, no PII (OTROS_SUJETO_ASISTENCIA).",0,OTROS_SUJETO_ASISTENCIA
-Estadio [IVb].,0,CALLE
-Término médico no sensible para ID_EMPLEO_PERSONAL_SANITARIO.,0,ID_EMPLEO_PERSONAL_SANITARIO
-Frecuencia cardíaca [72] lpm.,0,EDAD_SUJETO_ASISTENCIA
-Término médico no sensible para IDENTIF_VEHICULOS_NRSERIE_PLACAS.,0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-Unidad de [Cuidados Intensivos].,0,INSTITUCION
-Notificar a [nico85@example.org].,1,CORREO_ELECTRONICO
-"Contexto clínico seguro, no PII (URL_WEB).",0,URL_WEB
-"Contexto clínico seguro, no PII (ID_CONTACTO_ASISTENCIAL).",0,ID_CONTACTO_ASISTENCIAL
-Afiliado a [CSIC].,1,INSTITUCION
-Consultar en [www.olmedo.es].,1,URL_WEB
-Administrar [Ramona] IV.,0,NOMBRE_SUJETO_ASISTENCIA
-NIF: [63410254-R].,1,ID_SUJETO_ASISTENCIA
-Paciente [Che Ruperto Juan González].,1,NOMBRE_SUJETO_ASISTENCIA
-Paciente [trabajador] respiratorio.,0,PROFESION
-Accidente con vehículo [3596RGP].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-Enfermedad de [Graves].,0,NOMBRE_PERSONAL_SANITARIO
-Talla [170] cm.,0,EDAD_SUJETO_ASISTENCIA
-Término médico no sensible para IDENTIF_BIOMETRICOS.,0,IDENTIF_BIOMETRICOS
-Episodio: [5084320126].,1,ID_CONTACTO_ASISTENCIAL
-ID Personal: [u652838].,1,ID_EMPLEO_PERSONAL_SANITARIO
-Padre: [Horacio del Borrego].,1,FAMILIARES_SUJETO_ASISTENCIA
-Paciente de [18] años.,1,EDAD_SUJETO_ASISTENCIA
-HTA de [10] años.,0,EDAD_SUJETO_ASISTENCIA
-Emigró desde [Portugal] hace 5 años.,1,PAIS
-"Reside en [Ronda Bonifacio Trujillo 393], [44327].",1,CALLE
-Término médico no sensible para URL_WEB.,0,URL_WEB
-[Hermano] fallecido.,0,FAMILIARES_SUJETO_ASISTENCIA
-Madre: [Angelita García Murillo].,1,FAMILIARES_SUJETO_ASISTENCIA
-Enfermedad de [Graves].,0,NOMBRE_PERSONAL_SANITARIO
-"Contexto clínico seguro, no PII (ID_EMPLEO_PERSONAL_SANITARIO).",0,ID_EMPLEO_PERSONAL_SANITARIO
-Cuidador principal: [Gil Camino Niño].,1,FAMILIARES_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
-Grado [III/IV].,0,CALLE
-Relación [riesgo/beneficio] favorable.,0,CORREO_ELECTRONICO
-Término médico no sensible para ID_CONTACTO_ASISTENCIAL.,0,ID_CONTACTO_ASISTENCIAL
-Control [periódico] cada 6 meses.,0,FECHAS
-"Contexto clínico seguro, no PII (IDENTIF_VEHICULOS_NRSERIE_PLACAS).",0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-"Contexto clínico seguro, no PII (IDENTIF_VEHICULOS_NRSERIE_PLACAS).",0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-Relación [riesgo/beneficio] favorable.,0,CORREO_ELECTRONICO
-Guías [americanas] de cardiología.,0,PAIS
-Administrar [pauta 3x1].,0,CALLE
-NIF: [30141148-V].,1,ID_SUJETO_ASISTENCIA
-Cuidador principal: [Merche Avilés-Martí].,1,FAMILIARES_SUJETO_ASISTENCIA
-IP: [134.14.84.161].,1,IDENTIF_DISPOSITIVOS_NRSERIE
-Servicio de [Urgencias].,0,INSTITUCION
+"Contexto clínico seguro, no PII (IDENTIF_BIOMETRICOS).",0,IDENTIF_BIOMETRICOS
 CIE [630.0].,0,NUMERO_TELEFONO
-Término médico no sensible para NUMERO_BENEF_PLAN_SALUD.,0,NUMERO_BENEF_PLAN_SALUD
-Natural de [Portugal].,1,PAIS
-Diagnóstico inicial en [diciembre] de [1992].,1,FECHAS
-Trasladado desde [urgencias].,0,TERRITORIO
-Nacido el [06/11/1995].,1,FECHAS
+Remitido desde [Vithas].,1,INSTITUCION
+Frecuencia cardíaca [72] lpm.,0,EDAD_SUJETO_ASISTENCIA
+ID Personal: [u224347].,1,ID_EMPLEO_PERSONAL_SANITARIO
+Alta médica el día [17/06/2025].,1,FECHAS
+Informe elaborado por Dr. [Socorro Boix-Sierra].,1,NOMBRE_PERSONAL_SANITARIO
+[mujer] sometida a intervención.,1,SEXO_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (URL_WEB).",0,URL_WEB
+Término médico no sensible para ID_CONTACTO_ASISTENCIAL.,0,ID_CONTACTO_ASISTENCIAL
+"Contexto clínico seguro, no PII (URL_WEB).",0,URL_WEB
+Teléfono: [+34 874 092 152].,1,NUMERO_TELEFONO
+Centro de Salud [Cea Bermúdez].,1,CENTRO_SALUD
+Móvil: [620 263 277].,1,NUMERO_TELEFONO
+Relación [riesgo/beneficio] favorable.,0,CORREO_ELECTRONICO
+Nº Empleado: [u329625].,1,ID_EMPLEO_PERSONAL_SANITARIO
+Correo electrónico del paciente: [rgoni@example.org].,1,CORREO_ELECTRONICO
+[Conductor] del haz de His.,0,PROFESION
+pO2 [95] mmHg.,0,ID_SUJETO_ASISTENCIA
+Término médico no sensible para OTRO_NUMERO_IDENTIF.,0,OTRO_NUMERO_IDENTIF
+Hospital [Cruces].,1,HOSPITAL
+Contacto: [maribelechevarria@example.org].,1,CORREO_ELECTRONICO
+CIE-10: [E11.9].,0,ID_SUJETO_ASISTENCIA
+Centro [quirúrgico].,0,CENTRO_SALUD
+Pasaporte: [D58186321].,1,ID_SUJETO_ASISTENCIA
 Término médico no sensible para ID_TITULACION_PERSONAL_SANITARIO.,0,ID_TITULACION_PERSONAL_SANITARIO
+Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
+Box [12].,0,ID_SUJETO_ASISTENCIA
+Huella digital [FP672785343].,1,IDENTIF_BIOMETRICOS
+Identificación biométrica: [BIO-49972222].,1,IDENTIF_BIOMETRICOS
+Término médico no sensible para OTRO_NUMERO_IDENTIF.,0,OTRO_NUMERO_IDENTIF
+Término médico no sensible para ID_EMPLEO_PERSONAL_SANITARIO.,0,ID_EMPLEO_PERSONAL_SANITARIO
+Guías [americanas] de cardiología.,0,PAIS
+Accidente con vehículo [8750VHM].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Síndrome de [Sjögren].,0,NOMBRE_PERSONAL_SANITARIO
+Identificación biométrica: [BIO-12938952].,1,IDENTIF_BIOMETRICOS
+Consultar en [www.maxima.es].,1,URL_WEB
+Col. Nº [28-81018].,1,ID_TITULACION_PERSONAL_SANITARIO
+Técnica [IV.2.3].,0,IDENTIF_DISPOSITIVOS_NRSERIE
+Afiliación SS: [39 9403033 53].,1,ID_ASEGURAMIENTO
+Término médico no sensible para NUMERO_BENEF_PLAN_SALUD.,0,NUMERO_BENEF_PLAN_SALUD
+"Contexto clínico seguro, no PII (IDENTIF_VEHICULOS_NRSERIE_PLACAS).",0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Número de identificación: [P66443].,1,NUMERO_IDENTIF
+Cromosoma [X] normal.,0,SEXO_SUJETO_ASISTENCIA
+Contacto: [vendrellrosendo@example.net].,1,CORREO_ELECTRONICO
+Fecha de ingreso: [28/03/1990].,1,FECHAS
+Vehículo [1728RBV].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+[hombre] de 45 años.,1,SEXO_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (NUMERO_FAX).",0,NUMERO_FAX
+Consultar en [www.compania.es].,1,URL_WEB
+Enfermera [Dominga Quintana Antúnez] administra medicación.,1,NOMBRE_PERSONAL_SANITARIO
+Término médico no sensible para IDENTIF_VEHICULOS_NRSERIE_PLACAS.,0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Médico colegiado [34-90874].,1,ID_TITULACION_PERSONAL_SANITARIO
+"Contexto clínico seguro, no PII (IDENTIF_VEHICULOS_NRSERIE_PLACAS).",0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+NASS: [78 5546937 60].,1,ID_ASEGURAMIENTO
+Vehículo [6032FMV].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Accidente con vehículo [6118XTW].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Vive en la urbanización [Ville Cisneros] de [Valladolid].,1,TERRITORIO
+"Contexto clínico seguro, no PII (NUMERO_FAX).",0,NUMERO_FAX
+Nº Socio: [8955404771].,1,OTRO_NUMERO_IDENTIF
+Lactante de [6] meses.,1,EDAD_SUJETO_ASISTENCIA
+Término médico no sensible para ID_TITULACION_PERSONAL_SANITARIO.,0,ID_TITULACION_PERSONAL_SANITARIO
+Página web: [www.inmobiliaria.es].,1,URL_WEB
+Afiliación SS: [44 9835331 11].,1,ID_ASEGURAMIENTO
+Término médico no sensible para URL_WEB.,0,URL_WEB
+Póliza: [21402615-A].,1,NUMERO_BENEF_PLAN_SALUD
+"Contexto clínico seguro, no PII (NUMERO_BENEF_PLAN_SALUD).",0,NUMERO_BENEF_PLAN_SALUD
+Término médico no sensible para ID_EMPLEO_PERSONAL_SANITARIO.,0,ID_EMPLEO_PERSONAL_SANITARIO
+Email: [venceslas37@example.com].,1,CORREO_ELECTRONICO
+Término médico no sensible para IDENTIF_BIOMETRICOS.,0,IDENTIF_BIOMETRICOS
+Domicilio: [Vial Gloria Cortés 5].,1,CALLE
+Tensión arterial [120]/80.,0,EDAD_SUJETO_ASISTENCIA
+Semana [+2] post-trasplante.,0,FECHAS
+Relación [riesgo/beneficio] favorable.,0,CORREO_ELECTRONICO
+pH [7.35].,0,ID_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (IDENTIF_BIOMETRICOS).",0,IDENTIF_BIOMETRICOS
+Trabaja como [electricista].,1,PROFESION
+Remitido desde [HM Hospitales].,1,INSTITUCION
+Administrar [Ramona] IV.,0,NOMBRE_SUJETO_ASISTENCIA
+En las [últimas horas].,0,FECHAS
+Término médico no sensible para URL_WEB.,0,URL_WEB
+Referencia [555-123].,0,NUMERO_TELEFONO
+Proporción [1:1000].,0,CORREO_ELECTRONICO
 [Padre] con HTA.,0,FAMILIARES_SUJETO_ASISTENCIA
+Natural de [León].,1,TERRITORIO
+Huella dactilar registrada: [FP754794296].,1,IDENTIF_BIOMETRICOS
+Término médico no sensible para NUMERO_IDENTIF.,0,NUMERO_IDENTIF
+Centro [quirúrgico].,0,CENTRO_SALUD
+Hb [12.5] g/dL.,0,ID_SUJETO_ASISTENCIA
+Emigró desde [Ecuador] hace 5 años.,1,PAIS
+"Contexto clínico seguro, no PII (ID_TITULACION_PERSONAL_SANITARIO).",0,ID_TITULACION_PERSONAL_SANITARIO
+Cariotipo [XY].,0,SEXO_SUJETO_ASISTENCIA
+El/La paciente [Balduino] refiere dolor.,1,NOMBRE_SUJETO_ASISTENCIA
+Término médico no sensible para OTRO_NUMERO_IDENTIF.,0,OTRO_NUMERO_IDENTIF
+"Plaza [Coronado], [98].",1,CALLE
+Procedente de [Reino Unido].,1,PAIS
+Término médico no sensible para NUMERO_IDENTIF.,0,NUMERO_IDENTIF
+Relación [riesgo/beneficio] favorable.,0,CORREO_ELECTRONICO
+Administrar [Ramona] IV.,0,NOMBRE_SUJETO_ASISTENCIA
+Enfermedad de [Parkinson].,0,NOMBRE_SUJETO_ASISTENCIA
+[D.] [Lerma] presenta mejoría.,1,NOMBRE_SUJETO_ASISTENCIA
+Residente en [Italia].,1,PAIS
+Término médico no sensible para IDENTIF_BIOMETRICOS.,0,IDENTIF_BIOMETRICOS
+Enlace: [https://www.alba.com].,1,DIREC_PROT_INTERNET
+Registro: [4879813].,1,NUMERO_IDENTIF
+Proporción [1:1000].,0,CORREO_ELECTRONICO
 "Contexto clínico seguro, no PII (OTRO_NUMERO_IDENTIF).",0,OTRO_NUMERO_IDENTIF
+CIPA: [nhc-222456].,1,ID_SUJETO_ASISTENCIA
+Punto de [atención] continuada.,0,CENTRO_SALUD
+Padre: [Claudio Olivares Avilés].,1,FAMILIARES_SUJETO_ASISTENCIA
+Nº Historia: [402898].,1,ID_SUJETO_ASISTENCIA
+Hb [12.5] g/dL.,0,ID_SUJETO_ASISTENCIA
+CIE [630.0].,0,NUMERO_TELEFONO
+Episodio: [8779951953].,1,ID_CONTACTO_ASISTENCIAL
+Médico colegiado [15-67302].,1,ID_TITULACION_PERSONAL_SANITARIO
+Padre: [Hermenegildo Moreno Trujillo].,1,FAMILIARES_SUJETO_ASISTENCIA
+pO2 [95] mmHg.,0,ID_SUJETO_ASISTENCIA
+Derivado a [urgencias].,0,HOSPITAL
+Proporción [1:1000].,0,CORREO_ELECTRONICO
+Desde hace [varios días].,0,FECHAS
+CIE: [CIE738457].,1,ID_SUJETO_ASISTENCIA
+Notificar a [ztorrents@example.net].,1,CORREO_ELECTRONICO
+Factor [V] Leiden.,0,SEXO_SUJETO_ASISTENCIA
+MAC: [e7:38:45:5e:e5:9c].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+Término médico no sensible para OTRO_NUMERO_IDENTIF.,0,OTRO_NUMERO_IDENTIF
+Número de identificación: [P94063].,1,NUMERO_IDENTIF
+Paciente [trabajador] respiratorio.,0,PROFESION
+Centro de Salud [Alameda].,1,CENTRO_SALUD
+Síndrome de [Sjögren].,0,NOMBRE_PERSONAL_SANITARIO
+Cariotipo [XY].,0,SEXO_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
+Derivado desde C.S. [Vallecas].,1,CENTRO_SALUD
+"Contexto clínico seguro, no PII (ID_ASEGURAMIENTO).",0,ID_ASEGURAMIENTO
+Cromosoma [X] normal.,0,SEXO_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (OTROS_SUJETO_ASISTENCIA).",0,OTROS_SUJETO_ASISTENCIA
+CIE: [CIE245251].,1,ID_SUJETO_ASISTENCIA
+Departamento de [Radiología].,0,INSTITUCION
+Cromosoma [X] normal.,0,SEXO_SUJETO_ASISTENCIA
+Conocido como 'Flaco'.,1,OTROS_SUJETO_ASISTENCIA
+Edad: [67].,1,EDAD_SUJETO_ASISTENCIA
+Email: [benigna78@example.com].,1,CORREO_ELECTRONICO
+Término médico no sensible para NUMERO_FAX.,0,NUMERO_FAX
+Derivado a [consultas externas].,0,TERRITORIO
+Pertenece al Centro de Salud [Infanta Mercedes].,1,CENTRO_SALUD
+Natural de [España].,1,PAIS
+Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
+Presenta tatuaje de [nombre].,1,OTROS_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
+Unidad de [Cuidados Intensivos].,0,INSTITUCION
+Conocido como 'Chato'.,1,OTROS_SUJETO_ASISTENCIA
+Enlace: [https://www.inmobiliaria.es].,1,DIREC_PROT_INTERNET
+"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
+Derivado desde C.S. [Infanta Mercedes].,1,CENTRO_SALUD
+ID: [P77797].,1,NUMERO_IDENTIF
+Enfermedad de [Parkinson].,0,NOMBRE_SUJETO_ASISTENCIA
+Alta médica el día [07/08/1974].,1,FECHAS
+Servicio de [Urgencias].,0,INSTITUCION
+Nº Colegiado: [22-26666].,1,ID_TITULACION_PERSONAL_SANITARIO
+Tratamiento [fase 2].,0,CALLE
+Desde [10/07/2015] presenta síntomas.,1,FECHAS
+Col. Nº [50-15978].,1,ID_TITULACION_PERSONAL_SANITARIO
+Próxima revisión: [lunes] [23/05/2018].,1,FECHAS
+Término médico no sensible para IDENTIF_BIOMETRICOS.,0,IDENTIF_BIOMETRICOS
+"Contexto clínico seguro, no PII (ID_EMPLEO_PERSONAL_SANITARIO).",0,ID_EMPLEO_PERSONAL_SANITARIO
+Cuidador principal: [Loreto Haroldo Cañas Juliá].,1,FAMILIARES_SUJETO_ASISTENCIA
+Planta de [cardiología].,0,HOSPITAL
+Número asignado: [nhc-656420].,1,NUMERO_IDENTIF
+Guías [americanas] de cardiología.,0,PAIS
+Trabaja en [HM Hospitales].,1,INSTITUCION
+Remitido desde [CNIO].,1,INSTITUCION
+Centro [Clínica Universidad de Navarra].,1,INSTITUCION
+Remitido desde [ISCIII].,1,INSTITUCION
+Usuario: [u173656].,1,ID_EMPLEO_PERSONAL_SANITARIO
+Nacido el [02/11/1975].,1,FECHAS
+URL: [https://www.goicoechea.es].,1,DIREC_PROT_INTERNET
+Código [925.11].,0,NUMERO_TELEFONO
+Acceso web: [https://www.mineria.com].,1,DIREC_PROT_INTERNET
+ID Personal: [u358070].,1,ID_EMPLEO_PERSONAL_SANITARIO
+Familiar de contacto: [Fidela de Ribas].,1,FAMILIARES_SUJETO_ASISTENCIA
+Término médico no sensible para IDENTIF_VEHICULOS_NRSERIE_PLACAS.,0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Vehículo [5768LTL].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+"Contexto clínico seguro, no PII (ID_ASEGURAMIENTO).",0,ID_ASEGURAMIENTO
+Área de [salud] mental.,0,CENTRO_SALUD
+Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
+Matrícula: [3844WWK].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Ganglio [axilar] aumentado.,0,TERRITORIO
+"Contexto clínico seguro, no PII (ID_EMPLEO_PERSONAL_SANITARIO).",0,ID_EMPLEO_PERSONAL_SANITARIO
+ID Asegurado: [PS-3685211].,1,NUMERO_BENEF_PLAN_SALUD
+Consultar en [www.fabrica.es].,1,URL_WEB
+"Pº [Llorens], [Lleida].",1,CALLE
+Estadio [IVb].,0,CALLE
+Profesión: [conductor].,1,PROFESION
+MAC: [67:a8:da:40:e4:7f].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+Protocolo [A.1.2].,0,IDENTIF_DISPOSITIVOS_NRSERIE
+Semana [+2] post-trasplante.,0,FECHAS
+Apodo: [Pepe].,1,OTROS_SUJETO_ASISTENCIA
+FAX: [956 657 549].,1,NUMERO_FAX
+Página web: [www.construccion.com].,1,URL_WEB
+Fax: [920 370 865].,1,NUMERO_FAX
+Trabaja en [HM Hospitales].,1,INSTITUCION
+Madre: [Alexandra Capdevila España].,1,FAMILIARES_SUJETO_ASISTENCIA
+IMC [25].,0,EDAD_SUJETO_ASISTENCIA
+Código [925.11].,0,NUMERO_TELEFONO
+Signo de [Murphy] positivo.,0,NOMBRE_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (DIREC_PROT_INTERNET).",0,DIREC_PROT_INTERNET
+[cocinero] de 50 años.,1,PROFESION
+Término médico no sensible para OTRO_NUMERO_IDENTIF.,0,OTRO_NUMERO_IDENTIF
+Pasaporte: [A25638062].,1,ID_SUJETO_ASISTENCIA
+Término médico no sensible para IDENTIF_BIOMETRICOS.,0,IDENTIF_BIOMETRICOS
+ID Asegurado: [PS-1921835].,1,NUMERO_BENEF_PLAN_SALUD
+Registro: [3870692].,1,NUMERO_IDENTIF
+Trasladado desde [urgencias].,0,TERRITORIO
+Teléfono: [+34845 834 190].,1,NUMERO_TELEFONO
+Apodo: [Pepe].,1,OTROS_SUJETO_ASISTENCIA
+Nacionalidad: [Portugal].,1,PAIS
+ID Asegurado: [PS-7874661].,1,NUMERO_BENEF_PLAN_SALUD
+Término médico no sensible para OTROS_SUJETO_ASISTENCIA.,0,OTROS_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (ID_EMPLEO_PERSONAL_SANITARIO).",0,ID_EMPLEO_PERSONAL_SANITARIO
+Teléfono: [+34 963 96 70 44].,1,NUMERO_TELEFONO
+Se recibe a [Espiridión Bonilla Cantón].,1,NOMBRE_SUJETO_ASISTENCIA
+Episodio: [2268528881].,1,ID_CONTACTO_ASISTENCIAL
+Término médico no sensible para DIREC_PROT_INTERNET.,0,DIREC_PROT_INTERNET
+Técnica de [Seldinger].,0,NOMBRE_PERSONAL_SANITARIO
+Masa en región [cervical].,0,TERRITORIO
+"Reside en [Urbanización Primitiva Morera 726 Piso 8 ], [51619].",1,CALLE
+Proporción [1:1000].,0,CORREO_ELECTRONICO
+Código [925.11].,0,NUMERO_TELEFONO
+[Padre] con HTA.,0,FAMILIARES_SUJETO_ASISTENCIA
+[Sr.] [Boada] presenta mejoría.,1,NOMBRE_SUJETO_ASISTENCIA
+Departamento de [Radiología].,0,INSTITUCION
+"Contexto clínico seguro, no PII (ID_CONTACTO_ASISTENCIAL).",0,ID_CONTACTO_ASISTENCIAL
+Escala de [Glasgow] 15.,0,NOMBRE_SUJETO_ASISTENCIA
+Afectación de zona [temporal] izquierda.,0,TERRITORIO
+Derivado desde C.S. [Cea Bermúdez].,1,CENTRO_SALUD
+T[3]N[1]M[0].,0,CALLE
+Episodio: [6306095946].,1,ID_CONTACTO_ASISTENCIAL
+ID Asegurado: [PS-1671116].,1,NUMERO_BENEF_PLAN_SALUD
+"Pº [Capdevila], [Lleida].",1,CALLE
+Identificación biométrica: [BIO-20280196].,1,IDENTIF_BIOMETRICOS
+Enfermo [hombre] que acude.,1,SEXO_SUJETO_ASISTENCIA
+Póliza: [41066648-A].,1,NUMERO_BENEF_PLAN_SALUD
+Nº Empleado: [u767384].,1,ID_EMPLEO_PERSONAL_SANITARIO
+Lactante de [8] meses.,1,EDAD_SUJETO_ASISTENCIA
+Servicio de [medicina interna].,0,HOSPITAL
+Informe elaborado por Dr. [Encarnacion Barrera].,1,NOMBRE_PERSONAL_SANITARIO
+Niño/Niña [niña] de 8 años.,1,SEXO_SUJETO_ASISTENCIA
+Profesión: [cocinero].,1,PROFESION
+Afiliación SS: [14 8187582 50].,1,ID_ASEGURAMIENTO
+Término médico no sensible para NUMERO_FAX.,0,NUMERO_FAX
+"Contexto clínico seguro, no PII (DIREC_PROT_INTERNET).",0,DIREC_PROT_INTERNET
+Consultar en [www.amat.org].,1,URL_WEB
+"Contexto clínico seguro, no PII (IDENTIF_VEHICULOS_NRSERIE_PLACAS).",0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+"Contexto clínico seguro, no PII (NUMERO_BENEF_PLAN_SALUD).",0,NUMERO_BENEF_PLAN_SALUD
+Término médico no sensible para OTROS_SUJETO_ASISTENCIA.,0,OTROS_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
+Tiroiditis de [Hashimoto].,0,NOMBRE_PERSONAL_SANITARIO
+"Contexto clínico seguro, no PII (ID_CONTACTO_ASISTENCIAL).",0,ID_CONTACTO_ASISTENCIAL
+"Plaza [Salazar], [177].",1,CALLE
+Técnica [IV.2.3].,0,IDENTIF_DISPOSITIVOS_NRSERIE
+Término médico no sensible para DIREC_PROT_INTERNET.,0,DIREC_PROT_INTERNET
+Código identificador: [4341058].,1,NUMERO_IDENTIF
+Factor [V] Leiden.,0,SEXO_SUJETO_ASISTENCIA
+Último control realizado el [14/11/1971].,1,FECHAS
+FAX: [993 792 737].,1,NUMERO_FAX
+Término médico no sensible para IDENTIF_BIOMETRICOS.,0,IDENTIF_BIOMETRICOS
+Hospital [Universitario La Paz].,1,HOSPITAL
+ID Personal: [u629761].,1,ID_EMPLEO_PERSONAL_SANITARIO
+"Contexto clínico seguro, no PII (OTRO_NUMERO_IDENTIF).",0,OTRO_NUMERO_IDENTIF
+Grado [III/IV].,0,CALLE
+Ingreso en [Gregorio Marañón].,1,HOSPITAL
+Antecedentes familiares de [cáncer].,0,FAMILIARES_SUJETO_ASISTENCIA
+Término médico no sensible para IDENTIF_VEHICULOS_NRSERIE_PLACAS.,0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Sexo: [F].,1,SEXO_SUJETO_ASISTENCIA
+Proporción [1:1000].,0,CORREO_ELECTRONICO
+"Contexto clínico seguro, no PII (IDENTIF_VEHICULOS_NRSERIE_PLACAS).",0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Protocolo [A.1.2].,0,IDENTIF_DISPOSITIVOS_NRSERIE
+"Contexto clínico seguro, no PII (NUMERO_BENEF_PLAN_SALUD).",0,NUMERO_BENEF_PLAN_SALUD
+Sexo: [H].,1,SEXO_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (DIREC_PROT_INTERNET).",0,DIREC_PROT_INTERNET
+Servicio de [medicina interna].,0,HOSPITAL
+Término médico no sensible para ID_TITULACION_PERSONAL_SANITARIO.,0,ID_TITULACION_PERSONAL_SANITARIO
+Hb [12.5] g/dL.,0,ID_SUJETO_ASISTENCIA
+[Quirófano] programado.,0,HOSPITAL
+Médico responsable: [Maxi Mulet Cabeza].,1,NOMBRE_PERSONAL_SANITARIO
+FAX: [930 164 946].,1,NUMERO_FAX
+Informe elaborado por Dr. [Daniela Paredes Gual].,1,NOMBRE_PERSONAL_SANITARIO
+Afiliación SS: [86 4466954 36].,1,ID_ASEGURAMIENTO
+Enfermedad de [Graves].,0,NOMBRE_PERSONAL_SANITARIO
+"Contexto clínico seguro, no PII (NUMERO_FAX).",0,NUMERO_FAX
+Nº Contacto: [C113129].,1,ID_CONTACTO_ASISTENCIAL
+Remitido desde [HM Hospitales].,1,INSTITUCION
+Procedente de [España].,1,PAIS
+Último control realizado el [11/09/1973].,1,FECHAS
+"Pº [Salgado], [Segovia].",1,CALLE
+Enfermera [Roxana Torrent Sastre] administra medicación.,1,NOMBRE_PERSONAL_SANITARIO
+Lesión en área [frontal].,0,TERRITORIO
+"C/ [Miranda] [86], [6º B].",1,CALLE
+Cromosoma [X] normal.,0,SEXO_SUJETO_ASISTENCIA
+GRD: [470].,0,ID_SUJETO_ASISTENCIA
+CS [Vallecas].,1,CENTRO_SALUD
+Término médico no sensible para ID_EMPLEO_PERSONAL_SANITARIO.,0,ID_EMPLEO_PERSONAL_SANITARIO
+[Conductor] del haz de His.,0,PROFESION
+Término médico no sensible para OTRO_NUMERO_IDENTIF.,0,OTRO_NUMERO_IDENTIF
+ID: [P71931].,1,NUMERO_IDENTIF
+[Conductor] del haz de His.,0,PROFESION
+Área de [salud] mental.,0,CENTRO_SALUD
+Código [925.11].,0,NUMERO_TELEFONO
+"Contexto clínico seguro, no PII (NUMERO_BENEF_PLAN_SALUD).",0,NUMERO_BENEF_PLAN_SALUD
+Residente en [Francia].,1,PAIS
+Variante [brasileña].,0,PAIS
+CIE: [CIE522257].,1,ID_SUJETO_ASISTENCIA
+Afiliado a [Clínica Universidad de Navarra].,1,INSTITUCION
+"Contexto clínico seguro, no PII (DIREC_PROT_INTERNET).",0,DIREC_PROT_INTERNET
+Código ATC: [N02BE01].,0,ID_SUJETO_ASISTENCIA
+Varón de [60] años de edad.,1,EDAD_SUJETO_ASISTENCIA
+Término médico no sensible para NUMERO_BENEF_PLAN_SALUD.,0,NUMERO_BENEF_PLAN_SALUD
+Nº Colegiado: [12-23757].,1,ID_TITULACION_PERSONAL_SANITARIO
+Nº Socio: [5068740409].,1,OTRO_NUMERO_IDENTIF
+Trabaja en [Quirónsalud].,1,INSTITUCION
+Procedente de [Alemania].,1,PAIS
+Término médico no sensible para ID_CONTACTO_ASISTENCIAL.,0,ID_CONTACTO_ASISTENCIAL
+Catéter de [Foley].,0,NOMBRE_PERSONAL_SANITARIO
+Historia clínica de [Evangelina Peláez Novoa].,1,NOMBRE_SUJETO_ASISTENCIA
+Servicio de [medicina interna].,0,HOSPITAL
+Dr./Dra. [Flora Tapia Canales].,1,NOMBRE_PERSONAL_SANITARIO
+Póliza: [98103583-D].,1,NUMERO_BENEF_PLAN_SALUD
+[Portador] de marcapasos.,0,PROFESION
+ID Asegurado: [PS-7743147].,1,NUMERO_BENEF_PLAN_SALUD
+IP: [75.183.229.121].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+"Contexto clínico seguro, no PII (NUMERO_BENEF_PLAN_SALUD).",0,NUMERO_BENEF_PLAN_SALUD
+"Contexto clínico seguro, no PII (NUMERO_BENEF_PLAN_SALUD).",0,NUMERO_BENEF_PLAN_SALUD
+Tfno. de contacto [+34 886711800].,1,NUMERO_TELEFONO
+Médico colegiado [40-77090].,1,ID_TITULACION_PERSONAL_SANITARIO
+Código identificador: [8074639].,1,NUMERO_IDENTIF
+"Contexto clínico seguro, no PII (ID_EMPLEO_PERSONAL_SANITARIO).",0,ID_EMPLEO_PERSONAL_SANITARIO
+Atendido por [Marc Cantón Palau].,1,NOMBRE_PERSONAL_SANITARIO
+Nº Historia: [9581328].,1,ID_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (OTROS_SUJETO_ASISTENCIA).",0,OTROS_SUJETO_ASISTENCIA
+Término médico no sensible para ID_EMPLEO_PERSONAL_SANITARIO.,0,ID_EMPLEO_PERSONAL_SANITARIO
+Término médico no sensible para IDENTIF_VEHICULOS_NRSERIE_PLACAS.,0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Receptor [alfa] positivo.,0,SEXO_SUJETO_ASISTENCIA
+[Portador] de marcapasos.,0,PROFESION
+Nº Colegiado: [28-81700].,1,ID_TITULACION_PERSONAL_SANITARIO
+Col. Nº [22-87199].,1,ID_TITULACION_PERSONAL_SANITARIO
+Trabaja como [conductor].,1,PROFESION
+"Contexto clínico seguro, no PII (ID_EMPLEO_PERSONAL_SANITARIO).",0,ID_EMPLEO_PERSONAL_SANITARIO
+Tratamiento [fase 2].,0,CALLE
+Término médico no sensible para ID_CONTACTO_ASISTENCIAL.,0,ID_CONTACTO_ASISTENCIAL
+HTA de [10] años.,0,EDAD_SUJETO_ASISTENCIA
+Identificación biométrica: [BIO-98508414].,1,IDENTIF_BIOMETRICOS
+Grado [III/IV].,0,CALLE
+Técnica [IV.2.3].,0,IDENTIF_DISPOSITIVOS_NRSERIE
+Paciente [mujer].,1,SEXO_SUJETO_ASISTENCIA
+Término médico no sensible para NUMERO_IDENTIF.,0,NUMERO_IDENTIF
+Estadio [IVb].,0,CALLE
+Ingresa en [UCI].,0,HOSPITAL
+Póliza: [67659492-B].,1,NUMERO_BENEF_PLAN_SALUD
+Término médico no sensible para OTRO_NUMERO_IDENTIF.,0,OTRO_NUMERO_IDENTIF
+ID Personal: [u431013].,1,ID_EMPLEO_PERSONAL_SANITARIO
+Usuario: [u392086].,1,ID_EMPLEO_PERSONAL_SANITARIO
+[Madre] diabética.,0,FAMILIARES_SUJETO_ASISTENCIA
+[Hermano] fallecido.,0,FAMILIARES_SUJETO_ASISTENCIA
+Fax: [947 228 776].,1,NUMERO_FAX
+Remitido desde [Vithas].,1,INSTITUCION
+Correo electrónico del paciente: [wherranz@example.org].,1,CORREO_ELECTRONICO
+Glucemia [110] mg/dl.,0,EDAD_SUJETO_ASISTENCIA
+Nº Beneficiario: [588-467-680].,1,NUMERO_BENEF_PLAN_SALUD
+Afiliación SS: [28 7995191 65].,1,ID_ASEGURAMIENTO
+IP: [131.219.228.115].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+Cariotipo [XY].,0,SEXO_SUJETO_ASISTENCIA
+Derivado a [urgencias].,0,HOSPITAL
+Término médico no sensible para ID_TITULACION_PERSONAL_SANITARIO.,0,ID_TITULACION_PERSONAL_SANITARIO
+Unidad de [Cuidados Intensivos].,0,INSTITUCION
+Centro de Salud [Alameda].,1,CENTRO_SALUD
+D./Dña. [Genoveva de Pozuelo] acude a consulta.,1,NOMBRE_SUJETO_ASISTENCIA
+"Dirección postal: [Cañada Celia Peñas 92, Segovia, 44939], [Granada].",1,TERRITORIO
+Informe elaborado por Dr. [Valentín Llamas].,1,NOMBRE_PERSONAL_SANITARIO
+Correo electrónico del paciente: [pacifica02@example.net].,1,CORREO_ELECTRONICO
+Ocupación: [profesor].,1,PROFESION
+Antecedentes familiares de [cáncer].,0,FAMILIARES_SUJETO_ASISTENCIA
+URL: [https://www.distribuciones.es].,1,DIREC_PROT_INTERNET
+Derivado a [La Fe].,1,HOSPITAL
+IP: [198.18.31.132].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+Virus [japonés] B.,0,PAIS
+"Contexto clínico seguro, no PII (ID_CONTACTO_ASISTENCIAL).",0,ID_CONTACTO_ASISTENCIAL
+T[3]N[1]M[0].,0,CALLE
+El/La paciente [Manuela] refiere dolor.,1,NOMBRE_SUJETO_ASISTENCIA
+Ingreso en [Universitario La Paz].,1,HOSPITAL
+"Contexto clínico seguro, no PII (ID_CONTACTO_ASISTENCIAL).",0,ID_CONTACTO_ASISTENCIAL
+"Contexto clínico seguro, no PII (OTRO_NUMERO_IDENTIF).",0,OTRO_NUMERO_IDENTIF
+Apodo: [Paco].,1,OTROS_SUJETO_ASISTENCIA
+Término médico no sensible para NUMERO_BENEF_PLAN_SALUD.,0,NUMERO_BENEF_PLAN_SALUD
+ID Asegurado: [PS-8878917].,1,NUMERO_BENEF_PLAN_SALUD
+"Contexto clínico seguro, no PII (OTROS_SUJETO_ASISTENCIA).",0,OTROS_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (NUMERO_FAX).",0,NUMERO_FAX
+Registro facial ID: [FACE399243].,1,IDENTIF_BIOMETRICOS
+Proporción [1:1000].,0,CORREO_ELECTRONICO
+IP: [124.157.10.7].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+Código [925.11].,0,NUMERO_TELEFONO
+Niño/Niña [niño] de 8 años.,1,SEXO_SUJETO_ASISTENCIA
+Arteria [femoral] permeable.,0,TERRITORIO
+Notificar a [amparo19@example.org].,1,CORREO_ELECTRONICO
+Emigró desde [Ecuador] hace 5 años.,1,PAIS
+Proporción [1:1000].,0,CORREO_ELECTRONICO
+Ubicado en [box 5].,0,TERRITORIO
+[Actualmente] estable.,0,FECHAS
+Técnica de [Seldinger].,0,NOMBRE_PERSONAL_SANITARIO
+Punto de [atención] continuada.,0,CENTRO_SALUD
+Receptor [alfa] positivo.,0,SEXO_SUJETO_ASISTENCIA
+Semana [+2] post-trasplante.,0,FECHAS
+Nº Contacto: [C329580].,1,ID_CONTACTO_ASISTENCIAL
+Por [la mañana] presentó fiebre.,0,FECHAS
+"Contexto clínico seguro, no PII (OTRO_NUMERO_IDENTIF).",0,OTRO_NUMERO_IDENTIF
+"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
+[Padre] con HTA.,0,FAMILIARES_SUJETO_ASISTENCIA
+Área de [salud] mental.,0,CENTRO_SALUD
+"Contexto clínico seguro, no PII (ID_ASEGURAMIENTO).",0,ID_ASEGURAMIENTO
+Relación [riesgo/beneficio] favorable.,0,CORREO_ELECTRONICO
+Consultar en [www.ramirez.es].,1,URL_WEB
+Episodio: [1994343307].,1,ID_CONTACTO_ASISTENCIAL
+Conocido como 'El Rubio'.,1,OTROS_SUJETO_ASISTENCIA
+Edad: [30].,1,EDAD_SUJETO_ASISTENCIA
+Usuario: [u968276].,1,ID_EMPLEO_PERSONAL_SANITARIO
+Variante [brasileña].,0,PAIS
+Nacionalidad: [Francia].,1,PAIS
+ID: [REF-65702].,1,OTRO_NUMERO_IDENTIF
+[Conductor] del haz de His.,0,PROFESION
+Remitido desde [HM Hospitales].,1,INSTITUCION
+MAC: [c6:3a:35:ab:3e:3c].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+CIE [630.0].,0,NUMERO_TELEFONO
+Centro [quirúrgico].,0,CENTRO_SALUD
+Término médico no sensible para NUMERO_FAX.,0,NUMERO_FAX
+Col. Nº [23-90653].,1,ID_TITULACION_PERSONAL_SANITARIO
+MAC: [81:ea:27:60:83:0b].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+Dispositivo [SN60562200].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+[Portador] de marcapasos.,0,PROFESION
+Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
+Contacto: [+34 837 134 025].,1,NUMERO_TELEFONO
+"Contexto clínico seguro, no PII (ID_CONTACTO_ASISTENCIAL).",0,ID_CONTACTO_ASISTENCIAL
+T[3]N[1]M[0].,0,CALLE
+IP: [80.136.24.72].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+Término médico no sensible para NUMERO_BENEF_PLAN_SALUD.,0,NUMERO_BENEF_PLAN_SALUD
+Término médico no sensible para NUMERO_IDENTIF.,0,NUMERO_IDENTIF
+Relación [riesgo/beneficio] favorable.,0,CORREO_ELECTRONICO
+Virus [japonés] B.,0,PAIS
+Cepa [británica].,0,PAIS
+Se pauta [Adriana] 50mg.,0,NOMBRE_SUJETO_ASISTENCIA
+Administrar [Ramona] IV.,0,NOMBRE_SUJETO_ASISTENCIA
+Complejo Hospitalario [Virgen del Rocío].,1,HOSPITAL
+Identificación biométrica: [BIO-19950920].,1,IDENTIF_BIOMETRICOS
+Relación [riesgo/beneficio] favorable.,0,CORREO_ELECTRONICO
+Glucemia [110] mg/dl.,0,EDAD_SUJETO_ASISTENCIA
+Nº Seguridad Social: [51 2786964 29].,1,ID_ASEGURAMIENTO
+Hijo/a [Jose Francisco] de [11] años.,1,FAMILIARES_SUJETO_ASISTENCIA
+"[Lucía Elvira Cuevas Clemente], Servicio de Medicina Interna.",1,NOMBRE_PERSONAL_SANITARIO
+Lactante de [3] meses.,1,EDAD_SUJETO_ASISTENCIA
+Término médico no sensible para IDENTIF_VEHICULOS_NRSERIE_PLACAS.,0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Episodio: [8662742680].,1,ID_CONTACTO_ASISTENCIAL
+Relación [riesgo/beneficio] favorable.,0,CORREO_ELECTRONICO
+Patrón retinal [RET-99012975].,1,IDENTIF_BIOMETRICOS
+Técnica [IV.2.3].,0,IDENTIF_DISPOSITIVOS_NRSERIE
+Enfermo [mujer] que acude.,1,SEXO_SUJETO_ASISTENCIA
+"Derivado por Dr. García, paciente [Flor Colomer Tello].",1,NOMBRE_SUJETO_ASISTENCIA
+Referencia [555-123].,0,NUMERO_TELEFONO
+Enfermo [mujer] que acude.,1,SEXO_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
+Intervención quirúrgica programada para el [11/08/1984].,1,FECHAS
+Consultar en [www.tecnologias.es].,1,URL_WEB
+Término médico no sensible para NUMERO_IDENTIF.,0,NUMERO_IDENTIF
+Término médico no sensible para IDENTIF_VEHICULOS_NRSERIE_PLACAS.,0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+CIPA: [nhc-907498].,1,ID_SUJETO_ASISTENCIA
+[Quirófano] programado.,0,HOSPITAL
+"Contexto clínico seguro, no PII (ID_CONTACTO_ASISTENCIAL).",0,ID_CONTACTO_ASISTENCIAL
+Término médico no sensible para NUMERO_FAX.,0,NUMERO_FAX
+Vehículo [7895HXW].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Derivado desde C.S. [General Ricardos].,1,CENTRO_SALUD
+Enlace: [https://www.distribuciones.org].,1,DIREC_PROT_INTERNET
+"Contexto clínico seguro, no PII (ID_EMPLEO_PERSONAL_SANITARIO).",0,ID_EMPLEO_PERSONAL_SANITARIO
+[Portador] de marcapasos.,0,PROFESION
+Patrón retinal [RET-62037060].,1,IDENTIF_BIOMETRICOS
+Padre: [Iván Busquets].,1,FAMILIARES_SUJETO_ASISTENCIA
+Tratamiento con [Amoxicilina].,0,NOMBRE_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (URL_WEB).",0,URL_WEB
+Sonda de [Levin].,0,NOMBRE_PERSONAL_SANITARIO
+"Contexto clínico seguro, no PII (IDENTIF_VEHICULOS_NRSERIE_PLACAS).",0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Nº Beneficiario: [932-838-104].,1,NUMERO_BENEF_PLAN_SALUD
+Usuario: [u461190].,1,ID_EMPLEO_PERSONAL_SANITARIO
+Término médico no sensible para DIREC_PROT_INTERNET.,0,DIREC_PROT_INTERNET
+"Reside en [Via de Saturnina Vila 811], [34061].",1,CALLE
+Accidente con vehículo [3311JCJ].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Relación [riesgo/beneficio] favorable.,0,CORREO_ELECTRONICO
+Término médico no sensible para ID_EMPLEO_PERSONAL_SANITARIO.,0,ID_EMPLEO_PERSONAL_SANITARIO
+"Contexto clínico seguro, no PII (OTROS_SUJETO_ASISTENCIA).",0,OTROS_SUJETO_ASISTENCIA
+Identificador paciente: [P22093].,1,ID_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (NUMERO_BENEF_PLAN_SALUD).",0,NUMERO_BENEF_PLAN_SALUD
+Notificar a [beatriz70@example.net].,1,CORREO_ELECTRONICO
+Protocolo [A.1.2].,0,IDENTIF_DISPOSITIVOS_NRSERIE
+Departamento de [Radiología].,0,INSTITUCION
+Móvil: [689 581 473].,1,NUMERO_TELEFONO
+"Contexto clínico seguro, no PII (NUMERO_FAX).",0,NUMERO_FAX
+Remitido desde [CSIC].,1,INSTITUCION
+Web: [www.tecnologias.es].,1,URL_WEB
+ID Personal: [u945602].,1,ID_EMPLEO_PERSONAL_SANITARIO
+Servicio de [Urgencias].,0,INSTITUCION
+Servicio de [Urgencias].,0,INSTITUCION
+"Contexto clínico seguro, no PII (OTRO_NUMERO_IDENTIF).",0,OTRO_NUMERO_IDENTIF
+Tel. [+34 864 742 468].,1,NUMERO_TELEFONO
+Técnica de [Seldinger].,0,NOMBRE_PERSONAL_SANITARIO
+Término médico no sensible para ID_TITULACION_PERSONAL_SANITARIO.,0,ID_TITULACION_PERSONAL_SANITARIO
+Término médico no sensible para NUMERO_FAX.,0,NUMERO_FAX
+Técnica [IV.2.3].,0,IDENTIF_DISPOSITIVOS_NRSERIE
+Término médico no sensible para NUMERO_FAX.,0,NUMERO_FAX
+Usuario: [u257323].,1,ID_EMPLEO_PERSONAL_SANITARIO
+Fax: [913 198 595].,1,NUMERO_FAX
+CIPA: [nhc-696557].,1,ID_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (OTROS_SUJETO_ASISTENCIA).",0,OTROS_SUJETO_ASISTENCIA
+Técnica de [Seldinger].,0,NOMBRE_PERSONAL_SANITARIO
+"Contexto clínico seguro, no PII (URL_WEB).",0,URL_WEB
+Cariotipo [XY].,0,SEXO_SUJETO_ASISTENCIA
+ID Proceso: [PROC-10423].,1,ID_CONTACTO_ASISTENCIAL
+Signo de [Murphy] positivo.,0,NOMBRE_SUJETO_ASISTENCIA
+Referencia: [R281705].,1,OTRO_NUMERO_IDENTIF
+Historia clínica de [Lidia de Balaguer].,1,NOMBRE_SUJETO_ASISTENCIA
+Usuario: [u850749].,1,ID_EMPLEO_PERSONAL_SANITARIO
+Dispositivo [SN69809087].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+Exploración de fosa [iliaca] derecha.,0,TERRITORIO
+Protocolo [A.1.2].,0,IDENTIF_DISPOSITIVOS_NRSERIE
+Protocolo [A.1.2].,0,IDENTIF_DISPOSITIVOS_NRSERIE
+"Plaza [Antúnez], [151].",1,CALLE
+Móvil: [630 942 688].,1,NUMERO_TELEFONO
+Complejo Hospitalario [Vall d'Hebron].,1,HOSPITAL
+"Contexto clínico seguro, no PII (ID_CONTACTO_ASISTENCIAL).",0,ID_CONTACTO_ASISTENCIAL
+Consultar en [www.despacho.com].,1,URL_WEB
+FAX: [951 787 335].,1,NUMERO_FAX
+Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
+Tel. [+34844033905].,1,NUMERO_TELEFONO
+Identificación biométrica: [BIO-10228733].,1,IDENTIF_BIOMETRICOS
+Por [la mañana] presentó fiebre.,0,FECHAS
+"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
+Médico colegiado [13-72128].,1,ID_TITULACION_PERSONAL_SANITARIO
+Código ATC: [N02BE01].,0,ID_SUJETO_ASISTENCIA
+Hb [12.5] g/dL.,0,ID_SUJETO_ASISTENCIA
+Alta médica el día [05/07/1977].,1,FECHAS
+"Contexto clínico seguro, no PII (ID_ASEGURAMIENTO).",0,ID_ASEGURAMIENTO
+"Reside en [Pasaje de Albina Jódar 4], [23682].",1,CALLE
+Acceso web: [https://www.grupo.com].,1,DIREC_PROT_INTERNET
+Alta médica el día [28/09/1990].,1,FECHAS
+Acceso web: [https://www.comercializadora.com].,1,DIREC_PROT_INTERNET
+Término médico no sensible para URL_WEB.,0,URL_WEB
+Contacto: [+34920 781 373].,1,NUMERO_TELEFONO
+Nº Colegiado: [18-80657].,1,ID_TITULACION_PERSONAL_SANITARIO
+ID Proceso: [PROC-63271].,1,ID_CONTACTO_ASISTENCIAL
+Ingresa en [UCI].,0,HOSPITAL
+Centro: [Vall d'Hebron].,1,HOSPITAL
+Guías [americanas] de cardiología.,0,PAIS
+Identificador paciente: [P10820].,1,ID_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
+Tiroiditis de [Hashimoto].,0,NOMBRE_PERSONAL_SANITARIO
+Rasgo distintivo: [lunar en mejilla].,1,OTROS_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
+Derivado desde C.S. [Alameda].,1,CENTRO_SALUD
+FAX: [936 756 977].,1,NUMERO_FAX
+"Contexto clínico seguro, no PII (NUMERO_BENEF_PLAN_SALUD).",0,NUMERO_BENEF_PLAN_SALUD
+Matrícula: [4158BBD].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Término médico no sensible para ID_CONTACTO_ASISTENCIAL.,0,ID_CONTACTO_ASISTENCIAL
+CS [Alameda].,1,CENTRO_SALUD
+"Contexto clínico seguro, no PII (NUMERO_BENEF_PLAN_SALUD).",0,NUMERO_BENEF_PLAN_SALUD
+Enfermo [varón] que acude.,1,SEXO_SUJETO_ASISTENCIA
+Término médico no sensible para ID_EMPLEO_PERSONAL_SANITARIO.,0,ID_EMPLEO_PERSONAL_SANITARIO
+Término médico no sensible para NUMERO_FAX.,0,NUMERO_FAX
+Referencia [555-123].,0,NUMERO_TELEFONO
+IP: [202.148.194.116].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+Planta de [cardiología].,0,HOSPITAL
+Saturación O2 [95]%.,0,EDAD_SUJETO_ASISTENCIA
+Nº Colegiado: [45-71589].,1,ID_TITULACION_PERSONAL_SANITARIO
+Servicio de [medicina interna].,0,HOSPITAL
+Nacido el [19/03/2011].,1,FECHAS
+ID Personal: [u159243].,1,ID_EMPLEO_PERSONAL_SANITARIO
+Código identificador: [1428558].,1,NUMERO_IDENTIF
+Cepa [británica].,0,PAIS
+Ingresa en planta [tercera].,0,TERRITORIO
+"Contexto clínico seguro, no PII (IDENTIF_VEHICULOS_NRSERIE_PLACAS).",0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Test de [Romberg] negativo.,0,NOMBRE_SUJETO_ASISTENCIA
+Semana [+2] post-trasplante.,0,FECHAS
+"Contexto clínico seguro, no PII (URL_WEB).",0,URL_WEB
+Término médico no sensible para NUMERO_FAX.,0,NUMERO_FAX
+[Madre] diabética.,0,FAMILIARES_SUJETO_ASISTENCIA
+HTA de [10] años.,0,EDAD_SUJETO_ASISTENCIA
+Consultar en [www.tecnologias.es].,1,URL_WEB
+IP: [29.56.49.227].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+Paciente procedente del CP [25176].,1,TERRITORIO
+Procedente de [Alemania].,1,PAIS
+Centro de Salud [General Ricardos].,1,CENTRO_SALUD
+Enfermedad de [Graves].,0,NOMBRE_PERSONAL_SANITARIO
+Técnica [IV.2.3].,0,IDENTIF_DISPOSITIVOS_NRSERIE
+Nacionalidad: [España].,1,PAIS
+"Contexto clínico seguro, no PII (IDENTIF_VEHICULOS_NRSERIE_PLACAS).",0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Punto de [atención] continuada.,0,CENTRO_SALUD
+Masa en región [cervical].,0,TERRITORIO
+Término médico no sensible para ID_CONTACTO_ASISTENCIAL.,0,ID_CONTACTO_ASISTENCIAL
+"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
+Tratamiento con [Amoxicilina].,0,NOMBRE_SUJETO_ASISTENCIA
+NASS: [55 9537648 10].,1,ID_ASEGURAMIENTO
+Niño/Niña [niño] de 8 años.,1,SEXO_SUJETO_ASISTENCIA
+Contacto: [estersosa@example.org].,1,CORREO_ELECTRONICO
+Trabaja como [albañil].,1,PROFESION
+Área de [salud] mental.,0,CENTRO_SALUD
+Término médico no sensible para IDENTIF_VEHICULOS_NRSERIE_PLACAS.,0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Cariotipo [XY].,0,SEXO_SUJETO_ASISTENCIA
+Anciano de [73] años.,1,EDAD_SUJETO_ASISTENCIA
+"Reside en [Pasadizo de Corona Ferrández 90], [13844].",1,CALLE
+Alta médica el día [08/05/2019].,1,FECHAS
+Dolor referido a región [dorsal].,0,TERRITORIO
+Cepa [británica].,0,PAIS
+Saturación O2 [95]%.,0,EDAD_SUJETO_ASISTENCIA
+Término médico no sensible para URL_WEB.,0,URL_WEB
+Término médico no sensible para ID_EMPLEO_PERSONAL_SANITARIO.,0,ID_EMPLEO_PERSONAL_SANITARIO
+Fax: [972 996 980].,1,NUMERO_FAX
+"Contexto clínico seguro, no PII (NUMERO_BENEF_PLAN_SALUD).",0,NUMERO_BENEF_PLAN_SALUD
+Identificador paciente: [P72539].,1,ID_SUJETO_ASISTENCIA
+Tensión arterial [120]/80.,0,EDAD_SUJETO_ASISTENCIA
+Término médico no sensible para NUMERO_BENEF_PLAN_SALUD.,0,NUMERO_BENEF_PLAN_SALUD
+Término médico no sensible para IDENTIF_BIOMETRICOS.,0,IDENTIF_BIOMETRICOS
+Madre: [Dominga Girón Aramburu].,1,FAMILIARES_SUJETO_ASISTENCIA
+GRD: [470].,0,ID_SUJETO_ASISTENCIA
+Receptor [alfa] positivo.,0,SEXO_SUJETO_ASISTENCIA
+Centro [quirúrgico].,0,CENTRO_SALUD
+Registro: [7858648].,1,NUMERO_IDENTIF
+Nº Empleado: [u731207].,1,ID_EMPLEO_PERSONAL_SANITARIO
+Tel. [+34 845 93 09 61].,1,NUMERO_TELEFONO
+IP: [175.233.145.120].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+Médico colegiado [39-50272].,1,ID_TITULACION_PERSONAL_SANITARIO
 [Laboratorio] central.,0,INSTITUCION
+Médico responsable: [Rosario Mínguez Osorio].,1,NOMBRE_PERSONAL_SANITARIO
+Ingreso en [Vall d'Hebron].,1,HOSPITAL
+Vehículo [7313NBM].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+[varón] sometida a intervención.,1,SEXO_SUJETO_ASISTENCIA
+Natural de [Marruecos].,1,PAIS
+ID: [REF-34287].,1,OTRO_NUMERO_IDENTIF
+Usuario: [u429739].,1,ID_EMPLEO_PERSONAL_SANITARIO
+Niño/Niña [niño] de 8 años.,1,SEXO_SUJETO_ASISTENCIA
+Natural de [Italia].,1,PAIS
+"Plaza [Alonso], [169].",1,CALLE
+Notificar a [florencio47@example.com].,1,CORREO_ELECTRONICO
+Registro: [3924678].,1,NUMERO_IDENTIF
+[Sr.] [Palacios] presenta mejoría.,1,NOMBRE_SUJETO_ASISTENCIA
+Término médico no sensible para OTRO_NUMERO_IDENTIF.,0,OTRO_NUMERO_IDENTIF
+Nº Colegiado: [26-27839].,1,ID_TITULACION_PERSONAL_SANITARIO
+NASS: [60 8293512 48].,1,ID_ASEGURAMIENTO
+"Contexto clínico seguro, no PII (NUMERO_FAX).",0,NUMERO_FAX
+Familiar de contacto: [Marcelo Cantero Rosell].,1,FAMILIARES_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (URL_WEB).",0,URL_WEB
+Tiroiditis de [Hashimoto].,0,NOMBRE_PERSONAL_SANITARIO
+Hospital [Carlos Haya].,1,HOSPITAL
+Virus [japonés] B.,0,PAIS
+Término médico no sensible para OTROS_SUJETO_ASISTENCIA.,0,OTROS_SUJETO_ASISTENCIA
+ID Proceso: [PROC-53599].,1,ID_CONTACTO_ASISTENCIAL
+Domicilio: [Callejón de Adelardo Barragán 8].,1,CALLE
+ID Personal: [u122289].,1,ID_EMPLEO_PERSONAL_SANITARIO
+Desde hace [varios días].,0,FECHAS
+Lactante de [10] meses.,1,EDAD_SUJETO_ASISTENCIA
+Profesión: [albañil].,1,PROFESION
+Padre: [Antonio Amigó Vaquero].,1,FAMILIARES_SUJETO_ASISTENCIA
+Receptor [alfa] positivo.,0,SEXO_SUJETO_ASISTENCIA
+ID Asegurado: [PS-2843883].,1,NUMERO_BENEF_PLAN_SALUD
+Pertenece al Centro de Salud [Alameda].,1,CENTRO_SALUD
+Referencia [555-123].,0,NUMERO_TELEFONO
+[Plinio] [Tenorio] ingresa por urgencias.,1,NOMBRE_SUJETO_ASISTENCIA
+Ingreso en [Gregorio Marañón].,1,HOSPITAL
+"Mujer, [64] años.",1,EDAD_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (ID_EMPLEO_PERSONAL_SANITARIO).",0,ID_EMPLEO_PERSONAL_SANITARIO
+CS [Puerta del Ángel].,1,CENTRO_SALUD
+Tel. [+34884097873].,1,NUMERO_TELEFONO
+Protocolo [A.1.2].,0,IDENTIF_DISPOSITIVOS_NRSERIE
+"Contexto clínico seguro, no PII (DIREC_PROT_INTERNET).",0,DIREC_PROT_INTERNET
+Centro [Quirónsalud].,1,INSTITUCION
+Rasgo distintivo: [cicatriz en frente].,1,OTROS_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (ID_ASEGURAMIENTO).",0,ID_ASEGURAMIENTO
+Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
+Paciente procedente del CP [04677].,1,TERRITORIO
+Término médico no sensible para IDENTIF_BIOMETRICOS.,0,IDENTIF_BIOMETRICOS
+Matrícula: [8957TVR].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Técnica de [Seldinger].,0,NOMBRE_PERSONAL_SANITARIO
+Tiroiditis de [Hashimoto].,0,NOMBRE_PERSONAL_SANITARIO
+Nº Colegiado: [24-62531].,1,ID_TITULACION_PERSONAL_SANITARIO
+Pertenece al Centro de Salud [Puerta del Ángel].,1,CENTRO_SALUD
+[Portador] de marcapasos.,0,PROFESION
+Lactante de [5] meses.,1,EDAD_SUJETO_ASISTENCIA
+Término médico no sensible para OTROS_SUJETO_ASISTENCIA.,0,OTROS_SUJETO_ASISTENCIA
+Paciente [varón].,1,SEXO_SUJETO_ASISTENCIA
+Referencia [555-123].,0,NUMERO_TELEFONO
+"Contexto clínico seguro, no PII (ID_ASEGURAMIENTO).",0,ID_ASEGURAMIENTO
+URL: [https://www.martinez.es].,1,DIREC_PROT_INTERNET
+Término médico no sensible para URL_WEB.,0,URL_WEB
+Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
+Referencia: [R450990].,1,OTRO_NUMERO_IDENTIF
+Nº Contacto: [C949843].,1,ID_CONTACTO_ASISTENCIAL
+Póliza: [57498827-D].,1,NUMERO_BENEF_PLAN_SALUD
+"Contexto clínico seguro, no PII (NUMERO_BENEF_PLAN_SALUD).",0,NUMERO_BENEF_PLAN_SALUD
+Talla [170] cm.,0,EDAD_SUJETO_ASISTENCIA
+Acompañado por su esposa [Guiomar Iñiguez].,1,FAMILIARES_SUJETO_ASISTENCIA
+Término médico no sensible para ID_TITULACION_PERSONAL_SANITARIO.,0,ID_TITULACION_PERSONAL_SANITARIO
+Código ATC: [N02BE01].,0,ID_SUJETO_ASISTENCIA
+Nº Empleado: [u480976].,1,ID_EMPLEO_PERSONAL_SANITARIO
+Proporción [1:1000].,0,CORREO_ELECTRONICO
+Historia clínica de [Viviana Vara Cabrero].,1,NOMBRE_SUJETO_ASISTENCIA
+Término médico no sensible para NUMERO_IDENTIF.,0,NUMERO_IDENTIF
+Referencia: [R198175].,1,OTRO_NUMERO_IDENTIF
+T[3]N[1]M[0].,0,CALLE
+Semana [+2] post-trasplante.,0,FECHAS
+[Padre] con HTA.,0,FAMILIARES_SUJETO_ASISTENCIA
+[Quirófano] programado.,0,HOSPITAL
+HTA de [10] años.,0,EDAD_SUJETO_ASISTENCIA
+Tratamiento [fase 2].,0,CALLE
+Término médico no sensible para URL_WEB.,0,URL_WEB
+Virus [japonés] B.,0,PAIS
+Código identificador: [836474].,1,NUMERO_IDENTIF
+Nº Seguridad Social: [11 1869559 73].,1,ID_ASEGURAMIENTO
+Departamento de [Radiología].,0,INSTITUCION
+Patrón retinal [RET-19522111].,1,IDENTIF_BIOMETRICOS
+URL: [https://www.hnos.org].,1,DIREC_PROT_INTERNET
+Nacionalidad: [España].,1,PAIS
+Término médico no sensible para NUMERO_FAX.,0,NUMERO_FAX
+IMC [25].,0,EDAD_SUJETO_ASISTENCIA
+Administrar [pauta 3x1].,0,CALLE
+Proporción [1:1000].,0,CORREO_ELECTRONICO
+"Contexto clínico seguro, no PII (ID_EMPLEO_PERSONAL_SANITARIO).",0,ID_EMPLEO_PERSONAL_SANITARIO
+"Contexto clínico seguro, no PII (DIREC_PROT_INTERNET).",0,DIREC_PROT_INTERNET
+"Contexto clínico seguro, no PII (ID_EMPLEO_PERSONAL_SANITARIO).",0,ID_EMPLEO_PERSONAL_SANITARIO
+Término médico no sensible para NUMERO_BENEF_PLAN_SALUD.,0,NUMERO_BENEF_PLAN_SALUD
+Web: [www.alcazar.org].,1,URL_WEB
+Término médico no sensible para DIREC_PROT_INTERNET.,0,DIREC_PROT_INTERNET
+Hijo/a [Juan Carlos] de [15] años.,1,FAMILIARES_SUJETO_ASISTENCIA
+[Laboratorio] central.,0,INSTITUCION
+Afiliación SS: [84 6685447 82].,1,ID_ASEGURAMIENTO
+"Mujer, [61] años.",1,EDAD_SUJETO_ASISTENCIA
+Término médico no sensible para IDENTIF_VEHICULOS_NRSERIE_PLACAS.,0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Usuario: [u359338].,1,ID_EMPLEO_PERSONAL_SANITARIO
+Natural de [Ecuador].,1,PAIS
+Término médico no sensible para ID_TITULACION_PERSONAL_SANITARIO.,0,ID_TITULACION_PERSONAL_SANITARIO
+Usuario: [u387563].,1,ID_EMPLEO_PERSONAL_SANITARIO
+"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
+Col. Nº [36-81536].,1,ID_TITULACION_PERSONAL_SANITARIO
+Técnica de [Seldinger].,0,NOMBRE_PERSONAL_SANITARIO
+Ingresa en [UCI].,0,HOSPITAL
+Referencia: [R425368].,1,OTRO_NUMERO_IDENTIF
+Último control realizado el [10/04/2019].,1,FECHAS
+Ingresa en planta [tercera].,0,TERRITORIO
+Página web: [www.villalobos.org].,1,URL_WEB
+"Contexto clínico seguro, no PII (OTRO_NUMERO_IDENTIF).",0,OTRO_NUMERO_IDENTIF
+"Mujer, [81] años.",1,EDAD_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (NUMERO_BENEF_PLAN_SALUD).",0,NUMERO_BENEF_PLAN_SALUD
+[Hermano] fallecido.,0,FAMILIARES_SUJETO_ASISTENCIA
+Contacto: [+34 976 080 585].,1,NUMERO_TELEFONO
+"Contexto clínico seguro, no PII (URL_WEB).",0,URL_WEB
+Episodio: [8067314364].,1,ID_CONTACTO_ASISTENCIAL
+Frecuencia cardíaca [72] lpm.,0,EDAD_SUJETO_ASISTENCIA
+Hospital [Son Espases].,1,HOSPITAL
+Maniobra de [Heimlich].,0,NOMBRE_PERSONAL_SANITARIO
+Nº Socio: [9375653924].,1,OTRO_NUMERO_IDENTIF
+[Hermano] fallecido.,0,FAMILIARES_SUJETO_ASISTENCIA
+Factor [V] Leiden.,0,SEXO_SUJETO_ASISTENCIA
+Proporción [1:1000].,0,CORREO_ELECTRONICO
+Acompañado por su esposa [Aura Morcillo Patiño].,1,FAMILIARES_SUJETO_ASISTENCIA
+Referencia: [R312612].,1,OTRO_NUMERO_IDENTIF
+Episodio: [2936702153].,1,ID_CONTACTO_ASISTENCIAL
+Protocolo [A.1.2].,0,IDENTIF_DISPOSITIVOS_NRSERIE
+ID: [P75256].,1,NUMERO_IDENTIF
+[Hermano] fallecido.,0,FAMILIARES_SUJETO_ASISTENCIA
+Protocolo [europeo] de tratamiento.,0,PAIS
+Avda. [Cabañas] s/n.,1,CALLE
+Factor [V] Leiden.,0,SEXO_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (IDENTIF_BIOMETRICOS).",0,IDENTIF_BIOMETRICOS
+ID: [P41720].,1,NUMERO_IDENTIF
+Nº Beneficiario: [970-835-592].,1,NUMERO_BENEF_PLAN_SALUD
+Nº Socio: [7817406921].,1,OTRO_NUMERO_IDENTIF
+Término médico no sensible para OTROS_SUJETO_ASISTENCIA.,0,OTROS_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (URL_WEB).",0,URL_WEB
+Trabaja como [conductor].,1,PROFESION
+Término médico no sensible para OTRO_NUMERO_IDENTIF.,0,OTRO_NUMERO_IDENTIF
+Enfermo [mujer] que acude.,1,SEXO_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (OTROS_SUJETO_ASISTENCIA).",0,OTROS_SUJETO_ASISTENCIA
+[varón] de 45 años.,1,SEXO_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (IDENTIF_VEHICULOS_NRSERIE_PLACAS).",0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Pertenece al Centro de Salud [Infanta Mercedes].,1,CENTRO_SALUD
+Huella digital [FP780167807].,1,IDENTIF_BIOMETRICOS
+Frecuencia cardíaca [72] lpm.,0,EDAD_SUJETO_ASISTENCIA
+"Domicilio habitual: [Camino Moisés Alcázar 14 Apt. 68 , Valencia, 05165].",1,TERRITORIO
+Saturación O2 [95]%.,0,EDAD_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (ID_TITULACION_PERSONAL_SANITARIO).",0,ID_TITULACION_PERSONAL_SANITARIO
+Informe elaborado por Dr. [Iván Cisneros].,1,NOMBRE_PERSONAL_SANITARIO
+Centro [quirúrgico].,0,CENTRO_SALUD
+Término médico no sensible para IDENTIF_BIOMETRICOS.,0,IDENTIF_BIOMETRICOS
+Nº Seguridad Social: [13 3401866 56].,1,ID_ASEGURAMIENTO
+Informe elaborado por Dr. [Albina Sosa Aramburu].,1,NOMBRE_PERSONAL_SANITARIO
+Término médico no sensible para OTROS_SUJETO_ASISTENCIA.,0,OTROS_SUJETO_ASISTENCIA
+Recién nacido de [8] días de vida.,1,EDAD_SUJETO_ASISTENCIA
+Correo electrónico del paciente: [naranjocandelaria@example.net].,1,CORREO_ELECTRONICO
+Mutua [Sanitas].,1,INSTITUCION
+"Contexto clínico seguro, no PII (IDENTIF_VEHICULOS_NRSERIE_PLACAS).",0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+"Contexto clínico seguro, no PII (NUMERO_FAX).",0,NUMERO_FAX
+Paciente [trabajador] respiratorio.,0,PROFESION
+Notificar a [carbonellvictoriano@example.net].,1,CORREO_ELECTRONICO
+Varón de [32] años de edad.,1,EDAD_SUJETO_ASISTENCIA
+Patrón retinal [RET-30352012].,1,IDENTIF_BIOMETRICOS
+GRD: [470].,0,ID_SUJETO_ASISTENCIA
+Clasificación de [Child-Pugh] A.,0,NOMBRE_SUJETO_ASISTENCIA
+Complejo Hospitalario [Vall d'Hebron].,1,HOSPITAL
+Hijo/a [Ruy] de [14] años.,1,FAMILIARES_SUJETO_ASISTENCIA
+[Madre] diabética.,0,FAMILIARES_SUJETO_ASISTENCIA
+Estadio [IVb].,0,CALLE
+Enfermo [mujer] que acude.,1,SEXO_SUJETO_ASISTENCIA
+Episodio: [9427513323].,1,ID_CONTACTO_ASISTENCIAL
+Síndrome de [Sjögren].,0,NOMBRE_PERSONAL_SANITARIO
+"Contexto clínico seguro, no PII (NUMERO_FAX).",0,NUMERO_FAX
+"Contexto clínico seguro, no PII (OTROS_SUJETO_ASISTENCIA).",0,OTROS_SUJETO_ASISTENCIA
+Referencia [555-123].,0,NUMERO_TELEFONO
+"Contexto clínico seguro, no PII (URL_WEB).",0,URL_WEB
+Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
+"Derivado por Dr. García, paciente [Iker Nadal Escudero].",1,NOMBRE_SUJETO_ASISTENCIA
+Nacionalidad: [Portugal].,1,PAIS
+Proporción [1:1000].,0,CORREO_ELECTRONICO
+Pasaporte: [C59981121].,1,ID_SUJETO_ASISTENCIA
+Nº Colegiado: [50-53760].,1,ID_TITULACION_PERSONAL_SANITARIO
+[Conductor] del haz de His.,0,PROFESION
+"Contexto clínico seguro, no PII (IDENTIF_BIOMETRICOS).",0,IDENTIF_BIOMETRICOS
+Vive en la urbanización [Ville Marí] de [Murcia].,1,TERRITORIO
+Profesión: [administrativo].,1,PROFESION
+FAX: [942 988 849].,1,NUMERO_FAX
+Cepa [británica].,0,PAIS
+[varón] sometida a intervención.,1,SEXO_SUJETO_ASISTENCIA
+"Domicilio habitual: [Vial de Nicolasa Sobrino 689, Salamanca, 48138].",1,TERRITORIO
+Síndrome de [Cushing].,0,NOMBRE_SUJETO_ASISTENCIA
+Email: [gsoria@example.net].,1,CORREO_ELECTRONICO
+Síndrome de [Cushing].,0,NOMBRE_SUJETO_ASISTENCIA
+Ubicado en [box 5].,0,TERRITORIO
+Notificar a [jose-luis22@example.org].,1,CORREO_ELECTRONICO
+"Valorado por [Ruth Exposito Valdés], especialista.",1,NOMBRE_PERSONAL_SANITARIO
+"Contexto clínico seguro, no PII (OTRO_NUMERO_IDENTIF).",0,OTRO_NUMERO_IDENTIF
+Paciente de [32] años.,1,EDAD_SUJETO_ASISTENCIA
+Paciente [trabajador] respiratorio.,0,PROFESION
+Identificación biométrica: [BIO-94895005].,1,IDENTIF_BIOMETRICOS
+Protocolo [A.1.2].,0,IDENTIF_DISPOSITIVOS_NRSERIE
+Técnica [IV.2.3].,0,IDENTIF_DISPOSITIVOS_NRSERIE
+Antecedentes familiares de [cáncer].,0,FAMILIARES_SUJETO_ASISTENCIA
+Emigró desde [Portugal] hace 5 años.,1,PAIS
+Remitido desde [CSIC].,1,INSTITUCION
+ID Proceso: [PROC-77174].,1,ID_CONTACTO_ASISTENCIAL
+Referencia: [R169928].,1,OTRO_NUMERO_IDENTIF
+[Conductor] del haz de His.,0,PROFESION
+Consultar en [www.isaac.net].,1,URL_WEB
+Relación [riesgo/beneficio] favorable.,0,CORREO_ELECTRONICO
+Registro facial ID: [FACE626196].,1,IDENTIF_BIOMETRICOS
+ID: [P89425].,1,NUMERO_IDENTIF
+NASS: [12 5866331 40].,1,ID_ASEGURAMIENTO
+Nacionalidad: [España].,1,PAIS
+Término médico no sensible para URL_WEB.,0,URL_WEB
+"Plaza [Beltran], [85].",1,CALLE
+Accidente con vehículo [5025HSP].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Enfermo [mujer] que acude.,1,SEXO_SUJETO_ASISTENCIA
+Procedente de [Marruecos].,1,PAIS
+Profesión: [administrativo].,1,PROFESION
+[hombre] de 45 años.,1,SEXO_SUJETO_ASISTENCIA
+Catéter de [Foley].,0,NOMBRE_PERSONAL_SANITARIO
+Referencia [555-123].,0,NUMERO_TELEFONO
+Término médico no sensible para IDENTIF_VEHICULOS_NRSERIE_PLACAS.,0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+"Contexto clínico seguro, no PII (IDENTIF_BIOMETRICOS).",0,IDENTIF_BIOMETRICOS
+Emigró desde [España] hace 5 años.,1,PAIS
+Contacto: [lpinto@example.net].,1,CORREO_ELECTRONICO
+Relación [riesgo/beneficio] favorable.,0,CORREO_ELECTRONICO
+Código identificador: [2506600].,1,NUMERO_IDENTIF
+"Plaza [Cabezas], [42].",1,CALLE
 Área de [salud] mental.,0,CENTRO_SALUD
 Término médico no sensible para OTROS_SUJETO_ASISTENCIA.,0,OTROS_SUJETO_ASISTENCIA
-Relación [riesgo/beneficio] favorable.,0,CORREO_ELECTRONICO
-"Contexto clínico seguro, no PII (OTRO_NUMERO_IDENTIF).",0,OTRO_NUMERO_IDENTIF
-Consultar en [www.mineria.com].,1,URL_WEB
-Correo electrónico del paciente: [chus54@example.com].,1,CORREO_ELECTRONICO
-"Contexto clínico seguro, no PII (ID_CONTACTO_ASISTENCIAL).",0,ID_CONTACTO_ASISTENCIAL
-Acompañado por su esposa [Nazaret Báez-Torralba].,1,FAMILIARES_SUJETO_ASISTENCIA
-Desde [16/03/1998] presenta síntomas.,1,FECHAS
-Contacto: [esperanzabosch@example.net].,1,CORREO_ELECTRONICO
-"Contexto clínico seguro, no PII (ID_ASEGURAMIENTO).",0,ID_ASEGURAMIENTO
 Protocolo [A.1.2].,0,IDENTIF_DISPOSITIVOS_NRSERIE
-Usuario: [u130073].,1,ID_EMPLEO_PERSONAL_SANITARIO
-Cromosoma [X] normal.,0,SEXO_SUJETO_ASISTENCIA
-Afiliado a [HM Hospitales].,1,INSTITUCION
-Peso [65] kg.,0,EDAD_SUJETO_ASISTENCIA
-Término médico no sensible para IDENTIF_BIOMETRICOS.,0,IDENTIF_BIOMETRICOS
-CS [Puerta del Ángel].,1,CENTRO_SALUD
-Enviar a fax [943 663 624].,1,NUMERO_FAX
-Técnica [IV.2.3].,0,IDENTIF_DISPOSITIVOS_NRSERIE
-Término médico no sensible para NUMERO_IDENTIF.,0,NUMERO_IDENTIF
-pH [7.35].,0,ID_SUJETO_ASISTENCIA
-[varón] de 45 años.,1,SEXO_SUJETO_ASISTENCIA
-Término médico no sensible para ID_EMPLEO_PERSONAL_SANITARIO.,0,ID_EMPLEO_PERSONAL_SANITARIO
-Correo electrónico del paciente: [mmarin@example.com].,1,CORREO_ELECTRONICO
-Emigró desde [Portugal] hace 5 años.,1,PAIS
+ID Asegurado: [PS-1919227].,1,NUMERO_BENEF_PLAN_SALUD
+ID Asegurado: [PS-3988644].,1,NUMERO_BENEF_PLAN_SALUD
+Se pauta [Adriana] 50mg.,0,NOMBRE_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (ID_CONTACTO_ASISTENCIAL).",0,ID_CONTACTO_ASISTENCIAL
+Enviar a fax [937 719 379].,1,NUMERO_FAX
+Consultar en [www.consultoria.com].,1,URL_WEB
+ID Proceso: [PROC-35799].,1,ID_CONTACTO_ASISTENCIAL
+Nacido el [16/03/1998].,1,FECHAS
+T[3]N[1]M[0].,0,CALLE
+Proporción [1:1000].,0,CORREO_ELECTRONICO
+"Dirección postal: [Calle de Chus Giralt 50 Puerta 9 , Girona, 10988], [Castellón].",1,TERRITORIO
+Se pauta [Adriana] 50mg.,0,NOMBRE_SUJETO_ASISTENCIA
+Dispositivo [SN45767883].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+Anciano de [84] años.,1,EDAD_SUJETO_ASISTENCIA
+Código ATC: [N02BE01].,0,ID_SUJETO_ASISTENCIA
+Antecedentes familiares de [cáncer].,0,FAMILIARES_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (ID_CONTACTO_ASISTENCIAL).",0,ID_CONTACTO_ASISTENCIAL
+Teléfono: [+34 825477568].,1,NUMERO_TELEFONO
+Desde [04/08/1981] presenta síntomas.,1,FECHAS
+Página web: [www.inversiones.es].,1,URL_WEB
+Maniobra de [Heimlich].,0,NOMBRE_PERSONAL_SANITARIO
+Presenta tatuaje de [fecha].,1,OTROS_SUJETO_ASISTENCIA
+ID Asegurado: [PS-7527366].,1,NUMERO_BENEF_PLAN_SALUD
+Enviar a fax [998 862 416].,1,NUMERO_FAX
+Web: [www.consultoria.com].,1,URL_WEB
+"Contexto clínico seguro, no PII (ID_TITULACION_PERSONAL_SANITARIO).",0,ID_TITULACION_PERSONAL_SANITARIO
 Centro [quirúrgico].,0,CENTRO_SALUD
-Término médico no sensible para ID_TITULACION_PERSONAL_SANITARIO.,0,ID_TITULACION_PERSONAL_SANITARIO
-Derivado a [12 de Octubre].,1,HOSPITAL
-Niño/Niña [niño] de 8 años.,1,SEXO_SUJETO_ASISTENCIA
-Término médico no sensible para DIREC_PROT_INTERNET.,0,DIREC_PROT_INTERNET
-"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
+ID: [REF-92966].,1,OTRO_NUMERO_IDENTIF
+Móvil: [613 292 877].,1,NUMERO_TELEFONO
+Área de [salud] mental.,0,CENTRO_SALUD
+Trabaja como [cocinero].,1,PROFESION
+CIPA: [nhc-150429].,1,ID_SUJETO_ASISTENCIA
+Técnica de [Seldinger].,0,NOMBRE_PERSONAL_SANITARIO
+"Contexto clínico seguro, no PII (OTROS_SUJETO_ASISTENCIA).",0,OTROS_SUJETO_ASISTENCIA
+Término médico no sensible para IDENTIF_BIOMETRICOS.,0,IDENTIF_BIOMETRICOS
+Domicilio: [Cañada Encarnacion Carrera 7].,1,CALLE
+Póliza: [61294750-B].,1,NUMERO_BENEF_PLAN_SALUD
+Col. Nº [25-79070].,1,ID_TITULACION_PERSONAL_SANITARIO
+"Trasladado desde [Zamora], provincia de [Córdoba].",1,TERRITORIO
+Paciente procedente del CP [32035].,1,TERRITORIO
+Término médico no sensible para ID_CONTACTO_ASISTENCIAL.,0,ID_CONTACTO_ASISTENCIAL
+[hombre] de 45 años.,1,SEXO_SUJETO_ASISTENCIA
+Centro de Salud [Infanta Mercedes].,1,CENTRO_SALUD
+Teléfono: [+34 715 695 625].,1,NUMERO_TELEFONO
+NASS: [17 5193055 88].,1,ID_ASEGURAMIENTO
+"C/ [Villena] [51], [8º A].",1,CALLE
+Término médico no sensible para NUMERO_IDENTIF.,0,NUMERO_IDENTIF
+Signo de [Murphy] positivo.,0,NOMBRE_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (OTRO_NUMERO_IDENTIF).",0,OTRO_NUMERO_IDENTIF
+Vive en la urbanización [Ville Ochoa] de [Zamora].,1,TERRITORIO
+Registro facial ID: [FACE693084].,1,IDENTIF_BIOMETRICOS
+Box [12].,0,ID_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (URL_WEB).",0,URL_WEB
+CIE [630.0].,0,NUMERO_TELEFONO
+"Contexto clínico seguro, no PII (ID_TITULACION_PERSONAL_SANITARIO).",0,ID_TITULACION_PERSONAL_SANITARIO
+[varón] de 45 años.,1,SEXO_SUJETO_ASISTENCIA
+Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
+Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
 Término médico no sensible para OTRO_NUMERO_IDENTIF.,0,OTRO_NUMERO_IDENTIF
+CS [General Ricardos].,1,CENTRO_SALUD
+Col. Nº [32-36923].,1,ID_TITULACION_PERSONAL_SANITARIO
+El paciente reside en [Zamora].,1,TERRITORIO
+Médico responsable: [Benito Reig Roma].,1,NOMBRE_PERSONAL_SANITARIO
+Familiar de contacto: [Natalio Isern Díez].,1,FAMILIARES_SUJETO_ASISTENCIA
+Remitido desde centro de salud de [Santa Cruz de Tenerife].,1,TERRITORIO
+Receptor [alfa] positivo.,0,SEXO_SUJETO_ASISTENCIA
+Relación [riesgo/beneficio] favorable.,0,CORREO_ELECTRONICO
+Exploración de fosa [iliaca] derecha.,0,TERRITORIO
+Accidente con vehículo [6654TXK].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Evolución en [las últimas semanas].,0,FECHAS
+Receptor [alfa] positivo.,0,SEXO_SUJETO_ASISTENCIA
+Arteria [femoral] permeable.,0,TERRITORIO
+Síndrome de [Cushing].,0,NOMBRE_SUJETO_ASISTENCIA
+Se pauta [Adriana] 50mg.,0,NOMBRE_SUJETO_ASISTENCIA
+Varón de [86] años de edad.,1,EDAD_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (NUMERO_FAX).",0,NUMERO_FAX
+[cocinero] de 50 años.,1,PROFESION
+Acompañado por su esposa [Eric Blazquez Lobo].,1,FAMILIARES_SUJETO_ASISTENCIA
+Nacido el [02/12/1995].,1,FECHAS
+Tfno. de contacto [+34 872367211].,1,NUMERO_TELEFONO
+Antecedentes familiares de [cáncer].,0,FAMILIARES_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (DIREC_PROT_INTERNET).",0,DIREC_PROT_INTERNET
+Último control realizado el [13/11/1990].,1,FECHAS
+CIE [630.0].,0,NUMERO_TELEFONO
+Término médico no sensible para ID_EMPLEO_PERSONAL_SANITARIO.,0,ID_EMPLEO_PERSONAL_SANITARIO
+Presenta dolor en región [lumbar].,0,TERRITORIO
+URL: [https://www.soluciones.com].,1,DIREC_PROT_INTERNET
+Código ATC: [N02BE01].,0,ID_SUJETO_ASISTENCIA
+Síndrome de [Cushing].,0,NOMBRE_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (ID_TITULACION_PERSONAL_SANITARIO).",0,ID_TITULACION_PERSONAL_SANITARIO
+Vehículo [3546FVW].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Término médico no sensible para IDENTIF_VEHICULOS_NRSERIE_PLACAS.,0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+[Portador] de marcapasos.,0,PROFESION
+GRD: [470].,0,ID_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (DIREC_PROT_INTERNET).",0,DIREC_PROT_INTERNET
+"Contexto clínico seguro, no PII (IDENTIF_VEHICULOS_NRSERIE_PLACAS).",0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Médico colegiado [41-53069].,1,ID_TITULACION_PERSONAL_SANITARIO
+Protocolo [europeo] de tratamiento.,0,PAIS
+Término médico no sensible para DIREC_PROT_INTERNET.,0,DIREC_PROT_INTERNET
+Madre: [Ligia de Carbajo].,1,FAMILIARES_SUJETO_ASISTENCIA
+Acceso web: [https://www.hnos.com].,1,DIREC_PROT_INTERNET
+ID Personal: [u282312].,1,ID_EMPLEO_PERSONAL_SANITARIO
+Término médico no sensible para OTROS_SUJETO_ASISTENCIA.,0,OTROS_SUJETO_ASISTENCIA
+Próxima revisión: [martes] [07/01/1998].,1,FECHAS
+Término médico no sensible para OTROS_SUJETO_ASISTENCIA.,0,OTROS_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (OTRO_NUMERO_IDENTIF).",0,OTRO_NUMERO_IDENTIF
+Control [periódico] cada 6 meses.,0,FECHAS
+Afiliación SS: [26 1185885 59].,1,ID_ASEGURAMIENTO
+ID Proceso: [PROC-89207].,1,ID_CONTACTO_ASISTENCIAL
+Término médico no sensible para URL_WEB.,0,URL_WEB
+El/La paciente [Carmelo] refiere dolor.,1,NOMBRE_SUJETO_ASISTENCIA
+Tubo de [Mayo].,0,NOMBRE_PERSONAL_SANITARIO
+Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
+"Contexto clínico seguro, no PII (ID_CONTACTO_ASISTENCIAL).",0,ID_CONTACTO_ASISTENCIAL
+Factor [V] Leiden.,0,SEXO_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (DIREC_PROT_INTERNET).",0,DIREC_PROT_INTERNET
+Box [12].,0,ID_SUJETO_ASISTENCIA
+Término médico no sensible para ID_EMPLEO_PERSONAL_SANITARIO.,0,ID_EMPLEO_PERSONAL_SANITARIO
+Centro de Salud [Infanta Mercedes].,1,CENTRO_SALUD
+"Contexto clínico seguro, no PII (IDENTIF_VEHICULOS_NRSERIE_PLACAS).",0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Término médico no sensible para IDENTIF_BIOMETRICOS.,0,IDENTIF_BIOMETRICOS
+Centro [Clínica Universidad de Navarra].,1,INSTITUCION
+Paciente [Chema Fuente Guzman].,1,NOMBRE_SUJETO_ASISTENCIA
+CS [Cea Bermúdez].,1,CENTRO_SALUD
+"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
+En las [últimas horas].,0,FECHAS
+Fax: [994 151 873].,1,NUMERO_FAX
+Matrícula: [1998PRL].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Enviar a fax [983 254 350].,1,NUMERO_FAX
+Dolor referido a región [dorsal].,0,TERRITORIO
+Derivado a [Gregorio Marañón].,1,HOSPITAL
+Lactante de [5] meses.,1,EDAD_SUJETO_ASISTENCIA
+El/La paciente [Nilda] refiere dolor.,1,NOMBRE_SUJETO_ASISTENCIA
+Término médico no sensible para ID_EMPLEO_PERSONAL_SANITARIO.,0,ID_EMPLEO_PERSONAL_SANITARIO
+Masa en región [cervical].,0,TERRITORIO
+Dispositivo [SN13363322].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+Contacto: [llabresjose-antonio@example.org].,1,CORREO_ELECTRONICO
+Desde [23/07/2001] presenta síntomas.,1,FECHAS
+Fax: [923 530 392].,1,NUMERO_FAX
+Número asignado: [nhc-515449].,1,NUMERO_IDENTIF
+Pasaporte: [A22018085].,1,ID_SUJETO_ASISTENCIA
+MAC: [c7:0b:3d:83:96:c8].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+Paciente [mujer].,1,SEXO_SUJETO_ASISTENCIA
+Profesión: [administrativo].,1,PROFESION
+Se recibe a [Edu Huertas Cuéllar].,1,NOMBRE_SUJETO_ASISTENCIA
+Edad: [61].,1,EDAD_SUJETO_ASISTENCIA
+Departamento de [Radiología].,0,INSTITUCION
+Cuidador principal: [Nidia Becerra Merino].,1,FAMILIARES_SUJETO_ASISTENCIA
+Edad: [81].,1,EDAD_SUJETO_ASISTENCIA
+Último control realizado el [15/03/2002].,1,FECHAS
+ID Asegurado: [PS-6642174].,1,NUMERO_BENEF_PLAN_SALUD
+Correo electrónico del paciente: [ameliatorrens@example.org].,1,CORREO_ELECTRONICO
+"Contexto clínico seguro, no PII (URL_WEB).",0,URL_WEB
+Nº Contacto: [C362717].,1,ID_CONTACTO_ASISTENCIAL
+Talla [170] cm.,0,EDAD_SUJETO_ASISTENCIA
+Informe elaborado por Dr. [Maricela Royo-Pujol].,1,NOMBRE_PERSONAL_SANITARIO
+Natural de [Portugal].,1,PAIS
+[cocinero] de 50 años.,1,PROFESION
+Afiliado a [ISCIII].,1,INSTITUCION
+Fax: [960 633 620].,1,NUMERO_FAX
+Evolución en [las últimas semanas].,0,FECHAS
+"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
+Centro: [Virgen del Rocío].,1,HOSPITAL
+Término médico no sensible para NUMERO_FAX.,0,NUMERO_FAX
+Semana [+2] post-trasplante.,0,FECHAS
+Natural de [Ecuador].,1,PAIS
+Alta médica el día [30/01/1998].,1,FECHAS
+"Contexto clínico seguro, no PII (IDENTIF_BIOMETRICOS).",0,IDENTIF_BIOMETRICOS
+Fax: [953 371 689].,1,NUMERO_FAX
+Móvil: [659 916 643].,1,NUMERO_TELEFONO
+"Contexto clínico seguro, no PII (DIREC_PROT_INTERNET).",0,DIREC_PROT_INTERNET
+ID: [P77878].,1,NUMERO_IDENTIF
+"Contexto clínico seguro, no PII (DIREC_PROT_INTERNET).",0,DIREC_PROT_INTERNET
+Servicio de [medicina interna].,0,HOSPITAL
+Episodio: [1678266085].,1,ID_CONTACTO_ASISTENCIAL
+"C/ [Talavera] [70], [6º D].",1,CALLE
+Administrar [Ramona] IV.,0,NOMBRE_SUJETO_ASISTENCIA
+Enfermera [Haydée Amaya Flores Gaya] administra medicación.,1,NOMBRE_PERSONAL_SANITARIO
+[Conductor] del haz de His.,0,PROFESION
+Por [la mañana] presentó fiebre.,0,FECHAS
+ID Asegurado: [PS-4542961].,1,NUMERO_BENEF_PLAN_SALUD
+Afiliación SS: [11 4938178 62].,1,ID_ASEGURAMIENTO
+"[María Belén Pili Puig Berenguer], Servicio de Medicina Interna.",1,NOMBRE_PERSONAL_SANITARIO
+Póliza: [49830164-A].,1,NUMERO_BENEF_PLAN_SALUD
+Control [periódico] cada 6 meses.,0,FECHAS
+Ganglio [axilar] aumentado.,0,TERRITORIO
+Término médico no sensible para ID_EMPLEO_PERSONAL_SANITARIO.,0,ID_EMPLEO_PERSONAL_SANITARIO
+Acceso web: [https://www.paz.es].,1,DIREC_PROT_INTERNET
+Emigró desde [España] hace 5 años.,1,PAIS
+Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
+Término médico no sensible para NUMERO_BENEF_PLAN_SALUD.,0,NUMERO_BENEF_PLAN_SALUD
+"Contexto clínico seguro, no PII (URL_WEB).",0,URL_WEB
+"Domicilio habitual: [Vial Maite Calatayud 719, Albacete, 07140].",1,TERRITORIO
+Punto de [atención] continuada.,0,CENTRO_SALUD
+Diagnóstico inicial en [noviembre] de [1991].,1,FECHAS
+Término médico no sensible para URL_WEB.,0,URL_WEB
+Nº Seguridad Social: [66 1057864 36].,1,ID_ASEGURAMIENTO
+Término médico no sensible para ID_EMPLEO_PERSONAL_SANITARIO.,0,ID_EMPLEO_PERSONAL_SANITARIO
+Profesión: [conductor].,1,PROFESION
+Sala de [reanimación].,0,HOSPITAL
+Fax: [944 688 191].,1,NUMERO_FAX
+Presenta tatuaje de [dragón].,1,OTROS_SUJETO_ASISTENCIA
+Técnica [IV.2.3].,0,IDENTIF_DISPOSITIVOS_NRSERIE
+Vehículo [8515VDG].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Tratamiento [fase 2].,0,CALLE
+Término médico no sensible para DIREC_PROT_INTERNET.,0,DIREC_PROT_INTERNET
+Término médico no sensible para OTROS_SUJETO_ASISTENCIA.,0,OTROS_SUJETO_ASISTENCIA
+Protocolo [día 0] de tratamiento.,0,FECHAS
+NASS: [40 4916224 18].,1,ID_ASEGURAMIENTO
+"Contexto clínico seguro, no PII (OTROS_SUJETO_ASISTENCIA).",0,OTROS_SUJETO_ASISTENCIA
+[Madre] diabética.,0,FAMILIARES_SUJETO_ASISTENCIA
+Intervención quirúrgica programada para el [23/11/2020].,1,FECHAS
+Mutua [DKV].,1,INSTITUCION
+Huella dactilar registrada: [FP420895625].,1,IDENTIF_BIOMETRICOS
+Dolor en [muñeca] derecha.,0,NOMBRE_SUJETO_ASISTENCIA
+Recién nacido de [5] días de vida.,1,EDAD_SUJETO_ASISTENCIA
+Enviar a fax [974 193 243].,1,NUMERO_FAX
+"C/ [Coello] [63], [10º D].",1,CALLE
+Usuario: [u827842].,1,ID_EMPLEO_PERSONAL_SANITARIO
+Web: [www.desarrollo.net].,1,URL_WEB
+Accidente con vehículo [9603HRM].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Consultar en [www.comercial.com].,1,URL_WEB
+Presenta tatuaje de [fecha].,1,OTROS_SUJETO_ASISTENCIA
+Vive en la urbanización [Ville Carpio] de [León].,1,TERRITORIO
+Natural de [Alemania].,1,PAIS
+Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
+"[Lorena Sáez Riera], Servicio de Medicina Interna.",1,NOMBRE_PERSONAL_SANITARIO
+Unidad de [Cuidados Intensivos].,0,INSTITUCION
+"Plaza [Sevillano], [131].",1,CALLE
+Móvil: [679 876 917].,1,NUMERO_TELEFONO
+Tel. [+34 881 23 75 08].,1,NUMERO_TELEFONO
+"Contexto clínico seguro, no PII (DIREC_PROT_INTERNET).",0,DIREC_PROT_INTERNET
+"Contexto clínico seguro, no PII (IDENTIF_BIOMETRICOS).",0,IDENTIF_BIOMETRICOS
+Protocolo [europeo] de tratamiento.,0,PAIS
+Presenta tatuaje de [nombre].,1,OTROS_SUJETO_ASISTENCIA
+CIE [630.0].,0,NUMERO_TELEFONO
+CIPA: [nhc-143083].,1,ID_SUJETO_ASISTENCIA
+Ingreso en [Carlos Haya].,1,HOSPITAL
+"Contexto clínico seguro, no PII (URL_WEB).",0,URL_WEB
+Afiliado a [CNIO].,1,INSTITUCION
+Centro: [Carlos Haya].,1,HOSPITAL
+Box [12].,0,ID_SUJETO_ASISTENCIA
+Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
+Centro [quirúrgico].,0,CENTRO_SALUD
+Centro [quirúrgico].,0,CENTRO_SALUD
+Profesión: [profesor].,1,PROFESION
+"Pº [Baeza], [Cádiz].",1,CALLE
+Nº Seguridad Social: [79 8886588 26].,1,ID_ASEGURAMIENTO
+"Contexto clínico seguro, no PII (IDENTIF_VEHICULOS_NRSERIE_PLACAS).",0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Factor [V] Leiden.,0,SEXO_SUJETO_ASISTENCIA
+Nº Contacto: [C684403].,1,ID_CONTACTO_ASISTENCIAL
+Cuidador principal: [Joaquina Bonilla Maestre].,1,FAMILIARES_SUJETO_ASISTENCIA
+Centro: [Virgen del Rocío].,1,HOSPITAL
+Profesión: [electricista].,1,PROFESION
+ID Proceso: [PROC-91136].,1,ID_CONTACTO_ASISTENCIAL
+"Contexto clínico seguro, no PII (IDENTIF_VEHICULOS_NRSERIE_PLACAS).",0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Accidente con vehículo [1663XMP].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Matrícula: [4763KPP].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Número de identificación: [P94353].,1,NUMERO_IDENTIF
+Término médico no sensible para DIREC_PROT_INTERNET.,0,DIREC_PROT_INTERNET
+[Laboratorio] central.,0,INSTITUCION
+Diagnóstico inicial en [enero] de [2000].,1,FECHAS
+[Hermano] fallecido.,0,FAMILIARES_SUJETO_ASISTENCIA
+Presenta tatuaje de [rosa].,1,OTROS_SUJETO_ASISTENCIA
+Afiliación SS: [96 3308320 91].,1,ID_ASEGURAMIENTO
+IP: [28.68.73.56].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+Trasladado desde [urgencias].,0,TERRITORIO
+Varón de [34] años de edad.,1,EDAD_SUJETO_ASISTENCIA
+Conocido como 'El Rubio'.,1,OTROS_SUJETO_ASISTENCIA
+Código [925.11].,0,NUMERO_TELEFONO
+Identificación biométrica: [BIO-93184269].,1,IDENTIF_BIOMETRICOS
 [Padre] con HTA.,0,FAMILIARES_SUJETO_ASISTENCIA
-NIF: [73213691-J].,1,ID_SUJETO_ASISTENCIA
+Pasaporte: [A33475742].,1,ID_SUJETO_ASISTENCIA
+Consultar en [www.soluciones.org].,1,URL_WEB
+Factor [V] Leiden.,0,SEXO_SUJETO_ASISTENCIA
+"Plaza [Gomis], [140].",1,CALLE
+Profesión: [enfermero].,1,PROFESION
+Unidad de [Cuidados Intensivos].,0,INSTITUCION
+Antecedentes familiares de [cáncer].,0,FAMILIARES_SUJETO_ASISTENCIA
+Nº Socio: [9766137210].,1,OTRO_NUMERO_IDENTIF
+Cepa [británica].,0,PAIS
+Matrícula: [9957FWT].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Término médico no sensible para IDENTIF_BIOMETRICOS.,0,IDENTIF_BIOMETRICOS
+"Contexto clínico seguro, no PII (ID_TITULACION_PERSONAL_SANITARIO).",0,ID_TITULACION_PERSONAL_SANITARIO
+Frecuencia cardíaca [72] lpm.,0,EDAD_SUJETO_ASISTENCIA
+Rasgo distintivo: [lunar en mejilla].,1,OTROS_SUJETO_ASISTENCIA
+Masa en región [cervical].,0,TERRITORIO
+Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
+Desde hace [varios días].,0,FECHAS
+Término médico no sensible para OTRO_NUMERO_IDENTIF.,0,OTRO_NUMERO_IDENTIF
+[Laboratorio] central.,0,INSTITUCION
+ID: [REF-16648].,1,OTRO_NUMERO_IDENTIF
+Fax: [969 565 345].,1,NUMERO_FAX
+Conocido como 'Flaco'.,1,OTROS_SUJETO_ASISTENCIA
+Término médico no sensible para DIREC_PROT_INTERNET.,0,DIREC_PROT_INTERNET
+Número asignado: [nhc-525027].,1,NUMERO_IDENTIF
+Nº Historia: [9256126].,1,ID_SUJETO_ASISTENCIA
+Receptor [alfa] positivo.,0,SEXO_SUJETO_ASISTENCIA
+Paciente procedente del CP [32894].,1,TERRITORIO
+Término médico no sensible para OTROS_SUJETO_ASISTENCIA.,0,OTROS_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
+Referencia [555-123].,0,NUMERO_TELEFONO
+Temperatura [36.5]ºC.,0,EDAD_SUJETO_ASISTENCIA
+Teléfono: [+34919456815].,1,NUMERO_TELEFONO
+Nº Historia: [1653638].,1,ID_SUJETO_ASISTENCIA
+CIE [630.0].,0,NUMERO_TELEFONO
+FAX: [920 685 535].,1,NUMERO_FAX
+Profesión: [cocinero].,1,PROFESION
+Relación [riesgo/beneficio] favorable.,0,CORREO_ELECTRONICO
+Ingresa en [UCI].,0,HOSPITAL
+"Contexto clínico seguro, no PII (ID_TITULACION_PERSONAL_SANITARIO).",0,ID_TITULACION_PERSONAL_SANITARIO
+Fractura de [húmero].,0,NOMBRE_SUJETO_ASISTENCIA
+HU [Carlos Haya].,1,HOSPITAL
+Término médico no sensible para NUMERO_BENEF_PLAN_SALUD.,0,NUMERO_BENEF_PLAN_SALUD
+Apodo: [Paco].,1,OTROS_SUJETO_ASISTENCIA
+Matrícula: [2167BVB].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Póliza: [14973767-D].,1,NUMERO_BENEF_PLAN_SALUD
+Código [925.11].,0,NUMERO_TELEFONO
+Paciente [trabajador] respiratorio.,0,PROFESION
+[Actualmente] estable.,0,FECHAS
+Dispositivo [SN59763890].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+Notificar a [florentinapiquer@example.net].,1,CORREO_ELECTRONICO
+Presenta tatuaje de [dragón].,1,OTROS_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (OTROS_SUJETO_ASISTENCIA).",0,OTROS_SUJETO_ASISTENCIA
+Servicio de [Urgencias].,0,INSTITUCION
+Código [925.11].,0,NUMERO_TELEFONO
+Ocupación: [agricultor].,1,PROFESION
+Derivado desde C.S. [General Ricardos].,1,CENTRO_SALUD
+Área de [salud] mental.,0,CENTRO_SALUD
+"Contexto clínico seguro, no PII (ID_EMPLEO_PERSONAL_SANITARIO).",0,ID_EMPLEO_PERSONAL_SANITARIO
+Servicio de [Urgencias].,0,INSTITUCION
+Enlace: [https://www.transportes.es].,1,DIREC_PROT_INTERNET
+Centro [Clínica Universidad de Navarra].,1,INSTITUCION
+Derivado a [Carlos Haya].,1,HOSPITAL
+Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
+Guías [americanas] de cardiología.,0,PAIS
+Dr./Dra. [Régulo Quintero].,1,NOMBRE_PERSONAL_SANITARIO
+Alta médica el día [21/07/1979].,1,FECHAS
+Residente en [Italia].,1,PAIS
+Administrar [pauta 3x1].,0,CALLE
+Frecuencia cardíaca [72] lpm.,0,EDAD_SUJETO_ASISTENCIA
+[albañil] de 50 años.,1,PROFESION
+Registro facial ID: [FACE283388].,1,IDENTIF_BIOMETRICOS
+Área de [salud] mental.,0,CENTRO_SALUD
+Área de [salud] mental.,0,CENTRO_SALUD
+Proporción [1:1000].,0,CORREO_ELECTRONICO
+Próxima revisión: [martes] [01/07/2022].,1,FECHAS
+Departamento de [Radiología].,0,INSTITUCION
+Accidente con vehículo [1007NJT].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Nº Socio: [5065017813].,1,OTRO_NUMERO_IDENTIF
+Catéter de [Foley].,0,NOMBRE_PERSONAL_SANITARIO
+Afectación de zona [temporal] izquierda.,0,TERRITORIO
+"Contexto clínico seguro, no PII (IDENTIF_VEHICULOS_NRSERIE_PLACAS).",0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+NASS: [61 8428647 13].,1,ID_ASEGURAMIENTO
+Página web: [www.hotel.com].,1,URL_WEB
+Término médico no sensible para ID_EMPLEO_PERSONAL_SANITARIO.,0,ID_EMPLEO_PERSONAL_SANITARIO
+Nº Contacto: [C415753].,1,ID_CONTACTO_ASISTENCIAL
+Técnica [IV.2.3].,0,IDENTIF_DISPOSITIVOS_NRSERIE
+Centro: [Vall d'Hebron].,1,HOSPITAL
+"Derivado por Dr. García, paciente [Mayte Carpio Rubio].",1,NOMBRE_SUJETO_ASISTENCIA
+Tfno. de contacto [+34 975650210].,1,NUMERO_TELEFONO
+Cepa [británica].,0,PAIS
+NASS: [93 3360409 15].,1,ID_ASEGURAMIENTO
+Sala de [reanimación].,0,HOSPITAL
+Consultar en [www.restauracion.es].,1,URL_WEB
+Ingreso en [Virgen del Rocío].,1,HOSPITAL
+T[3]N[1]M[0].,0,CALLE
+FAX: [918 101 918].,1,NUMERO_FAX
+[Madre] diabética.,0,FAMILIARES_SUJETO_ASISTENCIA
+Vehículo [9029MCG].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Col. Nº [42-75888].,1,ID_TITULACION_PERSONAL_SANITARIO
+Semana [+2] post-trasplante.,0,FECHAS
+Estadio [IVb].,0,CALLE
+"Contexto clínico seguro, no PII (OTRO_NUMERO_IDENTIF).",0,OTRO_NUMERO_IDENTIF
+ID Proceso: [PROC-44990].,1,ID_CONTACTO_ASISTENCIAL
+Médico colegiado [15-92313].,1,ID_TITULACION_PERSONAL_SANITARIO
+"Contexto clínico seguro, no PII (OTRO_NUMERO_IDENTIF).",0,OTRO_NUMERO_IDENTIF
+Alta médica el día [20/06/1995].,1,FECHAS
+Mutua [DKV].,1,INSTITUCION
+URL: [https://www.restauracion.com].,1,DIREC_PROT_INTERNET
+Término médico no sensible para OTRO_NUMERO_IDENTIF.,0,OTRO_NUMERO_IDENTIF
+Derivado a [urgencias].,0,HOSPITAL
+DNI: [52502178F].,1,ID_SUJETO_ASISTENCIA
+"Domicilio habitual: [Vial Marisela Gonzalez 68 Apt. 60 , Murcia, 09099].",1,TERRITORIO
+Estadio [IVb].,0,CALLE
+Síndrome de [Sjögren].,0,NOMBRE_PERSONAL_SANITARIO
+Paciente [trabajador] respiratorio.,0,PROFESION
+Término médico no sensible para OTROS_SUJETO_ASISTENCIA.,0,OTROS_SUJETO_ASISTENCIA
+Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
+Término médico no sensible para NUMERO_BENEF_PLAN_SALUD.,0,NUMERO_BENEF_PLAN_SALUD
+ID: [REF-15110].,1,OTRO_NUMERO_IDENTIF
+NASS: [16 7820712 92].,1,ID_ASEGURAMIENTO
+Centro [Quirónsalud].,1,INSTITUCION
+Tensión arterial [120]/80.,0,EDAD_SUJETO_ASISTENCIA
+Servicio de [Urgencias].,0,INSTITUCION
+Protocolo [A.1.2].,0,IDENTIF_DISPOSITIVOS_NRSERIE
+Médico responsable: [Demetrio Gaya-Padilla].,1,NOMBRE_PERSONAL_SANITARIO
+Receptor [alfa] positivo.,0,SEXO_SUJETO_ASISTENCIA
+Nº Socio: [5777431569].,1,OTRO_NUMERO_IDENTIF
+Trabaja como [camarero].,1,PROFESION
+Box [12].,0,ID_SUJETO_ASISTENCIA
+Término médico no sensible para ID_CONTACTO_ASISTENCIAL.,0,ID_CONTACTO_ASISTENCIAL
+[Quirófano] programado.,0,HOSPITAL
+Huella dactilar registrada: [FP283404263].,1,IDENTIF_BIOMETRICOS
+Servicio de [medicina interna].,0,HOSPITAL
+Área de [salud] mental.,0,CENTRO_SALUD
+CS [Infanta Mercedes].,1,CENTRO_SALUD
+URL: [https://www.montes.net].,1,DIREC_PROT_INTERNET
+"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
+GRD: [470].,0,ID_SUJETO_ASISTENCIA
+"Trasladado desde [Melilla], provincia de [Logroño].",1,TERRITORIO
+Receptor [alfa] positivo.,0,SEXO_SUJETO_ASISTENCIA
+Usuario: [u667336].,1,ID_EMPLEO_PERSONAL_SANITARIO
+Acceso web: [https://www.eusebio.com].,1,DIREC_PROT_INTERNET
+Cariotipo [XY].,0,SEXO_SUJETO_ASISTENCIA
+Procedente de [Colombia].,1,PAIS
+Cepa [británica].,0,PAIS
+Escala de [Glasgow] 15.,0,NOMBRE_SUJETO_ASISTENCIA
+Móvil: [680 739 154].,1,NUMERO_TELEFONO
+CS [General Ricardos].,1,CENTRO_SALUD
+Término médico no sensible para DIREC_PROT_INTERNET.,0,DIREC_PROT_INTERNET
+Término médico no sensible para ID_CONTACTO_ASISTENCIAL.,0,ID_CONTACTO_ASISTENCIAL
+Número asignado: [nhc-227968].,1,NUMERO_IDENTIF
+En las [últimas horas].,0,FECHAS
+Término médico no sensible para ID_CONTACTO_ASISTENCIAL.,0,ID_CONTACTO_ASISTENCIAL
+[Portador] de marcapasos.,0,PROFESION
+FAX: [965 865 271].,1,NUMERO_FAX
+Consultar en [www.infraestructuras.com].,1,URL_WEB
+Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
+Término médico no sensible para IDENTIF_BIOMETRICOS.,0,IDENTIF_BIOMETRICOS
+Término médico no sensible para ID_CONTACTO_ASISTENCIAL.,0,ID_CONTACTO_ASISTENCIAL
+Talla [170] cm.,0,EDAD_SUJETO_ASISTENCIA
+Enviar a fax [951 695 627].,1,NUMERO_FAX
+"Contexto clínico seguro, no PII (DIREC_PROT_INTERNET).",0,DIREC_PROT_INTERNET
+Término médico no sensible para NUMERO_IDENTIF.,0,NUMERO_IDENTIF
+Madre: [Soraya Guzman Castrillo].,1,FAMILIARES_SUJETO_ASISTENCIA
+Proporción [1:1000].,0,CORREO_ELECTRONICO
+Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
+CS [Cea Bermúdez].,1,CENTRO_SALUD
+Término médico no sensible para ID_EMPLEO_PERSONAL_SANITARIO.,0,ID_EMPLEO_PERSONAL_SANITARIO
+Acceso web: [https://www.construccion.com].,1,DIREC_PROT_INTERNET
+Nº Empleado: [u505363].,1,ID_EMPLEO_PERSONAL_SANITARIO
+Pasaporte: [E76736554].,1,ID_SUJETO_ASISTENCIA
+Contacto: [herreraalba@example.net].,1,CORREO_ELECTRONICO
+Rasgo distintivo: [cicatriz en frente].,1,OTROS_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (NUMERO_FAX).",0,NUMERO_FAX
+Familiar de contacto: [Lope Mayol Lago].,1,FAMILIARES_SUJETO_ASISTENCIA
+Hb [12.5] g/dL.,0,ID_SUJETO_ASISTENCIA
+Término médico no sensible para ID_TITULACION_PERSONAL_SANITARIO.,0,ID_TITULACION_PERSONAL_SANITARIO
+Matrícula: [6165LSP].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+"Contexto clínico seguro, no PII (IDENTIF_BIOMETRICOS).",0,IDENTIF_BIOMETRICOS
+Rasgo distintivo: [vitíligo].,1,OTROS_SUJETO_ASISTENCIA
+Familiar de contacto: [Máxima Cerdán Mora].,1,FAMILIARES_SUJETO_ASISTENCIA
+En las [últimas horas].,0,FECHAS
+Centro: [Carlos Haya].,1,HOSPITAL
+Fax: [933 350 225].,1,NUMERO_FAX
+[Hermano] fallecido.,0,FAMILIARES_SUJETO_ASISTENCIA
+Control [periódico] cada 6 meses.,0,FECHAS
+Término médico no sensible para ID_TITULACION_PERSONAL_SANITARIO.,0,ID_TITULACION_PERSONAL_SANITARIO
+"Contexto clínico seguro, no PII (OTRO_NUMERO_IDENTIF).",0,OTRO_NUMERO_IDENTIF
+"Contexto clínico seguro, no PII (ID_TITULACION_PERSONAL_SANITARIO).",0,ID_TITULACION_PERSONAL_SANITARIO
+"Pº [Quintana], [Murcia].",1,CALLE
+"Valorado por [Chus Cepeda Marín], especialista.",1,NOMBRE_PERSONAL_SANITARIO
+"Contexto clínico seguro, no PII (ID_TITULACION_PERSONAL_SANITARIO).",0,ID_TITULACION_PERSONAL_SANITARIO
+CIE [630.0].,0,NUMERO_TELEFONO
+[Padre] con HTA.,0,FAMILIARES_SUJETO_ASISTENCIA
+Afiliado a [ISCIII].,1,INSTITUCION
+Ubicado en [box 5].,0,TERRITORIO
+Término médico no sensible para DIREC_PROT_INTERNET.,0,DIREC_PROT_INTERNET
+"Contexto clínico seguro, no PII (ID_CONTACTO_ASISTENCIAL).",0,ID_CONTACTO_ASISTENCIAL
+[Laboratorio] central.,0,INSTITUCION
+Ingresa en [UCI].,0,HOSPITAL
+CS [Puerta del Ángel].,1,CENTRO_SALUD
+Término médico no sensible para NUMERO_IDENTIF.,0,NUMERO_IDENTIF
+Vive en la urbanización [Ville Mir] de [Vizcaya].,1,TERRITORIO
+Término médico no sensible para ID_CONTACTO_ASISTENCIAL.,0,ID_CONTACTO_ASISTENCIAL
+"Contexto clínico seguro, no PII (DIREC_PROT_INTERNET).",0,DIREC_PROT_INTERNET
+Informe elaborado por Dr. [Heriberto Ponce Ramón].,1,NOMBRE_PERSONAL_SANITARIO
+Protocolo [A.1.2].,0,IDENTIF_DISPOSITIVOS_NRSERIE
+Página web: [www.grupo.com].,1,URL_WEB
+Residente en [Ecuador].,1,PAIS
+Término médico no sensible para ID_CONTACTO_ASISTENCIAL.,0,ID_CONTACTO_ASISTENCIAL
+Paciente [trabajador] respiratorio.,0,PROFESION
+[Hermano] fallecido.,0,FAMILIARES_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (IDENTIF_BIOMETRICOS).",0,IDENTIF_BIOMETRICOS
+Enfermo [hombre] que acude.,1,SEXO_SUJETO_ASISTENCIA
+IP: [175.207.107.42].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+Sexo: [F].,1,SEXO_SUJETO_ASISTENCIA
+Varón de [63] años de edad.,1,EDAD_SUJETO_ASISTENCIA
+Presenta tatuaje de [nombre].,1,OTROS_SUJETO_ASISTENCIA
+Centro de Salud [Cea Bermúdez].,1,CENTRO_SALUD
+Relación [riesgo/beneficio] favorable.,0,CORREO_ELECTRONICO
+Ingresa en planta [tercera].,0,TERRITORIO
+"Contexto clínico seguro, no PII (IDENTIF_BIOMETRICOS).",0,IDENTIF_BIOMETRICOS
+Derivado a [Vall d'Hebron].,1,HOSPITAL
+Antecedentes familiares de [cáncer].,0,FAMILIARES_SUJETO_ASISTENCIA
+Término médico no sensible para NUMERO_FAX.,0,NUMERO_FAX
+Presenta tatuaje de [fecha].,1,OTROS_SUJETO_ASISTENCIA
+Guías [americanas] de cardiología.,0,PAIS
+Episodio: [9595552216].,1,ID_CONTACTO_ASISTENCIAL
+"Contexto clínico seguro, no PII (ID_TITULACION_PERSONAL_SANITARIO).",0,ID_TITULACION_PERSONAL_SANITARIO
+Estadio [IVb].,0,CALLE
+Código ATC: [N02BE01].,0,ID_SUJETO_ASISTENCIA
+Sexo: [V].,1,SEXO_SUJETO_ASISTENCIA
+Paciente procedente del CP [20019].,1,TERRITORIO
+NASS: [71 4735341 76].,1,ID_ASEGURAMIENTO
+Lesión en área [frontal].,0,TERRITORIO
+Tel. [+34881 41 83 28].,1,NUMERO_TELEFONO
+[Padre] con HTA.,0,FAMILIARES_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (IDENTIF_BIOMETRICOS).",0,IDENTIF_BIOMETRICOS
+T[3]N[1]M[0].,0,CALLE
+Contacto: [+34920182511].,1,NUMERO_TELEFONO
+Hb [12.5] g/dL.,0,ID_SUJETO_ASISTENCIA
+Servicio de [medicina interna].,0,HOSPITAL
+Paciente [trabajador] respiratorio.,0,PROFESION
+"Contexto clínico seguro, no PII (OTROS_SUJETO_ASISTENCIA).",0,OTROS_SUJETO_ASISTENCIA
+Informe elaborado por Dr. [Carmina Conesa Sosa].,1,NOMBRE_PERSONAL_SANITARIO
+"Contexto clínico seguro, no PII (NUMERO_FAX).",0,NUMERO_FAX
+Acompañado por su esposa [Azeneth Tello Daza].,1,FAMILIARES_SUJETO_ASISTENCIA
+DNI: [70039194L].,1,ID_SUJETO_ASISTENCIA
+Temperatura [36.5]ºC.,0,EDAD_SUJETO_ASISTENCIA
+Episodio: [5364014060].,1,ID_CONTACTO_ASISTENCIAL
+Trabaja en [Quirónsalud].,1,INSTITUCION
+Término médico no sensible para ID_EMPLEO_PERSONAL_SANITARIO.,0,ID_EMPLEO_PERSONAL_SANITARIO
+Col. Nº [23-91760].,1,ID_TITULACION_PERSONAL_SANITARIO
+Nº Seguridad Social: [95 3471319 94].,1,ID_ASEGURAMIENTO
+MAC: [38:7d:36:94:b9:c2].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+Correo electrónico del paciente: [teodoro99@example.org].,1,CORREO_ELECTRONICO
+Término médico no sensible para OTRO_NUMERO_IDENTIF.,0,OTRO_NUMERO_IDENTIF
+El paciente reside en [Huelva].,1,TERRITORIO
+Niño de [4] años.,1,EDAD_SUJETO_ASISTENCIA
+Accidente con vehículo [2254ZZT].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+ID Personal: [u357390].,1,ID_EMPLEO_PERSONAL_SANITARIO
+Número de identificación: [P71895].,1,NUMERO_IDENTIF
+Tel. [+34 943 030 231].,1,NUMERO_TELEFONO
+Nº Contacto: [C538618].,1,ID_CONTACTO_ASISTENCIAL
+ID: [P93887].,1,NUMERO_IDENTIF
+Paciente [Chita Sáez Calderón].,1,NOMBRE_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (NUMERO_FAX).",0,NUMERO_FAX
+Término médico no sensible para ID_CONTACTO_ASISTENCIAL.,0,ID_CONTACTO_ASISTENCIAL
+Número de identificación: [P60552].,1,NUMERO_IDENTIF
+Patrón retinal [RET-47347708].,1,IDENTIF_BIOMETRICOS
+Médico colegiado [26-28705].,1,ID_TITULACION_PERSONAL_SANITARIO
+Paciente [Angélica Calzada Vargas].,1,NOMBRE_SUJETO_ASISTENCIA
+Enfermo [mujer] que acude.,1,SEXO_SUJETO_ASISTENCIA
+Nº Historia: [6322468].,1,ID_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (DIREC_PROT_INTERNET).",0,DIREC_PROT_INTERNET
+Término médico no sensible para DIREC_PROT_INTERNET.,0,DIREC_PROT_INTERNET
+"Contexto clínico seguro, no PII (OTRO_NUMERO_IDENTIF).",0,OTRO_NUMERO_IDENTIF
+Término médico no sensible para NUMERO_IDENTIF.,0,NUMERO_IDENTIF
+GRD: [470].,0,ID_SUJETO_ASISTENCIA
+Término médico no sensible para NUMERO_IDENTIF.,0,NUMERO_IDENTIF
+[Conductor] del haz de His.,0,PROFESION
+Protocolo [europeo] de tratamiento.,0,PAIS
+Frecuencia cardíaca [72] lpm.,0,EDAD_SUJETO_ASISTENCIA
+Punto de [atención] continuada.,0,CENTRO_SALUD
+Término médico no sensible para OTROS_SUJETO_ASISTENCIA.,0,OTROS_SUJETO_ASISTENCIA
+"Trasladado desde [Jaén], provincia de [Vigo].",1,TERRITORIO
+Paciente [trabajador] respiratorio.,0,PROFESION
+"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
+Correo electrónico del paciente: [romanpaez@example.net].,1,CORREO_ELECTRONICO
+"Contexto clínico seguro, no PII (ID_TITULACION_PERSONAL_SANITARIO).",0,ID_TITULACION_PERSONAL_SANITARIO
+Póliza: [38952139-B].,1,NUMERO_BENEF_PLAN_SALUD
+"Contexto clínico seguro, no PII (ID_CONTACTO_ASISTENCIAL).",0,ID_CONTACTO_ASISTENCIAL
+Acceso web: [https://www.aviles.org].,1,DIREC_PROT_INTERNET
+Código [925.11].,0,NUMERO_TELEFONO
+Referencia: [R910834].,1,OTRO_NUMERO_IDENTIF
+Técnica de [Seldinger].,0,NOMBRE_PERSONAL_SANITARIO
+Familiar de contacto: [Urbano Zorrilla Peña].,1,FAMILIARES_SUJETO_ASISTENCIA
+ID Asegurado: [PS-1883168].,1,NUMERO_BENEF_PLAN_SALUD
+Signo de [Murphy] positivo.,0,NOMBRE_SUJETO_ASISTENCIA
+Paciente procedente del CP [10563].,1,TERRITORIO
+Término médico no sensible para IDENTIF_BIOMETRICOS.,0,IDENTIF_BIOMETRICOS
+Nacionalidad: [Colombia].,1,PAIS
+Registro: [8681801].,1,NUMERO_IDENTIF
+MAC: [5b:1c:5c:7f:dd:c5].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+Síndrome de [Cushing].,0,NOMBRE_SUJETO_ASISTENCIA
+Exploración de fosa [iliaca] derecha.,0,TERRITORIO
+Derivado a [Vall d'Hebron].,1,HOSPITAL
+Ocupación: [mecánico].,1,PROFESION
+MAC: [1c:0d:60:95:23:72].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+Cepa [británica].,0,PAIS
+Enlace: [https://www.canales.com].,1,DIREC_PROT_INTERNET
+ID: [P76192].,1,NUMERO_IDENTIF
+NASS: [19 6492824 29].,1,ID_ASEGURAMIENTO
+Término médico no sensible para URL_WEB.,0,URL_WEB
+Término médico no sensible para ID_TITULACION_PERSONAL_SANITARIO.,0,ID_TITULACION_PERSONAL_SANITARIO
+"Contexto clínico seguro, no PII (DIREC_PROT_INTERNET).",0,DIREC_PROT_INTERNET
+Derivado desde C.S. [General Ricardos].,1,CENTRO_SALUD
+Presenta tatuaje de [rosa].,1,OTROS_SUJETO_ASISTENCIA
+Protocolo [A.1.2].,0,IDENTIF_DISPOSITIVOS_NRSERIE
+Término médico no sensible para NUMERO_BENEF_PLAN_SALUD.,0,NUMERO_BENEF_PLAN_SALUD
+"Contexto clínico seguro, no PII (ID_EMPLEO_PERSONAL_SANITARIO).",0,ID_EMPLEO_PERSONAL_SANITARIO
+Consultar en [www.talleres.es].,1,URL_WEB
+Padre: [Gustavo Mateu Tenorio].,1,FAMILIARES_SUJETO_ASISTENCIA
+Tensión arterial [120]/80.,0,EDAD_SUJETO_ASISTENCIA
+Referencia [555-123].,0,NUMERO_TELEFONO
+Término médico no sensible para OTROS_SUJETO_ASISTENCIA.,0,OTROS_SUJETO_ASISTENCIA
+Antecedentes familiares de [cáncer].,0,FAMILIARES_SUJETO_ASISTENCIA
+URL: [https://www.familia.es].,1,DIREC_PROT_INTERNET
+Servicio de [Urgencias].,0,INSTITUCION
+Contacto: [+34 871 678 281].,1,NUMERO_TELEFONO
+Frecuencia cardíaca [72] lpm.,0,EDAD_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (URL_WEB).",0,URL_WEB
+Pasaporte: [D31381637].,1,ID_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (NUMERO_FAX).",0,NUMERO_FAX
+Centro [quirúrgico].,0,CENTRO_SALUD
+Enlace: [https://www.promociones.es].,1,DIREC_PROT_INTERNET
+Protocolo [día 0] de tratamiento.,0,FECHAS
+ID Asegurado: [PS-7986840].,1,NUMERO_BENEF_PLAN_SALUD
+ID Asegurado: [PS-1526320].,1,NUMERO_BENEF_PLAN_SALUD
+Relación [riesgo/beneficio] favorable.,0,CORREO_ELECTRONICO
+"Contexto clínico seguro, no PII (IDENTIF_BIOMETRICOS).",0,IDENTIF_BIOMETRICOS
+Conocido como 'Flaco'.,1,OTROS_SUJETO_ASISTENCIA
+Derivado a [consultas externas].,0,TERRITORIO
+Diabetes de [15] años de evolución.,0,EDAD_SUJETO_ASISTENCIA
+Tratamiento [fase 2].,0,CALLE
+Número de identificación: [P36653].,1,NUMERO_IDENTIF
+El/La paciente [Ana] refiere dolor.,1,NOMBRE_SUJETO_ASISTENCIA
+Referencia: [R413538].,1,OTRO_NUMERO_IDENTIF
+Término médico no sensible para NUMERO_FAX.,0,NUMERO_FAX
+Página web: [www.isern.com].,1,URL_WEB
+Remitido desde centro de salud de [Girona].,1,TERRITORIO
+"Contexto clínico seguro, no PII (ID_CONTACTO_ASISTENCIAL).",0,ID_CONTACTO_ASISTENCIAL
+"Contexto clínico seguro, no PII (IDENTIF_BIOMETRICOS).",0,IDENTIF_BIOMETRICOS
+Paciente [trabajador] respiratorio.,0,PROFESION
+Virus [japonés] B.,0,PAIS
+"Valorado por [Albert Dan Peláez Pareja], especialista.",1,NOMBRE_PERSONAL_SANITARIO
+Matrícula: [5011DVV].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Departamento de [Radiología].,0,INSTITUCION
+Huella dactilar registrada: [FP274368723].,1,IDENTIF_BIOMETRICOS
+Unidad de [Cuidados Intensivos].,0,INSTITUCION
+ID: [REF-79239].,1,OTRO_NUMERO_IDENTIF
+Nº Colegiado: [35-35430].,1,ID_TITULACION_PERSONAL_SANITARIO
+Cromosoma [X] normal.,0,SEXO_SUJETO_ASISTENCIA
+Término médico no sensible para DIREC_PROT_INTERNET.,0,DIREC_PROT_INTERNET
+"Valorado por [Timoteo Tomas Ródenas], especialista.",1,NOMBRE_PERSONAL_SANITARIO
+Accidente con vehículo [3128TTS].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Técnica [IV.2.3].,0,IDENTIF_DISPOSITIVOS_NRSERIE
+HTA de [10] años.,0,EDAD_SUJETO_ASISTENCIA
+Guías [americanas] de cardiología.,0,PAIS
+Término médico no sensible para ID_TITULACION_PERSONAL_SANITARIO.,0,ID_TITULACION_PERSONAL_SANITARIO
+Término médico no sensible para NUMERO_IDENTIF.,0,NUMERO_IDENTIF
+Nº Socio: [8060620154].,1,OTRO_NUMERO_IDENTIF
+Contacto: [gsaldana@example.net].,1,CORREO_ELECTRONICO
+Contacto: [+34731 626 251].,1,NUMERO_TELEFONO
+Identificador paciente: [P60997].,1,ID_SUJETO_ASISTENCIA
+Web: [www.promociones.net].,1,URL_WEB
+"Contexto clínico seguro, no PII (OTROS_SUJETO_ASISTENCIA).",0,OTROS_SUJETO_ASISTENCIA
+Paciente de [56] años.,1,EDAD_SUJETO_ASISTENCIA
+Término médico no sensible para OTRO_NUMERO_IDENTIF.,0,OTRO_NUMERO_IDENTIF
+Grado [III/IV].,0,CALLE
+CIE [630.0].,0,NUMERO_TELEFONO
+Referencia: [R666224].,1,OTRO_NUMERO_IDENTIF
+"Contexto clínico seguro, no PII (ID_TITULACION_PERSONAL_SANITARIO).",0,ID_TITULACION_PERSONAL_SANITARIO
+"Contexto clínico seguro, no PII (IDENTIF_VEHICULOS_NRSERIE_PLACAS).",0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Guías [americanas] de cardiología.,0,PAIS
+Accidente con vehículo [1069LPW].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Paciente [Gerardo Cal Coloma].,1,NOMBRE_SUJETO_ASISTENCIA
+Rasgo distintivo: [lunar en mejilla].,1,OTROS_SUJETO_ASISTENCIA
+Pertenece al Centro de Salud [General Ricardos].,1,CENTRO_SALUD
+Médico colegiado [19-61088].,1,ID_TITULACION_PERSONAL_SANITARIO
+Lactante de [11] meses.,1,EDAD_SUJETO_ASISTENCIA
+[Quirófano] programado.,0,HOSPITAL
+Término médico no sensible para DIREC_PROT_INTERNET.,0,DIREC_PROT_INTERNET
+ID Proceso: [PROC-63881].,1,ID_CONTACTO_ASISTENCIAL
+[D.] [Oliveras] presenta mejoría.,1,NOMBRE_SUJETO_ASISTENCIA
+[Laboratorio] central.,0,INSTITUCION
+Tubo de [Mayo].,0,NOMBRE_PERSONAL_SANITARIO
+Síndrome de [Sjögren].,0,NOMBRE_PERSONAL_SANITARIO
+Consultar en [www.compania.com].,1,URL_WEB
+T[3]N[1]M[0].,0,CALLE
+Paciente de [21] años.,1,EDAD_SUJETO_ASISTENCIA
+Pertenece al Centro de Salud [Puerta del Ángel].,1,CENTRO_SALUD
+El/La paciente [Ema] refiere dolor.,1,NOMBRE_SUJETO_ASISTENCIA
+ID Asegurado: [PS-6716160].,1,NUMERO_BENEF_PLAN_SALUD
+[Padre] con HTA.,0,FAMILIARES_SUJETO_ASISTENCIA
+Médico responsable: [Nélida Iglesia Carreño].,1,NOMBRE_PERSONAL_SANITARIO
+Técnica [IV.2.3].,0,IDENTIF_DISPOSITIVOS_NRSERIE
+Referencia: [R273022].,1,OTRO_NUMERO_IDENTIF
+ID: [REF-67712].,1,OTRO_NUMERO_IDENTIF
+Rasgo distintivo: [cicatriz en frente].,1,OTROS_SUJETO_ASISTENCIA
+Técnica [IV.2.3].,0,IDENTIF_DISPOSITIVOS_NRSERIE
+Domicilio: [Plaza de Raúl Lasa 77 Puerta 9 ].,1,CALLE
+Registro facial ID: [FACE931699].,1,IDENTIF_BIOMETRICOS
+Trabaja en [Vithas].,1,INSTITUCION
 Administrar [Ramona] IV.,0,NOMBRE_SUJETO_ASISTENCIA
 Término médico no sensible para ID_TITULACION_PERSONAL_SANITARIO.,0,ID_TITULACION_PERSONAL_SANITARIO
-Lactante de [8] meses.,1,EDAD_SUJETO_ASISTENCIA
-Vehículo [8317XRB].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-Pasaporte: [E16144449].,1,ID_SUJETO_ASISTENCIA
-Arteria [femoral] permeable.,0,TERRITORIO
-[Laboratorio] central.,0,INSTITUCION
-"Contexto clínico seguro, no PII (OTROS_SUJETO_ASISTENCIA).",0,OTROS_SUJETO_ASISTENCIA
-Madre: [Manuelita Aroca Batlle].,1,FAMILIARES_SUJETO_ASISTENCIA
-Término médico no sensible para OTROS_SUJETO_ASISTENCIA.,0,OTROS_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (ID_CONTACTO_ASISTENCIAL).",0,ID_CONTACTO_ASISTENCIAL
-Centro de Salud [Infanta Mercedes].,1,CENTRO_SALUD
-"Contexto clínico seguro, no PII (URL_WEB).",0,URL_WEB
-Término médico no sensible para ID_EMPLEO_PERSONAL_SANITARIO.,0,ID_EMPLEO_PERSONAL_SANITARIO
-"Contexto clínico seguro, no PII (ID_TITULACION_PERSONAL_SANITARIO).",0,ID_TITULACION_PERSONAL_SANITARIO
-Niño de [7] años.,1,EDAD_SUJETO_ASISTENCIA
-Emigró desde [Ecuador] hace 5 años.,1,PAIS
-IP: [105.93.116.211].,1,IDENTIF_DISPOSITIVOS_NRSERIE
-Consultar en [www.penas.es].,1,URL_WEB
-Proporción [1:1000].,0,CORREO_ELECTRONICO
-Póliza: [14367654-C].,1,NUMERO_BENEF_PLAN_SALUD
-"Reside en [Alameda Domitila Almagro 40], [46135].",1,CALLE
-[Madre] diabética.,0,FAMILIARES_SUJETO_ASISTENCIA
-Término médico no sensible para OTROS_SUJETO_ASISTENCIA.,0,OTROS_SUJETO_ASISTENCIA
-Término médico no sensible para DIREC_PROT_INTERNET.,0,DIREC_PROT_INTERNET
-Signo de [Murphy] positivo.,0,NOMBRE_SUJETO_ASISTENCIA
-Nº Socio: [9259289166].,1,OTRO_NUMERO_IDENTIF
-MAC: [81:f2:5c:29:86:dc].,1,IDENTIF_DISPOSITIVOS_NRSERIE
-Episodio: [6945082073].,1,ID_CONTACTO_ASISTENCIAL
-ID: [REF-45407].,1,OTRO_NUMERO_IDENTIF
-Vive en la urbanización [Ville Palmer] de [Ciudad].,1,TERRITORIO
-Ocupación: [cocinero].,1,PROFESION
-Pasaporte: [F36589097].,1,ID_SUJETO_ASISTENCIA
-Departamento de [Radiología].,0,INSTITUCION
-Intervención quirúrgica programada para el [23/05/2018].,1,FECHAS
-Término médico no sensible para OTROS_SUJETO_ASISTENCIA.,0,OTROS_SUJETO_ASISTENCIA
-Acompañado por su esposa [Paca Manzano Seguí].,1,FAMILIARES_SUJETO_ASISTENCIA
-T[3]N[1]M[0].,0,CALLE
-Usuario: [u744931].,1,ID_EMPLEO_PERSONAL_SANITARIO
-MAC: [e5:0b:97:46:f0:81].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+"Trasladado desde [Ávila], provincia de [Vitoria-Gasteiz].",1,TERRITORIO
+Durante [la noche].,0,FECHAS
 Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
-Enviar a fax [959 280 844].,1,NUMERO_FAX
-Acompañado por su esposa [Ana Abril Barragán Almeida].,1,FAMILIARES_SUJETO_ASISTENCIA
-Trabaja como [albañil].,1,PROFESION
-Maniobra de [Heimlich].,0,NOMBRE_PERSONAL_SANITARIO
-Apodo: [Toño].,1,OTROS_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
-[mujer] sometida a intervención.,1,SEXO_SUJETO_ASISTENCIA
-Cama [305].,0,ID_SUJETO_ASISTENCIA
-Usuario: [u108321].,1,ID_EMPLEO_PERSONAL_SANITARIO
-Niño/Niña [niño] de 8 años.,1,SEXO_SUJETO_ASISTENCIA
-Término médico no sensible para NUMERO_FAX.,0,NUMERO_FAX
-Departamento de [Radiología].,0,INSTITUCION
-Enlace: [https://www.mineria.net].,1,DIREC_PROT_INTERNET
-Unidad de [Cuidados Intensivos].,0,INSTITUCION
-Domicilio: [Cuesta Dorita Iborra 3].,1,CALLE
-NASS: [84 2974150 99].,1,ID_ASEGURAMIENTO
-Referencia [555-123].,0,NUMERO_TELEFONO
-"Mujer, [36] años.",1,EDAD_SUJETO_ASISTENCIA
-Centro: [Son Espases].,1,HOSPITAL
-Administrar [pauta 3x1].,0,CALLE
-Nº Beneficiario: [437-281-214].,1,NUMERO_BENEF_PLAN_SALUD
-pH [7.35].,0,ID_SUJETO_ASISTENCIA
-pO2 [95] mmHg.,0,ID_SUJETO_ASISTENCIA
-Afiliado a [Vithas].,1,INSTITUCION
-"Contexto clínico seguro, no PII (OTROS_SUJETO_ASISTENCIA).",0,OTROS_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (NUMERO_FAX).",0,NUMERO_FAX
-Pertenece al Centro de Salud [Alameda].,1,CENTRO_SALUD
-Nº Beneficiario: [420-790-220].,1,NUMERO_BENEF_PLAN_SALUD
-[Actualmente] estable.,0,FECHAS
-ID: [REF-89214].,1,OTRO_NUMERO_IDENTIF
-"Derivado por Dr. García, paciente [Inmaculada Marqués].",1,NOMBRE_SUJETO_ASISTENCIA
-Enviar a fax [988 723 870].,1,NUMERO_FAX
-Referencia [555-123].,0,NUMERO_TELEFONO
-Usuario: [u587602].,1,ID_EMPLEO_PERSONAL_SANITARIO
-"C/ [Cervera] [2], [1º B].",1,CALLE
-Test de [Romberg] negativo.,0,NOMBRE_SUJETO_ASISTENCIA
-HU [La Fe].,1,HOSPITAL
-Identificador paciente: [P29212].,1,ID_SUJETO_ASISTENCIA
-Guías [americanas] de cardiología.,0,PAIS
-Paciente [Cosme del Pou].,1,NOMBRE_SUJETO_ASISTENCIA
-Matrícula: [9056LFT].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-Presenta tatuaje de [rosa].,1,OTROS_SUJETO_ASISTENCIA
-Nº Contacto: [C222964].,1,ID_CONTACTO_ASISTENCIAL
-Dispositivo [SN71209942].,1,IDENTIF_DISPOSITIVOS_NRSERIE
-Profesión: [administrativo].,1,PROFESION
-Residente en [Ecuador].,1,PAIS
-Estadio [IVb].,0,CALLE
-Presenta tatuaje de [dragón].,1,OTROS_SUJETO_ASISTENCIA
-Alta médica el día [13/06/1990].,1,FECHAS
-Término médico no sensible para NUMERO_FAX.,0,NUMERO_FAX
-Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
-Afiliación SS: [51 7188625 35].,1,ID_ASEGURAMIENTO
-"Contexto clínico seguro, no PII (ID_EMPLEO_PERSONAL_SANITARIO).",0,ID_EMPLEO_PERSONAL_SANITARIO
-Nº Socio: [8394134959].,1,OTRO_NUMERO_IDENTIF
-Trabaja en [CNIO].,1,INSTITUCION
-Catéter de [Foley].,0,NOMBRE_PERSONAL_SANITARIO
-Receptor [alfa] positivo.,0,SEXO_SUJETO_ASISTENCIA
-Médico responsable: [Norberto del Seco].,1,NOMBRE_PERSONAL_SANITARIO
-[Madre] diabética.,0,FAMILIARES_SUJETO_ASISTENCIA
-Consultar en [www.camara.com].,1,URL_WEB
-Técnica [IV.2.3].,0,IDENTIF_DISPOSITIVOS_NRSERIE
-Profesión: [profesor].,1,PROFESION
-Ciclo [3] de quimioterapia.,0,FECHAS
-Término médico no sensible para NUMERO_BENEF_PLAN_SALUD.,0,NUMERO_BENEF_PLAN_SALUD
-Servicio de [Urgencias].,0,INSTITUCION
-Relación [riesgo/beneficio] favorable.,0,CORREO_ELECTRONICO
-"Dirección: [Acceso Natanael Reyes], nº [80].",1,CALLE
-"Contexto clínico seguro, no PII (ID_TITULACION_PERSONAL_SANITARIO).",0,ID_TITULACION_PERSONAL_SANITARIO
-Usuario: [u770185].,1,ID_EMPLEO_PERSONAL_SANITARIO
-Arteria [femoral] permeable.,0,TERRITORIO
-Presenta dolor en región [lumbar].,0,TERRITORIO
-Término médico no sensible para IDENTIF_VEHICULOS_NRSERIE_PLACAS.,0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-D./Dña. [Gil del Boada] acude a consulta.,1,NOMBRE_SUJETO_ASISTENCIA
-Nacido el [15/07/1990].,1,FECHAS
-Vehículo [8337BFM].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-pO2 [95] mmHg.,0,ID_SUJETO_ASISTENCIA
-Nº Seguridad Social: [35 1608900 58].,1,ID_ASEGURAMIENTO
+Término médico no sensible para OTRO_NUMERO_IDENTIF.,0,OTRO_NUMERO_IDENTIF
 CIE [630.0].,0,NUMERO_TELEFONO
-Web: [www.desarrollo.com].,1,URL_WEB
-Proporción [1:1000].,0,CORREO_ELECTRONICO
-[camarero] de 50 años.,1,PROFESION
-"Dirección postal: [Acceso Socorro Bayona 55 Apt. 78 , Salamanca, 43858], [Murcia].",1,TERRITORIO
-Remitido desde [HM Hospitales].,1,INSTITUCION
-[Hermano] fallecido.,0,FAMILIARES_SUJETO_ASISTENCIA
-Web: [www.hermanos.es].,1,URL_WEB
-"Contexto clínico seguro, no PII (OTRO_NUMERO_IDENTIF).",0,OTRO_NUMERO_IDENTIF
-"Contexto clínico seguro, no PII (NUMERO_FAX).",0,NUMERO_FAX
-Derivado desde C.S. [General Ricardos].,1,CENTRO_SALUD
-Término médico no sensible para IDENTIF_VEHICULOS_NRSERIE_PLACAS.,0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-Variante [brasileña].,0,PAIS
-"Contexto clínico seguro, no PII (ID_TITULACION_PERSONAL_SANITARIO).",0,ID_TITULACION_PERSONAL_SANITARIO
-Técnica [IV.2.3].,0,IDENTIF_DISPOSITIVOS_NRSERIE
-Hospital [12 de Octubre].,1,HOSPITAL
-Próxima revisión: [lunes] [23/07/2001].,1,FECHAS
-NASS: [38 1702825 15].,1,ID_ASEGURAMIENTO
-GRD: [470].,0,ID_SUJETO_ASISTENCIA
-Contacto: [barralmiriam@example.com].,1,CORREO_ELECTRONICO
-Protocolo [día 0] de tratamiento.,0,FECHAS
-Nº Contacto: [C672531].,1,ID_CONTACTO_ASISTENCIAL
-Término médico no sensible para URL_WEB.,0,URL_WEB
-"Contexto clínico seguro, no PII (ID_TITULACION_PERSONAL_SANITARIO).",0,ID_TITULACION_PERSONAL_SANITARIO
-Temperatura [36.5]ºC.,0,EDAD_SUJETO_ASISTENCIA
-"Valorado por [Elena Piñeiro Amat], especialista.",1,NOMBRE_PERSONAL_SANITARIO
-Departamento de [Radiología].,0,INSTITUCION
-Término médico no sensible para NUMERO_BENEF_PLAN_SALUD.,0,NUMERO_BENEF_PLAN_SALUD
-Enviar a fax [914 443 729].,1,NUMERO_FAX
-Dispositivo [SN84913865].,1,IDENTIF_DISPOSITIVOS_NRSERIE
-Centro [Clínica Universidad de Navarra].,1,INSTITUCION
-Residente en [Marruecos].,1,PAIS
-Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
-NIF: [80675216-Q].,1,ID_SUJETO_ASISTENCIA
-Término médico no sensible para NUMERO_FAX.,0,NUMERO_FAX
-URL: [https://www.inversiones.com].,1,DIREC_PROT_INTERNET
-"Contexto clínico seguro, no PII (DIREC_PROT_INTERNET).",0,DIREC_PROT_INTERNET
-Sala de [reanimación].,0,HOSPITAL
-"Contexto clínico seguro, no PII (ID_ASEGURAMIENTO).",0,ID_ASEGURAMIENTO
-Servicio de [Urgencias].,0,INSTITUCION
-Virus [japonés] B.,0,PAIS
-Protocolo [día 0] de tratamiento.,0,FECHAS
-Semana [+2] post-trasplante.,0,FECHAS
-[Portador] de marcapasos.,0,PROFESION
-"Contexto clínico seguro, no PII (ID_ASEGURAMIENTO).",0,ID_ASEGURAMIENTO
-Natural de [Barcelona].,1,TERRITORIO
-Web: [www.industrias.es].,1,URL_WEB
-Servicio de [Urgencias].,0,INSTITUCION
-Pertenece al Centro de Salud [Alameda].,1,CENTRO_SALUD
-Paciente [trabajador] respiratorio.,0,PROFESION
-Término médico no sensible para IDENTIF_BIOMETRICOS.,0,IDENTIF_BIOMETRICOS
-Accidente con vehículo [4572DCL].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-Término médico no sensible para ID_TITULACION_PERSONAL_SANITARIO.,0,ID_TITULACION_PERSONAL_SANITARIO
-Emigró desde [Alemania] hace 5 años.,1,PAIS
-Nº Seguridad Social: [44 5889357 88].,1,ID_ASEGURAMIENTO
-Término médico no sensible para ID_CONTACTO_ASISTENCIAL.,0,ID_CONTACTO_ASISTENCIAL
-"Contexto clínico seguro, no PII (URL_WEB).",0,URL_WEB
-Acompañado por su esposa [Melania Zamorano Montero].,1,FAMILIARES_SUJETO_ASISTENCIA
-Estadio [IVb].,0,CALLE
-Virus [japonés] B.,0,PAIS
-Receptor [alfa] positivo.,0,SEXO_SUJETO_ASISTENCIA
-Hb [12.5] g/dL.,0,ID_SUJETO_ASISTENCIA
-Paciente procedente del CP [48724].,1,TERRITORIO
-Paciente procedente del CP [32035].,1,TERRITORIO
-Técnica [IV.2.3].,0,IDENTIF_DISPOSITIVOS_NRSERIE
-Natural de [Alemania].,1,PAIS
+Huella dactilar registrada: [FP349746157].,1,IDENTIF_BIOMETRICOS
 Protocolo [A.1.2].,0,IDENTIF_DISPOSITIVOS_NRSERIE
-Paciente [mujer].,1,SEXO_SUJETO_ASISTENCIA
-Ingreso en [Vall d'Hebron].,1,HOSPITAL
-IP: [200.108.225.75].,1,IDENTIF_DISPOSITIVOS_NRSERIE
-ID: [REF-21740].,1,OTRO_NUMERO_IDENTIF
-Fax: [989 526 526].,1,NUMERO_FAX
-CIE [630.0].,0,NUMERO_TELEFONO
-FAX: [965 753 167].,1,NUMERO_FAX
-"Contexto clínico seguro, no PII (OTROS_SUJETO_ASISTENCIA).",0,OTROS_SUJETO_ASISTENCIA
+Dispositivo [SN41548797].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+"Contexto clínico seguro, no PII (DIREC_PROT_INTERNET).",0,DIREC_PROT_INTERNET
 "Contexto clínico seguro, no PII (ID_EMPLEO_PERSONAL_SANITARIO).",0,ID_EMPLEO_PERSONAL_SANITARIO
-Nº Empleado: [u639386].,1,ID_EMPLEO_PERSONAL_SANITARIO
+Consultar en [www.saez.net].,1,URL_WEB
+Natural de [Portugal].,1,PAIS
+Enlace: [https://www.mendez.es].,1,DIREC_PROT_INTERNET
+"Contexto clínico seguro, no PII (NUMERO_FAX).",0,NUMERO_FAX
+Centro [quirúrgico].,0,CENTRO_SALUD
+"Contexto clínico seguro, no PII (URL_WEB).",0,URL_WEB
+Dispositivo [SN31053363].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+Afiliación SS: [81 9600498 45].,1,ID_ASEGURAMIENTO
+Término médico no sensible para URL_WEB.,0,URL_WEB
+Punto de [atención] continuada.,0,CENTRO_SALUD
+Término médico no sensible para IDENTIF_BIOMETRICOS.,0,IDENTIF_BIOMETRICOS
+[mujer] sometida a intervención.,1,SEXO_SUJETO_ASISTENCIA
+Término médico no sensible para ID_TITULACION_PERSONAL_SANITARIO.,0,ID_TITULACION_PERSONAL_SANITARIO
+Técnica [IV.2.3].,0,IDENTIF_DISPOSITIVOS_NRSERIE
+Término médico no sensible para NUMERO_BENEF_PLAN_SALUD.,0,NUMERO_BENEF_PLAN_SALUD
+Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
+MAC: [4f:80:bd:c6:e2:0d].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+ID Personal: [u130742].,1,ID_EMPLEO_PERSONAL_SANITARIO
+ID Proceso: [PROC-72004].,1,ID_CONTACTO_ASISTENCIAL
+Médico colegiado [44-73321].,1,ID_TITULACION_PERSONAL_SANITARIO
+"Contexto clínico seguro, no PII (ID_TITULACION_PERSONAL_SANITARIO).",0,ID_TITULACION_PERSONAL_SANITARIO
+"Contexto clínico seguro, no PII (ID_EMPLEO_PERSONAL_SANITARIO).",0,ID_EMPLEO_PERSONAL_SANITARIO
+MAC: [56:1e:6a:f5:44:3c].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+IP: [83.188.205.3].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+Centro [quirúrgico].,0,CENTRO_SALUD
+Número de identificación: [P54035].,1,NUMERO_IDENTIF
+Área de [salud] mental.,0,CENTRO_SALUD
 "Contexto clínico seguro, no PII (NUMERO_BENEF_PLAN_SALUD).",0,NUMERO_BENEF_PLAN_SALUD
-Centro [CSIC].,1,INSTITUCION
-"Plaza [Cuadrado], [30].",1,CALLE
-Procedente de [Portugal].,1,PAIS
-Ingresa en planta [tercera].,0,TERRITORIO
-Término médico no sensible para NUMERO_IDENTIF.,0,NUMERO_IDENTIF
-Diagnóstico inicial en [noviembre] de [1977].,1,FECHAS
-Frecuencia cardíaca [72] lpm.,0,EDAD_SUJETO_ASISTENCIA
-Alta médica el día [28/03/1990].,1,FECHAS
-NASS: [59 7378070 12].,1,ID_ASEGURAMIENTO
-Niño/Niña [niño] de 8 años.,1,SEXO_SUJETO_ASISTENCIA
-El/La paciente [Gervasio] refiere dolor.,1,NOMBRE_SUJETO_ASISTENCIA
-Sala de [reanimación].,0,HOSPITAL
-Término médico no sensible para NUMERO_IDENTIF.,0,NUMERO_IDENTIF
+Término médico no sensible para IDENTIF_VEHICULOS_NRSERIE_PLACAS.,0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+URL: [https://www.hnos.es].,1,DIREC_PROT_INTERNET
+"Contexto clínico seguro, no PII (IDENTIF_VEHICULOS_NRSERIE_PLACAS).",0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+"Contexto clínico seguro, no PII (OTRO_NUMERO_IDENTIF).",0,OTRO_NUMERO_IDENTIF
+Nº Socio: [1488838215].,1,OTRO_NUMERO_IDENTIF
+Término médico no sensible para URL_WEB.,0,URL_WEB
+Acompañado por su esposa [Piedad Diez Almeida].,1,FAMILIARES_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (ID_TITULACION_PERSONAL_SANITARIO).",0,ID_TITULACION_PERSONAL_SANITARIO
+Término médico no sensible para ID_CONTACTO_ASISTENCIAL.,0,ID_CONTACTO_ASISTENCIAL
+Término médico no sensible para URL_WEB.,0,URL_WEB
+Contacto: [hzabala@example.net].,1,CORREO_ELECTRONICO
+NASS: [92 9724147 60].,1,ID_ASEGURAMIENTO
+Proporción [1:1000].,0,CORREO_ELECTRONICO
+Enviar a fax [949 639 537].,1,NUMERO_FAX
+ID Personal: [u858789].,1,ID_EMPLEO_PERSONAL_SANITARIO
+Término médico no sensible para OTROS_SUJETO_ASISTENCIA.,0,OTROS_SUJETO_ASISTENCIA
+GRD: [470].,0,ID_SUJETO_ASISTENCIA
+[Portador] de marcapasos.,0,PROFESION
+Correo electrónico del paciente: [samantapuig@example.net].,1,CORREO_ELECTRONICO
+Término médico no sensible para OTROS_SUJETO_ASISTENCIA.,0,OTROS_SUJETO_ASISTENCIA
+Ingreso en [Cruces].,1,HOSPITAL
+"Contexto clínico seguro, no PII (URL_WEB).",0,URL_WEB
+Técnica [IV.2.3].,0,IDENTIF_DISPOSITIVOS_NRSERIE
+CIE: [CIE461487].,1,ID_SUJETO_ASISTENCIA
+Evolución en [las últimas semanas].,0,FECHAS
+[agricultor] de 50 años.,1,PROFESION
+Notificar a [nicolasa71@example.com].,1,CORREO_ELECTRONICO
+Nº Empleado: [u551652].,1,ID_EMPLEO_PERSONAL_SANITARIO
+Hospital [La Fe].,1,HOSPITAL
+Remitido desde [Clínica Universidad de Navarra].,1,INSTITUCION
+"Contexto clínico seguro, no PII (IDENTIF_BIOMETRICOS).",0,IDENTIF_BIOMETRICOS
 "Contexto clínico seguro, no PII (NUMERO_BENEF_PLAN_SALUD).",0,NUMERO_BENEF_PLAN_SALUD
-Control [periódico] cada 6 meses.,0,FECHAS
-Paciente [trabajador] respiratorio.,0,PROFESION
+Unidad de [Cuidados Intensivos].,0,INSTITUCION
+Huella dactilar registrada: [FP925034448].,1,IDENTIF_BIOMETRICOS
+Trabaja como [albañil].,1,PROFESION
+Paciente [Etelvina Guardiola Guzmán].,1,NOMBRE_SUJETO_ASISTENCIA
+Tratamiento [fase 2].,0,CALLE
+Cuidador principal: [Joel del Muro].,1,FAMILIARES_SUJETO_ASISTENCIA
+[Laboratorio] central.,0,INSTITUCION
+Administrar [pauta 3x1].,0,CALLE
+Planta de [cardiología].,0,HOSPITAL
+"Contexto clínico seguro, no PII (URL_WEB).",0,URL_WEB
+Punto de [atención] continuada.,0,CENTRO_SALUD
 [agricultor] de 50 años.,1,PROFESION
 "Contexto clínico seguro, no PII (ID_TITULACION_PERSONAL_SANITARIO).",0,ID_TITULACION_PERSONAL_SANITARIO
-Hb [12.5] g/dL.,0,ID_SUJETO_ASISTENCIA
-URL: [https://www.mineria.com].,1,DIREC_PROT_INTERNET
-Familiar de contacto: [Basilio Bautista Chacón].,1,FAMILIARES_SUJETO_ASISTENCIA
-Término médico no sensible para DIREC_PROT_INTERNET.,0,DIREC_PROT_INTERNET
-Antecedentes familiares de [cáncer].,0,FAMILIARES_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (ID_CONTACTO_ASISTENCIAL).",0,ID_CONTACTO_ASISTENCIAL
-Usuario: [u372808].,1,ID_EMPLEO_PERSONAL_SANITARIO
-Guías [americanas] de cardiología.,0,PAIS
-Presenta tatuaje de [rosa].,1,OTROS_SUJETO_ASISTENCIA
-Nº Beneficiario: [839-310-900].,1,NUMERO_BENEF_PLAN_SALUD
-Usuario: [u365684].,1,ID_EMPLEO_PERSONAL_SANITARIO
-CIE [630.0].,0,NUMERO_TELEFONO
-Contacto: [fernandacarmona@example.com].,1,CORREO_ELECTRONICO
-Término médico no sensible para ID_CONTACTO_ASISTENCIAL.,0,ID_CONTACTO_ASISTENCIAL
-[Actualmente] estable.,0,FECHAS
-Fax: [998 108 396].,1,NUMERO_FAX
-"Mujer, [30] años.",1,EDAD_SUJETO_ASISTENCIA
-Término médico no sensible para OTROS_SUJETO_ASISTENCIA.,0,OTROS_SUJETO_ASISTENCIA
-URL: [https://www.suministros.es].,1,DIREC_PROT_INTERNET
-MAC: [23:b8:d1:cd:45:43].,1,IDENTIF_DISPOSITIVOS_NRSERIE
-Nacionalidad: [Italia].,1,PAIS
-"Contexto clínico seguro, no PII (ID_TITULACION_PERSONAL_SANITARIO).",0,ID_TITULACION_PERSONAL_SANITARIO
-Centro: [Vall d'Hebron].,1,HOSPITAL
-Nº Colegiado: [47-77959].,1,ID_TITULACION_PERSONAL_SANITARIO
-Accidente con vehículo [1895TLB].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-Tubo de [Mayo].,0,NOMBRE_PERSONAL_SANITARIO
-Área de [salud] mental.,0,CENTRO_SALUD
-Col. Nº [19-47599].,1,ID_TITULACION_PERSONAL_SANITARIO
-Diabetes de [15] años de evolución.,0,EDAD_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (ID_CONTACTO_ASISTENCIAL).",0,ID_CONTACTO_ASISTENCIAL
-"Contexto clínico seguro, no PII (ID_CONTACTO_ASISTENCIAL).",0,ID_CONTACTO_ASISTENCIAL
-Departamento de [Radiología].,0,INSTITUCION
-[Hermano] fallecido.,0,FAMILIARES_SUJETO_ASISTENCIA
-Col. Nº [38-12602].,1,ID_TITULACION_PERSONAL_SANITARIO
-"Contexto clínico seguro, no PII (ID_TITULACION_PERSONAL_SANITARIO).",0,ID_TITULACION_PERSONAL_SANITARIO
-Grado [III/IV].,0,CALLE
-Término médico no sensible para NUMERO_BENEF_PLAN_SALUD.,0,NUMERO_BENEF_PLAN_SALUD
-Tel. [+34923 31 64 98].,1,NUMERO_TELEFONO
-NHC: [3731285].,1,ID_SUJETO_ASISTENCIA
-CIE [630.0].,0,NUMERO_TELEFONO
-Derivado a [urgencias].,0,HOSPITAL
-ID Asegurado: [PS-6584255].,1,NUMERO_BENEF_PLAN_SALUD
-[Dña.] [Valentín] presenta mejoría.,1,NOMBRE_SUJETO_ASISTENCIA
-Fax: [986 864 486].,1,NUMERO_FAX
-Rasgo distintivo: [vitíligo].,1,OTROS_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (NUMERO_BENEF_PLAN_SALUD).",0,NUMERO_BENEF_PLAN_SALUD
-Col. Nº [38-34238].,1,ID_TITULACION_PERSONAL_SANITARIO
-Centro de Salud [Puerta del Ángel].,1,CENTRO_SALUD
-[Conductor] del haz de His.,0,PROFESION
-Ubicado en [box 5].,0,TERRITORIO
-Email: [mauricio01@example.org].,1,CORREO_ELECTRONICO
-Médico responsable: [Leocadia Pardo Villar].,1,NOMBRE_PERSONAL_SANITARIO
-"Dirección: [Ronda de María Ángeles Leon], nº [2].",1,CALLE
-Virus [japonés] B.,0,PAIS
-Código ATC: [N02BE01].,0,ID_SUJETO_ASISTENCIA
-CIE: [CIE839354].,1,ID_SUJETO_ASISTENCIA
-Nº Socio: [1811955598].,1,OTRO_NUMERO_IDENTIF
-Término médico no sensible para URL_WEB.,0,URL_WEB
-Término médico no sensible para ID_TITULACION_PERSONAL_SANITARIO.,0,ID_TITULACION_PERSONAL_SANITARIO
-"Contexto clínico seguro, no PII (IDENTIF_BIOMETRICOS).",0,IDENTIF_BIOMETRICOS
-ID Asegurado: [PS-4419470].,1,NUMERO_BENEF_PLAN_SALUD
-ID Personal: [u232063].,1,ID_EMPLEO_PERSONAL_SANITARIO
-Término médico no sensible para DIREC_PROT_INTERNET.,0,DIREC_PROT_INTERNET
-Unidad de [Cuidados Intensivos].,0,INSTITUCION
+Nº Socio: [3237928070].,1,OTRO_NUMERO_IDENTIF
+Col. Nº [39-86280].,1,ID_TITULACION_PERSONAL_SANITARIO
+Nº Contacto: [C986904].,1,ID_CONTACTO_ASISTENCIAL
+Huella dactilar registrada: [FP281209396].,1,IDENTIF_BIOMETRICOS
+Derivado a [La Fe].,1,HOSPITAL
+Afiliación SS: [21 2673834 29].,1,ID_ASEGURAMIENTO
+Desde hace [varios días].,0,FECHAS
+Padre: [Jose Manuel de Cerezo].,1,FAMILIARES_SUJETO_ASISTENCIA
 Término médico no sensible para IDENTIF_BIOMETRICOS.,0,IDENTIF_BIOMETRICOS
-Pertenece al Centro de Salud [Vallecas].,1,CENTRO_SALUD
-Evolución en [las últimas semanas].,0,FECHAS
-[Madre] diabética.,0,FAMILIARES_SUJETO_ASISTENCIA
-Acompañado por su esposa [Juan Pinedo Caro].,1,FAMILIARES_SUJETO_ASISTENCIA
-Término médico no sensible para IDENTIF_BIOMETRICOS.,0,IDENTIF_BIOMETRICOS
-Técnica [IV.2.3].,0,IDENTIF_DISPOSITIVOS_NRSERIE
-Domicilio: [Via de Brunilda Azcona 41 Piso 1 ].,1,CALLE
-Vehículo [4736VSG].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-Protocolo [europeo] de tratamiento.,0,PAIS
-Término médico no sensible para DIREC_PROT_INTERNET.,0,DIREC_PROT_INTERNET
-Factor [V] Leiden.,0,SEXO_SUJETO_ASISTENCIA
-Proporción [1:1000].,0,CORREO_ELECTRONICO
-Cariotipo [XY].,0,SEXO_SUJETO_ASISTENCIA
-Término médico no sensible para NUMERO_FAX.,0,NUMERO_FAX
-"Contexto clínico seguro, no PII (OTROS_SUJETO_ASISTENCIA).",0,OTROS_SUJETO_ASISTENCIA
-Protocolo [europeo] de tratamiento.,0,PAIS
-Página web: [www.mayol.com].,1,URL_WEB
-Término médico no sensible para ID_TITULACION_PERSONAL_SANITARIO.,0,ID_TITULACION_PERSONAL_SANITARIO
+Administrar [pauta 3x1].,0,CALLE
+NIF: [83377419-T].,1,ID_SUJETO_ASISTENCIA
+Paciente [trabajador] respiratorio.,0,PROFESION
+Paciente [trabajador] respiratorio.,0,PROFESION
+Teléfono: [+34843 32 01 65].,1,NUMERO_TELEFONO
+Sala de [reanimación].,0,HOSPITAL
+"Derivado por Dr. García, paciente [Marcial Curro Águila Gelabert].",1,NOMBRE_SUJETO_ASISTENCIA
+Recién nacido de [20] días de vida.,1,EDAD_SUJETO_ASISTENCIA
 [Portador] de marcapasos.,0,PROFESION
-Nº Socio: [2198746799].,1,OTRO_NUMERO_IDENTIF
-Avda. [Puig] s/n.,1,CALLE
-[Conductor] del haz de His.,0,PROFESION
-[Padre] con HTA.,0,FAMILIARES_SUJETO_ASISTENCIA
-Ciclo [3] de quimioterapia.,0,FECHAS
-Lactante de [11] meses.,1,EDAD_SUJETO_ASISTENCIA
-Trabaja en [CNIO].,1,INSTITUCION
 Ganglio [axilar] aumentado.,0,TERRITORIO
-Término médico no sensible para IDENTIF_BIOMETRICOS.,0,IDENTIF_BIOMETRICOS
-Hijo/a [Eufemia] de [5] años.,1,FAMILIARES_SUJETO_ASISTENCIA
-"Reside en [Pasadizo de Juan José Barroso 16], [27585].",1,CALLE
-[hombre] sometida a intervención.,1,SEXO_SUJETO_ASISTENCIA
-Hijo/a [Antonio] de [6] años.,1,FAMILIARES_SUJETO_ASISTENCIA
-MAC: [17:da:83:0c:0c:a4].,1,IDENTIF_DISPOSITIVOS_NRSERIE
-Término médico no sensible para DIREC_PROT_INTERNET.,0,DIREC_PROT_INTERNET
-Notificar a [gquevedo@example.org].,1,CORREO_ELECTRONICO
-Protocolo [día 0] de tratamiento.,0,FECHAS
-Edad: [25].,1,EDAD_SUJETO_ASISTENCIA
-Centro [quirúrgico].,0,CENTRO_SALUD
-Recién nacido de [9] días de vida.,1,EDAD_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (URL_WEB).",0,URL_WEB
-Término médico no sensible para NUMERO_FAX.,0,NUMERO_FAX
-Término médico no sensible para NUMERO_FAX.,0,NUMERO_FAX
-ID Asegurado: [PS-6887527].,1,NUMERO_BENEF_PLAN_SALUD
-[Quirófano] programado.,0,HOSPITAL
-Término médico no sensible para IDENTIF_BIOMETRICOS.,0,IDENTIF_BIOMETRICOS
-Vehículo [1551YXR].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-CIE-10: [E11.9].,0,ID_SUJETO_ASISTENCIA
-Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
-Remitido desde centro de salud de [Navarra].,1,TERRITORIO
-Variante [brasileña].,0,PAIS
-Médico colegiado [36-59976].,1,ID_TITULACION_PERSONAL_SANITARIO
-Término médico no sensible para NUMERO_BENEF_PLAN_SALUD.,0,NUMERO_BENEF_PLAN_SALUD
-"Contexto clínico seguro, no PII (OTRO_NUMERO_IDENTIF).",0,OTRO_NUMERO_IDENTIF
-Peso [65] kg.,0,EDAD_SUJETO_ASISTENCIA
-Paciente de [81] años.,1,EDAD_SUJETO_ASISTENCIA
-Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
-Centro: [Cruces].,1,HOSPITAL
-Nº Empleado: [u227143].,1,ID_EMPLEO_PERSONAL_SANITARIO
-Cepa [británica].,0,PAIS
-[Laboratorio] central.,0,INSTITUCION
-Remitido desde [ISCIII].,1,INSTITUCION
-Por [la mañana] presentó fiebre.,0,FECHAS
-Natural de [España].,1,PAIS
-Trabaja como [cocinero].,1,PROFESION
-Estadio [IVb].,0,CALLE
-Tel. [+34946 30 61 62].,1,NUMERO_TELEFONO
-Receptor [alfa] positivo.,0,SEXO_SUJETO_ASISTENCIA
-Teléfono: [+34 920 74 46 53].,1,NUMERO_TELEFONO
-Dolor en [muñeca] derecha.,0,NOMBRE_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (URL_WEB).",0,URL_WEB
-Enlace: [https://www.heraclio.com].,1,DIREC_PROT_INTERNET
-"Contexto clínico seguro, no PII (OTRO_NUMERO_IDENTIF).",0,OTRO_NUMERO_IDENTIF
-HTA de [10] años.,0,EDAD_SUJETO_ASISTENCIA
-Término médico no sensible para NUMERO_FAX.,0,NUMERO_FAX
-"Contexto clínico seguro, no PII (IDENTIF_BIOMETRICOS).",0,IDENTIF_BIOMETRICOS
-"Reside en [Paseo Ciríaco Cases 77], [45236].",1,CALLE
-Referencia: [R565371].,1,OTRO_NUMERO_IDENTIF
-Natural de [Alemania].,1,PAIS
-Virus [japonés] B.,0,PAIS
-El paciente reside en [León].,1,TERRITORIO
-NASS: [26 5058837 87].,1,ID_ASEGURAMIENTO
-Cuidador principal: [Eric Cornejo Mesa].,1,FAMILIARES_SUJETO_ASISTENCIA
-Variante [brasileña].,0,PAIS
-Síndrome de [Sjögren].,0,NOMBRE_PERSONAL_SANITARIO
-Término médico no sensible para NUMERO_BENEF_PLAN_SALUD.,0,NUMERO_BENEF_PLAN_SALUD
-Correo electrónico del paciente: [marincandelario@example.org].,1,CORREO_ELECTRONICO
-Paciente de [74] años.,1,EDAD_SUJETO_ASISTENCIA
-Relación [riesgo/beneficio] favorable.,0,CORREO_ELECTRONICO
-Web: [www.francisco.net].,1,URL_WEB
-Episodio: [2185507525].,1,ID_CONTACTO_ASISTENCIAL
-Punto de [atención] continuada.,0,CENTRO_SALUD
-Tfno. de contacto [+34 924 49 08 09].,1,NUMERO_TELEFONO
-[Portador] de marcapasos.,0,PROFESION
-Factor [V] Leiden.,0,SEXO_SUJETO_ASISTENCIA
-[Portador] de marcapasos.,0,PROFESION
-Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
-Enfermo [hombre] que acude.,1,SEXO_SUJETO_ASISTENCIA
-Término médico no sensible para ID_CONTACTO_ASISTENCIAL.,0,ID_CONTACTO_ASISTENCIAL
-Protocolo [A.1.2].,0,IDENTIF_DISPOSITIVOS_NRSERIE
-Síndrome de [Cushing].,0,NOMBRE_SUJETO_ASISTENCIA
-[Conductor] del haz de His.,0,PROFESION
-"Contexto clínico seguro, no PII (DIREC_PROT_INTERNET).",0,DIREC_PROT_INTERNET
-Referencia [555-123].,0,NUMERO_TELEFONO
-Cromosoma [X] normal.,0,SEXO_SUJETO_ASISTENCIA
-Web: [www.soluciones.es].,1,URL_WEB
-Conocido como 'Peque'.,1,OTROS_SUJETO_ASISTENCIA
-Antecedentes familiares de [cáncer].,0,FAMILIARES_SUJETO_ASISTENCIA
-Afectación de zona [temporal] izquierda.,0,TERRITORIO
-"Valorado por [Alejandro de Cifuentes], especialista.",1,NOMBRE_PERSONAL_SANITARIO
-Referencia: [R866387].,1,OTRO_NUMERO_IDENTIF
-Unidad de [Cuidados Intensivos].,0,INSTITUCION
-[Jovita] [Julián] ingresa por urgencias.,1,NOMBRE_SUJETO_ASISTENCIA
-ID: [REF-95076].,1,OTRO_NUMERO_IDENTIF
-"[Calixto Ciriaco Jaume Borrás], Servicio de Medicina Interna.",1,NOMBRE_PERSONAL_SANITARIO
-Acompañado por su esposa [Erasmo Quintana Suarez].,1,FAMILIARES_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
-Vive en la urbanización [Ville Muro] de [Zamora].,1,TERRITORIO
-[Quirófano] programado.,0,HOSPITAL
-Escala de [Glasgow] 15.,0,NOMBRE_SUJETO_ASISTENCIA
-MAC: [1b:ec:db:ba:a0:e6].,1,IDENTIF_DISPOSITIVOS_NRSERIE
-Usuario: [u105046].,1,ID_EMPLEO_PERSONAL_SANITARIO
-pO2 [95] mmHg.,0,ID_SUJETO_ASISTENCIA
-Antecedentes familiares de [cáncer].,0,FAMILIARES_SUJETO_ASISTENCIA
-Paciente [trabajador] respiratorio.,0,PROFESION
-Cariotipo [XY].,0,SEXO_SUJETO_ASISTENCIA
-DNI: [18015488J].,1,ID_SUJETO_ASISTENCIA
-ID Proceso: [PROC-64803].,1,ID_CONTACTO_ASISTENCIAL
-Nº Seguridad Social: [52 6340384 25].,1,ID_ASEGURAMIENTO
-[conductor] de 50 años.,1,PROFESION
-Rasgo distintivo: [vitíligo].,1,OTROS_SUJETO_ASISTENCIA
-Unidad de [Cuidados Intensivos].,0,INSTITUCION
-Avda. [Jimenez] s/n.,1,CALLE
-Área de [salud] mental.,0,CENTRO_SALUD
-Término médico no sensible para ID_EMPLEO_PERSONAL_SANITARIO.,0,ID_EMPLEO_PERSONAL_SANITARIO
-Nº Contacto: [C909130].,1,ID_CONTACTO_ASISTENCIAL
-Conocido como 'El Rubio'.,1,OTROS_SUJETO_ASISTENCIA
-Término médico no sensible para NUMERO_FAX.,0,NUMERO_FAX
-Teléfono: [+34 881 073 453].,1,NUMERO_TELEFONO
-[Conductor] del haz de His.,0,PROFESION
-ID: [REF-31764].,1,OTRO_NUMERO_IDENTIF
-Afiliación SS: [79 3756096 15].,1,ID_ASEGURAMIENTO
-Vehículo [1325HHS].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-Receptor [alfa] positivo.,0,SEXO_SUJETO_ASISTENCIA
-Póliza: [86985508-A].,1,NUMERO_BENEF_PLAN_SALUD
-[mujer] sometida a intervención.,1,SEXO_SUJETO_ASISTENCIA
-Durante [la noche].,0,FECHAS
-Escala de [Glasgow] 15.,0,NOMBRE_SUJETO_ASISTENCIA
-Área de [salud] mental.,0,CENTRO_SALUD
-Término médico no sensible para ID_CONTACTO_ASISTENCIAL.,0,ID_CONTACTO_ASISTENCIAL
-D./Dña. [Marita Alonso Moliner] acude a consulta.,1,NOMBRE_SUJETO_ASISTENCIA
-Término médico no sensible para IDENTIF_BIOMETRICOS.,0,IDENTIF_BIOMETRICOS
-Nº Colegiado: [13-61290].,1,ID_TITULACION_PERSONAL_SANITARIO
-Enviar a fax [935 814 840].,1,NUMERO_FAX
-Sala de [reanimación].,0,HOSPITAL
-Pertenece al Centro de Salud [General Ricardos].,1,CENTRO_SALUD
-[Quirófano] programado.,0,HOSPITAL
-Vehículo [3343MVS].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-pO2 [95] mmHg.,0,ID_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (NUMERO_BENEF_PLAN_SALUD).",0,NUMERO_BENEF_PLAN_SALUD
-"Domicilio habitual: [Vial Maite Calatayud 719, Albacete, 07140].",1,TERRITORIO
-Email: [itziar79@example.org].,1,CORREO_ELECTRONICO
-Término médico no sensible para DIREC_PROT_INTERNET.,0,DIREC_PROT_INTERNET
-Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
-Enviar a fax [950 933 421].,1,NUMERO_FAX
-Término médico no sensible para NUMERO_BENEF_PLAN_SALUD.,0,NUMERO_BENEF_PLAN_SALUD
-"Valorado por [Paola Solera Merino], especialista.",1,NOMBRE_PERSONAL_SANITARIO
-NASS: [69 3187985 63].,1,ID_ASEGURAMIENTO
-[Adolfo] [Aguilar] ingresa por urgencias.,1,NOMBRE_SUJETO_ASISTENCIA
-Página web: [www.distribuciones.com].,1,URL_WEB
-Acompañado por su esposa [Fernando Neira Miró].,1,FAMILIARES_SUJETO_ASISTENCIA
-Recién nacido de [25] días de vida.,1,EDAD_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (OTRO_NUMERO_IDENTIF).",0,OTRO_NUMERO_IDENTIF
-Técnica de [Seldinger].,0,NOMBRE_PERSONAL_SANITARIO
 "Contexto clínico seguro, no PII (ID_CONTACTO_ASISTENCIAL).",0,ID_CONTACTO_ASISTENCIAL
-MAC: [62:e9:e3:9b:78:b3].,1,IDENTIF_DISPOSITIVOS_NRSERIE
-"Plaza [Ribes], [128].",1,CALLE
-Ciclo [3] de quimioterapia.,0,FECHAS
-[Sra.] [Feliu] presenta mejoría.,1,NOMBRE_SUJETO_ASISTENCIA
-Cepa [británica].,0,PAIS
-Código [925.11].,0,NUMERO_TELEFONO
-Identificador paciente: [P43095].,1,ID_SUJETO_ASISTENCIA
-Técnica [IV.2.3].,0,IDENTIF_DISPOSITIVOS_NRSERIE
-Complejo Hospitalario [Vall d'Hebron].,1,HOSPITAL
-Tel. [+34 979884479].,1,NUMERO_TELEFONO
-Usuario: [u488314].,1,ID_EMPLEO_PERSONAL_SANITARIO
-Complejo Hospitalario [Carlos Haya].,1,HOSPITAL
-NHC: [9278564].,1,ID_SUJETO_ASISTENCIA
-Vehículo [4453PSM].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-"Firma: [Mercedes Jurado Santamaría], Nº Col. 44-53923.",1,NOMBRE_PERSONAL_SANITARIO
-Arteria [femoral] permeable.,0,TERRITORIO
-Servicio de [medicina interna].,0,HOSPITAL
-Síndrome de [Sjögren].,0,NOMBRE_PERSONAL_SANITARIO
-Fax: [963 927 643].,1,NUMERO_FAX
-Dr./Dra. [Juanito Pomares Fabra].,1,NOMBRE_PERSONAL_SANITARIO
-Técnica [IV.2.3].,0,IDENTIF_DISPOSITIVOS_NRSERIE
-Dr./Dra. [Modesto Planas Puga].,1,NOMBRE_PERSONAL_SANITARIO
-[Quirófano] programado.,0,HOSPITAL
-Matrícula: [3560PPD].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-Término médico no sensible para IDENTIF_VEHICULOS_NRSERIE_PLACAS.,0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-Hospital [Son Espases].,1,HOSPITAL
-Ciclo [3] de quimioterapia.,0,FECHAS
-Término médico no sensible para OTRO_NUMERO_IDENTIF.,0,OTRO_NUMERO_IDENTIF
-Factor [V] Leiden.,0,SEXO_SUJETO_ASISTENCIA
-[mujer] sometida a intervención.,1,SEXO_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (ID_EMPLEO_PERSONAL_SANITARIO).",0,ID_EMPLEO_PERSONAL_SANITARIO
-El/La paciente [Andrea] refiere dolor.,1,NOMBRE_SUJETO_ASISTENCIA
-Término médico no sensible para ID_CONTACTO_ASISTENCIAL.,0,ID_CONTACTO_ASISTENCIAL
-"Contexto clínico seguro, no PII (ID_EMPLEO_PERSONAL_SANITARIO).",0,ID_EMPLEO_PERSONAL_SANITARIO
-Síndrome de [Sjögren].,0,NOMBRE_PERSONAL_SANITARIO
-Diagnóstico inicial en [abril] de [2019].,1,FECHAS
-Glucemia [110] mg/dl.,0,EDAD_SUJETO_ASISTENCIA
-Término médico no sensible para OTROS_SUJETO_ASISTENCIA.,0,OTROS_SUJETO_ASISTENCIA
-Remitido desde [HM Hospitales].,1,INSTITUCION
-"Contexto clínico seguro, no PII (OTRO_NUMERO_IDENTIF).",0,OTRO_NUMERO_IDENTIF
-IP: [83.227.253.154].,1,IDENTIF_DISPOSITIVOS_NRSERIE
-Nº Socio: [7883790198].,1,OTRO_NUMERO_IDENTIF
-Derivado a [Son Espases].,1,HOSPITAL
-"Contexto clínico seguro, no PII (ID_ASEGURAMIENTO).",0,ID_ASEGURAMIENTO
-Trasladado desde [urgencias].,0,TERRITORIO
-Tfno. de contacto [+34 922 690 018].,1,NUMERO_TELEFONO
-Código [925.11].,0,NUMERO_TELEFONO
-Rasgo distintivo: [lunar en mejilla].,1,OTROS_SUJETO_ASISTENCIA
-Término médico no sensible para IDENTIF_VEHICULOS_NRSERIE_PLACAS.,0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-Correo electrónico del paciente: [lrojas@example.org].,1,CORREO_ELECTRONICO
-ID: [REF-47742].,1,OTRO_NUMERO_IDENTIF
-URL: [https://www.familia.es].,1,DIREC_PROT_INTERNET
-Relación [riesgo/beneficio] favorable.,0,CORREO_ELECTRONICO
-NASS: [34 6789576 18].,1,ID_ASEGURAMIENTO
-Tratamiento [fase 2].,0,CALLE
-"Contexto clínico seguro, no PII (ID_EMPLEO_PERSONAL_SANITARIO).",0,ID_EMPLEO_PERSONAL_SANITARIO
-"Contexto clínico seguro, no PII (IDENTIF_VEHICULOS_NRSERIE_PLACAS).",0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-Nº Seguridad Social: [34 7269347 60].,1,ID_ASEGURAMIENTO
-Proporción [1:1000].,0,CORREO_ELECTRONICO
-ID Personal: [u477360].,1,ID_EMPLEO_PERSONAL_SANITARIO
-Dr./Dra. [Amaro Báez Pagès].,1,NOMBRE_PERSONAL_SANITARIO
-"Domicilio habitual: [Glorieta Mónica Chamorro 17, Navarra, 38504].",1,TERRITORIO
-Póliza: [39138583-C].,1,NUMERO_BENEF_PLAN_SALUD
-"Contexto clínico seguro, no PII (NUMERO_FAX).",0,NUMERO_FAX
-Unidad de [Cuidados Intensivos].,0,INSTITUCION
-[Actualmente] estable.,0,FECHAS
-Administrar [pauta 3x1].,0,CALLE
-Término médico no sensible para URL_WEB.,0,URL_WEB
-Tratamiento [fase 2].,0,CALLE
-Apodo: [Toño].,1,OTROS_SUJETO_ASISTENCIA
-Correo electrónico del paciente: [amadamadrid@example.org].,1,CORREO_ELECTRONICO
-Dispositivo [SN65077381].,1,IDENTIF_DISPOSITIVOS_NRSERIE
-Término médico no sensible para NUMERO_FAX.,0,NUMERO_FAX
-[Portador] de marcapasos.,0,PROFESION
-Antecedentes familiares de [cáncer].,0,FAMILIARES_SUJETO_ASISTENCIA
-Derivado desde C.S. [Alameda].,1,CENTRO_SALUD
-Punto de [atención] continuada.,0,CENTRO_SALUD
-Afiliación SS: [30 8154633 36].,1,ID_ASEGURAMIENTO
-Proporción [1:1000].,0,CORREO_ELECTRONICO
-Nº Empleado: [u473668].,1,ID_EMPLEO_PERSONAL_SANITARIO
-"Contexto clínico seguro, no PII (IDENTIF_BIOMETRICOS).",0,IDENTIF_BIOMETRICOS
-Correo electrónico del paciente: [luzalegria@example.com].,1,CORREO_ELECTRONICO
-Médico colegiado [36-54843].,1,ID_TITULACION_PERSONAL_SANITARIO
-En las [últimas horas].,0,FECHAS
-Término médico no sensible para URL_WEB.,0,URL_WEB
-"Contexto clínico seguro, no PII (DIREC_PROT_INTERNET).",0,DIREC_PROT_INTERNET
-Derivado a [urgencias].,0,HOSPITAL
-Término médico no sensible para NUMERO_FAX.,0,NUMERO_FAX
-Móvil: [626 973 687].,1,NUMERO_TELEFONO
-Diabetes de [15] años de evolución.,0,EDAD_SUJETO_ASISTENCIA
-Médico colegiado [19-23402].,1,ID_TITULACION_PERSONAL_SANITARIO
-Tel. [+34 876 73 58 66].,1,NUMERO_TELEFONO
-Tel. [+34872673558].,1,NUMERO_TELEFONO
-"Mujer, [59] años.",1,EDAD_SUJETO_ASISTENCIA
-ID: [REF-99388].,1,OTRO_NUMERO_IDENTIF
-Derivado a [12 de Octubre].,1,HOSPITAL
-Centro de Salud [Alameda].,1,CENTRO_SALUD
-Nº Beneficiario: [606-448-681].,1,NUMERO_BENEF_PLAN_SALUD
-Centro de Salud [Vallecas].,1,CENTRO_SALUD
-"Trasladado desde [Zaragoza], provincia de [Santa Cruz de Tenerife].",1,TERRITORIO
-Proporción [1:1000].,0,CORREO_ELECTRONICO
-Centro de Salud [Infanta Mercedes].,1,CENTRO_SALUD
-[Madre] diabética.,0,FAMILIARES_SUJETO_ASISTENCIA
-Alta médica el día [17/04/2016].,1,FECHAS
-Atendido por [Morena Cantero Nevado].,1,NOMBRE_PERSONAL_SANITARIO
-Médico colegiado [22-78616].,1,ID_TITULACION_PERSONAL_SANITARIO
-Afiliado a [Clínica Universidad de Navarra].,1,INSTITUCION
-Enlace: [https://www.consultoria.es].,1,DIREC_PROT_INTERNET
-Término médico no sensible para DIREC_PROT_INTERNET.,0,DIREC_PROT_INTERNET
-"Contexto clínico seguro, no PII (ID_TITULACION_PERSONAL_SANITARIO).",0,ID_TITULACION_PERSONAL_SANITARIO
-[Padre] con HTA.,0,FAMILIARES_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (URL_WEB).",0,URL_WEB
-Acceso web: [https://www.calista.net].,1,DIREC_PROT_INTERNET
-"Contexto clínico seguro, no PII (OTRO_NUMERO_IDENTIF).",0,OTRO_NUMERO_IDENTIF
-Término médico no sensible para IDENTIF_VEHICULOS_NRSERIE_PLACAS.,0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-Centro de Salud [Alameda].,1,CENTRO_SALUD
-"Pº [Torrijos], [Teruel].",1,CALLE
-NIF: [74926313-R].,1,ID_SUJETO_ASISTENCIA
-Natural de [Granada].,1,TERRITORIO
-Punto de [atención] continuada.,0,CENTRO_SALUD
-NHC: [2024495].,1,ID_SUJETO_ASISTENCIA
-Acceso web: [https://www.matas.net].,1,DIREC_PROT_INTERNET
-Enlace: [https://www.banco.com].,1,DIREC_PROT_INTERNET
-Fax: [982 698 901].,1,NUMERO_FAX
-Receptor [alfa] positivo.,0,SEXO_SUJETO_ASISTENCIA
-"Firma: [Ildefonso Téllez Figueroa], Nº Col. 48-89308.",1,NOMBRE_PERSONAL_SANITARIO
-Anciano de [84] años.,1,EDAD_SUJETO_ASISTENCIA
-Acompañado por su esposa [Virginia Nadal Palacio].,1,FAMILIARES_SUJETO_ASISTENCIA
-Lesión en área [frontal].,0,TERRITORIO
-Cama [305].,0,ID_SUJETO_ASISTENCIA
-Matrícula: [4644NTJ].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-Web: [www.promociones.es].,1,URL_WEB
-Tfno. de contacto [+34 980238368].,1,NUMERO_TELEFONO
-Protocolo [A.1.2].,0,IDENTIF_DISPOSITIVOS_NRSERIE
-Box [12].,0,ID_SUJETO_ASISTENCIA
-Término médico no sensible para ID_TITULACION_PERSONAL_SANITARIO.,0,ID_TITULACION_PERSONAL_SANITARIO
-Presenta tatuaje de [fecha].,1,OTROS_SUJETO_ASISTENCIA
-Enfermo [mujer] que acude.,1,SEXO_SUJETO_ASISTENCIA
-Enfermo [mujer] que acude.,1,SEXO_SUJETO_ASISTENCIA
-Centro [quirúrgico].,0,CENTRO_SALUD
-Edad: [25].,1,EDAD_SUJETO_ASISTENCIA
-Enviar a fax [914 175 357].,1,NUMERO_FAX
-[Actualmente] estable.,0,FECHAS
-Punto de [atención] continuada.,0,CENTRO_SALUD
-Nacionalidad: [Reino Unido].,1,PAIS
-Profesión: [camarero].,1,PROFESION
-"Mujer, [38] años.",1,EDAD_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (ID_TITULACION_PERSONAL_SANITARIO).",0,ID_TITULACION_PERSONAL_SANITARIO
-FAX: [927 866 699].,1,NUMERO_FAX
-Fractura de [húmero].,0,NOMBRE_SUJETO_ASISTENCIA
-[Actualmente] estable.,0,FECHAS
-ID Asegurado: [PS-7049625].,1,NUMERO_BENEF_PLAN_SALUD
-Departamento de [Radiología].,0,INSTITUCION
-Nº Seguridad Social: [18 5653261 23].,1,ID_ASEGURAMIENTO
-[Portador] de marcapasos.,0,PROFESION
-Técnica de [Seldinger].,0,NOMBRE_PERSONAL_SANITARIO
-Grado [III/IV].,0,CALLE
-Receptor [alfa] positivo.,0,SEXO_SUJETO_ASISTENCIA
-Derivado a [Universitario La Paz].,1,HOSPITAL
-"Contexto clínico seguro, no PII (OTRO_NUMERO_IDENTIF).",0,OTRO_NUMERO_IDENTIF
-[Padre] con HTA.,0,FAMILIARES_SUJETO_ASISTENCIA
-Temperatura [36.5]ºC.,0,EDAD_SUJETO_ASISTENCIA
-Póliza: [13477862-B].,1,NUMERO_BENEF_PLAN_SALUD
-"Contexto clínico seguro, no PII (IDENTIF_BIOMETRICOS).",0,IDENTIF_BIOMETRICOS
-[Quirófano] programado.,0,HOSPITAL
-Código [925.11].,0,NUMERO_TELEFONO
-Enviar a fax [972 552 341].,1,NUMERO_FAX
-IP: [116.77.150.106].,1,IDENTIF_DISPOSITIVOS_NRSERIE
-Término médico no sensible para OTROS_SUJETO_ASISTENCIA.,0,OTROS_SUJETO_ASISTENCIA
-[Julián] [Francisco] ingresa por urgencias.,1,NOMBRE_SUJETO_ASISTENCIA
-Temperatura [36.5]ºC.,0,EDAD_SUJETO_ASISTENCIA
-Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
-"Contexto clínico seguro, no PII (IDENTIF_VEHICULOS_NRSERIE_PLACAS).",0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-Próxima revisión: [domingo] [14/11/1971].,1,FECHAS
-Tfno. de contacto [+34935 809 579].,1,NUMERO_TELEFONO
-Término médico no sensible para IDENTIF_VEHICULOS_NRSERIE_PLACAS.,0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-Episodio: [2117162058].,1,ID_CONTACTO_ASISTENCIAL
-ID Asegurado: [PS-9753354].,1,NUMERO_BENEF_PLAN_SALUD
-ID Personal: [u362130].,1,ID_EMPLEO_PERSONAL_SANITARIO
-IMC [25].,0,EDAD_SUJETO_ASISTENCIA
-Referencia [555-123].,0,NUMERO_TELEFONO
-Notificar a [blascofausto@example.net].,1,CORREO_ELECTRONICO
-T[3]N[1]M[0].,0,CALLE
-Nº Contacto: [C493003].,1,ID_CONTACTO_ASISTENCIAL
-Alta médica el día [31/07/1999].,1,FECHAS
-GRD: [470].,0,ID_SUJETO_ASISTENCIA
-Tubo de [Mayo].,0,NOMBRE_PERSONAL_SANITARIO
-Glucemia [110] mg/dl.,0,EDAD_SUJETO_ASISTENCIA
-"Trasladado desde [Vizcaya], provincia de [Barcelona].",1,TERRITORIO
-Tfno. de contacto [+34 644 70 85 60].,1,NUMERO_TELEFONO
-"Contexto clínico seguro, no PII (IDENTIF_VEHICULOS_NRSERIE_PLACAS).",0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-Póliza: [43141686-C].,1,NUMERO_BENEF_PLAN_SALUD
-T[3]N[1]M[0].,0,CALLE
-Término médico no sensible para NUMERO_BENEF_PLAN_SALUD.,0,NUMERO_BENEF_PLAN_SALUD
-Afiliación SS: [83 4133828 95].,1,ID_ASEGURAMIENTO
-Nº Socio: [2026778014].,1,OTRO_NUMERO_IDENTIF
-Término médico no sensible para OTROS_SUJETO_ASISTENCIA.,0,OTROS_SUJETO_ASISTENCIA
-URL: [https://www.moraleda.es].,1,DIREC_PROT_INTERNET
-Guías [americanas] de cardiología.,0,PAIS
-GRD: [470].,0,ID_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (OTROS_SUJETO_ASISTENCIA).",0,OTROS_SUJETO_ASISTENCIA
-Cepa [británica].,0,PAIS
-Dolor en [muñeca] derecha.,0,NOMBRE_SUJETO_ASISTENCIA
-El/La paciente [Prudencia] refiere dolor.,1,NOMBRE_SUJETO_ASISTENCIA
-Término médico no sensible para IDENTIF_BIOMETRICOS.,0,IDENTIF_BIOMETRICOS
-Remitido desde [Quirónsalud].,1,INSTITUCION
-Profesión: [administrativo].,1,PROFESION
-Término médico no sensible para ID_CONTACTO_ASISTENCIAL.,0,ID_CONTACTO_ASISTENCIAL
-Diagnóstico inicial en [diciembre] de [2016].,1,FECHAS
-Enviar a fax [958 943 470].,1,NUMERO_FAX
-pH [7.35].,0,ID_SUJETO_ASISTENCIA
-Referencia: [R231829].,1,OTRO_NUMERO_IDENTIF
-Escala de [Glasgow] 15.,0,NOMBRE_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (ID_ASEGURAMIENTO).",0,ID_ASEGURAMIENTO
-Nº Contacto: [C152230].,1,ID_CONTACTO_ASISTENCIAL
-Relación [riesgo/beneficio] favorable.,0,CORREO_ELECTRONICO
-Área de [salud] mental.,0,CENTRO_SALUD
-NHC: [8381506].,1,ID_SUJETO_ASISTENCIA
-Paciente procedente del CP [20019].,1,TERRITORIO
-Trabaja como [administrativo].,1,PROFESION
-Exploración de fosa [iliaca] derecha.,0,TERRITORIO
-Sala de [reanimación].,0,HOSPITAL
-"Contexto clínico seguro, no PII (DIREC_PROT_INTERNET).",0,DIREC_PROT_INTERNET
-Col. Nº [41-43216].,1,ID_TITULACION_PERSONAL_SANITARIO
-Madre: [Filomena Rovira].,1,FAMILIARES_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (NUMERO_FAX).",0,NUMERO_FAX
-"Contexto clínico seguro, no PII (DIREC_PROT_INTERNET).",0,DIREC_PROT_INTERNET
-Área de [salud] mental.,0,CENTRO_SALUD
-Derivado a [consultas externas].,0,TERRITORIO
-Informe elaborado por Dr. [Cecilia Carmona-Pedro].,1,NOMBRE_PERSONAL_SANITARIO
-"Pº [Pedrero], [Girona].",1,CALLE
-Término médico no sensible para IDENTIF_BIOMETRICOS.,0,IDENTIF_BIOMETRICOS
-Vehículo [8297TDM].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-"Contexto clínico seguro, no PII (OTROS_SUJETO_ASISTENCIA).",0,OTROS_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (NUMERO_BENEF_PLAN_SALUD).",0,NUMERO_BENEF_PLAN_SALUD
-Derivado a [Universitario La Paz].,1,HOSPITAL
-Fractura de [húmero].,0,NOMBRE_SUJETO_ASISTENCIA
-Código [925.11].,0,NUMERO_TELEFONO
-"Contexto clínico seguro, no PII (ID_CONTACTO_ASISTENCIAL).",0,ID_CONTACTO_ASISTENCIAL
-Residente en [Colombia].,1,PAIS
-Referencia [555-123].,0,NUMERO_TELEFONO
-Término médico no sensible para URL_WEB.,0,URL_WEB
-[camarero] de 50 años.,1,PROFESION
-"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
-Remitido desde [CNIO].,1,INSTITUCION
-"Contexto clínico seguro, no PII (NUMERO_BENEF_PLAN_SALUD).",0,NUMERO_BENEF_PLAN_SALUD
-Fax: [914 154 289].,1,NUMERO_FAX
-"Contexto clínico seguro, no PII (OTROS_SUJETO_ASISTENCIA).",0,OTROS_SUJETO_ASISTENCIA
-Vive en la urbanización [Ville Vives] de [Huelva].,1,TERRITORIO
-Historia clínica de [Rufino Berrocal].,1,NOMBRE_SUJETO_ASISTENCIA
-Nº Historia: [2620403].,1,ID_SUJETO_ASISTENCIA
-Avda. [Francisco] s/n.,1,CALLE
-"Contexto clínico seguro, no PII (ID_EMPLEO_PERSONAL_SANITARIO).",0,ID_EMPLEO_PERSONAL_SANITARIO
-Término médico no sensible para OTRO_NUMERO_IDENTIF.,0,OTRO_NUMERO_IDENTIF
-Síndrome de [Sjögren].,0,NOMBRE_PERSONAL_SANITARIO
-Temperatura [36.5]ºC.,0,EDAD_SUJETO_ASISTENCIA
-Término médico no sensible para OTRO_NUMERO_IDENTIF.,0,OTRO_NUMERO_IDENTIF
-Término médico no sensible para ID_EMPLEO_PERSONAL_SANITARIO.,0,ID_EMPLEO_PERSONAL_SANITARIO
-Contacto: [+34 901 186 930].,1,NUMERO_TELEFONO
-Síndrome de [Sjögren].,0,NOMBRE_PERSONAL_SANITARIO
-Virus [japonés] B.,0,PAIS
-Enlace: [https://www.talleres.es].,1,DIREC_PROT_INTERNET
-Protocolo [A.1.2].,0,IDENTIF_DISPOSITIVOS_NRSERIE
-ID Asegurado: [PS-3827486].,1,NUMERO_BENEF_PLAN_SALUD
-Término médico no sensible para IDENTIF_VEHICULOS_NRSERIE_PLACAS.,0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-"Contexto clínico seguro, no PII (NUMERO_FAX).",0,NUMERO_FAX
-Accidente con vehículo [3458BGH].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-[Quirófano] programado.,0,HOSPITAL
-Email: [roigfelipe@example.org].,1,CORREO_ELECTRONICO
-Fecha de ingreso: [03/03/1973].,1,FECHAS
-"Contexto clínico seguro, no PII (ID_ASEGURAMIENTO).",0,ID_ASEGURAMIENTO
-Maniobra de [Valsalva].,0,NOMBRE_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (NUMERO_BENEF_PLAN_SALUD).",0,NUMERO_BENEF_PLAN_SALUD
-Atendido por [Carmela Alcolea Quesada].,1,NOMBRE_PERSONAL_SANITARIO
-Paciente procedente del CP [31743].,1,TERRITORIO
-Planta de [cardiología].,0,HOSPITAL
-Diagnóstico inicial en [agosto] de [1979].,1,FECHAS
-Técnica de [Seldinger].,0,NOMBRE_PERSONAL_SANITARIO
-Antecedentes familiares de [cáncer].,0,FAMILIARES_SUJETO_ASISTENCIA
-Servicio de [medicina interna].,0,HOSPITAL
-Término médico no sensible para IDENTIF_VEHICULOS_NRSERIE_PLACAS.,0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-"Contexto clínico seguro, no PII (ID_EMPLEO_PERSONAL_SANITARIO).",0,ID_EMPLEO_PERSONAL_SANITARIO
-Punto de [atención] continuada.,0,CENTRO_SALUD
-Término médico no sensible para IDENTIF_VEHICULOS_NRSERIE_PLACAS.,0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-Complejo Hospitalario [Carlos Haya].,1,HOSPITAL
-Natural de [Italia].,1,PAIS
-Técnica [IV.2.3].,0,IDENTIF_DISPOSITIVOS_NRSERIE
-"Contexto clínico seguro, no PII (OTROS_SUJETO_ASISTENCIA).",0,OTROS_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (ID_EMPLEO_PERSONAL_SANITARIO).",0,ID_EMPLEO_PERSONAL_SANITARIO
-Cromosoma [X] normal.,0,SEXO_SUJETO_ASISTENCIA
-Exploración de fosa [iliaca] derecha.,0,TERRITORIO
-Nacionalidad: [Ecuador].,1,PAIS
-ID: [REF-67480].,1,OTRO_NUMERO_IDENTIF
-"Contexto clínico seguro, no PII (ID_TITULACION_PERSONAL_SANITARIO).",0,ID_TITULACION_PERSONAL_SANITARIO
-"Contexto clínico seguro, no PII (OTRO_NUMERO_IDENTIF).",0,OTRO_NUMERO_IDENTIF
-Contacto: [amarocabello@example.org].,1,CORREO_ELECTRONICO
-Cromosoma [X] normal.,0,SEXO_SUJETO_ASISTENCIA
-Arteria [femoral] permeable.,0,TERRITORIO
-Término médico no sensible para ID_CONTACTO_ASISTENCIAL.,0,ID_CONTACTO_ASISTENCIAL
-"Contexto clínico seguro, no PII (NUMERO_FAX).",0,NUMERO_FAX
-Término médico no sensible para NUMERO_IDENTIF.,0,NUMERO_IDENTIF
-Correo electrónico del paciente: [rcalvo@example.com].,1,CORREO_ELECTRONICO
-"Contexto clínico seguro, no PII (ID_ASEGURAMIENTO).",0,ID_ASEGURAMIENTO
-"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
-Trabaja como [enfermero].,1,PROFESION
-Presenta dolor en región [lumbar].,0,TERRITORIO
-MAC: [c6:cb:05:67:26:cd].,1,IDENTIF_DISPOSITIVOS_NRSERIE
-Póliza: [24508258-C].,1,NUMERO_BENEF_PLAN_SALUD
-Tiroiditis de [Hashimoto].,0,NOMBRE_PERSONAL_SANITARIO
-Web: [www.hermanos.com].,1,URL_WEB
-Término médico no sensible para URL_WEB.,0,URL_WEB
-Servicio de [medicina interna].,0,HOSPITAL
-"Contexto clínico seguro, no PII (IDENTIF_VEHICULOS_NRSERIE_PLACAS).",0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
-Consultar en [www.hnos.com].,1,URL_WEB
-Centro de Salud [Cea Bermúdez].,1,CENTRO_SALUD
-Mutua [Adeslas].,1,INSTITUCION
-Médico responsable: [Rosalía Sebastián Cantero].,1,NOMBRE_PERSONAL_SANITARIO
-Trabaja como [profesor].,1,PROFESION
-Término médico no sensible para URL_WEB.,0,URL_WEB
-"[Ema Arjona-Yáñez], Servicio de Medicina Interna.",1,NOMBRE_PERSONAL_SANITARIO
-Centro [quirúrgico].,0,CENTRO_SALUD
-[Portador] de marcapasos.,0,PROFESION
-Dispositivo [SN90414219].,1,IDENTIF_DISPOSITIVOS_NRSERIE
-Término médico no sensible para ID_EMPLEO_PERSONAL_SANITARIO.,0,ID_EMPLEO_PERSONAL_SANITARIO
-Término médico no sensible para NUMERO_IDENTIF.,0,NUMERO_IDENTIF
 Enfermedad de [Parkinson].,0,NOMBRE_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (IDENTIF_VEHICULOS_NRSERIE_PLACAS).",0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-Dispositivo [SN29533216].,1,IDENTIF_DISPOSITIVOS_NRSERIE
-"Contexto clínico seguro, no PII (NUMERO_BENEF_PLAN_SALUD).",0,NUMERO_BENEF_PLAN_SALUD
-Peso [65] kg.,0,EDAD_SUJETO_ASISTENCIA
-Cariotipo [XY].,0,SEXO_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (IDENTIF_VEHICULOS_NRSERIE_PLACAS).",0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-ID Personal: [u584802].,1,ID_EMPLEO_PERSONAL_SANITARIO
-Talla [170] cm.,0,EDAD_SUJETO_ASISTENCIA
-Término médico no sensible para ID_TITULACION_PERSONAL_SANITARIO.,0,ID_TITULACION_PERSONAL_SANITARIO
-Nº Colegiado: [38-59993].,1,ID_TITULACION_PERSONAL_SANITARIO
-"Contexto clínico seguro, no PII (NUMERO_BENEF_PLAN_SALUD).",0,NUMERO_BENEF_PLAN_SALUD
-Unidad de [Cuidados Intensivos].,0,INSTITUCION
-Término médico no sensible para DIREC_PROT_INTERNET.,0,DIREC_PROT_INTERNET
-"Contexto clínico seguro, no PII (ID_CONTACTO_ASISTENCIAL).",0,ID_CONTACTO_ASISTENCIAL
-Peso [65] kg.,0,EDAD_SUJETO_ASISTENCIA
-Fecha de ingreso: [11/08/1984].,1,FECHAS
-Administrar [Ramona] IV.,0,NOMBRE_SUJETO_ASISTENCIA
-Col. Nº [45-39355].,1,ID_TITULACION_PERSONAL_SANITARIO
-"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
-Paciente [hombre].,1,SEXO_SUJETO_ASISTENCIA
-Término médico no sensible para URL_WEB.,0,URL_WEB
-ID Proceso: [PROC-17540].,1,ID_CONTACTO_ASISTENCIAL
-Consultar en [www.servicios.com].,1,URL_WEB
-URL: [https://www.nereida.es].,1,DIREC_PROT_INTERNET
-Remitido desde centro de salud de [Girona].,1,TERRITORIO
-Dolor en [muñeca] derecha.,0,NOMBRE_SUJETO_ASISTENCIA
-Derivado a [consultas externas].,0,TERRITORIO
-NASS: [82 6556834 48].,1,ID_ASEGURAMIENTO
-Episodio: [5918560570].,1,ID_CONTACTO_ASISTENCIAL
-"Plaza [Villanueva], [167].",1,CALLE
-Protocolo [europeo] de tratamiento.,0,PAIS
-Vehículo [2136TBK].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-Término médico no sensible para NUMERO_BENEF_PLAN_SALUD.,0,NUMERO_BENEF_PLAN_SALUD
-Accidente con vehículo [4962CGJ].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-Centro [Quirónsalud].,1,INSTITUCION
-Código [925.11].,0,NUMERO_TELEFONO
-Protocolo [A.1.2].,0,IDENTIF_DISPOSITIVOS_NRSERIE
-Protocolo [A.1.2].,0,IDENTIF_DISPOSITIVOS_NRSERIE
-Técnica [IV.2.3].,0,IDENTIF_DISPOSITIVOS_NRSERIE
-Administrar [pauta 3x1].,0,CALLE
-Tfno. de contacto [+34 945 63 99 28].,1,NUMERO_TELEFONO
-Nacionalidad: [Francia].,1,PAIS
-Col. Nº [12-56254].,1,ID_TITULACION_PERSONAL_SANITARIO
-Síndrome de [Cushing].,0,NOMBRE_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (ID_ASEGURAMIENTO).",0,ID_ASEGURAMIENTO
-Rasgo distintivo: [cicatriz en frente].,1,OTROS_SUJETO_ASISTENCIA
-Nº Contacto: [C152701].,1,ID_CONTACTO_ASISTENCIAL
-"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
-"Contexto clínico seguro, no PII (URL_WEB).",0,URL_WEB
-Antecedentes familiares de [cáncer].,0,FAMILIARES_SUJETO_ASISTENCIA
-Referencia [555-123].,0,NUMERO_TELEFONO
-MAC: [a9:3c:91:e6:4f:86].,1,IDENTIF_DISPOSITIVOS_NRSERIE
-Centro: [Carlos Haya].,1,HOSPITAL
-Centro de Salud [Vallecas].,1,CENTRO_SALUD
-Paciente [trabajador] respiratorio.,0,PROFESION
-"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
-Clasificación de [Child-Pugh] A.,0,NOMBRE_SUJETO_ASISTENCIA
-Administrar [Ramona] IV.,0,NOMBRE_SUJETO_ASISTENCIA
-Protocolo [A.1.2].,0,IDENTIF_DISPOSITIVOS_NRSERIE
-Box [12].,0,ID_SUJETO_ASISTENCIA
-Término médico no sensible para NUMERO_BENEF_PLAN_SALUD.,0,NUMERO_BENEF_PLAN_SALUD
-Dispositivo [SN86217978].,1,IDENTIF_DISPOSITIVOS_NRSERIE
-Término médico no sensible para URL_WEB.,0,URL_WEB
-ID Proceso: [PROC-28013].,1,ID_CONTACTO_ASISTENCIAL
-Rasgo distintivo: [vitíligo].,1,OTROS_SUJETO_ASISTENCIA
-pH [7.35].,0,ID_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (ID_ASEGURAMIENTO).",0,ID_ASEGURAMIENTO
-NHC: [8499318].,1,ID_SUJETO_ASISTENCIA
-Sonda de [Levin].,0,NOMBRE_PERSONAL_SANITARIO
-Paciente [Adolfo Reina Cabañas].,1,NOMBRE_SUJETO_ASISTENCIA
-Web: [www.infraestructuras.net].,1,URL_WEB
-Móvil: [631 726 990].,1,NUMERO_TELEFONO
-Administrar [Ramona] IV.,0,NOMBRE_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (NUMERO_FAX).",0,NUMERO_FAX
-Término médico no sensible para OTRO_NUMERO_IDENTIF.,0,OTRO_NUMERO_IDENTIF
-Término médico no sensible para IDENTIF_VEHICULOS_NRSERIE_PLACAS.,0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Acceso web: [https://www.industrias.es].,1,DIREC_PROT_INTERNET
+Domicilio: [Acceso Matilde Quintana 22].,1,CALLE
 Técnica de [Seldinger].,0,NOMBRE_PERSONAL_SANITARIO
-Tfno. de contacto [+34 988 243 233].,1,NUMERO_TELEFONO
-Matrícula: [9708NWF].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-Punto de [atención] continuada.,0,CENTRO_SALUD
-Tratamiento [fase 2].,0,CALLE
-Residente en [Francia].,1,PAIS
-Término médico no sensible para IDENTIF_BIOMETRICOS.,0,IDENTIF_BIOMETRICOS
-Nº Colegiado: [50-71148].,1,ID_TITULACION_PERSONAL_SANITARIO
-D./Dña. [Luciano Aznar Manzanares] acude a consulta.,1,NOMBRE_SUJETO_ASISTENCIA
-Tiroiditis de [Hashimoto].,0,NOMBRE_PERSONAL_SANITARIO
-[varón] de 45 años.,1,SEXO_SUJETO_ASISTENCIA
-Término médico no sensible para ID_TITULACION_PERSONAL_SANITARIO.,0,ID_TITULACION_PERSONAL_SANITARIO
-Centro [quirúrgico].,0,CENTRO_SALUD
-"Plaza [Moya], [140].",1,CALLE
-Médico colegiado [31-92635].,1,ID_TITULACION_PERSONAL_SANITARIO
-Término médico no sensible para DIREC_PROT_INTERNET.,0,DIREC_PROT_INTERNET
-URL: [https://www.comercial.org].,1,DIREC_PROT_INTERNET
-ID: [REF-25397].,1,OTRO_NUMERO_IDENTIF
-URL: [https://www.hermanos.es].,1,DIREC_PROT_INTERNET
-Intervención quirúrgica programada para el [23/11/2020].,1,FECHAS
-El/La paciente [Sandra] refiere dolor.,1,NOMBRE_SUJETO_ASISTENCIA
-CIE [630.0].,0,NUMERO_TELEFONO
-Nº Colegiado: [26-29105].,1,ID_TITULACION_PERSONAL_SANITARIO
-Relación [riesgo/beneficio] favorable.,0,CORREO_ELECTRONICO
-URL: [https://www.palma.net].,1,DIREC_PROT_INTERNET
-Fax: [934 333 757].,1,NUMERO_FAX
-Nº Empleado: [u900679].,1,ID_EMPLEO_PERSONAL_SANITARIO
-ID: [REF-38387].,1,OTRO_NUMERO_IDENTIF
-Paciente [varón].,1,SEXO_SUJETO_ASISTENCIA
-Episodio: [8617012756].,1,ID_CONTACTO_ASISTENCIAL
-Paciente procedente del CP [37256].,1,TERRITORIO
-"Contexto clínico seguro, no PII (URL_WEB).",0,URL_WEB
-Profesión: [camarero].,1,PROFESION
-Niño de [11] años.,1,EDAD_SUJETO_ASISTENCIA
-Protocolo [A.1.2].,0,IDENTIF_DISPOSITIVOS_NRSERIE
-CIE [630.0].,0,NUMERO_TELEFONO
-"Contexto clínico seguro, no PII (OTRO_NUMERO_IDENTIF).",0,OTRO_NUMERO_IDENTIF
-URL: [https://www.restauracion.com].,1,DIREC_PROT_INTERNET
-Relación [riesgo/beneficio] favorable.,0,CORREO_ELECTRONICO
-"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
-Centro de Salud [Infanta Mercedes].,1,CENTRO_SALUD
-Planta de [cardiología].,0,HOSPITAL
-Administrar [pauta 3x1].,0,CALLE
-Término médico no sensible para IDENTIF_BIOMETRICOS.,0,IDENTIF_BIOMETRICOS
-NASS: [86 6036779 53].,1,ID_ASEGURAMIENTO
-Derivado a [Cruces].,1,HOSPITAL
-Área de [salud] mental.,0,CENTRO_SALUD
-Diabetes de [15] años de evolución.,0,EDAD_SUJETO_ASISTENCIA
-[enfermero] de 50 años.,1,PROFESION
-Cariotipo [XY].,0,SEXO_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (ID_ASEGURAMIENTO).",0,ID_ASEGURAMIENTO
-Tfno. de contacto [+34 941 93 51 02].,1,NUMERO_TELEFONO
-Término médico no sensible para ID_CONTACTO_ASISTENCIAL.,0,ID_CONTACTO_ASISTENCIAL
-Notificar a [chavesguillermo@example.org].,1,CORREO_ELECTRONICO
-Área de [salud] mental.,0,CENTRO_SALUD
-ID Asegurado: [PS-6153343].,1,NUMERO_BENEF_PLAN_SALUD
-Término médico no sensible para ID_CONTACTO_ASISTENCIAL.,0,ID_CONTACTO_ASISTENCIAL
-"Contexto clínico seguro, no PII (IDENTIF_BIOMETRICOS).",0,IDENTIF_BIOMETRICOS
-Receptor [alfa] positivo.,0,SEXO_SUJETO_ASISTENCIA
-Centro de Salud [General Ricardos].,1,CENTRO_SALUD
-Receptor [alfa] positivo.,0,SEXO_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (ID_CONTACTO_ASISTENCIAL).",0,ID_CONTACTO_ASISTENCIAL
-Protocolo [europeo] de tratamiento.,0,PAIS
-Nº Contacto: [C586119].,1,ID_CONTACTO_ASISTENCIAL
-Médico colegiado [35-85375].,1,ID_TITULACION_PERSONAL_SANITARIO
-Término médico no sensible para NUMERO_IDENTIF.,0,NUMERO_IDENTIF
-Paciente [trabajador] respiratorio.,0,PROFESION
-ID Asegurado: [PS-5633475].,1,NUMERO_BENEF_PLAN_SALUD
-CIE [630.0].,0,NUMERO_TELEFONO
-Referencia [555-123].,0,NUMERO_TELEFONO
-"Contexto clínico seguro, no PII (OTRO_NUMERO_IDENTIF).",0,OTRO_NUMERO_IDENTIF
-Término médico no sensible para OTROS_SUJETO_ASISTENCIA.,0,OTROS_SUJETO_ASISTENCIA
-Episodio: [9983362849].,1,ID_CONTACTO_ASISTENCIAL
-Enlace: [https://www.anastasia.es].,1,DIREC_PROT_INTERNET
-Antecedentes familiares de [cáncer].,0,FAMILIARES_SUJETO_ASISTENCIA
-Trabaja como [agricultor].,1,PROFESION
-Remitido desde [Clínica Universidad de Navarra].,1,INSTITUCION
-Familiar de contacto: [Curro Macías-Reig].,1,FAMILIARES_SUJETO_ASISTENCIA
-Antecedentes familiares de [cáncer].,0,FAMILIARES_SUJETO_ASISTENCIA
-Término médico no sensible para NUMERO_FAX.,0,NUMERO_FAX
-Consultar en [www.juan.es].,1,URL_WEB
-Ingreso en [Gregorio Marañón].,1,HOSPITAL
-Varón de [42] años de edad.,1,EDAD_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (DIREC_PROT_INTERNET).",0,DIREC_PROT_INTERNET
-Remitido desde [Vithas].,1,INSTITUCION
-Término médico no sensible para NUMERO_FAX.,0,NUMERO_FAX
-"Contexto clínico seguro, no PII (ID_EMPLEO_PERSONAL_SANITARIO).",0,ID_EMPLEO_PERSONAL_SANITARIO
-Vehículo [8695VVK].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-Término médico no sensible para DIREC_PROT_INTERNET.,0,DIREC_PROT_INTERNET
-Enfermo [varón] que acude.,1,SEXO_SUJETO_ASISTENCIA
-Relación [riesgo/beneficio] favorable.,0,CORREO_ELECTRONICO
-Término médico no sensible para OTROS_SUJETO_ASISTENCIA.,0,OTROS_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (ID_EMPLEO_PERSONAL_SANITARIO).",0,ID_EMPLEO_PERSONAL_SANITARIO
-Relación [riesgo/beneficio] favorable.,0,CORREO_ELECTRONICO
-Conocido como 'Chato'.,1,OTROS_SUJETO_ASISTENCIA
-Consultar en [www.finanzas.org].,1,URL_WEB
-"Contexto clínico seguro, no PII (DIREC_PROT_INTERNET).",0,DIREC_PROT_INTERNET
-Nº Contacto: [C217384].,1,ID_CONTACTO_ASISTENCIAL
-Contacto: [+34879 124 977].,1,NUMERO_TELEFONO
-Póliza: [47453110-B].,1,NUMERO_BENEF_PLAN_SALUD
-Enviar a fax [966 780 570].,1,NUMERO_FAX
-[mecánico] de 50 años.,1,PROFESION
-Paciente de [34] años.,1,EDAD_SUJETO_ASISTENCIA
-CS [Alameda].,1,CENTRO_SALUD
-Col. Nº [47-84878].,1,ID_TITULACION_PERSONAL_SANITARIO
-Sala de [reanimación].,0,HOSPITAL
-Término médico no sensible para IDENTIF_BIOMETRICOS.,0,IDENTIF_BIOMETRICOS
-MAC: [c5:97:91:d6:b4:7f].,1,IDENTIF_DISPOSITIVOS_NRSERIE
-Apodo: [Lola].,1,OTROS_SUJETO_ASISTENCIA
-[mujer] de 45 años.,1,SEXO_SUJETO_ASISTENCIA
-D./Dña. [Elías Cerezo Andres] acude a consulta.,1,NOMBRE_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (IDENTIF_BIOMETRICOS).",0,IDENTIF_BIOMETRICOS
-Próxima revisión: [domingo] [03/09/2005].,1,FECHAS
-Enlace: [https://www.supermercados.es].,1,DIREC_PROT_INTERNET
-Factor [V] Leiden.,0,SEXO_SUJETO_ASISTENCIA
-Contacto: [varias@example.com].,1,CORREO_ELECTRONICO
-Nacionalidad: [Marruecos].,1,PAIS
-Nº Colegiado: [44-10963].,1,ID_TITULACION_PERSONAL_SANITARIO
-Proporción [1:1000].,0,CORREO_ELECTRONICO
-Unidad de [Cuidados Intensivos].,0,INSTITUCION
-ID Proceso: [PROC-27042].,1,ID_CONTACTO_ASISTENCIAL
-Hijo/a [Reyna] de [7] años.,1,FAMILIARES_SUJETO_ASISTENCIA
-En las [últimas horas].,0,FECHAS
-Natural de [Las Palmas].,1,TERRITORIO
-Consultar en [www.soluciones.es].,1,URL_WEB
-Ingreso en [La Fe].,1,HOSPITAL
-Contacto: [rosaliaespana@example.com].,1,CORREO_ELECTRONICO
-Maniobra de [Heimlich].,0,NOMBRE_PERSONAL_SANITARIO
-Presenta tatuaje de [nombre].,1,OTROS_SUJETO_ASISTENCIA
-Niño/Niña [niño] de 8 años.,1,SEXO_SUJETO_ASISTENCIA
-"Contexto clínico seguro, no PII (OTROS_SUJETO_ASISTENCIA).",0,OTROS_SUJETO_ASISTENCIA
-Consultar en [www.hermanos.com].,1,URL_WEB
-Término médico no sensible para ID_EMPLEO_PERSONAL_SANITARIO.,0,ID_EMPLEO_PERSONAL_SANITARIO
-Pasaporte: [D85585152].,1,ID_SUJETO_ASISTENCIA
-[Portador] de marcapasos.,0,PROFESION
-Procedente de [España].,1,PAIS
-Acceso web: [https://www.transportes.com].,1,DIREC_PROT_INTERNET
-Afiliación SS: [12 7833969 85].,1,ID_ASEGURAMIENTO
-Pertenece al Centro de Salud [Puerta del Ángel].,1,CENTRO_SALUD
-Administrar [pauta 3x1].,0,CALLE
-Término médico no sensible para NUMERO_BENEF_PLAN_SALUD.,0,NUMERO_BENEF_PLAN_SALUD
-Sexo: [H].,1,SEXO_SUJETO_ASISTENCIA
-"Firma: [Arturo Vidal], Nº Col. 45-60777.",1,NOMBRE_PERSONAL_SANITARIO
-Enviar a fax [962 584 688].,1,NUMERO_FAX
-Médico colegiado [46-33689].,1,ID_TITULACION_PERSONAL_SANITARIO
-[Conductor] del haz de His.,0,PROFESION
-Afiliado a [ISCIII].,1,INSTITUCION
-"Contexto clínico seguro, no PII (DIREC_PROT_INTERNET).",0,DIREC_PROT_INTERNET
-"Contexto clínico seguro, no PII (DIREC_PROT_INTERNET).",0,DIREC_PROT_INTERNET
-Nº Socio: [3522436413].,1,OTRO_NUMERO_IDENTIF
-[varón] de 45 años.,1,SEXO_SUJETO_ASISTENCIA
-Afectación de zona [temporal] izquierda.,0,TERRITORIO
-Rasgo distintivo: [lunar en mejilla].,1,OTROS_SUJETO_ASISTENCIA
-Ingresa en [UCI].,0,HOSPITAL
-"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
-Varón de [87] años de edad.,1,EDAD_SUJETO_ASISTENCIA
-Matrícula: [4513RFZ].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
-Mutua [Asisa].,1,INSTITUCION
-Presenta tatuaje de [nombre].,1,OTROS_SUJETO_ASISTENCIA
-"Pº [Goicoechea], [Asturias].",1,CALLE
-Remitido desde centro de salud de [Valladolid].,1,TERRITORIO
-Protocolo [europeo] de tratamiento.,0,PAIS
-Contacto: [+34926 31 75 55].,1,NUMERO_TELEFONO
-Proporción [1:1000].,0,CORREO_ELECTRONICO
-"[Galo Robledo-Teruel], Servicio de Medicina Interna.",1,NOMBRE_PERSONAL_SANITARIO
-ID Personal: [u674219].,1,ID_EMPLEO_PERSONAL_SANITARIO
-Trasladado desde [urgencias].,0,TERRITORIO
-ID Proceso: [PROC-33039].,1,ID_CONTACTO_ASISTENCIAL
-Punto de [atención] continuada.,0,CENTRO_SALUD
-Trabaja en [Quirónsalud].,1,INSTITUCION
-"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
-[profesor] de 50 años.,1,PROFESION
-Técnica [IV.2.3].,0,IDENTIF_DISPOSITIVOS_NRSERIE
-Tubo de [Mayo].,0,NOMBRE_PERSONAL_SANITARIO
-ID Asegurado: [PS-8005345].,1,NUMERO_BENEF_PLAN_SALUD
-Trabaja como [profesor].,1,PROFESION
-Planta de [cardiología].,0,HOSPITAL
-Término médico no sensible para URL_WEB.,0,URL_WEB
-Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
-ID Personal: [u269696].,1,ID_EMPLEO_PERSONAL_SANITARIO
-"Contexto clínico seguro, no PII (NUMERO_FAX).",0,NUMERO_FAX
-"Dirección: [Glorieta Crescencia Serra], nº [70].",1,CALLE
-Ubicado en [box 5].,0,TERRITORIO
-NASS: [37 7516960 34].,1,ID_ASEGURAMIENTO
 Estadio [IVb].,0,CALLE
-Técnica [IV.2.3].,0,IDENTIF_DISPOSITIVOS_NRSERIE
+Tratamiento [fase 2].,0,CALLE
 Proporción [1:1000].,0,CORREO_ELECTRONICO
-Derivado desde C.S. [Vallecas].,1,CENTRO_SALUD
-Hb [12.5] g/dL.,0,ID_SUJETO_ASISTENCIA
-Conocido como 'Chato'.,1,OTROS_SUJETO_ASISTENCIA
-Historia clínica de [Lalo Mora Molina].,1,NOMBRE_SUJETO_ASISTENCIA
-Término médico no sensible para ID_EMPLEO_PERSONAL_SANITARIO.,0,ID_EMPLEO_PERSONAL_SANITARIO
-"Contexto clínico seguro, no PII (OTRO_NUMERO_IDENTIF).",0,OTRO_NUMERO_IDENTIF
-Edad: [68].,1,EDAD_SUJETO_ASISTENCIA
-NHC: [248825].,1,ID_SUJETO_ASISTENCIA
+Acceso web: [https://www.piquer.net].,1,DIREC_PROT_INTERNET
+Rasgo distintivo: [lunar en mejilla].,1,OTROS_SUJETO_ASISTENCIA
+Fax: [968 354 699].,1,NUMERO_FAX
+Término médico no sensible para NUMERO_BENEF_PLAN_SALUD.,0,NUMERO_BENEF_PLAN_SALUD
+"Contexto clínico seguro, no PII (ID_TITULACION_PERSONAL_SANITARIO).",0,ID_TITULACION_PERSONAL_SANITARIO
+Conocido como 'El Rubio'.,1,OTROS_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (IDENTIF_VEHICULOS_NRSERIE_PLACAS).",0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+pO2 [95] mmHg.,0,ID_SUJETO_ASISTENCIA
+Intervención quirúrgica programada para el [15/07/1990].,1,FECHAS
+"Dirección postal: [Cañada de Marcia Nicolás 35, Málaga, 42499], [Las Palmas].",1,TERRITORIO
+"Contexto clínico seguro, no PII (OTROS_SUJETO_ASISTENCIA).",0,OTROS_SUJETO_ASISTENCIA
+Paciente [trabajador] respiratorio.,0,PROFESION
+Nº Historia: [9917636].,1,ID_SUJETO_ASISTENCIA
+"Dirección: [Pasaje Valentina Mir], nº [160].",1,CALLE
+[Dña.] [Arribas] presenta mejoría.,1,NOMBRE_SUJETO_ASISTENCIA
+Servicio de [medicina interna].,0,HOSPITAL
+Se pauta [Adriana] 50mg.,0,NOMBRE_SUJETO_ASISTENCIA
+Cuidador principal: [Jimena Antón Luque].,1,FAMILIARES_SUJETO_ASISTENCIA
+[Portador] de marcapasos.,0,PROFESION
+Unidad de [Cuidados Intensivos].,0,INSTITUCION
+Factor [V] Leiden.,0,SEXO_SUJETO_ASISTENCIA
+"Contexto clínico seguro, no PII (ID_ASEGURAMIENTO).",0,ID_ASEGURAMIENTO
+Sonda de [Levin].,0,NOMBRE_PERSONAL_SANITARIO
+Término médico no sensible para ID_CONTACTO_ASISTENCIAL.,0,ID_CONTACTO_ASISTENCIAL
+ID Personal: [u644083].,1,ID_EMPLEO_PERSONAL_SANITARIO
+Término médico no sensible para NUMERO_BENEF_PLAN_SALUD.,0,NUMERO_BENEF_PLAN_SALUD
+Virus [japonés] B.,0,PAIS
+"Contexto clínico seguro, no PII (NUMERO_IDENTIF).",0,NUMERO_IDENTIF
+[Madre] diabética.,0,FAMILIARES_SUJETO_ASISTENCIA
+Informe elaborado por Dr. [Roberta Camacho Carro].,1,NOMBRE_PERSONAL_SANITARIO
+Término médico no sensible para ID_CONTACTO_ASISTENCIAL.,0,ID_CONTACTO_ASISTENCIAL
+D./Dña. [Victoria Reyes-Salvador] acude a consulta.,1,NOMBRE_SUJETO_ASISTENCIA
+Peso [65] kg.,0,EDAD_SUJETO_ASISTENCIA
+Huella dactilar registrada: [FP840810155].,1,IDENTIF_BIOMETRICOS
+Hospital [Clínic].,1,HOSPITAL
+Tratamiento [fase 2].,0,CALLE
 Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
-Historia clínica de [Aura Luján Anguita].,1,NOMBRE_SUJETO_ASISTENCIA
+Enlace: [https://www.cabanillas.es].,1,DIREC_PROT_INTERNET
+Término médico no sensible para NUMERO_FAX.,0,NUMERO_FAX
+Contacto: [ofeliamena@example.net].,1,CORREO_ELECTRONICO
+Protocolo [A.1.2].,0,IDENTIF_DISPOSITIVOS_NRSERIE
+[administrativo] de 50 años.,1,PROFESION
+Ocupación: [albañil].,1,PROFESION
+Protocolo [A.1.2].,0,IDENTIF_DISPOSITIVOS_NRSERIE
+Huella dactilar registrada: [FP507366396].,1,IDENTIF_BIOMETRICOS
+Enviar a fax [958 348 622].,1,NUMERO_FAX
+El/La paciente [Sandalio] refiere dolor.,1,NOMBRE_SUJETO_ASISTENCIA
+Dolor referido a región [dorsal].,0,TERRITORIO
+Sala de [reanimación].,0,HOSPITAL
+CIE: [CIE921075].,1,ID_SUJETO_ASISTENCIA
+ID Asegurado: [PS-4559817].,1,NUMERO_BENEF_PLAN_SALUD
+Término médico no sensible para NUMERO_BENEF_PLAN_SALUD.,0,NUMERO_BENEF_PLAN_SALUD
+Término médico no sensible para NUMERO_IDENTIF.,0,NUMERO_IDENTIF
+MAC: [65:1e:6d:d9:fd:95].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+[Actualmente] estable.,0,FECHAS
+Término médico no sensible para IDENTIF_VEHICULOS_NRSERIE_PLACAS.,0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+[Laboratorio] central.,0,INSTITUCION
+Contacto: [lroman@example.net].,1,CORREO_ELECTRONICO
+Término médico no sensible para IDENTIF_VEHICULOS_NRSERIE_PLACAS.,0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Planta de [cardiología].,0,HOSPITAL
+Dr./Dra. [Eustaquio del Nogueira].,1,NOMBRE_PERSONAL_SANITARIO
+Remitido desde centro de salud de [Valladolid].,1,TERRITORIO
+[varón] de 45 años.,1,SEXO_SUJETO_ASISTENCIA
+Col. Nº [48-67288].,1,ID_TITULACION_PERSONAL_SANITARIO
+"Dirección: [C. de Isaura Téllez], nº [176].",1,CALLE
+"Contexto clínico seguro, no PII (ID_EMPLEO_PERSONAL_SANITARIO).",0,ID_EMPLEO_PERSONAL_SANITARIO
+Diabetes de [15] años de evolución.,0,EDAD_SUJETO_ASISTENCIA
+Remitido desde [CSIC].,1,INSTITUCION
+"Trasladado desde [Lugo], provincia de [Burgos].",1,TERRITORIO
+"Contexto clínico seguro, no PII (ID_TITULACION_PERSONAL_SANITARIO).",0,ID_TITULACION_PERSONAL_SANITARIO
+Acceso web: [https://www.promociones.com].,1,DIREC_PROT_INTERNET
+Rasgo distintivo: [vitíligo].,1,OTROS_SUJETO_ASISTENCIA
+Enlace: [https://www.hermanos.com].,1,DIREC_PROT_INTERNET
+[Padre] con HTA.,0,FAMILIARES_SUJETO_ASISTENCIA
+ID Personal: [u544251].,1,ID_EMPLEO_PERSONAL_SANITARIO
 Término médico no sensible para IDENTIF_BIOMETRICOS.,0,IDENTIF_BIOMETRICOS
-"Contexto clínico seguro, no PII (URL_WEB).",0,URL_WEB
-Término médico no sensible para OTRO_NUMERO_IDENTIF.,0,OTRO_NUMERO_IDENTIF
-Término médico no sensible para ID_EMPLEO_PERSONAL_SANITARIO.,0,ID_EMPLEO_PERSONAL_SANITARIO
+Email: [jordanzacarias@example.org].,1,CORREO_ELECTRONICO
+Número asignado: [nhc-972111].,1,NUMERO_IDENTIF
+NASS: [45 9044888 59].,1,ID_ASEGURAMIENTO
+Código [925.11].,0,NUMERO_TELEFONO
+D./Dña. [Vilma Estrada Quesada] acude a consulta.,1,NOMBRE_SUJETO_ASISTENCIA
+Episodio: [2406246798].,1,ID_CONTACTO_ASISTENCIAL
+Término médico no sensible para ID_ASEGURAMIENTO.,0,ID_ASEGURAMIENTO
+Término médico no sensible para NUMERO_BENEF_PLAN_SALUD.,0,NUMERO_BENEF_PLAN_SALUD
+Nº Socio: [4589037269].,1,OTRO_NUMERO_IDENTIF
+pH [7.35].,0,ID_SUJETO_ASISTENCIA
+FAX: [936 271 215].,1,NUMERO_FAX
+Variante [brasileña].,0,PAIS
+Patrón retinal [RET-33450113].,1,IDENTIF_BIOMETRICOS
+Centro [CSIC].,1,INSTITUCION
+Ingreso en [Son Espases].,1,HOSPITAL
+Médico responsable: [Verónica Rosa Porras Vidal].,1,NOMBRE_PERSONAL_SANITARIO
+Paciente procedente del CP [04877].,1,TERRITORIO
+Accidente con vehículo [7447GYB].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Guías [americanas] de cardiología.,0,PAIS
+Término médico no sensible para OTROS_SUJETO_ASISTENCIA.,0,OTROS_SUJETO_ASISTENCIA
+Técnica de [Seldinger].,0,NOMBRE_PERSONAL_SANITARIO
+Código [925.11].,0,NUMERO_TELEFONO
+Centro de Salud [Cea Bermúdez].,1,CENTRO_SALUD
+"Reside en [Paseo Lisandro Monreal 63 Puerta 4 ], [21247].",1,CALLE
+Padre: [Tito Godoy Jove].,1,FAMILIARES_SUJETO_ASISTENCIA
+Protocolo [A.1.2].,0,IDENTIF_DISPOSITIVOS_NRSERIE
+Acceso web: [https://www.restauracion.es].,1,DIREC_PROT_INTERNET
+Receptor [alfa] positivo.,0,SEXO_SUJETO_ASISTENCIA
+[Quirófano] programado.,0,HOSPITAL
+Matrícula: [3078CLR].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
+Nº Socio: [5242373384].,1,OTRO_NUMERO_IDENTIF
+Anciano de [79] años.,1,EDAD_SUJETO_ASISTENCIA
+ID: [REF-25802].,1,OTRO_NUMERO_IDENTIF
+Departamento de [Radiología].,0,INSTITUCION
+Término médico no sensible para NUMERO_FAX.,0,NUMERO_FAX
+MAC: [85:fd:cb:b7:66:05].,1,IDENTIF_DISPOSITIVOS_NRSERIE
+Intervención quirúrgica programada para el [16/03/1976].,1,FECHAS
+"Contexto clínico seguro, no PII (NUMERO_BENEF_PLAN_SALUD).",0,NUMERO_BENEF_PLAN_SALUD
+Factor [V] Leiden.,0,SEXO_SUJETO_ASISTENCIA
+Punto de [atención] continuada.,0,CENTRO_SALUD
+Cepa [británica].,0,PAIS
+Niño de [4] años.,1,EDAD_SUJETO_ASISTENCIA
+Página web: [www.transportes.es].,1,URL_WEB
+Profesión: [agricultor].,1,PROFESION
 "Contexto clínico seguro, no PII (OTRO_NUMERO_IDENTIF).",0,OTRO_NUMERO_IDENTIF
+Enviar a fax [942 605 109].,1,NUMERO_FAX
+Término médico no sensible para NUMERO_FAX.,0,NUMERO_FAX
+Término médico no sensible para ID_EMPLEO_PERSONAL_SANITARIO.,0,ID_EMPLEO_PERSONAL_SANITARIO
+Centro [Clínica Universidad de Navarra].,1,INSTITUCION
+Nº Beneficiario: [181-394-721].,1,NUMERO_BENEF_PLAN_SALUD
+Término médico no sensible para NUMERO_FAX.,0,NUMERO_FAX

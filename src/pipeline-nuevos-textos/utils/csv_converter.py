@@ -11,8 +11,7 @@ Uso:
     python convert_csv_to_pipeline_input.py <csv_input> <json_output>
     
 Ejemplo:
-    python convert_csv_to_pipeline_input.py corpus/step6_validation/aws1-validation/detecciones_detalladas.csv entidades-pipeline.json
-"""
+ python pipeline-nuevos-textos/utils/csv_converter.py pipeline-auxiliar/step6_validation_judgeLLM/detecciones_detalladas.csv  entidades-pipeline.json"""
 
 import csv
 import json
@@ -130,26 +129,29 @@ def merge_continuous_entities(detections: List[Dict[str, Any]]) -> List[Dict[str
         current['original_count'] = 1
         
         for next_det in doc_detections[1:]:
-            # Calcular distancia entre entidades
+            # Calcular distancia entre entidades (posicional estricta)
             gap = next_det['start'] - current['end']
-            
-            # Condiciones para fusionar:
-            # 1. Misma etiqueta
-            # 2. Misma columna del modelo (o compatible)
-            # 3. Gap pequeño (≤ 2 caracteres, permite saltos de línea)
-            same_label = next_det['label'] == current['label']
-            small_gap = gap <= 2
-            continuous = gap == 0
-            
-            if same_label and (continuous or small_gap):
-                # Fusionar: extender la entidad actual
+
+            # Regla de fusión estricta: unir SÓLO si las posiciones son válidas
+            # y la entidad siguiente comienza exactamente donde termina la actual.
+            positions_valid = (
+                isinstance(current.get('end'), int)
+                and isinstance(next_det.get('start'), int)
+                and current['end'] >= 0
+                and next_det['start'] >= 0
+            )
+
+            adjacent = positions_valid and (gap == 0)
+
+            if adjacent:
+                # Fusionar: extender la entidad actual (solo adyacencia perfecta)
                 current['end'] = next_det['end']
                 current['text'] += next_det['text']
                 # Promediar confianza
                 current['confidence'] = (current['confidence'] + next_det['confidence']) / 2
                 current['original_count'] += 1
                 # Mantener el modelo original (preferir CARMEN sobre MEDDOCAN)
-                if next_det['model'] == 'CARMEN' and current['model'] != 'CARMEN':
+                if next_det.get('model') == 'CARMEN' and current.get('model') != 'CARMEN':
                     current['model'] = next_det['model']
             else:
                 # No fusionar: guardar la entidad actual y empezar una nueva

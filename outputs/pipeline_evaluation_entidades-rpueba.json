@@ -1,62 +1,62 @@
 {
   "metadata": {
-    "generated_at": "2025-12-03T11:53:25.570938",
+    "generated_at": "2025-12-09T08:56:03.038882",
     "evaluation_type": "pipeline_filtering_inverted",
     "flow": "SetFit(PII/RUIDO) -> RUIDO: DictFilters(rescue) -> LLM(rescue)"
   },
   "metrics": {
     "global": {
-      "tp": 510,
-      "fp": 206,
+      "tp": 559,
+      "fp": 143,
       "tn": 7,
-      "fn": 6,
-      "precision": 0.7123,
-      "recall": 0.9884,
-      "f1": 0.8279,
-      "accuracy": 0.7092
+      "fn": 11,
+      "precision": 0.7963,
+      "recall": 0.9807,
+      "f1": 0.8789,
+      "accuracy": 0.7861
     },
     "by_label": {
       "OTROS_SUJETO_ASISTENCIA": {
-        "tp": 17,
-        "fp": 17,
-        "fn": 0,
-        "total": 34,
-        "kept": 34
-      },
-      "NUMERO_TELEFONO": {
-        "tp": 104,
-        "fp": 103,
+        "tp": 13,
+        "fp": 18,
         "fn": 1,
-        "total": 214,
-        "kept": 207
-      },
-      "NUMERO_IDENTIF": {
-        "tp": 6,
-        "fp": 23,
-        "fn": 1,
-        "total": 30,
-        "kept": 29
-      },
-      "CORREO_ELECTRONICO": {
-        "tp": 53,
-        "fp": 1,
-        "fn": 0,
-        "total": 54,
-        "kept": 54
-      },
-      "URL_WEB": {
-        "tp": 29,
-        "fp": 2,
-        "fn": 0,
-        "total": 31,
+        "total": 32,
         "kept": 31
       },
+      "NUMERO_TELEFONO": {
+        "tp": 110,
+        "fp": 75,
+        "fn": 2,
+        "total": 192,
+        "kept": 185
+      },
+      "NUMERO_IDENTIF": {
+        "tp": 10,
+        "fp": 18,
+        "fn": 0,
+        "total": 29,
+        "kept": 28
+      },
+      "CORREO_ELECTRONICO": {
+        "tp": 49,
+        "fp": 0,
+        "fn": 0,
+        "total": 49,
+        "kept": 49
+      },
+      "URL_WEB": {
+        "tp": 25,
+        "fp": 2,
+        "fn": 0,
+        "total": 27,
+        "kept": 27
+      },
       "PAIS": {
-        "tp": 38,
+        "tp": 39,
         "fp": 1,
         "fn": 0,
-        "total": 39,
-        "kept": 39
+        "total": 40,
+        "kept": 40
       },
       "FECHAS": {
         "tp": 26,
@@ -73,11 +73,11 @@
         "kept": 26
       },
       "NOMBRE_PERSONAL_SANITARIO": {
-        "tp": 70,
-        "fp": 28,
+        "tp": 124,
+        "fp": 2,
         "fn": 0,
-        "total": 98,
-        "kept": 98
+        "total": 126,
+        "kept": 126
       },
       "PROFESION": {
         "tp": 8,
@@ -87,25 +87,25 @@
         "kept": 8
       },
       "CALLE": {
-        "tp": 23,
-        "fp": 3,
+        "tp": 22,
+        "fp": 2,
         "fn": 0,
-        "total": 26,
-        "kept": 26
+        "total": 24,
+        "kept": 24
       },
       "CENTRO_SALUD": {
-        "tp": 29,
+        "tp": 27,
         "fp": 0,
-        "fn": 0,
+        "fn": 2,
         "total": 29,
-        "kept": 29
+        "kept": 27
       },
       "ID_SUJETO_ASISTENCIA": {
         "tp": 20,
-        "fp": 25,
-        "fn": 0,
-        "total": 45,
-        "kept": 45
+        "fp": 21,
+        "fn": 2,
+        "total": 44,
+        "kept": 41
       },
       "INSTITUCION": {
         "tp": 5,
@@ -116,17 +116,17 @@
       },
       "HOSPITAL": {
         "tp": 15,
-        "fp": 0,
+        "fp": 1,
         "fn": 0,
         "total": 16,
-        "kept": 15
+        "kept": 16
       },
       "FAMILIARES_SUJETO_ASISTENCIA": {
-        "tp": 22,
+        "tp": 21,
         "fp": 2,
         "fn": 0,
-        "total": 24,
-        "kept": 24
+        "total": 23,
+        "kept": 23
       },
       "EDAD_SUJETO_ASISTENCIA": {
         "tp": 16,
@@ -152,10 +152,10 @@
     },
     "by_source": {
       "setfit": {
-        "tp": 493,
-        "fp": 204,
-        "total": 697,
-        "precision": 0.7073170731707317
+        "tp": 549,
+        "fp": 141,
+        "total": 690,
+        "precision": 0.7956521739130434
       },
       "dict_whitelist": {
         "tp": 0,
@@ -164,15 +164,15 @@
         "precision": 0.0
       },
       "llm_rescue": {
-        "tp": 11,
+        "tp": 7,
         "fp": 2,
-        "total": 13,
-        "precision": 0.8461538461538461
+        "total": 9,
+        "precision": 0.7777777777777778
       },
       "unknown": {
-        "tp": 6,
+        "tp": 3,
         "fp": 0,
-        "total": 6,
+        "total": 3,
         "precision": 1.0
       }
     }

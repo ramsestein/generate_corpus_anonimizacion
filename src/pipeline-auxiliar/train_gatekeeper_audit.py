@@ -50,13 +50,23 @@ random.seed(42)
 DEFAULT_RULES_FILE = "guias-anotacion.json"
 DEFAULT_MODELS_DIR = "models"
 DEFAULT_AUDIT_DIR = "audit"
-DEFAULT_MODEL_NAME = "gatekeeper_setfit"
+DEFAULT_MODEL_NAME = "setfit_high_precision_v2"
 
 # Modelo base SetFit
-SETFIT_BASE_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+SETFIT_BASE_MODEL = "sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
+SETFIT_BASE_MODEL_ANTIGUO = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 
 # Número de ejemplos por categoría
 EXAMPLES_PER_CATEGORY = 20
+
+# Hiperparámetros de entrenamiento (Fine-Grained Decision Boundary)
+TRAINING_HYPERPARAMS = {
+    "num_iterations": 40,  # Aumentado de 20 para mejor aprendizaje contrastivo
+    "num_epochs": 1,
+    "learning_rate": 2e-5,  # Learning rate conservador para estabilidad
+    "batch_size": 16,
+    "max_iter": 100,  # Para el clasificador final
+}
 
 
 # ============================================================================
@@ -258,6 +268,20 @@ POSITIVE_TEMPLATES: Dict[str, List[str]] = {
         "Nº Socio: [{member_id}].",
         "ID: [{other_id}].",
         "Referencia: [{reference_id}].",
+    ],
+    "IDENTIF_BIOMETRICOS": [
+        "Huella dactilar registrada: [{fingerprint_id}].",
+        "Identificación biométrica: [{biometric_id}].",
+        "Registro facial ID: [{face_id}].",
+        "Huella digital [{fingerprint_id}].",
+        "Patrón retinal [{retinal_id}].",
+    ],
+    "NUMERO_IDENTIF": [
+        "Número de identificación: [{patient_id}].",
+        "ID: [{patient_id}].",
+        "Código identificador: [{nhc}].",
+        "Registro: [{nhc}].",
+        "Número asignado: [{cipa}].",
     ],
 }
 
@@ -591,6 +615,12 @@ def generate_fake_data() -> Dict[str, Any]:
         "member_id": str(random.randint(1000000000, 9999999999)),
         "other_id": f"REF-{random.randint(10000, 99999)}",
         "reference_id": f"R{random.randint(100000, 999999)}",
+        
+        # Biométricos
+        "fingerprint_id": f"FP{random.randint(100000000, 999999999)}",
+        "biometric_id": f"BIO-{random.randint(10000000, 99999999)}",
+        "face_id": f"FACE{random.randint(100000, 999999)}",
+        "retinal_id": f"RET-{random.randint(10000000, 99999999)}",
     }
 
 
@@ -761,58 +791,152 @@ def generate_synthetic_dataset(
 def train_setfit_model(
     df: pd.DataFrame,
     model_name: str = SETFIT_BASE_MODEL,
-    output_dir: str = None
+    output_dir: str = None,
+    hyperparams: Dict[str, Any] = None
 ) -> Any:
     """
     Entrena un modelo SetFit con el dataset generado.
+    
+    ESTRATEGIA: Fine-Grained Decision Boundary para maximizar Precisión sin perder Recall.
     
     Args:
         df: DataFrame con columnas [text, label].
         model_name: Nombre del modelo base de Sentence Transformers.
         output_dir: Directorio donde guardar el modelo.
+        hyperparams: Diccionario con hiperparámetros de entrenamiento.
     
     Returns:
-        Modelo SetFit entrenado.
+        Modelo SetFit entrenado y diccionario de métricas detalladas.
     """
     try:
         from setfit import SetFitModel, SetFitTrainer
         from datasets import Dataset
+        from sklearn.metrics import precision_recall_fscore_support, classification_report
     except ImportError:
-        logger.error("Instala setfit y datasets: pip install setfit datasets")
+        logger.error("Instala setfit y datasets: pip install setfit datasets scikit-learn")
         raise
+    
+    # Usar hiperparámetros por defecto si no se proporcionan
+    if hyperparams is None:
+        hyperparams = TRAINING_HYPERPARAMS
     
     # Convertir a Dataset de HuggingFace
     dataset = Dataset.from_pandas(df[["text", "label"]])
     
-    # Dividir en train/eval
+    # Dividir en train/eval sin estratificación (el dataset ya está balanceado)
     dataset = dataset.train_test_split(test_size=0.2, seed=42)
     
     logger.info(f"Dataset - Train: {len(dataset['train'])}, Test: {len(dataset['test'])}")
+    
+    # Calcular distribución de clases
+    train_labels = dataset['train']['label']
+    test_labels = dataset['test']['label']
+    train_class0 = sum(1 for label in train_labels if label == 0)
+    train_class1 = sum(1 for label in train_labels if label == 1)
+    test_class0 = sum(1 for label in test_labels if label == 0)
+    test_class1 = sum(1 for label in test_labels if label == 1)
+    
+    logger.info(f"Distribución Train - Clase 0: {train_class0}, Clase 1: {train_class1}")
+    logger.info(f"Distribución Test - Clase 0: {test_class0}, Clase 1: {test_class1}")
     
     # Cargar modelo base
     logger.info(f"Cargando modelo base: {model_name}")
     model = SetFitModel.from_pretrained(model_name)
     
-    # Configurar trainer
+    # Configurar argumentos de entrenamiento con hiperparámetros optimizados
+    logger.info("Hiperparámetros de entrenamiento:")
+    for key, value in hyperparams.items():
+        logger.info(f"  {key}: {value}")
+    
+    # Configurar trainer con hiperparámetros directamente
     trainer = SetFitTrainer(
         model=model,
         train_dataset=dataset["train"],
         eval_dataset=dataset["test"],
-        metric="accuracy",
+        metric="f1",  # Optimizar F1 (balance Precision/Recall)
+        num_iterations=hyperparams.get("num_iterations", 40),
+        num_epochs=hyperparams.get("num_epochs", 1),
+        learning_rate=hyperparams.get("learning_rate", 2e-5),
+        batch_size=hyperparams.get("batch_size", 16),
+        seed=42,
+        column_mapping={"text": "text", "label": "label"},
     )
     
     # Entrenar
-    logger.info("Iniciando entrenamiento SetFit...")
+    logger.info("🚀 Iniciando entrenamiento SetFit con Fine-Grained Decision Boundary...")
     trainer.train()
     
-    # Evaluar
-    metrics = trainer.evaluate()
-    logger.info(f"Métricas de evaluación: {metrics}")
+    # Evaluar con métricas detalladas
+    logger.info("📊 Evaluando modelo...")
+    
+    # Predicciones en test set
+    test_texts = dataset["test"]["text"]
+    test_labels = dataset["test"]["label"]
+    predictions = model(test_texts)
+    
+    # Calcular métricas detalladas
+    precision, recall, f1, support = precision_recall_fscore_support(
+        test_labels, predictions, average='binary', pos_label=1
+    )
+    
+    # Reporte completo
+    report = classification_report(
+        test_labels, predictions, 
+        target_names=["Clase 0 (Ruido)", "Clase 1 (PII)"],
+        digits=4
+    )
+    
+    # Métricas básicas del trainer
+    basic_metrics = trainer.evaluate()
+    
+    # Consolidar métricas
+    metrics = {
+        **basic_metrics,
+        "precision_class1": float(precision),
+        "recall_class1": float(recall),
+        "f1_class1": float(f1),
+        "support_class1": int(support),
+        "classification_report": report
+    }
+    
+    # Imprimir reporte detallado
+    logger.info("\n" + "="*80)
+    logger.info("📈 REPORTE DE EVALUACIÓN - MÉTRICAS DETALLADAS")
+    logger.info("="*80)
+    logger.info(f"\n🎯 MÉTRICAS CLASE 1 (PII - CRÍTICO PARA ANONIMIZACIÓN):")
+    logger.info(f"   Precision: {precision:.4f} ({precision*100:.2f}%) - Reducción de Falsos Positivos")
+    logger.info(f"   Recall:    {recall:.4f} ({recall*100:.2f}%) - Detección completa de PII (NO DEBE BAJAR)")
+    logger.info(f"   F1-Score:  {f1:.4f} ({f1*100:.2f}%) - Balance óptimo")
+    logger.info(f"   Support:   {support} ejemplos")
+    logger.info(f"\n📋 REPORTE COMPLETO:\n{report}")
+    logger.info("="*80 + "\n")
+    
+    # Advertencia si el Recall baja
+    if recall < 0.95:
+        logger.warning("⚠️  ADVERTENCIA: Recall < 95% - Riesgo de perder datos sensibles!")
+        logger.warning("    Considera aumentar num_iterations o ajustar el balance de clases.")
     
     # Guardar modelo
     if output_dir:
-        logger.info(f"Guardando modelo en: {output_dir}")
+        logger.info(f"💾 Guardando modelo en: {output_dir}")
         model.save_pretrained(output_dir)
+        
+        # Guardar hiperparámetros y métricas
+        import json
+        metadata_path = Path(output_dir) / "training_metadata.json"
+        with open(metadata_path, "w", encoding="utf-8") as f:
+            json.dump({
+                "hyperparameters": hyperparams,
+                "metrics": {
+                    "precision": precision,
+                    "recall": recall,
+                    "f1": f1,
+                    "support": support
+                },
+                "model_base": model_name,
+                "timestamp": datetime.now().isoformat()
+            }, f, indent=2)
+        logger.info(f"📄 Metadata guardada en: {metadata_path}")
     
     return model, metrics
 
@@ -875,15 +999,26 @@ def generate_audit_report(
 
 ## 📈 Métricas de Evaluación
 
+### 🎯 Métricas Críticas (Clase 1 - PII)
+
+| Métrica | Valor | Interpretación |
+|---------|-------|----------------|
+| **Precision** | {metrics.get('precision_class1', 0):.4f} | Reducción de Falsos Positivos |
+| **Recall** | {metrics.get('recall_class1', 0):.4f} | ⚠️ CRÍTICO: No perder datos sensibles |
+| **F1-Score** | {metrics.get('f1_class1', 0):.4f} | Balance óptimo Precision/Recall |
+
+### 📊 Métricas Generales
+
 | Métrica | Valor |
 |---------|-------|
 """
     
     for key, value in metrics.items():
-        if isinstance(value, float):
-            report += f"| **{key}** | {value:.4f} |\n"
-        else:
-            report += f"| **{key}** | {value} |\n"
+        if key not in ['precision_class1', 'recall_class1', 'f1_class1', 'classification_report']:
+            if isinstance(value, float):
+                report += f"| **{key}** | {value:.4f} |\n"
+            else:
+                report += f"| **{key}** | {value} |\n"
     
     report += f"""
 ---
@@ -923,7 +1058,31 @@ def generate_audit_report(
         cat_count = len(df[df["category"] == cat])
         report += f"- `{cat}` ({cat_count} ejemplos)\n"
     
+    # Análisis de Recall
+    recall_class1 = metrics.get('recall_class1', 0)
+    if recall_class1 >= 0.95:
+        recall_status = "✅ **Recall ACEPTABLE** (≥95%): El modelo no pierde datos sensibles."
+    else:
+        recall_status = "🚨 **Recall BAJO** (<95%): RIESGO de pérdida de datos sensibles. Reentrenar."
+    
     report += f"""
+---
+
+## 🔧 Configuración de Entrenamiento (v2 - High Precision)
+
+### Hiperparámetros Aplicados
+
+| Parámetro | Valor | Justificación |
+|-----------|-------|---------------|
+| **num_iterations** | {TRAINING_HYPERPARAMS['num_iterations']} | Más pares contrastivos → mejor boundary |
+| **learning_rate** | {TRAINING_HYPERPARAMS['learning_rate']} | Learning rate conservador para estabilidad |
+| **batch_size** | {TRAINING_HYPERPARAMS['batch_size']} | Balance entre velocidad y precisión |
+| **metric** | F1-Score | Optimización del balance Precision/Recall |
+
+### ⚠️ Análisis de Recall
+
+{recall_status}
+
 ---
 
 ## 💡 Notas de Interpretación
@@ -1028,23 +1187,40 @@ def main(
     logger.info(f"   ✓ Dataset guardado: {dataset_path}")
     
     # -------------------------------------------------------------------------
-    # 4. Entrenar Modelo SetFit
+    # 4. Entrenar Modelo SetFit (Fine-Grained Decision Boundary)
     # -------------------------------------------------------------------------
-    logger.info("🤖 Entrenando modelo SetFit...")
+    logger.info("🤖 Entrenando modelo SetFit con estrategia de alta precisión...")
+    logger.info(f"   Versión: {model_name} (v2 - Fine-Grained)")
+    logger.info(f"   Objetivo: Maximizar Precisión SIN reducir Recall")
     
     try:
         model, metrics = train_setfit_model(
             df=df,
             model_name=SETFIT_BASE_MODEL,
-            output_dir=str(model_output_path)
+            output_dir=str(model_output_path),
+            hyperparams=TRAINING_HYPERPARAMS
         )
         logger.info(f"   ✓ Modelo guardado en: {model_output_path}")
+        
+        # Verificar que el Recall se mantenga alto
+        recall = metrics.get("recall_class1", 0)
+        precision = metrics.get("precision_class1", 0)
+        
+        if recall >= 0.95:
+            logger.info(f"   ✅ Recall EXCELENTE: {recall:.2%} - No se pierden datos sensibles")
+        else:
+            logger.warning(f"   ⚠️  Recall INSUFICIENTE: {recall:.2%} - Ajustar hiperparámetros")
+        
+        logger.info(f"   📊 Precision lograda: {precision:.2%}")
+        
     except ImportError as e:
         logger.error(f"Error de importación: {e}")
-        logger.error("Instala las dependencias: pip install setfit datasets torch")
+        logger.error("Instala las dependencias: pip install setfit datasets torch scikit-learn")
         metrics = {"error": str(e)}
     except Exception as e:
         logger.error(f"Error durante el entrenamiento: {e}")
+        import traceback
+        logger.error(traceback.format_exc())
         metrics = {"error": str(e)}
     
     # -------------------------------------------------------------------------

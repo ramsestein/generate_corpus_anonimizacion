@@ -1,0 +1,1944 @@
+{
+    "00039e89-4b9a-4a81-bb08-334cf20b482c": {
+        "id": "00039e89-4b9a-4a81-bb08-334cf20b482c",
+        "data": [
+            {
+                "entity": "ID_SUJETO_ASISTENCIA",
+                "text": "87654321B"
+            },
+            {
+                "entity": "ID_SUJETO_ASISTENCIA",
+                "text": "B-78423915"
+            },
+            {
+                "entity": "PAIS",
+                "text": "España"
+            },
+            {
+                "entity": "ID_CONTACTO_ASISTENCIAL",
+                "text": "HC-2024-789012"
+            },
+            {
+                "entity": "DIREC_PROT_INTERNET",
+                "text": "https://historiaclinica.hgugm.es/paciente/area_privada"
+            }
+        ]
+    },
+    "00111c95-4102-441d-b21c-e1fb68a0fdb1": {
+        "id": "00111c95-4102-441d-b21c-e1fb68a0fdb1",
+        "data": [
+            {
+                "entity": "FECHAS",
+                "text": "12 de julio de 2023"
+            },
+            {
+                "entity": "SEXO_SUJETO_ASISTENCIA",
+                "text": "femenino"
+            },
+            {
+                "entity": "NUMERO_FAX",
+                "text": "+34 91 876 54 32"
+            }
+        ]
+    },
+    "00161e17-f9bb-4b7e-aa95-a6e332e1affe": {
+        "id": "00161e17-f9bb-4b7e-aa95-a6e332e1affe",
+        "data": [
+            {
+                "entity": "PROFESION",
+                "text": "cirujano cardiovascular"
+            },
+            {
+                "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+                "text": "E-2023-8745"
+            },
+            {
+                "entity": "NOMBRE_PERSONAL_SANITARIO",
+                "text": "Dra. Elena Rodríguez Santos"
+            },
+            {
+                "entity": "ID_ASEGURAMIENTO",
+                "text": "B123456789"
+            },
+            {
+                "entity": "NOMBRE_SUJETO_ASISTENCIA",
+                "text": "Laura Méndez Iglesias"
+            },
+            {
+                "entity": "CALLE",
+                "text": "Paseo de la Castellana 120"
+            },
+            {
+                "entity": "CALLE",
+                "text": "Avenida de la Constitución 12"
+            },
+            {
+                "entity": "URL_WEB",
+                "text": "https://www.clinicabarcelona.es"
+            },
+            {
+                "entity": "URL_WEB",
+                "text": "https://www.clinicabarcelona.org"
+            }
+        ]
+    },
+    "001f45d6-19f4-4b97-87f7-a85644d37947": {
+        "id": "001f45d6-19f4-4b97-87f7-a85644d37947",
+        "data": [
+            {
+                "entity": "CENTRO_SALUD",
+                "text": "Centro de Salud Los Álamos"
+            },
+            {
+                "entity": "PAIS",
+                "text": "España"
+            },
+            {
+                "entity": "ID_ASEGURAMIENTO",
+                "text": "B123456789012"
+            },
+            {
+                "entity": "DIREC_PROT_INTERNET",
+                "text": "https://historiaclinica.hospitalcentral.es/paciente/ZXC456"
+            },
+            {
+                "entity": "CORREO_ELECTRONICO",
+                "text": "ana.garcia@clinic.es"
+            },
+            {
+                "entity": "FECHAS",
+                "text": "12 de julio de 2023"
+            },
+            {
+                "entity": "NOMBRE_SUJETO_ASISTENCIA",
+                "text": "Laura Méndez Iglesias"
+            }
+        ]
+    },
+    "00218b06-d0d8-4bc9-a2c1-32d20d754334": {
+        "id": "00218b06-d0d8-4bc9-a2c1-32d20d754334",
+        "data": [
+            {
+                "entity": "ID_ASEGURAMIENTO",
+                "text": "ES-87654321-1",
+                "start": 552,
+                "end": 565,
+                "anonymized_start": 453,
+                "anonymized_end": 456
+            },
+            {
+                "entity": "ID_ASEGURAMIENTO",
+                "text": "46 08 28 123 45",
+                "start": 1114,
+                "end": 1129,
+                "anonymized_start": 1049,
+                "anonymized_end": 1052
+            },
+            {
+                "entity": "ID_ASEGURAMIENTO",
+                "text": "B123456789",
+                "start": 982,
+                "end": 992,
+                "anonymized_start": 857,
+                "anonymized_end": 860
+            },
+            {
+                "entity": "NOMBRE_SUJETO_ASISTENCIA",
+                "text": "Laura Méndez Iglesias",
+                "start": 81,
+                "end": 102,
+                "anonymized_start": 34,
+                "anonymized_end": 37
+            },
+            {
+                "entity": "NOMBRE_PERSONAL_SANITARIO",
+                "text": "Dra. Elena Rodríguez Santos",
+                "start": 1374,
+                "end": 1401,
+                "anonymized_start": 1374,
+                "anonymized_end": 1377
+            },
+            {
+                "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+                "text": "E-789456",
+                "start": 1434,
+                "end": 1442,
+                "anonymized_start": 1296,
+                "anonymized_end": 1299
+            },
+            {
+                "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+                "text": "SN-98237641",
+                "start": 627,
+                "end": 638,
+                "anonymized_start": 518,
+                "anonymized_end": 521
+            },
+            {
+                "entity": "NUMERO_TELEFONO",
+                "text": "612-345-678",
+                "start": 360,
+                "end": 371,
+                "anonymized_start": 243,
+                "anonymized_end": 246
+            },
+            {
+                "entity": "ID_SUJETO_ASISTENCIA",
+                "text": "87654321B",
+                "start": 1034,
+                "end": 1043,
+                "anonymized_start": 902,
+                "anonymized_end": 905
+            },
+            {
+                "entity": "CALLE",
+                "text": "Paseo de la Castellana 120",
+                "start": 394,
+                "end": 420,
+                "anonymized_start": 370,
+                "anonymized_end": 373
+            },
+            {
+                "entity": "OTRO_NUMERO_IDENTIF",
+                "text": "HC-2024-789456",
+                "start": 155,
+                "end": 169,
+                "anonymized_start": 78,
+                "anonymized_end": 81
+            },
+            {
+                "entity": "OTRO_NUMERO_IDENTIF",
+                "text": "HC-2024-789012",
+                "start": 766,
+                "end": 780,
+                "anonymized_start": 678,
+                "anonymized_end": 681
+            }
+        ]
+    },
+    "002bc8a8-ae0f-4973-b3df-909cb5a476fc": {
+        "id": "002bc8a8-ae0f-4973-b3df-909cb5a476fc",
+        "data": [
+            {
+                "entity": "URL_WEB",
+                "text": "https://www.clinicabarcelona.org"
+            },
+            {
+                "entity": "OTRO_NUMERO_IDENTIF",
+                "text": "HC-2024-789012"
+            },
+            {
+                "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+                "text": "SN-98237641"
+            },
+            {
+                "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+                "text": "SN-98246731"
+            },
+            {
+                "entity": "DIREC_PROT_INTERNET",
+                "text": "https://historiaclinica.hgugm.es/paciente/12345678A"
+            },
+            {
+                "entity": "ID_CONTACTO_ASISTENCIAL",
+                "text": "HC-2024-789012"
+            },
+            {
+                "entity": "CORREO_ELECTRONICO",
+                "text": "ana.garcia@clinic.es"
+            },
+            {
+                "entity": "PROFESION",
+                "text": "cirujano"
+            }
+        ]
+    },
+    "0034e45c-4904-4f40-acac-950accd493ec": {
+        "id": "0034e45c-4904-4f40-acac-950accd493ec",
+        "data": [
+            {
+                "entity": "CORREO_ELECTRONICO",
+                "text": "carlos.martinez@clinic.es"
+            },
+            {
+                "entity": "CORREO_ELECTRONICO",
+                "text": "ana.martinez@clinic.es"
+            },
+            {
+                "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+                "text": "Grado en Medicina"
+            },
+            {
+                "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+                "text": "SN-98217634"
+            },
+            {
+                "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+                "text": "SN-98237641"
+            }
+        ]
+    },
+    "0036ca5d-a758-4984-a373-fac31b00ad24": {
+        "id": "0036ca5d-a758-4984-a373-fac31b00ad24",
+        "data": [
+            {
+                "entity": "INSTITUCION",
+                "text": "Consejería de Salud de la Comunidad de Madrid"
+            },
+            {
+                "entity": "URL_WEB",
+                "text": "https://www.clinicabarcelona.org"
+            },
+            {
+                "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+                "text": "SN-98237641"
+            },
+            {
+                "entity": "CALLE",
+                "text": "Avenida de la Constitución 12"
+            },
+            {
+                "entity": "OTRO_NUMERO_IDENTIF",
+                "text": "REF-2024-789123"
+            },
+            {
+                "entity": "OTRO_NUMERO_IDENTIF",
+                "text": "HC-2024-789012"
+            },
+            {
+                "entity": "NUMERO_FAX",
+                "text": "+34 91 876 54 32"
+            },
+            {
+                "entity": "SEXO_SUJETO_ASISTENCIA",
+                "text": "femenino"
+            },
+            {
+                "entity": "NOMBRE_SUJETO_ASISTENCIA",
+                "text": "Laura Méndez Iglesias"
+            }
+        ]
+    },
+    "003c64ee-b779-4804-8413-6f9312d93f09": {
+        "id": "003c64ee-b779-4804-8413-6f9312d93f09",
+        "data": [
+            {
+                "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+                "text": "E-987654"
+            },
+            {
+                "entity": "INSTITUCION",
+                "text": "Consejería de Sanidad de la Comunidad de Madrid"
+            },
+            {
+                "entity": "OTROS_SUJETO_ASISTENCIA",
+                "text": "alérgico a la penicilina"
+            },
+            {
+                "entity": "DIREC_PROT_INTERNET",
+                "text": "https://historiaclinica.hgugm.es/paciente/12345"
+            },
+            {
+                "entity": "NOMBRE_PERSONAL_SANITARIO",
+                "text": "Dra. Elena Rodríguez Santos"
+            },
+            {
+                "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+                "text": "Grado en Medicina"
+            },
+            {
+                "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+                "text": "SN-98246731"
+            }
+        ]
+    },
+    "0041295a-31ac-4d44-818b-ad77ab64e3d9": {
+        "id": "0041295a-31ac-4d44-818b-ad77ab64e3d9",
+        "data": [
+            {
+                "entity": "IDENTIF_BIOMETRICOS",
+                "text": "huella dactilar del pulgar derecho"
+            },
+            {
+                "entity": "CORREO_ELECTRONICO",
+                "text": "ana.martinez@clinic.es"
+            },
+            {
+                "entity": "OTROS_SUJETO_ASISTENCIA",
+                "text": "fumador ocasional"
+            },
+            {
+                "entity": "OTRO_NUMERO_IDENTIF",
+                "text": "REF-84736215B"
+            },
+            {
+                "entity": "NUMERO_FAX",
+                "text": "+34 91 876 54 32"
+            },
+            {
+                "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+                "text": "E-987654"
+            },
+            {
+                "entity": "URL_WEB",
+                "text": "https://www.clinicabarcelona.org"
+            },
+            {
+                "entity": "HOSPITAL",
+                "text": "Hospital Clínico San Carlos"
+            },
+            {
+                "entity": "NUMERO_TELEFONO",
+                "text": "612-34-56-78"
+            }
+        ]
+    },
+    "0048cc97-c3e5-462f-b8c9-2acb398fad05": {
+        "id": "0048cc97-c3e5-462f-b8c9-2acb398fad05",
+        "data": [
+            {
+                "entity": "NUMERO_TELEFONO",
+                "text": "634-89-12-45"
+            },
+            {
+                "entity": "NUMERO_TELEFONO",
+                "text": "612-345-678"
+            },
+            {
+                "entity": "ID_CONTACTO_ASISTENCIAL",
+                "text": "HC-2024-789012"
+            },
+            {
+                "entity": "TERRITORIO",
+                "text": "Comunidad Valenciana"
+            },
+            {
+                "entity": "CORREO_ELECTRONICO",
+                "text": "carlos.martinez@clinic.es"
+            },
+            {
+                "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+                "text": "1234 BCD"
+            },
+            {
+                "entity": "SEXO_SUJETO_ASISTENCIA",
+                "text": "femenino"
+            }
+        ]
+    },
+    "00545553-789c-4b16-965a-fa04533adbe3": {
+        "id": "00545553-789c-4b16-965a-fa04533adbe3",
+        "data": [
+            {
+                "entity": "DIREC_PROT_INTERNET",
+                "text": "https://historiaclinica.hgugm.es/paciente/12345"
+            },
+            {
+                "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+                "text": "1234 BCD"
+            },
+            {
+                "entity": "IDENTIF_BIOMETRICOS",
+                "text": "huella dactilar del pulgar derecho"
+            },
+            {
+                "entity": "CALLE",
+                "text": "Avenida de la Constitución 12"
+            },
+            {
+                "entity": "ID_ASEGURAMIENTO",
+                "text": "ES-87654321-1"
+            },
+            {
+                "entity": "SEXO_SUJETO_ASISTENCIA",
+                "text": "femenino"
+            },
+            {
+                "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+                "text": "SN-98237641"
+            }
+        ]
+    },
+    "0056164d-35e5-42ed-ae24-ab3fbf2b91fc": {
+        "id": "0056164d-35e5-42ed-ae24-ab3fbf2b91fc",
+        "data": [
+            {
+                "entity": "OTROS_SUJETO_ASISTENCIA",
+                "text": "Grupo de apoyo de diabetes tipo 2"
+            },
+            {
+                "entity": "CALLE",
+                "text": "Calle de la Alameda 12"
+            },
+            {
+                "entity": "CORREO_ELECTRONICO",
+                "text": "ana.garcia@clinic.es"
+            },
+            {
+                "entity": "CORREO_ELECTRONICO",
+                "text": "carlos.gomez@clinicamadrid.es"
+            },
+            {
+                "entity": "PROFESION",
+                "text": "cirujano"
+            },
+            {
+                "entity": "ID_SUJETO_ASISTENCIA",
+                "text": "45872314B"
+            },
+            {
+                "entity": "NUMERO_TELEFONO",
+                "text": "612-345-678"
+            },
+            {
+                "entity": "NUMERO_BENEF_PLAN_SALUD",
+                "text": "B-458712369"
+            }
+        ]
+    },
+    "005f478a-d71e-4f59-920e-94284c89e644": {
+        "id": "005f478a-d71e-4f59-920e-94284c89e644",
+        "data": [
+            {
+                "entity": "URL_WEB",
+                "text": "https://www.clinicabarcelona.org"
+            },
+            {
+                "entity": "NOMBRE_SUJETO_ASISTENCIA",
+                "text": "Carlos Rodríguez Méndez"
+            },
+            {
+                "entity": "ID_CONTACTO_ASISTENCIAL",
+                "text": "HC-2024-789012"
+            },
+            {
+                "entity": "PROFESION",
+                "text": "cirujano"
+            }
+        ]
+    },
+    "0065fd71-eb64-4486-82cc-b4c4b6a13a74": {
+        "id": "0065fd71-eb64-4486-82cc-b4c4b6a13a74",
+        "data": [
+            {
+                "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+                "text": "SN-98246731"
+            },
+            {
+                "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+                "text": "SN-98237641"
+            },
+            {
+                "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+                "text": "E-987654"
+            },
+            {
+                "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+                "text": "E-789456"
+            },
+            {
+                "entity": "NUMERO_BENEF_PLAN_SALUD",
+                "text": "B-458712369"
+            },
+            {
+                "entity": "NUMERO_FAX",
+                "text": "+34 91 876 54 32"
+            },
+            {
+                "entity": "PROFESION",
+                "text": "cirujano cardiovascular"
+            },
+            {
+                "entity": "PROFESION",
+                "text": "cirujano"
+            }
+        ]
+    },
+    "0066ed9f-17d8-4bbb-894e-010119d9edc5": {
+        "id": "0066ed9f-17d8-4bbb-894e-010119d9edc5",
+        "data": [
+            {
+                "entity": "PAIS",
+                "text": "España"
+            },
+            {
+                "entity": "ID_SUJETO_ASISTENCIA",
+                "text": "B-58293471"
+            },
+            {
+                "entity": "NUMERO_FAX",
+                "text": "+34 91 876 54 32"
+            },
+            {
+                "entity": "FECHAS",
+                "text": "12 de julio de 2023"
+            },
+            {
+                "entity": "URL_WEB",
+                "text": "https://www.clinicabarcelona.org"
+            }
+        ]
+    },
+    "00697f6c-c83d-4ef0-b8bd-c3606ab93df6": {
+        "id": "00697f6c-c83d-4ef0-b8bd-c3606ab93df6",
+        "data": [
+            {
+                "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+                "text": "E-2023-8745"
+            },
+            {
+                "entity": "HOSPITAL",
+                "text": "Hospital Clínico San Carlos"
+            },
+            {
+                "entity": "ID_SUJETO_ASISTENCIA",
+                "text": "87654321B"
+            },
+            {
+                "entity": "INSTITUCION",
+                "text": "Ministerio de Sanidad"
+            },
+            {
+                "entity": "INSTITUCION",
+                "text": "Consejería de Salud de la Comunidad de Madrid"
+            }
+        ]
+    },
+    "007bac28-399d-4ea1-9fd9-9e02ed6122ff": {
+        "id": "007bac28-399d-4ea1-9fd9-9e02ed6122ff",
+        "data": [
+            {
+                "entity": "OTRO_NUMERO_IDENTIF",
+                "text": "HC-2024-789456"
+            },
+            {
+                "entity": "OTRO_NUMERO_IDENTIF",
+                "text": "B-58246901"
+            },
+            {
+                "entity": "ID_SUJETO_ASISTENCIA",
+                "text": "87654321B"
+            },
+            {
+                "entity": "NUMERO_BENEF_PLAN_SALUD",
+                "text": "B123456789"
+            },
+            {
+                "entity": "NUMERO_BENEF_PLAN_SALUD",
+                "text": "B-458712369"
+            },
+            {
+                "entity": "CORREO_ELECTRONICO",
+                "text": "carlos.martinez@clinic.es"
+            },
+            {
+                "entity": "ID_ASEGURAMIENTO",
+                "text": "ES-87654321-X"
+            },
+            {
+                "entity": "TERRITORIO",
+                "text": "Comunidad Valenciana"
+            },
+            {
+                "entity": "INSTITUCION",
+                "text": "Ministerio de Sanidad"
+            },
+            {
+                "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+                "text": "SN-98237641"
+            },
+            {
+                "entity": "CALLE",
+                "text": "Avenida de la Constitución 12"
+            }
+        ]
+    },
+    "007cc328-610a-4a96-8baf-005ffd8be68f": {
+        "id": "007cc328-610a-4a96-8baf-005ffd8be68f",
+        "data": [
+            {
+                "entity": "OTRO_NUMERO_IDENTIF",
+                "text": "HC-2024-789456"
+            },
+            {
+                "entity": "FECHAS",
+                "text": "12 de julio de 2023"
+            },
+            {
+                "entity": "TERRITORIO",
+                "text": "Comunidad Valenciana"
+            },
+            {
+                "entity": "ID_CONTACTO_ASISTENCIAL",
+                "text": "HC-2024-789012"
+            }
+        ]
+    },
+    "007ce0b2-c0fb-41be-855d-be03d7ec6280": {
+        "id": "007ce0b2-c0fb-41be-855d-be03d7ec6280",
+        "data": [
+            {
+                "entity": "ID_ASEGURAMIENTO",
+                "text": "46 08 28 123 45"
+            },
+            {
+                "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+                "text": "María del Carmen Rodríguez"
+            },
+            {
+                "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+                "text": "María López Martínez"
+            },
+            {
+                "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+                "text": "Grado en Medicina"
+            },
+            {
+                "entity": "NUMERO_TELEFONO",
+                "text": "+34 612 34 56 78"
+            }
+        ]
+    },
+    "007e1ff6-407e-4536-bcc9-6be365de2903": {
+        "id": "007e1ff6-407e-4536-bcc9-6be365de2903",
+        "data": [
+            {
+                "entity": "DIREC_PROT_INTERNET",
+                "text": "https://historiaclinica.hgugm.es/paciente/12345"
+            },
+            {
+                "entity": "DIREC_PROT_INTERNET",
+                "text": "https://historiaclinica.hgugm.es/paciente/AB12345CD"
+            },
+            {
+                "entity": "CORREO_ELECTRONICO",
+                "text": "carlos.martinez@clinic.es"
+            },
+            {
+                "entity": "FECHAS",
+                "text": "12 de julio de 2023"
+            },
+            {
+                "entity": "CENTRO_SALUD",
+                "text": "Centro de Salud Los Álamos"
+            },
+            {
+                "entity": "URL_WEB",
+                "text": "https://www.clinicabarcelona.org"
+            },
+            {
+                "entity": "ID_SUJETO_ASISTENCIA",
+                "text": "87654321B"
+            }
+        ]
+    },
+    "007f0faa-c97f-40ba-9da6-dacbf0871fd6": {
+        "id": "007f0faa-c97f-40ba-9da6-dacbf0871fd6",
+        "data": [
+            {
+                "entity": "ID_CONTACTO_ASISTENCIAL",
+                "text": "HC-2024-789012"
+            },
+            {
+                "entity": "PROFESION",
+                "text": "cirujano"
+            },
+            {
+                "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+                "text": "E-789456"
+            },
+            {
+                "entity": "NOMBRE_SUJETO_ASISTENCIA",
+                "text": "Laura Méndez Iglesias"
+            },
+            {
+                "entity": "IDENTIF_BIOMETRICOS",
+                "text": "huella dactilar del pulgar derecho"
+            },
+            {
+                "entity": "SEXO_SUJETO_ASISTENCIA",
+                "text": "femenino"
+            },
+            {
+                "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+                "text": "Grado en Medicina"
+            },
+            {
+                "entity": "EDAD_SUJETO_ASISTENCIA",
+                "text": "78 años"
+            },
+            {
+                "entity": "EDAD_SUJETO_ASISTENCIA",
+                "text": "72 años"
+            },
+            {
+                "entity": "NUMERO_BENEF_PLAN_SALUD",
+                "text": "B123456789"
+            }
+        ]
+    },
+    "008035bb-e4ad-403e-b695-adb073a1d26b": {
+        "id": "008035bb-e4ad-403e-b695-adb073a1d26b",
+        "data": [
+            {
+                "entity": "NOMBRE_SUJETO_ASISTENCIA",
+                "text": "Laura Méndez Iglesias"
+            },
+            {
+                "entity": "SEXO_SUJETO_ASISTENCIA",
+                "text": "femenino"
+            },
+            {
+                "entity": "TERRITORIO",
+                "text": "Comunidad Valenciana"
+            },
+            {
+                "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+                "text": "María del Carmen López, hermana"
+            },
+            {
+                "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+                "text": "María del Carmen Gutiérrez"
+            },
+            {
+                "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+                "text": "E-459-23"
+            },
+            {
+                "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+                "text": "E-459321"
+            },
+            {
+                "entity": "ID_CONTACTO_ASISTENCIAL",
+                "text": "HC-2024-789012"
+            },
+            {
+                "entity": "PAIS",
+                "text": "España"
+            },
+            {
+                "entity": "ID_SUJETO_ASISTENCIA",
+                "text": "87654321B"
+            },
+            {
+                "entity": "ID_SUJETO_ASISTENCIA",
+                "text": "B-28473916"
+            }
+        ]
+    },
+    "0081a6c0-e244-4b51-af1a-216d03cfadd3": {
+        "id": "0081a6c0-e244-4b51-af1a-216d03cfadd3",
+        "data": [
+            {
+                "entity": "OTROS_SUJETO_ASISTENCIA",
+                "text": "Grupo de apoyo de diabetes tipo 2"
+            },
+            {
+                "entity": "FECHAS",
+                "text": "12 de julio de 2023"
+            },
+            {
+                "entity": "INSTITUCION",
+                "text": "Consejería de Salud de la Comunidad de Madrid"
+            },
+            {
+                "entity": "INSTITUCION",
+                "text": "Ministerio de Sanidad"
+            },
+            {
+                "entity": "OTRO_NUMERO_IDENTIF",
+                "text": "HC-2024-789456"
+            },
+            {
+                "entity": "URL_WEB",
+                "text": "https://www.clinicabarcelona.org"
+            },
+            {
+                "entity": "CENTRO_SALUD",
+                "text": "Centro de Salud Los Álamos"
+            },
+            {
+                "entity": "ID_SUJETO_ASISTENCIA",
+                "text": "B-78423915"
+            },
+            {
+                "entity": "CALLE",
+                "text": "Avenida de la Constitución 12"
+            },
+            {
+                "entity": "SEXO_SUJETO_ASISTENCIA",
+                "text": "femenino"
+            }
+        ]
+    },
+    "00876078-5df8-469b-b521-648cac0f9fe7": {
+        "id": "00876078-5df8-469b-b521-648cac0f9fe7",
+        "data": [
+            {
+                "entity": "ID_SUJETO_ASISTENCIA",
+                "text": "87654321B"
+            },
+            {
+                "entity": "CENTRO_SALUD",
+                "text": "Centro de Salud Los Álamos"
+            },
+            {
+                "entity": "PROFESION",
+                "text": "cirujano"
+            },
+            {
+                "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+                "text": "María del Carmen Rodríguez, madre del paciente"
+            },
+            {
+                "entity": "ID_ASEGURAMIENTO",
+                "text": "ES-87654321-1"
+            },
+            {
+                "entity": "NUMERO_TELEFONO",
+                "text": "634-12-89-07"
+            },
+            {
+                "entity": "NUMERO_TELEFONO",
+                "text": "612-34-56-78"
+            },
+            {
+                "entity": "NUMERO_FAX",
+                "text": "+34 91 876 54 32"
+            },
+            {
+                "entity": "URL_WEB",
+                "text": "https://www.clinicabarcelona.org"
+            },
+            {
+                "entity": "ID_CONTACTO_ASISTENCIAL",
+                "text": "HC-2024-789012"
+            },
+            {
+                "entity": "FECHAS",
+                "text": "12 de julio de 2023"
+            }
+        ]
+    },
+    "008ed118-d0b5-4f1d-a2ef-fdaa7be19fe0": {
+        "id": "008ed118-d0b5-4f1d-a2ef-fdaa7be19fe0",
+        "data": [
+            {
+                "entity": "OTRO_NUMERO_IDENTIF",
+                "text": "REF-87463215B"
+            },
+            {
+                "entity": "OTRO_NUMERO_IDENTIF",
+                "text": "REF-87463215"
+            },
+            {
+                "entity": "SEXO_SUJETO_ASISTENCIA",
+                "text": "femenino"
+            },
+            {
+                "entity": "NUMERO_BENEF_PLAN_SALUD",
+                "text": "B-458712369"
+            },
+            {
+                "entity": "TERRITORIO",
+                "text": "Comunidad Valenciana"
+            }
+        ]
+    },
+    "0092f519-85eb-41bc-9eda-0cc7ed7dcbb0": {
+        "id": "0092f519-85eb-41bc-9eda-0cc7ed7dcbb0",
+        "data": [
+            {
+                "entity": "TERRITORIO",
+                "text": "Comunidad Valenciana"
+            },
+            {
+                "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+                "text": "María Rodríguez Sánchez"
+            },
+            {
+                "entity": "PAIS",
+                "text": "España"
+            },
+            {
+                "entity": "NUMERO_FAX",
+                "text": "+34 91 876 54 32"
+            },
+            {
+                "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+                "text": "Grado en Medicina"
+            },
+            {
+                "entity": "SEXO_SUJETO_ASISTENCIA",
+                "text": "femenino"
+            }
+        ]
+    },
+    "00930499-2021-4d95-a3f2-3b0053ead40c": {
+        "id": "00930499-2021-4d95-a3f2-3b0053ead40c",
+        "data": [
+            {
+                "entity": "NUMERO_BENEF_PLAN_SALUD",
+                "text": "B-458712369"
+            },
+            {
+                "entity": "INSTITUCION",
+                "text": "Ministerio de Sanidad"
+            },
+            {
+                "entity": "ID_ASEGURAMIENTO",
+                "text": "ES-87654321X"
+            },
+            {
+                "entity": "NOMBRE_SUJETO_ASISTENCIA",
+                "text": "Laura Méndez Iglesias"
+            },
+            {
+                "entity": "NOMBRE_SUJETO_ASISTENCIA",
+                "text": "Laura Martínez Sánchez"
+            },
+            {
+                "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+                "text": "SN-98273645"
+            },
+            {
+                "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+                "text": "SN-98237641"
+            },
+            {
+                "entity": "DIREC_PROT_INTERNET",
+                "text": "https://historiaclinica.hospitalregional.org/paciente/AB12345"
+            },
+            {
+                "entity": "DIREC_PROT_INTERNET",
+                "text": "https://historiaclinica.hgugm.es/paciente/AB12345CD"
+            },
+            {
+                "entity": "NUMERO_FAX",
+                "text": "+34 91 876 54 32"
+            }
+        ]
+    },
+    "009a50d4-8a4d-4cc5-9964-a66511b8e1df": {
+        "id": "009a50d4-8a4d-4cc5-9964-a66511b8e1df",
+        "data": [
+            {
+                "entity": "CENTRO_SALUD",
+                "text": "Centro de Salud Los Álamos"
+            },
+            {
+                "entity": "EDAD_SUJETO_ASISTENCIA",
+                "text": "67 años"
+            },
+            {
+                "entity": "ID_SUJETO_ASISTENCIA",
+                "text": "73482914B"
+            },
+            {
+                "entity": "NOMBRE_SUJETO_ASISTENCIA",
+                "text": "Laura Méndez Iglesias"
+            },
+            {
+                "entity": "OTROS_SUJETO_ASISTENCIA",
+                "text": "alérgico a la penicilina"
+            },
+            {
+                "entity": "OTROS_SUJETO_ASISTENCIA",
+                "text": "fumador ocasional"
+            },
+            {
+                "entity": "PROFESION",
+                "text": "cirujano"
+            },
+            {
+                "entity": "ID_CONTACTO_ASISTENCIAL",
+                "text": "HC-2024-789012"
+            },
+            {
+                "entity": "SEXO_SUJETO_ASISTENCIA",
+                "text": "femenino"
+            },
+            {
+                "entity": "OTRO_NUMERO_IDENTIF",
+                "text": "B-58294107"
+            },
+            {
+                "entity": "TERRITORIO",
+                "text": "Comunidad Valenciana"
+            }
+        ]
+    },
+    "009d2053-4bba-49ef-ae60-5ef67cd43e30": {
+        "id": "009d2053-4bba-49ef-ae60-5ef67cd43e30",
+        "data": [
+            {
+                "entity": "FECHAS",
+                "text": "12 de julio de 2023"
+            },
+            {
+                "entity": "NUMERO_FAX",
+                "text": "+34 91 876 54 32"
+            },
+            {
+                "entity": "NUMERO_TELEFONO",
+                "text": "612-345-678"
+            },
+            {
+                "entity": "ID_ASEGURAMIENTO",
+                "text": "46 200984 12 9"
+            },
+            {
+                "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+                "text": "SN-98273645"
+            },
+            {
+                "entity": "NUMERO_BENEF_PLAN_SALUD",
+                "text": "B123456789"
+            },
+            {
+                "entity": "NUMERO_BENEF_PLAN_SALUD",
+                "text": "B-45872316"
+            },
+            {
+                "entity": "IDENTIF_BIOMETRICOS",
+                "text": "huella dactilar del pulgar derecho"
+            },
+            {
+                "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+                "text": "E-459-23"
+            },
+            {
+                "entity": "HOSPITAL",
+                "text": "Hospital Clínico San Carlos"
+            },
+            {
+                "entity": "DIREC_PROT_INTERNET",
+                "text": "https://historiaclinica.hospitalregional.es/paciente/area-segura"
+            },
+            {
+                "entity": "DIREC_PROT_INTERNET",
+                "text": "https://historiaclinica.hgugm.es/paciente/AB123CD"
+            },
+            {
+                "entity": "DIREC_PROT_INTERNET",
+                "text": "https://historiaclinica.hospitalcentral.es/paciente/ZXC456TYU"
+            },
+            {
+                "entity": "CALLE",
+                "text": "Avenida de la Constitución 12"
+            },
+            {
+                "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+                "text": "Grado en Medicina"
+            }
+        ]
+    },
+    "009d313d-186b-4023-a396-8e5fabe03d0e": {
+        "id": "009d313d-186b-4023-a396-8e5fabe03d0e",
+        "data": [
+            {
+                "entity": "CORREO_ELECTRONICO",
+                "text": "carlos.martinez@clinic.es"
+            },
+            {
+                "entity": "ID_SUJETO_ASISTENCIA",
+                "text": "B-28473619"
+            },
+            {
+                "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+                "text": "SN-98237641"
+            },
+            {
+                "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+                "text": "SN-98765432"
+            },
+            {
+                "entity": "OTRO_NUMERO_IDENTIF",
+                "text": "HC-2024-789456"
+            },
+            {
+                "entity": "CENTRO_SALUD",
+                "text": "Centro de Salud Los Álamos"
+            },
+            {
+                "entity": "IDENTIF_BIOMETRICOS",
+                "text": "huella dactilar derecha índice, patrón de lazo"
+            },
+            {
+                "entity": "IDENTIF_BIOMETRICOS",
+                "text": "Huella dactilar derecha, índice"
+            },
+            {
+                "entity": "ID_ASEGURAMIENTO",
+                "text": "B123456789"
+            },
+            {
+                "entity": "NUMERO_BENEF_PLAN_SALUD",
+                "text": "B-987654321"
+            },
+            {
+                "entity": "NUMERO_BENEF_PLAN_SALUD",
+                "text": "B123456789"
+            },
+            {
+                "entity": "TERRITORIO",
+                "text": "Comunidad Valenciana"
+            },
+            {
+                "entity": "SEXO_SUJETO_ASISTENCIA",
+                "text": "femenino"
+            },
+            {
+                "entity": "URL_WEB",
+                "text": "https://www.clinicabarcelona.org"
+            }
+        ]
+    },
+    "00a023f3-c02b-4590-b138-d9ae57248b0d": {
+        "id": "00a023f3-c02b-4590-b138-d9ae57248b0d",
+        "data": [
+            {
+                "entity": "CORREO_ELECTRONICO",
+                "text": "carlos.martinez@clinic.es"
+            },
+            {
+                "entity": "PROFESION",
+                "text": "cirujano"
+            },
+            {
+                "entity": "NOMBRE_PERSONAL_SANITARIO",
+                "text": "Dra. Elena Rodríguez Santos"
+            },
+            {
+                "entity": "DIREC_PROT_INTERNET",
+                "text": "https://historiaclinica.hospitalregional.es/paciente/consulta/456789"
+            },
+            {
+                "entity": "DIREC_PROT_INTERNET",
+                "text": "https://historiaclinica.hgugm.es/paciente/area/12345"
+            },
+            {
+                "entity": "URL_WEB",
+                "text": "https://www.clinicabarcelona.org"
+            },
+            {
+                "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+                "text": "María López Martínez"
+            }
+        ]
+    },
+    "00a1a66e-094d-48bb-85b0-5fabb0cbdb2e": {
+        "id": "00a1a66e-094d-48bb-85b0-5fabb0cbdb2e",
+        "data": [
+            {
+                "entity": "CENTRO_SALUD",
+                "text": "Centro de Salud Los Álamos"
+            },
+            {
+                "entity": "EDAD_SUJETO_ASISTENCIA",
+                "text": "67 años"
+            },
+            {
+                "entity": "INSTITUCION",
+                "text": "Ministerio de Sanidad"
+            }
+        ]
+    },
+    "00a4095d-ee9b-4f32-a2e3-6c098712af6f": {
+        "id": "00a4095d-ee9b-4f32-a2e3-6c098712af6f",
+        "data": [
+            {
+                "entity": "ID_SUJETO_ASISTENCIA",
+                "text": "87654321B"
+            },
+            {
+                "entity": "CENTRO_SALUD",
+                "text": "Centro de Salud Los Álamos"
+            },
+            {
+                "entity": "PAIS",
+                "text": "España"
+            },
+            {
+                "entity": "IDENTIF_BIOMETRICOS",
+                "text": "huella dactilar del pulgar derecho"
+            },
+            {
+                "entity": "IDENTIF_BIOMETRICOS",
+                "text": "huella dactilar derecha índice"
+            },
+            {
+                "entity": "NUMERO_FAX",
+                "text": "+34 91 876 54 32"
+            },
+            {
+                "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+                "text": "1234 BCD"
+            },
+            {
+                "entity": "OTRO_NUMERO_IDENTIF",
+                "text": "REF-2024-789234"
+            }
+        ]
+    },
+    "00a5d694-46ad-49ba-a2a0-82313738073f": {
+        "id": "00a5d694-46ad-49ba-a2a0-82313738073f",
+        "data": [
+            {
+                "entity": "EDAD_SUJETO_ASISTENCIA",
+                "text": "67 años"
+            },
+            {
+                "entity": "ID_ASEGURAMIENTO",
+                "text": "46 08 28 123 45"
+            },
+            {
+                "entity": "CENTRO_SALUD",
+                "text": "Centro de Salud Los Álamos"
+            },
+            {
+                "entity": "NOMBRE_SUJETO_ASISTENCIA",
+                "text": "Laura Méndez Iglesias"
+            },
+            {
+                "entity": "URL_WEB",
+                "text": "https://www.clinicabarcelona.org"
+            },
+            {
+                "entity": "PAIS",
+                "text": "España"
+            },
+            {
+                "entity": "NUMERO_TELEFONO",
+                "text": "91-765-4321"
+            }
+        ]
+    },
+    "00a85666-62f1-413f-b1d7-16da8833a113": {
+        "id": "00a85666-62f1-413f-b1d7-16da8833a113",
+        "data": [
+            {
+                "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+                "text": "E-789456"
+            },
+            {
+                "entity": "CORREO_ELECTRONICO",
+                "text": "carlos.martinez@clinic.es"
+            },
+            {
+                "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+                "text": "SN-98237641"
+            },
+            {
+                "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+                "text": "1234 BCD"
+            },
+            {
+                "entity": "OTROS_SUJETO_ASISTENCIA",
+                "text": "Grupo de apoyo de diabetes tipo 2"
+            },
+            {
+                "entity": "NOMBRE_SUJETO_ASISTENCIA",
+                "text": "Laura Méndez Iglesias"
+            },
+            {
+                "entity": "NUMERO_TELEFONO",
+                "text": "612-34-56-78"
+            },
+            {
+                "entity": "EDAD_SUJETO_ASISTENCIA",
+                "text": "67 años"
+            },
+            {
+                "entity": "TERRITORIO",
+                "text": "Comunidad Valenciana"
+            },
+            {
+                "entity": "PROFESION",
+                "text": "cirujano"
+            },
+            {
+                "entity": "PROFESION",
+                "text": "médico de cabecera"
+            },
+            {
+                "entity": "CENTRO_SALUD",
+                "text": "Centro de Salud Los Álamos"
+            },
+            {
+                "entity": "OTRO_NUMERO_IDENTIF",
+                "text": "HC-2024-789456"
+            },
+            {
+                "entity": "OTRO_NUMERO_IDENTIF",
+                "text": "REF-8742-2024"
+            }
+        ]
+    },
+    "00b2baed-d24c-446a-a363-13d4aa8a1d2c": {
+        "id": "00b2baed-d24c-446a-a363-13d4aa8a1d2c",
+        "data": [
+            {
+                "entity": "HOSPITAL",
+                "text": "Hospital Clínico San Carlos"
+            },
+            {
+                "entity": "CENTRO_SALUD",
+                "text": "Centro de Salud Los Álamos"
+            },
+            {
+                "entity": "FECHAS",
+                "text": "12 de julio de 2023"
+            },
+            {
+                "entity": "URL_WEB",
+                "text": "https://www.clinicabarcelona.org"
+            }
+        ]
+    },
+    "00b811d5-4e1e-4909-a77a-d643dcae9b17": {
+        "id": "00b811d5-4e1e-4909-a77a-d643dcae9b17",
+        "data": [
+            {
+                "entity": "ID_SUJETO_ASISTENCIA",
+                "text": "73482915B"
+            },
+            {
+                "entity": "NUMERO_FAX",
+                "text": "+34 91 876 54 32"
+            },
+            {
+                "entity": "OTRO_NUMERO_IDENTIF",
+                "text": "REF-48263915B"
+            },
+            {
+                "entity": "SEXO_SUJETO_ASISTENCIA",
+                "text": "femenino"
+            },
+            {
+                "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+                "text": "E-284739"
+            },
+            {
+                "entity": "PROFESION",
+                "text": "médico"
+            },
+            {
+                "entity": "NUMERO_BENEF_PLAN_SALUD",
+                "text": "B-45872316"
+            }
+        ]
+    },
+    "00bd7258-533d-47d5-bcd7-f4d008a106ea": {
+        "id": "00bd7258-533d-47d5-bcd7-f4d008a106ea",
+        "data": [
+            {
+                "entity": "NUMERO_FAX",
+                "text": "+34 91 876 54 32"
+            },
+            {
+                "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+                "text": "1234 BCD"
+            },
+            {
+                "entity": "CENTRO_SALUD",
+                "text": "Centro de Salud Los Álamos"
+            },
+            {
+                "entity": "URL_WEB",
+                "text": "https://www.clinicabarcelona.es"
+            },
+            {
+                "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+                "text": "María Fernández López"
+            },
+            {
+                "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+                "text": "SN-98237641"
+            }
+        ]
+    },
+    "00c61347-746f-4a53-a9a8-a0fc8b66b243": {
+        "id": "00c61347-746f-4a53-a9a8-a0fc8b66b243",
+        "data": [
+            {
+                "entity": "NOMBRE_SUJETO_ASISTENCIA",
+                "text": "Laura Méndez Iglesias"
+            },
+            {
+                "entity": "ID_SUJETO_ASISTENCIA",
+                "text": "87654321B"
+            },
+            {
+                "entity": "NUMERO_TELEFONO",
+                "text": "612-345-678"
+            },
+            {
+                "entity": "NUMERO_TELEFONO",
+                "text": "612-34-56-78"
+            },
+            {
+                "entity": "CORREO_ELECTRONICO",
+                "text": "carlos.martinez@clinic.es"
+            },
+            {
+                "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+                "text": "Grado en Medicina"
+            },
+            {
+                "entity": "URL_WEB",
+                "text": "https://www.clinicabarcelona.org"
+            },
+            {
+                "entity": "ID_CONTACTO_ASISTENCIAL",
+                "text": "CONT-78451209"
+            },
+            {
+                "entity": "ID_CONTACTO_ASISTENCIAL",
+                "text": "HC-2024-789012"
+            }
+        ]
+    },
+    "00c6243c-3f48-48ed-8ad2-d86d60b24809": {
+        "id": "00c6243c-3f48-48ed-8ad2-d86d60b24809",
+        "data": [
+            {
+                "entity": "EDAD_SUJETO_ASISTENCIA",
+                "text": "67 años"
+            },
+            {
+                "entity": "NOMBRE_SUJETO_ASISTENCIA",
+                "text": "Laura Méndez Iglesias"
+            },
+            {
+                "entity": "ID_SUJETO_ASISTENCIA",
+                "text": "73482914B"
+            },
+            {
+                "entity": "ID_SUJETO_ASISTENCIA",
+                "text": "45872314B"
+            },
+            {
+                "entity": "PROFESION",
+                "text": "cirujano"
+            },
+            {
+                "entity": "NOMBRE_PERSONAL_SANITARIO",
+                "text": "Dra. Elena Rodríguez Santos"
+            },
+            {
+                "entity": "IDENTIF_BIOMETRICOS",
+                "text": "huella dactilar derecha índice, patrón de arcos"
+            },
+            {
+                "entity": "IDENTIF_BIOMETRICOS",
+                "text": "huella dactilar derecha, índice"
+            },
+            {
+                "entity": "IDENTIF_BIOMETRICOS",
+                "text": "Huella dactilar derecha índice"
+            },
+            {
+                "entity": "NUMERO_BENEF_PLAN_SALUD",
+                "text": "B-458712369"
+            },
+            {
+                "entity": "NUMERO_BENEF_PLAN_SALUD",
+                "text": "B123456789"
+            },
+            {
+                "entity": "PAIS",
+                "text": "España"
+            },
+            {
+                "entity": "OTRO_NUMERO_IDENTIF",
+                "text": "HC-2024-789012"
+            },
+            {
+                "entity": "OTRO_NUMERO_IDENTIF",
+                "text": "HC-2024-789456"
+            },
+            {
+                "entity": "HOSPITAL",
+                "text": "Hospital Clínico San Carlos"
+            }
+        ]
+    },
+    "00ca4c0f-859c-4891-acdb-0698c2ded3e1": {
+        "id": "00ca4c0f-859c-4891-acdb-0698c2ded3e1",
+        "data": [
+            {
+                "entity": "PROFESION",
+                "text": "cirujano"
+            },
+            {
+                "entity": "CORREO_ELECTRONICO",
+                "text": "ana.garcia@clinic.es"
+            },
+            {
+                "entity": "CORREO_ELECTRONICO",
+                "text": "carlos.martinez@clinic.es"
+            },
+            {
+                "entity": "CORREO_ELECTRONICO",
+                "text": "ana.martinez@clinic.es"
+            },
+            {
+                "entity": "INSTITUCION",
+                "text": "Ministerio de Sanidad"
+            },
+            {
+                "entity": "NOMBRE_SUJETO_ASISTENCIA",
+                "text": "Laura Méndez Iglesias"
+            },
+            {
+                "entity": "NOMBRE_PERSONAL_SANITARIO",
+                "text": "Dra. Elena Rodríguez Santos"
+            },
+            {
+                "entity": "NUMERO_BENEF_PLAN_SALUD",
+                "text": "B-458712369"
+            },
+            {
+                "entity": "TERRITORIO",
+                "text": "Comunidad Valenciana"
+            },
+            {
+                "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+                "text": "Grado en Medicina"
+            },
+            {
+                "entity": "SEXO_SUJETO_ASISTENCIA",
+                "text": "femenino"
+            },
+            {
+                "entity": "HOSPITAL",
+                "text": "Hospital Clínico San Carlos"
+            },
+            {
+                "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+                "text": "SN-98237641"
+            }
+        ]
+    },
+    "00cde67f-6fb5-4cf9-bef9-380719f69d4f": {
+        "id": "00cde67f-6fb5-4cf9-bef9-380719f69d4f",
+        "data": [
+            {
+                "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+                "text": "SN-98273645"
+            },
+            {
+                "entity": "TERRITORIO",
+                "text": "Comunidad Valenciana"
+            },
+            {
+                "entity": "PAIS",
+                "text": "España"
+            },
+            {
+                "entity": "DIREC_PROT_INTERNET",
+                "text": "https://www.hospitalregional.es/pacientes/consulta-resultados"
+            },
+            {
+                "entity": "PROFESION",
+                "text": "cirujano"
+            },
+            {
+                "entity": "SEXO_SUJETO_ASISTENCIA",
+                "text": "femenino"
+            }
+        ]
+    },
+    "00ce2e9e-9757-403c-8dbf-33234b632b9b": {
+        "id": "00ce2e9e-9757-403c-8dbf-33234b632b9b",
+        "data": [
+            {
+                "entity": "IDENTIF_BIOMETRICOS",
+                "text": "huella dactilar derecha índice"
+            },
+            {
+                "entity": "CORREO_ELECTRONICO",
+                "text": "ana.martinez@clinic.es"
+            },
+            {
+                "entity": "CORREO_ELECTRONICO",
+                "text": "ana.garcia@clinicabarcelona.com"
+            },
+            {
+                "entity": "NUMERO_BENEF_PLAN_SALUD",
+                "text": "B-45872316"
+            },
+            {
+                "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+                "text": "María del Carmen Rodríguez, esposa"
+            },
+            {
+                "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+                "text": "María del Carmen Rodríguez, madre del paciente"
+            },
+            {
+                "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+                "text": "Grado en Medicina"
+            },
+            {
+                "entity": "FECHAS",
+                "text": "12 de julio de 2023"
+            },
+            {
+                "entity": "ID_CONTACTO_ASISTENCIAL",
+                "text": "HC-2024-789012"
+            },
+            {
+                "entity": "ID_CONTACTO_ASISTENCIAL",
+                "text": "CONT-2024-789123"
+            }
+        ]
+    },
+    "00d05a74-bec1-4834-a0eb-29d75a93a784": {
+        "id": "00d05a74-bec1-4834-a0eb-29d75a93a784",
+        "data": [
+            {
+                "entity": "NOMBRE_SUJETO_ASISTENCIA",
+                "text": "Laura Méndez Iglesias"
+            },
+            {
+                "entity": "NUMERO_FAX",
+                "text": "+34 91 876 54 32"
+            },
+            {
+                "entity": "ID_ASEGURAMIENTO",
+                "text": "B123456789"
+            },
+            {
+                "entity": "ID_ASEGURAMIENTO",
+                "text": "46 08 28 453 01"
+            },
+            {
+                "entity": "PROFESION",
+                "text": "cirujano cardiovascular"
+            },
+            {
+                "entity": "PROFESION",
+                "text": "cirujano"
+            },
+            {
+                "entity": "NOMBRE_PERSONAL_SANITARIO",
+                "text": "Dra. Elena Rodríguez"
+            },
+            {
+                "entity": "TERRITORIO",
+                "text": "Comunidad Valenciana"
+            },
+            {
+                "entity": "SEXO_SUJETO_ASISTENCIA",
+                "text": "femenino"
+            },
+            {
+                "entity": "URL_WEB",
+                "text": "https://www.clinicabarcelona.org"
+            },
+            {
+                "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+                "text": "E-284739-B"
+            },
+            {
+                "entity": "ID_CONTACTO_ASISTENCIAL",
+                "text": "HC-2024-789123"
+            },
+            {
+                "entity": "ID_CONTACTO_ASISTENCIAL",
+                "text": "C-2024-789012"
+            },
+            {
+                "entity": "IDENTIF_BIOMETRICOS",
+                "text": "huella dactilar derecha índice"
+            },
+            {
+                "entity": "IDENTIF_BIOMETRICOS",
+                "text": "Huella dactilar derecha índice"
+            }
+        ]
+    },
+    "00d874a1-ee5e-4e6f-9fe7-4c66681cd7ac": {
+        "id": "00d874a1-ee5e-4e6f-9fe7-4c66681cd7ac",
+        "data": [
+            {
+                "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+                "text": "María del Carmen Rodríguez"
+            },
+            {
+                "entity": "NUMERO_BENEF_PLAN_SALUD",
+                "text": "B-45872316"
+            },
+            {
+                "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+                "text": "E-789456"
+            },
+            {
+                "entity": "ID_ASEGURAMIENTO",
+                "text": "ES-87654321-X"
+            },
+            {
+                "entity": "OTROS_SUJETO_ASISTENCIA",
+                "text": "alérgico a la penicilina"
+            },
+            {
+                "entity": "OTROS_SUJETO_ASISTENCIA",
+                "text": "Grupo de apoyo de ansiedad"
+            },
+            {
+                "entity": "CORREO_ELECTRONICO",
+                "text": "carlos.martinez@clinic.es"
+            }
+        ]
+    },
+    "00db709f-42a2-484e-80bc-d06eab80c07d": {
+        "id": "00db709f-42a2-484e-80bc-d06eab80c07d",
+        "data": [
+            {
+                "entity": "ID_CONTACTO_ASISTENCIAL",
+                "text": "HC-2024-789123"
+            },
+            {
+                "entity": "ID_CONTACTO_ASISTENCIAL",
+                "text": "HC-2024-789012"
+            },
+            {
+                "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+                "text": "hermana del paciente"
+            },
+            {
+                "entity": "FECHAS",
+                "text": "12 de julio de 2023"
+            },
+            {
+                "entity": "SEXO_SUJETO_ASISTENCIA",
+                "text": "femenino"
+            },
+            {
+                "entity": "NOMBRE_PERSONAL_SANITARIO",
+                "text": "Dra. Elena Rodríguez Santos"
+            },
+            {
+                "entity": "PAIS",
+                "text": "España"
+            },
+            {
+                "entity": "NUMERO_FAX",
+                "text": "+34 91 876 54 32"
+            },
+            {
+                "entity": "TERRITORIO",
+                "text": "Comunidad Valenciana"
+            },
+            {
+                "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+                "text": "E-789456"
+            },
+            {
+                "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+                "text": "E-459-23"
+            }
+        ]
+    },
+    "00ddf941-2d74-41a6-b6f1-96ae765c2bfc": {
+        "id": "00ddf941-2d74-41a6-b6f1-96ae765c2bfc",
+        "data": [
+            {
+                "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+                "text": "SN-98237641"
+            },
+            {
+                "entity": "SEXO_SUJETO_ASISTENCIA",
+                "text": "femenino"
+            },
+            {
+                "entity": "FECHAS",
+                "text": "12 de julio de 2023"
+            },
+            {
+                "entity": "CENTRO_SALUD",
+                "text": "Centro de Salud Los Álamos"
+            },
+            {
+                "entity": "CORREO_ELECTRONICO",
+                "text": "carlos.martinez@clinic.es"
+            },
+            {
+                "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+                "text": "1234 BCD"
+            }
+        ]
+    },
+    "00e189ee-7ed8-4ea2-8b61-a05df4dc7a5b": {
+        "id": "00e189ee-7ed8-4ea2-8b61-a05df4dc7a5b",
+        "data": [
+            {
+                "entity": "INSTITUCION",
+                "text": "Ministerio de Sanidad"
+            },
+            {
+                "entity": "IDENTIF_BIOMETRICOS",
+                "text": "huella dactilar derecha índice, patrón de lazo"
+            },
+            {
+                "entity": "IDENTIF_BIOMETRICOS",
+                "text": "huella dactilar derecha índice"
+            },
+            {
+                "entity": "FECHAS",
+                "text": "12 de julio de 2023"
+            },
+            {
+                "entity": "EDAD_SUJETO_ASISTENCIA",
+                "text": "67 años"
+            },
+            {
+                "entity": "NOMBRE_PERSONAL_SANITARIO",
+                "text": "Dra. Elena Rodríguez Santos"
+            },
+            {
+                "entity": "SEXO_SUJETO_ASISTENCIA",
+                "text": "femenino"
+            },
+            {
+                "entity": "PROFESION",
+                "text": "cirujano"
+            },
+            {
+                "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+                "text": "1234 BCD"
+            },
+            {
+                "entity": "CALLE",
+                "text": "Avenida de la Constitución 12"
+            },
+            {
+                "entity": "HOSPITAL",
+                "text": "Hospital Clínico San Carlos"
+            },
+            {
+                "entity": "NUMERO_FAX",
+                "text": "+34 91 876 54 32"
+            }
+        ]
+    },
+    "00eba044-6fff-4e32-8222-36f9003f5bba": {
+        "id": "00eba044-6fff-4e32-8222-36f9003f5bba",
+        "data": [
+            {
+                "entity": "PROFESION",
+                "text": "cirujano"
+            },
+            {
+                "entity": "NUMERO_TELEFONO",
+                "text": "612-345-678"
+            },
+            {
+                "entity": "CENTRO_SALUD",
+                "text": "Centro de Salud Los Álamos"
+            }
+        ]
+    }
+}
