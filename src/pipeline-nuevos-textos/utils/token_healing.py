@@ -84,52 +84,61 @@ def fix_entity_boundaries(
     original_end = end
     
     # ========================================================================
-    # EXPANSIÓN A IZQUIERDA
+    # DETECTAR: ¿Hay carácter de palabra justo ANTES o DESPUÉS?
     # ========================================================================
-    # Expandir hacia atrás hasta encontrar un límite (espacio, salto línea, inicio)
+    # Si hay espacio en AMBOS lados, NO hay que hacer nada
+    # Si no hay espacio en algún lado, expandir SOLO ese lado
+    
+    has_space_before = (start == 0) or original_text[start - 1].isspace()
+    has_space_after = (end >= len(original_text)) or original_text[end].isspace()
+    
+    # Si está rodeada de espacios por ambos lados, ya está completa
+    if has_space_before and has_space_after:
+        fixed_entity["boundary_fixed"] = False
+        fixed_entity["original_start"] = original_start
+        fixed_entity["original_end"] = original_end
+        fixed_entity["original_text"] = entity.get("text", "")
+        return fixed_entity
+    
+    # ========================================================================
+    # EXPANSIÓN A IZQUIERDA (solo si NO hay espacio antes)
+    # ========================================================================
+    # Expandir hacia atrás hasta encontrar espacio o salto de línea
+    # Los guiones, puntuación y otros caracteres se capturan normalmente
     new_start = start
     expansion_count = 0
     
-    while new_start > 0 and expansion_count < max_expansion_chars:
-        # Mirar el carácter anterior
-        prev_char = original_text[new_start - 1]
-        
-        # Detener si encontramos un delimitador
-        if prev_char.isspace():
-            # Espacio, tabulación, salto de línea, etc.
-            break
-        
-        # En modo smart: si encontramos puntuación de límite, parar
-        if smart_mode and prev_char in '.,;:!?([{':
-            break
-        
-        # Expandir un carácter más hacia la izquierda
-        new_start -= 1
-        expansion_count += 1
+    if not has_space_before:
+        while new_start > 0 and expansion_count < max_expansion_chars:
+            prev_char = original_text[new_start - 1]
+            
+            # DETENER si es espacio o salto de línea
+            if prev_char.isspace():
+                break
+            
+            # Expandir: guiones, puntuación, letras, números, etc.
+            new_start -= 1
+            expansion_count += 1
     
     # ========================================================================
-    # EXPANSIÓN A DERECHA
+    # EXPANSIÓN A DERECHA (solo si NO hay espacio después)
     # ========================================================================
-    # Expandir hacia adelante hasta encontrar un límite (espacio, salto línea, fin)
+    # Expandir hacia adelante hasta encontrar espacio o salto de línea
+    # Los guiones, puntuación y otros caracteres se capturan normalmente
     new_end = end
     expansion_count = 0
     
-    while new_end < len(original_text) and expansion_count < max_expansion_chars:
-        # Mirar el carácter actual en la posición end
-        curr_char = original_text[new_end]
-        
-        # Detener si encontramos un delimitador
-        if curr_char.isspace():
-            # Espacio, tabulación, salto de línea, etc.
-            break
-        
-        # En modo smart: si encontramos puntuación de límite, parar
-        if smart_mode and curr_char in '.,;:!?)]}':
-            break
-        
-        # Expandir un carácter más hacia la derecha
-        new_end += 1
-        expansion_count += 1
+    if not has_space_after:
+        while new_end < len(original_text) and expansion_count < max_expansion_chars:
+            curr_char = original_text[new_end]
+            
+            # DETENER si es espacio o salto de línea
+            if curr_char.isspace():
+                break
+            
+            # Expandir: guiones, puntuación, letras, números, etc.
+            new_end += 1
+            expansion_count += 1
     
     # ========================================================================
     # EXTRACCIÓN DEL NUEVO TEXTO
@@ -228,11 +237,12 @@ if __name__ == "__main__":
     original_doc = "Mi nombre es Hola mundo, y vivo en Barcelona."
     
     # Entidad detectada incorrectamente: solo "ola" en lugar de "Hola"
+    # Nota: "Hola" está en posición [13:17], pero detectamos solo [14:17] = "ola"
     dirty_entity = {
         "text": "ola",
         "entity": "NOMBRE",
-        "start": 15,
-        "end": 18,
+        "start": 14,
+        "end": 17,
         "doc_id": "doc_001"
     }
     
@@ -257,14 +267,12 @@ if __name__ == "__main__":
     print("EJEMPLO 2: Múltiples entidades")
     print("=" * 80)
     
-    original_doc2 = """El Dr. Juan García trabaja en el Hospital San Carlos.
-    Su teléfono es +34 91 876 54 32 y vive en Paseo Castellana 100."""
+    original_doc2 = "El Dr. Juan García trabaja en el Hospital San Carlos."
     
     dirty_entities = [
-        {"text": "uan", "entity": "NOMBRE", "start": 8, "end": 11},  # "Juan" cortado
-        {"text": "arcía", "entity": "NOMBRE", "start": 16, "end": 21},  # "García" cortado
-        {"text": "ospital", "entity": "INSTITUCION", "start": 37, "end": 44},  # "Hospital" cortado
-        {"text": "4 91", "entity": "NUMERO_TELEFONO", "start": 88, "end": 92},  # "+34 91" cortado
+        {"text": "uan", "entity": "NOMBRE", "start": 8, "end": 11},  # "Juan" en [7:11], cortado
+        {"text": "arcía", "entity": "APELLIDO", "start": 13, "end": 18},  # "García" en [12:18], cortado
+        {"text": "ospital", "entity": "INSTITUCION", "start": 34, "end": 41},  # "Hospital" en [33:41], cortado
     ]
     
     print(f"\nTexto original:\n{original_doc2}\n")
@@ -295,8 +303,8 @@ if __name__ == "__main__":
     correct_entity = {
         "text": "Laura",
         "entity": "NOMBRE",
-        "start": 11,
-        "end": 16,
+        "start": 13,
+        "end": 18,
     }
     
     fixed = fix_entity_boundaries(correct_entity, original_doc3)

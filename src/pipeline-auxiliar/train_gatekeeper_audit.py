@@ -57,15 +57,15 @@ SETFIT_BASE_MODEL = "sentence-transformers/paraphrase-multilingual-mpnet-base-v2
 SETFIT_BASE_MODEL_ANTIGUO = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
 
 # Número de ejemplos por categoría
-EXAMPLES_PER_CATEGORY = 20
+EXAMPLES_PER_CATEGORY = 15  # Reducido de 20 para entrenamiento más rápido
 
 # Hiperparámetros de entrenamiento (Fine-Grained Decision Boundary)
 TRAINING_HYPERPARAMS = {
-    "num_iterations": 40,  # Aumentado de 20 para mejor aprendizaje contrastivo
+    "num_iterations": 20,  # Reducido de 40 para evitar timeout
     "num_epochs": 1,
-    "learning_rate": 2e-5,  # Learning rate conservador para estabilidad
-    "batch_size": 16,
-    "max_iter": 100,  # Para el clasificador final
+    "learning_rate": 3e-5,  # Ligeramente más alto para convergencia rápida
+    "batch_size": 8,  # Reducido de 16 para evitar OOM
+    "max_iter": 50,  # Reducido de 100 para clasificador final
 }
 
 
@@ -191,6 +191,17 @@ POSITIVE_TEMPLATES: Dict[str, List[str]] = {
         "Hijo/a [{child_name}] de [{child_age}] años.",
         "Familiar de contacto: [{family_name}].",
         "Cuidador principal: [{caregiver_name}].",
+        # Contexto específico con relación + nombre = PII
+        "La madre [{mother_name}] acompaña al paciente.",
+        "El padre [{father_name}] es su responsable legal.",
+        "Hermana [{sister_name}] será el contacto principal.",
+        "Hermano [{brother_name}] tiene antecedentes similares.",
+        "Esposo [{spouse_name}] es médico en [{hospital_name}].",
+        "Esposa [{spouse_name}] trabaja en el mismo centro.",
+        "Abuela [{grandmother_name}] vive con el paciente.",
+        "Abuelo [{grandfather_name}] también diabético.",
+        "Tío [{uncle_name}] es oncólogo.",
+        "Tía [{aunt_name}] padece artritis.",
     ],
     "INSTITUCION": [
         "Remitido desde [{institution}].",
@@ -416,11 +427,30 @@ NEGATIVE_TEMPLATES: Dict[str, List[str]] = {
         "Sala de [reanimación].",
     ],
     "FAMILIARES_SUJETO_ASISTENCIA": [
-        # Antecedentes familiares genéricos
+        # Antecedentes familiares genéricos - SIN NOMBRES específicos = RUIDO
         "[Padre] con HTA.",
         "[Madre] diabética.",
         "Antecedentes familiares de [cáncer].",
         "[Hermano] fallecido.",
+        # Contexto familiar SIN nombres específicos = RUIDO
+        "Historia familiar de [hipertensión].",
+        "[Familia] con antecedentes de infarto.",
+        "Padres con [enfermedad].",
+        "Abuelos con [diabetes].",
+        "[Hermana] con artritis reumatoide.",
+        "[Hermano] con asma.",
+        "[Tío] con cáncer de pulmón.",
+        "[Tía] con tiroiditis.",
+        "Los [padres] tienen HTA.",
+        "[Familia] sin antecedentes relevantes.",
+        "Antecedentes [familiares] de EPOC.",
+        "[Familiares] allegados sanos.",
+        # Términos genéricos de relación
+        "Relación [familiar] estable.",
+        "Apoyo [familiar] presente.",
+        "Red [familiar] adecuada.",
+        "Situación [familiar] compleja.",
+        "Dinámica [familiar] conflictiva.",
     ],
     "INSTITUCION": [
         # Servicios médicos

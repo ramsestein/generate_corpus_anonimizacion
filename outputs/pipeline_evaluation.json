@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "generated_at": "2025-12-10T09:44:34.696984",
+    "evaluation_type": "pipeline_filtering_inverted",
+    "flow": "SetFit(PII/RUIDO) -> RUIDO: DictFilters(rescue) -> LLM(rescue)"
+  },
+  "metrics": {
+    "global": {
+      "tp": 0,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "accuracy": 0
+    },
+    "by_label": {},
+    "by_source": {
+      "setfit": {
+        "tp": 0,
+        "fp": 0,
+        "total": 0,
+        "precision": 0.0
+      },
+      "dict_whitelist": {
+        "tp": 0,
+        "fp": 0,
+        "total": 0,
+        "precision": 0.0
+      },
+      "llm_rescue": {
+        "tp": 0,
+        "fp": 0,
+        "total": 0,
+        "precision": 0.0
+      },
+      "unknown": {
+        "tp": 0,
+        "fp": 0,
+        "total": 0,
+        "precision": 0.0
+      }
+    }
+  }
+}

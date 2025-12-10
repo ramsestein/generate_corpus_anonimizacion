@@ -4,7 +4,7 @@
 
 | Campo | Valor |
 |-------|-------|
-| **Fecha/Hora** | 2025-12-09 13:01:08 |
+| **Fecha/Hora** | 2025-12-09 19:14:33 |
 | **Modelo Base** | `sentence-transformers/paraphrase-multilingual-mpnet-base-v2` |
 | **Ruta del Modelo** | `models\setfit_high_precision_v2` |
 
@@ -35,7 +35,7 @@
 
 | Métrica | Valor |
 |---------|-------|
-| **error** | (MaxRetryError("HTTPSConnectionPool(host='cas-bridge.xethub.hf.co', port=443): Max retries exceeded with url: /xet-bridge-us/621ffdc136468d709f1802ed/c253da53de897bed72b0c450f220f159fd512827b02704b12d98b363eb0274a8?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cas%2F20251209%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251209T115309Z&X-Amz-Expires=3600&X-Amz-Signature=f6290751353cb965938abd7d6b29c07349e1b087a65ac2861ed59c0770c34593&X-Amz-SignedHeaders=host&X-Xet-Cas-Uid=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27model.safetensors%3B+filename%3D%22model.safetensors%22%3B&x-id=GetObject&Expires=1765284789&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc2NTI4NDc4OX19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2FzLWJyaWRnZS54ZXRodWIuaGYuY28veGV0LWJyaWRnZS11cy82MjFmZmRjMTM2NDY4ZDcwOWYxODAyZWQvYzI1M2RhNTNkZTg5N2JlZDcyYjBjNDUwZjIyMGYxNTlmZDUxMjgyN2IwMjcwNGIxMmQ5OGIzNjNlYjAyNzRhOCoifV19&Signature=KI9H3R6NuExxu8HrTBY9uobttszXV9vyKoNTavhffPsxpmi0POrCt~WdmswU7iO6d1v7EvBoCLZlP~XRQ7MYs~RWwnEdv8qKOvtoQZy6S3S1vAX1yGAUwP5dfaDpz3RDxOOuf~~foUJDGNnXquq9RFpmRQ9Gie-vBGJXJIYZC-qaOdOliRabNtfObjeDX2oyQvacLaIXXc6X6lBD3wAI4RJLrYxOzBYIXP7FKD4oEQoqtTooksipa~fFcDXKGn2rOYVHy77k-G-zz3Cbodm3mqoSj6Cu1HmdpOmk7i9mFXaaoOKspwpFL9QOexGUJ5JyiB7lQikmACUl2wBEdYrihA__&Key-Pair-Id=K2L8F4GPSG1IFC (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1032)')))"), '(Request ID: 407f7d76-de94-4d8b-814d-c597734d9f1a)') |
+| **error** | int() argument must be a string, a bytes-like object or a real number, not 'NoneType' |
 
 ---
 

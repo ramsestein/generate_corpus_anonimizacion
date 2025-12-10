@@ -71,6 +71,7 @@ from setfit_module import run_setfit_filter
 from dict_filters import apply_dict_filters
 from llm_judge import run_llm_judge
 from utils.csv_converter import read_csv_detections, merge_continuous_entities, generate_pipeline_json
+from utils.token_healing import fix_entity_boundaries, batch_fix_entity_boundaries
 
 
 # ============================================================================
@@ -298,6 +299,56 @@ def add_context_to_entities(
     return entities_with_context
 
 
+def apply_token_healing_to_entities(
+    entities: List[Dict[str, Any]],
+    documents: Dict[str, str]
+) -> List[Dict[str, Any]]:
+    """
+    Aplica token healing a las entidades para corregir fronteras.
+    
+    Expande las coordenadas (start, end) de una entidad para capturar
+    palabras completas en lugar de fragmentos. Solo expande si no hay
+    espacio en los bordes (indicando que la palabra está cortada).
+    
+    Args:
+        entities: Lista de entidades
+        documents: Dict de documentos {doc_id: texto}
+        
+    Returns:
+        Lista de entidades con coordenadas reparadas
+    """
+    healed_entities = []
+    stats_healing = {
+        "total_processed": 0,
+        "total_fixed": 0,
+        "errors": 0,
+    }
+    
+    for entity in entities:
+        doc_id = entity.get('doc_id', entity.get('document_id', ''))
+        doc_text = documents.get(doc_id)
+        
+        if not doc_text:
+            healed_entities.append(entity)
+            continue
+        
+        try:
+            stats_healing["total_processed"] += 1
+            healed = fix_entity_boundaries(entity, doc_text)
+            
+            if healed.get("boundary_fixed", False):
+                stats_healing["total_fixed"] += 1
+            
+            healed_entities.append(healed)
+            
+        except Exception as e:
+            logging.warning(f"Error en token healing para entidad {entity.get('text')}: {e}")
+            stats_healing["errors"] += 1
+            healed_entities.append(entity)
+    
+    return healed_entities
+
+
 # ============================================================================
 # PIPELINE PRINCIPAL
 # ============================================================================
@@ -401,6 +452,18 @@ class FullPipeline:
             self.logger.info(f"  -> Entidades con contexto: {with_context}/{len(normalized)}")
         else:
             self.logger.warning("  -> No se pudieron cargar documentos, SetFit usará solo el texto de la entidad")
+        
+        # ====================================================================
+        # PASO 0.5: Token Healing - Reparar fronteras de entidades
+        # ====================================================================
+        if documents:
+            self.logger.info("\n[REPARACIÓN] Aplicando token healing para corregir fronteras...")
+            
+            normalized = apply_token_healing_to_entities(normalized, documents)
+            
+            # Contar cuántas fueron reparadas
+            healed_count = sum(1 for e in normalized if e.get('boundary_fixed', False))
+            self.logger.info(f"  -> Entidades reparadas: {healed_count}/{len(normalized)}")
         
         # ====================================================================
         # PASO 1: SetFit - Clasificación binaria PII/RUIDO
