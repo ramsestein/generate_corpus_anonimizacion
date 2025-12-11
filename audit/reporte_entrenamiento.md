@@ -4,7 +4,7 @@
 
 | Campo | Valor |
 |-------|-------|
-| **Fecha/Hora** | 2025-12-09 19:14:33 |
+| **Fecha/Hora** | 2025-12-11 13:04:33 |
 | **Modelo Base** | `sentence-transformers/paraphrase-multilingual-mpnet-base-v2` |
 | **Ruta del Modelo** | `models\setfit_high_precision_v2` |
 
@@ -14,9 +14,9 @@
 
 | Métrica | Valor |
 |---------|-------|
-| **Total de frases** | 1800 |
-| **Clase 1 (PII)** | 900 (50.0%) |
-| **Clase 0 (Ruido)** | 900 (50.0%) |
+| **Total de frases** | 900 |
+| **Clase 1 (PII)** | 450 (50.0%) |
+| **Clase 0 (Ruido)** | 450 (50.0%) |
 | **Categorías procesadas** | 30 |
 
 ---
@@ -45,56 +45,56 @@
 
 | # | Categoría | Texto |
 |---|-----------|-------|
-| 1 | `OTROS_SUJETO_ASISTENCIA` | Conocido como 'Chato'. |
-| 2 | `FAMILIARES_SUJETO_ASISTENCIA` | Padre: [Jose Manuel de Cerezo]. |
-| 3 | `ID_SUJETO_ASISTENCIA` | CIPA: [nhc-907498]. |
-| 4 | `OTRO_NUMERO_IDENTIF` | Nº Socio: [9766137210]. |
-| 5 | `PROFESION` | Trabaja como [electricista]. |
+| 1 | `FECHAS` | Alta médica el día [23/11/1986]. |
+| 2 | `NOMBRE_PERSONAL_SANITARIO` | Médico responsable: [Georgina Monreal-Piñeiro]. |
+| 3 | `ID_TITULACION_PERSONAL_SANITARIO` | Médico colegiado [39-11777]. |
+| 4 | `IDENTIF_VEHICULOS_NRSERIE_PLACAS` | Vehículo [4440TCJ]. |
+| 5 | `CENTRO_SALUD` | Pertenece al Centro de Salud [Puerta del Ángel]. |
 
 ### ❌ Ejemplos Clase 0 (Ruido - NO Anonimizar)
 
 | # | Categoría | Texto |
 |---|-----------|-------|
-| 1 | `SEXO_SUJETO_ASISTENCIA` | Cromosoma [X] normal. |
-| 2 | `CALLE` | Administrar [pauta 3x1]. |
-| 3 | `EDAD_SUJETO_ASISTENCIA` | Glucemia [110] mg/dl. |
-| 4 | `PROFESION` | Paciente [trabajador] respiratorio. |
-| 5 | `URL_WEB` | Término médico no sensible para URL_WEB. |
+| 1 | `NUMERO_FAX` | Término médico no sensible para NUMERO_FAX. |
+| 2 | `EDAD_SUJETO_ASISTENCIA` | IMC [25]. |
+| 3 | `CALLE` | Grado [III/IV]. |
+| 4 | `ID_ASEGURAMIENTO` | Término médico no sensible para ID_ASEGURAMIENTO. |
+| 5 | `EDAD_SUJETO_ASISTENCIA` | Temperatura [36.5]ºC. |
 
 ---
 
 ## 📋 Categorías Procesadas
 
-- `CALLE` (60 ejemplos)
-- `CENTRO_SALUD` (60 ejemplos)
-- `CORREO_ELECTRONICO` (60 ejemplos)
-- `DIREC_PROT_INTERNET` (60 ejemplos)
-- `EDAD_SUJETO_ASISTENCIA` (60 ejemplos)
-- `FAMILIARES_SUJETO_ASISTENCIA` (60 ejemplos)
-- `FECHAS` (60 ejemplos)
-- `HOSPITAL` (60 ejemplos)
-- `IDENTIF_BIOMETRICOS` (60 ejemplos)
-- `IDENTIF_DISPOSITIVOS_NRSERIE` (60 ejemplos)
-- `IDENTIF_VEHICULOS_NRSERIE_PLACAS` (60 ejemplos)
-- `ID_ASEGURAMIENTO` (60 ejemplos)
-- `ID_CONTACTO_ASISTENCIAL` (60 ejemplos)
-- `ID_EMPLEO_PERSONAL_SANITARIO` (60 ejemplos)
-- `ID_SUJETO_ASISTENCIA` (60 ejemplos)
-- `ID_TITULACION_PERSONAL_SANITARIO` (60 ejemplos)
-- `INSTITUCION` (60 ejemplos)
-- `NOMBRE_PERSONAL_SANITARIO` (60 ejemplos)
-- `NOMBRE_SUJETO_ASISTENCIA` (60 ejemplos)
-- `NUMERO_BENEF_PLAN_SALUD` (60 ejemplos)
-- `NUMERO_FAX` (60 ejemplos)
-- `NUMERO_IDENTIF` (60 ejemplos)
-- `NUMERO_TELEFONO` (60 ejemplos)
-- `OTROS_SUJETO_ASISTENCIA` (60 ejemplos)
-- `OTRO_NUMERO_IDENTIF` (60 ejemplos)
-- `PAIS` (60 ejemplos)
-- `PROFESION` (60 ejemplos)
-- `SEXO_SUJETO_ASISTENCIA` (60 ejemplos)
-- `TERRITORIO` (60 ejemplos)
-- `URL_WEB` (60 ejemplos)
+- `CALLE` (30 ejemplos)
+- `CENTRO_SALUD` (30 ejemplos)
+- `CORREO_ELECTRONICO` (30 ejemplos)
+- `DIREC_PROT_INTERNET` (30 ejemplos)
+- `EDAD_SUJETO_ASISTENCIA` (30 ejemplos)
+- `FAMILIARES_SUJETO_ASISTENCIA` (30 ejemplos)
+- `FECHAS` (30 ejemplos)
+- `HOSPITAL` (30 ejemplos)
+- `IDENTIF_BIOMETRICOS` (30 ejemplos)
+- `IDENTIF_DISPOSITIVOS_NRSERIE` (30 ejemplos)
+- `IDENTIF_VEHICULOS_NRSERIE_PLACAS` (30 ejemplos)
+- `ID_ASEGURAMIENTO` (30 ejemplos)
+- `ID_CONTACTO_ASISTENCIAL` (30 ejemplos)
+- `ID_EMPLEO_PERSONAL_SANITARIO` (30 ejemplos)
+- `ID_SUJETO_ASISTENCIA` (30 ejemplos)
+- `ID_TITULACION_PERSONAL_SANITARIO` (30 ejemplos)
+- `INSTITUCION` (30 ejemplos)
+- `NOMBRE_PERSONAL_SANITARIO` (30 ejemplos)
+- `NOMBRE_SUJETO_ASISTENCIA` (30 ejemplos)
+- `NUMERO_BENEF_PLAN_SALUD` (30 ejemplos)
+- `NUMERO_FAX` (30 ejemplos)
+- `NUMERO_IDENTIF` (30 ejemplos)
+- `NUMERO_TELEFONO` (30 ejemplos)
+- `OTROS_SUJETO_ASISTENCIA` (30 ejemplos)
+- `OTRO_NUMERO_IDENTIF` (30 ejemplos)
+- `PAIS` (30 ejemplos)
+- `PROFESION` (30 ejemplos)
+- `SEXO_SUJETO_ASISTENCIA` (30 ejemplos)
+- `TERRITORIO` (30 ejemplos)
+- `URL_WEB` (30 ejemplos)
 
 ---
 
@@ -104,9 +104,9 @@
 
 | Parámetro | Valor | Justificación |
 |-----------|-------|---------------|
-| **num_iterations** | 40 | Más pares contrastivos → mejor boundary |
-| **learning_rate** | 2e-05 | Learning rate conservador para estabilidad |
-| **batch_size** | 16 | Balance entre velocidad y precisión |
+| **num_iterations** | 20 | Más pares contrastivos → mejor boundary |
+| **learning_rate** | 3e-05 | Learning rate conservador para estabilidad |
+| **batch_size** | 8 | Balance entre velocidad y precisión |
 | **metric** | F1-Score | Optimización del balance Precision/Recall |
 
 ### ⚠️ Análisis de Recall

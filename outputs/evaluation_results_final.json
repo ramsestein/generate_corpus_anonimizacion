@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "generated_at": "2025-12-11T14:40:21.562026",
+    "evaluation_type": "pii_detection",
+    "definitions": {
+      "TP": "Predicción que existe en GT (correcto)",
+      "FP": "Predicción que NO existe en GT (falsa alarma)",
+      "FN": "Entidad en GT que NO fue predicha (perdido)"
+    }
+  },
+  "metrics": {
+    "global": {
+      "tp": 91998,
+      "fp": 61769,
+      "fn": 24170,
+      "precision": 0.5983,
+      "recall": 0.7919,
+      "f1": 0.6816
+    },
+    "by_source": {
+      "setfit": {
+        "tp": 90736,
+        "fp": 61249,
+        "total": 151985,
+        "precision": 0.5970062835148205
+      },
+      "llm_rescue": {
+        "tp": 1094,
+        "fp": 508,
+        "total": 1602,
+        "precision": 0.682896379525593
+      },
+      "dict_whitelist": {
+        "tp": 168,
+        "fp": 12,
+        "total": 180,
+        "precision": 0.9333333333333333
+      }
+    },
+    "document_stats": {
+      "total": 14035,
+      "with_predictions": 14017,
+      "with_gt": 14035,
+      "common": 14017
+    }
+  }
+}

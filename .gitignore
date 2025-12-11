@@ -53,3 +53,6 @@ step*_localization_metadata.json
 checkpoints/
 *.safetensors
 *.pt
+
+outputs/pipeline_results_full.json
+outputs/temp_pipeline_input.json
