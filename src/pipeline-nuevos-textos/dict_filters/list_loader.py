@@ -13,7 +13,7 @@ Proporciona una API simple y consistente para consultas.
 import json
 import logging
 from pathlib import Path
-from typing import Dict, List, Optional, Set, Any
+from typing import Dict, List, Optional, Set, Any, Iterable
 
 logger = logging.getLogger(__name__)
 
@@ -69,6 +69,8 @@ class ListLoader:
         # Diccionarios por fuente (para debugging)
         self.whitelist_by_source: Dict[str, Set[str]] = {}
         self.blacklist_by_source: Dict[str, Set[str]] = {}
+        # Rutas ya procesadas (evita carga duplicada)
+        self._processed_files: Set[str] = set()
         
         # Procesadores flashtext
         self._whitelist_processor = None
@@ -118,9 +120,13 @@ class ListLoader:
                     self.blacklist_by_source[Path(path).name] = terms
                     logger.info(f"Loaded {len(terms)} blacklist terms from {Path(path).name}")
         
-        # CSV/Excel
+        # CSV/Excel (carpeta configurada)
         if csv_base_path and Path(csv_base_path).exists():
             self._load_csv_excel_folder(csv_base_path)
+
+        # Carga automática adicional de Excel en carpetas LISTAS/listas si existen
+        # (no altera la lógica del pipeline; solo amplía las fuentes de datos)
+        self._auto_load_default_excel_dirs(preferred=csv_base_path)
         
         # CIE10
         if cie10_path and Path(cie10_path).exists():
@@ -158,7 +164,12 @@ class ListLoader:
                 self._extract_strings_recursive(value, accumulator)
     
     def _load_csv_excel_folder(self, folder_path: str):
-        """Carga todos los archivos CSV/Excel de una carpeta."""
+        """
+        Carga todos los archivos CSV/Excel de una carpeta.
+
+        - Mantiene compatibilidad con CSV existentes.
+        - Para Excel, se delega en un lector que procesa todas las hojas.
+        """
         try:
             import pandas as pd
         except ImportError:
@@ -170,21 +181,35 @@ class ListLoader:
         
         for ext in extensions:
             for file_path in folder.glob(ext):
+                # Evitar reprocesar el mismo archivo si ya fue cargado
+                if str(file_path.resolve()) in self._processed_files:
+                    continue
                 self._process_csv_excel_file(file_path)
     
     def _process_csv_excel_file(self, file_path: Path):
-        """Procesa un archivo CSV/Excel individual."""
+        """
+        Procesa un archivo CSV/Excel individual.
+
+        - CSV: comportamiento actual (detección de columnas relevantes).
+        - Excel (.xls/.xlsx): lee TODAS las hojas y extrae TODOS los valores textuales.
+        """
         try:
             import pandas as pd
             
             # Leer archivo
             if file_path.suffix == '.csv':
                 df = pd.read_csv(file_path, encoding='utf-8')
+                if df.empty:
+                    logger.warning(f"Empty CSV file: {file_path.name}, skipping")
+                    return
+                dfs: Iterable = [df]
             else:
-                df = pd.read_excel(file_path)
-            
-            if df.empty:
-                return
+                # Excel: cargar TODAS las hojas
+                excel_obj = pd.read_excel(file_path, sheet_name=None)
+                if not excel_obj:
+                    logger.warning(f"Empty Excel file (no sheets): {file_path.name}, skipping")
+                    return
+                dfs = excel_obj.values()
             
             # Determinar tipo
             file_name_lower = file_path.name.lower()
@@ -201,14 +226,27 @@ class ListLoader:
                 logger.warning(f"Cannot classify {file_path.name}, skipping")
                 return
             
-            # Detectar columnas
-            columns = self._detect_relevant_columns(file_path.name, df)
-            if not columns:
-                return
-            
-            # Extraer valores
             lowercase = self.lowercase_blacklist if is_blacklist else self.lowercase_whitelist
-            terms = self._extract_values(df, columns, lowercase)
+
+            # Extraer valores: CSV (solo columnas relevantes) / Excel (todas las hojas y columnas)
+            terms: Set[str] = set()
+            if file_path.suffix == '.csv':
+                columns = self._detect_relevant_columns(file_path.name, df)
+                if not columns:
+                    logger.warning(f"No relevant columns in CSV: {file_path.name}, skipping")
+                    return
+                terms.update(self._extract_values(df, columns, lowercase))
+            else:
+                # Excel: recorrer todas las hojas y columnas
+                sheets_with_values = 0
+                for sheet_df in dfs:
+                    sheet_terms = self._extract_all_text_values_from_df(sheet_df, lowercase)
+                    if sheet_terms:
+                        sheets_with_values += 1
+                        terms.update(sheet_terms)
+                if not terms:
+                    logger.warning(f"No textual values found in Excel: {file_path.name}, skipping")
+                    return
             
             # Añadir
             if is_whitelist:
@@ -218,11 +256,43 @@ class ListLoader:
                 self.blacklist_set.update(terms)
                 self.blacklist_by_source[file_path.name] = terms
             
+            self._processed_files.add(str(file_path.resolve()))
             logger.info(f"Loaded {len(terms)} terms from {file_path.name}")
                 
         except Exception as e:
             logger.error(f"Error processing {file_path.name}: {e}")
     
+    def _extract_all_text_values_from_df(self, df, lowercase: bool = False) -> Set[str]:
+        """
+        Extrae TODOS los valores textuales de un DataFrame, recorriendo todas las columnas.
+
+        - Aplica strip y opcionalmente lower (según flags existentes).
+        - Ignora celdas vacías y puramente numéricas.
+        """
+        values: Set[str] = set()
+        if df is None or df.empty:
+            return values
+        for col in df.columns:
+            series = df[col]
+            # Convertir a string para filtrado homogéneo; manejar NaNs
+            try:
+                col_values = series.dropna().astype(str)
+            except Exception:
+                # Si la conversión falla, intentar solo valores object
+                col_values = series.dropna()
+                col_values = col_values[col_values.map(lambda x: isinstance(x, str))]
+            for val in col_values:
+                try:
+                    text = str(val).strip()
+                except Exception:
+                    continue
+                if not text or text.isdigit():
+                    continue
+                if lowercase:
+                    text = text.lower()
+                values.add(text)
+        return values
+
     def _detect_relevant_columns(self, file_name: str, df) -> List[str]:
         """Detecta las columnas relevantes de un DataFrame."""
         # Mapeo conocido
@@ -299,6 +369,37 @@ class ListLoader:
         except Exception as e:
             logger.error(f"Error loading CIE10 {cie10_path}: {e}")
             return set()
+
+    def _auto_load_default_excel_dirs(self, preferred: Optional[str] = None):
+        """
+        Carga automáticamente ficheros Excel (.xls/.xlsx) desde carpetas por defecto
+        'LISTAS' o 'listas' si existen, además de la ruta configurada.
+
+        Esta función no altera decisiones del pipeline; solo amplía fuentes de datos.
+        """
+        candidates: List[Path] = []
+        try:
+            base = Path(__file__).resolve()
+            # Buscar carpeta base del repo aproximada: src/ -> repo root
+            repo_root = base.parents[3] if len(base.parents) >= 4 else base.parents[-1]
+            for folder_name in ("LISTAS", "listas"):
+                folder = repo_root / folder_name
+                if folder.exists() and str(folder) != str(preferred):
+                    candidates.append(folder)
+        except Exception:
+            # Si falla la detección de raíz, intentar desde CWD
+            for folder_name in ("LISTAS", "listas"):
+                folder = Path(folder_name)
+                if folder.exists() and str(folder) != str(preferred):
+                    candidates.append(folder)
+
+        # Cargar únicamente Excel en estas carpetas
+        for folder in candidates:
+            for pattern in ("*.xls", "*.xlsx"):
+                for file_path in folder.glob(pattern):
+                    if str(file_path.resolve()) in self._processed_files:
+                        continue
+                    self._process_csv_excel_file(file_path)
     
     def _init_flashtext_processors(self):
         """Inicializa los procesadores flashtext."""

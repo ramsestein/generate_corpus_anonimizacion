@@ -45,7 +45,7 @@ api_keys
 models/
 step*_verification_summary.json
 step*_localization_metadata.json
-
+corpus/output/
 # Logs
 *.log
 

@@ -62,7 +62,7 @@ def setup_models(use_carmen: bool = True):
     
     # Modelo MEDDOCAN
     debug_print("  - Cargando bsc-bio-ehr-es-meddocan...", "DEBUG")
-    meddocan_model_path = "models/bsc-bio-ehr-es-meddocan"
+    meddocan_model_path = "../../models//bsc-bio-ehr-es-meddocan"
     
     try:
         meddocan_tokenizer = AutoTokenizer.from_pretrained(meddocan_model_path)
@@ -96,7 +96,7 @@ def setup_models(use_carmen: bool = True):
     if use_carmen:
         # Modelo CARMEN
         debug_print("  - Cargando bsc-bio-ehr-es-carmen-anon...", "DEBUG")
-        carmen_model_path = "models/bsc-bio-ehr-es-carmen-anon"
+        carmen_model_path = "../../models//bsc-bio-ehr-es-carmen-anon"
 
         try:
             carmen_tokenizer = AutoTokenizer.from_pretrained(carmen_model_path)

@@ -70,27 +70,24 @@ def run_setfit_filter(
     if not entities:
         return []
     
-    # Configuración por defecto
+    # Configuración por defecto - SIMPLIFICADA
+    # SetFit clasifica TODO por igual (sin filtros de ruido predefinidos)
     default_config = {
         "model_path": "models/gatekeeper_setfit",
-        "confidence_threshold": 0.75,
-        "enable_noise_filter": False,
-        "enable_pii_detector": False,
-        "enable_fragment_filter": False,
-        "enable_low_confidence_filter": False,
+        "confidence_threshold": 0.85,  # Subido para mejorar precisión
+        "enable_pii_detector": False,  # Detector regex deshabilitado
+        "enable_low_confidence_filter": True,  # Filtrar baja confianza=True
     }
     
     if config:
         default_config.update(config)
     
-    # Crear gatekeeper
+    # Crear gatekeeper (simplificado)
     gatekeeper = SetFitGatekeeper(
         model_path=default_config["model_path"],
         confidence_threshold=default_config["confidence_threshold"],
-        enable_noise_filter=default_config["enable_noise_filter"],
-        enable_pii_detector=default_config["enable_pii_detector"],
-        enable_fragment_filter=default_config["enable_fragment_filter"],
-        enable_low_confidence_filter=default_config["enable_low_confidence_filter"],
+        enable_pii_detector=default_config.get("enable_pii_detector", False),
+        enable_low_confidence_filter=default_config.get("enable_low_confidence_filter", True),
     )
     
     # Extraer todos los textos de entidades para detección de fragmentos

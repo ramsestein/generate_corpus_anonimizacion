@@ -51,7 +51,7 @@ class DictFilter:
     
     Evalúa entidades usando:
     1. Coincidencias EXACTAS en listas
-    2. Heurísticas opcionales (longitud mínima, formato)
+    2. Matching consciente de etiquetas (whitelist solo aplica a labels geográficos)
     
     Devuelve decisiones determinísticas para la mayoría de entidades.
     """
@@ -73,18 +73,26 @@ class DictFilter:
             ignore_numeric_only: Si True, ignora entidades solo numéricas
         """
         self.list_loader = list_loader
-        self.min_length_per_label = min_length_per_label or {}
         self.ignore_single_char = ignore_single_char
         self.ignore_numeric_only = ignore_numeric_only
         
-        # Estadísticas
+        # Labels compatibles con la whitelist de lugares/hospitales
+        # (NO incluye nombres personales)
+        self.geo_labels = {
+            "HOSPITAL", "INSTITUCION", "CENTRO_DE_SALUD",
+            "PAIS", "TERRITORIO", "CALLE", "DIRECCION",
+            "OTROS_SUJETO_ASISTENCIA",  # Puede ser lugar
+            "PROFESION",  # "Grado" es un municipio
+        }
+        
         self.stats = {
             "total_evaluated": 0,
             "force_anonymize": 0,
             "force_ignore": 0,
             "escalate": 0,
             "by_list": {"whitelist": 0, "blacklist": 0, "cie10": 0},
-            "by_heuristic": {"single_char": 0, "numeric_only": 0, "min_length": 0}
+            "by_heuristic": {"single_char": 0, "numeric_only": 0},
+            "skipped_label_mismatch": 0,
         }
         
         logger.info("DictFilter initialized")
@@ -94,7 +102,7 @@ class DictFilter:
         Evalúa una entidad y devuelve la decisión del filtro.
         
         Flujo de decisión:
-        1. Aplicar heurísticas
+        1. Aplicar heurísticas (solo numéricas)
         2. Verificar whitelist → FORCE_ANONYMIZE
         3. Verificar blacklist → FORCE_IGNORE
         4. Verificar CIE10 → FORCE_IGNORE
@@ -112,16 +120,6 @@ class DictFilter:
         
         # HEURÍSTICAS
         
-        # Carácter único
-        if self.ignore_single_char and len(text) <= 1:
-            self.stats["force_ignore"] += 1
-            self.stats["by_heuristic"]["single_char"] += 1
-            return FilterResult(
-                decision=FilterDecision.FORCE_IGNORE,
-                reason="Entidad de un solo carácter",
-                heuristic_applied="single_char"
-            )
-        
         # Solo numérico
         if self.ignore_numeric_only and text.isdigit():
             self.stats["force_ignore"] += 1
@@ -132,28 +130,27 @@ class DictFilter:
                 heuristic_applied="numeric_only"
             )
         
-        # Longitud mínima por etiqueta
-        if ner_label in self.min_length_per_label:
-            min_len = self.min_length_per_label[ner_label]
-            if len(text) < min_len:
-                self.stats["force_ignore"] += 1
-                self.stats["by_heuristic"]["min_length"] += 1
-                return FilterResult(
-                    decision=FilterDecision.FORCE_IGNORE,
-                    reason=f"Longitud {len(text)} < mínimo {min_len} para {ner_label}",
-                    heuristic_applied="min_length"
-                )
+        # WHITELIST (solo si label es compatible con geolocalización)
+        # Evita que "Iglesias" (apellido) sea rescatado por ser un municipio
+        is_name_label = ner_label in {
+            "NOMBRE_SUJETO_ASISTENCIA", "NOMBRE_PERSONAL_SANITARIO",
+            "FAMILIARES_SUJETO_ASISTENCIA", "SEXO_SUJETO_ASISTENCIA"
+        }
         
-        # WHITELIST
         if self.list_loader.is_in_whitelist(text):
-            self.stats["force_anonymize"] += 1
-            self.stats["by_list"]["whitelist"] += 1
-            return FilterResult(
-                decision=FilterDecision.FORCE_ANONYMIZE,
-                reason="Coincidencia exacta en whitelist",
-                matched_list="whitelist",
-                matched_term=text
-            )
+            if is_name_label:
+                # Es un nombre personal, NO rescatamos por whitelist geográfica
+                self.stats["skipped_label_mismatch"] += 1
+                # Continuar a blacklist/CIE10/escalate normalmente
+            else:
+                self.stats["force_anonymize"] += 1
+                self.stats["by_list"]["whitelist"] += 1
+                return FilterResult(
+                    decision=FilterDecision.FORCE_ANONYMIZE,
+                    reason="Coincidencia exacta en whitelist (label compatible)",
+                    matched_list="whitelist",
+                    matched_term=text
+                )
         
         # BLACKLIST
         if self.list_loader.is_in_blacklist(text):
@@ -213,5 +210,6 @@ class DictFilter:
             "force_ignore": 0,
             "escalate": 0,
             "by_list": {"whitelist": 0, "blacklist": 0, "cie10": 0},
-            "by_heuristic": {"single_char": 0, "numeric_only": 0, "min_length": 0}
+            "by_heuristic": {"single_char": 0, "numeric_only": 0},
+            "skipped_label_mismatch": 0,
         }

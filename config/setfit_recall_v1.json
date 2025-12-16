@@ -1,0 +1,8 @@
+{
+  "setfit": {
+    "model_path": "models/gatekeeper_setfit_recall_v1",
+    "confidence_threshold": 0.75,
+    "enable_pii_detector": false,
+    "enable_low_confidence_filter": true
+  }
+}

@@ -7,48 +7,39 @@ Este script ejecuta el pipeline completo de filtrado y anonimización:
 
 1. Carga datos brutos y los convierte a formato JSON estándar
 2. Ejecuta MEDDOCAN (opcional) para obtener entidades iniciales
-3. Pasa las entidades por SetFit para clasificación binaria (PII vs RUIDO)
-4. Las clasificadas como PII van directo a salida
-5. Las clasificadas como RUIDO pasan por filtros de diccionario (rescate)
-6. Las no rescatadas por listas se validan con LLM
-7. Guarda el resultado final en JSON
+3. Ejecuta FILTROS DE DICCIONARIO (Pre-filtro deterministicos)
+   - Whitelist: Se acepta directo (PII)
+   - Blacklist: Se descarta directo (RUIDO)
+   - Resto: Pasa a SetFit
+4. Ejecuta SETFIT (Clasificación binaria) sobre los candidatos
+   - PII: Se acepta
+   - RUIDO: Se descarta (o pasa a LLM para rescate final)
+5. Ejecuta LLM JUDGE (Opcional/Rescate final)
+6. Guarda el resultado final en JSON
 
 USO:
     python run_full_pipeline.py --input entidades.json --output resultados.json
     python run_full_pipeline.py --input entidades.json --skip-llm
     python run_full_pipeline.py --help
 
-FLUJO DEL PIPELINE (INVERTIDO):
-    ┌─────────────┐
-    │  Input JSON │
-    └──────┬──────┘
-           │
-    ┌──────▼──────┐
-    │   SetFit    │ → Clasificación binaria
-    │  (Filtro)   │   PII = información sensible
-    └──────┬──────┘   RUIDO = posible falso positivo
-           │
-           ├──────────────┐
-           │ (PII)        │ (RUIDO)
-           ▼              ▼
-    ┌─────────────┐ ┌──────────────┐
-    │ Salida Final│ │ Dict Filter  │ → Rescate por listas
-    │ (TP directo)│ │ (Whitelist)  │   KEEP = rescatado
-    └─────────────┘ └──────┬───────┘   FILTER = confirmado ruido
-                           │           ESCALATE = dudoso
-                    ┌──────▼──────┐
-                    │  LLM Judge  │ → Rescate final
-                    │  (Ollama)   │   KEEP = rescatado
-                    └──────┬──────┘   FILTER = descartado
-                           │
-                    ┌──────▼──────┐
-                    │ Salida Final│
-                    │(rescatados) │
-                    └─────────────┘
+FLUJO OPTIMIZADO:
+    Input -> [Dict Filter] --(Whitelist)--> PII
+                  |
+            (No Match)
+                  ↓
+              [SetFit] --(PII)--> PII
+                  |
+               (Ruido)
+                  ↓
+             [LLM Judge] --(Keep)--> PII
+                  |
+               (Filter)
+                  ↓
+               Discard
 
 TRAZABILIDAD:
     Cada entidad lleva:
-    - classification_source: 'setfit', 'dict_whitelist', 'llm_rescue'
+    - classification_source: 'dict_whitelist_pre', 'setfit', 'llm_rescue'
     - classification: 'PII' (conservar) o 'RUIDO' (descartar)
 """
 
@@ -79,14 +70,12 @@ from utils.token_healing import fix_entity_boundaries, batch_fix_entity_boundari
 # ============================================================================
 
 DEFAULT_CONFIG = {
-    # SetFit
+    # SetFit - CONFIGURACIÓN SIMPLIFICADA
     "setfit": {
         "model_path": str(SCRIPT_DIR.parent.parent / "models" / "gatekeeper_setfit"),
-        "confidence_threshold": 0.75,
-        "enable_noise_filter": False,
-        "enable_pii_detector": False,
-        "enable_fragment_filter": False,
-        "enable_low_confidence_filter": False,
+        "confidence_threshold": 0.85,  # Subido para mejorar precisión
+        "enable_pii_detector": False,  # SetFit clasifica todo
+        "enable_low_confidence_filter": True,  # Filtrar baja confianza
     },
     # Dict Filters
     "dict_filters": {
@@ -94,19 +83,9 @@ DEFAULT_CONFIG = {
             str(SCRIPT_DIR.parent.parent / "data" / "hospitales.json"),
             str(SCRIPT_DIR.parent.parent / "data" / "lugares.json"),
         ],
-        "json_blacklist_paths": [
-            str(SCRIPT_DIR.parent.parent / "data" / "medicamentos.json"),
-            str(SCRIPT_DIR.parent.parent / "data" / "patologias.json"),
-        ],
+        "json_blacklist_paths": [],
         "csv_base_path": str(SCRIPT_DIR.parent.parent / "LISTAS"),
         "cie10_path": str(SCRIPT_DIR.parent.parent / "LISTAS" / "cie10.xls"),
-        "min_length_per_label": {
-            "NUMERO_IDENTIF": 1,
-            "FECHAS": 4,
-            "NUMERO_TELEFONO": 4,
-            "NUMERO_FAX": 4,
-        },
-        "ignore_single_char": True,  # Mantener, filtra ruido real de 1 carácter
         "ignore_numeric_only": False,
     },
     # LLM
@@ -148,9 +127,13 @@ def setup_logging(verbose: bool = False):
 # HELPER FUNCTIONS - Contexto de entidades
 # ============================================================================
 
-def load_documents(base_path: Path) -> Dict[str, str]:
+def load_documents(base_path: Path, valid_ids: Optional[set] = None) -> Dict[str, str]:
     """
     Carga todos los documentos del directorio corpus/documents.
+    
+    Args:
+        base_path: Ruta base del proyecto
+        valid_ids: Set opcional de IDs de documentos a cargar. Si es None, carga todos.
     
     Returns:
         Dict {doc_id: texto_completo}
@@ -167,17 +150,36 @@ def load_documents(base_path: Path) -> Dict[str, str]:
     
     for docs_dir in possible_dirs:
         if docs_dir.exists():
-            for txt_file in docs_dir.glob("*.txt"):
-                doc_id = txt_file.stem
-                try:
-                    text = txt_file.read_text(encoding="utf-8")
-                    documents[doc_id] = text
-                except Exception as e:
-                    logging.warning(f"Error leyendo {txt_file}: {e}")
-            
-            if documents:
-                logging.info(f"Cargados {len(documents)} documentos desde {docs_dir}")
-                break
+            # Si tenemos IDs validos, solo buscamos esos archivos
+            if valid_ids:
+                count_found = 0
+                for doc_id in valid_ids:
+                    # Intentar encontrar el archivo con extension .txt
+                    txt_file = docs_dir / f"{doc_id}.txt"
+                    if txt_file.exists():
+                        try:
+                            text = txt_file.read_text(encoding="utf-8")
+                            documents[doc_id] = text
+                            count_found += 1
+                        except Exception as e:
+                            logging.warning(f"Error leyendo {txt_file}: {e}")
+                
+                if documents:
+                    logging.info(f"Cargados {len(documents)} documentos específicos de {len(valid_ids)} requeridos desde {docs_dir}")
+                    break
+            else:
+                # Comportamiento original: cargar todo (LENTO si hay muchos archivos)
+                for txt_file in docs_dir.glob("*.txt"):
+                    doc_id = txt_file.stem
+                    try:
+                        text = txt_file.read_text(encoding="utf-8")
+                        documents[doc_id] = text
+                    except Exception as e:
+                        logging.warning(f"Error leyendo {txt_file}: {e}")
+                
+                if documents:
+                    logging.info(f"Cargados {len(documents)} documentos desde {docs_dir}")
+                    break
     
     return documents
 
@@ -357,18 +359,18 @@ class FullPipeline:
     """
     Orquestador del pipeline completo de anonimización.
     
-    NUEVO FLUJO (invertido respecto al anterior):
-    1. SetFit → Clasificación binaria PII/RUIDO
-       - PII: Va directo a salida final (son TPs candidatos)
-       - RUIDO: Pasa a dict_filters para posible rescate
-    2. Dict Filters → Intenta rescatar entidades marcadas como RUIDO
-       - Whitelist: KEEP (rescatado)
-       - Blacklist: FILTER (confirmado ruido)
-       - Sin match: ESCALATE a LLM
-    3. LLM → Rescate final de casos dudosos
+    FLUJO OPTIMIZADO (Dict Filters -> SetFit -> LLM):
+    1. Dict Filters (Pre-Filter):
+       - Whitelist: KEEP (Rescatado) -> Va a salida
+       - Blacklist: FILTER (Ruido) -> Se descarta
+       - Resto: ESCALATE (Candidatos) -> Pasa a SetFit
     
-    TRAZABILIDAD: Cada entidad conserva classification_source indicando
-    qué etapa la clasificó.
+    2. SetFit (Modelo):
+       - PII: KEEP -> Va a salida
+       - Ruido: RUIDO -> Se descarta (o rescate LLM)
+       
+    3. LLM (Rescate final):
+       - Si habilitado, revisa el RUIDO del modelo.
     """
     
     def __init__(self, config: Optional[Dict[str, Any]] = None):
@@ -388,19 +390,19 @@ class FullPipeline:
         
         self.logger = logging.getLogger(__name__)
         
-        # Estadísticas actualizadas para el nuevo flujo
+        # Estadísticas
         self.stats = {
             "total_input": 0,
-            # SetFit clasifica en PII (va directo) o RUIDO (pasa a rescate)
-            "setfit_pii": 0,       # Clasificado como PII → salida directa
-            "setfit_ruido": 0,     # Clasificado como RUIDO → intento de rescate
-            # Dict filters intenta rescatar los RUIDO
-            "dict_rescued": 0,     # Rescatados por whitelist
-            "dict_filtered": 0,    # Confirmados como ruido (blacklist)
-            "dict_escalated": 0,   # Sin match, van a LLM
-            # LLM rescata los dudosos
-            "llm_rescued": 0,      # Rescatados por LLM
-            "llm_filtered": 0,     # Confirmados como ruido por LLM
+            # Paso 1: Dict
+            "dict_rescued": 0,     # Pre-filtro: Aceptado directo
+            "dict_filtered": 0,    # Pre-filtro: Rechazado directo
+            "dict_escalated": 0,   # Pre-filtro: Pasa a modelo
+            # Paso 2: SetFit
+            "setfit_pii": 0,       # Modelo: Aceptado
+            "setfit_ruido": 0,     # Modelo: Rechazado
+            # Paso 3: LLM
+            "llm_rescued": 0,      # LLM: Rescatado del ruido del modelo
+            "llm_filtered": 0,     # LLM: Confirmado ruido
             # Resultado final
             "final_output": 0,
             "execution_time": 0.0,
@@ -424,7 +426,7 @@ class FullPipeline:
         start_time = time.time()
         
         self.logger.info("=" * 70)
-        self.logger.info("PIPELINE DE ANONIMIZACIÓN - INICIANDO")
+        self.logger.info("PIPELINE DE ANONIMIZACIÓN - INICIANDO (MODO OPTIMIZADO)")
         self.logger.info("=" * 70)
         
         self.stats["total_input"] = len(entities)
@@ -438,9 +440,16 @@ class FullPipeline:
         # ====================================================================
         self.logger.info("\n[PREPARACIÓN] Cargando documentos y extrayendo contexto...")
         
-        # Cargar todos los documentos
+        # Cargar todos los documentos necesarios
         base_path = SCRIPT_DIR.parent.parent
-        documents = load_documents(base_path)
+        required_doc_ids = set()
+        for e in normalized:
+            doc_id = e.get('doc_id') or e.get('document_id')
+            if doc_id:
+                required_doc_ids.add(str(doc_id))
+        
+        self.logger.info(f"  -> Identificados {len(required_doc_ids)} documentos únicos requeridos")
+        documents = load_documents(base_path, valid_ids=required_doc_ids)
         
         if documents:
             self.logger.info(f"  -> Documentos cargados: {len(documents)}")
@@ -466,95 +475,116 @@ class FullPipeline:
             self.logger.info(f"  -> Entidades reparadas: {healed_count}/{len(normalized)}")
         
         # ====================================================================
-        # PASO 1: SetFit - Clasificación binaria PII/RUIDO
+        # PASO 1: Dict Filters (PRE-FILTER)
         # ====================================================================
-        if not self.config["pipeline"].get("skip_setfit", False):
-            self.logger.info("\n[PASO 1/3] SetFit - Clasificación binaria...")
+        
+        pre_filtered_candidates = []
+        final_kept = []
+        
+        if not self.config["pipeline"].get("skip_dict_filters", False):
+            self.logger.info("\n[PASO 1/3] Dict Filters (PRE-FILTER)...")
+            
+            try:
+                dict_results = apply_dict_filters(
+                    normalized,
+                    document_text,
+                    self.config["dict_filters"]
+                )
+                
+                # Separar resultados
+                # Whitelist -> KEEP (Rescatado/Confirmado PII por lista)
+                dict_rescued = [e for e in dict_results if e.get("decision") == "KEEP"]
+                # Blacklist -> FILTER (Confirmado RUIDO por lista)
+                dict_filtered = [e for e in dict_results if e.get("decision") == "FILTER"]
+                # Sin match -> ESCALATE (Candidato a SetFit)
+                dict_escalated = [e for e in dict_results if e.get("decision") == "ESCALATE"]
+                
+                # Trazabilidad
+                for e in dict_rescued:
+                    e["classification"] = "PII"
+                    e["classification_source"] = "dict_whitelist_pre"
+                for e in dict_filtered:
+                    e["classification"] = "RUIDO"
+                    e["classification_source"] = "dict_blacklist_pre"
+                
+                self.stats["dict_rescued"] = len(dict_rescued)
+                self.stats["dict_filtered"] = len(dict_filtered)
+                self.stats["dict_escalated"] = len(dict_escalated)
+                
+                # Guardar blacklist para seguridad
+                if dict_filtered:
+                    dropped_path = Path(self.config["pipeline"]["output_dir"]) / "blacklist_dropped.json"
+                    import json
+                    with open(dropped_path, 'w', encoding='utf-8') as f:
+                        json.dump(dict_filtered, f, indent=2, ensure_ascii=False)
+                    self.logger.info(f"  -> DESCARTADOS guardados en: {dropped_path}")
+                
+                self.logger.info(f"  -> RESCATADOS DIRECTOS (Whitelist): {len(dict_rescued)}")
+                self.logger.info(f"  -> DESCARTADOS DIRECTOS (Blacklist): {len(dict_filtered)}")
+                self.logger.info(f"  -> CANDIDATOS A MODELO (Escalados): {len(dict_escalated)}")
+                
+                # Los rescatados van a final
+                final_kept.extend(dict_rescued)
+                # Los escalados pasan a SetFit
+                pre_filtered_candidates = dict_escalated
+                
+            except Exception as e:
+                self.logger.error(f"  Error en Dict Filters: {e}")
+                self.logger.info("  Continuando sin filtros - todo pasa a SetFit...")
+                pre_filtered_candidates = normalized
+        else:
+            self.logger.info("\n[PASO 1/3] Dict Filters... OMITIDO")
+            pre_filtered_candidates = normalized
+            
+        # ====================================================================
+        # PASO 2: SetFit - Clasificación binaria de Candidatos
+        # ====================================================================
+        to_llm = []
+        
+        if not self.config["pipeline"].get("skip_setfit", False) and pre_filtered_candidates:
+            self.logger.info(f"\n[PASO 2/3] SetFit ({len(pre_filtered_candidates)} candidatos)...")
             
             try:
                 setfit_results = run_setfit_filter(
-                    normalized,
+                    pre_filtered_candidates,
                     document_text,
                     self.config["setfit"]
                 )
                 
-                # Separar por clasificación (nuevo campo: 'classification')
-                # PII = información sensible real → va directo a salida
-                # RUIDO = posible falso positivo → pasa a rescate
                 pii_entities = [e for e in setfit_results if e.get("classification") == "PII"]
                 ruido_entities = [e for e in setfit_results if e.get("classification") == "RUIDO"]
                 
                 self.stats["setfit_pii"] = len(pii_entities)
                 self.stats["setfit_ruido"] = len(ruido_entities)
                 
-                self.logger.info(f"  -> PII (va directo a salida): {len(pii_entities)}")
-                self.logger.info(f"  -> RUIDO (pasa a rescate): {len(ruido_entities)}")
+                self.logger.info(f"  -> PII (Aceptados): {len(pii_entities)}")
+                self.logger.info(f"  -> RUIDO (Rechazados): {len(ruido_entities)}")
                 
-                # PII va directo a salida final
-                final_kept = pii_entities
-                # RUIDO pasa a dict_filters para posible rescate
-                to_dict_filters = ruido_entities
+                # PII se añade a final
+                final_kept.extend(pii_entities)
+                
+                # Ruido pasa a LLM si queremos ser conservadores (Rescate final)
+                to_llm = ruido_entities
                 
             except Exception as e:
                 self.logger.error(f"  Error en SetFit: {e}")
-                self.logger.info("  Continuando sin SetFit - todas van a rescate...")
-                final_kept = []
-                to_dict_filters = normalized
+                self.logger.info("  Continuando sin SetFit - candidatos pasan a LLM...")
+                to_llm = pre_filtered_candidates
+        elif pre_filtered_candidates:
+            self.logger.info("\n[PASO 2/3] SetFit... OMITIDO")
+            # Si se salta SetFit, ¿qué hacemos con los candidatos?
+            # En modo "seguro", asumimos PII.
+             # Si también saltamos LLM, entonces en este flujo "listas -> fin", 
+            if self.config["pipeline"].get("skip_llm", False):
+                 for e in pre_filtered_candidates:
+                    e["classification"] = "PII"
+                    e["classification_source"] = "default_no_setfit_escalated"
+                 final_kept.extend(pre_filtered_candidates)
+                 to_llm = []
+            else:
+                 to_llm = pre_filtered_candidates
         else:
-            self.logger.info("\n[PASO 1/3] SetFit... OMITIDO")
-            # Sin SetFit, todas las entidades van como PII (conservador)
-            for e in normalized:
-                e["classification"] = "PII"
-                e["classification_source"] = "default_no_setfit"
-            final_kept = normalized
-            to_dict_filters = []
-        
-        # ====================================================================
-        # PASO 2: Dict Filters - Rescate de entidades marcadas como RUIDO
-        # ====================================================================
-        if not self.config["pipeline"].get("skip_dict_filters", False) and to_dict_filters:
-            self.logger.info(f"\n[PASO 2/3] Dict Filters - Rescate ({len(to_dict_filters)} entidades RUIDO)...")
-            
-            try:
-                dict_results = apply_dict_filters(
-                    to_dict_filters,
-                    document_text,
-                    self.config["dict_filters"]
-                )
-                
-                # Separar resultados - ahora las listas RESCATAN entidades
-                dict_rescued = [e for e in dict_results if e.get("decision") == "KEEP"]
-                dict_filtered = [e for e in dict_results if e.get("decision") == "FILTER"]
-                dict_escalated = [e for e in dict_results if e.get("decision") == "ESCALATE"]
-                
-                # Añadir trazabilidad a los rescatados
-                for e in dict_rescued:
-                    e["classification"] = "PII"  # Rescatado = ahora es PII
-                    e["classification_source"] = "dict_whitelist"
-                
-                self.stats["dict_rescued"] = len(dict_rescued)
-                self.stats["dict_filtered"] = len(dict_filtered)
-                self.stats["dict_escalated"] = len(dict_escalated)
-                
-                self.logger.info(f"  -> RESCATADOS (whitelist): {len(dict_rescued)}")
-                self.logger.info(f"  -> CONFIRMADOS RUIDO (blacklist): {len(dict_filtered)}")
-                self.logger.info(f"  -> DUDOSOS (escalados a LLM): {len(dict_escalated)}")
-                
-                # Añadir rescatados a final_kept
-                final_kept.extend(dict_rescued)
-                # Los escalados van al LLM para rescate final
-                to_llm = dict_escalated
-                
-            except Exception as e:
-                self.logger.error(f"  Error en Dict Filters: {e}")
-                self.logger.info("  Continuando sin filtros - todo va a LLM...")
-                to_llm = to_dict_filters
-        elif to_dict_filters:
-            self.logger.info(f"\n[PASO 2/3] Dict Filters... OMITIDO ({len(to_dict_filters)} van al LLM)")
-            to_llm = to_dict_filters
-        else:
-            self.logger.info("\n[PASO 2/3] Dict Filters... OMITIDO (sin entidades RUIDO)")
-            to_llm = []
+             self.logger.info("\n[PASO 2/3] SetFit... OMITIDO (Sin candidatos)")
         
         # ====================================================================
         # PASO 3: LLM Judge - Rescate final de casos dudosos
@@ -569,20 +599,19 @@ class FullPipeline:
                     self.config["llm"]
                 )
                 
-                # Separar resultados - LLM RESCATA o confirma ruido
                 llm_rescued = [e for e in llm_results if e.get("decision") == "KEEP"]
                 llm_filtered = [e for e in llm_results if e.get("decision") == "FILTER"]
                 
                 # Añadir trazabilidad a los rescatados
                 for e in llm_rescued:
-                    e["classification"] = "PII"  # Rescatado = ahora es PII
+                    e["classification"] = "PII"
                     e["classification_source"] = "llm_rescue"
                 
                 self.stats["llm_rescued"] = len(llm_rescued)
                 self.stats["llm_filtered"] = len(llm_filtered)
                 
-                self.logger.info(f"  -> RESCATADOS (LLM dice SÍ es PII): {len(llm_rescued)}")
-                self.logger.info(f"  -> CONFIRMADOS RUIDO (LLM confirma): {len(llm_filtered)}")
+                self.logger.info(f"  -> RESCATADOS (LLM): {len(llm_rescued)}")
+                self.logger.info(f"  -> DESCARTADOS (LLM): {len(llm_filtered)}")
                 
                 # Añadir rescatados a final
                 final_kept.extend(llm_rescued)
@@ -590,7 +619,6 @@ class FullPipeline:
             except Exception as e:
                 self.logger.error(f"  Error en LLM: {e}")
                 self.logger.info("  Manteniendo entidades ambiguas por seguridad...")
-                # En caso de error, mantener las entidades (conservador)
                 for entity in to_llm:
                     entity["classification"] = "PII"
                     entity["classification_source"] = "default_on_error"
@@ -598,9 +626,8 @@ class FullPipeline:
         else:
             if to_llm:
                 self.logger.info(f"\n[PASO 3/3] LLM Judge... OMITIDO ({len(to_llm)} entidades DESCARTADAS)")
-                # Si skip LLM, las entidades escaladas se descartan (no son PII ni rescatadas)
             else:
-                self.logger.info("\n[PASO 3/3] LLM Judge... OMITIDO (sin entidades RUIDO pendientes)")
+                self.logger.info("\n[PASO 3/3] LLM Judge... OMITIDO")
         
         # ====================================================================
         # RESULTADO FINAL
@@ -628,18 +655,18 @@ class FullPipeline:
             self.logger.info(f"  Reducción ruido: {reduction:.1f}%")
         
         self.logger.info(f"\n[FLUJO POR ETAPA]")
-        self.logger.info(f"  1. SetFit:       PII={s['setfit_pii']} (directo) | RUIDO={s['setfit_ruido']} (a rescate)")
-        self.logger.info(f"  2. Dict Filters: Rescatados={s['dict_rescued']} | Ruido={s['dict_filtered']} | Dudosos={s['dict_escalated']}")
+        self.logger.info(f"  1. Dict Filters: Rescatados={s['dict_rescued']} | Ruido={s['dict_filtered']} | Escalados={s['dict_escalated']}")
+        self.logger.info(f"  2. SetFit:       PII={s['setfit_pii']} (Keep)   | Ruido={s['setfit_ruido']} (Drop/LLM)")
         self.logger.info(f"  3. LLM:          Rescatados={s['llm_rescued']} | Ruido={s['llm_filtered']}")
         
         self.logger.info(f"\n[TRAZABILIDAD SALIDA]")
-        setfit_pii = s['setfit_pii']
         dict_rescued = s['dict_rescued']
+        setfit_pii = s['setfit_pii']
         llm_rescued = s['llm_rescued']
-        self.logger.info(f"  PII por SetFit:     {setfit_pii}")
-        self.logger.info(f"  Rescatados (listas): {dict_rescued}")
-        self.logger.info(f"  Rescatados (LLM):    {llm_rescued}")
-        self.logger.info(f"  TOTAL:               {setfit_pii + dict_rescued + llm_rescued}")
+        self.logger.info(f"  Dict Rescued (Whitelist): {dict_rescued}")
+        self.logger.info(f"  SetFit PII:               {setfit_pii}")
+        self.logger.info(f"  LLM Rescued:              {llm_rescued}")
+        self.logger.info(f"  TOTAL:                    {dict_rescued + setfit_pii + llm_rescued}")
 
         self.logger.info(f"\n[TIEMPO] {s['execution_time']:.2f}s")
     
@@ -737,7 +764,7 @@ def main():
     
     # Si no se especifica input, buscar el CSV por defecto
     if not input_path:
-        default_csv = SCRIPT_DIR.parent / "pipeline-auxiliar" / "step6_validation_judgeLLM" / "detecciones_detalladas.csv"
+        default_csv = SCRIPT_DIR.parent / "pipeline" / "step6_validation_results" / "detecciones_detalladas.csv"
         if default_csv.exists():
             logger.info(f"Input no especificado. Detectado CSV por defecto: {default_csv}")
             input_path = str(default_csv)
@@ -781,7 +808,7 @@ def main():
     
     if args.config and Path(args.config).exists():
         import json
-        with open(args.config) as f:
+        with open(args.config, encoding='utf-8') as f:
             custom_config = json.load(f)
         for key, value in custom_config.items():
             if key in config and isinstance(value, dict):
@@ -814,7 +841,7 @@ def main():
                 "generated_at": datetime.now().isoformat(),
                 "input_file": input_path,
                 "total_entities": len(results),
-                "pipeline_version": "2.0",
+                "pipeline_version": "2.0-optimized",
             },
             stats=pipeline.get_stats()
         )

@@ -69,6 +69,66 @@ def normalize_text(text: str) -> str:
     return ' '.join(text.split())
 
 
+def fuzzy_match(pred_text: str, gt_set: set, threshold: float = 0.6) -> tuple:
+    """
+    Matching inteligente que maneja fragmentación.
+    
+    Estrategias:
+    1. Match exacto (preferencia máxima)
+    2. pred contenido en algún GT (fragmento de entidad completa)
+    3. GT contenido en pred (pred más largo que GT)
+    4. Substring común significativo (>60% de overlap)
+    
+    Args:
+        pred_text: Texto predicho normalizado
+        gt_set: Set de textos GT normalizados
+        threshold: Umbral mínimo de overlap (0-1)
+    
+    Returns:
+        (matched: bool, match_type: str, matched_gt: str or None)
+        match_type in ['exact', 'pred_in_gt', 'gt_in_pred', 'overlap', 'no_match']
+    """
+    # 1. Match exacto
+    if pred_text in gt_set:
+        return (True, 'exact', pred_text)
+    
+    # 2. Pred contenido en algún GT (fragmentación: "Elena" en "Dra. Elena Martínez")
+    for gt_text in gt_set:
+        if pred_text in gt_text:
+            # Verificar que no sea substring trivial
+            # Más permisivo: 20% del GT o al menos 4 caracteres
+            overlap_ratio = len(pred_text) / len(gt_text)
+            if overlap_ratio >= 0.2 or len(pred_text) >= 4:
+                return (True, 'pred_in_gt', gt_text)
+    
+    # 3. GT contenido en pred (pred más largo)
+    for gt_text in gt_set:
+        if gt_text in pred_text:
+            overlap_ratio = len(gt_text) / len(pred_text)
+            if overlap_ratio >= 0.5:  # Al menos 50% del pred
+                return (True, 'gt_in_pred', gt_text)
+    
+    # 4. Overlap significativo por palabras comunes
+    pred_words = set(pred_text.split())
+    if len(pred_words) < 2:  # Skip single-word checks for overlap
+        return (False, 'no_match', None)
+    
+    for gt_text in gt_set:
+        gt_words = set(gt_text.split())
+        if len(gt_words) < 2:
+            continue
+        
+        common = pred_words & gt_words
+        union = pred_words | gt_words
+        
+        if len(union) > 0:
+            jaccard = len(common) / len(union)
+            if jaccard >= threshold:
+                return (True, 'overlap', gt_text)
+    
+    return (False, 'no_match', None)
+
+
 def load_predictions(results_path: str) -> tuple:
     """
     Carga predicciones del pipeline.
@@ -240,12 +300,17 @@ def load_ground_truth(gt_path: str) -> dict:
 
 def evaluate(pred_by_doc: dict, source_by_text: dict, gt_by_doc: dict, debug: bool = False):
     """
-    Evalúa el pipeline comparando predicciones contra GT.
+    Evalúa el pipeline comparando predicciones contra GT con matching inteligente.
+    
+    Matching:
+    - Exacto: preferencia máxima
+    - Substring: maneja fragmentación ("Elena" ⊂ "Dra. Elena Martínez")
+    - Overlap: similitud por palabras comunes
     
     Definiciones:
-    - TP: predicción que EXISTE en GT del mismo documento
-    - FP: predicción que NO existe en GT del mismo documento
-    - FN: entidad en GT que NO fue predicha
+    - TP: predicción que matchea con GT del mismo documento
+    - FP: predicción sin match válido en GT
+    - FN: entidad en GT sin match en predicciones
     
     Retorna: dict con métricas globales y por documento
     """
@@ -254,6 +319,10 @@ def evaluate(pred_by_doc: dict, source_by_text: dict, gt_by_doc: dict, debug: bo
     
     # Métricas por fuente de clasificación
     source_metrics = defaultdict(lambda: {'tp': 0, 'fp': 0, 'total': 0})
+    
+    # Métricas de fragmentación
+    match_type_counts = defaultdict(int)
+    fragmentation_score = 0  # penalización por fragmentación excesiva
     
     # Validación de documentos
     all_doc_ids = set(pred_by_doc.keys()) | set(gt_by_doc.keys())
@@ -283,39 +352,87 @@ def evaluate(pred_by_doc: dict, source_by_text: dict, gt_by_doc: dict, debug: bo
             logger.info(f"        Pred entities: {len(pred_texts)}")
             doc_debug_count += 1
         
-        # TP: predicciones que están en GT
-        tp_in_doc = pred_texts & gt_texts
-        tp += len(tp_in_doc)
+        # Tracking de qué GT fue matcheado y por cuántas predicciones
+        gt_matched = defaultdict(list)  # gt_text -> [pred_texts que matchearon]
+        pred_classified = {}  # pred_text -> (is_tp, match_type, matched_gt)
         
-        # FP: predicciones que NO están en GT
-        fp_in_doc = pred_texts - gt_texts
+        # Clasificar cada predicción usando fuzzy matching
+        for pred_text in pred_texts:
+            matched, match_type, matched_gt = fuzzy_match(pred_text, gt_texts)
+            pred_classified[pred_text] = (matched, match_type, matched_gt)
+            
+            if matched:
+                gt_matched[matched_gt].append(pred_text)
+                match_type_counts[match_type] += 1
+        
+        # Contar TP/FP considerando fragmentación
+        tp_in_doc = set()
+        fp_in_doc = set()
+        
+        for pred_text, (is_tp, match_type, matched_gt) in pred_classified.items():
+            if is_tp:
+                tp_in_doc.add(pred_text)
+                
+                # Penalización por fragmentación excesiva:
+                # Si múltiples preds matchean el mismo GT, es fragmentación
+                if matched_gt and len(gt_matched[matched_gt]) > 1:
+                    fragmentation_score += 0.5  # penalización parcial
+            else:
+                fp_in_doc.add(pred_text)
+        
+        tp += len(tp_in_doc)
         fp += len(fp_in_doc)
         
-        # FN: entidades en GT que NO fueron predichas
-        fn_in_doc = gt_texts - pred_texts
+        # FN: entidades en GT sin ningún match
+        fn_in_doc = set()
+        for gt_text in gt_texts:
+            if gt_text not in gt_matched:
+                fn_in_doc.add(gt_text)
+        
         fn += len(fn_in_doc)
         
         if debug and (tp_in_doc or fp_in_doc or fn_in_doc):
             logger.info(f"        TP: {len(tp_in_doc)} | FP: {len(fp_in_doc)} | FN: {len(fn_in_doc)}")
+            
+            # Mostrar fragmentación si existe
+            fragmented_gts = {gt: preds for gt, preds in gt_matched.items() if len(preds) > 1}
+            if fragmented_gts:
+                logger.info(f"        ⚠️  Fragmentación detectada: {len(fragmented_gts)} GTs con múltiples matches")
+                for gt, preds in list(fragmented_gts.items())[:2]:
+                    logger.info(f"            GT: '{gt[:50]}' ← {len(preds)} preds: {[p[:20] for p in preds[:3]]}")
         
-        # Recopilar ejemplos
-        for text in list(tp_in_doc)[:2]:
-            source = source_by_text.get((doc_id, text), 'unknown')
+        # Recopilar ejemplos con información de match_type
+        for pred_text in list(tp_in_doc)[:2]:
+            source = source_by_text.get((doc_id, pred_text), 'unknown')
+            is_tp, match_type, matched_gt = pred_classified[pred_text]
             if len(examples['tp']) < 5:
-                examples['tp'].append({'doc': doc_id[:8], 'text': text[:40], 'source': source})
+                examples['tp'].append({
+                    'doc': doc_id[:8],
+                    'pred': pred_text[:40],
+                    'gt': matched_gt[:40] if matched_gt else None,
+                    'match_type': match_type,
+                    'source': source
+                })
             source_metrics[source]['tp'] += 1
             source_metrics[source]['total'] += 1
         
-        for text in list(fp_in_doc)[:3]:
-            source = source_by_text.get((doc_id, text), 'unknown')
+        for pred_text in list(fp_in_doc)[:3]:
+            source = source_by_text.get((doc_id, pred_text), 'unknown')
             if len(examples['fp']) < 10:
-                examples['fp'].append({'doc': doc_id[:8], 'text': text[:40], 'source': source})
+                examples['fp'].append({
+                    'doc': doc_id[:8],
+                    'pred': pred_text[:40],
+                    'source': source
+                })
             source_metrics[source]['fp'] += 1
             source_metrics[source]['total'] += 1
         
-        for text in list(fn_in_doc)[:3]:
+        for gt_text in list(fn_in_doc)[:3]:
             if len(examples['fn']) < 10:
-                examples['fn'].append({'doc': doc_id[:8], 'text': text[:40]})
+                examples['fn'].append({
+                    'doc': doc_id[:8],
+                    'gt': gt_text[:40]
+                })
     
     # Calcular métricas globales
     precision = tp / (tp + fp) if (tp + fp) > 0 else 0
@@ -329,6 +446,10 @@ def evaluate(pred_by_doc: dict, source_by_text: dict, gt_by_doc: dict, debug: bo
         else:
             m['precision'] = 0.0
     
+    # Métricas de fragmentación
+    total_matches = sum(match_type_counts.values())
+    fragmentation_rate = fragmentation_score / total_matches if total_matches > 0 else 0
+    
     return {
         'tp': tp,
         'fp': fp,
@@ -338,6 +459,12 @@ def evaluate(pred_by_doc: dict, source_by_text: dict, gt_by_doc: dict, debug: bo
         'f1': f1,
         'examples': examples,
         'by_source': dict(source_metrics),
+        'match_types': dict(match_type_counts),
+        'fragmentation': {
+            'score': fragmentation_score,
+            'rate': fragmentation_rate,
+            'description': 'Penalización cuando múltiples predicciones matchean la misma entidad GT'
+        },
         'doc_stats': {
             'total': len(all_doc_ids),
             'with_predictions': len(pred_by_doc),
@@ -350,7 +477,7 @@ def evaluate(pred_by_doc: dict, source_by_text: dict, gt_by_doc: dict, debug: bo
 def print_results(metrics: dict):
     """Imprime resultados de forma legible."""
     print("\n" + "=" * 80)
-    print("📊 EVALUACIÓN DEL PIPELINE DE DETECCIÓN DE PII")
+    print("📊 EVALUACIÓN DEL PIPELINE DE DETECCIÓN DE PII (con fuzzy matching)")
     print("=" * 80)
     
     doc_stats = metrics.get('doc_stats', {})
@@ -361,14 +488,40 @@ def print_results(metrics: dict):
     print(f"   En ambos: {doc_stats.get('common', 0)}")
     
     print(f"\n🎯 MATRIZ DE CONFUSIÓN:")
-    print(f"   TP (predicción ✓ en GT): {metrics['tp']}")
-    print(f"   FP (predicción ✗ no en GT): {metrics['fp']}")
-    print(f"   FN (GT ✗ no predicho): {metrics['fn']}")
+    print(f"   TP (predicción ✓ matchea GT): {metrics['tp']}")
+    print(f"   FP (predicción ✗ sin match en GT): {metrics['fp']}")
+    print(f"   FN (GT ✗ sin match en predicciones): {metrics['fn']}")
     
     print(f"\n📈 MÉTRICAS GLOBALES:")
     print(f"   Precision: {metrics['precision']:.4f} ({metrics['precision']*100:.1f}%)")
     print(f"   Recall:    {metrics['recall']:.4f} ({metrics['recall']*100:.1f}%)")
     print(f"   F1-Score:  {metrics['f1']:.4f} ({metrics['f1']*100:.1f}%)")
+    
+    # Métricas de matching
+    if 'match_types' in metrics and metrics['match_types']:
+        print(f"\n🔗 TIPOS DE MATCHING:")
+        match_types = metrics['match_types']
+        total_matches = sum(match_types.values())
+        
+        type_names = {
+            'exact': 'Exacto',
+            'pred_in_gt': 'Pred ⊂ GT (fragmento)',
+            'gt_in_pred': 'GT ⊂ Pred (pred más largo)',
+            'overlap': 'Overlap palabras'
+        }
+        
+        for match_type, count in sorted(match_types.items(), key=lambda x: x[1], reverse=True):
+            pct = count / total_matches * 100 if total_matches > 0 else 0
+            label = type_names.get(match_type, match_type)
+            print(f"   {label:<25} {count:>8} ({pct:>5.1f}%)")
+    
+    # Fragmentación
+    if 'fragmentation' in metrics:
+        frag = metrics['fragmentation']
+        print(f"\n⚠️  FRAGMENTACIÓN:")
+        print(f"   Score: {frag['score']:.1f}")
+        print(f"   Rate: {frag['rate']:.4f} ({frag['rate']*100:.1f}%)")
+        print(f"   {frag['description']}")
     
     # Métricas por fuente
     if 'by_source' in metrics and metrics['by_source']:
@@ -384,18 +537,29 @@ def print_results(metrics: dict):
     # Ejemplos
     if metrics['examples']['tp']:
         print(f"\n✅ EJEMPLOS DE TP (detección correcta):")
-        for ex in metrics['examples']['tp']:
-            print(f"   [{ex['doc']}] [{ex.get('source', '?'):15s}] \"{ex['text']}\"")
+        for ex in metrics['examples']['tp'][:5]:
+            match_type = ex.get('match_type', '?')
+            pred = ex.get('pred', ex.get('text', '?'))
+            gt = ex.get('gt', '?')
+            source = ex.get('source', '?')
+            
+            if match_type == 'exact':
+                print(f"   [{ex['doc']}] [{source:15s}] \"{pred}\" [EXACT]")
+            else:
+                print(f"   [{ex['doc']}] [{source:15s}] Pred:\"{pred}\" ↔ GT:\"{gt}\" [{match_type}]")
     
     if metrics['examples']['fp']:
-        print(f"\n❌ EJEMPLOS DE FP (falsa alarma):")
+        print(f"\n❌ EJEMPLOS DE FP (falsa alarma - sin match en GT):")
         for ex in metrics['examples']['fp']:
-            print(f"   [{ex['doc']}] [{ex.get('source', '?'):15s}] \"{ex['text']}\"")
+            pred = ex.get('pred', ex.get('text', '?'))
+            source = ex.get('source', '?')
+            print(f"   [{ex['doc']}] [{source:15s}] \"{pred}\"")
     
     if metrics['examples']['fn']:
-        print(f"\n⚠️  EJEMPLOS DE FN (falso negativo - PII perdido):")
+        print(f"\n⚠️  EJEMPLOS DE FN (GT sin match - entidad perdida):")
         for ex in metrics['examples']['fn']:
-            print(f"   [{ex['doc']}] \"{ex['text']}\"")
+            gt = ex.get('gt', ex.get('text', '?'))
+            print(f"   [{ex['doc']}] \"{gt}\"")
     
     print("=" * 80 + "\n")
 
@@ -405,11 +569,12 @@ def save_results(metrics: dict, output_path: str):
     output = {
         'metadata': {
             'generated_at': datetime.now().isoformat(),
-            'evaluation_type': 'pii_detection',
+            'evaluation_type': 'pii_detection_fuzzy_matching',
+            'matching_strategy': 'Fuzzy matching con fragmentación: exact, pred_in_gt, gt_in_pred, overlap',
             'definitions': {
-                'TP': 'Predicción que existe en GT (correcto)',
-                'FP': 'Predicción que NO existe en GT (falsa alarma)',
-                'FN': 'Entidad en GT que NO fue predicha (perdido)'
+                'TP': 'Predicción que matchea con GT (cualquier tipo de match válido)',
+                'FP': 'Predicción sin match válido en GT',
+                'FN': 'Entidad en GT sin match en predicciones'
             }
         },
         'metrics': {
@@ -421,9 +586,12 @@ def save_results(metrics: dict, output_path: str):
                 'recall': round(metrics['recall'], 4),
                 'f1': round(metrics['f1'], 4)
             },
+            'match_types': metrics.get('match_types', {}),
+            'fragmentation': metrics.get('fragmentation', {}),
             'by_source': metrics.get('by_source', {}),
             'document_stats': metrics.get('doc_stats', {})
-        }
+        },
+        'examples': metrics.get('examples', {})
     }
     
     Path(output_path).parent.mkdir(parents=True, exist_ok=True)

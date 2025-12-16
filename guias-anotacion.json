@@ -1,160 +1,150 @@
 {
-
   "TERRITORIO": [
-    "Anotar los códigos postales completos, incluyendo letras cuando aparezcan. Ejemplos: \"CP: 01022\"; \"CP: E-28015\".",
-    "Anotar localidades como ciudades, pueblos o provincias cuando se mencionen. Ejemplos: \"Localidad/ Provincia: Barcelona/Barcelona\"; \"Madrid/Comunidad de Madrid\".",
-    "Anotar localidades que aparezcan precedidas por una dirección postal. Ejemplos: \"Calle Ginzo de limia 56, 1D Albacete\"; \"Calle Strachan, 4- 2º piso 29015- Badajoz\".",
-    "Anotar comunidades autónomas, provincias y áreas geográficas. Ejemplos: \"Río Júcar, s/n E-28935 Móstoles (Madrid)\"; \"Localidad/ Provincia: Madrid/Comunidad de Madrid\".",
-    "Anotar accidentes geográficos, regiones naturales, ecorregiones, comarcas, espacios naturales protegidos, divisiones administrativas, regiones militares, barrios y urbanizaciones. Ejemplos: \"la ciudad eterna (= Roma)\"; \"la falla de San Andrés\"; \"la Sierra\"; \"la Mancha\"; \"parque nacional de Doñana\"; \"la diócesis de Cuernavaca\"; \"barrio de Lavapiés\"; \"pertenece a la urbanización torrejoncillo de los higos ...\".",
-    "Anotar los continentes cuando se mencionen. Ejemplo: \"Europa\"."
+    "Anotar cualquier referencia geográfica que pueda contribuir a localizar a una persona o un evento. Incluye códigos postales completos, con letras si aparecen. Ejemplos: \"CP: 01022\"; \"CP: E-28015\".",
+    "Anotar ciudades, pueblos, provincias o combinaciones de localidad/provincia. Ejemplos: \"Barcelona\"; \"Madrid / Comunidad de Madrid\".",
+    "Anotar localidades cuando aparezcan como parte de una dirección postal. Ejemplos: \"Calle Ginzo de Limia 56, Albacete\"; \"Calle Strachan 4, 29015 Badajoz\".",
+    "Anotar comunidades autónomas, provincias y áreas geográficas administrativas. Ejemplos: \"Móstoles (Madrid)\"; \"Comunidad Valenciana\".",
+    "Anotar regiones naturales, accidentes geográficos, barrios, urbanizaciones, divisiones administrativas o eclesiásticas. Ejemplos: \"la Mancha\"; \"barrio de Lavapiés\"; \"parque nacional de Doñana\".",
+    "Anotar continentes cuando se mencionen explícitamente. Ejemplo: \"Europa\"."
   ],
 
   "FECHAS": [
-    "Anotar todas las fechas, incluidas las escritas en formato numérico o textual. Ejemplos: \"20/09/2016\"; \"23-octubre-1972\"; \"22 Septiembre de 2018\".",
-    "Anotar años, estaciones, meses y días festivos. Ejemplos: \"Otoño del 2017\"; \"En el mes de Marzo de ese mismo año…\"; \"a principios del año 2004\"; \"diagnosticada en 2014\"; \"4 meses (Junio 04)\".",
-    "Anotar días de la semana. Ejemplo: \"el jueves 2 de Agosto\".",
-    "Anotar décadas abreviadas. Ejemplo: \"en los 90s tuvo un accidente\".",
-    "Anotar palabras o expresiones que hagan referencia a fechas conocidas. Ejemplos: \"nochevieja\"; \"navidad\"; \"día de la madre\"; \"san juan\"; \"halloween\"."
+    "Anotar cualquier expresión temporal concreta que sitúe un evento en el tiempo. Incluye fechas numéricas y textuales. Ejemplos: \"20/09/2016\"; \"23 de octubre de 1972\".",
+    "Anotar años, meses, estaciones, periodos y referencias temporales parciales. Ejemplos: \"en 2014\"; \"primavera de 2017\"; \"a principios de 2004\".",
+    "Anotar días de la semana cuando formen parte de una referencia temporal. Ejemplo: \"jueves 2 de agosto\".",
+    "Anotar décadas expresadas de forma abreviada. Ejemplo: \"en los 90\".",
+    "Anotar festividades o fechas culturalmente identificables. Ejemplos: \"Navidad\"; \"Nochevieja\"; \"San Juan\"."
   ],
 
   "EDAD_SUJETO_ASISTENCIA": [
-    "Anotar todas las edades del paciente. Ejemplos: \"Edad: 68\"; \"Paciente de 76 años\"; \"Enfermo varón de 40 años\".",
-    "Anotar edades menores de un año incluyendo unidades temporales. Ejemplos: \"Recién nacido de tres días de vida\"; \"3 días de nacido\".",
-    "Incluir unidades temporales como años, meses, semanas, días u horas. Ejemplos: \"tres días de vida\"; \"40 años\"."
+    "Anotar cualquier mención explícita de la edad del paciente. Ejemplos: \"68 años\"; \"paciente de 40 años\".",
+    "Anotar edades inferiores a un año incluyendo la unidad temporal. Ejemplos: \"recién nacido de tres días\".",
+    "Anotar siempre la edad junto con su unidad temporal si aparece. Ejemplos: \"semanas\"; \"meses\"; \"horas\"."
   ],
 
   "NOMBRE_SUJETO_ASISTENCIA": [
-    "Anotar nombre propio y apellidos completos del paciente. Ejemplos: \"Rafael\"; \"Calvo Martín\".",
-    "Anotar abreviaturas e iniciales. Ejemplos: \"Dña. M. Jesús\"; \"Fco. José\".",
-    "Anotar apodos, alias y sobrenombres. Ejemplos: \"M. del Mar (Marita)\"; \"Vinardell\"; \"esposa del Sr. Alvarado\"; \"Ernesto 'Che' Guevara\".",
-    "Anotar títulos nobiliarios. Ejemplo: \"Duque de Alba\".",
-    "Anotar plurales de antropónimos. Ejemplo: \"los Pérez\".",
-    "Anotar nombre y apellidos como una sola mención si van seguidos. Ejemplos: \"Francisco Javier\"; \"Martínez-Aguado\".",
-    "Anotar como una sola mención aunque uno de los componentes sea dudoso. Ejemplo: \"francisco musulmán de 50 años\"."
+    "Anotar cualquier nombre propio o apellidos que identifiquen al paciente, completos o parciales. Ejemplos: \"Rafael\"; \"Calvo Martín\".",
+    "Anotar iniciales, abreviaturas y formas contraídas de nombres. Ejemplos: \"Dña. M. Jesús\"; \"Fco. José\".",
+    "Anotar alias, apodos o sobrenombres cuando identifiquen a una persona concreta. Ejemplos: \"Marita\"; \"Che\".",
+    "Anotar títulos nobiliarios si identifican a una persona específica. Ejemplo: \"Duque de Alba\".",
+    "Anotar nombres en plural cuando se refieran a una familia identificable. Ejemplo: \"los Pérez\".",
+    "Anotar nombre y apellidos como una sola entidad si aparecen seguidos, incluso con dudas ortográficas."
   ],
 
   "NOMBRE_PERSONAL_SANITARIO": [
-    "Anotar nombre propio y apellidos del personal sanitario. Ejemplo: \"Josep Rubio Palau\".",
-    "Anotar abreviaturas e iniciales. Ejemplo: \"J.R Palau\".",
-    "Anotar nombre y apellidos juntos como una sola mención. Ejemplo: \"Josep Rubio Palau\".",
-    "Anotar como una sola mención aunque haya duda en un componente. Ejemplo: \"el médico francisco musulmán de 50 años\"."
+    "Anotar nombres y apellidos del personal sanitario cuando identifiquen a una persona concreta. Ejemplo: \"Josep Rubio Palau\".",
+    "Anotar iniciales y abreviaturas asociadas al personal sanitario. Ejemplo: \"J.R. Palau\".",
+    "Anotar como una sola entidad incluso si parte del nombre es dudosa."
   ],
 
   "SEXO_SUJETO_ASISTENCIA": [
-    "Anotar hombre, varón, mujer, niño, niña y derivados. Ejemplos: \"Enfermo varón\"; \"Mujer sometida\"; \"Niña de 11 años\"; \"Pacientemasculino negro\"; \"Sexo: Hombre\".",
-    "Anotar abreviaturas M y H. Ejemplo: \"Sexo: M\".",
-    "Anotar duplicaciones erróneas como una sola mención. Ejemplo: \"Sexo: M H\"."
+    "Anotar cualquier referencia explícita al sexo o género del paciente. Ejemplos: \"varón\"; \"mujer\"; \"niña\".",
+    "Anotar abreviaturas como M, H u otras equivalentes.",
+    "Anotar duplicaciones erróneas como una sola mención."
   ],
 
   "CALLE": [
-    "Anotar nombre de vía con número, piso, escalera u otros elementos. Ejemplos: \"Avenida Melchor Fernández 59. 4,2\"; \"Paraje Torrecárdenas s/n 04009 Almería\"; \"114 y 31. Marianao. 11500. La Habana\".",
-    "Anotar tipos de vía completos. Ejemplos: \"Plaza Juan Carlos I\"; \"Paseo Echegaray y Caballero\".",
-    "Anotar abreviaturas de vías. Ejemplos: \"C/ Irunlarrea\"; \"AV. San Francisco\"; \"Av. Litoral\"; \"Pº rosales\"."
+    "Anotar nombres de vías públicas junto con números, pisos u otros elementos de localización. Ejemplos: \"Avenida Melchor Fernández 59\".",
+    "Anotar tipos de vía completos y abreviados. Ejemplos: \"Plaza Juan Carlos I\"; \"C/ Irunlarrea\"."
   ],
 
   "PAIS": [
-    "Anotar todos los países mencionados. Ejemplos: \"España\"; \"Madrid, España\"."
+    "Anotar cualquier país mencionado, tanto de forma aislada como integrada en una dirección. Ejemplos: \"España\"; \"Madrid, España\"."
   ],
 
   "ID_SUJETO_ASISTENCIA": [
-    "Anotar identificadores como CIPA, NHC, DNI, NIF, CIE y pasaporte. Ejemplos: \"NHC: 987654\"; \"CIPA: nhc-150679\"; \"DNI: 38987678\"; \"NIF: 38987678-P\".",
-    "Anotar grupos poblacionales de MESH usados como identificadores. Ejemplos: \"masculino negro\"; \"musulmán varón\".",
-    "Anotar orientaciones sexuales si se usan como rasgo identificador. Ejemplo: \"Varón homosexual de 21 años\"."
+    "Anotar identificadores administrativos o clínicos que identifiquen directamente al paciente. Ejemplos: \"DNI\"; \"NHC\"; \"CIPA\"; \"pasaporte\".",
+    "Anotar rasgos poblacionales o de orientación sexual solo si se usan como identificadores explícitos."
   ],
 
   "CORREO_ELECTRONICO": [
-    "Anotar todas las direcciones de correo electrónico. Ejemplo: \"jrubiopalau@yahoo.es\"."
+    "Anotar cualquier dirección de correo electrónico completa. Ejemplo: \"jrubiopalau@yahoo.es\"."
   ],
 
   "ID_TITULACION_PERSONAL_SANITARIO": [
-    "Anotar el número de colegiado del personal sanitario. Ejemplo: \"NºCol: 08-08-25574\"."
+    "Anotar números de colegiado u otros identificadores profesionales del personal sanitario."
   ],
 
   "ID_ASEGURAMIENTO": [
-    "Anotar número de afiliación a la seguridad social. Ejemplo: \"NASS: 33 4568642 23\"."
+    "Anotar números de afiliación o identificación en sistemas de aseguramiento sanitario."
   ],
 
   "HOSPITAL": [
-    "Anotar nombres de hospitales o centros asistenciales. Ejemplos: \"Hospital Universitario de La Princesa\"; \"Hospital San Juan de la Cruz\".",
-    "Incluir modificadores como complejo u hospital. Ejemplo: \"Complejo Hospitalario de Navarra\".",
-    "Anotar como mención separada si hay elementos dudosos alrededor. Ejemplo: \"HU 12 de octubre\"."
+    "Anotar nombres propios de hospitales o centros asistenciales. Ejemplos: \"Hospital Universitario de La Princesa\".",
+    "Anotar denominaciones completas o abreviadas si identifican un centro concreto."
   ],
 
-  "FAMILIARES_SUJETO_ASISTENCIA": [
-    "Anotar nombres propios y apellidos de familiares. Ejemplo: \"su esposa M. Jesús Calvo\".",
-    "Anotar información de parentesco o número de familiares. Ejemplos: \"dos hijos y una hija\"; \"dos primos y su tía\".",
-    "Anotar edades de familiares. Ejemplo: \"una hija de 14 años\"."
+ "FAMILIARES_SUJETO_ASISTENCIA": [
+  "Anotar nombres propios y apellidos de familiares del paciente. Ejemplo: \"su esposa M. Jesús Calvo\".",
+  "Anotar referencias explícitas de parentesco aunque no aparezca nombre propio. Ejemplos: \"su madre\"; \"el padre\"; \"la abuela\"; \"un primo\".",
+  "Anotar referencias a hijos o descendientes, incluyendo género y número. Ejemplos: \"una hija\"; \"dos hijos\"; \"un hijo varón\".",
+  "Anotar cualquier mención al sexo o género de un familiar cuando esté asociada a una relación familiar. Ejemplos: \"hija\"; \"hijo\"; \"femenino\"; \"masculino\"; \"varón\"; \"mujer\".",
+  "Anotar combinaciones de parentesco y sexo aunque no incluyan edad ni nombre. Ejemplos: \"familiar femenino\"; \"hermano varón\"; \"esposa\"; \"marido\".",
+  "Anotar edades de familiares cuando aparezcan junto a una relación familiar. Ejemplo: \"una hija de 14 años\".",
+  "No anotar palabras genéricas como \"familia\", \"familiares\" o \"entorno familiar\" si no aportan información identificable adicional."
   ],
 
   "INSTITUCION": [
-    "Anotar nombres de instituciones no hospitalarias. Ejemplos: \"Centro Nacional de Investigaciones Oncológicas\"; \"Sanitas\".",
-    "Anotar siglas y alias, incluso si están en minúsculas. Ejemplos: \"CNIO\"; \"cnio\"."
+    "Anotar nombres de instituciones no hospitalarias que puedan identificar al entorno del paciente. Ejemplos: \"CNIO\"; \"Sanitas\"."
   ],
 
   "NUMERO_TELEFONO": [
-    "Anotar todos los números de teléfono mencionados. Ejemplos: \"630 304 365\"; \"633 349 565\".",
-    "Anotar números de buscapersonas. Ejemplo: \"6527-3368\"."
+    "Anotar cualquier número de teléfono, fijo o móvil, incluyendo buscapersonas."
   ],
 
   "ID_CONTACTO_ASISTENCIAL": [
-    "Anotar número de identificación de episodio, contacto o proceso clínico. Ejemplo: \"Episodio:1520368541\"."
+    "Anotar identificadores de episodios, contactos o procesos clínicos."
   ],
 
   "PROFESION": [
-    "Anotar cualquier trabajo o profesión mencionada. Ejemplos: \"trabajador de la construcción\"; \"ingeniero informático\"."
+    "Anotar profesiones u ocupaciones cuando contribuyan a identificar indirectamente al sujeto."
   ],
 
   "NUMERO_FAX": [
-    "Anotar los números asociados al campo Fax. Ejemplos: \"Fax: 0998 455879\"; \"FAX: 637 249 823\"."
+    "Anotar números de fax."
   ],
 
   "OTROS_SUJETO_ASISTENCIA": [
-    "Anotar información que pueda identificar indirectamente al paciente. Ejemplos: \"tatuaje del pato Donald\"; \"madre Teresa Rodríguez\"; \"Síndrome de Down\"; \"jefe de Gobierno\"; \"ministra de Defensa\"."
+    "Anotar cualquier rasgo distintivo que permita identificar indirectamente al paciente. Ejemplos: tatuajes únicos, cargos públicos, condiciones singulares."
   ],
 
   "CENTRO_SALUD": [
-    "Anotar nombres completos de centros de salud. Ejemplos: \"Centro de Salud Cea Bermúdez\"; \"Centro de Salud Infanta Mercedes\"."
+    "Anotar nombres propios de centros de salud."
   ],
 
   "ID_EMPLEO_PERSONAL_SANITARIO": [
-    "Anotar número de empleado del personal sanitario. Ejemplos: \"u000999\"; \"e999000\"."
+    "Anotar identificadores laborales del personal sanitario."
   ],
 
   "IDENTIF_VEHICULOS_NRSERIE_PLACAS": [
-    "Anotar las matrículas y números de bastidor. Ejemplos: \"5478GDV\"; \"VF1RFD00653635032\"."
+    "Anotar matrículas de vehículos o números de bastidor."
   ],
 
   "IDENTIF_DISPOSITIVOS_NRSERIE": [
-    "Anotar direcciones IP y MAC. Ejemplos: \"192.168.0.23\"; \"00:0a:95:9d:68:16\"."
+    "Anotar direcciones IP, MAC u otros identificadores únicos de dispositivos."
   ],
 
-  
   "NUMERO_BENEF_PLAN_SALUD": [
-    "Anotar el número de beneficiario asociado a un plan de salud privado, póliza médica o seguro sanitario. Ejemplos: \"Nº Beneficiario: 556-883-221\"; \"Póliza: 78456231-A\".",
-    "Anotar el número identificador del asegurado principal cuando se utilice para identificar al paciente dentro de una compañía de seguros. Ejemplos: \"Número de asegurado principal: 00987654\".",
-    "Anotar números de póliza o contrato de un seguro médico cuando se utilicen como identificador directo del paciente. Ejemplos: \"Plan Salud Premium – ID Beneficiario: PS-4452391\".",
-    "Anotar el identificador de beneficiario emitido por mutuas, aseguradoras o planes de salud, aunque incluya letras, guiones o prefijos. Ejemplos: \"Mutua Médica – Nº afiliado: MM-982344\"."
+    "Anotar identificadores de beneficiarios o pólizas de seguros sanitarios."
   ],
 
   "DIREC_PROT_INTERNET": [
-    "Anotar direcciones de protocolo de internet. Ejemplos: \"https://www.sample.com\"; \"ftp://wwwsample.com\"."
+    "Anotar direcciones completas de protocolo de internet."
   ],
 
   "IDENTIF_BIOMETRICOS": [
-    "Anotar identificadores biométricos. Ejemplo: \"huella dactilar FP537WXZ391\"."
+    "Anotar identificadores biométricos únicos como huellas dactilares o escaneos retinianos."
   ],
 
   "URL_WEB": [
-    "Anotar URLs o direcciones web. Ejemplo: \"www.sample.com\"."
+    "Anotar direcciones web completas."
   ],
 
   "OTRO_NUMERO_IDENTIF": [
-    "Anotar cualquier número identificativo no clasificado en otra categoría. Ejemplo: \"NºSocio: 5547889955\"."
+    "Anotar cualquier número identificativo que no encaje en otra categoría."
   ],
-  
+
   "NUMERO_IDENTIF": [
-    "Anotar otros identificadores biométricos, como por ejemplo, escaneo retiniano, huellas dactilares. Ejemplo: \"Ha sido necesario acceder a su identificador de huella dactilar FP537WXZ391 para poder identificar al paciente...\"."
+    "Anotar otros identificadores biométricos o técnicos no clasificados previamente."
   ]
-
-
 }
