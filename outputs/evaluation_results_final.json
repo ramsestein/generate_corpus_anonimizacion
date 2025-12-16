@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2025-12-11T14:40:21.562026",
+    "generated_at": "2025-12-16T08:52:02.264146",
     "evaluation_type": "pii_detection",
     "definitions": {
       "TP": "Predicción que existe en GT (correcto)",
@@ -10,38 +10,38 @@
   },
   "metrics": {
     "global": {
-      "tp": 91998,
-      "fp": 61769,
-      "fn": 24170,
-      "precision": 0.5983,
-      "recall": 0.7919,
-      "f1": 0.6816
+      "tp": 92514,
+      "fp": 62247,
+      "fn": 23654,
+      "precision": 0.5978,
+      "recall": 0.7964,
+      "f1": 0.6829
     },
     "by_source": {
+      "dict_whitelist_pre": {
+        "tp": 1649,
+        "fp": 69,
+        "total": 1718,
+        "precision": 0.959837019790454
+      },
       "setfit": {
-        "tp": 90736,
-        "fp": 61249,
-        "total": 151985,
-        "precision": 0.5970062835148205
+        "tp": 90468,
+        "fp": 61941,
+        "total": 152409,
+        "precision": 0.5935869928941204
       },
       "llm_rescue": {
-        "tp": 1094,
-        "fp": 508,
-        "total": 1602,
-        "precision": 0.682896379525593
-      },
-      "dict_whitelist": {
-        "tp": 168,
-        "fp": 12,
-        "total": 180,
-        "precision": 0.9333333333333333
+        "tp": 397,
+        "fp": 237,
+        "total": 634,
+        "precision": 0.6261829652996845
       }
     },
     "document_stats": {
       "total": 14035,
-      "with_predictions": 14017,
+      "with_predictions": 14016,
       "with_gt": 14035,
-      "common": 14017
+      "common": 14016
     }
   }
 }

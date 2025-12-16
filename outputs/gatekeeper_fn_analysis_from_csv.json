@@ -1,0 +1,482 @@
+{
+  "inputs": {
+    "setfit_csv": "outputs\\setfit_context_resultados_20251202_081634.csv",
+    "ground_truth": "outputs\\combined_entidades_ANTIGUO.json",
+    "threshold": 0.85,
+    "rule": "keep iff (pred==1 and confidence>=threshold)"
+  },
+  "summary": {
+    "rows_total": 729,
+    "rows_in_gt": 500,
+    "gatekeeper_fn": 29,
+    "gatekeeper_fn_rate_over_gt": 0.058
+  },
+  "confidence_summary_fn": {
+    "count": 29,
+    "min": 0.5149842292416272,
+    "p10": 0.5858310437472282,
+    "p50": 0.9138916095791408,
+    "p90": 0.9985118573049464,
+    "max": 0.9994976355621716
+  },
+  "groupings": {
+    "by_ner_label": [
+      [
+        "INSTITUCION",
+        6
+      ],
+      [
+        "PAIS",
+        5
+      ],
+      [
+        "CENTRO_SALUD",
+        4
+      ],
+      [
+        "HOSPITAL",
+        3
+      ],
+      [
+        "NUMERO_TELEFONO",
+        2
+      ],
+      [
+        "SEXO_SUJETO_ASISTENCIA",
+        2
+      ],
+      [
+        "CORREO_ELECTRONICO",
+        2
+      ],
+      [
+        "OTROS_SUJETO_ASISTENCIA",
+        2
+      ],
+      [
+        "ID_SUJETO_ASISTENCIA",
+        1
+      ],
+      [
+        "PROFESION",
+        1
+      ],
+      [
+        "NUMERO_IDENTIF",
+        1
+      ]
+    ],
+    "by_gt_label": [
+      [
+        "URL_WEB",
+        4
+      ],
+      [
+        "CENTRO_SALUD",
+        4
+      ],
+      [
+        "PAIS",
+        3
+      ],
+      [
+        "OTRO_NUMERO_IDENTIF",
+        2
+      ],
+      [
+        "HOSPITAL",
+        2
+      ],
+      [
+        "INSTITUCION",
+        2
+      ],
+      [
+        "DIREC_PROT_INTERNET",
+        2
+      ],
+      [
+        "SEXO_SUJETO_ASISTENCIA",
+        2
+      ],
+      [
+        "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+        2
+      ],
+      [
+        "ID_TITULACION_PERSONAL_SANITARIO",
+        1
+      ],
+      [
+        "NUMERO_BENEF_PLAN_SALUD",
+        1
+      ],
+      [
+        "IDENTIF_DISPOSITIVOS_NRSERIE",
+        1
+      ],
+      [
+        "OTROS_SUJETO_ASISTENCIA",
+        1
+      ],
+      [
+        "CORREO_ELECTRONICO",
+        1
+      ],
+      [
+        "TERRITORIO",
+        1
+      ]
+    ],
+    "by_pattern": [
+      [
+        "single_token",
+        15
+      ],
+      [
+        "multi_token",
+        10
+      ],
+      [
+        "has_digit",
+        2
+      ],
+      [
+        "alnum_mix",
+        2
+      ]
+    ],
+    "by_length_bucket": [
+      [
+        "4-6",
+        8
+      ],
+      [
+        "11-20",
+        7
+      ],
+      [
+        "7-10",
+        7
+      ],
+      [
+        "21+",
+        4
+      ],
+      [
+        "1-3",
+        3
+      ]
+    ],
+    "by_token_bucket": [
+      [
+        "1",
+        18
+      ],
+      [
+        "2",
+        6
+      ],
+      [
+        "5-8",
+        4
+      ],
+      [
+        "3-4",
+        1
+      ]
+    ]
+  },
+  "examples": [
+    {
+      "doc_id": "00039e89-4b9a-4a81-bb08-334cf20b482c",
+      "ner_label": "PAIS",
+      "entity_text": "España",
+      "gt_label": "PAIS",
+      "gt_match": "España",
+      "setfit_prediction": 1,
+      "confidence": 0.835888953061817,
+      "sentence": "Cabe mencionar que toda la documentación generada queda sujeta a la normativa de protección de datos vigente en España."
+    },
+    {
+      "doc_id": "00218b06-d0d8-4bc9-a2c1-32d20d754334",
+      "ner_label": "ID_SUJETO_ASISTENCIA",
+      "entity_text": "2024-789012",
+      "gt_label": "OTRO_NUMERO_IDENTIF",
+      "gt_match": "HC-2024-789012",
+      "setfit_prediction": 0,
+      "confidence": 0.805728280738529,
+      "sentence": "Los análisis de laboratorio, asociados al identificador de sujeto de asistencia **HC-2024-789012**, confirman la normalización de los parámetros hepáticos que se encontraban levemente alterados en controles previos."
+    },
+    {
+      "doc_id": "002bc8a8-ae0f-4973-b3df-909cb5a476fc",
+      "ner_label": "INSTITUCION",
+      "entity_text": "clin",
+      "gt_label": "URL_WEB",
+      "gt_match": "https://www.clinicabarcelona.org",
+      "setfit_prediction": 0,
+      "confidence": 0.9984544453591316,
+      "sentence": "clinicabarcelona."
+    },
+    {
+      "doc_id": "003c64ee-b779-4804-8413-6f9312d93f09",
+      "ner_label": "PROFESION",
+      "entity_text": "Grado en Medicina",
+      "gt_label": "ID_TITULACION_PERSONAL_SANITARIO",
+      "gt_match": "Grado en Medicina",
+      "setfit_prediction": 0,
+      "confidence": 0.9902332148672792,
+      "sentence": "Grado en Medicina"
+    },
+    {
+      "doc_id": "0066ed9f-17d8-4bbb-894e-010119d9edc5",
+      "ner_label": "PAIS",
+      "entity_text": "España",
+      "gt_label": "PAIS",
+      "gt_match": "España",
+      "setfit_prediction": 1,
+      "confidence": 0.6959057219660929,
+      "sentence": "Todo el proceso asistencial descrito se ha desarrollado dentro del marco del sistema sanitario de España."
+    },
+    {
+      "doc_id": "00697f6c-c83d-4ef0-b8bd-c3606ab93df6",
+      "ner_label": "HOSPITAL",
+      "entity_text": "Hospital Clínico",
+      "gt_label": "HOSPITAL",
+      "gt_match": "Hospital Clínico San Carlos",
+      "setfit_prediction": 0,
+      "confidence": 0.5858310437472282,
+      "sentence": "Todos los procedimientos diagnósticos y terapéuticos se han realizado de acuerdo con los estándares de calidad asistencial del Hospital Clínico y bajo los criterios establecidos por la Consejería de Salud de la Comunidad de Madrid."
+    },
+    {
+      "doc_id": "00697f6c-c83d-4ef0-b8bd-c3606ab93df6",
+      "ner_label": "HOSPITAL",
+      "entity_text": "Hospital Clínico",
+      "gt_label": "HOSPITAL",
+      "gt_match": "Hospital Clínico San Carlos",
+      "setfit_prediction": 0,
+      "confidence": 0.5858310437472282,
+      "sentence": "Todos los procedimientos diagnósticos y terapéuticos se han realizado de acuerdo con los estándares de calidad asistencial del Hospital Clínico y bajo los criterios establecidos por la Consejería de Salud de la Comunidad de Madrid."
+    },
+    {
+      "doc_id": "00697f6c-c83d-4ef0-b8bd-c3606ab93df6",
+      "ner_label": "HOSPITAL",
+      "entity_text": "de Madrid",
+      "gt_label": "INSTITUCION",
+      "gt_match": "Consejería de Salud de la Comunidad de Madrid",
+      "setfit_prediction": 0,
+      "confidence": 0.5600628025739578,
+      "sentence": "Todos los procedimientos diagnósticos y terapéuticos se han realizado de acuerdo con los estándares de calidad asistencial del Hospital Clínico y bajo los criterios establecidos por la Consejería de Salud de la Comunidad de Madrid."
+    },
+    {
+      "doc_id": "007bac28-399d-4ea1-9fd9-9e02ed6122ff",
+      "ner_label": "NUMERO_TELEFONO",
+      "entity_text": "B12",
+      "gt_label": "NUMERO_BENEF_PLAN_SALUD",
+      "gt_match": "B123456789",
+      "setfit_prediction": 0,
+      "confidence": 0.9962838073123492,
+      "sentence": "En cuanto a los parámetros de control, se registra el dispositivo médico con identificador B123456789, que corresponde al holter de arritmias implantado, cuyo funcionamiento se reporta dentro de los límites normales sin detección de eventos arrítmicos significativos en el período de monitorización."
+    },
+    {
+      "doc_id": "007cc328-610a-4a96-8baf-005ffd8be68f",
+      "ner_label": "NUMERO_TELEFONO",
+      "entity_text": "HC-",
+      "gt_label": "OTRO_NUMERO_IDENTIF",
+      "gt_match": "HC-2024-789456",
+      "setfit_prediction": 0,
+      "confidence": 0.9990185985165536,
+      "sentence": "Cabe mencionar que, para una correcta trazabilidad en los sistemas de información, se encuentra también asociado el otro número de identificación HC-2024-789012, el cual debe ser consignado en toda comunicación interdepartamental para evitar duplicidades."
+    },
+    {
+      "doc_id": "007e1ff6-407e-4536-bcc9-6be365de2903",
+      "ner_label": "INSTITUCION",
+      "entity_text": "clin",
+      "gt_label": "DIREC_PROT_INTERNET",
+      "gt_match": "https://historiaclinica.hgugm.es/paciente/12345",
+      "setfit_prediction": 0,
+      "confidence": 0.9984544453591316,
+      "sentence": "clinicabarcelona."
+    },
+    {
+      "doc_id": "0081a6c0-e244-4b51-af1a-216d03cfadd3",
+      "ner_label": "SEXO_SUJETO_ASISTENCIA",
+      "entity_text": "femenino",
+      "gt_label": "SEXO_SUJETO_ASISTENCIA",
+      "gt_match": "femenino",
+      "setfit_prediction": 0,
+      "confidence": 0.9076184972046898,
+      "sentence": "En la evolución correspondiente a la consulta de seguimiento de diabetes mellitus tipo 2, se documenta que la paciente, de sexo femenino, continúa con su régimen terapéutico habitual mostrando una adherencia satisfactoria."
+    },
+    {
+      "doc_id": "0081a6c0-e244-4b51-af1a-216d03cfadd3",
+      "ner_label": "SEXO_SUJETO_ASISTENCIA",
+      "entity_text": "femenino",
+      "gt_label": "SEXO_SUJETO_ASISTENCIA",
+      "gt_match": "femenino",
+      "setfit_prediction": 0,
+      "confidence": 0.9076184972046898,
+      "sentence": "En la evolución correspondiente a la consulta de seguimiento de diabetes mellitus tipo 2, se documenta que la paciente, de sexo femenino, continúa con su régimen terapéutico habitual mostrando una adherencia satisfactoria."
+    },
+    {
+      "doc_id": "00930499-2021-4d95-a3f2-3b0053ead40c",
+      "ner_label": "NUMERO_IDENTIF",
+      "entity_text": "SN-",
+      "gt_label": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "gt_match": "SN-98273645",
+      "setfit_prediction": 0,
+      "confidence": 0.9994976355621716,
+      "sentence": "Los resultados analíticos recientes, asociados al número de serie del dispositivo analizador SN-98273645, fueron dentro de parámetros normales."
+    },
+    {
+      "doc_id": "009d2053-4bba-49ef-ae60-5ef67cd43e30",
+      "ner_label": "INSTITUCION",
+      "entity_text": "central",
+      "gt_label": "DIREC_PROT_INTERNET",
+      "gt_match": "https://historiaclinica.hospitalcentral.es/paciente/ZXC456TYU",
+      "setfit_prediction": 0,
+      "confidence": 0.9925896700509368,
+      "sentence": "hospitalcentral."
+    },
+    {
+      "doc_id": "00a1a66e-094d-48bb-85b0-5fabb0cbdb2e",
+      "ner_label": "CENTRO_SALUD",
+      "entity_text": "Centro de Salud Los Álamos",
+      "gt_label": "CENTRO_SALUD",
+      "gt_match": "Centro de Salud Los Álamos",
+      "setfit_prediction": 0,
+      "confidence": 0.8883716311349116,
+      "sentence": "En la consulta de seguimiento realizada en el Centro de Salud Los Álamos, se reevalúa al paciente que en esta ocasión presenta una sintomatología inespecífica consistente en astenia y artralgias migratorias."
+    },
+    {
+      "doc_id": "00a1a66e-094d-48bb-85b0-5fabb0cbdb2e",
+      "ner_label": "CENTRO_SALUD",
+      "entity_text": "Centro de Salud Los Álamos",
+      "gt_label": "CENTRO_SALUD",
+      "gt_match": "Centro de Salud Los Álamos",
+      "setfit_prediction": 0,
+      "confidence": 0.8883716311349116,
+      "sentence": "En la consulta de seguimiento realizada en el Centro de Salud Los Álamos, se reevalúa al paciente que en esta ocasión presenta una sintomatología inespecífica consistente en astenia y artralgias migratorias."
+    },
+    {
+      "doc_id": "00a5d694-46ad-49ba-a2a0-82313738073f",
+      "ner_label": "PAIS",
+      "entity_text": "España",
+      "gt_label": "PAIS",
+      "gt_match": "España",
+      "setfit_prediction": 1,
+      "confidence": 0.5149842292416272,
+      "sentence": "Todo el proceso asistencial se desarrolla dentro del sistema sanitario de España, garantizando así la continuidad de cuidados según los protocolos establecidos en nuestra red."
+    },
+    {
+      "doc_id": "00a85666-62f1-413f-b1d7-16da8833a113",
+      "ner_label": "INSTITUCION",
+      "entity_text": "apoyo",
+      "gt_label": "OTROS_SUJETO_ASISTENCIA",
+      "gt_match": "Grupo de apoyo de diabetes tipo 2",
+      "setfit_prediction": 0,
+      "confidence": 0.9486395342615692,
+      "sentence": "La paciente refiere buena adherencia al tratamiento establecido y participación activa en el Grupo de apoyo de diabetes tipo 2, lo cual ha contribuido favorablemente a su manejo metabólico."
+    },
+    {
+      "doc_id": "00bd7258-533d-47d5-bcd7-f4d008a106ea",
+      "ner_label": "INSTITUCION",
+      "entity_text": "clinicab",
+      "gt_label": "URL_WEB",
+      "gt_match": "https://www.clinicabarcelona.es",
+      "setfit_prediction": 0,
+      "confidence": 0.9987415050882056,
+      "sentence": "clinicabarcelona."
+    },
+    {
+      "doc_id": "00bd7258-533d-47d5-bcd7-f4d008a106ea",
+      "ner_label": "CORREO_ELECTRONICO",
+      "entity_text": "arcelona.es",
+      "gt_label": "URL_WEB",
+      "gt_match": "https://www.clinicabarcelona.es",
+      "setfit_prediction": 1,
+      "confidence": 0.8265288230191276,
+      "sentence": "clinicabarcelona.es donde se encuentra material actualizado sobre el manejo de la condición."
+    },
+    {
+      "doc_id": "00c61347-746f-4a53-a9a8-a0fc8b66b243",
+      "ner_label": "INSTITUCION",
+      "entity_text": "clinic",
+      "gt_label": "CORREO_ELECTRONICO",
+      "gt_match": "carlos.martinez@clinic.es",
+      "setfit_prediction": 0,
+      "confidence": 0.9921865427548666,
+      "sentence": "clinicabarcelona."
+    },
+    {
+      "doc_id": "00ca4c0f-859c-4891-acdb-0698c2ded3e1",
+      "ner_label": "PAIS",
+      "entity_text": "de Sanidad",
+      "gt_label": "INSTITUCION",
+      "gt_match": "Ministerio de Sanidad",
+      "setfit_prediction": 1,
+      "confidence": 0.8211783864980375,
+      "sentence": "Cabe mencionar que el proceso asistencial se ajusta a los protocolos establecidos por el Ministerio de Sanidad y la Comunidad Valenciana."
+    },
+    {
+      "doc_id": "00ca4c0f-859c-4891-acdb-0698c2ded3e1",
+      "ner_label": "PAIS",
+      "entity_text": "Comunidad Valenciana",
+      "gt_label": "TERRITORIO",
+      "gt_match": "Comunidad Valenciana",
+      "setfit_prediction": 1,
+      "confidence": 0.8384863606637942,
+      "sentence": "Cabe mencionar que el proceso asistencial se ajusta a los protocolos establecidos por el Ministerio de Sanidad y la Comunidad Valenciana."
+    },
+    {
+      "doc_id": "00d05a74-bec1-4834-a0eb-29d75a93a784",
+      "ner_label": "CORREO_ELECTRONICO",
+      "entity_text": "icabarcelona.org",
+      "gt_label": "URL_WEB",
+      "gt_match": "https://www.clinicabarcelona.org",
+      "setfit_prediction": 0,
+      "confidence": 0.9138916095791408,
+      "sentence": "clinicabarcelona.org** para una referencia adicional sobre los protocolos aplicables."
+    },
+    {
+      "doc_id": "00ddf941-2d74-41a6-b6f1-96ae765c2bfc",
+      "ner_label": "OTROS_SUJETO_ASISTENCIA",
+      "entity_text": "1234 BCD",
+      "gt_label": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "gt_match": "1234 BCD",
+      "setfit_prediction": 0,
+      "confidence": 0.9982663622447912,
+      "sentence": "La información recogida por el dispositivo será revisada en profundidad y cruzada con los datos del vehículo asociado, placa 1234 BCD, para completar la valoración contextual del caso."
+    },
+    {
+      "doc_id": "00e189ee-7ed8-4ea2-8b61-a05df4dc7a5b",
+      "ner_label": "OTROS_SUJETO_ASISTENCIA",
+      "entity_text": "1234",
+      "gt_label": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "gt_match": "1234 BCD",
+      "setfit_prediction": 0,
+      "confidence": 0.9957025712637516,
+      "sentence": "El vehículo institucional asignado para el transporte de material específico para el procedimiento porta la placa 1234 BCD."
+    },
+    {
+      "doc_id": "00eba044-6fff-4e32-8222-36f9003f5bba",
+      "ner_label": "CENTRO_SALUD",
+      "entity_text": "Centro de Salud Los Álamos",
+      "gt_label": "CENTRO_SALUD",
+      "gt_match": "Centro de Salud Los Álamos",
+      "setfit_prediction": 0,
+      "confidence": 0.9637841803719184,
+      "sentence": "Durante la valoración clínica realizada en el Centro de Salud Los Álamos, se documenta un cuadro de evolución favorable del proceso postoperatorio."
+    },
+    {
+      "doc_id": "00eba044-6fff-4e32-8222-36f9003f5bba",
+      "ner_label": "CENTRO_SALUD",
+      "entity_text": "Centro de Salud Los Álamos",
+      "gt_label": "CENTRO_SALUD",
+      "gt_match": "Centro de Salud Los Álamos",
+      "setfit_prediction": 0,
+      "confidence": 0.9637841803719184,
+      "sentence": "Durante la valoración clínica realizada en el Centro de Salud Los Álamos, se documenta un cuadro de evolución favorable del proceso postoperatorio."
+    }
+  ]
+}
