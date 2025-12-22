@@ -4,7 +4,7 @@
   "anonymized_text": "Fecha: JJJ\nUR3: Se realiza acogida y EKG durnte espera en PUR 3. Se entra pacient\ne en box C y O, HDM estable, SatO2 alrededor de 90% con VMK 24% se sube\nVMK28%. Durante anamnesis realiza desaturación súbita, se inicia VMNI\ny broncodiladores nebulizados con persistencia de deterioramiento hasta PCR se inician maniobras de RCP. Se traslada a BPARO.",
   "text_length": 349,
   "anonymized_count": 1,
-  "confidence_threshold": 0.97,
+  "confidence_threshold": 0.99,
   "meddocan_results": {
     "entities_detected": 0,
     "entities": [],

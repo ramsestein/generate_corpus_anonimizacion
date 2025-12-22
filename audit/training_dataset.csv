@@ -108,13 +108,13 @@ Proporción [1:1000].,0,CORREO_ELECTRONICO
 "Contexto clínico seguro, no PII (OTRO_NUMERO_IDENTIF).",0,OTRO_NUMERO_IDENTIF
 CIPA: [nhc-222456].,1,ID_SUJETO_ASISTENCIA
 Punto de [atención] continuada.,0,CENTRO_SALUD
-Esposa [Nicodemo Llanos Cuervo] trabaja en el mismo centro.,1,FAMILIARES_SUJETO_ASISTENCIA
+Su esposa [Nicodemo Llanos Cuervo] trabaja en el mismo centro.,1,FAMILIARES_SUJETO_ASISTENCIA
 Nº Historia: [402898].,1,ID_SUJETO_ASISTENCIA
 Hb [12.5] g/dL.,0,ID_SUJETO_ASISTENCIA
 CIE [630.0].,0,NUMERO_TELEFONO
 Episodio: [8779951953].,1,ID_CONTACTO_ASISTENCIAL
 Médico colegiado [15-67302].,1,ID_TITULACION_PERSONAL_SANITARIO
-Esposo [Fidela Rivero Tomas] es médico en [Cruces].,1,FAMILIARES_SUJETO_ASISTENCIA
+Su esposo [Fidela Rivero Tomas] es médico en [Cruces].,1,FAMILIARES_SUJETO_ASISTENCIA
 pO2 [95] mmHg.,0,ID_SUJETO_ASISTENCIA
 Derivado a [urgencias].,0,HOSPITAL
 Proporción [1:1000].,0,CORREO_ELECTRONICO
@@ -378,7 +378,7 @@ D./Dña. [Genoveva de Pozuelo] acude a consulta.,1,NOMBRE_SUJETO_ASISTENCIA
 Informe elaborado por Dr. [Valentín Llamas].,1,NOMBRE_PERSONAL_SANITARIO
 Correo electrónico del paciente: [pacifica02@example.net].,1,CORREO_ELECTRONICO
 Ocupación: [profesor].,1,PROFESION
-Padres con [enfermedad].,0,FAMILIARES_SUJETO_ASISTENCIA
+[Padres] con enfermedad.,0,FAMILIARES_SUJETO_ASISTENCIA
 URL: [https://www.distribuciones.es].,1,DIREC_PROT_INTERNET
 Derivado a [La Fe].,1,HOSPITAL
 IP: [198.18.31.132].,1,IDENTIF_DISPOSITIVOS_NRSERIE
@@ -452,7 +452,7 @@ Identificación biométrica: [BIO-19950920].,1,IDENTIF_BIOMETRICOS
 Relación [riesgo/beneficio] favorable.,0,CORREO_ELECTRONICO
 Glucemia [110] mg/dl.,0,EDAD_SUJETO_ASISTENCIA
 Nº Seguridad Social: [51 2786964 29].,1,ID_ASEGURAMIENTO
-Abuela [{grandmother_name}] vive con el paciente.,1,FAMILIARES_SUJETO_ASISTENCIA
+Su abuela [{grandmother_name}] vive con el paciente.,1,FAMILIARES_SUJETO_ASISTENCIA
 "[Lucía Elvira Cuevas Clemente], Servicio de Medicina Interna.",1,NOMBRE_PERSONAL_SANITARIO
 Lactante de [3] meses.,1,EDAD_SUJETO_ASISTENCIA
 Término médico no sensible para IDENTIF_VEHICULOS_NRSERIE_PLACAS.,0,IDENTIF_VEHICULOS_NRSERIE_PLACAS
@@ -479,7 +479,7 @@ Enlace: [https://www.distribuciones.org].,1,DIREC_PROT_INTERNET
 "Contexto clínico seguro, no PII (ID_EMPLEO_PERSONAL_SANITARIO).",0,ID_EMPLEO_PERSONAL_SANITARIO
 [Portador] de marcapasos.,0,PROFESION
 Patrón retinal [RET-62037060].,1,IDENTIF_BIOMETRICOS
-Hermana [{sister_name}] será el contacto principal.,1,FAMILIARES_SUJETO_ASISTENCIA
+Su hermana [{sister_name}] será el contacto principal.,1,FAMILIARES_SUJETO_ASISTENCIA
 Tratamiento con [Amoxicilina].,0,NOMBRE_SUJETO_ASISTENCIA
 "Contexto clínico seguro, no PII (URL_WEB).",0,URL_WEB
 Sonda de [Levin].,0,NOMBRE_PERSONAL_SANITARIO
@@ -731,7 +731,7 @@ Proporción [1:1000].,0,CORREO_ELECTRONICO
 Término médico no sensible para NUMERO_BENEF_PLAN_SALUD.,0,NUMERO_BENEF_PLAN_SALUD
 Web: [www.promociones.es].,1,URL_WEB
 Término médico no sensible para DIREC_PROT_INTERNET.,0,DIREC_PROT_INTERNET
-Tía [{aunt_name}] padece artritis.,1,FAMILIARES_SUJETO_ASISTENCIA
+Su tía [{aunt_name}] padece artritis.,1,FAMILIARES_SUJETO_ASISTENCIA
 [Laboratorio] central.,0,INSTITUCION
 Afiliación SS: [84 6685447 82].,1,ID_ASEGURAMIENTO
 "Mujer, [61] años.",1,EDAD_SUJETO_ASISTENCIA
@@ -807,7 +807,7 @@ Patrón retinal [RET-30352012].,1,IDENTIF_BIOMETRICOS
 GRD: [470].,0,ID_SUJETO_ASISTENCIA
 Clasificación de [Child-Pugh] A.,0,NOMBRE_SUJETO_ASISTENCIA
 Complejo Hospitalario [Vall d'Hebron].,1,HOSPITAL
-Abuela [{grandmother_name}] vive con el paciente.,1,FAMILIARES_SUJETO_ASISTENCIA
+Su abuela [{grandmother_name}] vive con el paciente.,1,FAMILIARES_SUJETO_ASISTENCIA
 Antecedentes familiares de [cáncer].,0,FAMILIARES_SUJETO_ASISTENCIA
 Estadio [IVb].,0,CALLE
 Enfermo [mujer] que acude.,1,SEXO_SUJETO_ASISTENCIA
@@ -1152,7 +1152,7 @@ Factor [V] Leiden.,0,SEXO_SUJETO_ASISTENCIA
 "Plaza [Gomis], [140].",1,CALLE
 Profesión: [enfermero].,1,PROFESION
 Unidad de [Cuidados Intensivos].,0,INSTITUCION
-Padres con [enfermedad].,0,FAMILIARES_SUJETO_ASISTENCIA
+[Padres] con enfermedad.,0,FAMILIARES_SUJETO_ASISTENCIA
 Nº Socio: [9766137210].,1,OTRO_NUMERO_IDENTIF
 Cepa [británica].,0,PAIS
 Matrícula: [9957FWT].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
@@ -1242,7 +1242,7 @@ Consultar en [www.santana.com].,1,URL_WEB
 Ingreso en [Virgen del Rocío].,1,HOSPITAL
 T[3]N[1]M[0].,0,CALLE
 FAX: [918 101 918].,1,NUMERO_FAX
-Historia familiar de [hipertensión].,0,FAMILIARES_SUJETO_ASISTENCIA
+Historia [familiar] de hipertensión.,0,FAMILIARES_SUJETO_ASISTENCIA
 Vehículo [9029MCG].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
 Col. Nº [42-75888].,1,ID_TITULACION_PERSONAL_SANITARIO
 Semana [+2] post-trasplante.,0,FECHAS
@@ -1320,7 +1320,7 @@ Pasaporte: [E76736554].,1,ID_SUJETO_ASISTENCIA
 Contacto: [herreraalba@example.net].,1,CORREO_ELECTRONICO
 Rasgo distintivo: [cicatriz en frente].,1,OTROS_SUJETO_ASISTENCIA
 "Contexto clínico seguro, no PII (NUMERO_FAX).",0,NUMERO_FAX
-Tía [{aunt_name}] padece artritis.,1,FAMILIARES_SUJETO_ASISTENCIA
+Su tía [{aunt_name}] padece artritis.,1,FAMILIARES_SUJETO_ASISTENCIA
 Hb [12.5] g/dL.,0,ID_SUJETO_ASISTENCIA
 Término médico no sensible para ID_TITULACION_PERSONAL_SANITARIO.,0,ID_TITULACION_PERSONAL_SANITARIO
 Matrícula: [6165LSP].,1,IDENTIF_VEHICULOS_NRSERIE_PLACAS
@@ -1382,7 +1382,7 @@ Paciente procedente del CP [20019].,1,TERRITORIO
 NASS: [71 4735341 76].,1,ID_ASEGURAMIENTO
 Lesión en área [frontal].,0,TERRITORIO
 Tel. [+34881 41 83 28].,1,NUMERO_TELEFONO
-Abuelos con [diabetes].,0,FAMILIARES_SUJETO_ASISTENCIA
+[Abuelos] con diabetes.,0,FAMILIARES_SUJETO_ASISTENCIA
 "Contexto clínico seguro, no PII (IDENTIF_BIOMETRICOS).",0,IDENTIF_BIOMETRICOS
 T[3]N[1]M[0].,0,CALLE
 Contacto: [+34920182511].,1,NUMERO_TELEFONO
@@ -1392,7 +1392,7 @@ Paciente [trabajador] respiratorio.,0,PROFESION
 "Contexto clínico seguro, no PII (OTROS_SUJETO_ASISTENCIA).",0,OTROS_SUJETO_ASISTENCIA
 Informe elaborado por Dr. [Carmina Conesa Sosa].,1,NOMBRE_PERSONAL_SANITARIO
 "Contexto clínico seguro, no PII (NUMERO_FAX).",0,NUMERO_FAX
-Tío [{uncle_name}] es oncólogo.,1,FAMILIARES_SUJETO_ASISTENCIA
+Su tío [{uncle_name}] es oncólogo.,1,FAMILIARES_SUJETO_ASISTENCIA
 DNI: [70039194L].,1,ID_SUJETO_ASISTENCIA
 Temperatura [36.5]ºC.,0,EDAD_SUJETO_ASISTENCIA
 Episodio: [5364014060].,1,ID_CONTACTO_ASISTENCIAL
@@ -1442,7 +1442,7 @@ Acceso web: [https://www.aviles.org].,1,DIREC_PROT_INTERNET
 Código [925.11].,0,NUMERO_TELEFONO
 Referencia: [R910834].,1,OTRO_NUMERO_IDENTIF
 Técnica de [Seldinger].,0,NOMBRE_PERSONAL_SANITARIO
-Hijo/a [Marcio] de [5] años.,1,FAMILIARES_SUJETO_ASISTENCIA
+Su hijo/a [Marcio] de [5] años.,1,FAMILIARES_SUJETO_ASISTENCIA
 ID Asegurado: [PS-1883168].,1,NUMERO_BENEF_PLAN_SALUD
 Signo de [Murphy] positivo.,0,NOMBRE_SUJETO_ASISTENCIA
 Paciente procedente del CP [10563].,1,TERRITORIO
@@ -1468,7 +1468,7 @@ Protocolo [A.1.2].,0,IDENTIF_DISPOSITIVOS_NRSERIE
 Término médico no sensible para NUMERO_BENEF_PLAN_SALUD.,0,NUMERO_BENEF_PLAN_SALUD
 "Contexto clínico seguro, no PII (ID_EMPLEO_PERSONAL_SANITARIO).",0,ID_EMPLEO_PERSONAL_SANITARIO
 Consultar en [www.hermanos.com].,1,URL_WEB
-Esposa [Sandalio Gallart Posada] trabaja en el mismo centro.,1,FAMILIARES_SUJETO_ASISTENCIA
+Su esposa [Sandalio Gallart Posada] trabaja en el mismo centro.,1,FAMILIARES_SUJETO_ASISTENCIA
 Tensión arterial [120]/80.,0,EDAD_SUJETO_ASISTENCIA
 Referencia [555-123].,0,NUMERO_TELEFONO
 Término médico no sensible para OTROS_SUJETO_ASISTENCIA.,0,OTROS_SUJETO_ASISTENCIA
@@ -1637,7 +1637,7 @@ Huella dactilar registrada: [FP925034448].,1,IDENTIF_BIOMETRICOS
 Trabaja como [albañil].,1,PROFESION
 Paciente [Etelvina Guardiola Guzmán].,1,NOMBRE_SUJETO_ASISTENCIA
 Tratamiento [fase 2].,0,CALLE
-Abuelo [{grandfather_name}] también diabético.,1,FAMILIARES_SUJETO_ASISTENCIA
+Su abuelo [{grandfather_name}] también diabético.,1,FAMILIARES_SUJETO_ASISTENCIA
 [Laboratorio] central.,0,INSTITUCION
 Administrar [pauta 3x1].,0,CALLE
 Planta de [cardiología].,0,HOSPITAL
@@ -1652,7 +1652,7 @@ Huella dactilar registrada: [FP281209396].,1,IDENTIF_BIOMETRICOS
 Derivado a [La Fe].,1,HOSPITAL
 Afiliación SS: [21 2673834 29].,1,ID_ASEGURAMIENTO
 Desde hace [varios días].,0,FECHAS
-Hijo/a [Julie] de [10] años.,1,FAMILIARES_SUJETO_ASISTENCIA
+Su hijo/a [Julie] de [10] años.,1,FAMILIARES_SUJETO_ASISTENCIA
 Término médico no sensible para IDENTIF_BIOMETRICOS.,0,IDENTIF_BIOMETRICOS
 Administrar [pauta 3x1].,0,CALLE
 NIF: [83377419-T].,1,ID_SUJETO_ASISTENCIA
@@ -1772,7 +1772,7 @@ Técnica de [Seldinger].,0,NOMBRE_PERSONAL_SANITARIO
 Código [925.11].,0,NUMERO_TELEFONO
 Centro de Salud [Cea Bermúdez].,1,CENTRO_SALUD
 "Reside en [Paseo Lisandro Monreal 63 Puerta 4 ], [21247].",1,CALLE
-Hermano [{brother_name}] tiene antecedentes similares.,1,FAMILIARES_SUJETO_ASISTENCIA
+Su hermano [{brother_name}] tiene antecedentes similares.,1,FAMILIARES_SUJETO_ASISTENCIA
 Protocolo [A.1.2].,0,IDENTIF_DISPOSITIVOS_NRSERIE
 Acceso web: [https://www.restauracion.es].,1,DIREC_PROT_INTERNET
 Receptor [alfa] positivo.,0,SEXO_SUJETO_ASISTENCIA

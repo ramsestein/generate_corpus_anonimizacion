@@ -59,7 +59,6 @@ sys.path.insert(0, str(SCRIPT_DIR))
 # Imports de módulos del pipeline
 from io_json import load_entities, save_pipeline_results, normalize_entity
 from setfit_module import run_setfit_filter
-from dict_filters import apply_dict_filters
 from llm_judge import run_llm_judge
 from utils.csv_converter import read_csv_detections, merge_continuous_entities, generate_pipeline_json
 from utils.token_healing import fix_entity_boundaries, batch_fix_entity_boundaries
@@ -127,26 +126,36 @@ def setup_logging(verbose: bool = False):
 # HELPER FUNCTIONS - Contexto de entidades
 # ============================================================================
 
-def load_documents(base_path: Path, valid_ids: Optional[set] = None) -> Dict[str, str]:
+def load_documents(base_path: Path, valid_ids: Optional[set] = None, custom_docs_dir: Optional[str] = None) -> Dict[str, str]:
     """
-    Carga todos los documentos del directorio corpus/documents.
+    Carga todos los documentos del directorio especificado o busca en rutas por defecto.
     
     Args:
         base_path: Ruta base del proyecto
         valid_ids: Set opcional de IDs de documentos a cargar. Si es None, carga todos.
+        custom_docs_dir: Ruta personalizada al directorio de documentos.
     
     Returns:
         Dict {doc_id: texto_completo}
     """
     documents = {}
     
-    # Buscar directorios de documentos
-    possible_dirs = [
+    # Si se proporciona una ruta personalizada, usarla prioritariamente
+    possible_dirs = []
+    if custom_docs_dir:
+        custom_path = Path(custom_docs_dir)
+        if not custom_path.is_absolute():
+            possible_dirs.append(base_path / custom_path)
+        else:
+            possible_dirs.append(custom_path)
+    
+    # Buscar directorios de documentos por defecto
+    possible_dirs.extend([
         base_path / "corpus" / "documents",
         base_path / "corpus" / "ANTIGUO" / "documents", 
         base_path / "documents",
         base_path / "corpus" / "output",
-    ]
+    ])
     
     for docs_dir in possible_dirs:
         if docs_dir.exists():
@@ -393,10 +402,6 @@ class FullPipeline:
         # Estadísticas
         self.stats = {
             "total_input": 0,
-            # Paso 1: Dict
-            "dict_rescued": 0,     # Pre-filtro: Aceptado directo
-            "dict_filtered": 0,    # Pre-filtro: Rechazado directo
-            "dict_escalated": 0,   # Pre-filtro: Pasa a modelo
             # Paso 2: SetFit
             "setfit_pii": 0,       # Modelo: Aceptado
             "setfit_ruido": 0,     # Modelo: Rechazado
@@ -449,7 +454,7 @@ class FullPipeline:
                 required_doc_ids.add(str(doc_id))
         
         self.logger.info(f"  -> Identificados {len(required_doc_ids)} documentos únicos requeridos")
-        documents = load_documents(base_path, valid_ids=required_doc_ids)
+        documents = load_documents(base_path, valid_ids=required_doc_ids, custom_docs_dir=self.config["pipeline"].get("docs_dir"))
         
         if documents:
             self.logger.info(f"  -> Documentos cargados: {len(documents)}")
@@ -481,60 +486,9 @@ class FullPipeline:
         pre_filtered_candidates = []
         final_kept = []
         
-        if not self.config["pipeline"].get("skip_dict_filters", False):
-            self.logger.info("\n[PASO 1/3] Dict Filters (PRE-FILTER)...")
-            
-            try:
-                dict_results = apply_dict_filters(
-                    normalized,
-                    document_text,
-                    self.config["dict_filters"]
-                )
-                
-                # Separar resultados
-                # Whitelist -> KEEP (Rescatado/Confirmado PII por lista)
-                dict_rescued = [e for e in dict_results if e.get("decision") == "KEEP"]
-                # Blacklist -> FILTER (Confirmado RUIDO por lista)
-                dict_filtered = [e for e in dict_results if e.get("decision") == "FILTER"]
-                # Sin match -> ESCALATE (Candidato a SetFit)
-                dict_escalated = [e for e in dict_results if e.get("decision") == "ESCALATE"]
-                
-                # Trazabilidad
-                for e in dict_rescued:
-                    e["classification"] = "PII"
-                    e["classification_source"] = "dict_whitelist_pre"
-                for e in dict_filtered:
-                    e["classification"] = "RUIDO"
-                    e["classification_source"] = "dict_blacklist_pre"
-                
-                self.stats["dict_rescued"] = len(dict_rescued)
-                self.stats["dict_filtered"] = len(dict_filtered)
-                self.stats["dict_escalated"] = len(dict_escalated)
-                
-                # Guardar blacklist para seguridad
-                if dict_filtered:
-                    dropped_path = Path(self.config["pipeline"]["output_dir"]) / "blacklist_dropped.json"
-                    import json
-                    with open(dropped_path, 'w', encoding='utf-8') as f:
-                        json.dump(dict_filtered, f, indent=2, ensure_ascii=False)
-                    self.logger.info(f"  -> DESCARTADOS guardados en: {dropped_path}")
-                
-                self.logger.info(f"  -> RESCATADOS DIRECTOS (Whitelist): {len(dict_rescued)}")
-                self.logger.info(f"  -> DESCARTADOS DIRECTOS (Blacklist): {len(dict_filtered)}")
-                self.logger.info(f"  -> CANDIDATOS A MODELO (Escalados): {len(dict_escalated)}")
-                
-                # Los rescatados van a final
-                final_kept.extend(dict_rescued)
-                # Los escalados pasan a SetFit
-                pre_filtered_candidates = dict_escalated
-                
-            except Exception as e:
-                self.logger.error(f"  Error en Dict Filters: {e}")
-                self.logger.info("  Continuando sin filtros - todo pasa a SetFit...")
-                pre_filtered_candidates = normalized
-        else:
-            self.logger.info("\n[PASO 1/3] Dict Filters... OMITIDO")
-            pre_filtered_candidates = normalized
+        # Dict filters eliminado - Todo pasa directamente a SetFit
+        self.logger.info("\n[PASO 1/3] Dict Filters... ELIMINADO")
+        pre_filtered_candidates = normalized
             
         # ====================================================================
         # PASO 2: SetFit - Clasificación binaria de Candidatos
@@ -655,18 +609,15 @@ class FullPipeline:
             self.logger.info(f"  Reducción ruido: {reduction:.1f}%")
         
         self.logger.info(f"\n[FLUJO POR ETAPA]")
-        self.logger.info(f"  1. Dict Filters: Rescatados={s['dict_rescued']} | Ruido={s['dict_filtered']} | Escalados={s['dict_escalated']}")
-        self.logger.info(f"  2. SetFit:       PII={s['setfit_pii']} (Keep)   | Ruido={s['setfit_ruido']} (Drop/LLM)")
-        self.logger.info(f"  3. LLM:          Rescatados={s['llm_rescued']} | Ruido={s['llm_filtered']}")
+        self.logger.info(f"  1. SetFit:       PII={s['setfit_pii']} (Keep)   | Ruido={s['setfit_ruido']} (Drop/LLM)")
+        self.logger.info(f"  2. LLM:          Rescatados={s['llm_rescued']} | Ruido={s['llm_filtered']}")
         
         self.logger.info(f"\n[TRAZABILIDAD SALIDA]")
-        dict_rescued = s['dict_rescued']
         setfit_pii = s['setfit_pii']
         llm_rescued = s['llm_rescued']
-        self.logger.info(f"  Dict Rescued (Whitelist): {dict_rescued}")
         self.logger.info(f"  SetFit PII:               {setfit_pii}")
         self.logger.info(f"  LLM Rescued:              {llm_rescued}")
-        self.logger.info(f"  TOTAL:                    {dict_rescued + setfit_pii + llm_rescued}")
+        self.logger.info(f"  TOTAL:                    {setfit_pii + llm_rescued}")
 
         self.logger.info(f"\n[TIEMPO] {s['execution_time']:.2f}s")
     
@@ -748,6 +699,12 @@ Ejemplos:
         help='Guardar resultados intermedios de cada etapa'
     )
     
+    parser.add_argument(
+        '--docs-dir',
+        default=None,
+        help='Directorio personalizado para buscar los documentos .txt'
+    )
+    
     return parser.parse_args()
 
 
@@ -821,6 +778,7 @@ def main():
     config["pipeline"]["skip_dict_filters"] = args.skip_dict
     config["pipeline"]["skip_llm"] = args.skip_llm
     config["pipeline"]["save_intermediate"] = args.save_intermediate
+    config["pipeline"]["docs_dir"] = args.docs_dir
     
     try:
         # Cargar entidades

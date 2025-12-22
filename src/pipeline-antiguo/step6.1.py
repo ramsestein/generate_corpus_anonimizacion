@@ -62,18 +62,20 @@ def setup_models(use_carmen: bool = True):
     
     # Modelo MEDDOCAN
     debug_print("  - Cargando bsc-bio-ehr-es-meddocan...", "DEBUG")
-    meddocan_model_path = "../../models//bsc-bio-ehr-es-meddocan"
-    
+    meddocan_model_path = Path(__file__).resolve().parent.parent.parent / "models" / "bsc-bio-ehr-es-meddocan"
+
     try:
-        meddocan_tokenizer = AutoTokenizer.from_pretrained(meddocan_model_path)
-        
+        meddocan_model_path_str = str(meddocan_model_path)
+        meddocan_tokenizer = AutoTokenizer.from_pretrained(meddocan_model_path_str, local_files_only=True)
+
         # Cargar modelo con configuración específica para evitar meta tensors
         meddocan_model = AutoModelForTokenClassification.from_pretrained(
-            meddocan_model_path,
-            dtype=torch.float32,
+            meddocan_model_path_str,
+            torch_dtype=torch.float32,
             low_cpu_mem_usage=False,
             device_map=None,  # No usar device_map automático
-            trust_remote_code=False
+            trust_remote_code=False,
+            local_files_only=True,
         )
         
         # Verificar que el modelo se cargó correctamente
@@ -96,18 +98,20 @@ def setup_models(use_carmen: bool = True):
     if use_carmen:
         # Modelo CARMEN
         debug_print("  - Cargando bsc-bio-ehr-es-carmen-anon...", "DEBUG")
-        carmen_model_path = "../../models//bsc-bio-ehr-es-carmen-anon"
+        carmen_model_path = Path(__file__).resolve().parent.parent.parent / "models" / "bsc-bio-ehr-es-carmen-anon"
 
         try:
-            carmen_tokenizer = AutoTokenizer.from_pretrained(carmen_model_path)
+            carmen_model_path_str = str(carmen_model_path)
+            carmen_tokenizer = AutoTokenizer.from_pretrained(carmen_model_path_str, local_files_only=True)
 
             # Cargar modelo con configuración específica para evitar meta tensors
             carmen_model = AutoModelForTokenClassification.from_pretrained(
-                carmen_model_path,
-                dtype=torch.float32,
+                carmen_model_path_str,
+                torch_dtype=torch.float32,
                 low_cpu_mem_usage=False,
                 device_map=None,  # No usar device_map automático
-                trust_remote_code=False
+                trust_remote_code=False,
+                local_files_only=True,
             )
 
             # Verificar que el modelo se cargó correctamente
