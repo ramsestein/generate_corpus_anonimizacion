@@ -151,10 +151,10 @@ def load_documents(base_path: Path, valid_ids: Optional[set] = None, custom_docs
     
     # Buscar directorios de documentos por defecto
     possible_dirs.extend([
-        base_path / "corpus" / "documents",
-        base_path / "corpus" / "ANTIGUO" / "documents", 
-        base_path / "documents",
-        base_path / "corpus" / "output",
+        # base_path / "corpus" / "documents",
+       # base_path / "corpus" / "ANTIGUO" / "documents", 
+       # base_path / "documents",
+        base_path / "corpus" / "output" / "aws3",
     ])
     
     for docs_dir in possible_dirs:

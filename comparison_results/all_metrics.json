@@ -1,0 +1,541 @@
+{
+  "generated_at": "2025-12-23T12:33:15.229958",
+  "base": {
+    "name": "Meddocan Solo",
+    "total_entities": 35653,
+    "tp": 21559,
+    "fp": 14094,
+    "fn": 19991,
+    "precision": 0.6046896474349984,
+    "recall": 0.5188688327316486,
+    "f1": 0.5585016126316336
+  },
+  "filtered": [
+    {
+      "name": "Meddocan + SetFit A",
+      "total_entities": 19401,
+      "tp": 7308,
+      "fp": 12093,
+      "fn": 34242,
+      "precision": 0.37668161434977576,
+      "recall": 0.17588447653429604,
+      "f1": 0.2397991829502387
+    },
+    {
+      "name": "Meddocan + SetFit B",
+      "total_entities": 11068,
+      "tp": 2277,
+      "fp": 8791,
+      "fn": 39273,
+      "precision": 0.2057282255149982,
+      "recall": 0.0548014440433213,
+      "f1": 0.086548329469003
+    }
+  ],
+  "deltas": [
+    {
+      "model_name": "SetFit A",
+      "fugas_inducidas": 85901,
+      "limpieza_ruido": 5250,
+      "conservadurismo_pct": 29.98187153369897,
+      "entidades_mantenidas": 39031,
+      "entidades_filtradas": 91151,
+      "ejemplos_fugas": [
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "15.03.2024",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "68 años",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "15.3.19",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "15.03.2024",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "17/03/24",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "15/03/2024",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "15.03.2024",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "17.03.2024",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "17.03.2024",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "17.03.2024",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "17.03.2024",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "17/03/24",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "17.03.2024",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "18.03.2024",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "18.03.2024",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "18.03.2024",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "19.03.2024",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "19.03.2024",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "20/03",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "20.03.2024",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        }
+      ],
+      "ejemplos_limpieza": [
+        {
+          "doc_id": "NHC103087_episodio1008807132",
+          "entity": "5.7",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC103087_episodio1008807132",
+          "entity": "5.7",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4714528_episodio1008282766",
+          "entity": "I085",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4714528_episodio1008282766",
+          "entity": "I085",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4714528_episodio1008282766",
+          "entity": "familiar",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4714528_episodio1008282766",
+          "entity": "familia",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4714528_episodio1008282766",
+          "entity": "Familiar",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4714528_episodio1008282766",
+          "entity": "Familiar",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4715236_episodio1008644592",
+          "entity": "localizado",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4715236_episodio1008646130",
+          "entity": "72 año",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4715236_episodio1008646130",
+          "entity": "72 año",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4716204_episodio1008471985",
+          "entity": "mujer",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4716204_episodio1008471985",
+          "entity": "71 años",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4716204_episodio1008471985",
+          "entity": "mujer",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4716204_episodio1008471985",
+          "entity": "71 años",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4717783_episodio1008711661",
+          "entity": "25/16/13",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4717783_episodio1008711661",
+          "entity": "645 82 37 91",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4718754_episodio1008548389",
+          "entity": "GARCIA",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4718754_episodio1008548389",
+          "entity": "Mendoza",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4719468_episodio1008460753",
+          "entity": "G085",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        }
+      ]
+    },
+    {
+      "model_name": "SetFit B",
+      "fugas_inducidas": 99032,
+      "limpieza_ruido": 10551,
+      "conservadurismo_pct": 15.823232090457976,
+      "entidades_mantenidas": 20599,
+      "entidades_filtradas": 109583,
+      "ejemplos_fugas": [
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "15.03.2024",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "68 años",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "15.3.19",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "22/09/24",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "28/08/24",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "10/08/24",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "15.03.2024",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "17/03/24",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "15/03/2024",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "15.03.2024",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "17.03.2024",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "17.03.2024",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "17.03.2024",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "17.03.2024",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "17/03/24",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "17.03.2024",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "18.03.2024",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "18.03.2024",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "18.03.2024",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "19.03.2024",
+          "tipo": "TP_BORRADO",
+          "nota": "Era PII real, SetFit lo borró"
+        }
+      ],
+      "ejemplos_limpieza": [
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "19.03.20",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "19.03.20",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC102219_episodio1008744732",
+          "entity": "22.03",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4713872_episodio1008546221",
+          "entity": "Hi",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4713872_episodio1008546221",
+          "entity": "jo",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4714528_episodio1008282766",
+          "entity": "eb rero",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4714528_episodio1008282766",
+          "entity": "I085",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4714528_episodio1008282766",
+          "entity": "I085",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4714528_episodio1008282766",
+          "entity": "22.03",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4714528_episodio1008282766",
+          "entity": "19/03/24",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4714528_episodio1008282766",
+          "entity": "poso",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4714528_episodio1008282766",
+          "entity": "65308147 2",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4714528_episodio1008282766",
+          "entity": "eb rero",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4714528_episodio1008282766",
+          "entity": "19/03/20",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4714528_episodio1008282766",
+          "entity": "familia",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4714528_episodio1008282766",
+          "entity": "22.03",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4714528_episodio1008282766",
+          "entity": "19/03/24",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4714528_episodio1008282766",
+          "entity": "22.",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4715236_episodio1008644592",
+          "entity": "Martínez",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        },
+        {
+          "doc_id": "NHC4715236_episodio1008644592",
+          "entity": "Silva",
+          "tipo": "FP_LIMPIADO",
+          "nota": "Era basura, SetFit lo limpió"
+        }
+      ]
+    }
+  ]
+}

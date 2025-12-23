@@ -1,0 +1,266 @@
+{
+  "generated_at": "2025-12-23T12:45:40.439126",
+  "metrics": {
+    "total_docs": 1998,
+    "candidatos_meddocan": 0,
+    "candidatos_carmen": 0,
+    "candidatos_ensemble": 97467,
+    "sobrevivientes_setfit": 97467,
+    "filtrados_setfit": 0,
+    "tp": 21559,
+    "fp": 14094,
+    "fn": 19991,
+    "precision": 0.6046896474349984,
+    "recall": 0.5188688327316486,
+    "f1": 0.5585016126316336,
+    "fn_no_detectado": 19991,
+    "fn_filtrado_setfit": 0
+  },
+  "error_examples": {
+    "fp_pipeline": [
+      {
+        "doc_id": "NHC5594740_episodio1008555029",
+        "entity": "6",
+        "tipo": "FP_PIPELINE",
+        "nota": "Basura que SetFit clasificó como PII incorrectamente"
+      },
+      {
+        "doc_id": "NHC5594740_episodio1008555029",
+        "entity": "5/10",
+        "tipo": "FP_PIPELINE",
+        "nota": "Basura que SetFit clasificó como PII incorrectamente"
+      },
+      {
+        "doc_id": "NHC5594740_episodio1008555029",
+        "entity": "15.",
+        "tipo": "FP_PIPELINE",
+        "nota": "Basura que SetFit clasificó como PII incorrectamente"
+      },
+      {
+        "doc_id": "NHC5594740_episodio1008555029",
+        "entity": "/10",
+        "tipo": "FP_PIPELINE",
+        "nota": "Basura que SetFit clasificó como PII incorrectamente"
+      },
+      {
+        "doc_id": "NHC5594740_episodio1008555029",
+        "entity": "poso",
+        "tipo": "FP_PIPELINE",
+        "nota": "Basura que SetFit clasificó como PII incorrectamente"
+      },
+      {
+        "doc_id": "NHC5594740_episodio1008555029",
+        "entity": "g",
+        "tipo": "FP_PIPELINE",
+        "nota": "Basura que SetFit clasificó como PII incorrectamente"
+      },
+      {
+        "doc_id": "NHC5594740_episodio1008555029",
+        "entity": "her",
+        "tipo": "FP_PIPELINE",
+        "nota": "Basura que SetFit clasificó como PII incorrectamente"
+      },
+      {
+        "doc_id": "NHC5594740_episodio1008555029",
+        "entity": "i",
+        "tipo": "FP_PIPELINE",
+        "nota": "Basura que SetFit clasificó como PII incorrectamente"
+      },
+      {
+        "doc_id": "NHC5594740_episodio1008555029",
+        "entity": "mana",
+        "tipo": "FP_PIPELINE",
+        "nota": "Basura que SetFit clasificó como PII incorrectamente"
+      },
+      {
+        "doc_id": "NHC5624394_episodio1008587163",
+        "entity": "14/09/20",
+        "tipo": "FP_PIPELINE",
+        "nota": "Basura que SetFit clasificó como PII incorrectamente"
+      },
+      {
+        "doc_id": "NHC5624394_episodio1008587163",
+        "entity": "es",
+        "tipo": "FP_PIPELINE",
+        "nota": "Basura que SetFit clasificó como PII incorrectamente"
+      },
+      {
+        "doc_id": "NHC5624394_episodio1008587163",
+        "entity": "2024",
+        "tipo": "FP_PIPELINE",
+        "nota": "Basura que SetFit clasificó como PII incorrectamente"
+      },
+      {
+        "doc_id": "NHC5624394_episodio1008587163",
+        "entity": "centro privado",
+        "tipo": "FP_PIPELINE",
+        "nota": "Basura que SetFit clasificó como PII incorrectamente"
+      },
+      {
+        "doc_id": "NHC5624394_episodio1008587163",
+        "entity": "se",
+        "tipo": "FP_PIPELINE",
+        "nota": "Basura que SetFit clasificó como PII incorrectamente"
+      },
+      {
+        "doc_id": "NHC5624394_episodio1008587163",
+        "entity": "poso",
+        "tipo": "FP_PIPELINE",
+        "nota": "Basura que SetFit clasificó como PII incorrectamente"
+      },
+      {
+        "doc_id": "NHC5624394_episodio1008587163",
+        "entity": "15/9",
+        "tipo": "FP_PIPELINE",
+        "nota": "Basura que SetFit clasificó como PII incorrectamente"
+      },
+      {
+        "doc_id": "NHC5624394_episodio1008587163",
+        "entity": "10/ 09",
+        "tipo": "FP_PIPELINE",
+        "nota": "Basura que SetFit clasificó como PII incorrectamente"
+      },
+      {
+        "doc_id": "NHC5624394_episodio1008587163",
+        "entity": "san juan",
+        "tipo": "FP_PIPELINE",
+        "nota": "Basura que SetFit clasificó como PII incorrectamente"
+      },
+      {
+        "doc_id": "NHC5624394_episodio1008587163",
+        "entity": "14/09/2024",
+        "tipo": "FP_PIPELINE",
+        "nota": "Basura que SetFit clasificó como PII incorrectamente"
+      },
+      {
+        "doc_id": "NHC5624394_episodio1008587163",
+        "entity": "her",
+        "tipo": "FP_PIPELINE",
+        "nota": "Basura que SetFit clasificó como PII incorrectamente"
+      }
+    ],
+    "fn_overcleaning": [],
+    "fn_no_detectado": [
+      {
+        "doc_id": "NHC5594740_episodio1008555029",
+        "entity": "cuidador/hermana",
+        "tipo": "FN_NO_DETECTADO",
+        "nota": "Meddocan/Carmen no lo detectaron"
+      },
+      {
+        "doc_id": "NHC5594740_episodio1008555029",
+        "entity": "carlos",
+        "tipo": "FN_NO_DETECTADO",
+        "nota": "Meddocan/Carmen no lo detectaron"
+      },
+      {
+        "doc_id": "NHC5594740_episodio1008555029",
+        "entity": "esposo",
+        "tipo": "FN_NO_DETECTADO",
+        "nota": "Meddocan/Carmen no lo detectaron"
+      },
+      {
+        "doc_id": "NHC5594740_episodio1008555029",
+        "entity": "antonio miguel",
+        "tipo": "FN_NO_DETECTADO",
+        "nota": "Meddocan/Carmen no lo detectaron"
+      },
+      {
+        "doc_id": "NHC5624394_episodio1008587163",
+        "entity": "15/9 3 am",
+        "tipo": "FN_NO_DETECTADO",
+        "nota": "Meddocan/Carmen no lo detectaron"
+      },
+      {
+        "doc_id": "NHC5624394_episodio1008587163",
+        "entity": "14/09/2024 07:00h",
+        "tipo": "FN_NO_DETECTADO",
+        "nota": "Meddocan/Carmen no lo detectaron"
+      },
+      {
+        "doc_id": "NHC5624394_episodio1008587163",
+        "entity": "esposo",
+        "tipo": "FN_NO_DETECTADO",
+        "nota": "Meddocan/Carmen no lo detectaron"
+      },
+      {
+        "doc_id": "NHC5624394_episodio1008587163",
+        "entity": "sede san juan",
+        "tipo": "FN_NO_DETECTADO",
+        "nota": "Meddocan/Carmen no lo detectaron"
+      },
+      {
+        "doc_id": "NHC5624394_episodio1008587163",
+        "entity": "hermana",
+        "tipo": "FN_NO_DETECTADO",
+        "nota": "Meddocan/Carmen no lo detectaron"
+      },
+      {
+        "doc_id": "NHC5623781_episodio1008641018",
+        "entity": "15-16/02",
+        "tipo": "FN_NO_DETECTADO",
+        "nota": "Meddocan/Carmen no lo detectaron"
+      },
+      {
+        "doc_id": "NHC5623781_episodio1008641018",
+        "entity": "8:00h",
+        "tipo": "FN_NO_DETECTADO",
+        "nota": "Meddocan/Carmen no lo detectaron"
+      },
+      {
+        "doc_id": "NHC5623781_episodio1008641018",
+        "entity": "8:15h",
+        "tipo": "FN_NO_DETECTADO",
+        "nota": "Meddocan/Carmen no lo detectaron"
+      },
+      {
+        "doc_id": "NHC5623781_episodio1008641018",
+        "entity": "8:05h",
+        "tipo": "FN_NO_DETECTADO",
+        "nota": "Meddocan/Carmen no lo detectaron"
+      },
+      {
+        "doc_id": "NHC5623781_episodio1008641018",
+        "entity": "15-16/2",
+        "tipo": "FN_NO_DETECTADO",
+        "nota": "Meddocan/Carmen no lo detectaron"
+      },
+      {
+        "doc_id": "NHC5623781_episodio1008641018",
+        "entity": "25-26/02",
+        "tipo": "FN_NO_DETECTADO",
+        "nota": "Meddocan/Carmen no lo detectaron"
+      },
+      {
+        "doc_id": "NHC5590607_episodio1008435602",
+        "entity": "hijo miguel,61728394.esposa, rosa93847251",
+        "tipo": "FN_NO_DETECTADO",
+        "nota": "Meddocan/Carmen no lo detectaron"
+      },
+      {
+        "doc_id": "NHC5590607_episodio1008435602",
+        "entity": "mañana, tac torax a las 16h",
+        "tipo": "FN_NO_DETECTADO",
+        "nota": "Meddocan/Carmen no lo detectaron"
+      },
+      {
+        "doc_id": "NHC5590607_episodio1008435602",
+        "entity": "rosa, mujer, 937284751",
+        "tipo": "FN_NO_DETECTADO",
+        "nota": "Meddocan/Carmen no lo detectaron"
+      },
+      {
+        "doc_id": "NHC5590607_episodio1008435602",
+        "entity": "martes",
+        "tipo": "FN_NO_DETECTADO",
+        "nota": "Meddocan/Carmen no lo detectaron"
+      },
+      {
+        "doc_id": "NHC5590607_episodio1008435602",
+        "entity": "miguel, hijo, 615728394",
+        "tipo": "FN_NO_DETECTADO",
+        "nota": "Meddocan/Carmen no lo detectaron"
+      }
+    ]
+  }
+}
