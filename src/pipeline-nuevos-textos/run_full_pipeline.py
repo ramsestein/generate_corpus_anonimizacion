@@ -72,7 +72,7 @@ DEFAULT_CONFIG = {
     # SetFit - CONFIGURACIÓN SIMPLIFICADA
     "setfit": {
         "model_path": str(SCRIPT_DIR.parent.parent / "models" / "gatekeeper_setfit"),
-        "confidence_threshold": 0.85,  # Subido para mejorar precisión
+        "confidence_threshold": 0.75,  # Subido para mejorar precisión
         "enable_pii_detector": False,  # SetFit clasifica todo
         "enable_low_confidence_filter": True,  # Filtrar baja confianza
     },
@@ -89,7 +89,7 @@ DEFAULT_CONFIG = {
     },
     # LLM
     "llm": {
-        "model": "gemma3:270m",
+        "model": "qwen2.5:7b",
         "rules_path": str(SCRIPT_DIR.parent.parent / "guias-anotacion.json"),
         "template_name": "default",
         "timeout": 120,
@@ -765,8 +765,13 @@ def main():
     
     if args.config and Path(args.config).exists():
         import json
-        with open(args.config, encoding='utf-8') as f:
-            custom_config = json.load(f)
+        # Cargar configuración tolerando BOM en Windows
+        try:
+            with open(args.config, encoding='utf-8') as f:
+                custom_config = json.load(f)
+        except json.JSONDecodeError:
+            with open(args.config, encoding='utf-8-sig') as f:
+                custom_config = json.load(f)
         for key, value in custom_config.items():
             if key in config and isinstance(value, dict):
                 config[key].update(value)

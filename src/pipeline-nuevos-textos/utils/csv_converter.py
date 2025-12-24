@@ -230,7 +230,7 @@ def generate_pipeline_json(entities: List[Dict[str, Any]], output_path: Path, cs
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, ensure_ascii=False, indent=2)
     
-    print(f"\n✓ JSON generado: {output_path}")
+    print(f"\n[OK] JSON generado: {output_path}")
     print(f"  - Total entidades: {total_entities}")
     print(f"  - Entidades fusionadas: {total_merged}")
     print(f"  - Documentos procesados: {len(by_document)}")

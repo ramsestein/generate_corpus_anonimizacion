@@ -38,6 +38,7 @@ HARDCORE_TEST_CASES = [
         "entity": "dolores",
         "label": "NOMBRE_SUJETO_ASISTENCIA",
         "context": "Paciente refiere dolores abdominales intensos desde hace 3 días",
+        +
         "expected": False,  # RUIDO (síntoma)
         "description": "dolores como SÍNTOMA (minúscula, plural)"
     },

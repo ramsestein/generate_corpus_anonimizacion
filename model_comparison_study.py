@@ -132,6 +132,66 @@ def normalize(text: str) -> str:
     return ' '.join(str(text).lower().strip().split())
 
 
+def has_partial_match(pred_ent: str, gold_ents: Set[str], min_len: int = 2) -> bool:
+    """
+    Verifica si pred_ent tiene match parcial con alguna entidad del gold.
+    
+    LÓGICA:
+    - Si pred_ent está contenido en algún gold_ent -> MATCH (Meddocan cortó)
+    - Si algún gold_ent está contenido en pred_ent -> MATCH (predicción expandida)
+    - Entidades muy cortas (<min_len) requieren match exacto
+    
+    Args:
+        pred_ent: Entidad predicha (normalizada)
+        gold_ents: Set de entidades gold (normalizadas)
+        min_len: Longitud mínima para considerar match parcial
+    
+    Returns:
+        True si hay match (exacto o parcial), False si no
+    """
+    # Match exacto
+    if pred_ent in gold_ents:
+        return True
+    
+    # Entidades muy cortas solo match exacto
+    if len(pred_ent) < min_len:
+        return False
+    
+    # Match parcial: pred está contenido en gold o viceversa
+    for gold_ent in gold_ents:
+        # pred_ent es substring de gold_ent (Meddocan cortó la entidad)
+        if len(pred_ent) >= min_len and pred_ent in gold_ent:
+            return True
+        # gold_ent es substring de pred_ent (predicción incluye más contexto)
+        if len(gold_ent) >= min_len and gold_ent in pred_ent:
+            return True
+    
+    return False
+
+
+def find_matching_gold(pred_ent: str, gold_ents: Set[str], min_len: int = 2) -> Optional[str]:
+    """
+    Encuentra la entidad gold que hace match (exacto o parcial).
+    
+    Returns:
+        La entidad gold que matchea, o None si no hay match
+    """
+    # Match exacto primero
+    if pred_ent in gold_ents:
+        return pred_ent
+    
+    if len(pred_ent) < min_len:
+        return None
+    
+    for gold_ent in gold_ents:
+        if len(pred_ent) >= min_len and pred_ent in gold_ent:
+            return gold_ent
+        if len(gold_ent) >= min_len and gold_ent in pred_ent:
+            return gold_ent
+    
+    return None
+
+
 def clean_entity(text: str) -> str:
     """Limpia marcadores de una entidad."""
     if not text:
@@ -406,29 +466,39 @@ def calculate_metrics(
         candidatos_ents = candidatos_por_doc.get(doc_id, set())
         filtrados_ents = filtrados_por_doc.get(doc_id, set())
         
-        # TP: en predicción Y en gold
+        # Set para trackear golds ya matcheados (evitar doble conteo)
+        gold_matched = set()
+        
+        # TP: en predicción Y matchea con gold (exacto o parcial)
         for ent in pred_ents:
-            if ent in gold_ents:
+            matched_gold = find_matching_gold(ent, gold_ents)
+            if matched_gold and matched_gold not in gold_matched:
                 metrics.tp += 1
                 tp_set.add((doc_id, ent))
+                gold_matched.add(matched_gold)
         
-        # FP: en predicción pero NO en gold (basura que pasó)
+        # FP: en predicción pero NO matchea con ningún gold (basura que pasó)
         for ent in pred_ents:
-            if ent not in gold_ents:
+            if not has_partial_match(ent, gold_ents):
                 metrics.fp += 1
                 metrics.fp_basura_restante += 1
                 fp_set.add((doc_id, ent))
         
-        # FN: en gold pero NO en predicción
-        for ent in gold_ents:
-            if ent not in pred_ents:
+        # FN: en gold pero NO matchea con ninguna predicción
+        for gold_ent in gold_ents:
+            if gold_ent in gold_matched:
+                continue  # Ya fue matcheado como TP
+            
+            # Verificar si alguna predicción matchea con este gold
+            pred_matches = has_partial_match(gold_ent, pred_ents)
+            if not pred_matches:
                 metrics.fn += 1
                 
                 # ¿Por qué falló?
-                if ent not in candidatos_ents:
+                if not has_partial_match(gold_ent, candidatos_ents):
                     # Nunca fue detectado por el Ensemble
                     metrics.fn_no_detectado += 1
-                elif ent in filtrados_ents:
+                elif has_partial_match(gold_ent, filtrados_ents):
                     # Fue detectado pero SetFit lo mató (FUGA INDUCIDA)
                     metrics.fn_fugas_inducidas += 1
     
@@ -448,9 +518,7 @@ def analyze_delta(
     sobrevivientes_b: List[Entity],
     filtrados_a: List[Entity],
     filtrados_b: List[Entity],
-    gold: Dict[str, Set[str]],
-    tp_set_base: Set[Tuple[str, str]],
-    fp_set_base: Set[Tuple[str, str]]
+    gold: Dict[str, Set[str]]
 ) -> DeltaAnalysis:
     """
     Análisis comparativo entre dos modelos SetFit.
@@ -467,8 +535,23 @@ def analyze_delta(
     filtrados_a_set = {(e.doc_id, normalize(e.text)) for e in filtrados_a}
     filtrados_b_set = {(e.doc_id, normalize(e.text)) for e in filtrados_b}
     
+    # Construir gold_set para validación directa
+    gold_set = set()
+    for doc_id, ents in gold.items():
+        for ent in ents:
+            gold_set.add((doc_id, ent))
+    
     # Noise Leakage: Basura que un modelo filtró pero el otro no
-    for doc_id, ent in fp_set_base:
+    # CORREGIDO: Validar con matching parcial contra gold
+    for entity in candidatos:
+        doc_id = entity.doc_id
+        ent = normalize(entity.text)
+        gold_ents_doc = gold.get(doc_id, set())
+        
+        # Solo nos interesa la BASURA (no matchea con gold)
+        if has_partial_match(ent, gold_ents_doc):
+            continue  # Es PII real (match exacto o parcial), no es basura
+        
         # Basura que A filtró pero B dejó pasar
         if (doc_id, ent) in filtrados_a_set and (doc_id, ent) in sobrev_b_set:
             if len(delta.noise_a_filtered_b_kept) < 20:
@@ -488,8 +571,17 @@ def analyze_delta(
                 })
     
     # Over-Cleaning: PII real que el Ensemble detectó pero SetFit mató
-    for doc_id, ent in tp_set_base:
-        # PII que A mató
+    # CORREGIDO: Validar con matching parcial contra gold
+    for entity in candidatos:
+        doc_id = entity.doc_id
+        ent = normalize(entity.text)
+        gold_ents_doc = gold.get(doc_id, set())
+        
+        # Solo nos interesa el PII REAL (matchea con gold)
+        if not has_partial_match(ent, gold_ents_doc):
+            continue  # Es basura, no es PII real
+        
+        # PII que A mató (FUGA CRÍTICA)
         if (doc_id, ent) in filtrados_a_set:
             if len(delta.pii_a_killed) < 20:
                 delta.pii_a_killed.append({
@@ -498,7 +590,7 @@ def analyze_delta(
                     'nota': f'{metrics_a.name} mató PII real (CRÍTICO)'
                 })
         
-        # PII que B mató
+        # PII que B mató (FUGA CRÍTICA)
         if (doc_id, ent) in filtrados_b_set:
             if len(delta.pii_b_killed) < 20:
                 delta.pii_b_killed.append({
@@ -780,7 +872,7 @@ def main():
         candidatos,
         sobrevivientes_a, sobrevivientes_b,
         filtrados_a, filtrados_b,
-        gold, tp_set_base, fp_set_base
+        gold
     )
     print(f"  ✓ Noise Leakage (A filtró/B no): {len(delta.noise_a_filtered_b_kept)}")
     print(f"  ✓ Noise Leakage (B filtró/A no): {len(delta.noise_b_filtered_a_kept)}")

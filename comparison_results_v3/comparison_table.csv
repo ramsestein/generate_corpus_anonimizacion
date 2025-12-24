@@ -1,0 +1,4 @@
+Configuración,Entidades Totales,TP,FP,FN,Precision,Recall,F1-Score,FP Basura Restante,FN Fugas Inducidas,FN No Detectado,Entidades Filtradas,Tasa Filtrado %
+Base (Sin Filtro),97467,25164,5265,14568,82.70%,63.33%,0.7173,5265,0,14568,0,0.0%
+Pipeline A (Base + SetFit A),68533,18516,836,21621,95.68%,46.13%,0.6225,836,7053,14568,28934,29.7%
+Pipeline B (Base + SetFit B),84538,22639,1337,17513,94.42%,56.38%,0.7061,1337,2945,14568,12929,13.3%
