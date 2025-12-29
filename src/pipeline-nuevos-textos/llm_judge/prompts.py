@@ -156,18 +156,20 @@ EVIDENCE_SIGNALS = {
 - NO: roles genericos sin nombre ("el medico", "la enfermera")
 - NO: especialidades sin nombre propio""",
 
-    "FAMILIARES_SUJETO_ASISTENCIA": """- Referencia a familiar CONCRETO del paciente con posesivo
-- Estructura: posesivo + relacion ("su madre", "padre del paciente")
-- Nombre propio de familiar si presente
-- NO: plurales genericos ("familiares", "la familia")
-- NO: secciones informativas ("antecedentes familiares")
-- NO: referencias sin posesivo ni vinculo explicito""",
+    "FAMILIARES_SUJETO_ASISTENCIA": """- Referencia a familiar del paciente, con o sin posesivo
+- Relaciones familiares: madre, padre, hermano/a, hijo/a, esposo/a, abuelo/a, tio/a
+- Estructura: posesivo + relacion ("su madre") O relacion en contexto de contacto/acompanante
+- Nombres propios de familiares
+- Terminos como "hermana", "madre", "hermano" en contexto de acompanante o contacto: SI es PII
+- NO: "antecedentes familiares" como seccion de formulario
+- NO: "la familia" como grupo generico sin identificar individuos""",
 
     # Instituciones y lugares
-    "HOSPITAL": """- Nombre propio de centro sanitario completo
-- Estructura: "Hospital/Centro/Clinica" + nombre especifico
+    "HOSPITAL": """- Nombre propio de centro sanitario completo o parcial
+- Estructura: "Hospital/Centro/Clinica" + nombre especifico (Hospital Central, H. de Barcelona)
 - Abreviaturas reconocibles (H., HU., HC.)
-- NO: terminos genericos ("el hospital", "centro de salud")
+- Nombres propios de hospitales aunque sean comunes ("Hospital Central"): SI es PII
+- NO: termino "hospital" solo sin nombre
 - NO: tipos de servicio sin nombre de institucion""",
 
     "INSTITUCION": """- Nombre propio de institucion completo
@@ -211,8 +213,10 @@ EVIDENCE_SIGNALS = {
 - NO: numeros aislados sin contexto de seguro""",
 
     "NUMERO_IDENTIF": """- Cualquier codigo o numero de identificacion
-- Con referencia explicita a su tipo
-- NO: numeros sin contexto identificativo""",
+- Codigos medicos alfanumericos: H025, H042, E041, J201, G033 (codigos de habitacion, cama, servicio)
+- Con referencia explicita o implicita a su tipo
+- Patrones tipo letra+numeros en contexto clinico: SI es PII
+- NO: numeros completamente aislados sin patron alfanumerico""",
 
     "ID_CONTACTO_ASISTENCIAL": """- Numero de episodio o contacto asistencial
 - Precedido de referencia (NHC, episodio, ingreso, HC)
@@ -241,18 +245,21 @@ EVIDENCE_SIGNALS = {
 - NO: palabras genericas ("pagina web", "sitio")""",
 
     # Fechas y edad
-    "FECHAS": """- Formato de fecha explicito (DD/MM/AAAA, dia-mes-ano)
-- Expresion temporal clinica (fecha de nacimiento, ingreso, alta)
-- Fecha completa o parcial con contexto temporal
-- NO: anos aislados sin contexto de fecha personal
-- NO: meses o dias aislados
-- NO: referencias temporales genericas ("hace 2 meses")""",
+    "FECHAS": """- Formato de fecha explicito (DD/MM/AAAA, DD.MM.AAAA, DD/M, D.M.AA)
+- Expresion temporal clinica (fecha de nacimiento, ingreso, alta, cirugia, consulta)
+- Fecha completa O parcial (16/3, 15.03, 2020) en contexto de documento clinico
+- Anos aislados (2019, 2020, 2021, 2022) en contexto de historial o antecedentes: SI es PII
+- Dia/mes sin ano (16/3, 15/11, 17.03) en contexto de evolucion clinica: SI es PII
+- NO: referencias temporales genericas sin patron de fecha ("hace 2 meses", "ayer")
+- NO: horas aisladas sin fecha (14:30, 8h)""",
 
     "EDAD_SUJETO_ASISTENCIA": """- Edad del paciente explicita
-- Estructura: numero + anos/meses (45 anos, 3 meses)
+- Estructura: numero + anos/meses/semanas (45 anos, 3 meses, 68a, 72a)
+- Abreviaturas de edad: 68a, 72a, 82a (numero + "a") en contexto de paciente: SI es PII
+- Expresiones como "varon de 68", "mujer de 75a": SI es PII
 - Contexto de descripcion del paciente
-- NO: numeros aislados sin unidad temporal
-- NO: rangos de edad genericos""",
+- NO: numeros completamente aislados sin unidad ni patron
+- NO: rangos de edad de protocolos ("mayores de 65")""",
 
     # Otros
     "SEXO_SUJETO_ASISTENCIA": """- Sexo del paciente explicito

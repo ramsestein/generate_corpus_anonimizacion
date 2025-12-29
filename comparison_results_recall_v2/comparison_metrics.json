@@ -1,0 +1,61 @@
+{
+  "generated_at": "2025-12-29T13:13:27.114681",
+  "base": {
+    "name": "Base (Sin Filtro)",
+    "total_entities": 97467,
+    "tp": 65456,
+    "fp": 5625,
+    "fn": 23174,
+    "precision": 0.9208649287432648,
+    "recall": 0.7385309714543609,
+    "f1": 0.8196805479898065,
+    "fp_basura_restante": 5625,
+    "fn_fugas_inducidas": 0,
+    "fn_no_detectado": 23174,
+    "entidades_filtradas": 0,
+    "tasa_filtrado_pct": 0.0
+  },
+  "pipeline_a": {
+    "name": "Pipeline A (Base + SetFit A)",
+    "total_entities": 68533,
+    "tp": 50444,
+    "fp": 1349,
+    "fn": 38186,
+    "precision": 0.9739540092290464,
+    "recall": 0.5691526571138441,
+    "f1": 0.718457802496742,
+    "fp_basura_restante": 1349,
+    "fn_fugas_inducidas": 15012,
+    "fn_no_detectado": 23174,
+    "entidades_filtradas": 28934,
+    "tasa_filtrado_pct": 29.685944986508257
+  },
+  "pipeline_b": {
+    "name": "Pipeline B (Base + SetFit B)",
+    "total_entities": 84538,
+    "tp": 61927,
+    "fp": 2108,
+    "fn": 26703,
+    "precision": 0.9670805028500039,
+    "recall": 0.6987137538079657,
+    "f1": 0.8112795991222612,
+    "fp_basura_restante": 2108,
+    "fn_fugas_inducidas": 3529,
+    "fn_no_detectado": 23174,
+    "entidades_filtradas": 12929,
+    "tasa_filtrado_pct": 13.265002513671295
+  },
+  "delta": {
+    "winner_precision": "Pipeline A (Base + SetFit A)",
+    "winner_recall": "Pipeline B (Base + SetFit B)",
+    "winner_f1": "Pipeline B (Base + SetFit B)",
+    "noise_leakage": {
+      "a_filtered_b_kept": 20,
+      "b_filtered_a_kept": 0
+    },
+    "over_cleaning": {
+      "a_killed_pii": 20,
+      "b_killed_pii": 20
+    }
+  }
+}

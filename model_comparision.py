@@ -150,12 +150,15 @@ def norm_doc_id(name: str) -> str:
 # FASE 1: CARGA DE DATOS
 # =============================================================================
 
-def load_gold_standard(path: Path) -> Dict[str, Set[str]]:
+# =============================================================================
+# FASE 1: CARGA DE DATOS
+# =============================================================================
+
+def load_gold_standard(path: Path) -> Dict[str, List[Entity]]:
     """
-    Carga Gold Standard.
-    Soporta carpeta con .txt o archivo JSON.
+    Carga Gold Standard preservando offsets para evaluación estricta.
     """
-    result: Dict[str, Set[str]] = defaultdict(set)
+    result: Dict[str, List[Entity]] = defaultdict(list)
     
     # Si es carpeta
     if path.is_dir():
@@ -169,26 +172,49 @@ def load_gold_standard(path: Path) -> Dict[str, Set[str]]:
             
             doc_id = norm_doc_id(txt_file.name)
             for match in GOLD_PATTERN.finditer(text):
-                entity = clean_entity(match.group(1).strip())
-                if entity:
-                    result[doc_id].add(normalize(entity))
-        return dict(result)
-    
+                # FIX: Usar offsets del texto INTERIOR, no del marcador completo
+                # Gold: [**texto**] tiene match.start() en '[', match.end() después de ']'
+                # Pero las predicciones detectan 'texto' sin los marcadores
+                # Ajustamos: inner_start = marker_start + 3 (para saltar '[**')
+                #            inner_end = marker_end - 3 (para excluir '**]')
+                inner_text = match.group(1)
+                inner_start = match.start() + 3  # Skip '[**'
+                inner_end = match.end() - 3      # Skip '**]'
+                
+                result[doc_id].append(Entity(
+                    doc_id=doc_id,
+                    text=inner_text,
+                    start=inner_start,
+                    end=inner_end,
+                    source='gold'
+                ))
     # Si es archivo JSON
-    with open(path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    
-    if isinstance(data, dict):
-        docs = data.get('documents', data)
-        for doc_id, entities in docs.items():
-            if doc_id in ('generated_at', 'gold_dir', 'metadata'):
-                continue
-            base = norm_doc_id(doc_id)
-            if isinstance(entities, list):
-                for e in entities:
-                    cleaned = clean_entity(e)
-                    if cleaned:
-                        result[base].add(normalize(cleaned))
+    elif path.exists():
+        with open(path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        if isinstance(data, dict):
+            docs = data.get('documents', data)
+            for doc_id, entities in docs.items():
+                if doc_id in ('generated_at', 'gold_dir', 'metadata'):
+                    continue
+                base = norm_doc_id(doc_id)
+                
+                # Asumimos que el JSON ya tiene offsets si es formato completo
+                if isinstance(entities, list):
+                    for e in entities:
+                        # Si es string, no tenemos offsets -> limitación. 
+                        # Pero el script original asumia offsets para detectores.
+                        # Para gold JSON simple (solo strings), esto fallará en offsets.
+                        # Asumimos que si usan JSON tiene estructura completa o usamos carga desde TXT preferiblemente.
+                         if isinstance(e, dict):
+                            result[base].append(Entity(
+                                doc_id=base,
+                                text=clean_entity(e.get('text', '')),
+                                start=e.get('start', -1),
+                                end=e.get('end', -1),
+                                source='gold'
+                            ))
     
     return dict(result)
 
@@ -352,21 +378,11 @@ def calculate_metrics(
     predicciones: List[Entity],
     candidatos_ensemble: List[Entity],
     filtrados: List[Entity],
-    gold: Dict[str, Set[str]],
+    gold: Dict[str, List[Entity]],
     name: str
-) -> Tuple[ModelMetrics, Set[Tuple[str, str]], Set[Tuple[str, str]]]:
+) -> Tuple[ModelMetrics, Set[Tuple[str, int, int]], Set[Tuple[str, int, int]]]:
     """
-    Calcula métricas para una configuración.
-    
-    Args:
-        predicciones: Entidades en la salida final (sobrevivientes)
-        candidatos_ensemble: Todos los candidatos pre-filtro
-        filtrados: Entidades que SetFit eliminó
-        gold: Gold standard
-        name: Nombre de la configuración
-    
-    Returns:
-        (metrics, tp_set, fp_set)
+    Calcula métricas para una configuración (Lógica basada en instancias/offsets).
     """
     metrics = ModelMetrics(name=name)
     metrics.total_entities = len(predicciones)
@@ -375,56 +391,63 @@ def calculate_metrics(
     if len(candidatos_ensemble) > 0:
         metrics.tasa_filtrado_pct = len(filtrados) / len(candidatos_ensemble) * 100
     
-    # Construir sets
-    pred_por_doc: Dict[str, Set[str]] = defaultdict(set)
-    for ent in predicciones:
-        pred_por_doc[ent.doc_id].add(normalize(ent.text))
+    # Agrupar predicciones por doc_id para eficiencia
+    pred_por_doc = defaultdict(list)
+    for p in predicciones:
+        pred_por_doc[p.doc_id].append(p)
+        
+    # Sets para control de duplicados en reporte delta (doc, start, end)
+    tp_set: Set[Tuple[str, int, int]] = set()
+    fp_set: Set[Tuple[str, int, int]] = set()
     
-    candidatos_por_doc: Dict[str, Set[str]] = defaultdict(set)
-    for ent in candidatos_ensemble:
-        candidatos_por_doc[ent.doc_id].add(normalize(ent.text))
-    
-    filtrados_por_doc: Dict[str, Set[str]] = defaultdict(set)
-    for ent in filtrados:
-        filtrados_por_doc[ent.doc_id].add(normalize(ent.text))
-    
-    tp_set: Set[Tuple[str, str]] = set()
-    fp_set: Set[Tuple[str, str]] = set()
+    # Helper overlap
+    def overlaps(e1_start, e1_end, e2_start, e2_end):
+        return not (e1_end <= e2_start or e2_end <= e1_start)
     
     # Evaluar por documento
     all_docs = set(gold.keys()) | set(pred_por_doc.keys())
     
     for doc_id in all_docs:
-        gold_ents = gold.get(doc_id, set())
-        pred_ents = pred_por_doc.get(doc_id, set())
-        candidatos_ents = candidatos_por_doc.get(doc_id, set())
-        filtrados_ents = filtrados_por_doc.get(doc_id, set())
+        doc_gold = gold.get(doc_id, [])
+        doc_pred = pred_por_doc.get(doc_id, [])
         
-        # TP: en predicción Y en gold
-        for ent in pred_ents:
-            if ent in gold_ents:
+        # 1. Calcular TP y FN: Recorrer Gold
+        for g in doc_gold:
+            g_detected = False
+            for p in doc_pred:
+                if overlaps(g.start, g.end, p.start, p.end):
+                    g_detected = True
+                    break
+            
+            if g_detected:
                 metrics.tp += 1
-                tp_set.add((doc_id, ent))
-        
-        # FP: en predicción pero NO en gold (basura que pasó)
-        for ent in pred_ents:
-            if ent not in gold_ents:
-                metrics.fp += 1
-                metrics.fp_basura_restante += 1
-                fp_set.add((doc_id, ent))
-        
-        # FN: en gold pero NO en predicción
-        for ent in gold_ents:
-            if ent not in pred_ents:
+            else:
                 metrics.fn += 1
+                metrics.fn_no_detectado += 1 # Default, corregido abajo si fue filtrado
                 
-                # ¿Por qué falló?
-                if ent not in candidatos_ents:
-                    # Nunca fue detectado por el Ensemble
-                    metrics.fn_no_detectado += 1
-                elif ent in filtrados_ents:
-                    # Fue detectado pero SetFit lo mató (FUGA INDUCIDA)
-                    metrics.fn_fugas_inducidas += 1
+                # Análisis de causa FN
+                # Ver si estaba en filtrados
+                # Para esto necesitamos offset match con filtrados
+                # (Simplificación: si solapa con algun filtrado en el mismo doc)
+                for f in filtrados:
+                    if f.doc_id == doc_id and overlaps(g.start, g.end, f.start, f.end):
+                        metrics.fn_fugas_inducidas += 1
+                        metrics.fn_no_detectado -= 1 # Movemos de no_detectado a fuga
+                        break
+
+        # 2. Calcular FP: Recorrer Predicciones
+        for p in doc_pred:
+            p_hits_gold = False
+            for g in doc_gold:
+                if overlaps(p.start, p.end, g.start, g.end):
+                    p_hits_gold = True
+                    tp_set.add((p.doc_id, p.start, p.end)) 
+                    break
+            
+            if not p_hits_gold:
+                metrics.fp += 1
+                metrics.fp_basura_restante += 1 
+                fp_set.add((p.doc_id, p.start, p.end))
     
     metrics.calculate()
     return metrics, tp_set, fp_set
@@ -442,62 +465,73 @@ def analyze_delta(
     sobrevivientes_b: List[Entity],
     filtrados_a: List[Entity],
     filtrados_b: List[Entity],
-    gold: Dict[str, Set[str]],
-    tp_set_base: Set[Tuple[str, str]],
-    fp_set_base: Set[Tuple[str, str]]
+    gold: Dict[str, List[Entity]],
+    tp_set_base: Set[Tuple[str, int, int]],
+    fp_set_base: Set[Tuple[str, int, int]]
 ) -> DeltaAnalysis:
     """
     Análisis comparativo entre dos modelos SetFit.
+    Adaptado a evaluación basada en instancias (doc, start, end).
     """
     delta = DeltaAnalysis(
         model_a_name=metrics_a.name,
         model_b_name=metrics_b.name
     )
     
-    # Construir sets de sobrevivientes
-    sobrev_a_set = {(e.doc_id, normalize(e.text)) for e in sobrevivientes_a}
-    sobrev_b_set = {(e.doc_id, normalize(e.text)) for e in sobrevivientes_b}
+    # Construir sets de sobrevivientes y filtrados por CLAVE ÚNICA (instancia)
+    sobrev_a_set = {e.key() for e in sobrevivientes_a}
+    sobrev_b_set = {e.key() for e in sobrevivientes_b}
     
-    filtrados_a_set = {(e.doc_id, normalize(e.text)) for e in filtrados_a}
-    filtrados_b_set = {(e.doc_id, normalize(e.text)) for e in filtrados_b}
+    filtrados_a_set = {e.key() for e in filtrados_a}
+    filtrados_b_set = {e.key() for e in filtrados_b}
     
+    # Mapa inverso para saber el texto de la entidad dado su key
+    # (Usamos candidatos por ser la fuente completa)
+    key_to_text = {e.key(): e.text for e in candidatos}
+
     # Noise Leakage: Basura que un modelo filtró pero el otro no
-    for doc_id, ent in fp_set_base:
+    # fp_set_base contiene claves (doc, start, end) de FPs del ensemble
+    for key in fp_set_base:
+        doc_id, start, end = key
+        
         # Basura que A filtró pero B dejó pasar
-        if (doc_id, ent) in filtrados_a_set and (doc_id, ent) in sobrev_b_set:
+        if key in filtrados_a_set and key in sobrev_b_set:
             if len(delta.noise_a_filtered_b_kept) < 20:
                 delta.noise_a_filtered_b_kept.append({
                     'doc_id': doc_id,
-                    'entity': ent,
+                    'entity': key_to_text.get(key, "???"),
                     'nota': f'{metrics_a.name} filtró correctamente, {metrics_b.name} dejó pasar'
                 })
         
         # Basura que B filtró pero A dejó pasar
-        if (doc_id, ent) in filtrados_b_set and (doc_id, ent) in sobrev_a_set:
+        if key in filtrados_b_set and key in sobrev_a_set:
             if len(delta.noise_b_filtered_a_kept) < 20:
                 delta.noise_b_filtered_a_kept.append({
                     'doc_id': doc_id,
-                    'entity': ent,
+                    'entity': key_to_text.get(key, "???"),
                     'nota': f'{metrics_b.name} filtró correctamente, {metrics_a.name} dejó pasar'
                 })
     
     # Over-Cleaning: PII real que el Ensemble detectó pero SetFit mató
-    for doc_id, ent in tp_set_base:
+    # tp_set_base contiene claves (doc, start, end) de TPs del ensemble
+    for key in tp_set_base:
+        doc_id, start, end = key
+        
         # PII que A mató
-        if (doc_id, ent) in filtrados_a_set:
+        if key in filtrados_a_set:
             if len(delta.pii_a_killed) < 20:
                 delta.pii_a_killed.append({
                     'doc_id': doc_id,
-                    'entity': ent,
+                    'entity': key_to_text.get(key, "???"),
                     'nota': f'{metrics_a.name} mató PII real (CRÍTICO)'
                 })
         
         # PII que B mató
-        if (doc_id, ent) in filtrados_b_set:
+        if key in filtrados_b_set:
             if len(delta.pii_b_killed) < 20:
                 delta.pii_b_killed.append({
                     'doc_id': doc_id,
-                    'entity': ent,
+                    'entity': key_to_text.get(key, "???"),
                     'nota': f'{metrics_b.name} mató PII real (CRÍTICO)'
                 })
     
