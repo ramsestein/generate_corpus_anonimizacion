@@ -4,19 +4,19 @@ model_comparison.py - Comparativa Head-to-Head de Modelos SetFit
 =======================================================================
 
 LÓGICA DE NEGOCIO (CORRECTA):
-1. Base (Ensemble): Fusiona Meddocan + Carmen, deduplica por coordenadas
+1. Base: Carga detecciones fusionadas (ya incluyen Meddocan + Carmen), deduplica por coordenadas
 2. Filtrado SetFit:
    - label=1 (PII) -> La entidad SOBREVIVE
    - label=0 (RUIDO) -> La entidad MUERE
 3. Métricas: Se calculan sobre las entidades que SOBREVIVIERON
 
 COMPARATIVA:
-- Base (Sin Filtro): Ensemble puro
+- Base (Sin Filtro): Detecciones sin filtrar
 - Pipeline A (Base + SetFit A): Después de filtrar con modelo A
 - Pipeline B (Base + SetFit B): Después de filtrar con modelo B
 
 USO:
-  python model_comparison_.py --gold corpus/output/aws3  --meddocan step6_validation_results/aws3/detecciones_detalladas.csv --carmen outputs/carmen.json --setfit-a outputs/resultados_aws3.json  --setfit-b salida.json --output-dir comparison_results
+  python model_comparision.py --gold corpus/output/aws3 --detections step6_validation_results/aws3/detecciones_detalladas.csv --setfit-a outputs/resultados_improved.json --setfit-b outputs/resultados_improved-llm-mejorado.json --output-dir comparison_results
 """
 
 import argparse
@@ -268,19 +268,16 @@ def load_detector_output(path: Path, source_name: str) -> List[Entity]:
     return entities
 
 
-def create_ensemble(meddocan: List[Entity], carmen: List[Entity]) -> List[Entity]:
+def deduplicate_entities(entities: List[Entity]) -> List[Entity]:
     """
-    Fusiona Meddocan + Carmen y deduplica por coordenadas (doc, start, end).
-    Si ambos detectan la misma entidad, cuenta como UNA sola.
+    Deduplica entidades por coordenadas (doc, start, end).
+    Si se detecta la misma entidad múltiples veces, cuenta como UNA sola.
     """
     seen = {}  # key -> Entity
     
-    for entity in meddocan + carmen:
+    for entity in entities:
         key = entity.key()
-        if key in seen:
-            # Ya existe, marcar como detectado por ambos
-            seen[key].source = 'both'
-        else:
+        if key not in seen:
             seen[key] = entity
     
     return list(seen.values())
@@ -290,10 +287,10 @@ def load_setfit_predictions(path: Path, candidatos_ensemble: List[Entity]) -> Di
     """
     Carga predicciones SetFit.
     
-    LÓGICA ESPECIAL: Los archivos de pipeline ya tienen filtradas las entidades RUIDO.
-    Por tanto:
-    - Si una entidad aparece en decisions -> label=1 (PII, sobrevivió)
-    - Si una entidad del ensemble NO aparece en decisions -> label=0 (RUIDO, fue filtrada)
+    LÓGICA: Lee el label/classification de cada entidad en el JSON:
+    - label=1 o classification="PII" -> label=1 (PII, mantener)
+    - label=0 o classification="RUIDO" -> label=0 (RUIDO, eliminar)
+    - Si la entidad NO aparece en el JSON -> label=0 (asumimos filtrada)
     
     Returns:
         {(doc_id, normalized_text): label}
@@ -313,26 +310,73 @@ def load_setfit_predictions(path: Path, candidatos_ensemble: List[Entity]) -> Di
         key = entity.norm_key()
         result[key] = 0  # Asumimos que fue filtrado
     
-    # Luego, las que aparecen en decisions son PII (label=1)
+    # Procesar predicciones del JSON
     items = []
     if isinstance(data, dict) and 'decisions' in data:
         items = data['decisions']
     elif isinstance(data, list):
         items = data
     
-    sobrevivientes_count = 0
+    pii_count = 0
+    ruido_count = 0
+    seen_in_json = set()  # Para trackear eficientemente qué entidades aparecieron
+    
     for item in items:
         doc_id = norm_doc_id(item.get('document_id', item.get('doc_id', '')))
         text = clean_entity(item.get('entity_text', item.get('text', '')))
         
-        if doc_id and text:
-            norm_text = normalize(text)
-            key = (doc_id, norm_text)
-            result[key] = 1  # Sobrevivió = PII
-            sobrevivientes_count += 1
+        if not doc_id or not text:
+            continue
+        
+        norm_text = normalize(text)
+        key = (doc_id, norm_text)
+        seen_in_json.add(key)  # Marcar como vista
+        
+        # Leer el label/classification del item
+        # Soporta varios formatos: label, classification, setfit_label
+        label_value = None
+        
+        # Opción 1: campo 'classification' ("PII" o "RUIDO") - PRIORITARIO
+        if 'classification' in item:
+            classification = str(item['classification']).upper()
+            if classification in ('PII', 'KEEP', '1', 'TRUE'):
+                label_value = 1
+            elif classification in ('RUIDO', 'FILTER', 'NOISE', '0', 'FALSE'):
+                label_value = 0
+            else:
+                # Si classification contiene un tipo de entidad (FECHAS, NOMBRE, etc), asumir PII
+                label_value = 1
+        # Opción 2: campo 'label' numérico (0 o 1)
+        elif 'label' in item:
+            try:
+                label_value = int(item['label'])
+            except (ValueError, TypeError):
+                # Si label no es numérico, tratar como clasificación textual
+                label_str = str(item['label']).upper()
+                label_value = 1 if label_str in ('PII', 'KEEP', '1', 'TRUE') else 0
+        # Opción 3: campo 'setfit_label' (0 o 1)
+        elif 'setfit_label' in item:
+            try:
+                label_value = int(item['setfit_label'])
+            except (ValueError, TypeError):
+                label_value = 1
+        # Si no tiene label explícito, asumir PII (backward compatibility)
+        else:
+            label_value = 1
+        
+        result[key] = int(label_value)
+        
+        if label_value == 1:
+            pii_count += 1
+        else:
+            ruido_count += 1
     
-    filtrados_count = sum(1 for v in result.values() if v == 0)
-    print(f"    → SetFit clasificó: {sobrevivientes_count} PII, {filtrados_count} RUIDO")
+    # Contar eficientemente cuántas del ensemble NO aparecieron en el JSON
+    not_in_json = sum(1 for k, v in result.items() if v == 0 and k not in seen_in_json)
+    
+    print(f"    → SetFit en JSON: {pii_count} PII, {ruido_count} RUIDO")
+    total_ruido = sum(1 for v in result.values() if v == 0)
+    print(f"    → Total clasificado como RUIDO: {total_ruido} (incluye {not_in_json} no presentes en JSON)")
     
     return result
 
@@ -722,10 +766,8 @@ def main():
     
     parser.add_argument('--gold', '-g', required=True,
                         help='Gold Standard (carpeta .txt o JSON)')
-    parser.add_argument('--meddocan', '-m', required=True,
-                        help='Output de Meddocan (CSV o JSON)')
-    parser.add_argument('--carmen', '-c',
-                        help='Output de Carmen (CSV o JSON, opcional)')
+    parser.add_argument('--detections', '-d', required=True,
+                        help='Detecciones fusionadas (CSV o JSON) - Ya incluye Meddocan+Carmen')
     parser.add_argument('--setfit-a', '-a', required=True,
                         help='Predicciones SetFit modelo A')
     parser.add_argument('--setfit-b', '-b', required=True,
@@ -747,17 +789,12 @@ def main():
     gold = load_gold_standard(Path(args.gold))
     print(f"  ✓ Gold Standard: {len(gold)} docs, {sum(len(v) for v in gold.values())} entidades")
     
-    meddocan_entities = load_detector_output(Path(args.meddocan), 'meddocan')
-    print(f"  ✓ Meddocan: {len(meddocan_entities)} detecciones")
+    all_detections = load_detector_output(Path(args.detections), 'base')
+    print(f"  ✓ Detecciones: {len(all_detections)} entidades")
     
-    carmen_entities = []
-    if args.carmen:
-        carmen_entities = load_detector_output(Path(args.carmen), 'carmen')
-        print(f"  ✓ Carmen: {len(carmen_entities)} detecciones")
-    
-    # Crear ensemble
-    candidatos = create_ensemble(meddocan_entities, carmen_entities)
-    print(f"  ✓ Ensemble: {len(candidatos)} candidatos únicos")
+    # Deduplicar por coordenadas (por si hay duplicados)
+    candidatos = deduplicate_entities(all_detections)
+    print(f"  ✓ Candidatos únicos: {len(candidatos)} (después de deduplicación)")
     
     # Cargar predicciones SetFit (necesitan el ensemble para deducir qué fue filtrado)
     setfit_a_preds = load_setfit_predictions(Path(args.setfit_a), candidatos)

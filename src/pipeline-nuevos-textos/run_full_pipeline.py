@@ -7,15 +7,11 @@ Este script ejecuta el pipeline completo de filtrado y anonimización:
 
 1. Carga datos brutos y los convierte a formato JSON estándar
 2. Ejecuta MEDDOCAN (opcional) para obtener entidades iniciales
-3. Ejecuta FILTROS DE DICCIONARIO (Pre-filtro deterministicos)
-   - Whitelist: Se acepta directo (PII)
-   - Blacklist: Se descarta directo (RUIDO)
-   - Resto: Pasa a SetFit
-4. Ejecuta SETFIT (Clasificación binaria) sobre los candidatos
+3. Ejecuta SETFIT (Clasificación binaria) sobre los candidatos
    - PII: Se acepta
    - RUIDO: Se descarta (o pasa a LLM para rescate final)
-5. Ejecuta LLM JUDGE (Opcional/Rescate final)
-6. Guarda el resultado final en JSON
+4. Ejecuta LLM JUDGE (Opcional/Rescate final)
+5. Guarda el resultado final en JSON
 
 USO:
     python run_full_pipeline.py --input entidades.json --output resultados.json
@@ -23,23 +19,19 @@ USO:
     python run_full_pipeline.py --help
 
 FLUJO OPTIMIZADO:
-    Input -> [Dict Filter] --(Whitelist)--> PII
-                  |
-            (No Match)
-                  ↓
-              [SetFit] --(PII)--> PII
-                  |
-               (Ruido)
-                  ↓
-             [LLM Judge] --(Keep)--> PII
-                  |
-               (Filter)
-                  ↓
-               Discard
+    Input -> [SetFit] --(PII)--> PII
+                |               
+            (Ruido)
+                ↓
+         [LLM Judge] --(Keep)--> PII
+                |
+            (Filter)
+                ↓
+            Discard
 
 TRAZABILIDAD:
     Cada entidad lleva:
-    - classification_source: 'dict_whitelist_pre', 'setfit', 'llm_rescue'
+    - classification_source: 'setfit', 'llm_rescue'
     - classification: 'PII' (conservar) o 'RUIDO' (descartar)
 """
 
@@ -71,21 +63,10 @@ from utils.token_healing import fix_entity_boundaries, batch_fix_entity_boundari
 DEFAULT_CONFIG = {
     # SetFit - CONFIGURACIÓN SIMPLIFICADA
     "setfit": {
-        "model_path": str(SCRIPT_DIR.parent.parent / "models" / "gatekeeper_setfit"),
+        "model_path": str(SCRIPT_DIR.parent.parent / "models" / "gatekeeper_setfit_improved"),
         "confidence_threshold": 0.75,  # Subido para mejorar precisión
         "enable_pii_detector": False,  # SetFit clasifica todo
         "enable_low_confidence_filter": True,  # Filtrar baja confianza
-    },
-    # Dict Filters
-    "dict_filters": {
-        "json_whitelist_paths": [
-            str(SCRIPT_DIR.parent.parent / "data" / "hospitales.json"),
-            str(SCRIPT_DIR.parent.parent / "data" / "lugares.json"),
-        ],
-        "json_blacklist_paths": [],
-        "csv_base_path": str(SCRIPT_DIR.parent.parent / "LISTAS"),
-        "cie10_path": str(SCRIPT_DIR.parent.parent / "LISTAS" / "cie10.xls"),
-        "ignore_numeric_only": False,
     },
     # LLM
     "llm": {
@@ -98,7 +79,6 @@ DEFAULT_CONFIG = {
     # General
     "pipeline": {
         "skip_setfit": False,
-        "skip_dict_filters": False,
         "skip_llm": False,
         "save_intermediate": False,
         "output_dir": str(SCRIPT_DIR.parent.parent / "outputs"),
@@ -368,17 +348,12 @@ class FullPipeline:
     """
     Orquestador del pipeline completo de anonimización.
     
-    FLUJO OPTIMIZADO (Dict Filters -> SetFit -> LLM):
-    1. Dict Filters (Pre-Filter):
-       - Whitelist: KEEP (Rescatado) -> Va a salida
-       - Blacklist: FILTER (Ruido) -> Se descarta
-       - Resto: ESCALATE (Candidatos) -> Pasa a SetFit
-    
-    2. SetFit (Modelo):
+    FLUJO OPTIMIZADO (SetFit -> LLM):
+    1. SetFit (Modelo):
        - PII: KEEP -> Va a salida
        - Ruido: RUIDO -> Se descarta (o rescate LLM)
        
-    3. LLM (Rescate final):
+    2. LLM (Rescate final):
        - Si habilitado, revisa el RUIDO del modelo.
     """
     
@@ -484,7 +459,8 @@ class FullPipeline:
         # ====================================================================
         
         pre_filtered_candidates = []
-        final_kept = []
+        final_kept = []  # Entidades PII
+        final_ruido = []  # Entidades RUIDO (para estadísticas y comparación)
         
         # Dict filters eliminado - Todo pasa directamente a SetFit
         self.logger.info("\n[PASO 1/3] Dict Filters... ELIMINADO")
@@ -514,8 +490,11 @@ class FullPipeline:
                 self.logger.info(f"  -> PII (Aceptados): {len(pii_entities)}")
                 self.logger.info(f"  -> RUIDO (Rechazados): {len(ruido_entities)}")
                 
-                # PII se añade a final
+                # PII se añade a final_kept
                 final_kept.extend(pii_entities)
+                
+                # RUIDO se guarda por separado para estadísticas
+                final_ruido.extend(ruido_entities)
                 
                 # Ruido pasa a LLM si queremos ser conservadores (Rescate final)
                 to_llm = ruido_entities
@@ -545,6 +524,25 @@ class FullPipeline:
         # ====================================================================
         if not self.config["pipeline"].get("skip_llm", False) and to_llm:
             self.logger.info(f"\n[PASO 3/3] LLM Judge - Rescate final ({len(to_llm)} entidades)...")
+            self.logger.info(f"  -> Modelo LLM: {self.config['llm']['model']}")
+            self.logger.info(f"  -> Timeout: {self.config['llm']['timeout']}s")
+            self.logger.info(f"  -> Max retries: {self.config['llm']['max_retries']}")
+            
+            # Mostrar preview de las entidades que se van a evaluar
+            if self.logger.isEnabledFor(logging.DEBUG):
+                self.logger.debug("  -> Entidades a evaluar:")
+                for i, e in enumerate(to_llm[:5], 1):  # Primeras 5
+                    self.logger.debug(f"     {i}. {e.get('text', 'N/A')[:50]}")
+                if len(to_llm) > 5:
+                    self.logger.debug(f"     ... y {len(to_llm) - 5} más")
+            
+            self.logger.info("  -> Iniciando evaluación con LLM...")
+            
+            # Debug: mostrar ejemplo de lo que se envía al LLM
+            if to_llm and self.logger.isEnabledFor(logging.DEBUG):
+                self.logger.debug("  -> Enviando al LLM:")
+                for i, e in enumerate(to_llm[:2], 1):
+                    self.logger.debug(f"     {i}. '{e.get('text', 'N/A')[:40]}' | label={e.get('label', 'N/A')}")
             
             try:
                 llm_results = run_llm_judge(
@@ -552,6 +550,15 @@ class FullPipeline:
                     document_text,
                     self.config["llm"]
                 )
+                self.logger.info("  -> Evaluación LLM completada")
+                
+                # Debug: mostrar ejemplo de lo que respondió el LLM
+                if llm_results and self.logger.isEnabledFor(logging.DEBUG):
+                    self.logger.debug("  -> Respuesta LLM:")
+                    for i, e in enumerate(llm_results[:2], 1):
+                        decision = e.get('decision', 'N/A')
+                        reason = e.get('llm_reasoning', 'N/A')[:60]
+                        self.logger.debug(f"     {i}. '{e.get('text', 'N/A')[:40]}' → {decision} ({reason})")
                 
                 llm_rescued = [e for e in llm_results if e.get("decision") == "KEEP"]
                 llm_filtered = [e for e in llm_results if e.get("decision") == "FILTER"]
@@ -561,14 +568,28 @@ class FullPipeline:
                     e["classification"] = "PII"
                     e["classification_source"] = "llm_rescue"
                 
+                # Añadir trazabilidad a los filtrados
+                for e in llm_filtered:
+                    e["classification"] = "RUIDO"
+                    e["classification_source"] = "llm_filtered"
+                
                 self.stats["llm_rescued"] = len(llm_rescued)
                 self.stats["llm_filtered"] = len(llm_filtered)
                 
                 self.logger.info(f"  -> RESCATADOS (LLM): {len(llm_rescued)}")
                 self.logger.info(f"  -> DESCARTADOS (LLM): {len(llm_filtered)}")
                 
-                # Añadir rescatados a final
+                # Debug: mostrar ejemplos de rescatados
+                if llm_rescued and self.logger.isEnabledFor(logging.DEBUG):
+                    self.logger.debug("  -> Ejemplos rescatados por LLM:")
+                    for i, e in enumerate(llm_rescued[:3], 1):
+                        self.logger.debug(f"     {i}. {e.get('text', 'N/A')[:50]} (razón: {e.get('llm_reasoning', 'N/A')[:80]})")
+                
+                # Añadir rescatados a PII
                 final_kept.extend(llm_rescued)
+                
+                # Añadir filtrados a RUIDO
+                final_ruido.extend(llm_filtered)
                 
             except Exception as e:
                 self.logger.error(f"  Error en LLM: {e}")
@@ -580,13 +601,22 @@ class FullPipeline:
         else:
             if to_llm:
                 self.logger.info(f"\n[PASO 3/3] LLM Judge... OMITIDO ({len(to_llm)} entidades DESCARTADAS)")
+                # Marcar como RUIDO las que quedaron sin evaluar
+                for e in to_llm:
+                    e["classification"] = "RUIDO"
+                    e["classification_source"] = "setfit_filtered"
+                final_ruido.extend(to_llm)
             else:
                 self.logger.info("\n[PASO 3/3] LLM Judge... OMITIDO")
         
         # ====================================================================
         # RESULTADO FINAL
         # ====================================================================
+        # Combinar PII y RUIDO para tener todas las entidades con su clasificación
+        all_results = final_kept + final_ruido
+        
         self.stats["final_output"] = len(final_kept)
+        self.stats["final_ruido"] = len(final_ruido)
         self.stats["execution_time"] = time.time() - start_time
         
         self.logger.info("\n" + "=" * 70)
@@ -594,7 +624,7 @@ class FullPipeline:
         self.logger.info("=" * 70)
         self._print_stats()
         
-        return final_kept
+        return all_results
     
     def _print_stats(self):
         """Imprime estadísticas del pipeline con el nuevo flujo."""
@@ -602,11 +632,12 @@ class FullPipeline:
         
         self.logger.info(f"\n[ESTADÍSTICAS DEL PIPELINE]")
         self.logger.info(f"  Entrada total:  {s['total_input']} entidades")
-        self.logger.info(f"  Salida final:   {s['final_output']} entidades PII")
+        self.logger.info(f"  Salida PII:     {s['final_output']} entidades")
+        self.logger.info(f"  Salida RUIDO:   {s.get('final_ruido', 0)} entidades")
         
         if s['total_input'] > 0:
-            reduction = (1 - s['final_output'] / s['total_input']) * 100
-            self.logger.info(f"  Reducción ruido: {reduction:.1f}%")
+            reduction = (s.get('final_ruido', 0) / s['total_input']) * 100
+            self.logger.info(f"  Ruido filtrado: {reduction:.1f}%")
         
         self.logger.info(f"\n[FLUJO POR ETAPA]")
         self.logger.info(f"  1. SetFit:       PII={s['setfit_pii']} (Keep)   | Ruido={s['setfit_ruido']} (Drop/LLM)")
@@ -617,7 +648,7 @@ class FullPipeline:
         llm_rescued = s['llm_rescued']
         self.logger.info(f"  SetFit PII:               {setfit_pii}")
         self.logger.info(f"  LLM Rescued:              {llm_rescued}")
-        self.logger.info(f"  TOTAL:                    {setfit_pii + llm_rescued}")
+        self.logger.info(f"  TOTAL PII:                {setfit_pii + llm_rescued}")
 
         self.logger.info(f"\n[TIEMPO] {s['execution_time']:.2f}s")
     
@@ -673,12 +704,6 @@ Ejemplos:
         '--skip-setfit',
         action='store_true',
         help='Omitir paso de SetFit'
-    )
-    
-    parser.add_argument(
-        '--skip-dict',
-        action='store_true',
-        help='Omitir paso de filtros de diccionario'
     )
     
     parser.add_argument(
@@ -780,7 +805,6 @@ def main():
     
     # Aplicar flags de CLI
     config["pipeline"]["skip_setfit"] = args.skip_setfit
-    config["pipeline"]["skip_dict_filters"] = args.skip_dict
     config["pipeline"]["skip_llm"] = args.skip_llm
     config["pipeline"]["save_intermediate"] = args.save_intermediate
     config["pipeline"]["docs_dir"] = args.docs_dir
@@ -797,6 +821,11 @@ def main():
         
         # Guardar resultados
         logger.info(f"\nGuardando resultados en {args.output}")
+        
+        # Contar PII y RUIDO en los resultados
+        pii_count = sum(1 for e in results if e.get('classification') == 'PII')
+        ruido_count = sum(1 for e in results if e.get('classification') == 'RUIDO')
+        
         save_pipeline_results(
             results,
             args.output,
@@ -804,6 +833,8 @@ def main():
                 "generated_at": datetime.now().isoformat(),
                 "input_file": input_path,
                 "total_entities": len(results),
+                "pii_entities": pii_count,
+                "ruido_entities": ruido_count,
                 "pipeline_version": "2.0-optimized",
             },
             stats=pipeline.get_stats()

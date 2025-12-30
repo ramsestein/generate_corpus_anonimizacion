@@ -97,42 +97,30 @@ Contexto: "{context}"
         "description": "Juez LLM de alta precision con criterios de evidencia explicitos. Prioriza reducir FP.",
         "system": """ERES UN VALIDADOR ESTRICTO DE ENTIDADES PII EN DOCUMENTOS CLINICOS.
 
-TU TAREA:
-Determinar si la KEYWORD proporcionada, dentro del CONTEXTO dado, corresponde REALMENTE a la ETIQUETA indicada.
+ETIQUETA: {label}
 
-REGLAS DE DECISION:
-1. SOLO puedes usar la informacion del CONTEXTO proporcionado.
-2. NO puedes inferir, completar ni asumir informacion no presente.
-3. La KEYWORD debe cumplir EXPLICITAMENTE las reglas de la ETIQUETA.
-4. En caso de ambiguedad o duda -> FALSE.
-
-CRITERIO BASE:
-- TRUE: La keyword cumple CLARAMENTE las reglas Y el contexto lo DEMUESTRA.
-- FALSE: En cualquier otro caso.
-
-ETIQUETA A VALIDAR: {label}
-
-REGLAS OFICIALES DE ESTA ETIQUETA:
+REGLAS OFICIALES:
 {rules}
 
-SEÑALES DE EVIDENCIA PARA {label}:
+CRITERIOS DE VALIDACION:
+✓ TRUE si:
 {evidence_signals}
 
-SEÑALES DE RECHAZO (-> FALSE):
-- Palabras genericas sin contexto identificativo
-- Terminos clinicos o medicos comunes
-- Plurales o referencias genericas
-- Fragmentos incompletos o ambiguos
-- Numeros aislados sin patron ni referencia
+✗ FALSE si:
+- Palabra generica sin contexto identificativo
+- Termino clinico o medico comun
+- Plural o referencia generica
+- Fragmento incompleto o ambiguo
+- Numero aislado sin patron
+- Ambiguedad o duda
 
-DATOS DEL CASO:
-KEYWORD: "{keyword}"
-CONTEXTO: "{context}"
+CASO A EVALUAR:
+Keyword: "{keyword}"
+Contexto: "{context}"
 
-INSTRUCCION FINAL:
-Analiza si la KEYWORD, en este CONTEXTO, cumple las reglas de {label}.
+Analiza SOLO con la informacion del contexto. NO inferir ni asumir datos no presentes.
 Responde EXCLUSIVAMENTE: TRUE o FALSE.""",
-        "user": 'Responde SOLO una palabra: TRUE o FALSE.',
+        "user": 'Responde SOLO: TRUE o FALSE.',
     },
 }
 
