@@ -63,7 +63,7 @@ from utils.token_healing import fix_entity_boundaries, batch_fix_entity_boundari
 DEFAULT_CONFIG = {
     # SetFit - CONFIGURACIÓN SIMPLIFICADA
     "setfit": {
-        "model_path": str(SCRIPT_DIR.parent.parent / "models" / "gatekeeper_setfit_improved"),
+        "model_path": str(SCRIPT_DIR.parent.parent / "models" / "gatekeeper_setfit"),
         "confidence_threshold": 0.75,  # Subido para mejorar precisión
         "enable_pii_detector": False,  # SetFit clasifica todo
         "enable_low_confidence_filter": True,  # Filtrar baja confianza

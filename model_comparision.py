@@ -118,12 +118,27 @@ class DeltaAnalysis:
 
 GOLD_PATTERN = re.compile(r"\[\*\*(.+?)\*\*\]")
 
+# Umbral de overlap para considerar match (configurable)
+OVERLAP_THRESHOLD = 0.5
+MIN_CHAR_MATCH = 3  # Mínimo de caracteres alfanuméricos para fallback
+
 
 def normalize(text: str) -> str:
     """Normaliza texto para comparación."""
     if not text:
         return ''
     return ' '.join(str(text).lower().strip().split())
+
+
+def normalize_for_matching(text: str) -> str:
+    """Normaliza texto para matching de fallback."""
+    if not text:
+        return ''
+    t = str(text)
+    # Eliminar prefijos ## de subword tokenization
+    t = re.sub(r'^#+', '', t)
+    t = t.strip()
+    return t
 
 
 def clean_entity(text: str) -> str:
@@ -156,30 +171,34 @@ def norm_doc_id(name: str) -> str:
 
 def load_gold_standard(path: Path) -> Dict[str, List[Entity]]:
     """
-    Carga Gold Standard preservando offsets para evaluación estricta.
+    Carga Gold Standard con offsets del texto RAW (con marcadores).
+    
+    Las detecciones de MEDDOCAN/CARMEN usan offsets del texto RAW que incluye
+    los marcadores [**...**]. Por tanto, para el gold usamos:
+    - inner_start = match.start() + 3 (después de '[**')
+    - inner_end = match.end() - 3 (antes de '**]')
+    
+    Estos son los offsets del contenido DENTRO de los marcadores en el texto RAW.
     """
     result: Dict[str, List[Entity]] = defaultdict(list)
     
-    # Si es carpeta
     if path.is_dir():
         txt_files = list(path.rglob("*.txt"))
         print(f"  [INFO] Extrayendo Gold Standard de {len(txt_files)} archivos .txt")
+        
         for txt_file in txt_files:
             try:
-                text = txt_file.read_text(encoding='utf-8')
+                text_raw = txt_file.read_text(encoding='utf-8')
             except:
-                text = txt_file.read_text(errors='ignore')
+                text_raw = txt_file.read_text(errors='ignore')
             
             doc_id = norm_doc_id(txt_file.name)
-            for match in GOLD_PATTERN.finditer(text):
-                # FIX: Usar offsets del texto INTERIOR, no del marcador completo
-                # Gold: [**texto**] tiene match.start() en '[', match.end() después de ']'
-                # Pero las predicciones detectan 'texto' sin los marcadores
-                # Ajustamos: inner_start = marker_start + 3 (para saltar '[**')
-                #            inner_end = marker_end - 3 (para excluir '**]')
+            
+            for match in GOLD_PATTERN.finditer(text_raw):
                 inner_text = match.group(1)
-                inner_start = match.start() + 3  # Skip '[**'
-                inner_end = match.end() - 3      # Skip '**]'
+                # Offsets en texto RAW del contenido interno
+                inner_start = match.start() + 3  # Después de '[**'
+                inner_end = match.end() - 3      # Antes de '**]'
                 
                 result[doc_id].append(Entity(
                     doc_id=doc_id,
@@ -188,7 +207,7 @@ def load_gold_standard(path: Path) -> Dict[str, List[Entity]]:
                     end=inner_end,
                     source='gold'
                 ))
-    # Si es archivo JSON
+    
     elif path.exists():
         with open(path, 'r', encoding='utf-8') as f:
             data = json.load(f)
@@ -200,14 +219,9 @@ def load_gold_standard(path: Path) -> Dict[str, List[Entity]]:
                     continue
                 base = norm_doc_id(doc_id)
                 
-                # Asumimos que el JSON ya tiene offsets si es formato completo
                 if isinstance(entities, list):
                     for e in entities:
-                        # Si es string, no tenemos offsets -> limitación. 
-                        # Pero el script original asumia offsets para detectores.
-                        # Para gold JSON simple (solo strings), esto fallará en offsets.
-                        # Asumimos que si usan JSON tiene estructura completa o usamos carga desde TXT preferiblemente.
-                         if isinstance(e, dict):
+                        if isinstance(e, dict):
                             result[base].append(Entity(
                                 doc_id=base,
                                 text=clean_entity(e.get('text', '')),
@@ -415,18 +429,86 @@ def apply_setfit_filter(
 
 
 # =============================================================================
-# FASE 3: CÁLCULO DE MÉTRICAS
+# FASE 3: CÁLCULO DE MÉTRICAS (CORREGIDO)
 # =============================================================================
+
+def compute_overlap_ratio(det_start: int, det_end: int, gold_start: int, gold_end: int) -> float:
+    """
+    Calcula el ratio de overlap entre una detección y un gold.
+    
+    overlap_ratio = overlap_chars / min(det_len, gold_len)
+    """
+    overlap_chars = max(0, min(det_end, gold_end) - max(det_start, gold_start))
+    det_len = det_end - det_start
+    gold_len = gold_end - gold_start
+    
+    if min(det_len, gold_len) <= 0:
+        return 0.0
+    
+    return overlap_chars / min(det_len, gold_len)
+
+
+def text_fallback_match(det_text: str, gold_text: str) -> bool:
+    """
+    Criterio de fallback: match por texto cuando offsets fallan.
+    
+    Considera match si:
+    - Uno contiene al otro Y comparten al menos MIN_CHAR_MATCH caracteres alfanuméricos seguidos
+    - O si la entidad es muy corta (1-2 chars) y coincide exactamente
+    """
+    det_norm = normalize_for_matching(det_text)
+    gold_norm = normalize_for_matching(gold_text)
+    
+    if not det_norm or not gold_norm:
+        return False
+    
+    # Caso especial: entidades muy cortas
+    if len(gold_norm) <= 2:
+        return det_norm == gold_norm or gold_norm in det_norm or det_norm in gold_norm
+    
+    # Verificar contención
+    if gold_norm not in det_norm and det_norm not in gold_norm:
+        return False
+    
+    # Verificar que comparten al menos MIN_CHAR_MATCH caracteres alfanuméricos seguidos
+    # Extraer secuencias alfanuméricas
+    gold_alphanum = re.findall(r'[a-zA-Z0-9]+', gold_norm)
+    det_alphanum = re.findall(r'[a-zA-Z0-9]+', det_norm)
+    
+    for g_seq in gold_alphanum:
+        if len(g_seq) >= MIN_CHAR_MATCH:
+            for d_seq in det_alphanum:
+                if g_seq in d_seq or d_seq in g_seq:
+                    if len(min(g_seq, d_seq, key=len)) >= MIN_CHAR_MATCH:
+                        return True
+    
+    # Si las secuencias son cortas, verificar coincidencia directa
+    if gold_alphanum and det_alphanum:
+        return any(g == d for g in gold_alphanum for d in det_alphanum if len(g) >= 1)
+    
+    return False
+
 
 def calculate_metrics(
     predicciones: List[Entity],
     candidatos_ensemble: List[Entity],
     filtrados: List[Entity],
     gold: Dict[str, List[Entity]],
-    name: str
+    name: str,
+    debug: bool = False
 ) -> Tuple[ModelMetrics, Set[Tuple[str, int, int]], Set[Tuple[str, int, int]]]:
     """
-    Calcula métricas para una configuración (Lógica basada en instancias/offsets).
+    Calcula métricas usando matching 1:1 con overlap_ratio.
+    
+    Reglas:
+    - TP: gold que matchea con al menos una detección (overlap_ratio >= OVERLAP_THRESHOLD)
+    - FN: gold que NO matchea con ninguna detección
+    - FP: detección que NO fue usada para matchear ningún gold
+    
+    Matching 1:1 greedy:
+    - Cada gold puede emparejar como máximo UNA detección
+    - Cada detección puede emparejar como máximo UN gold
+    - Se elige el par con mejor overlap_ratio
     """
     metrics = ModelMetrics(name=name)
     metrics.total_entities = len(predicciones)
@@ -435,18 +517,23 @@ def calculate_metrics(
     if len(candidatos_ensemble) > 0:
         metrics.tasa_filtrado_pct = len(filtrados) / len(candidatos_ensemble) * 100
     
-    # Agrupar predicciones por doc_id para eficiencia
+    # Agrupar predicciones y filtrados por doc_id
     pred_por_doc = defaultdict(list)
     for p in predicciones:
         pred_por_doc[p.doc_id].append(p)
-        
-    # Sets para control de duplicados en reporte delta (doc, start, end)
+    
+    filtrados_por_doc = defaultdict(list)
+    for f in filtrados:
+        filtrados_por_doc[f.doc_id].append(f)
+    
+    # Sets para tracking
     tp_set: Set[Tuple[str, int, int]] = set()
     fp_set: Set[Tuple[str, int, int]] = set()
     
-    # Helper overlap
-    def overlaps(e1_start, e1_end, e2_start, e2_end):
-        return not (e1_end <= e2_start or e2_end <= e1_start)
+    # Debug info
+    debug_tp_examples = []
+    debug_fn_examples = []
+    debug_fp_examples = []
     
     # Evaluar por documento
     all_docs = set(gold.keys()) | set(pred_por_doc.keys())
@@ -454,46 +541,122 @@ def calculate_metrics(
     for doc_id in all_docs:
         doc_gold = gold.get(doc_id, [])
         doc_pred = pred_por_doc.get(doc_id, [])
+        doc_filtrados = filtrados_por_doc.get(doc_id, [])
         
-        # 1. Calcular TP y FN: Recorrer Gold
-        for g in doc_gold:
-            g_detected = False
-            for p in doc_pred:
-                if overlaps(g.start, g.end, p.start, p.end):
-                    g_detected = True
-                    break
-            
-            if g_detected:
-                metrics.tp += 1
-            else:
-                metrics.fn += 1
-                metrics.fn_no_detectado += 1 # Default, corregido abajo si fue filtrado
+        # === MATCHING 1:1 GREEDY ===
+        # Construir matriz de overlap_ratios
+        match_candidates = []
+        
+        for g_idx, g in enumerate(doc_gold):
+            for p_idx, p in enumerate(doc_pred):
+                ratio = compute_overlap_ratio(p.start, p.end, g.start, g.end)
                 
-                # Análisis de causa FN
-                # Ver si estaba en filtrados
-                # Para esto necesitamos offset match con filtrados
-                # (Simplificación: si solapa con algun filtrado en el mismo doc)
-                for f in filtrados:
-                    if f.doc_id == doc_id and overlaps(g.start, g.end, f.start, f.end):
+                # Si overlap_ratio >= threshold, es candidato
+                if ratio >= OVERLAP_THRESHOLD:
+                    match_candidates.append((ratio, g_idx, p_idx, 'overlap'))
+                # Fallback por texto si ratio es bajo pero hay match textual
+                elif ratio > 0 or text_fallback_match(p.text, g.text):
+                    # Dar un ratio menor para que el overlap tenga prioridad
+                    fallback_ratio = 0.3 if text_fallback_match(p.text, g.text) else 0
+                    if fallback_ratio > 0:
+                        match_candidates.append((fallback_ratio, g_idx, p_idx, 'text_fallback'))
+        
+        # Ordenar por ratio descendente (greedy)
+        match_candidates.sort(key=lambda x: x[0], reverse=True)
+        
+        # Asignar matches 1:1
+        matched_gold = set()
+        matched_pred = set()
+        
+        for ratio, g_idx, p_idx, match_type in match_candidates:
+            if g_idx not in matched_gold and p_idx not in matched_pred:
+                matched_gold.add(g_idx)
+                matched_pred.add(p_idx)
+                
+                g = doc_gold[g_idx]
+                p = doc_pred[p_idx]
+                
+                metrics.tp += 1
+                tp_set.add((p.doc_id, p.start, p.end))
+                
+                if debug and len(debug_tp_examples) < 3:
+                    debug_tp_examples.append({
+                        'doc': doc_id,
+                        'gold': f'"{g.text}" @ [{g.start}-{g.end}]',
+                        'pred': f'"{p.text}" @ [{p.start}-{p.end}]',
+                        'ratio': f'{ratio:.2%}',
+                        'type': match_type
+                    })
+        
+        # === CALCULAR FN ===
+        for g_idx, g in enumerate(doc_gold):
+            if g_idx not in matched_gold:
+                metrics.fn += 1
+                
+                # Verificar si fue filtrado por SetFit
+                fue_filtrada = False
+                for f in doc_filtrados:
+                    f_ratio = compute_overlap_ratio(f.start, f.end, g.start, g.end)
+                    if f_ratio >= OVERLAP_THRESHOLD or text_fallback_match(f.text, g.text):
                         metrics.fn_fugas_inducidas += 1
-                        metrics.fn_no_detectado -= 1 # Movemos de no_detectado a fuga
+                        fue_filtrada = True
                         break
-
-        # 2. Calcular FP: Recorrer Predicciones
-        for p in doc_pred:
-            p_hits_gold = False
-            for g in doc_gold:
-                if overlaps(p.start, p.end, g.start, g.end):
-                    p_hits_gold = True
-                    tp_set.add((p.doc_id, p.start, p.end)) 
-                    break
-            
-            if not p_hits_gold:
+                
+                if not fue_filtrada:
+                    metrics.fn_no_detectado += 1
+                
+                if debug and len(debug_fn_examples) < 3:
+                    debug_fn_examples.append({
+                        'doc': doc_id,
+                        'gold': f'"{g.text}" @ [{g.start}-{g.end}]',
+                        'causa': 'fuga_setfit' if fue_filtrada else 'no_detectado'
+                    })
+        
+        # === CALCULAR FP ===
+        for p_idx, p in enumerate(doc_pred):
+            if p_idx not in matched_pred:
                 metrics.fp += 1
-                metrics.fp_basura_restante += 1 
+                metrics.fp_basura_restante += 1
                 fp_set.add((p.doc_id, p.start, p.end))
+                
+                if debug and len(debug_fp_examples) < 5:
+                    debug_fp_examples.append({
+                        'doc': doc_id,
+                        'pred': f'"{p.text}" @ [{p.start}-{p.end}]'
+                    })
     
+    # Calcular métricas derivadas
     metrics.calculate()
+    
+    # Debug output
+    if debug:
+        print(f"\n  [DEBUG] {name}")
+        print(f"    Total Gold: {sum(len(v) for v in gold.values())}")
+        print(f"    Total Predicciones: {len(predicciones)}")
+        print(f"    TP={metrics.tp}, FP={metrics.fp}, FN={metrics.fn}")
+        print(f"    Precision={metrics.precision:.2%}, Recall={metrics.recall:.2%}, F1={metrics.f1:.4f}")
+        
+        if debug_tp_examples:
+            print(f"\n    Ejemplos TP (primeros 3):")
+            for ex in debug_tp_examples:
+                print(f"      Doc: {ex['doc']}")
+                print(f"        Gold: {ex['gold']}")
+                print(f"        Pred: {ex['pred']}")
+                print(f"        Ratio: {ex['ratio']} ({ex['type']})")
+        
+        if debug_fn_examples:
+            print(f"\n    Ejemplos FN (primeros 3):")
+            for ex in debug_fn_examples:
+                print(f"      Doc: {ex['doc']}")
+                print(f"        Gold: {ex['gold']}")
+                print(f"        Causa: {ex['causa']}")
+        
+        if debug_fp_examples:
+            print(f"\n    Ejemplos FP (primeros 5):")
+            for ex in debug_fp_examples:
+                print(f"      Doc: {ex['doc']}")
+                print(f"        Pred: {ex['pred']}")
+    
     return metrics, tp_set, fp_set
 
 
@@ -774,6 +937,8 @@ def main():
                         help='Predicciones SetFit modelo B')
     parser.add_argument('--output-dir', '-o', default='comparison_results',
                         help='Directorio de salida')
+    parser.add_argument('--debug', action='store_true',
+                        help='Mostrar información de debug (ejemplos de TP/FP/FN)')
     
     args = parser.parse_args()
     
@@ -807,7 +972,8 @@ def main():
         candidatos_ensemble=candidatos,
         filtrados=[],
         gold=gold,
-        name="Base (Sin Filtro)"
+        name="Base (Sin Filtro)",
+        debug=args.debug
     )
     print(f"  ✓ Base: P={base_metrics.precision:.2%}, R={base_metrics.recall:.2%}, F1={base_metrics.f1:.4f}")
     
@@ -825,7 +991,8 @@ def main():
         candidatos_ensemble=candidatos,
         filtrados=filtrados_a,
         gold=gold,
-        name="Pipeline A (Base + SetFit A)"
+        name="Pipeline A (Base + SetFit A)",
+        debug=args.debug
     )
     print(f"  ✓ Pipeline A: P={metrics_a.precision:.2%}, R={metrics_a.recall:.2%}, F1={metrics_a.f1:.4f}, Fugas={metrics_a.fn_fugas_inducidas}")
     
@@ -834,7 +1001,8 @@ def main():
         candidatos_ensemble=candidatos,
         filtrados=filtrados_b,
         gold=gold,
-        name="Pipeline B (Base + SetFit B)"
+        name="Pipeline B (Base + SetFit B)",
+        debug=args.debug
     )
     print(f"  ✓ Pipeline B: P={metrics_b.precision:.2%}, R={metrics_b.recall:.2%}, F1={metrics_b.f1:.4f}, Fugas={metrics_b.fn_fugas_inducidas}")
     
