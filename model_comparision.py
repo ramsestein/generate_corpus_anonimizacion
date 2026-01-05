@@ -119,8 +119,8 @@ class DeltaAnalysis:
 GOLD_PATTERN = re.compile(r"\[\*\*(.+?)\*\*\]")
 
 # Umbral de overlap para considerar match (configurable)
-OVERLAP_THRESHOLD = 0.5
-MIN_CHAR_MATCH = 3  # Mínimo de caracteres alfanuméricos para fallback
+# 0.3 = muy permisivo, si hay cualquier solapamiento significativo cuenta como match
+OVERLAP_THRESHOLD = 0.3
 
 
 def normalize(text: str) -> str:
@@ -196,7 +196,8 @@ def load_gold_standard(path: Path) -> Dict[str, List[Entity]]:
             
             for match in GOLD_PATTERN.finditer(text_raw):
                 inner_text = match.group(1)
-                # Offsets en texto RAW del contenido interno
+                # Las detecciones usan offsets del texto RAW, posición del contenido interno
+                # (después de '[**' y antes de '**]')
                 inner_start = match.start() + 3  # Después de '[**'
                 inner_end = match.end() - 3      # Antes de '**]'
                 
@@ -451,10 +452,7 @@ def compute_overlap_ratio(det_start: int, det_end: int, gold_start: int, gold_en
 def text_fallback_match(det_text: str, gold_text: str) -> bool:
     """
     Criterio de fallback: match por texto cuando offsets fallan.
-    
-    Considera match si:
-    - Uno contiene al otro Y comparten al menos MIN_CHAR_MATCH caracteres alfanuméricos seguidos
-    - O si la entidad es muy corta (1-2 chars) y coincide exactamente
+    Muy permisivo: si uno contiene al otro, cuenta como match.
     """
     det_norm = normalize_for_matching(det_text)
     gold_norm = normalize_for_matching(gold_text)
@@ -462,31 +460,8 @@ def text_fallback_match(det_text: str, gold_text: str) -> bool:
     if not det_norm or not gold_norm:
         return False
     
-    # Caso especial: entidades muy cortas
-    if len(gold_norm) <= 2:
-        return det_norm == gold_norm or gold_norm in det_norm or det_norm in gold_norm
-    
-    # Verificar contención
-    if gold_norm not in det_norm and det_norm not in gold_norm:
-        return False
-    
-    # Verificar que comparten al menos MIN_CHAR_MATCH caracteres alfanuméricos seguidos
-    # Extraer secuencias alfanuméricas
-    gold_alphanum = re.findall(r'[a-zA-Z0-9]+', gold_norm)
-    det_alphanum = re.findall(r'[a-zA-Z0-9]+', det_norm)
-    
-    for g_seq in gold_alphanum:
-        if len(g_seq) >= MIN_CHAR_MATCH:
-            for d_seq in det_alphanum:
-                if g_seq in d_seq or d_seq in g_seq:
-                    if len(min(g_seq, d_seq, key=len)) >= MIN_CHAR_MATCH:
-                        return True
-    
-    # Si las secuencias son cortas, verificar coincidencia directa
-    if gold_alphanum and det_alphanum:
-        return any(g == d for g in gold_alphanum for d in det_alphanum if len(g) >= 1)
-    
-    return False
+    # Si uno contiene al otro, es match
+    return gold_norm in det_norm or det_norm in gold_norm
 
 
 def calculate_metrics(
@@ -945,9 +920,20 @@ def main():
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
     
+    # Extraer nombres de los modelos desde los archivos
+    setfit_a_name = Path(args.setfit_a).stem  # Nombre sin extensión
+    setfit_b_name = Path(args.setfit_b).stem
+    
     print("=" * 80)
-    print("MODEL COMPARISON STUDY - SetFit A vs SetFit B")
+    print(f"MODEL COMPARISON STUDY - {setfit_a_name} vs {setfit_b_name}")
     print("=" * 80)
+    
+    # Imprimir archivos usados
+    print("\n📁 ARCHIVOS DE ENTRADA:")
+    print(f"  • Gold Standard:  {args.gold}")
+    print(f"  • Detecciones:    {args.detections}")
+    print(f"  • SetFit 1:       {args.setfit_a}")
+    print(f"  • SetFit 2:       {args.setfit_b}")
     
     # FASE 1: Cargar datos
     print("\n[1/5] Cargando datos...")
@@ -962,7 +948,9 @@ def main():
     print(f"  ✓ Candidatos únicos: {len(candidatos)} (después de deduplicación)")
     
     # Cargar predicciones SetFit (necesitan el ensemble para deducir qué fue filtrado)
+    print(f"\n  Cargando {setfit_a_name}...")
     setfit_a_preds = load_setfit_predictions(Path(args.setfit_a), candidatos)
+    print(f"  Cargando {setfit_b_name}...")
     setfit_b_preds = load_setfit_predictions(Path(args.setfit_b), candidatos)
     
     # FASE 2: Calcular métricas BASE (sin filtro)
@@ -982,8 +970,8 @@ def main():
     sobrevivientes_a, filtrados_a = apply_setfit_filter(candidatos, setfit_a_preds)
     sobrevivientes_b, filtrados_b = apply_setfit_filter(candidatos, setfit_b_preds)
     
-    print(f"  ✓ SetFit A: {len(sobrevivientes_a)} sobreviven, {len(filtrados_a)} filtrados ({len(filtrados_a)/len(candidatos)*100:.1f}%)")
-    print(f"  ✓ SetFit B: {len(sobrevivientes_b)} sobreviven, {len(filtrados_b)} filtrados ({len(filtrados_b)/len(candidatos)*100:.1f}%)")
+    print(f"  ✓ {setfit_a_name}: {len(sobrevivientes_a)} sobreviven, {len(filtrados_a)} filtrados ({len(filtrados_a)/len(candidatos)*100:.1f}%)")
+    print(f"  ✓ {setfit_b_name}: {len(sobrevivientes_b)} sobreviven, {len(filtrados_b)} filtrados ({len(filtrados_b)/len(candidatos)*100:.1f}%)")
     
     # Calcular métricas filtradas
     metrics_a, _, _ = calculate_metrics(
@@ -991,20 +979,20 @@ def main():
         candidatos_ensemble=candidatos,
         filtrados=filtrados_a,
         gold=gold,
-        name="Pipeline A (Base + SetFit A)",
+        name=f"Pipeline ({setfit_a_name})",
         debug=args.debug
     )
-    print(f"  ✓ Pipeline A: P={metrics_a.precision:.2%}, R={metrics_a.recall:.2%}, F1={metrics_a.f1:.4f}, Fugas={metrics_a.fn_fugas_inducidas}")
+    print(f"  ✓ {setfit_a_name}: P={metrics_a.precision:.2%}, R={metrics_a.recall:.2%}, F1={metrics_a.f1:.4f}, Fugas={metrics_a.fn_fugas_inducidas}")
     
     metrics_b, _, _ = calculate_metrics(
         predicciones=sobrevivientes_b,
         candidatos_ensemble=candidatos,
         filtrados=filtrados_b,
         gold=gold,
-        name="Pipeline B (Base + SetFit B)",
+        name=f"Pipeline ({setfit_b_name})",
         debug=args.debug
     )
-    print(f"  ✓ Pipeline B: P={metrics_b.precision:.2%}, R={metrics_b.recall:.2%}, F1={metrics_b.f1:.4f}, Fugas={metrics_b.fn_fugas_inducidas}")
+    print(f"  ✓ {setfit_b_name}: P={metrics_b.precision:.2%}, R={metrics_b.recall:.2%}, F1={metrics_b.f1:.4f}, Fugas={metrics_b.fn_fugas_inducidas}")
     
     # FASE 4: Análisis delta
     print("\n[4/5] Análisis comparativo (delta)...")
@@ -1015,10 +1003,10 @@ def main():
         filtrados_a, filtrados_b,
         gold, tp_set_base, fp_set_base
     )
-    print(f"  ✓ Noise Leakage (A filtró/B no): {len(delta.noise_a_filtered_b_kept)}")
-    print(f"  ✓ Noise Leakage (B filtró/A no): {len(delta.noise_b_filtered_a_kept)}")
-    print(f"  ✓ Over-Cleaning A: {len(delta.pii_a_killed)}")
-    print(f"  ✓ Over-Cleaning B: {len(delta.pii_b_killed)}")
+    print(f"  ✓ Noise Leakage ({setfit_a_name} filtró/{setfit_b_name} no): {len(delta.noise_a_filtered_b_kept)}")
+    print(f"  ✓ Noise Leakage ({setfit_b_name} filtró/{setfit_a_name} no): {len(delta.noise_b_filtered_a_kept)}")
+    print(f"  ✓ Over-Cleaning {setfit_a_name}: {len(delta.pii_a_killed)}")
+    print(f"  ✓ Over-Cleaning {setfit_b_name}: {len(delta.pii_b_killed)}")
     
     # FASE 5: Generar reportes
     print("\n[5/5] Generando reportes...")

@@ -1,0 +1,4 @@
+Configuración,Entidades Totales,TP,FP,FN,Precision,Recall,F1-Score,FP Basura Restante,FN Fugas Inducidas,FN No Detectado,Entidades Filtradas,Tasa Filtrado %
+Base (Sin Filtro),97467,67821,29646,20809,69.58%,76.52%,0.7289,29646,0,20809,0,0.0%
+Pipeline (aws2-results),27,21,6,88609,77.78%,0.02%,0.0005,6,71125,17484,97440,100.0%
+Pipeline (resultados_recall_v2-LLM),84538,63709,20829,24921,75.36%,71.88%,0.7358,20829,6400,18521,12929,13.3%

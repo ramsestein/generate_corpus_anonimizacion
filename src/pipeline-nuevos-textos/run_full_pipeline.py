@@ -134,7 +134,7 @@ def load_documents(base_path: Path, valid_ids: Optional[set] = None, custom_docs
         # base_path / "corpus" / "documents",
        # base_path / "corpus" / "ANTIGUO" / "documents", 
        # base_path / "documents",
-        base_path / "corpus" / "output" / "aws3",
+        base_path / "corpus" / "output" / "aws2",
     ])
     
     for docs_dir in possible_dirs:
