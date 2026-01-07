@@ -196,16 +196,16 @@ def load_gold_standard(path: Path) -> Dict[str, List[Entity]]:
             
             for match in GOLD_PATTERN.finditer(text_raw):
                 inner_text = match.group(1)
-                # Las detecciones usan offsets del texto RAW, posición del contenido interno
-                # (después de '[**' y antes de '**]')
-                inner_start = match.start() + 3  # Después de '[**'
-                inner_end = match.end() - 3      # Antes de '**]'
+                # Usar coordenadas del MATCH COMPLETO (incluyendo [**...**])
+                # porque el pipeline genera coordenadas que incluyen los marcadores
+                full_start = match.start()  # Inicio de '[**'
+                full_end = match.end()      # Fin de '**]'
                 
                 result[doc_id].append(Entity(
                     doc_id=doc_id,
                     text=inner_text,
-                    start=inner_start,
-                    end=inner_end,
+                    start=full_start,
+                    end=full_end,
                     source='gold'
                 ))
     
@@ -300,7 +300,7 @@ def deduplicate_entities(entities: List[Entity]) -> List[Entity]:
 
 def load_setfit_predictions(path: Path, candidatos_ensemble: List[Entity]) -> Dict[Tuple[str, str], int]:
     """
-    Carga predicciones SetFit.
+    Carga predicciones SetFit usando TEXTO NORMALIZADO para matching.
     
     LÓGICA: Lee el label/classification de cada entidad en el JSON:
     - label=1 o classification="PII" -> label=1 (PII, mantener)
@@ -308,7 +308,7 @@ def load_setfit_predictions(path: Path, candidatos_ensemble: List[Entity]) -> Di
     - Si la entidad NO aparece en el JSON -> label=0 (asumimos filtrada)
     
     Returns:
-        {(doc_id, normalized_text): label}
+        {(doc_id, texto_normalizado): label}
         donde label = 1 (PII, mantener) o 0 (RUIDO, eliminar)
     """
     if not path.exists():
@@ -322,7 +322,7 @@ def load_setfit_predictions(path: Path, candidatos_ensemble: List[Entity]) -> Di
     
     # Primero, marcar TODAS las entidades del ensemble como RUIDO (label=0)
     for entity in candidatos_ensemble:
-        key = entity.norm_key()
+        key = entity.norm_key()  # Usar texto normalizado (doc_id, texto)
         result[key] = 0  # Asumimos que fue filtrado
     
     # Procesar predicciones del JSON
@@ -345,7 +345,7 @@ def load_setfit_predictions(path: Path, candidatos_ensemble: List[Entity]) -> Di
         
         norm_text = normalize(text)
         key = (doc_id, norm_text)
-        seen_in_json.add(key)  # Marcar como vista
+        seen_in_json.add(key)
         
         # Leer el label/classification del item
         # Soporta varios formatos: label, classification, setfit_label
@@ -389,11 +389,157 @@ def load_setfit_predictions(path: Path, candidatos_ensemble: List[Entity]) -> Di
     # Contar eficientemente cuántas del ensemble NO aparecieron en el JSON
     not_in_json = sum(1 for k, v in result.items() if v == 0 and k not in seen_in_json)
     
-    print(f"    → SetFit en JSON: {pii_count} PII, {ruido_count} RUIDO")
+    print(f"    -> SetFit en JSON: {pii_count} PII, {ruido_count} RUIDO")
     total_ruido = sum(1 for v in result.values() if v == 0)
-    print(f"    → Total clasificado como RUIDO: {total_ruido} (incluye {not_in_json} no presentes en JSON)")
+    print(f"    -> Total clasificado como RUIDO: {total_ruido} (incluye {not_in_json} no presentes en JSON)")
     
     return result
+
+
+def load_pipeline_entities(path: Path) -> Tuple[List[Entity], List[Entity]]:
+    """
+    Carga entidades directamente del JSON del pipeline.
+    Alternativa a load_setfit_predictions + apply_setfit_filter que evita
+    problemas de matching de coordenadas.
+    
+    Returns:
+        (sobrevivientes_pii, filtrados_ruido)
+    """
+    if not path.exists():
+        print(f"[ERROR] Archivo no encontrado: {path}")
+        return [], []
+    
+    with open(path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    
+    items = []
+    if isinstance(data, dict) and 'decisions' in data:
+        items = data['decisions']
+    elif isinstance(data, list):
+        items = data
+    
+    sobrevivientes = []
+    filtrados = []
+    
+    for item in items:
+        doc_id = norm_doc_id(item.get('document_id', item.get('doc_id', '')))
+        text = clean_entity(item.get('entity_text', item.get('text', '')))
+        start = item.get('start', -1)
+        end = item.get('end', -1)
+        
+        if not doc_id or start < 0:
+            continue
+        
+        entity = Entity(doc_id, text, start, end, 'pipeline')
+        
+        # Clasificación
+        classification = str(item.get('classification', '')).upper()
+        if classification == 'PII' or item.get('is_pii', False):
+            sobrevivientes.append(entity)
+        else:
+            filtrados.append(entity)
+    
+    return sobrevivientes, filtrados
+
+
+def apply_setfit_filter_sequential(
+    candidatos: List[Entity],
+    pipeline_path: Path
+) -> Tuple[List[Entity], List[Entity]]:
+    """
+    Aplica filtro usando MATCHING SECUENCIAL por coordenadas.
+    
+    LÓGICA:
+    - Las entidades están ORDENADAS por (doc_id, start)
+    - El pipeline hace token healing (fusiona entidades consecutivas)
+    - Hacemos matching secuencial con overlap de coordenadas
+    
+    Returns:
+        (sobrevivientes, filtrados)
+    """
+    if not pipeline_path.exists():
+        print(f"[ERROR] Archivo pipeline no encontrado: {pipeline_path}")
+        return candidatos, []
+    
+    # Cargar entidades del pipeline
+    with open(pipeline_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    
+    items = []
+    if isinstance(data, dict) and 'decisions' in data:
+        items = data['decisions']
+    elif isinstance(data, list):
+        items = data
+    
+    # Crear entidades del pipeline y agrupar por doc
+    pipeline_by_doc = defaultdict(list)
+    pii_count = 0
+    ruido_count = 0
+    
+    for item in items:
+        doc_id = norm_doc_id(item.get('document_id', item.get('doc_id', '')))
+        start = item.get('start', -1)
+        end = item.get('end', -1)
+        classification = str(item.get('classification', '')).upper()
+        is_pii = classification == 'PII' or item.get('is_pii', False)
+        
+        if not doc_id or start < 0:
+            continue
+        
+        pipeline_by_doc[doc_id].append({
+            'start': start,
+            'end': end,
+            'is_pii': is_pii
+        })
+        
+        if is_pii:
+            pii_count += 1
+        else:
+            ruido_count += 1
+    
+    print(f"    -> Pipeline: {pii_count} PII, {ruido_count} RUIDO")
+    
+    # Ordenar pipeline entities por start
+    for doc_id in pipeline_by_doc:
+        pipeline_by_doc[doc_id].sort(key=lambda x: x['start'])
+    
+    # Agrupar candidatos por doc y ordenar
+    candidatos_by_doc = defaultdict(list)
+    for entity in candidatos:
+        candidatos_by_doc[entity.doc_id].append(entity)
+    
+    for doc_id in candidatos_by_doc:
+        candidatos_by_doc[doc_id].sort(key=lambda x: x.start)
+    
+    sobrevivientes = []
+    filtrados = []
+    
+    # Para cada documento, hacer matching secuencial
+    all_docs = set(candidatos_by_doc.keys())
+    
+    for doc_id in all_docs:
+        doc_candidatos = candidatos_by_doc.get(doc_id, [])
+        doc_pipeline = pipeline_by_doc.get(doc_id, [])
+        
+        # Matching con overlap
+        for cand in doc_candidatos:
+            # Buscar si hay overlap con alguna entidad PII del pipeline
+            found_pii = False
+            
+            for pipe_ent in doc_pipeline:
+                # Calcular overlap
+                overlap = max(0, min(cand.end, pipe_ent['end']) - max(cand.start, pipe_ent['start']))
+                
+                if overlap > 0 and pipe_ent['is_pii']:
+                    found_pii = True
+                    break
+            
+            if found_pii:
+                sobrevivientes.append(cand)
+            else:
+                filtrados.append(cand)
+    
+    return sobrevivientes, filtrados
 
 
 # =============================================================================
@@ -418,7 +564,7 @@ def apply_setfit_filter(
     filtrados = []
     
     for entity in candidatos:
-        key = entity.norm_key()
+        key = entity.norm_key()  # Usar texto normalizado (doc_id, texto)
         label = setfit_preds.get(key, 1)  # Default: conservador (mantener)
         
         if label == 1:
@@ -914,6 +1060,10 @@ def main():
                         help='Directorio de salida')
     parser.add_argument('--debug', action='store_true',
                         help='Mostrar información de debug (ejemplos de TP/FP/FN)')
+    parser.add_argument('--limit', '-l', type=int, default=None,
+                        help='Limitar a N documentos (para testing rapido)')
+    parser.add_argument('--docs-file', type=str, default=None,
+                        help='Archivo con lista de document IDs a usar (uno por linea)')
     
     args = parser.parse_args()
     
@@ -945,13 +1095,31 @@ def main():
     
     # Deduplicar por coordenadas (por si hay duplicados)
     candidatos = deduplicate_entities(all_detections)
-    print(f"  ✓ Candidatos únicos: {len(candidatos)} (después de deduplicación)")
+    print(f"  - Candidatos unicos: {len(candidatos)} (despues de deduplicacion)")
     
-    # Cargar predicciones SetFit (necesitan el ensemble para deducir qué fue filtrado)
-    print(f"\n  Cargando {setfit_a_name}...")
-    setfit_a_preds = load_setfit_predictions(Path(args.setfit_a), candidatos)
-    print(f"  Cargando {setfit_b_name}...")
-    setfit_b_preds = load_setfit_predictions(Path(args.setfit_b), candidatos)
+    # Aplicar limite de documentos si se especifica
+    selected_docs = None
+    if args.docs_file:
+        with open(args.docs_file, 'r', encoding='utf-8') as f:
+            selected_docs = set(line.strip() for line in f if line.strip())
+        print(f"  - Cargados {len(selected_docs)} doc IDs desde {args.docs_file}")
+    elif args.limit:
+        all_doc_ids = sorted(set(e.doc_id for e in candidatos))
+        selected_docs = set(all_doc_ids[:args.limit])
+        print(f"  - Limitado a {args.limit} documentos")
+    
+    if selected_docs:
+        original_count = len(candidatos)
+        candidatos = [e for e in candidatos if e.doc_id in selected_docs]
+        gold = {k: v for k, v in gold.items() if k in selected_docs}
+        print(f"  - Filtrado: {original_count} -> {len(candidatos)} candidatos, {len(gold)} docs gold")
+    
+    # Usar MATCHING SECUENCIAL por coordenadas (token healing aware)
+    print(f"\n  Aplicando filtros con matching secuencial...")
+    print(f"  Procesando {setfit_a_name}...")
+    sobrevivientes_a, filtrados_a = apply_setfit_filter_sequential(candidatos, Path(args.setfit_a))
+    print(f"  Procesando {setfit_b_name}...")
+    sobrevivientes_b, filtrados_b = apply_setfit_filter_sequential(candidatos, Path(args.setfit_b))
     
     # FASE 2: Calcular métricas BASE (sin filtro)
     print("\n[2/5] Calculando métricas BASE (Ensemble sin filtrar)...")
@@ -964,11 +1132,6 @@ def main():
         debug=args.debug
     )
     print(f"  ✓ Base: P={base_metrics.precision:.2%}, R={base_metrics.recall:.2%}, F1={base_metrics.f1:.4f}")
-    
-    # FASE 3: Aplicar filtros SetFit
-    print("\n[3/5] Aplicando filtros SetFit...")
-    sobrevivientes_a, filtrados_a = apply_setfit_filter(candidatos, setfit_a_preds)
-    sobrevivientes_b, filtrados_b = apply_setfit_filter(candidatos, setfit_b_preds)
     
     print(f"  ✓ {setfit_a_name}: {len(sobrevivientes_a)} sobreviven, {len(filtrados_a)} filtrados ({len(filtrados_a)/len(candidatos)*100:.1f}%)")
     print(f"  ✓ {setfit_b_name}: {len(sobrevivientes_b)} sobreviven, {len(filtrados_b)} filtrados ({len(filtrados_b)/len(candidatos)*100:.1f}%)")

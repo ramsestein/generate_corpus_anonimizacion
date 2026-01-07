@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-01-07T15:40:05.644767",
+  "base": {
+    "name": "Base (Sin Filtro)",
+    "total_entities": 5240,
+    "tp": 3182,
+    "fp": 2058,
+    "fn": 614,
+    "precision": 0.6072519083969465,
+    "recall": 0.8382507903055848,
+    "f1": 0.7042939353696326,
+    "fp_basura_restante": 2058,
+    "fn_fugas_inducidas": 0,
+    "fn_no_detectado": 614,
+    "entidades_filtradas": 0,
+    "tasa_filtrado_pct": 0.0
+  },
+  "pipeline_a": {
+    "name": "Pipeline (test50docs)",
+    "total_entities": 4789,
+    "tp": 3055,
+    "fp": 1734,
+    "fn": 741,
+    "precision": 0.6379202338692838,
+    "recall": 0.8047945205479452,
+    "f1": 0.7117064647641235,
+    "fp_basura_restante": 1734,
+    "fn_fugas_inducidas": 153,
+    "fn_no_detectado": 588,
+    "entidades_filtradas": 451,
+    "tasa_filtrado_pct": 8.606870229007633
+  },
+  "pipeline_b": {
+    "name": "Pipeline (test50docs)",
+    "total_entities": 4789,
+    "tp": 3055,
+    "fp": 1734,
+    "fn": 741,
+    "precision": 0.6379202338692838,
+    "recall": 0.8047945205479452,
+    "f1": 0.7117064647641235,
+    "fp_basura_restante": 1734,
+    "fn_fugas_inducidas": 153,
+    "fn_no_detectado": 588,
+    "entidades_filtradas": 451,
+    "tasa_filtrado_pct": 8.606870229007633
+  },
+  "delta": {
+    "winner_precision": "Pipeline (test50docs)",
+    "winner_recall": "Pipeline (test50docs)",
+    "winner_f1": "Pipeline (test50docs)",
+    "noise_leakage": {
+      "a_filtered_b_kept": 0,
+      "b_filtered_a_kept": 0
+    },
+    "over_cleaning": {
+      "a_killed_pii": 20,
+      "b_killed_pii": 20
+    }
+  }
+}

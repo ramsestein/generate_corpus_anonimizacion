@@ -1,80 +1,80 @@
 # Análisis Delta - Comparativa de Modelos SetFit
 
-**Generado:** 2026-01-05 15:22:08
+**Generado:** 2026-01-07 15:47:54
 
 ## 🏆 Ganadores por Métrica
 
 - **Precision (Limpieza):** Pipeline (aws2-gatekeeper_improved-llm-mejora-prompts)
 - **Recall (Seguridad):** Pipeline (aws2-results)
-- **F1-Score (Balance):** Pipeline (aws2-results)
+- **F1-Score (Balance):** Pipeline (aws2-gatekeeper_improved-llm-mejora-prompts)
 
 ## 🚨 Noise Leakage (Basura que un modelo filtró pero el otro no)
-
-### Pipeline (aws2-results) filtró, Pipeline (aws2-gatekeeper_improved-llm-mejora-prompts) dejó pasar
-**Total:** 20 ejemplos
-
-| # | Entidad | Documento |
-|---|---------|----------|
-| 1 | `03` | NHC250724_episodio1008223893 |
-| 2 | `19` | NHC5561592_episodio1008341537 |
-| 3 | `03.2023` | NHC4162126_episodio1008375781 |
-| 4 | `03` | NHC5561168_episodio1008250782 |
-| 5 | `16/9` | NHC5578949_episodio1008584837 |
-| 6 | `hijo` | NHC4041443_episodio1008253585 |
-| 7 | `2015` | NHC5565605_episodio1008281918 |
-| 8 | `16.03.` | NHC5569164_episodio1008302960 |
-| 9 | `ab` | NHC5561353_episodio1008248653 |
-| 10 | `03` | NHC5564303_episodio1008468132 |
 
 ### Pipeline (aws2-gatekeeper_improved-llm-mejora-prompts) filtró, Pipeline (aws2-results) dejó pasar
 **Total:** 20 ejemplos
 
 | # | Entidad | Documento |
 |---|---------|----------|
-| 1 | `21/07` | NHC4119863_episodio1008370215 |
-| 2 | `16.03.2024` | NHC5568746_episodio1008303673 |
-| 3 | `1995` | NHC386317_episodio1008771994 |
-| 4 | `familia` | NHC371252_episodio1008640620 |
-| 5 | `17/03/20` | NHC11308_episodio1008291758 |
-| 6 | `18.03.20` | NHC5566744_episodio1008293508 |
-| 7 | `18/03` | NHC386335_episodio1008794387 |
-| 8 | `17/03/` | NHC189823_episodio1008736790 |
-| 9 | `15.09.20` | NHC143452_episodio1008557860 |
-| 10 | `26.09.20` | NHC5575218_episodio1008612225 |
+| 1 | `16` | NHC125128_episodio1008459847 |
+| 2 | `enero 2024` | NHC309873_episodio1008408200 |
+| 3 | `ptiembre de 2019` | NHC5565575_episodio1008368519 |
+| 4 | `I 016` | NHC5563489_episodio1008373353 |
+| 5 | `847392` | NHC306498_episodio1008622432 |
+| 6 | `16 /3` | NHC4197365_episodio1008260806 |
+| 7 | `054` | NHC182893_episodio1008774422 |
+| 8 | `familia` | NHC295309_episodio1008536044 |
+| 9 | `j` | NHC5583962_episodio1008612234 |
+| 10 | `familia` | NHC5577613_episodio1008358619 |
 
-## ❌ Over-Cleaning (PII real que fue matado por error)
-
-### Pipeline (aws2-results) - PII Real Eliminado (CRÍTICO)
-**Total Fugas:** 20
+### Pipeline (aws2-results) filtró, Pipeline (aws2-gatekeeper_improved-llm-mejora-prompts) dejó pasar
+**Total:** 20 ejemplos
 
 | # | Entidad | Documento |
 |---|---------|----------|
-| 1 | `4` | NHC5580066_episodio1008371852 |
-| 2 | `Es` | NHC154130_episodio1008745098 |
-| 3 | `15/8/24` | NHC5577278_episodio1008356097 |
-| 4 | `4` | NHC4084564_episodio1008735773 |
-| 5 | `18/3` | NHC5579677_episodio1008427136 |
-| 6 | `05` | NHC5561050_episodio1008327201 |
-| 7 | `i` | NHC4021540_episodio1008240732 |
-| 8 | `15/6/24` | NHC4055482_episodio1008411865 |
-| 9 | `Hermana` | NHC5561300_episodio1008248601 |
-| 10 | `her` | NHC331022_episodio1008368677 |
+| 1 | `47` | NHC4183400_episodio1008301720 |
+| 2 | `/10` | NHC5563653_episodio1008302257 |
+| 3 | `ALES` | NHC4125532_episodio1008251547 |
+| 4 | `familia` | NHC5578265_episodio1008360809 |
+| 5 | `20 ABRIL` | NHC5576168_episodio1008347043 |
+| 6 | `ig` | NHC324116_episodio1008757038 |
+| 7 | `5.LO` | NHC4144991_episodio1008398760 |
+| 8 | `lune` | NHC5574670_episodio1008336736 |
+| 9 | `án` | NHC5577659_episodio1008712090 |
+| 10 | `01` | NHC5562205_episodio1008254480 |
+
+## ❌ Over-Cleaning (PII real que fue matado por error)
 
 ### Pipeline (aws2-gatekeeper_improved-llm-mejora-prompts) - PII Real Eliminado (CRÍTICO)
 **Total Fugas:** 20
 
 | # | Entidad | Documento |
 |---|---------|----------|
-| 1 | `20.03.2024` | NHC5567557_episodio1008295167 |
-| 2 | `2015` | NHC242992_episodio1008405953 |
-| 3 | `2018` | NHC252742_episodio1008316525 |
-| 4 | `22/07` | NHC311119_episodio1008376010 |
-| 5 | `21.03.2024` | NHC5564794_episodio1008551546 |
-| 6 | `17.07.2024` | NHC5578027_episodio1008380566 |
-| 7 | `17.09.2024` | NHC4149674_episodio1008620731 |
-| 8 | `2019` | NHC5577515_episodio1008362064 |
-| 9 | `16/03` | NHC5570219_episodio1008310560 |
-| 10 | `19.04.2024` | NHC5575304_episodio1008341118 |
+| 1 | `20/03` | NHC5559361_episodio1008237065 |
+| 2 | `18.03.2024` | NHC5559321_episodio1008266948 |
+| 3 | `17/03/24` | NHC4136987_episodio1008532772 |
+| 4 | `2019` | NHC5569402_episodio1008308163 |
+| 5 | `22.07.2024` | NHC107102_episodio1008411916 |
+| 6 | `16/03/24` | NHC133628_episodio1008732802 |
+| 7 | `I087` | NHC413251_episodio1008514330 |
+| 8 | `/10` | NHC5568189_episodio1008607094 |
+| 9 | `15.03.2024` | NHC171137_episodio1008233563 |
+| 10 | `febrero` | NHC388606_episodio1008648115 |
+
+### Pipeline (aws2-results) - PII Real Eliminado (CRÍTICO)
+**Total Fugas:** 20
+
+| # | Entidad | Documento |
+|---|---------|----------|
+| 1 | `Soltero` | NHC163212_episodio1008555010 |
+| 2 | `a` | NHC277930_episodio1008328293 |
+| 3 | `f` | NHC5560451_episodio1008251049 |
+| 4 | `20` | NHC179468_episodio1008390837 |
+| 5 | `34` | NHC5583043_episodio1008622618 |
+| 6 | `C` | NHC4043534_episodio1008264830 |
+| 7 | `clínica` | NHC107102_episodio1008411058 |
+| 8 | `amiliar` | NHC5570876_episodio1008313771 |
+| 9 | `22` | NHC5573682_episodio1008329424 |
+| 10 | `.` | NHC237633_episodio1008272606 |
 
 ## 📊 Recomendación
 

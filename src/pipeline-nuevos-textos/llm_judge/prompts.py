@@ -92,10 +92,10 @@ Contexto: "{context}"
     },
     
     "strict_v3": {
-        "name": "Validador Estricto V3 - Precision First",
-        "version": "3.0",
-        "description": "Juez LLM de alta precision con criterios de evidencia explicitos. Prioriza reducir FP.",
-        "system": """ERES UN VALIDADOR ESTRICTO DE ENTIDADES PII EN DOCUMENTOS CLINICOS.
+        "name": "Validador Estricto V3 - Recall Optimizado",
+        "version": "3.1",
+        "description": "Juez LLM optimizado para reducir FN. En caso de duda, marca como PII.",
+        "system": """ERES UN VALIDADOR DE ENTIDADES PII EN DOCUMENTOS CLINICOS.
 
 ETIQUETA: {label}
 
@@ -103,22 +103,23 @@ REGLAS OFICIALES:
 {rules}
 
 CRITERIOS DE VALIDACION:
-✓ TRUE si:
+TRUE si:
 {evidence_signals}
 
-✗ FALSE si:
-- Palabra generica sin contexto identificativo
-- Termino clinico o medico comun
-- Plural o referencia generica
-- Fragmento incompleto o ambiguo
-- Numero aislado sin patron
-- Ambiguedad o duda
+FALSE solo si:
+- Palabras genericas SIEMPRE FALSE: "paciente", "usuario", "enfermo", "hospital" (sin nombre propio)
+- Termino medico o clinico comun sin valor identificativo
+- Numero completamente aislado sin ningun patron ni contexto
+- Referencias temporales vagas: "ayer", "hace X dias/meses"
+
+REGLA DE ORO: Si hay DUDA sobre algo que NO esta en la lista de FALSE, responde TRUE.
+Es preferible anonimizar de mas que dejar escapar PII real.
 
 CASO A EVALUAR:
 Keyword: "{keyword}"
 Contexto: "{context}"
 
-Analiza SOLO con la informacion del contexto. NO inferir ni asumir datos no presentes.
+Analiza con la informacion del contexto. En caso de duda, responde TRUE.
 Responde EXCLUSIVAMENTE: TRUE o FALSE.""",
         "user": 'Responde SOLO: TRUE o FALSE.',
     },
@@ -134,6 +135,8 @@ EVIDENCE_SIGNALS = {
     "NOMBRE_SUJETO_ASISTENCIA": """- Nombre propio en mayusculas con estructura de nombre personal
 - Precedido de titulo (D., Dona, Sr., Sra.) o posesivo
 - Contexto de identificacion del paciente
+- En datos de contacto familiar: "[**Carlos**] ([**hermano**])" - SI es PII
+- Nombres de familiares en formularios de contacto - SI es PII
 - NO: palabras genericas como "paciente", "usuario", "enfermo"
 - NO: pronombres o referencias anonimas""",
 
@@ -144,11 +147,14 @@ EVIDENCE_SIGNALS = {
 - NO: roles genericos sin nombre ("el medico", "la enfermera")
 - NO: especialidades sin nombre propio""",
 
-    "FAMILIARES_SUJETO_ASISTENCIA": """- Referencia a familiar del paciente, con o sin posesivo
-- Relaciones familiares: madre, padre, hermano/a, hijo/a, esposo/a, abuelo/a, tio/a
-- Estructura: posesivo + relacion ("su madre") O relacion en contexto de contacto/acompanante
-- Nombres propios de familiares
-- Terminos como "hermana", "madre", "hermano" en contexto de acompanante o contacto: SI es PII
+    "FAMILIARES_SUJETO_ASISTENCIA": """- Relaciones familiares: madre, padre, hermano/a, hijo/a, esposo/a, marido, mujer, abuelo/a, tio/a
+- Con o sin posesivo: "su madre", "la hermana", "hermano" - SI es PII
+- Formato formulario: "([**relacion**])" o "nombre ([**relacion**])" - SI es PII
+- En datos de contacto: "[**654789123**] ([**hermana**])" - SI es PII
+- Relacion + nombre: "[**hermana Carmen**]", "[**hijo Carlos**]" - SI es PII
+- En contexto de acompañante: "deambula con su esposa" - SI es PII
+- En contexto de informar: "informo a la familia (esposa)" - SI es PII
+- Terminos fill, marit, mare, pare (catalan) - SI es PII
 - NO: "antecedentes familiares" como seccion de formulario
 - NO: "la familia" como grupo generico sin identificar individuos""",
 
@@ -201,10 +207,13 @@ EVIDENCE_SIGNALS = {
 - NO: numeros aislados sin contexto de seguro""",
 
     "NUMERO_IDENTIF": """- Cualquier codigo o numero de identificacion
-- Codigos medicos alfanumericos: H025, H042, E041, J201, G033 (codigos de habitacion, cama, servicio)
+- Codigos medicos alfanumericos: H025, H042, E041, J201, G033
+- Codigos de ubicacion hospitalaria: G045, I105, 28B - SI es PII
+- Formato letra+numeros en contexto de traslado/cama/habitacion - SI es PII
 - Con referencia explicita o implicita a su tipo
 - Patrones tipo letra+numeros en contexto clinico: SI es PII
-- NO: numeros completamente aislados sin patron alfanumerico""",
+- NO: numeros completamente aislados sin patron alfanumerico
+- NO: codigos CIE-10 de diagnostico (ej: I25.1)""",
 
     "ID_CONTACTO_ASISTENCIAL": """- Numero de episodio o contacto asistencial
 - Precedido de referencia (NHC, episodio, ingreso, HC)
@@ -233,13 +242,16 @@ EVIDENCE_SIGNALS = {
 - NO: palabras genericas ("pagina web", "sitio")""",
 
     # Fechas y edad
-    "FECHAS": """- Formato de fecha explicito (DD/MM/AAAA, DD.MM.AAAA, DD/M, D.M.AA)
-- Expresion temporal clinica (fecha de nacimiento, ingreso, alta, cirugia, consulta)
-- Fecha completa O parcial (16/3, 15.03, 2020) en contexto de documento clinico
-- Anos aislados (2019, 2020, 2021, 2022) en contexto de historial o antecedentes: SI es PII
-- Dia/mes sin ano (16/3, 15/11, 17.03) en contexto de evolucion clinica: SI es PII
-- NO: referencias temporales genericas sin patron de fecha ("hace 2 meses", "ayer")
-- NO: horas aisladas sin fecha (14:30, 8h)""",
+    "FECHAS": """- Formato de fecha explicito: DD/MM/AAAA, DD.MM.AAAA, DD/M, D.M.AA
+- Formatos europeos con puntos: 15.3.19, 20.8.20, 12.03.2024 - SI es PII
+- Formato abreviado: DD/MM, MM/AA, mes/año (marzo/24, 22/09/24)
+- Meses textuales con año: "septiembre 2020", "agosto 2023" - SI es PII
+- Anos aislados en contexto de historial: 2019, 2020, 2021 - SI es PII
+- Patron "Fecha: [**...**]" en notas clinicas - SIEMPRE es PII
+- Dias de semana en contexto de cita: "miercoles", "martes 19/03" - SI es PII
+- Horas programadas en contexto de evento: "a las 10h", "14h" - SI es PII
+- NO: referencias temporales vagas ("hace 2 meses", "ayer")
+- NO: horas de constantes vitales sin contexto de programacion""",
 
     "EDAD_SUJETO_ASISTENCIA": """- Edad del paciente explicita
 - Estructura: numero + anos/meses/semanas (45 anos, 3 meses, 68a, 72a)
@@ -250,11 +262,13 @@ EVIDENCE_SIGNALS = {
 - NO: rangos de edad de protocolos ("mayores de 65")""",
 
     # Otros
-    "SEXO_SUJETO_ASISTENCIA": """- Sexo del paciente explicito
-- Terminos: varon, mujer, hombre, femenino, masculino
-- Contexto de descripcion del paciente
+    "SEXO_SUJETO_ASISTENCIA": """- Terminos: varon, mujer, hombre, femenino, masculino, Mujer, Hombre
+- Patron demografico inicial: "[**Mujer/Hombre**] de [**X años**]" - SIEMPRE es PII
+- Al inicio de nota clinica describiendo al paciente - SIEMPRE es PII
+- Cualquier uso seguido de edad: "mujer de 28 años", "varon de 65a" - SI es PII
+- En contexto de descripcion del paciente - SI es PII
 - NO: pronombres (el, ella)
-- NO: terminos en contexto no identificativo""",
+- NO: uso puramente gramatical sin descripcion del paciente""",
 
     "PROFESION": """- Profesion u ocupacion del paciente
 - Precedido de "trabaja como", "profesion:", "oficio"
@@ -265,14 +279,25 @@ EVIDENCE_SIGNALS = {
 - Circunstancias raras o unicas
 - Caracteristicas fisicas distintivas
 - Relaciones especiales o publicidad
-- NO: datos demograficos comunes
-- NO: informacion clinica estandar""",
+- Patron "X años" o "Xa" donde X es numero: SI es PII (edad)
+- Meses textuales con año: "septiembre 2020", "marzo 2024": SI es PII (fecha)
+- Habitos personales: exfumador, fumador, bebedor: SI es PII
+- Palabras en mayusculas que parecen nombres propios en contexto personal
+- NO: datos demograficos sin contexto identificativo
+- NO: informacion clinica estandar sin valor personal""",
 }
 
-# Señal por defecto para etiquetas no mapeadas
-DEFAULT_EVIDENCE_SIGNAL = """- La keyword debe cumplir claramente la definicion de la etiqueta
-- El contexto debe demostrar inequivocamente que es PII
-- NO: palabras genericas o fragmentos ambiguos"""
+DEFAULT_EVIDENCE_SIGNAL = """- La keyword encaja en algun patron de PII conocido:
+  * Fechas: DD/MM/AA, DD.MM.AAAA, meses con año
+  * Edades: numero + años, numero + "a" (68a, 72a)
+  * Nombres propios en mayusculas
+  * Relaciones familiares: hermano, madre, esposa, hijo
+  * Telefonos: 9 digitos consecutivos
+  * Codigos alfanumericos: letra + numeros (G045, I105)
+  * Sexo/genero seguido de edad: "Mujer de 65 años"
+- El contexto sugiere que identifica a una persona
+- En caso de duda, considerar PII (TRUE)
+- NO: palabras claramente genericas sin valor identificativo"""
 
 
 class PromptBuilder:

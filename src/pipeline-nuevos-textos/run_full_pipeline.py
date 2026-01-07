@@ -63,7 +63,7 @@ from utils.token_healing import fix_entity_boundaries, batch_fix_entity_boundari
 DEFAULT_CONFIG = {
     # SetFit - CONFIGURACIÓN SIMPLIFICADA
     "setfit": {
-        "model_path": str(SCRIPT_DIR.parent.parent / "models" / "gatekeeper_setfit"),
+        "model_path": str(SCRIPT_DIR.parent.parent / "models" / "gatekeeper_setfit_improved"),
         "confidence_threshold": 0.75,  # Subido para mejorar precisión
         "enable_pii_detector": False,  # SetFit clasifica todo
         "enable_low_confidence_filter": True,  # Filtrar baja confianza
@@ -730,6 +730,13 @@ Ejemplos:
         help='Directorio personalizado para buscar los documentos .txt'
     )
     
+    parser.add_argument(
+        '--limit', '-l',
+        type=int,
+        default=None,
+        help='Limitar el numero de documentos a procesar (para testing rapido)'
+    )
+    
     return parser.parse_args()
 
 
@@ -814,6 +821,19 @@ def main():
         logger.info(f"Cargando entidades desde {input_path}")
         entities = load_entities(input_path)
         logger.info(f"Cargadas {len(entities)} entidades")
+        
+        # Aplicar limite de documentos si se especifica
+        if args.limit:
+            doc_ids = sorted(set(e.get('document_id', '') for e in entities))
+            selected_docs = set(doc_ids[:args.limit])
+            original_count = len(entities)
+            entities = [e for e in entities if e.get('document_id', '') in selected_docs]
+            logger.info(f"Limitado a {args.limit} documentos: {original_count} -> {len(entities)} entidades")
+            # Guardar lista de documentos seleccionados para model_comparison
+            docs_file = Path(args.output).parent / "selected_docs.txt"
+            with open(docs_file, 'w', encoding='utf-8') as f:
+                f.write('\n'.join(selected_docs))
+            logger.info(f"Lista de documentos guardada en: {docs_file}")
         
         # Ejecutar pipeline
         pipeline = FullPipeline(config)

@@ -1,0 +1,64 @@
+{
+  "total_tested": 64,
+  "pass": 53,
+  "fail": 11,
+  "error": 0,
+  "pass_rate": 82.8125,
+  "failures": [
+    {
+      "category": "OTROS",
+      "text": "634567891",
+      "context": "paciente lleva pulsera identificativa?: Sí\n\nDatos persona contacto (nombre, teléfono y parentesco):\n"
+    },
+    {
+      "category": "OTROS",
+      "text": "cardióloga",
+      "context": " pautados 200mg para el día de hoy pero el paciente refiere que se trata de una pauta antigua de su "
+    },
+    {
+      "category": "NOMBRES_PROPIOS",
+      "text": "Exfumador",
+      "context": "l y adicciones\n\nPuntuación escala detección depresión PHQ-2: 20-No valorable\n¿Fuma actualmente?: No\n"
+    },
+    {
+      "category": "NOMBRES_PROPIOS",
+      "text": "Exfumador",
+      "context": "ocuidado: Independiente\nAlergias: No\nReacciones transfusionales previas: No\n\n¿Fuma actualmente?: No\n"
+    },
+    {
+      "category": "NOMBRES_PROPIOS",
+      "text": "Exfumador",
+      "context": "ntal y adicciones\n\nPuntuación escala detección depresión PHQ-2: No valorable\n¿Fuma actualmente?: No\n"
+    },
+    {
+      "category": "NOMBRES_PROPIOS",
+      "text": "Bellvitge",
+      "context": "\nPte de traslado hoy.\nEVA 0.\n\nFecha: [**21.08.2024**]\nSe comunica que la paciente será trasladada a "
+    },
+    {
+      "category": "FRAGMENTOS_CORTOS",
+      "text": "10h",
+      "context": "edicac\nión V.O ni dosis de Enoxaparina hasta nueva orden (últ dosis de Pradaxa\nel [**14/03**] a las "
+    },
+    {
+      "category": "FRAGMENTOS_CORTOS",
+      "text": "9h",
+      "context": "lt dosis de Pradaxa\nel [**14/03**] a las [**10h**]). Resto sin incidencias. \nPte. @ central + ucias "
+    },
+    {
+      "category": "FRAGMENTOS_CORTOS",
+      "text": "9h",
+      "context": "o refiere algias. Saturación de oxigeno\ncorrecta en basal. Glicemia corregida según pauta. \nC y O. \n"
+    },
+    {
+      "category": "FRAGMENTOS_CORTOS",
+      "text": "48h",
+      "context": "pañado de su [**hermano**] por medios propios a las  [**21:15h**]\nP\nróxima valoración telefónica en "
+    },
+    {
+      "category": "NUMEROS_CORTOS",
+      "text": "92",
+      "context": ", glu [**135**], Cr [**0.78**]; BiT [**0.7**], sodio y potasio en rango.\n - gsa: pH [**7.44**], pO2 "
+    }
+  ]
+}

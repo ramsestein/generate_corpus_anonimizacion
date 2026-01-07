@@ -1,0 +1,1151 @@
+{
+  "total_fn": 81912,
+  "categories": {
+    "FECHAS_CORTAS": 46034,
+    "OTROS": 24061,
+    "FAMILIARES": 2419,
+    "NOMBRES_PROPIOS": 2428,
+    "FRAGMENTOS_CORTOS": 4304,
+    "SEXO": 438,
+    "ANOS_AISLADOS": 1559,
+    "NUMEROS_CORTOS": 669
+  },
+  "samples_by_category": {
+    "FECHAS_CORTAS": [
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "12.03.2024",
+        "context": "Fecha: [**12.03.2024**]\n** NOTA INGRESO CCV \nPcte de [**68 años**] de edad, sin AMC. Ingresa de manera electiva para repara",
+        "start": 10,
+        "end": 20
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "15.3.19",
+        "context": "n radioiodo, esdeviniendo resistente al mismo. M1 Pulmonares. Tratamiento con Sorafenib 800mg/d del [**15.3.19**] - [**20.8.20**]. Actualmente en tratamiento con lenvatinib desde [**septiembre 2020**]\n-HTA.\n-Pdte ",
+        "start": 334,
+        "end": 341
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "20.8.20",
+        "context": "eviniendo resistente al mismo. M1 Pulmonares. Tratamiento con Sorafenib 800mg/d del [**15.3.19**] - [**20.8.20**]. Actualmente en tratamiento con lenvatinib desde [**septiembre 2020**]\n-HTA.\n-Pdte valoración por C",
+        "start": 350,
+        "end": 357
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "22/09/24",
+        "context": " de cardio.Sintomático en forma de disnea de esfuerzos, NYHA II.\n---\nEXAMENES COMPLEMENTARIOS\n* ECO([**22/09/24**]):- Válvula aórtica trivalva, no estenótica, con insuficiencia severa, aunque el origen del jet no e",
+        "start": 663,
+        "end": 671
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "28/08/24",
+        "context": "), con motilidad global en el límite inferior de la normalidad. FEVI por Simpson 4C de 52.5%.\n\n* KT([**28/08/24**]):A Coronarias sin lesiones significativas.\n\n* TAC([**14/08/24**]):No contraindica iq. Raíz lig dila",
+        "start": 1283,
+        "end": 1291
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "14/08/24",
+        "context": "EVI por Simpson 4C de 52.5%.\n\n* KT([**28/08/24**]):A Coronarias sin lesiones significativas.\n\n* TAC([**14/08/24**]):No contraindica iq. Raíz lig dilatada.\n---\nHablamos de la cirugía y los riesgos inherentes a ella.",
+        "start": 1348,
+        "end": 1356
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "12.03.2024",
+        "context": "inherentes a ella.\nFirma Consentimiento informado.\n Solicito preoperatorio y curso reserva.\n\nFecha: [**12.03.2024**]\neneral\n\nResponsable identificación positiva del paciente: Paciente\n¿En el momento del ingreso el pa",
+        "start": 1544,
+        "end": 1554
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "13/03/24",
+        "context": "cia del paciente antes del ingreso hospitalario: Domicilio\nMotivo ingreso y procedencia interna:\nIQ [**13/03/24**]: SVAo\nAlergias: No\nAntecedentes medico-quirúrgicos:\n[**exfumador**], neo tiroides (tiroidectomia), ",
+        "start": 1983,
+        "end": 1991
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "12/03/2024",
+        "context": "íaca: 62 lpm\n\nValoración gastrointestinal\n\nRitmo deposicional:\nritme diari\nFecha última deposición: [**12/03/2024**]\n\nValoración genitourinaria\n\nIncontinencia urinaria: Sí\n\nValoración musculoesquelética\n\nPuntuación e",
+        "start": 2691,
+        "end": 2701
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "12.03.2024",
+        "context": " habitual?: No\n¿Tiene problemas para dormir?: Sí\nMedios que utiliza para dormir: Medicación\n\nFecha: [**12.03.2024**]\nurso preop. Realitzats protocols IRASPROA + ERAS.\nPte IQ demà.\n\nFecha: [**13.03.2024**]\naciente HMD",
+        "start": 3441,
+        "end": 3451
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "13.03.2024",
+        "context": "ión\n\nFecha: [**12.03.2024**]\nurso preop. Realitzats protocols IRASPROA + ERAS.\nPte IQ demà.\n\nFecha: [**13.03.2024**]\naciente HMD estable, eupneico y sin dolor\n\nNoche sin incidencias.\n\nFecha: [**13.03.2024**]\naloració",
+        "start": 3529,
+        "end": 3539
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "13.03.2024",
+        "context": "\n\nFecha: [**13.03.2024**]\naciente HMD estable, eupneico y sin dolor\n\nNoche sin incidencias.\n\nFecha: [**13.03.2024**]\naloración enfermo crítico\n\nResponsable identificación positiva del paciente: Cuidador\n¿En el moment",
+        "start": 3620,
+        "end": 3630
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "13.03.2024",
+        "context": "ne dolor al ingreso?: No\nPuntuación escala EVN: 0\n\nPuntuación escala Downton: 2-Riesgo bajo\n\nFecha: [**13.03.2024**]\necanvi valvula aòrtica [**13/03/24**]\nAP: [**exfumador**], HTA, neo tiroides-tiroidectomia , insuf ",
+        "start": 5115,
+        "end": 5125
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "13/03/24",
+        "context": "la EVN: 0\n\nPuntuación escala Downton: 2-Riesgo bajo\n\nFecha: [**13.03.2024**]\necanvi valvula aòrtica [**13/03/24**]\nAP: [**exfumador**], HTA, neo tiroides-tiroidectomia , insuf suprarenal.\n\nSedació PROPO 10cc/h/ ras",
+        "start": 5155,
+        "end": 5163
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "13.03.2024",
+        "context": "+ 700cc en 4h, hemàtic- passem un pool plaquetes/1/2 plasma.\nRx torax i analítica 17h fets.\n\nFecha: [**13.03.2024**]\n0H- OBrim ferida quirurgica esternal per parar sagnat que ha arribat 950cc drenatge toracic.\nPassem",
+        "start": 5580,
+        "end": 5590
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "14.03.2024",
+        "context": "ntrat d´hematies.\nPosem nimodipino perfusió dues hores i parem, per mantenir mitjanes TA 70\n\nFecha: [**14.03.2024**]\naciente extubado a la 1:00 sin incidencias. Actualmente consciente y orientado, dolor controlado co",
+        "start": 5805,
+        "end": 5815
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "14.03.2024",
+        "context": "gmg.\nIngesta hídrica bien tolerada.\nSe realiza placa de tórax, se cursa analítica de ucies.\n\nFecha: [**14.03.2024**]\nPOSTOP REPARACIÓ AÓRTICA\n REVISIÓN POR SANGRADO\n\n Extubado, eupneico con LN\n Afebril\n TA estable a ",
+        "start": 6427,
+        "end": 6437
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "14.03.2024",
+        "context": "10.9\n    9950 leucos Hb 100 144000plaq\n    Coag ok\n\n Plan: AAS\n       Sedestar\n       Fisio\n\nFecha: [**14.03.2024**]\nORN MATÏ/tarda\nC/O,g15. Retirada PCa, mínim dolor toracic ctr.\nHDM: RS tendencia bradicardia, Ta ct",
+        "start": 6795,
+        "end": 6805
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "15.03.2024",
+        "context": "rada, demà PDB blanda S/S\nElim: Diuresis sv. No depos\n\nDrenatge poc productiu, serohematic.\n\nFecha: [**15.03.2024**]\nEUR Consciente y orientado, colaborador. Duerme durante la noche. \nHDM ECG en RS frec 60-70X' porta",
+        "start": 7114,
+        "end": 7124
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "15.03.2024",
+        "context": "elefónica le prescribió 200 mg los [**miércoles**] y el resto de días de la semana 150 mg).\n\nFecha: [**15.03.2024**]\nOSTOP REPARACIÓ AÓRTICA\nREVISIÓN POR SANGRADO\n\nHDE sin DVA\n127/51. PVC 12. RS 80\n\nAfebril \nLN 4 \nEF",
+        "start": 7858,
+        "end": 7868
+      }
+    ],
+    "OTROS": [
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "68 años",
+        "context": "Fecha: [**12.03.2024**]\n** NOTA INGRESO CCV \nPcte de [**68 años**] de edad, sin AMC. Ingresa de manera electiva para reparacion valvula aortica vs sustitucion valvula",
+        "start": 56,
+        "end": 63
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "septiembre 2020",
+        "context": "orafenib 800mg/d del [**15.3.19**] - [**20.8.20**]. Actualmente en tratamiento con lenvatinib desde [**septiembre 2020**]\n-HTA.\n-Pdte valoración por Cx Torácica para valorar NPS.\n---\nMC: IAo mod-sev hallada en ecografía r",
+        "start": 413,
+        "end": 428
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "634567891",
+        "context": "paciente lleva pulsera identificativa?: Sí\n\nDatos persona contacto (nombre, teléfono y parentesco):\n[**634567891**] [**CARLOS**] ([**hermano**])\n¿La persona de contacto corresponde con el cuidador?: No tiene cuidado",
+        "start": 1758,
+        "end": 1767
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "CARLOS",
+        "context": "ulsera identificativa?: Sí\n\nDatos persona contacto (nombre, teléfono y parentesco):\n[**634567891**] [**CARLOS**] ([**hermano**])\n¿La persona de contacto corresponde con el cuidador?: No tiene cuidador\nProcedencia",
+        "start": 1774,
+        "end": 1780
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "exfumador",
+        "context": "ngreso y procedencia interna:\nIQ [**13/03/24**]: SVAo\nAlergias: No\nAntecedentes medico-quirúrgicos:\n[**exfumador**], neo tiroides (tiroidectomia), HTA, insuficiencia suprarrenal lleu x nòduls suprarrenals, proteinúr",
+        "start": 2050,
+        "end": 2059
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "634567891",
+        "context": "ificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco):\n[**Carlos**] - [**hermano**] [**634567891**]\n¿La persona de contacto corresponde con el cuidador?: Sí\n¿Vive solo?: No\nProcedencia del paciente a",
+        "start": 3881,
+        "end": 3890
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "exfumador",
+        "context": "ón escala Downton: 2-Riesgo bajo\n\nFecha: [**13.03.2024**]\necanvi valvula aòrtica [**13/03/24**]\nAP: [**exfumador**], HTA, neo tiroides-tiroidectomia , insuf suprarenal.\n\nSedació PROPO 10cc/h/ rass -5, pupil.les\nINR\n",
+        "start": 5174,
+        "end": 5183
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "cardióloga",
+        "context": " pautados 200mg para el día de hoy pero el paciente refiere que se trata de una pauta antigua de su [**cardióloga**] y que hace poco vía telefónica le prescribió 200 mg los [**miércoles**] y el resto de días de la se",
+        "start": 7720,
+        "end": 7730
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "miércoles",
+        "context": "de una pauta antigua de su [**cardióloga**] y que hace poco vía telefónica le prescribió 200 mg los [**miércoles**] y el resto de días de la semana 150 mg).\n\nFecha: [**15.03.2024**]\nOSTOP REPARACIÓ AÓRTICA\nREVISIÓN ",
+        "start": 7793,
+        "end": 7802
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "G045",
+        "context": "e poco productivo.\nSedestación bien tolerada.\nDieta bien tolerada.\n\nMañana día [**16/03**] traslado [**G045**]:\nSe retira KART + Dx mediastínico. Se canaliza VP 18G en antebrazo derecho, se mantiene CVC hasta m",
+        "start": 8484,
+        "end": 8488
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "G045",
+        "context": "posicion\nSe realiza higiene+medidas de confort\nSe cursa analitica\nSe retira SV\npdte traslado a sala [**G045**]\n\nFecha: [**16.03.2024**]\nDTE DE PRIMERA MICCION\n\nFecha: [**16.03.2024**]\nPOSTOP REPARACIÓ AÓRTICA\n ",
+        "start": 8924,
+        "end": 8928
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "634567891",
+        "context": "paciente lleva pulsera identificativa?: Sí\n\nDatos persona contacto (nombre, teléfono y parentesco):\n[**634567891**] [**CARLOS**] ([**hermano**])\n¿La persona de contacto corresponde con el cuidador?: Sí\n\n¿Vive solo?:",
+        "start": 9530,
+        "end": 9539
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "CARLOS",
+        "context": "ulsera identificativa?: Sí\n\nDatos persona contacto (nombre, teléfono y parentesco):\n[**634567891**] [**CARLOS**] ([**hermano**])\n¿La persona de contacto corresponde con el cuidador?: Sí\n\n¿Vive solo?: No\nProcedenc",
+        "start": 9546,
+        "end": 9552
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "I105",
+        "context": "hospitalario: Domicilio\nMotivo ingreso y procedencia interna:\nPaciente que ingresa procedente de la [**I105**] Tras Reparación VAo el [**13/03/24**].\nAlergias: No\n\nAntecedentes medico-quirúrgicos:\n[**exfumador*",
+        "start": 9792,
+        "end": 9796
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "exfumador",
+        "context": "la [**I105**] Tras Reparación VAo el [**13/03/24**].\nAlergias: No\n\nAntecedentes medico-quirúrgicos:\n[**exfumador**], neo tiroides (tiroidectomia), HTA, insuficiencia suprarrenal lleu x nòduls suprarrenals, proteinúr",
+        "start": 9889,
+        "end": 9898
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "I105",
+        "context": " alteraciones en el patrón de marcha.\n\nFecha: [**16.03.2024**]\naciente que ingresa procedente de la [**I105**] tras Reparación VAo el [**13/03/24**].\nA su llegada paciente c y o. HMD estable.   \nEupneico con LN",
+        "start": 12176,
+        "end": 12180
+      },
+      {
+        "doc_id": "NHC103087_episodio1008807132",
+        "gold_text": "654789123",
+        "context": "aciente lleva pulsera ide\nntificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco)\n:\n[**654789123**] ([**hermana Carmen**])\n¿La persona de contacto corresponde con el c\nuidador?: No tiene cuidador\n¿Vi",
+        "start": 2389,
+        "end": 2398
+      },
+      {
+        "doc_id": "NHC103087_episodio1008807132",
+        "gold_text": "hermana Carmen",
+        "context": "sera ide\nntificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco)\n:\n[**654789123**] ([**hermana Carmen**])\n¿La persona de contacto corresponde con el c\nuidador?: No tiene cuidador\n¿Vive solo?: No\nProcedenc",
+        "start": 2406,
+        "end": 2420
+      },
+      {
+        "doc_id": "NHC103087_episodio1008807712",
+        "gold_text": "654789123",
+        "context": "aciente lleva pulsera ide\nntificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco)\n:\n[**654789123**] ([**hermana Carmen**])\n¿La persona de contacto corresponde con el c\nuidador?: No tiene cuidador\n¿Vi",
+        "start": 1743,
+        "end": 1752
+      },
+      {
+        "doc_id": "NHC103087_episodio1008807712",
+        "gold_text": "hermana Carmen",
+        "context": "sera ide\nntificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco)\n:\n[**654789123**] ([**hermana Carmen**])\n¿La persona de contacto corresponde con el c\nuidador?: No tiene cuidador\n¿Vive solo?: No\nProcedenc",
+        "start": 1760,
+        "end": 1774
+      }
+    ],
+    "FAMILIARES": [
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "hermano",
+        "context": "icativa?: Sí\n\nDatos persona contacto (nombre, teléfono y parentesco):\n[**634567891**] [**CARLOS**] ([**hermano**])\n¿La persona de contacto corresponde con el cuidador?: No tiene cuidador\nProcedencia del paciente a",
+        "start": 1788,
+        "end": 1795
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "hermano",
+        "context": " pulsera identificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco):\n[**Carlos**] - [**hermano**] [**634567891**]\n¿La persona de contacto corresponde con el cuidador?: Sí\n¿Vive solo?: No\nProcedenci",
+        "start": 3867,
+        "end": 3874
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "hermano",
+        "context": "icativa?: Sí\n\nDatos persona contacto (nombre, teléfono y parentesco):\n[**634567891**] [**CARLOS**] ([**hermano**])\n¿La persona de contacto corresponde con el cuidador?: Sí\n\n¿Vive solo?: No\nProcedencia del paciente",
+        "start": 9560,
+        "end": 9567
+      },
+      {
+        "doc_id": "NHC103087_episodio1008807712",
+        "gold_text": "esposa",
+        "context": " pulsera identific\nativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco):\n[**MAR\nTA**] ([**esposa**]): [**654789123**]\n¿La persona de contacto corresponde con el cuida\ndor?: No tiene cuidador\nProceden",
+        "start": 11691,
+        "end": 11697
+      },
+      {
+        "doc_id": "NHC107102_episodio1008411916",
+        "gold_text": "esposa",
+        "context": "de hospitalización en función de disponibilidad de camas. \n- Informo pr\nesencialmente a la familia ([**esposa**]).\n\nFecha: [**17.07.2024**]\nacient conscient i orientat. Glasgow 15. EVA 0.\n\nHDM estable, normoTA s\n",
+        "start": 8488,
+        "end": 8494
+      },
+      {
+        "doc_id": "NHC107102_episodio1008411916",
+        "gold_text": "esposa",
+        "context": " pulsera identificativa?: Sí\n\nDatos persona contacto (nombre, teléfono y parentesco):\n[**Carmen**] ([**esposa**])\n--&gt; [**654789123**]\n[**Rosa**] ([**hermana**]) --&gt;[**612345678**]\n¿La persona de contacto co",
+        "start": 10143,
+        "end": 10149
+      },
+      {
+        "doc_id": "NHC107102_episodio1008411916",
+        "gold_text": "hermana",
+        "context": "cto (nombre, teléfono y parentesco):\n[**Carmen**] ([**esposa**])\n--&gt; [**654789123**]\n[**Rosa**] ([**hermana**]) --&gt;[**612345678**]\n¿La persona de contacto correspo\nnde con el cuidador?: No tiene cuidador\n¿Vi",
+        "start": 10192,
+        "end": 10199
+      },
+      {
+        "doc_id": "NHC107102_episodio1008411916",
+        "gold_text": "esposa",
+        "context": " de hospitalización en función de disponibilidad\n de camas. \n- Informo vía telefónica a la familia ([**esposa**]).\n\nFecha: [**18.07.2024**]\nonstants estables, afebril.\nEupneic en basal.\nSedestació tolerada, mov\ni",
+        "start": 12939,
+        "end": 12945
+      },
+      {
+        "doc_id": "NHC108981_episodio1008265273",
+        "gold_text": "hija",
+        "context": " pulsera identificativa?: Sí\nDatos persona contacto (nombre\n, teléfono y parentesco):\n[**Carmen**] ([**hija**]) [**654321987**]\n[**Miguel**] [**612345678**]\n\n¿La persona de contacto corresponde con el cuidador?",
+        "start": 992,
+        "end": 996
+      },
+      {
+        "doc_id": "NHC109003_episodio1008474128",
+        "gold_text": "esposa",
+        "context": "ambia canister por estar lleno, d\nrenaje permeable de aspecto hematico, productivo, deambula con su [**esposa**], dolor bien controlado con analgesia de pauta. \nA primera hora refie\nre mareos que despues ceden\n\nF",
+        "start": 9778,
+        "end": 9784
+      },
+      {
+        "doc_id": "NHC109003_episodio1008474128",
+        "gold_text": "esposa",
+        "context": "21.08.2024**]\naciente estable, se realiza parche de sangre, dolor bien controlado, dea\nmbula con su [**esposa**], pendiente de Rx de torax esta tarde\n\nFecha: [**21.08.2024**]\naciente C y O.\nHDM estable. Saturacio",
+        "start": 16361,
+        "end": 16367
+      },
+      {
+        "doc_id": "NHC109764_episodio1008419386",
+        "gold_text": "esposa",
+        "context": "leve pulsera identificativa.\nDatos persona conta\ncto (nombre, teléfono y parentesco):\n[**Carmen**] ([**esposa**]) [**654321987**]\n¿La perso\nna de contacto corresponde con el cuidador?: No tiene cuidador\n¿Vive so\n",
+        "start": 292,
+        "end": 298
+      },
+      {
+        "doc_id": "NHC112376_episodio1008497773",
+        "gold_text": "esposa",
+        "context": "permeable, orina clara; Sylastic poco pro\nductivo.\n\nIngestas correctas.\n\nEn reposo.\n\nAcompañado por [**esposa**] \n\n\nResto sin incidencias.\n\nFecha: [**18.08.2024**]\naloración inicial ERR\n\nProfesional que realiza l",
+        "start": 6910,
+        "end": 6916
+      },
+      {
+        "doc_id": "NHC11308_episodio1008291758",
+        "gold_text": "hermano",
+        "context": "pendiente\nrealizar protocolo de deambulación + carga STP.\nSe realiza educación  a\n la paciente y su [**hermano**] de los accesos cura c/24h con betadine . Pendie\nnte mañana de control fotográfico \nSe realiza educa",
+        "start": 733,
+        "end": 740
+      },
+      {
+        "doc_id": "NHC11308_episodio1008291758",
+        "gold_text": "hermano",
+        "context": "ento habitual\nSe habla con MG ECO de control a las [**20:20 h**]\nAlta\n a domicilio acompañado de su [**hermano**] por medios propios a las  [**21:15h**]\nP\nróxima valoración telefónica en [**48h**]\n\nFecha: [**18.03",
+        "start": 1124,
+        "end": 1131
+      },
+      {
+        "doc_id": "NHC11308_episodio1008291758",
+        "gold_text": "hermano",
+        "context": "raslada a sala hemodinámica para drenar\n pericardio y se ingresa en pos coronaria.\n\nContacto con el [**hermano**] tele\nfònicamente,  paso por la unidad a ver a la paciente.\n\nCy O. HDM con te\nndencia a la HTA, Port",
+        "start": 7022,
+        "end": 7029
+      },
+      {
+        "doc_id": "NHC11393_episodio1008275592",
+        "gold_text": "hija",
+        "context": "acta con la fundación tutelar, nos informan sobre tutela total y per\nsona de contacto [**Carmen**] ([**hija**]); se intenta contactar con [**Carmen**] sin éxit\no (móvil inactivo actualmente), por lo que se cont",
+        "start": 4000,
+        "end": 4004
+      },
+      {
+        "doc_id": "NHC11393_episodio1008275872",
+        "gold_text": "hijo",
+        "context": "a [**residencia geriátrica**], nos informan sobre tutela total y per\nsona de contacto [**Carlos**] ([**hijo**]); se intenta contactar con [**Carlos**] sin éxit\no (móvil inactivo actualmente), por lo que se cont",
+        "start": 4008,
+        "end": 4012
+      },
+      {
+        "doc_id": "NHC11393_episodio1008275872",
+        "gold_text": "hijo",
+        "context": " con insulina lis\npro según pauta. Sedestación. A ultima hora del turno se pone nervioso p\norque su [**hijo**] le ha dicho que no va a venir hoy,demanda quetiapina para\ntranquilizarse.  Se comenta con Dr. [**Ga",
+        "start": 18560,
+        "end": 18564
+      },
+      {
+        "doc_id": "NHC115410_episodio1008764375",
+        "gold_text": "esposa",
+        "context": "\nn, afebril a la llegada, saturaciones mantenidas en basal, autónomo y co\nlaborador. \nAcompañado de [**esposa**].\nAcude a urgencias por focalidad neu\nrológica, se realiza protocolo de acogida, objetos personales ",
+        "start": 205,
+        "end": 211
+      }
+    ],
+    "NOMBRES_PROPIOS": [
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "Exfumador",
+        "context": "l y adicciones\n\nPuntuación escala detección depresión PHQ-2: 20-No valorable\n¿Fuma actualmente?: No\n[**Exfumador**]: Sí\n¿Usted bebe de forma habitual?: No\n¿Tiene problemas para dormir?: Sí\nMedios que utiliza para do",
+        "start": 3301,
+        "end": 3310
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "Carlos",
+        "context": " paciente lleva pulsera identificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco):\n[**Carlos**] - [**hermano**] [**634567891**]\n¿La persona de contacto corresponde con el cuidador?: Sí\n¿Vive solo",
+        "start": 3852,
+        "end": 3858
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "Exfumador",
+        "context": "ocuidado: Independiente\nAlergias: No\nReacciones transfusionales previas: No\n\n¿Fuma actualmente?: No\n[**Exfumador**]: Sí\nEstado de la consciencia: Inconsciente\nDiámetro de la pupila derecha: 2 mm (mióticas)\nDiámetro ",
+        "start": 4241,
+        "end": 4250
+      },
+      {
+        "doc_id": "NHC102219_episodio1008744732",
+        "gold_text": "Exfumador",
+        "context": "ntal y adicciones\n\nPuntuación escala detección depresión PHQ-2: No valorable\n¿Fuma actualmente?: No\n[**Exfumador**]: Sí\n¿Usted bebe de forma habitual?: No\n¿Tiene problemas para dormir?: Sí\nMedios que utiliza para do",
+        "start": 11221,
+        "end": 11230
+      },
+      {
+        "doc_id": "NHC103618_episodio1008373350",
+        "gold_text": "Bellvitge",
+        "context": "\nPte de traslado hoy.\nEVA 0.\n\nFecha: [**21.08.2024**]\nSe comunica que la paciente será trasladada a [**Bellvitge**] y se irá en ambula\nncia. La secretaria [**Carmen**] pedirá la ambulancia cuando llamen para comu\nni",
+        "start": 18149,
+        "end": 18158
+      },
+      {
+        "doc_id": "NHC103618_episodio1008373350",
+        "gold_text": "Carmen",
+        "context": "e comunica que la paciente será trasladada a [**Bellvitge**] y se irá en ambula\nncia. La secretaria [**Carmen**] pedirá la ambulancia cuando llamen para comu\nnicar que la cama está disponible y por último, cuando",
+        "start": 18204,
+        "end": 18210
+      },
+      {
+        "doc_id": "NHC106104_episodio1008741129",
+        "gold_text": "Marido",
+        "context": "aciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\n[**Marido**] [**Carlos**]  [**678 45 92 17**]\n¿La persona de contacto corresponde con\n el cuidador?: No tiene cu",
+        "start": 1005,
+        "end": 1011
+      },
+      {
+        "doc_id": "NHC106104_episodio1008741129",
+        "gold_text": "Carlos",
+        "context": " pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\n[**Marido**] [**Carlos**]  [**678 45 92 17**]\n¿La persona de contacto corresponde con\n el cuidador?: No tiene cuidador\n¿Vive ",
+        "start": 1018,
+        "end": 1024
+      },
+      {
+        "doc_id": "NHC107102_episodio1008411058",
+        "gold_text": "Tarragona",
+        "context": "Fecha: [**15.06.2024**]\nacient ingressa de [**Tarragona**] per hemoptisis. \n\nNRL: C i O\n\nHMD estable,\n afebril. Eupneic amb sato2 correctes en basal\n\nEVA 0\n\nS",
+        "start": 46,
+        "end": 55
+      },
+      {
+        "doc_id": "NHC107102_episodio1008411916",
+        "gold_text": "Tarragona",
+        "context": "Fecha: [**15.07.2024**]\nacient ingressa de [**Tarragona**] per hemoptisis. \n\nNRL: C i O\n\nHMD estable,\n afebril. Eupneic amb sato2 correctes en basal\n\nEVA 0\n\nS",
+        "start": 46,
+        "end": 55
+      },
+      {
+        "doc_id": "NHC107102_episodio1008411916",
+        "gold_text": "Carmen",
+        "context": "paciente lleva pulsera identificativa?: Sí\n\nDatos persona contacto (nombre, teléfono y parentesco):\n[**Carmen**] ([**esposa**])\n--&gt; [**654789123**]\n[**Rosa**] ([**hermana**]) --&gt;[**612345678**]\n¿La persona ",
+        "start": 10129,
+        "end": 10135
+      },
+      {
+        "doc_id": "NHC107102_episodio1008411916",
+        "gold_text": "Rosa",
+        "context": "ersona contacto (nombre, teléfono y parentesco):\n[**Carmen**] ([**esposa**])\n--&gt; [**654789123**]\n[**Rosa**] ([**hermana**]) --&gt;[**612345678**]\n¿La persona de contacto correspo\nnde con el cuidador?: No tie",
+        "start": 10180,
+        "end": 10184
+      },
+      {
+        "doc_id": "NHC108175_episodio1008821007",
+        "gold_text": "Carmen",
+        "context": "fectiva. Pendiente de 1ª micción espontánea y deambu\nlación.\n\nFecha: [**18.03.2024**]\nl movilizarse [**Carmen**] cae la pera del drenaje al suelo. Dado que el drena\nje sigue siendo productivo, contacto con Gine y",
+        "start": 11194,
+        "end": 11200
+      },
+      {
+        "doc_id": "NHC108981_episodio1008265273",
+        "gold_text": "Carmen",
+        "context": "a\nciente lleva pulsera identificativa?: Sí\nDatos persona contacto (nombre\n, teléfono y parentesco):\n[**Carmen**] ([**hija**]) [**654321987**]\n[**Miguel**] [**612345678**]\n\n¿La persona de contacto corresponde con ",
+        "start": 978,
+        "end": 984
+      },
+      {
+        "doc_id": "NHC108981_episodio1008265273",
+        "gold_text": "Miguel",
+        "context": "\nDatos persona contacto (nombre\n, teléfono y parentesco):\n[**Carmen**] ([**hija**]) [**654321987**]\n[**Miguel**] [**612345678**]\n\n¿La persona de contacto corresponde con el cuidador?: No disponemos de\ndatos\nProce",
+        "start": 1020,
+        "end": 1026
+      },
+      {
+        "doc_id": "NHC109764_episodio1008419386",
+        "gold_text": "Carmen",
+        "context": " el paciente lleve pulsera identificativa.\nDatos persona conta\ncto (nombre, teléfono y parentesco):\n[**Carmen**] ([**esposa**]) [**654321987**]\n¿La perso\nna de contacto corresponde con el cuidador?: No tiene cuid",
+        "start": 278,
+        "end": 284
+      },
+      {
+        "doc_id": "NHC11308_episodio1008291758",
+        "gold_text": "Marc",
+        "context": "aciente lleva pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\n[**Marc**] ([**fill**]): [**634582741**]\n[**Josep**] ([**marit**]): [**612847395**]\n¿La persona de con\ntacto c",
+        "start": 3068,
+        "end": 3072
+      },
+      {
+        "doc_id": "NHC11308_episodio1008291758",
+        "gold_text": "Josep",
+        "context": "í\nDatos persona contacto (nombre, teléfono y parentesco\n):\n[**Marc**] ([**fill**]): [**634582741**]\n[**Josep**] ([**marit**]): [**612847395**]\n¿La persona de con\ntacto corresponde con el cuidador?: No\n¿Vive solo",
+        "start": 3109,
+        "end": 3114
+      },
+      {
+        "doc_id": "NHC11393_episodio1008275592",
+        "gold_text": "Carmen",
+        "context": " ml. \n\nSe\ncontacta con la fundación tutelar, nos informan sobre tutela total y per\nsona de contacto [**Carmen**] ([**hija**]); se intenta contactar con [**Carmen**] sin éxit\no (móvil inactivo actualmente), por lo",
+        "start": 3986,
+        "end": 3992
+      },
+      {
+        "doc_id": "NHC11393_episodio1008275592",
+        "gold_text": "Carmen",
+        "context": "orman sobre tutela total y per\nsona de contacto [**Carmen**] ([**hija**]); se intenta contactar con [**Carmen**] sin éxit\no (móvil inactivo actualmente), por lo que se contacta con [**marido de su\nhija**] para in",
+        "start": 4038,
+        "end": 4044
+      }
+    ],
+    "FRAGMENTOS_CORTOS": [
+      {
+        "doc_id": "NHC103087_episodio1008807132",
+        "gold_text": "52a",
+        "context": "anil parxe de 75 ug i per via oral amb 200-400 ug/4-8 h\n.\n\nFecha: [**22.03.2024**]\ncude paciente de [**52a**] por Dolor intenso en EEII. AP: DREPANOCITOSIS HOMOZ\nIGOTA, mieloma múltiple.\n\nHDM estable. Afebril.",
+        "start": 359,
+        "end": 362
+      },
+      {
+        "doc_id": "NHC103618_episodio1008373887",
+        "gold_text": "28B",
+        "context": "Fecha: [**12.07.2024**]\nona de [**28B**], acut a urgències per intox per triptizol.\nAP: Sdme ansiós,\ntx obessiu-compulsiu, epilèpsia, bulími",
+        "start": 34,
+        "end": 37
+      },
+      {
+        "doc_id": "NHC106104_episodio1008741129",
+        "gold_text": "10h",
+        "context": "edicac\nión V.O ni dosis de Enoxaparina hasta nueva orden (últ dosis de Pradaxa\nel [**14/03**] a las [**10h**]). Resto sin incidencias. \nPte. @ central + ucias [**9h**].\n\nPLAN: Se traslada a I016 pte de KT.\n\nFe",
+        "start": 656,
+        "end": 659
+      },
+      {
+        "doc_id": "NHC106104_episodio1008741129",
+        "gold_text": "9h",
+        "context": "lt dosis de Pradaxa\nel [**14/03**] a las [**10h**]). Resto sin incidencias. \nPte. @ central + ucias [**9h**].\n\nPLAN: Se traslada a I016 pte de KT.\n\nFecha: [**15.03.2024**]\naloración enfermo crítico\n\nResponsab",
+        "start": 715,
+        "end": 717
+      },
+      {
+        "doc_id": "NHC107102_episodio1008411058",
+        "gold_text": "47a",
+        "context": " 0-Riesgo bajo\n\nFecha: [**15.06.2024**]\nOTA DE INGRESO EN INTERMEDIOS DE LA UVIR ([**M. GARCÍA**])\n\n[**47a**]. Niega alerg\nias medicamentosas conocidas. [**Ex-fumador**] de 7-8 cig/día desde los [**18 años**] ",
+        "start": 1453,
+        "end": 1456
+      },
+      {
+        "doc_id": "NHC107102_episodio1008411916",
+        "gold_text": "47a",
+        "context": "Riesgo bajo\n\nFecha: [**15.07.2024**]\nOTA DE INGRESO EN INTERMEDIOS DE LA UVIR ([**M. RODRIGUEZ**])\n\n[**47a**]. Niega alerg\nias medicamentosas conocidas. [**Ex-fumador**] de 10-12 cig/día desde los [**18 años**",
+        "start": 1456,
+        "end": 1459
+      },
+      {
+        "doc_id": "NHC112376_episodio1008497773",
+        "gold_text": "9h",
+        "context": "o refiere algias. Saturación de oxigeno\ncorrecta en basal. Glicemia corregida según pauta. \nC y O. \n[**9h**]- Glicem\nia de 124mg/dl. \nBuen descanso nocturno.\n\nFecha: [**22.08.2024**]\nSALA UROLOGÍA* \n1.- NEFRE",
+        "start": 14089,
+        "end": 14091
+      },
+      {
+        "doc_id": "NHC11308_episodio1008291758",
+        "gold_text": "48h",
+        "context": "pañado de su [**hermano**] por medios propios a las  [**21:15h**]\nP\nróxima valoración telefónica en [**48h**]\n\nFecha: [**18.03.2024**]\nPaciente recovery hasta [**17:45h**] aprox, post ABLACIÓN FA NAVEX.\n Cosnc",
+        "start": 1211,
+        "end": 1214
+      },
+      {
+        "doc_id": "NHC11308_episodio1008291758",
+        "gold_text": "18h",
+        "context": "emoral D + punto en 8, pdte retirar [**20:20h**].\n Pdte inicar tto anticoagulante Eliquis 5mg a las [**18h**].\n A nivel respiratorio VMK 40%fio2, para spo2 &gt;95%.\n Pdte ingesta.\n Pérdida control de esfínter ",
+        "start": 1822,
+        "end": 1825
+      },
+      {
+        "doc_id": "NHC11308_episodio1008291758",
+        "gold_text": "2am",
+        "context": " plasma.\nFet ECG d&apos;ingrés. Cursats frotis MRSA.\n\nPdt: retirar compresiu femoral a partir de la [**2am**].\n       Cursar analí\ntica UCIES post administració de plasma\n\nFecha: [**19.03.2024**]\naloración enf",
+        "start": 2754,
+        "end": 2757
+      },
+      {
+        "doc_id": "NHC11308_episodio1008291758",
+        "gold_text": "1h",
+        "context": ".03.2024**]\naciente consciente y orientada, refiere algias generalizadas desde el in\nicio de turno.\n[**1h**]--&gt; se observa flutter auricular con FC 130x&apos;. Valorad\na por MG, administramos 200mg amiodar",
+        "start": 7824,
+        "end": 7826
+      },
+      {
+        "doc_id": "NHC11308_episodio1008291758",
+        "gold_text": "4h",
+        "context": "s;, saturación 90%, se decide administración amiodarona 300mg ev . Admi\nnistrado 2,5mg diazepam sl.\n[**4h**]--&gt; 0.25mg digoxina ev + colocación LAF 5\n0% 60lx&apos;. ReaLizada Rx tórax.\n[**4.15h**] --&gt;Mo",
+        "start": 8155,
+        "end": 8157
+      },
+      {
+        "doc_id": "NHC11308_episodio1008291758",
+        "gold_text": "8h",
+        "context": "\ntente. \nContinua con LAF ,50%-60lx&apos; con saturaciones en torno a 93%.\nC\nursada analítica ucias [**8h**].\n\nFecha: [**20.03.2024**]\naciente CyO, menos ansiosa durante la mañana. \nHMD Estable, alterna RS/\nA",
+        "start": 8547,
+        "end": 8549
+      },
+      {
+        "doc_id": "NHC115410_episodio1008764375",
+        "gold_text": "68a",
+        "context": "escala EVN: 0\nPuntuación escala Downton: 4-Ries\ngo alto\n\nFecha: [**15.03.2024**]\nngresa paciente de [**68a**] [**MyR**] en las 3 esferas procedente de PUR2 sobre las\n [**14h**] tras OD: Ictus lacunar capsulole",
+        "start": 3818,
+        "end": 3821
+      },
+      {
+        "doc_id": "NHC115410_episodio1008764375",
+        "gold_text": "MyR",
+        "context": ": 0\nPuntuación escala Downton: 4-Ries\ngo alto\n\nFecha: [**15.03.2024**]\nngresa paciente de [**68a**] [**MyR**] en las 3 esferas procedente de PUR2 sobre las\n [**14h**] tras OD: Ictus lacunar capsulolenticular D",
+        "start": 3828,
+        "end": 3831
+      },
+      {
+        "doc_id": "NHC115410_episodio1008764375",
+        "gold_text": "14h",
+        "context": "15.03.2024**]\nngresa paciente de [**68a**] [**MyR**] en las 3 esferas procedente de PUR2 sobre las\n [**14h**] tras OD: Ictus lacunar capsulolenticular D. A su llegada, HMD, HTA,\n precisa de rescates. Afebril. ",
+        "start": 3885,
+        "end": 3888
+      },
+      {
+        "doc_id": "NHC115410_episodio1008764375",
+        "gold_text": "MiR",
+        "context": "asis bilater\nals que no condicionen obstrucció de la via urinària.\n\nFecha: [**16.03.2024**]\naciente [**MiR**]. HMDE. Afebril. Eupneico en reposo. SaO2 en basal ok. EVA: 0\n. GCS: 15. NRL, NIHSS: 5: Hemiparesia ",
+        "start": 8980,
+        "end": 8983
+      },
+      {
+        "doc_id": "NHC115410_episodio1008764375",
+        "gold_text": "7h",
+        "context": " SpO2\n 98%. HMDE y afebril. Niega algias.\n\nPasa la noche sin incidencias, bue\nn descanso nocturno.\n\n[**7h**]: Realizo extracción de @ucias y cursamos orina\n 24h.\n\n - Pte ETT reglado, programado para [**martes",
+        "start": 9533,
+        "end": 9535
+      },
+      {
+        "doc_id": "NHC115410_episodio1008764375",
+        "gold_text": "MiR",
+        "context": "ina\n 24h.\n\n - Pte ETT reglado, programado para [**martes 19/03**].\n\nFecha: [**17.03.2024**]\naciente [**MiR**]. HMDE. Afebril. Eupneico en reposo. SaO2 en basal ok. EVA: 0\n. GCS: 15. NRL, NIHSS: 3: Paresia faci",
+        "start": 9685,
+        "end": 9688
+      },
+      {
+        "doc_id": "NHC115410_episodio1008764375",
+        "gold_text": "23h",
+        "context": "en silla y de\nambulación acompañado de 1 persona bien toleradas.\nSe traslada paciente\n a sala a las [**23h**].\n- Pdte ETT [**mañana a las 13:30h**] + posible alta con re\nhab domiciliaria.\n\nFecha: [**18.03.2024",
+        "start": 12616,
+        "end": 12619
+      }
+    ],
+    "SEXO": [
+      {
+        "doc_id": "NHC103087_episodio1008807712",
+        "gold_text": "Mujer",
+        "context": " DREPANOCÍTICA\n\n2. MIELOMA MÚLTIPLE EN TRACTAMENT\n\n3. HIP\nOPOTASEMIA MODERADA CON CAMBIOS EN ECG\n\n\n\n[**Mujer**] sin AMC, [**exfumadora de\n hace 10 años**] sin otros hábitos tóxicos. Vive en una casa con su [**ma",
+        "start": 7557,
+        "end": 7562
+      },
+      {
+        "doc_id": "NHC103618_episodio1008373350",
+        "gold_text": "mujer",
+        "context": "567890  EXT: 28150**].\n\nFecha: [**21.08.2024**]\nIC PSIQUIATRÍA (nota para informe de alta)\nPaciente [**mujer**] de [**28 años**] que\n ingresa el [**15/08/24**] en UCI por IMA de antidepresivos\ntricíclicos (cant\n",
+        "start": 18521,
+        "end": 18526
+      },
+      {
+        "doc_id": "NHC106104_episodio1008741129",
+        "gold_text": "mujer",
+        "context": "Fecha: [**15.03.2024**]\nN PUR3\nPaciente [**mujer**] de [**65 años**] que consulta por dolor torácico opresi\nvo sin irradiación ni vegetatismo. Se orien",
+        "start": 43,
+        "end": 48
+      },
+      {
+        "doc_id": "NHC11393_episodio1008275592",
+        "gold_text": "Mujer",
+        "context": " I secundari\na a (1). \n3. DISELECTROLITEMIAS: hiponatremia, hipopotasemia e hipomagn\nesemia leve. \n\n[**Mujer**] de [**63 años**], alérgica a penicilina, fumadora activ\na, reside en [**Residencia geriátrica San J",
+        "start": 454,
+        "end": 459
+      },
+      {
+        "doc_id": "NHC11393_episodio1008275872",
+        "gold_text": "Hombre",
+        "context": " I secundari\na a (1). \n3. DISELECTROLITEMIAS: hiponatremia, hipopotasemia e hipomagn\nesemia leve. \n\n[**Hombre**] de [**72 años**], alérgico a penicilina, [**ex fumador**], reside en [**Residencia San Miguel**], i",
+        "start": 454,
+        "end": 460
+      },
+      {
+        "doc_id": "NHC125561_episodio1008793057",
+        "gold_text": "Hombre",
+        "context": "092.\n\nFecha: [**15.03.2024**]\nNOTA INGRÉS CARDIOLOGIA ([**Martínez, Sánchez, Adj loc de García**])\n\n[**Hombre**] de [**38 anys**], sense AMC, no hàbits tòxics. Treballa en situació d'estrés. Pract\nica buceig. No ",
+        "start": 266,
+        "end": 272
+      },
+      {
+        "doc_id": "NHC131730_episodio1008808403",
+        "gold_text": "Mujer",
+        "context": "Riesgo alto\nPuntuac\nión escala Downton: 6-Riesgo alto\n\nFecha: [**22.11.2024**]\naloración nutrición\n\n[**Mujer**] de [**72 años**], sin alergias a medicamentos, e\nx tabaquismo. \n\nAntecedentes patológicos: HTA, dis",
+        "start": 12449,
+        "end": 12454
+      },
+      {
+        "doc_id": "NHC134173_episodio1008241264",
+        "gold_text": "mujer",
+        "context": "te\nSe\n le coloca pulsera: Sí\nDatos persona contacto (nombre, teléfono y paren\ntesco):\n[**Carmen**] ([**mujer**]) [**60445672**]\n¿La persona de contacto corresponde con\nel cuidador?: No tiene cuidador\nProcedencia",
+        "start": 365,
+        "end": 370
+      },
+      {
+        "doc_id": "NHC134173_episodio1008241264",
+        "gold_text": "mujer",
+        "context": "pulsera id\nentificativa?: Sí\nDatos persona contacto (nombre, teléfono y parentesco\n):\n[**Carmen**] ([**mujer**]) [**60445672**]\n¿La persona de contacto corresponde con el cu\nidador?: No tiene cuidador\n¿Vive solo",
+        "start": 5572,
+        "end": 5577
+      },
+      {
+        "doc_id": "NHC135242_episodio1008340505",
+        "gold_text": "Mujer",
+        "context": "rtir de las 15.15h.\n\nFecha: [**23.04.2024**]\nNFORME DE HEMODINÁMICA ([**Martínez**]/[**García**]):\n\n[**Mujer**] de [**65 años**] con HTA, DL\n, EPOC, exfumador, cardiopatía isquémica previa con stent en CD de hac",
+        "start": 3133,
+        "end": 3138
+      },
+      {
+        "doc_id": "NHC136979_episodio1008805535",
+        "gold_text": "Hombre",
+        "context": "Fecha: [**18.03.2024**]\nOTA INGRESO NMO (Solarat/Paredes)\n\n[**Hombre**] de [**72 años**], autónomo, fumador\na de 2cig/dia con dosis acumulada de 66 paquetes año. Anteceden",
+        "start": 62,
+        "end": 68
+      },
+      {
+        "doc_id": "NHC136979_episodio1008805535",
+        "gold_text": "hombre",
+        "context": "Pap 14 cmH2O.\nQueda en la unidad en observación.\n\nFecha: [**19.03.2024**]\nota de guardia:\n\nPaciente [**hombre**] de [**72 años**], fumador activo ocasional,\n con DA 66 paq-año.\n\nAntecedentes patológicos: \n- EPOC ",
+        "start": 5433,
+        "end": 5439
+      },
+      {
+        "doc_id": "NHC140918_episodio1008318323",
+        "gold_text": "Hombre",
+        "context": "intomática puede iniciar sedestación esta tarde.\n\nFecha: [**15.07.2024**]\nº Día Unidad coronaria. \n\n[**Hombre**] de [**62 años**], con Intolerancia/alergia a\n Azitromicina y metocarbamol.  FRCV: Fumadora, DLP, an",
+        "start": 1900,
+        "end": 1906
+      },
+      {
+        "doc_id": "NHC140918_episodio1008318323",
+        "gold_text": "Hombre",
+        "context": "oras. \nSe comentará hoy en sesión médico-quir\núrgica.\n\nFecha: [**15.07.2024**]\n**NOTA DE CCV**\n --\n [**Hombre**] de [**62 años**], con Intolerancia/alergia a Azitromicina y\n metocarbamol.\n APP\n Fumadora\n DLP\n Ant",
+        "start": 2886,
+        "end": 2892
+      },
+      {
+        "doc_id": "NHC141187_episodio1008501143",
+        "gold_text": "Mujer",
+        "context": "Fecha: [**15.08.2024**]\n[**Mujer**] de [**75 años**] con AP: HTA, DM2, DLP, cardiopatia isquémica y hernia de\n hiato que acude por sinc",
+        "start": 27,
+        "end": 32
+      },
+      {
+        "doc_id": "NHC141187_episodio1008501143",
+        "gold_text": "Mujer",
+        "context": "valoración\n por CAR.\n\nFecha: [**16.08.2024**]\n* NOTA CARDIOLOGÍA ([**García, Martínez, López**])\n\n\n\n[**Mujer**] de [**75 años**] con\n antecedentes de HTA, DM2, DLP, cardiopatía dilatada no isquémica (RM [**2015*",
+        "start": 493,
+        "end": 498
+      },
+      {
+        "doc_id": "NHC141187_episodio1008502001",
+        "gold_text": "Hombre",
+        "context": "Fecha: [**15.08.2024**]\n* NOTA CARDIOLOGÍA ([**García, Martínez, Sánchez**])\n\n\n\n[**Hombre**] de [**75 años**] con\n antecedentes de HTA, DM2, DLP, cardiopatía dilatada no isquémica (RM [**2012*",
+        "start": 83,
+        "end": 89
+      },
+      {
+        "doc_id": "NHC141187_episodio1008502001",
+        "gold_text": "Hombre",
+        "context": "dencia del paciente antes del ingreso hospitalario: Domicilio\nMotivo ingreso y procedencia interna:\n[**Hombre**] de [**75 años**], sin AMC, IABVD.\nAP: HTA, DM II en tto con ADOs, DL, Cardiopatía dilatada no isqué",
+        "start": 3633,
+        "end": 3639
+      },
+      {
+        "doc_id": "NHC142040_episodio1008444796",
+        "gold_text": "Mujer",
+        "context": "o por la [**prima**] que se quedará por la noche.\nPr\neop OK\n\nFecha: [**22.03.2024**]\nOTA PREOP CCV\n\n[**Mujer**] de [**38 años**]. Al·lèrgic a la Penicilina.\n\nAP: \n-\nSd Down, Hipotiroidisme\n- Reparació canal AV p",
+        "start": 2008,
+        "end": 2013
+      },
+      {
+        "doc_id": "NHC142040_episodio1008444796",
+        "gold_text": "Mujer",
+        "context": "al.\n\nFecha: [**29.03.2024**]\nurso frotis rectal.\n\nFecha: [**29.03.2024**]\nNTERCONSULTA CARDIOLOGÍA\n\n[**Mujer**] de [**38 años**]. Síndrome de Down. Hipotir\noidismo. \n\nCardiopatía congénita. Canal AV + CIA OP rep",
+        "start": 17184,
+        "end": 17189
+      }
+    ],
+    "ANOS_AISLADOS": [
+      {
+        "doc_id": "NHC103087_episodio1008807712",
+        "gold_text": "2011",
+        "context": "**] e\n [**hijas**].\n\n\n\nANTECEDENTES PATOLÓGICOS\n\n1. DREPANOCITOSI HOMOCIGOTA -->\nHIDROXIUREA (inici [**2011**]).\n\n- Crisis vasooclusivas de repetición tratada\ns en domicilio.\n\n* EcoCG ([**2024**]): FEVE 60%. Se",
+        "start": 7772,
+        "end": 7776
+      },
+      {
+        "doc_id": "NHC103087_episodio1008807712",
+        "gold_text": "2024",
+        "context": "OXIUREA (inici [**2011**]).\n\n- Crisis vasooclusivas de repetición tratada\ns en domicilio.\n\n* EcoCG ([**2024**]): FEVE 60%. Sense alteracions destacable\ns. PAPs 32 mmHg\n\n- ASPLÈNIA\n\n- RENAL: Proteinúria (hiperfi",
+        "start": 7857,
+        "end": 7861
+      },
+      {
+        "doc_id": "NHC103087_episodio1008807712",
+        "gold_text": "2022",
+        "context": "71, quocient K/L 149,96\n\n- PET: lesions osteolítiques no captants s\nense canvis respecte al PET del [**2022**] i no suggestives d'estar relacionad\nes amb el mieloma.\n\nInicia tractament amb dara-VRD el [**octubr",
+        "start": 8607,
+        "end": 8611
+      },
+      {
+        "doc_id": "NHC106104_episodio1008741129",
+        "gold_text": "1998",
+        "context": "AP: HTA, DLP. FA paroxística, cx uro\ntelial vesical (dx [**08/2020**]), MCD isquémica tras IAM ant ([**1998**]) con stent\n en dicho nivel y CDm y Cxp, portador de DAI, ablación endocárdica [**03/20\n20**].\nC y O",
+        "start": 318,
+        "end": 322
+      },
+      {
+        "doc_id": "NHC106104_episodio1008741129",
+        "gold_text": "2009",
+        "context": "* Evolución, probable alta mañana\n\nFecha: [**16.03.2024**]\n. IAMSEST \n2. MCD ISQUÉMICA. DAI Boston ([**2009**]).\n3. HTA, DLP, DM2, FA p\naroxística (tto con dabigatrán), ca uroterial\n\nA nuestra valoración, p\naci",
+        "start": 5105,
+        "end": 5109
+      },
+      {
+        "doc_id": "NHC109003_episodio1008474128",
+        "gold_text": "2010",
+        "context": "terial. Ecocardio con mínima HVI\n, sin otras alteraciones.\n\n2. Diabetes mellitus tipo 2 de debut en [**2010**].\n Buen control.\n\n3. Dislipemia con muy buen control.\n\n4. IRC con FG en to\nrno a 60 mL/min, probable",
+        "start": 3557,
+        "end": 3561
+      },
+      {
+        "doc_id": "NHC109003_episodio1008474128",
+        "gold_text": "2010",
+        "context": "terial. Ecocardio con mínima HVI\n, sin otras alteraciones.\n\n2. Diabetes mellitus tipo 2 de debut en [**2010**].\n Buen control.\n\n3. Dislipemia con muy buen control.\n\n4. IRC con FG en to\nrno a 60 mL/min, probable",
+        "start": 5055,
+        "end": 5059
+      },
+      {
+        "doc_id": "NHC109764_episodio1008419386",
+        "gold_text": "2018",
+        "context": "ntervencin meningioma grado\n II\nAlergias: No\nAntecedentes medico-quirúrgicos:\nExceresis meningiom\na [**2018**]. Polipectomía cuerdas vocales\n¿Sufre alguna enfermedad crónica?:\n No\nDéficit de autocuidado: Indepe",
+        "start": 619,
+        "end": 623
+      },
+      {
+        "doc_id": "NHC115410_episodio1008764375",
+        "gold_text": "2008",
+        "context": "s lacunar capsulolenticular D\n\nAP:\n HTA, DLP, DM2, Cardiopatía isquémica (IAM silente triple bypass [**2008**]),\nasma bronquial, Neo gastrica I (IQ [**2009**]), anemia ferropénica, ADK prósta\nta (prostatectomía",
+        "start": 2959,
+        "end": 2963
+      },
+      {
+        "doc_id": "NHC115410_episodio1008764375",
+        "gold_text": "2009",
+        "context": "2, Cardiopatía isquémica (IAM silente triple bypass [**2008**]),\nasma bronquial, Neo gastrica I (IQ [**2009**]), anemia ferropénica, ADK prósta\nta (prostatectomía)\n\n¿Sufre alguna enfermedad crónica?: Otras enfe",
+        "start": 3007,
+        "end": 3011
+      },
+      {
+        "doc_id": "NHC115410_episodio1008764419",
+        "gold_text": "2008",
+        "context": "s lacunar capsulolenticular D\n\nAP:\n HTA, DLP, DM2, Cardiopatía isquémica (IAM silente triple bypass [**2008**]),\nasma bronquial, Neo gastrica I (IQ [**2009**]), anemia ferropénica, ADK prósta\nta (prostatectomía",
+        "start": 2961,
+        "end": 2965
+      },
+      {
+        "doc_id": "NHC115410_episodio1008764419",
+        "gold_text": "2009",
+        "context": "2, Cardiopatía isquémica (IAM silente triple bypass [**2008**]),\nasma bronquial, Neo gastrica I (IQ [**2009**]), anemia ferropénica, ADK prósta\nta (prostatectomía)\n\n¿Sufre alguna enfermedad crónica?: Otras enfe",
+        "start": 3009,
+        "end": 3013
+      },
+      {
+        "doc_id": "NHC1158_episodio1008293918",
+        "gold_text": "1985",
+        "context": "rio: Domicilio\nMotivo ingreso y procedencia interna:\nOD: Ictus\nisquémico ACMI.\nAP: Linfoma Hodgkin. [**1985**]: Laminectomía y esplenectomía.\n [**1993**]: Recidiva tractada amb radioteràpia local. Actualmente L",
+        "start": 910,
+        "end": 914
+      },
+      {
+        "doc_id": "NHC1158_episodio1008293918",
+        "gold_text": "1993",
+        "context": " interna:\nOD: Ictus\nisquémico ACMI.\nAP: Linfoma Hodgkin. [**1985**]: Laminectomía y esplenectomía.\n [**1993**]: Recidiva tractada amb radioteràpia local. Actualmente LE, Artriti\ns reumatoide, asma, estenosis de",
+        "start": 953,
+        "end": 957
+      },
+      {
+        "doc_id": "NHC1158_episodio1008293935",
+        "gold_text": "1985",
+        "context": "rio: Domicilio\nMotivo ingreso y procedencia interna:\nOD: Ictus\nisquémico ACMI.\nAP: Linfoma Hodgkin. [**1985**]: Laminectomía y esplenectomía.\n [**1993**]: Recidiva tractada amb radioteràpia local. Actualmente L",
+        "start": 912,
+        "end": 916
+      },
+      {
+        "doc_id": "NHC1158_episodio1008293935",
+        "gold_text": "1993",
+        "context": " interna:\nOD: Ictus\nisquémico ACMI.\nAP: Linfoma Hodgkin. [**1985**]: Laminectomía y esplenectomía.\n [**1993**]: Recidiva tractada amb radioteràpia local. Actualmente LE, Artriti\ns reumatoide, asma, estenosis de",
+        "start": 955,
+        "end": 959
+      },
+      {
+        "doc_id": "NHC1158_episodio1008293935",
+        "gold_text": "2023",
+        "context": "a Sánchez**]: [**msanchez@ebagràcia.cat**]\n\n Confirma que tramitó la revisión de LAPAD a finales de [**2023**].\n\nFecha: [**22.03.2024**]\na [**hija**] habla de nuevo con la trabajadora social en el horario de vi",
+        "start": 17203,
+        "end": 17207
+      },
+      {
+        "doc_id": "NHC118721_episodio1008701128",
+        "gold_text": "2005",
+        "context": " malalties cròniques\nEspecificar al\ntres malalties cròniques:\n DLP, NEOPLASIA DE LARINGE tratada el [**2005**] co\nn laringuectomía total + RT, portador de traquestomía, NEOPLASIA DE PRÓS\nTATA prostatectomía rad",
+        "start": 1197,
+        "end": 1201
+      },
+      {
+        "doc_id": "NHC118721_episodio1008701610",
+        "gold_text": "2005",
+        "context": " malalties cròniques\nEspecificar al\ntres malalties cròniques:\n DLP, NEOPLASIA DE LARINGE tratada el [**2005**] co\nn laringuectomía total + RT, portador de traquestomía, NEOPLASIA DE PRÓS\nTATA prostatectomía rad",
+        "start": 1174,
+        "end": 1178
+      },
+      {
+        "doc_id": "NHC120799_episodio1008785153",
+        "gold_text": "2018",
+        "context": "Insuficiencia renal crónica\nEspecificar otras enfermedades cróni\ncas:\n[**exfumador**], neo de recto [**2018**] (libre de enfermedad), hipoacusia, HB\nP, IC con FEVI preservada, EAo severa\nDéficit de autocuidado:",
+        "start": 1440,
+        "end": 1444
+      }
+    ],
+    "NUMEROS_CORTOS": [
+      {
+        "doc_id": "NHC124803_episodio1008332834",
+        "gold_text": "14",
+        "context": "rigides abd-df i costal. Volumètric ben tolerat.\n\nFecha: [**18.04.2024**]\nNRL: Pacient c, o i c. GW [**14**].\n RESP: Ausc ok. Eupneica en basal SpO2 [**98%**].\n HDM estable sense DVA.\n\n FR: Volumètric 3x10.\n ",
+        "start": 1102,
+        "end": 1104
+      },
+      {
+        "doc_id": "NHC124803_episodio1008332834",
+        "gold_text": "15",
+        "context": "umètric 3x10.\n FM: Ex 4 EE en DS.\n\nFecha: [**19.04.2024**]\nPacient conscient i orientada. PINR. GSC [**15**] i RASS [**0**]\n HDME sin DVA. RS i afebril. Sat O2 [**99%**] basal\n Refereix àlgies que cedeixen am",
+        "start": 1295,
+        "end": 1297
+      },
+      {
+        "doc_id": "NHC124803_episodio1008332834",
+        "gold_text": "0",
+        "context": "M: Ex 4 EE en DS.\n\nFecha: [**19.04.2024**]\nPacient conscient i orientada. PINR. GSC [**15**] i RASS [**0**]\n HDME sin DVA. RS i afebril. Sat O2 [**99%**] basal\n Refereix àlgies que cedeixen amb analgèsia pau",
+        "start": 1311,
+        "end": 1312
+      },
+      {
+        "doc_id": "NHC124803_episodio1008332834",
+        "gold_text": "25",
+        "context": "\n Higiene bucal + mesures de confort\n A l?analítica de les [**7h**] s?aprecia HB de [**8,1**] i HTC [**25**]\n\nFecha: [**19.04.2024**]\nEVOLUCIÓN UCI-Q\n [**Carmen**] [**68a**]. RAM contraste yodado + omeprazol.",
+        "start": 1687,
+        "end": 1689
+      },
+      {
+        "doc_id": "NHC124803_episodio1008332834",
+        "gold_text": "70",
+        "context": " PRN: dexketoprofeno, metadona.\n Paciente consciente y orientada, hemodinamicamente estable con TAM>[**70**]\n sin soporte vasoactivo, normofrecuencia. Hb [**8,1**] (ayer [**6,8**]), paciente co\nnmejor aspecto",
+        "start": 2343,
+        "end": 2345
+      },
+      {
+        "doc_id": "NHC124803_episodio1008332834",
+        "gold_text": "29",
+        "context": "8**], glu [**185**], perfil hepático y panreático ok, BiT\n [**1.9**] (a expensas de indirecta), Alb [**29**], Na [**145**], k [**3.8**], C [**7.1**], Mg [**1.4**]\n - gsa: pH [**7.45**], pO2 [**118**], pCO2 [*",
+        "start": 3768,
+        "end": 3770
+      },
+      {
+        "doc_id": "NHC124803_episodio1008332834",
+        "gold_text": "41",
+        "context": "*], Na [**145**], k [**3.8**], C [**7.1**], Mg [**1.4**]\n - gsa: pH [**7.45**], pO2 [**118**], pCO2 [**41**], bic [**25.2**], hb [**7.5**], htc [**22%**], ions ok\n\n ANALÍTICAS [**19/4**]\n - a/s [**19/4**]: PC",
+        "start": 3874,
+        "end": 3876
+      },
+      {
+        "doc_id": "NHC124803_episodio1008332834",
+        "gold_text": "92",
+        "context": ", glu [**135**], Cr [**0.78**]; BiT [**0.7**], sodio y potasio en rango.\n - gsa: pH [**7.44**], pO2 [**92**], pCO2 [**35**], bic [**26**], hb [**8.5**], htc [**26**], Na [**138**], k [**3.5**],\n Ca [**1.08**]",
+        "start": 4170,
+        "end": 4172
+      },
+      {
+        "doc_id": "NHC124803_episodio1008332834",
+        "gold_text": "35",
+        "context": ", Cr [**0.78**]; BiT [**0.7**], sodio y potasio en rango.\n - gsa: pH [**7.44**], pO2 [**92**], pCO2 [**35**], bic [**26**], hb [**8.5**], htc [**26**], Na [**138**], k [**3.5**],\n Ca [**1.08**]\n\n SOPORTES\n - ",
+        "start": 4185,
+        "end": 4187
+      },
+      {
+        "doc_id": "NHC124803_episodio1008332834",
+        "gold_text": "26",
+        "context": "]; BiT [**0.7**], sodio y potasio en rango.\n - gsa: pH [**7.44**], pO2 [**92**], pCO2 [**35**], bic [**26**], hb [**8.5**], htc [**26**], Na [**138**], k [**3.5**],\n Ca [**1.08**]\n\n SOPORTES\n - ANALGOSEDACIÓN",
+        "start": 4199,
+        "end": 4201
+      },
+      {
+        "doc_id": "NHC124803_episodio1008332834",
+        "gold_text": "26",
+        "context": "tasio en rango.\n - gsa: pH [**7.44**], pO2 [**92**], pCO2 [**35**], bic [**26**], hb [**8.5**], htc [**26**], Na [**138**], k [**3.5**],\n Ca [**1.08**]\n\n SOPORTES\n - ANALGOSEDACIÓN: morfina pca, paracetamol. ",
+        "start": 4227,
+        "end": 4229
+      },
+      {
+        "doc_id": "NHC124803_episodio1008332834",
+        "gold_text": "15",
+        "context": "\n - Alta próxima a COT.\n\nFecha: [**19.04.2024**]\nISIOTERÀPIA\nNRL - Pacient CO i Col·laboradora. GCS [**15**], Refereix àlgies\ncontrolades segons pauta mèdica. \nRESP - Eupneica en Basal amb SpO2 ent\nre e [**96",
+        "start": 5121,
+        "end": 5123
+      },
+      {
+        "doc_id": "NHC124803_episodio1008332834",
+        "gold_text": "15",
+        "context": "leta + capilar + hidratación. Resto parte oral.\n\nFecha: [**19.04.2024**]\nNRL: Pacient c, o i c. GSC [**15**].\n RESP: Eupneica en basal.\n Ausc: Ok\n HDM estable sense DVA.\n\n FR: Inspiròmetre volumètric d'incent",
+        "start": 6142,
+        "end": 6144
+      },
+      {
+        "doc_id": "NHC124803_episodio1008332834",
+        "gold_text": "15",
+        "context": "ròmetre volumètric d'incentiu amb apnea teleinspiratoria.\n\nFecha: [**19.04.2024**]\naciente CyO, GSC [**15**], tranquila y colaboradora. Algias controladas con PC\nA de morfina y analgésico de pauta. HDN establ",
+        "start": 6323,
+        "end": 6325
+      },
+      {
+        "doc_id": "NHC124803_episodio1008332834",
+        "gold_text": "90",
+        "context": "ocuidado: Movilización, Hi\ngiene, Vestido, Independiente, WC\nPuntuación escala Barthel preingreso:\n [**90**]-Dependencia leve\nPuntuación escala Barthel al ingreso: [**25**]-Dependenc\nia grave\n\nValoración apar",
+        "start": 9052,
+        "end": 9054
+      },
+      {
+        "doc_id": "NHC124803_episodio1008332834",
+        "gold_text": "25",
+        "context": "tuación escala Barthel preingreso:\n [**90**]-Dependencia leve\nPuntuación escala Barthel al ingreso: [**25**]-Dependenc\nia grave\n\nValoración aparato respiratorio\n\nTipo de respiración: Eupn\neico\nValor frecuenci",
+        "start": 9116,
+        "end": 9118
+      },
+      {
+        "doc_id": "NHC124803_episodio1008332834",
+        "gold_text": "4",
+        "context": "cha última deposición: [**16/04/2024**]\n\nValoración musculoesquelética\n\n\nPuntuación escala Downton: [**4**]-Riesgo alto\n\nValoración Piel y Mucosas\n\n\n¿Alteración de la integridad de piel y mucosas al ingresar",
+        "start": 9617,
+        "end": 9618
+      },
+      {
+        "doc_id": "NHC124803_episodio1008332834",
+        "gold_text": "16",
+        "context": "de piel y mucosas al ingresar?: No\nCol\noración de la piel: Normocoloreada\nPuntuación escala Braden: [**16**]-Riesgo\nmoderado\nTemperatura axilar: [**37.1 ºC**]\n\nValoración neurológica\n\nEstad\no de la conscienci",
+        "start": 9795,
+        "end": 9797
+      },
+      {
+        "doc_id": "NHC124803_episodio1008332834",
+        "gold_text": "3",
+        "context": "iencia: Alerta\n\nValoración Dolor y Disconfort\n\n¿Tiene d\nolor al ingreso?: No\nPuntuación escala EVN: [**3**]\n\nValoración salud menta\nl y adicciones\n\nPuntuación escala detección depresión PHQ-2: [**18**]-No va",
+        "start": 9998,
+        "end": 9999
+      },
+      {
+        "doc_id": "NHC124803_episodio1008332834",
+        "gold_text": "18",
+        "context": "a EVN: [**3**]\n\nValoración salud menta\nl y adicciones\n\nPuntuación escala detección depresión PHQ-2: [**18**]-No val\norable\n¿Fuma actualmente?: No\n¿Usted bebe de forma habitual?: No\n¿Tie\nne problemas para dorm",
+        "start": 10091,
+        "end": 10093
+      }
+    ]
+  }
+}

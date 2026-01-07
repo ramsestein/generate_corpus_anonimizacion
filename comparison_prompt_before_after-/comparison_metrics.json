@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-01-07T15:44:18.088998",
+  "base": {
+    "name": "Base (Sin Filtro)",
+    "total_entities": 113303,
+    "tp": 72579,
+    "fp": 40724,
+    "fn": 16592,
+    "precision": 0.6405743890276515,
+    "recall": 0.8139305379551648,
+    "f1": 0.7169216788328377,
+    "fp_basura_restante": 40724,
+    "fn_fugas_inducidas": 0,
+    "fn_no_detectado": 16592,
+    "entidades_filtradas": 0,
+    "tasa_filtrado_pct": 0.0
+  },
+  "pipeline_a": {
+    "name": "Pipeline (aws2-gatekeeper_improved-llm-mejora-prompts)",
+    "total_entities": 104638,
+    "tp": 69861,
+    "fp": 34777,
+    "fn": 19310,
+    "precision": 0.6676446415260231,
+    "recall": 0.783449776272555,
+    "f1": 0.7209262727737101,
+    "fp_basura_restante": 34777,
+    "fn_fugas_inducidas": 3065,
+    "fn_no_detectado": 16245,
+    "entidades_filtradas": 8665,
+    "tasa_filtrado_pct": 7.647635102336213
+  },
+  "pipeline_b": {
+    "name": "Pipeline (aws2-gatekeeper_improved-llm-mejora-prompts-reevaluado)",
+    "total_entities": 102542,
+    "tp": 69228,
+    "fp": 33314,
+    "fn": 19943,
+    "precision": 0.6751184880341714,
+    "recall": 0.7763510558365387,
+    "f1": 0.722204545335997,
+    "fp_basura_restante": 33314,
+    "fn_fugas_inducidas": 3897,
+    "fn_no_detectado": 16046,
+    "entidades_filtradas": 10761,
+    "tasa_filtrado_pct": 9.497541989179457
+  },
+  "delta": {
+    "winner_precision": "Pipeline (aws2-gatekeeper_improved-llm-mejora-prompts-reevaluado)",
+    "winner_recall": "Pipeline (aws2-gatekeeper_improved-llm-mejora-prompts)",
+    "winner_f1": "Pipeline (aws2-gatekeeper_improved-llm-mejora-prompts-reevaluado)",
+    "noise_leakage": {
+      "a_filtered_b_kept": 20,
+      "b_filtered_a_kept": 20
+    },
+    "over_cleaning": {
+      "a_killed_pii": 20,
+      "b_killed_pii": 20
+    }
+  }
+}
