@@ -63,8 +63,8 @@ from utils.token_healing import fix_entity_boundaries, batch_fix_entity_boundari
 DEFAULT_CONFIG = {
     # SetFit - CONFIGURACIÓN SIMPLIFICADA
     "setfit": {
-        "model_path": str(SCRIPT_DIR.parent.parent / "models" / "gatekeeper_setfit_improved"),
-        "confidence_threshold": 0.75,  # Subido para mejorar precisión
+        "model_path": str(SCRIPT_DIR.parent.parent / "models" / "gatekeeper_setfit"),
+        "confidence_threshold": 0.97,  # Subido para mejorar precisión
         "enable_pii_detector": False,  # SetFit clasifica todo
         "enable_low_confidence_filter": True,  # Filtrar baja confianza
     },
@@ -134,41 +134,68 @@ def load_documents(base_path: Path, valid_ids: Optional[set] = None, custom_docs
         # base_path / "corpus" / "documents",
        # base_path / "corpus" / "ANTIGUO" / "documents", 
        # base_path / "documents",
-        base_path / "corpus" / "output" / "aws2",
+        base_path / "corpus" / "output" / "aws2-prueba",
     ])
     
     for docs_dir in possible_dirs:
         if docs_dir.exists():
+            logging.debug(f"Buscando documentos en: {docs_dir}")
             # Si tenemos IDs validos, solo buscamos esos archivos
             if valid_ids:
                 count_found = 0
                 for doc_id in valid_ids:
-                    # Intentar encontrar el archivo con extension .txt
-                    txt_file = docs_dir / f"{doc_id}.txt"
-                    if txt_file.exists():
-                        try:
-                            text = txt_file.read_text(encoding="utf-8")
-                            documents[doc_id] = text
-                            count_found += 1
-                        except Exception as e:
-                            logging.warning(f"Error leyendo {txt_file}: {e}")
+                    # Normalizar doc_id: quitar extensión .txt si existe
+                    # (para evitar buscar "file.txt.txt" cuando doc_id ya tiene .txt)
+                    clean_doc_id = doc_id
+                    if clean_doc_id.endswith('.txt'):
+                        clean_doc_id = clean_doc_id[:-4]
+                    
+                    # Intentar encontrar el archivo con varias extensiones posibles
+                    possible_files = [
+                        docs_dir / f"{clean_doc_id}.txt",
+                        docs_dir / f"{clean_doc_id}.txt.txt",  # Algunos archivos tienen doble extensión
+                        docs_dir / f"{doc_id}",  # Intentar con el ID original tal cual
+                    ]
+                    
+                    for txt_file in possible_files:
+                        if txt_file.exists():
+                            try:
+                                text = txt_file.read_text(encoding="utf-8")
+                                documents[doc_id] = text  # Guardar con el doc_id original (puede tener .txt)
+                                count_found += 1
+                                break  # Encontrado, no buscar más extensiones
+                            except Exception as e:
+                                logging.warning(f"Error leyendo {txt_file}: {e}")
                 
                 if documents:
                     logging.info(f"Cargados {len(documents)} documentos específicos de {len(valid_ids)} requeridos desde {docs_dir}")
+                    logging.debug(f"  -> Encontrados: {count_found}, Faltantes: {len(valid_ids) - count_found}")
                     break
+                else:
+                    logging.debug(f"  -> No se encontraron documentos en {docs_dir}")
             else:
                 # Comportamiento original: cargar todo (LENTO si hay muchos archivos)
-                for txt_file in docs_dir.glob("*.txt"):
-                    doc_id = txt_file.stem
-                    try:
-                        text = txt_file.read_text(encoding="utf-8")
-                        documents[doc_id] = text
-                    except Exception as e:
-                        logging.warning(f"Error leyendo {txt_file}: {e}")
+                # Buscar tanto .txt como .txt.txt
+                for pattern in ["*.txt", "*.txt.txt"]:
+                    for txt_file in docs_dir.glob(pattern):
+                        # Para .txt.txt, quitar ambas extensiones
+                        doc_id = txt_file.stem
+                        if doc_id.endswith('.txt'):
+                            doc_id = doc_id[:-4]  # Quitar el .txt extra
+                        
+                        # Evitar duplicados
+                        if doc_id not in documents:
+                            try:
+                                text = txt_file.read_text(encoding="utf-8")
+                                documents[doc_id] = text
+                            except Exception as e:
+                                logging.warning(f"Error leyendo {txt_file}: {e}")
                 
                 if documents:
                     logging.info(f"Cargados {len(documents)} documentos desde {docs_dir}")
                     break
+                else:
+                    logging.debug(f"  -> No se encontraron documentos en {docs_dir}")
     
     return documents
 
@@ -433,19 +460,13 @@ class FullPipeline:
         
         if documents:
             self.logger.info(f"  -> Documentos cargados: {len(documents)}")
-            # Añadir contexto a todas las entidades
-            normalized = add_context_to_entities(normalized, documents)
             
-            # Contar cuántas tienen contexto
-            with_context = sum(1 for e in normalized if e.get('context'))
-            self.logger.info(f"  -> Entidades con contexto: {with_context}/{len(normalized)}")
-        else:
-            self.logger.warning("  -> No se pudieron cargar documentos, SetFit usará solo el texto de la entidad")
-        
-        # ====================================================================
-        # PASO 0.5: Token Healing - Reparar fronteras de entidades
-        # ====================================================================
-        if documents:
+            # ================================================================
+            # PASO 0.5: Token Healing PRIMERO - Reparar fronteras de entidades
+            # ================================================================
+            # IMPORTANTE: Debe ejecutarse ANTES de extraer contexto para que
+            # los offsets (start/end) estén corregidos cuando se use
+            # doc_text[start:end] para extraer el contexto.
             self.logger.info("\n[REPARACIÓN] Aplicando token healing para corregir fronteras...")
             
             normalized = apply_token_healing_to_entities(normalized, documents)
@@ -453,6 +474,20 @@ class FullPipeline:
             # Contar cuántas fueron reparadas
             healed_count = sum(1 for e in normalized if e.get('boundary_fixed', False))
             self.logger.info(f"  -> Entidades reparadas: {healed_count}/{len(normalized)}")
+            
+            # ================================================================
+            # PASO 0.6: Extraer contexto CON OFFSETS CORREGIDOS
+            # ================================================================
+            # IMPORTANTE: Se ejecuta DESPUÉS del healing para usar los offsets
+            # correctos y garantizar consistencia entre entity_text y context.
+            self.logger.info("\n[CONTEXTO] Extrayendo contexto con offsets corregidos...")
+            normalized = add_context_to_entities(normalized, documents)
+            
+            # Contar cuántas tienen contexto
+            with_context = sum(1 for e in normalized if e.get('context'))
+            self.logger.info(f"  -> Entidades con contexto: {with_context}/{len(normalized)}")
+        else:
+            self.logger.warning("  -> No se pudieron cargar documentos, SetFit usará solo el texto de la entidad")
         
         # ====================================================================
         # PASO 1: Dict Filters (PRE-FILTER)
@@ -493,8 +528,8 @@ class FullPipeline:
                 # PII se añade a final_kept
                 final_kept.extend(pii_entities)
                 
-                # RUIDO se guarda por separado para estadísticas
-                final_ruido.extend(ruido_entities)
+                # RUIDO NO se añade a final_ruido todavía - esperamos al LLM
+                # (para evitar duplicados cuando LLM las rescate o filtre)
                 
                 # Ruido pasa a LLM si queremos ser conservadores (Rescate final)
                 to_llm = ruido_entities
@@ -585,10 +620,10 @@ class FullPipeline:
                     for i, e in enumerate(llm_rescued[:3], 1):
                         self.logger.debug(f"     {i}. {e.get('text', 'N/A')[:50]} (razón: {e.get('llm_reasoning', 'N/A')[:80]})")
                 
-                # Añadir rescatados a PII
+                # Añadir rescatados a PII (la clasificación final)
                 final_kept.extend(llm_rescued)
                 
-                # Añadir filtrados a RUIDO
+                # Añadir filtrados a RUIDO (la clasificación final)
                 final_ruido.extend(llm_filtered)
                 
             except Exception as e:
@@ -600,11 +635,14 @@ class FullPipeline:
                 final_kept.extend(to_llm)
         else:
             if to_llm:
-                self.logger.info(f"\n[PASO 3/3] LLM Judge... OMITIDO ({len(to_llm)} entidades DESCARTADAS)")
-                # Marcar como RUIDO las que quedaron sin evaluar
+                self.logger.info(f"\n[PASO 3/3] LLM Judge... OMITIDO ({len(to_llm)} entidades marcadas como RUIDO)")
+                # Si LLM está deshabilitado, las entidades RUIDO de SetFit
+                # se añaden a final_ruido (no hay rescate posible)
                 for e in to_llm:
-                    e["classification"] = "RUIDO"
-                    e["classification_source"] = "setfit_filtered"
+                    # Ya vienen con classification="RUIDO" de SetFit
+                    # Solo asegurar que classification_source sea correcto
+                    if e.get("classification_source") == "setfit":
+                        pass  # Ya está bien marcado
                 final_ruido.extend(to_llm)
             else:
                 self.logger.info("\n[PASO 3/3] LLM Judge... OMITIDO")
