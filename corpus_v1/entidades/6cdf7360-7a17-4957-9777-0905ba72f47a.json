@@ -1,0 +1,33 @@
+{
+  "id": "6cdf7360-7a17-4957-9777-0905ba72f47a",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitaldelmar.es/paciente/87654321B"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalregional.org/paciente/AB123456"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "Fax administrativo: 93 567 12 34"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 95 227 89 01"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Samuel Costa Jiménez"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "julio de 2023"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "B-87654321"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "0389d1cc-cbb0-4760-91f0-0953fa161e8c",
+  "data": [
+    {
+      "entity": "PROFESION",
+      "text": "Médico tratante"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "A123456789"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "5678 XYZ"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "ABC-1234"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "NHC-2024-789"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Elena Rodríguez Martínez"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "ID-2024-789123"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-991122"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "http://www.meddocan.es"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Portugal"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Francia"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Alemania"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud La Fortuna"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Familiar femenino directo"
+    }
+  ]
+}

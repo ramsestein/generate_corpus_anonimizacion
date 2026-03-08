@@ -1,0 +1,29 @@
+{
+  "id": "81e6d2ad-3081-4f6c-b7a7-04fb97354582",
+  "data": [
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-987654"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://portal.hospitalclinic.es/hc/M123N"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237638"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.m@centromedicoandalucia.com"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "María López Martínez, hermana"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Representante familiar"
+    }
+  ]
+}

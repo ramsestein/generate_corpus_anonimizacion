@@ -1,0 +1,61 @@
+{
+  "id": "614a3ba5-e3e3-4e8c-8f37-c17e7dafe1bf",
+  "data": [
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Alergia a amoxicilina."
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Alergia a látex"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "ID-ASIST-99234"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital General Universitario Central"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Centro de Salud Hortaleza"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella unilar del dedo índice derecho"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "07/2023"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 95 227 89 01"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 96 723 45 10"
+    },
+    {
+      "entity": "PAIS",
+      "text": "México"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Identificación del vehículo JHM123456789012"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Silvia Vega Castro"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-33445566"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237647"
+    }
+  ]
+}

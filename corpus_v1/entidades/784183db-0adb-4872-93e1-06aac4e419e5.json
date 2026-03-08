@@ -1,0 +1,45 @@
+{
+  "id": "784183db-0adb-4872-93e1-06aac4e419e5",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/12345678"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "sexagenario de 67 años"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "P-77120984"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "T-159487263"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-334455"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas XYZ-123"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 345 09 87"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "cmartinez@sanitassalud.es"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano general"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Agosto 2023"
+    }
+  ]
+}

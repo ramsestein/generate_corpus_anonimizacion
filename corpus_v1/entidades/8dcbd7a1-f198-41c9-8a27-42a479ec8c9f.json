@@ -1,0 +1,37 @@
+{
+  "id": "8dcbd7a1-f198-41c9-8a27-42a479ec8c9f",
+  "data": [
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Samuel Costa Jiménez"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Femenina"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle de la Princesa 25"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-654321"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "10 de julio de 2023"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Italia"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-789234"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo apoyo diabetes tipo 2"
+    }
+  ]
+}

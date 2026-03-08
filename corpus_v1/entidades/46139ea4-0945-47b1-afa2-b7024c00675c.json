@@ -1,0 +1,45 @@
+{
+  "id": "46139ea4-0945-47b1-afa2-b7024c00675c",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://www.hospitalgeneral.es/pacientes/consulta-resultados"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "http://192.168.1.15:8080"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "VIN 2T2BK1BA3FC123456"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-123456"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital de la Serranía de Ronda"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Agencia de Salud Pública Regional"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 876 21 00"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico residente"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "experto en cirugía valvular"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-765-4321"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "3c985d26-75c1-4b85-b600-39b5beea9066",
+  "data": [
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-445566"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "ID-PAC-2024-5678"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Número de chasis WBA1234567890ABCD"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital 12 de Octubre"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/789123/informe"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/AB123CD"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-87654321-2"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 28 124 50"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 789123456 01"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "LTS4098176"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "cmartinez@centrodesaludvital.es"
+    }
+  ]
+}

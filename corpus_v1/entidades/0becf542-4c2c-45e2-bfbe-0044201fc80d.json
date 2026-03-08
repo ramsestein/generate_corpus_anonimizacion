@@ -1,0 +1,33 @@
+{
+  "id": "0becf542-4c2c-45e2-bfbe-0044201fc80d",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-456-7890"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-654-3210"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "10 de julio de 2023"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "paciente de 67 años"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Alergia a látex"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Mujer adulta"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Registro dactilar del pulgar derecho"
+    }
+  ]
+}

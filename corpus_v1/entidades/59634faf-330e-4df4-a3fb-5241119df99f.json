@@ -1,0 +1,57 @@
+{
+  "id": "59634faf-330e-4df4-a3fb-5241119df99f",
+  "data": [
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2023-345678"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Centro Hospitalario Central"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 411 23 45"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 765 99 00"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Laura Fernández Martín"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "UH-7749C"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "M67891204F"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Alergia a amoxicilina."
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Martínez, Elena"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "B26483571"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 27 122 44"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Colombia"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "12 de noviembre de 2023"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "0be5126b-5026-480b-a197-16c86eb02e61",
+  "data": [
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 93 245 67 18"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "lucia.martinez@cs-atencionprimaria.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana.m@hospitaldelmar.es"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas XYZ-123"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Especialista en Medicina Interna"
+    }
+  ]
+}

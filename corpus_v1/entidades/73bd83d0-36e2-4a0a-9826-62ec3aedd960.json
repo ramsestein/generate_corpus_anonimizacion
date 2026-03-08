@@ -1,0 +1,41 @@
+{
+  "id": "73bd83d0-36e2-4a0a-9826-62ec3aedd960",
+  "data": [
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Ruiz Martínez, Elena"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Clínico de la Capital"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Programa de apoyo para el control metabólico"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237650"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "P987654321"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida del Paciente 10"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Número de serie 9BW1234567890"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "juan.lopez@sanitaspablo.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "cmartinez@sanitassalud.es"
+    }
+  ]
+}

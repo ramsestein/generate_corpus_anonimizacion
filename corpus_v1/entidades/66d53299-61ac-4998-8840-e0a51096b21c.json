@@ -1,0 +1,61 @@
+{
+  "id": "66d53299-61ac-4998-8840-e0a51096b21c",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-567-8901"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "X901234567"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-789013"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano general"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano cardiovascular"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "VIN 1HGCM82633A123456"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Número de serie del vehículo 5XYZ987654321"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Junio 2023"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida del Doctor Fleming 22"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida de la Albufera 127"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-2023-7845"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "HC-EMP-2023-555"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/area_privada"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://webpaciente.hgugm.es/hc-seguro/7890ABCD12"
+    }
+  ]
+}

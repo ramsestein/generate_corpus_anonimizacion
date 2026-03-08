@@ -1,0 +1,49 @@
+{
+  "id": "6e744e93-c750-401d-8a85-d78b2f06a76c",
+  "data": [
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "H-99234501"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 93 245 67 18"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente mujer"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "pacientes.hospitalregional.es/lab"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Ambulatorio Urbano San Benito"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital 12 de Octubre"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Clínico de la Capital"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "pacientes.santpau.cat"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "varón de 67 años"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Impresión dactilar del índice derecho"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237656"
+    }
+  ]
+}

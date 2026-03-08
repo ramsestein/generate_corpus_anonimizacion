@@ -1,0 +1,45 @@
+{
+  "id": "d16434f9-c9ab-41de-a3a8-34b8e86378c7",
+  "data": [
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Familiar responsable"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Unidad de Salud Comunitaria"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "sujeto de 67 años"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Identificación del vehículo JHM123456789012"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital 12 de Octubre"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "COD-ADM-789123"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-789234"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Marta Vidal López"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Martínez, Elena"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "cmartinez@sanitassalud.es"
+    }
+  ]
+}

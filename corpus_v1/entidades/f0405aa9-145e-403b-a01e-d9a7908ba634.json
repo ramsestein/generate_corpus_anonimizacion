@@ -1,0 +1,49 @@
+{
+  "id": "f0405aa9-145e-403b-a01e-d9a7908ba634",
+  "data": [
+    {
+      "entity": "PAIS",
+      "text": "Chile"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "C555123456"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "C-555123789"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Título de Médico"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida de la Albufera 127"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "67 años, sexo femenino"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitalclinicomalaga.org"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitaldelmar.es/paciente/87654321B"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://portalclinico.hmh.es/ficha/789XYZ"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Finales de junio de 2023"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Centro de Salud Chamberí"
+    }
+  ]
+}

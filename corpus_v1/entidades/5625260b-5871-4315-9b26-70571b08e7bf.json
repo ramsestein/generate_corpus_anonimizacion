@@ -1,0 +1,45 @@
+{
+  "id": "5625260b-5871-4315-9b26-70571b08e7bf",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-456-7890"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-789-0123"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano general"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://www.hospitalregional.es/pacientes/acceso-seguro"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://expediente.hospitalcentral.es/paciente/UI89012BV"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas DEF-456"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Sra. Elena Castillo Domínguez"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "varón de 67 años"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HCL-2024-331682"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2023-847362"
+    }
+  ]
+}

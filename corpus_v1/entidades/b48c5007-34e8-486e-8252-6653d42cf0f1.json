@@ -1,0 +1,37 @@
+{
+  "id": "b48c5007-34e8-486e-8252-6653d42cf0f1",
+  "data": [
+    {
+      "entity": "INSTITUCION",
+      "text": "Clínica Universitaria San Carlos"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas ABC-789"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.clinicauniversitaria.es"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "P-9916A7K3"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Impresión del dedo índice, mano derecha"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "María Rodríguez López"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Departamento de Salud de Valencia"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano general"
+    }
+  ]
+}

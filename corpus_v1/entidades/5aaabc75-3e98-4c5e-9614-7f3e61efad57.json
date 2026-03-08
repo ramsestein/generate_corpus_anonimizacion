@@ -1,0 +1,61 @@
+{
+  "id": "5aaabc75-3e98-4c5e-9614-7f3e61efad57",
+  "data": [
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "EC-789456"
+    },
+    {
+      "entity": "PAIS",
+      "text": "México"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "cmartinez@centrodesaludvital.es"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Levante"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Puerta de Hierro"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle de la Alameda 47"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalcentral.es/paciente/area_privada"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://hc-e.hospitalregional.es/paciente/ZQ987W654"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-123-4567"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella dactilar del segundo dedo mano derecha"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella dactilar derecha, índice"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-2023-8821"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "47 08 28 123 45"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Complejo Asistencial Virgen de la Luz"
+    }
+  ]
+}

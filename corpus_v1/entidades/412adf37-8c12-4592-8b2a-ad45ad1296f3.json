@@ -1,0 +1,57 @@
+{
+  "id": "412adf37-8c12-4592-8b2a-ad45ad1296f3",
+  "data": [
+    {
+      "entity": "PROFESION",
+      "text": "especialista en cirugía"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del Diagnóstico 7"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Área de Salud de la Comunidad Valenciana"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237650"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-FC88991B"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HCL-2024-331682"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "67 años de edad"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "P-987654321"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "B-28461937"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "Fax administrativo: 93 567 12 34"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "192.168.1.45"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://sae.hospitaldelmar.cat/paciente/3344L"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Patricia Navarro"
+    }
+  ]
+}

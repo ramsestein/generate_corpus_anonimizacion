@@ -1,0 +1,45 @@
+{
+  "id": "7f81fdcd-fca6-4693-8735-9bdeb9c2a325",
+  "data": [
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "María Rodríguez Sánchez"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Antonio José Navarro Linares"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 234 87 65"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida del Doctor Fleming 22"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-112233"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "a.martinez@centrosalud3.es"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella dactilar del dedo índice derecho"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://pacientes.sanidad.gob.es/consulta/AB234CD56"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente mujer"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Patricia Silva Mendoza"
+    }
+  ]
+}

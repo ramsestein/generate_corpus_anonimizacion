@@ -1,0 +1,21 @@
+{
+  "id": "b44c9745-6b37-478c-8f4d-c5e5dcdcaeba",
+  "data": [
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "MED-12345"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Identificación dactilar: patrón lazo derecho."
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida del Paciente 10"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Gregorio Marañón"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "781d2ca0-e1bc-4eaf-8ff3-9717e0274266",
+  "data": [
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "PER-SAN-789"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Registro vehicular GHI-789"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "(555) 234-5678"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/78945612"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitaldelmar.es/paciente/87654321B"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "Fax administrativo: 93 567 12 34"
+    }
+  ]
+}

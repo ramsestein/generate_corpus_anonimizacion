@@ -1,0 +1,53 @@
+{
+  "id": "d579b072-1ec7-4170-ae7b-9bd0e6653230",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-567-8901"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "634-89-12-47"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "VIN 1HGCM82633A123456"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Mujer"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-9876543210"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "P567890123"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 93 245 67 18"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Patricia Silva Mendoza"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237633"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Doctor en Medicina"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Colombia"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-CL-339156"
+    }
+  ]
+}

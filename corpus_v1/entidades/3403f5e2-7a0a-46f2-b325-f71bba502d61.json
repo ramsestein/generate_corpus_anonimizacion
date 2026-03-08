@@ -1,0 +1,29 @@
+{
+  "id": "3403f5e2-7a0a-46f2-b325-f71bba502d61",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "c.martinez@clinicadigestiva.net"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana.martinez@sanidad.es"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón lazo en el segundo dedo de la mano derecha."
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón dactilar del dedo índice derecho"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "234-88-9012"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitalclinicomalaga.org"
+    }
+  ]
+}

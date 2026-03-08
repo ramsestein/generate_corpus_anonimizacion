@@ -1,0 +1,25 @@
+{
+  "id": "6bd6b9de-6005-46be-87bf-900dbab7d306",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-890-1234"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-765-4321"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://gestionclinica.hgugm.es/expediente-digital/AA123456"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://www.hospitalgeneral.es/pacientes/consulta-resultados"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-445566"
+    }
+  ]
+}

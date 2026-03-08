@@ -1,0 +1,41 @@
+{
+  "id": "48833a85-ed00-44e8-8124-15499cb9b86b",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "amartinez@cs-torrecardenas.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "c.martinez@clinicadigestiva.net"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "VIN 2T2BK1BA3FC123456"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-123456"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "SERV-9876"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Centro Hospitalario Central"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo de habilidades de afrontamiento"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo apoyo diabetes tipo 2"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad Valenciana (CV)"
+    }
+  ]
+}

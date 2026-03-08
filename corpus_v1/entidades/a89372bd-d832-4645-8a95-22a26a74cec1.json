@@ -1,0 +1,45 @@
+{
+  "id": "a89372bd-d832-4645-8a95-22a26a74cec1",
+  "data": [
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente de sexo femenino"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 96 723 45 10"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano cardiotorácico"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Portugal"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana_martinez@salud.madrid.org"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida de la Albufera 132"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital General Universitario Central"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Índice derecho con formación de lazo."
+    },
+    {
+      "entity": "FECHAS",
+      "text": "julio de 2023"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Familiar cercano"
+    }
+  ]
+}

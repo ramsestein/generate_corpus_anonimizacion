@@ -1,0 +1,25 @@
+{
+  "id": "a1698833-438e-4d8f-b154-bcc729c7af40",
+  "data": [
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-87654321-X"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Captura biométrica del pulgar derecho"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "http://192.168.1.15:8080/api/pacientes"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital San Juan de Dios"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "cmartinez@sanitassalud.es"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2d1c038b-0aae-4583-8e61-1a25817c7207",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-789-0123"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-765-4321"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Dr. Javier Roldán Nieto"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Doctor en Medicina"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "10 de julio de 2023"
+    }
+  ]
+}

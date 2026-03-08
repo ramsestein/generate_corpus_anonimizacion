@@ -1,0 +1,33 @@
+{
+  "id": "6dcd1b89-7754-4acd-a4db-246b253c1cd4",
+  "data": [
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-98765432-M"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "45.876.321-Z"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "HCS-2024-001"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-468-23"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-987654"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-12398745"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "DT-33986725"
+    }
+  ]
+}

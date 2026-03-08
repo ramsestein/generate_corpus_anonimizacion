@@ -1,0 +1,33 @@
+{
+  "id": "842107f6-acc1-4367-838b-93cc7e44f8d0",
+  "data": [
+    {
+      "entity": "PAIS",
+      "text": "Portugal"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://pacientes.sanidad.gob.es/consulta/AB234CD56"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Instituto Nacional de Salud"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Mujer adulta"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "C456789012"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 30 123 45"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2023-885412"
+    }
+  ]
+}

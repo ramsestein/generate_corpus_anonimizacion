@@ -1,0 +1,61 @@
+{
+  "id": "13abca00-065b-456a-930c-b408b22e8006",
+  "data": [
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Consultorio General del Este"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "A-33890512"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "P-987654321"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Registro dactilar del pulgar derecho"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.centromedicobarcelona.org"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.saludcantabria.es"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Junio 2023"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "amartinez@hospitalgeneral.com"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "CNS-88204571"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REG-2024-445566"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "234-88-9012"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 14 125 01"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "varón de 67 años"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237640"
+    }
+  ]
+}

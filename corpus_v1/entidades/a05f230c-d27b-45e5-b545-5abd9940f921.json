@@ -1,0 +1,53 @@
+{
+  "id": "a05f230c-d27b-45e5-b545-5abd9940f921",
+  "data": [
+    {
+      "entity": "PAIS",
+      "text": "México"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "T-88956321"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-654321"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital General Metropolitano"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Dr. Javier Roldán Nieto"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Sexo femenino"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Alergia a meperidina"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Alergia a AINEs (ibuprofeno, diclofenaco)."
+    },
+    {
+      "entity": "CALLE",
+      "text": "Ronda de la Ambulancia 15"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "CS-11223"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-890-1234"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad Autónoma Valenciana"
+    }
+  ]
+}

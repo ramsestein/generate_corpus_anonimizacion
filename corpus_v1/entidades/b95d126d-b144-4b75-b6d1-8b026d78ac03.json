@@ -1,0 +1,33 @@
+{
+  "id": "b95d126d-b144-4b75-b6d1-8b026d78ac03",
+  "data": [
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Elena Rodríguez Sánchez"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-123456"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.institutoclinicosevilla.com"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237645"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "sexagenario de 67 años"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "MED-12345"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del Diagnóstico 7"
+    }
+  ]
+}

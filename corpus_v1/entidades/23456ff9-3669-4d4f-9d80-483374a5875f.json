@@ -1,0 +1,65 @@
+{
+  "id": "23456ff9-3669-4d4f-9d80-483374a5875f",
+  "data": [
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico Especialista"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón ungueal del índice derecho (para variación)"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Trazo dactilar del pulgar derecho"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas DEF-456"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "15-07-2023"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-901-2345"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Levante"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Región de Murcia"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-901234"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 952 88 76 54"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Italia"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://hc.hospitalgeneral.es/expediente/PL45632MN"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "NHC-654123987"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-2024-789654"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Puesto de Salud La Esperanza"
+    }
+  ]
+}

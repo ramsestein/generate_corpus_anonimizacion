@@ -1,0 +1,57 @@
+{
+  "id": "c65bf827-9ebb-49f6-8d15-abe71cc4b22e",
+  "data": [
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "hermano"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "hermana"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Mujer adulta"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "maria.lopez@correo.es"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "123456789"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "123456789012"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "otro sujeto de asistencia"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "93-456-7890"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "A123456789"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro Médico Familiar La Paz"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud La Fortuna"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "https://temu.bio"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Graduado en Medicina"
+    }
+  ]
+}

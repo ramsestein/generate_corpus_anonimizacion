@@ -1,0 +1,53 @@
+{
+  "id": "216eeb3d-8075-4110-bb12-b5f74b8d9eb9",
+  "data": [
+    {
+      "entity": "PROFESION",
+      "text": "cirujano de tórax"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "especialista en cirugía"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Marcos Herrera Solís"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Femenina"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "Fax: 91 456 32 78"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas XYZ-123"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "IDC-5597B-23"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-P-2024-56789"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Plaza de la Medicina 1"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida de la Albufera 127"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "CONTACTO-UCI-2024-556"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-789012"
+    }
+  ]
+}

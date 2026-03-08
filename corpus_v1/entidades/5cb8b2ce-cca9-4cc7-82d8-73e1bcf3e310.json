@@ -1,0 +1,37 @@
+{
+  "id": "5cb8b2ce-cca9-4cc7-82d8-73e1bcf3e310",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.martinez@hospitalcentral.org"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico de cabecera"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 96 723 45 10"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Carlos Jiménez Ruiz"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Isabel Gutiérrez Mendoza"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Fuma esporádicamente en contextos sociales."
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Sesiones de educación diabetológica grupal"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Programa grupal para el manejo de la ansiedad"
+    }
+  ]
+}

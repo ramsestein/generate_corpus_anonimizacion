@@ -1,0 +1,41 @@
+{
+  "id": "acb0a907-11bf-48d3-92e8-bc90ab68bd16",
+  "data": [
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "M-369258147"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "portal.pacientes.hospitalregional.es"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historia.huvv.es/consulta/paciente/334455"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Clínica Periférica Norte"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-87654321"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237638"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-P-2024-333"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.m@institutoneurologico.es"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón de lazo en índice derecho."
+    }
+  ]
+}

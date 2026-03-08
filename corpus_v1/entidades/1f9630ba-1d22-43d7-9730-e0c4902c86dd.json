@@ -1,0 +1,45 @@
+{
+  "id": "1f9630ba-1d22-43d7-9730-e0c4902c86dd",
+  "data": [
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Carlos Fernández Silva"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "juan.perez@ejemplo.com"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "12345678A"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "12345678Z"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "enfermera"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Portugal"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://www.ejemplo.es"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "91-234-5678"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "96-123-4567"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. E. Martínez Ruiz"
+    }
+  ]
+}

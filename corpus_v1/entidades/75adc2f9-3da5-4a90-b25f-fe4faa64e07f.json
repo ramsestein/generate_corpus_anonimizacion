@@ -1,0 +1,41 @@
+{
+  "id": "75adc2f9-3da5-4a90-b25f-fe4faa64e07f",
+  "data": [
+    {
+      "entity": "CALLE",
+      "text": "Plaza de la Medicina 1"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "c.gomez@clinicabarcelona.com"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-77420836C"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 411 23 45"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital de la Cruz Roja"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella dactilar derecha, índice"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Captura biométrica del pulgar derecho"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón lazo en el segundo dedo de la mano derecha."
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Familiar a cargo (madre)"
+    }
+  ]
+}

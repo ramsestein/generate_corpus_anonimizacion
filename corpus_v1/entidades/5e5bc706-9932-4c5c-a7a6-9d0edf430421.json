@@ -1,0 +1,65 @@
+{
+  "id": "5e5bc706-9932-4c5c-a7a6-9d0edf430421",
+  "data": [
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "S456789123"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "C-555123789"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "La paciente refiere"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 986 37 12 45"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 96 723 45 10"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Principios de agosto de 2023"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237640"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-11223344"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Plaza de la Medicina 1"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Agencia de Salud Pública Regional"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "varón de 67 años"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "EXP-230945-D"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Italia"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "ALB9870123K"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas DEF-456"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "3858c570-a177-4203-91ad-69c1f26e6594",
+  "data": [
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "A7724C819"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "HC-22-887430"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Islas Baleares"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Región de Valencia"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital Regional del Norte"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico Especialista"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Hembra"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-654321"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas ABC-789"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-345-6789"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237638"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalregional.es/paciente/consulta"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://api.hospitalcentral.es/pacientes/12345678A"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Víctor Manuel Herrera Gil"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Segunda semana de julio 2023"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "12 de septiembre de 2023"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "7a3ec90b-b642-45d6-88a0-983271ae260d",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "agarcia@hospitalcentral.org"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Estados Unidos"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "F"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Carlos Méndez"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237645"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "V-11246789"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-890-1234"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud Las Rosas"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitaldelmar.es/paciente/87654321B"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "B274935618"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-78901234-K"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "09H665432R"
+    }
+  ]
+}

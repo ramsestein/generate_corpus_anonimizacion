@@ -1,0 +1,37 @@
+{
+  "id": "d95e0507-3887-4403-9265-d7fefab71d6d",
+  "data": [
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-87654321-0"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "ID-SALUD-456"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Javier Méndez Ortega"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico Especialista"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Hembra"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "estudiante de medicina"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo de apoyo para trastorno de ansiedad generalizada"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalregional.es/paciente/area-segura"
+    }
+  ]
+}

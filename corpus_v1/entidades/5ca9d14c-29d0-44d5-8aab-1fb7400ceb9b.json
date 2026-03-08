@@ -1,0 +1,25 @@
+{
+  "id": "5ca9d14c-29d0-44d5-8aab-1fb7400ceb9b",
+  "data": [
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "12345678A"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Máster en Ciencias Médicas"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "EMP-123456"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Cuidadora principal"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "1234 ABC"
+    }
+  ]
+}

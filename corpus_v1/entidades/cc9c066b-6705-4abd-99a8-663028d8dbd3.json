@@ -1,0 +1,41 @@
+{
+  "id": "cc9c066b-6705-4abd-99a8-663028d8dbd3",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitalcentralmadrid.es"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "BRC5538901P"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "B-28763419"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Alemania"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-567-8901"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REG-3098-2024"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "X789012345"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Clínica Periférica Norte"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Imagen dactilar del segundo dedo derecho"
+    }
+  ]
+}

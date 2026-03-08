@@ -1,0 +1,45 @@
+{
+  "id": "8754aa40-d85e-418e-a470-1f1b52f64611",
+  "data": [
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "B-58342901"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "FOLIO-612480"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Identificación del vehículo JHM123456789012"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital General Metropolitano"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-001234"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Colombia"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "edad: 67 años"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "192.168.1.15"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.clinicabarcelona.es/paciente/YW34567DF"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Castilla y León"
+    }
+  ]
+}

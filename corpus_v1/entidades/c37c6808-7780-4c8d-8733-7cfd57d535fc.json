@@ -1,0 +1,45 @@
+{
+  "id": "c37c6808-7780-4c8d-8733-7cfd57d535fc",
+  "data": [
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-9876543210"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "A987654321"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Paseo de la Salud 8"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237633"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-43015692"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalcentral.es/paciente/consulta/ZXC123987"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano responsable"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Clínico San Carlos"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.gomez@hospitalcentral.org"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Francia"
+    }
+  ]
+}

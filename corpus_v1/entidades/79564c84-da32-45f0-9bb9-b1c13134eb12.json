@@ -1,0 +1,49 @@
+{
+  "id": "79564c84-da32-45f0-9bb9-b1c13134eb12",
+  "data": [
+    {
+      "entity": "HOSPITAL",
+      "text": "Clínica Santa María"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-33445566"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "P-77120984"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "B-987654321"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Agencia de Salud Pública Regional"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Puerta de Hierro"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "profesional de cirugía de corazón"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano principal"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Puesto de Salud La Esperanza"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-556677"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas XYZ-123"
+    }
+  ]
+}

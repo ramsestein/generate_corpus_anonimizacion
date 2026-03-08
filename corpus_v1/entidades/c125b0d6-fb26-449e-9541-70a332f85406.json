@@ -1,0 +1,57 @@
+{
+  "id": "c125b0d6-fb26-449e-9541-70a332f85406",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "+34 911 23 45 67"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "+34 912 34 56 78"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano general"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "SERV-9876"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "M. Carmen R."
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "El familiar a cargo"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "María del Carmen Gutiérrez"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "Fax: 91 456 32 78"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Plaza de la Medicina 1"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Diplomado en Medicina"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella del dedo índice mano derecha"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro Médico Familiar Los Pinos"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Cristina Pons Mir"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "e58434db-4c51-4fb1-9dfc-8976bcc9f60d",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitaldelmar.cat"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "M-369258147"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana.martinez@hupa.es"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Provincia de Valencia"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-345-6789"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Agosto 2023"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Unidad de Salud Comunitaria El Mirador"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Sexo femenino"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237640"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas ABC-789"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "0d615294-2c6e-4a33-a513-6733ce261625",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "96-123-4567"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "enero de 2023"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Javier López Moreno"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "123456789012"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "1234567890"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 123 45 67"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 456 78 90"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "12345678A"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://www.hospitalgeneral.com"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://www.ejemplo.es"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "12345678A"
+    }
+  ]
+}

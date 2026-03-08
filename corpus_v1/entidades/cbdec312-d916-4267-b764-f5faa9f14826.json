@@ -1,0 +1,33 @@
+{
+  "id": "cbdec312-d916-4267-b764-f5faa9f14826",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://portal.paciente.sspa.es/hc/99887766F"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-987-6543"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 200123 01 9"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Centro Médico Especializado Insular"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Chile"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella del dedo índice mano derecha"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Biometría dactilar del pulgar derecho"
+    }
+  ]
+}

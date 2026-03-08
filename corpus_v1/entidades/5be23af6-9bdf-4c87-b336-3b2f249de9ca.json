@@ -1,0 +1,49 @@
+{
+  "id": "5be23af6-9bdf-4c87-b336-3b2f249de9ca",
+  "data": [
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "VIN 2T2BK1BA3FC123456"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Dactilograma del pulgar derecho"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-462-23"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "María Gutiérrez López"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Junio 2023"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 93 245 67 18"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Clínica Universitaria San Carlos"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Complejo Asistencial Virgen de la Luz"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Alergia a amoxicilina."
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Alicante"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 09 28 123 45"
+    }
+  ]
+}

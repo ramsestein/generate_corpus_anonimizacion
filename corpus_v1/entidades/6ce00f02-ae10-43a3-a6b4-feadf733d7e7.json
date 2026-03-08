@@ -1,0 +1,41 @@
+{
+  "id": "6ce00f02-ae10-43a3-a6b4-feadf733d7e7",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-678-9012"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Identificación del vehículo JHM123456789012"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 28 124 45"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/AB123CD456"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237639"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "LS-71230984"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Laura Pacheco Mendoza"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente mujer"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Título de Médico"
+    }
+  ]
+}

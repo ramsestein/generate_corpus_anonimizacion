@@ -1,0 +1,69 @@
+{
+  "id": "8b28db28-21a4-4cb9-9648-92211a782b02",
+  "data": [
+    {
+      "entity": "FECHAS",
+      "text": "abril de 2024"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "96-123-4567"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "91-234-5678"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "masculino"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "paciente.nombre@dominio.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "juan.perez@ejemplo.com"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "12345678A"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "A123456789"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "11223344C"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud y Bienestar"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "ID-2024-789123"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "enfermero"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital Universitario Ramón y Cajal"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital Universitario La Paz"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "1234 ABC"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "ABC-1234"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "d9ef858f-5c0e-4cb5-a2c6-39bb71da5311",
+  "data": [
+    {
+      "entity": "CALLE",
+      "text": "Travesía del Consultorio 5"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Paseo de la Habana 30"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Puerta de Hierro"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Centro Médico Especializado Insular"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/12345/acceso"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "674cfa55-1eeb-43a8-a0cb-d03c4aeab663",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "c.martinez@clinicadigestiva.net"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "a.martinez@clinicauniversitaria.es"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.clinicauniversitaria.es"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Tabaquismo intermitente."
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-123-4567"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida de la Albufera 127"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad Autónoma Valenciana"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Sra. Elena Castillo Domínguez"
+    }
+  ]
+}

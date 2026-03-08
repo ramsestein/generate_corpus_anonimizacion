@@ -1,0 +1,29 @@
+{
+  "id": "dd4f3325-94a8-4b01-a4cd-ae9dc1db27c1",
+  "data": [
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad Valenciana (CV)"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "pacientes.hospitalregional.es/lab"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://webpaciente.hgugm.es/hc-seguro/7890ABCD12"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "45 08 28 123 45"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente mujer"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Principios de agosto de 2023"
+    }
+  ]
+}

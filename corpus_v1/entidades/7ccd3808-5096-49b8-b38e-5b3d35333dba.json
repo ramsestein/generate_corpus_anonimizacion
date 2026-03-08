@@ -1,0 +1,61 @@
+{
+  "id": "7ccd3808-5096-49b8-b38e-5b3d35333dba",
+  "data": [
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella dactilar derecha: índice, arco simple"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-12345678"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Camino de los Pinares 120"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Individuo de sexo femenino"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-567-8901"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-123-4567"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "NHC-4562024"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "CNS-88204571"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Marta Vidal López"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "67 años, sexo femenino"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://webpaciente.hgugm.es/hc-seguro/7890ABCD12"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historia.huvv.es/consulta/paciente/334455"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/12345678"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Máster en Ciencias Médicas"
+    }
+  ]
+}

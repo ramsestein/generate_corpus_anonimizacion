@@ -1,0 +1,49 @@
+{
+  "id": "99f322e1-57e4-4bcb-b535-3d6aebebadab",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "mlopez@centromedicoandalucia.com"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Elena Sánchez Ruiz"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-284738-Z"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 30 123 45"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "S890123456"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Consultorio Local Santa Clara"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Registro biométrico del índice derecho"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Portugal"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "CON-2024-789012"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "Edad 72"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Junio 2023"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "5b37c539-88cf-4f6d-99a7-67eae24e118f",
+  "data": [
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-8472-AB6"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "123456789ABC"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud Norte"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud La Fortuna"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "5678 XYZ"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "1234 ABC"
+    }
+  ]
+}

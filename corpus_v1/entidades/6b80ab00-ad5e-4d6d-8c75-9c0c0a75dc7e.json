@@ -1,0 +1,57 @@
+{
+  "id": "6b80ab00-ad5e-4d6d-8c75-9c0c0a75dc7e",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "(555) 234-5678"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente mujer"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "CT-2024-789123"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Taller de autocuidado diabético"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Alergia a cefalosporinas."
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "XJY482739L"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida de la Albufera 135"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "luciamartinez@medicinaintegral.net"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Centro Hospitalario Central"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Instituto Nacional de Salud"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Universitario Ramón y Cajal"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella digital del pulgar derecho"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico Cirujano"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "f05bd58c-b8a2-43de-8eb6-ae502e8f8a80",
+  "data": [
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Javier Méndez Ortega"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Clínica Santa María"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Mujer"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/area_privada"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Terapia cognitivo-conductual grupal"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Consume tabaco de forma intermitente."
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "A7724C819"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella dactilar derecha, dedo anular, patrón lazo."
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "Mujer de 78 años"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "varón de 67 años"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Registro vehicular GHI-789"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "Fax: 91 456 32 78"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital General Universitario Central"
+    }
+  ]
+}

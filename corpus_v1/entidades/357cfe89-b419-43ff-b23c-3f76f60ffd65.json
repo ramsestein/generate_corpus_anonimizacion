@@ -1,0 +1,49 @@
+{
+  "id": "357cfe89-b419-43ff-b23c-3f76f60ffd65",
+  "data": [
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-001234"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "CT-2024-789012"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "M.ª Luisa Fernández Castro"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "ID-CLIN-2024-002"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "NHC-662301"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Junio 2023"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Refiere consumo tabáquico esporádico."
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-461-23"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital General Universitario Central"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro Médico Familiar Los Pinos"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "cmartinez@centrodesaludvital.es"
+    }
+  ]
+}

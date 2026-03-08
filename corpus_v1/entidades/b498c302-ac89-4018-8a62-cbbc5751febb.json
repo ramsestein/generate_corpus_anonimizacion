@@ -1,0 +1,33 @@
+{
+  "id": "b498c302-ac89-4018-8a62-cbbc5751febb",
+  "data": [
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "sujeto de 67 años"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "cmartinez@hospitallapaz.es"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2023-334455"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Consultorio Local Santa Clara"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Agosto 2023"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "F"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Alergia a antiinflamatorios no esteroideos"
+    }
+  ]
+}

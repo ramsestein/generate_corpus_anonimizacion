@@ -1,0 +1,41 @@
+{
+  "id": "047dbcb7-3bfe-4abc-9ab5-a699a177ef9b",
+  "data": [
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "edad: 67 años"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida del Paciente 10"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "MED-12345"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-462-23"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-123456"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital General Metropolitano"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.centrodiagnosticobarcelona.com"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Consultorio General La Rivera"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Título de Médico"
+    }
+  ]
+}

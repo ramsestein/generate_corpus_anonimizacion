@@ -1,0 +1,45 @@
+{
+  "id": "42b0ee59-e4ff-4d69-b938-dda00f58c6f6",
+  "data": [
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-654321"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Programa de apoyo para el control metabólico"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Consumo de tabaco ocasional."
+    },
+    {
+      "entity": "FECHAS",
+      "text": "julio de 2023"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida del Doctor Fleming 22"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "N-77401236"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/12345678"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/area_privada"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud Las Rosas"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Título de Médico"
+    }
+  ]
+}

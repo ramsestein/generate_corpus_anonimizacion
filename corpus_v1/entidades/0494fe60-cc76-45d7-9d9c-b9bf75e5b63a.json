@@ -1,0 +1,53 @@
+{
+  "id": "0494fe60-cc76-45d7-9d9c-b9bf75e5b63a",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitaldelmar.cat"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "Z789012345"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "B123456789012"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-460-23"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas DEF-456"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 532 89 01"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "AS-2024-789012"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Javier Méndez Ortega"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Estados Unidos"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Región de Valencia"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "País Vasco"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Pariente cercano"
+    }
+  ]
+}

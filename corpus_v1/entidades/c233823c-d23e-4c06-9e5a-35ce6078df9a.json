@@ -1,0 +1,57 @@
+{
+  "id": "c233823c-d23e-4c06-9e5a-35ce6078df9a",
+  "data": [
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Número de chasis WBA1234567890ABCD"
+    },
+    {
+      "entity": "PAIS",
+      "text": "México"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico residente"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano a cargo"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida de la Albufera 125"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitalclinicomalaga.org"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Diplomado en Medicina"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-876-5432"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://portal.paciente.sspa.es/hc/99887766F"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalregional.org/paciente/ABC123456"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Puesto de Salud La Esperanza"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "B-58294107"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Programa educativo de autocuidado diabético"
+    }
+  ]
+}

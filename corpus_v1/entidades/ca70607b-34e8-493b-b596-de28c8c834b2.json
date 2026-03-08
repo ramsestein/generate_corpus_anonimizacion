@@ -1,0 +1,73 @@
+{
+  "id": "ca70607b-34e8-493b-b596-de28c8c834b2",
+  "data": [
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-789654"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-345-6789"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-654-3210"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REG-INTERNO-789123"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-77420836C"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://portalclinico.hmh.es/ficha/789XYZ"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "plataforma.hospitalregional.es/resultados-clinicos"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.centromedicobarcelona.org"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Atención Primaria Vista Hermosa"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano principal"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "Profesional de fisioterapia"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "P-88Z4421"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-78901234-K"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 28 122 45"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 411 23 45"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Fumador social ocasional."
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "grupo de apoyo oncológico"
+    }
+  ]
+}

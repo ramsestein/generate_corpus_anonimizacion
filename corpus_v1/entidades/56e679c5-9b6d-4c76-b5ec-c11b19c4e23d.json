@@ -1,0 +1,53 @@
+{
+  "id": "56e679c5-9b6d-4c76-b5ec-c11b19c4e23d",
+  "data": [
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-87654321-0"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella dactilar del segundo dedo mano derecha"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 345 09 87"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "07/2023"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Doctor en Medicina"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Ana Beltrán Gil"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Identificación del vehículo JHM123456789012"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-456789"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-464-23"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del General Díaz Porlier 60"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "M.ª Luisa Fernández Castro"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2023-885412"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "1c3ebcf0-8623-4e1f-b7cc-74d8f77abceb",
+  "data": [
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "B-987654321"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Muestra biométrica del índice derecho"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "web.hospitalregional.es/resultados-pruebas"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/789123/informe"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Centro Médico Especializado Insular"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Centro de Salud Hortaleza"
+    }
+  ]
+}

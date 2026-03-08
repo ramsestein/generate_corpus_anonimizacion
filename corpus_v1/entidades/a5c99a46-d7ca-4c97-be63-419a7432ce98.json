@@ -1,0 +1,45 @@
+{
+  "id": "a5c99a46-d7ca-4c97-be63-419a7432ce98",
+  "data": [
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "ID_123456"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "123456789012"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "123456789"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "1234 ABC"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "paciente.nombre@dominio.es"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Elena Rodríguez Martínez"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud La Fortuna"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "enero de 2023"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "familiar"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "otro sujeto de asistencia"
+    }
+  ]
+}

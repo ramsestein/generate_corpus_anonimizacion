@@ -1,0 +1,29 @@
+{
+  "id": "7d567324-e318-4202-86cb-6251da6f8547",
+  "data": [
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud Las Rosas"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "N012345678"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Hembra"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico General"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Fumador social ocasional."
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo de apoyo oncológico"
+    }
+  ]
+}

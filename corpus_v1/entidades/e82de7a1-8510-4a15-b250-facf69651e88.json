@@ -1,0 +1,33 @@
+{
+  "id": "e82de7a1-8510-4a15-b250-facf69651e88",
+  "data": [
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "ING-789456"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico cirujano"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-99008877-F"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Género femenino"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "ID-CLIN-4592"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Número de chasis WBA1234567890ABCD"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Doctor en Medicina"
+    }
+  ]
+}

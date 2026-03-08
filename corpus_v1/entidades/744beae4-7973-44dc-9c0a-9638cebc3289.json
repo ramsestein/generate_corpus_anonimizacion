@@ -1,0 +1,61 @@
+{
+  "id": "744beae4-7973-44dc-9c0a-9638cebc3289",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-876-5432"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-123-4567"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico cardiocirujano"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano general"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Cristina Pons Mir"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "Fax: 91 456 32 78"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://pacientes.sanidad.gob.es/consulta/AB234CD56"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.centrodiagnosticobarcelona.com"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Identificación dactilar: patrón lazo derecho."
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Castilla y León"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Región de Valencia"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2023-123987"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-445566"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "CONT-2024-776655"
+    }
+  ]
+}

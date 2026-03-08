@@ -1,0 +1,41 @@
+{
+  "id": "2af0655c-eb65-438a-a981-480ba00872a3",
+  "data": [
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Isabel Gutiérrez Mendoza"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Centro Médico Universitario"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2023-345678"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitaldelmar.es/paciente/87654321B"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237638"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-66190324"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana.garcia@clinicabarcelona.com"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 96 723 45 10"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Levante"
+    }
+  ]
+}

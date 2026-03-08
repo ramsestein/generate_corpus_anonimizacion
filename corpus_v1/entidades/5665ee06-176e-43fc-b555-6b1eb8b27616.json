@@ -1,0 +1,49 @@
+{
+  "id": "5665ee06-176e-43fc-b555-6b1eb8b27616",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.m@institutoneurologico.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana_martinez@salud.madrid.org"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "grupo sanguíneo A positivo"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "ING-789456"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico General"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro Médico Familiar Los Pinos"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Representante familiar"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-456-7890"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Mujer"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida de Betanzos 22"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del Diagnóstico 7"
+    }
+  ]
+}

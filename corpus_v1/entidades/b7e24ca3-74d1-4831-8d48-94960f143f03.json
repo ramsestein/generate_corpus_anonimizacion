@@ -1,0 +1,81 @@
+{
+  "id": "b7e24ca3-74d1-4831-8d48-94960f143f03",
+  "data": [
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237650"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98217634"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 21 345 789"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "M.ª Luisa Fernández Castro"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Ana Rodríguez López"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Número de serie 9BW1234567890"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "MED-12345"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.martinez@clinica.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "c.martinez@clinicadigestiva.net"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana.garcia@clinicabarcelona.es"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2023-445566"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Captura biométrica del pulgar derecho"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón ungueal del índice derecho (para variación)"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "sujeto de 67 años"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "Terapeuta ocupacional"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano responsable"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "Profesional tratante"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Atención Primaria Vista Hermosa"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente de sexo femenino"
+    }
+  ]
+}

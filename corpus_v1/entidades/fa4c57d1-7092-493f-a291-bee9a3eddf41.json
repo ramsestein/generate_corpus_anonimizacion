@@ -1,0 +1,41 @@
+{
+  "id": "fa4c57d1-7092-493f-a291-bee9a3eddf41",
+  "data": [
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Antonio José Navarro Linares"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "N012345678"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Argentina"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "SAN-67890"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital Virgen del Rocío"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "15-07-2023"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitalclinicomalaga.org"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Máster en Ciencias Médicas"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 345 09 87"
+    }
+  ]
+}

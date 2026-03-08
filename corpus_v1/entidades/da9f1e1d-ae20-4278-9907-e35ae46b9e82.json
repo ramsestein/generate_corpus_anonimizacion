@@ -1,0 +1,29 @@
+{
+  "id": "da9f1e1d-ae20-4278-9907-e35ae46b9e82",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.m@centromedicoandalucia.com"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Paseo de la Salud 8"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Diplomado en Medicina"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "mujer de 67 años"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Isabel Gutiérrez Mendoza"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Sesión grupal de seguimiento de pacientes diabéticos"
+    }
+  ]
+}

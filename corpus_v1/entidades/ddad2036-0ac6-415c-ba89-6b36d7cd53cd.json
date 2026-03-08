@@ -1,0 +1,61 @@
+{
+  "id": "ddad2036-0ac6-415c-ba89-6b36d7cd53cd",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitalclinicomalaga.org"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 876 21 00"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "julio de 2023"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Individuo de sexo femenino"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "09H665432R"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "A12345678"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico Especialista"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Puesto de Salud La Esperanza"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "paciente sexagenario"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico cirujano"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico de cabecera"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-789123-2024"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana.garcia@clinicabarcelona.com"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "agarcia@hospitalcentral.org"
+    }
+  ]
+}

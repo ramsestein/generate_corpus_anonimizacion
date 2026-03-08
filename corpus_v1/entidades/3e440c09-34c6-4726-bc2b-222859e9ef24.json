@@ -1,0 +1,37 @@
+{
+  "id": "3e440c09-34c6-4726-bc2b-222859e9ef24",
+  "data": [
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2023-345678"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "CONT-2025-001122"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitalclinicomalaga.org"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Ignacio Rojas Delgado"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/AB123456"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "VIN 5XY12345678901234"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Atención Primaria Vista Hermosa"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Región de Valencia"
+    }
+  ]
+}

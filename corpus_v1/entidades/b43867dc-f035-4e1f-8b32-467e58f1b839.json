@@ -1,0 +1,49 @@
+{
+  "id": "b43867dc-f035-4e1f-8b32-467e58f1b839",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitaldelmar.es/paciente/87654321B"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalregional.es/paciente/area-segura"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "grupo de apoyo oncológico"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo de Apoyo al Paciente Oncológico"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Centro Hospitalario Central"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Mujer adulta"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "ID-SALUD-456"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237650"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano a cargo"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Área de Salud de la Comunidad Valenciana"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 456 32 10"
+    }
+  ]
+}

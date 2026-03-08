@@ -1,0 +1,65 @@
+{
+  "id": "4e030f68-4623-4954-be77-540126e5bbba",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "c.martinez@clinicadigestiva.net"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Servicio Madrileño de Salud"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Alergia a contrastes yodados."
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "fumador"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Consultorio General La Rivera"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Francia"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "facultativo de cirugía coronaria"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano principal"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle de la Luna 42"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida del Paciente 10"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 28 12345 01"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "(555) 234-5678"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-456-7890"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "Fax: 91 456 32 78"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "13 de julio de 2023"
+    }
+  ]
+}

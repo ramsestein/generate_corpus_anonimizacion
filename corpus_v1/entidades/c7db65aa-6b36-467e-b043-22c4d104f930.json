@@ -1,0 +1,41 @@
+{
+  "id": "c7db65aa-6b36-467e-b043-22c4d104f930",
+  "data": [
+    {
+      "entity": "HOSPITAL",
+      "text": "Clínica Santa María"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitaldelmar.cat"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 93 245 67 18"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2025-001234"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "ALB9870123K"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "profesional de cirugía de corazón"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.mtz@clinicaplenavida.com"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Licenciatura en Medicina"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Impresión dactilar del pulgar derecho"
+    }
+  ]
+}

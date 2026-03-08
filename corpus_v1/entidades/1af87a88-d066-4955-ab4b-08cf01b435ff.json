@@ -1,0 +1,49 @@
+{
+  "id": "1af87a88-d066-4955-ab4b-08cf01b435ff",
+  "data": [
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Sexo femenino"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "La hermana del paciente"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Número de chasis WBA1234567890ABCD"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle de Alcalá 120"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.m@centromedicoandalucia.com"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237647"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "C-44198766"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "S-2248-REF"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Alergia a ácido acetilsalicílico"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/expediente/11223344K"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.centrosalud.es/paciente/area-privada"
+    }
+  ]
+}

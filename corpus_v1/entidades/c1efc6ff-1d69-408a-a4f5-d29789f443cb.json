@@ -1,0 +1,41 @@
+{
+  "id": "c1efc6ff-1d69-408a-a4f5-d29789f443cb",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-654-3210"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Clara Navarro Ruiz"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "UH-7742-2024"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-98765432"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "15-07-2023"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "P567890123"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "45 08 28 123 45"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Imagen dactilar del segundo dedo derecho"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Cuñada del paciente"
+    }
+  ]
+}

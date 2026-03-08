@@ -1,0 +1,49 @@
+{
+  "id": "56d60131-cf85-4f49-a022-7c826b2c9a49",
+  "data": [
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "ING-789456"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "EXP-230945-D"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Silvia Vega Castro"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "experto en cirugía valvular"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Hembra"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Terapia grupal para trastornos de ansiedad"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "A987654321"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 28 124 45"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "huella dactilar derecha índice, plantilla 4B2C"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella dactilar derecha, índice"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-876-5432"
+    }
+  ]
+}

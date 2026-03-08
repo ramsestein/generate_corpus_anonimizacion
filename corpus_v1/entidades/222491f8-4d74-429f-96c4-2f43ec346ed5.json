@@ -1,0 +1,45 @@
+{
+  "id": "222491f8-4d74-429f-96c4-2f43ec346ed5",
+  "data": [
+    {
+      "entity": "CALLE",
+      "text": "Avenida de la Albufera 112"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237652"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "DRE-55428931"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-789013"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-456789"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente mujer"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Biometría dactilar del pulgar derecho"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "Mujer de 78 años"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "P987654321"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.clinicamadridnorte.com"
+    }
+  ]
+}

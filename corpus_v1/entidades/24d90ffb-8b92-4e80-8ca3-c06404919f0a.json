@@ -1,0 +1,33 @@
+{
+  "id": "24d90ffb-8b92-4e80-8ca3-c06404919f0a",
+  "data": [
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Sra. Elena Castillo Domínguez"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "LR-99123450"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "EXP-SAN-24-789123"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-2024-789432"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Clínica Santa María"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Especialista en Medicina Interna"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Consultorio General La Rivera"
+    }
+  ]
+}

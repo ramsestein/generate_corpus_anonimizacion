@@ -1,0 +1,41 @@
+{
+  "id": "cd514f3c-969c-400f-a860-5e291d04d8f0",
+  "data": [
+    {
+      "entity": "PAIS",
+      "text": "México"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "CONT-2024-998877"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-987654"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "15-07-2023"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "F"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/12345678"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "historial.hospitalregional.es/acceso-paciente"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.martinez@saludoncor.es"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "S-2248-REF"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "eb42acb5-f8e1-4538-8629-672109b775bb",
+  "data": [
+    {
+      "entity": "PROFESION",
+      "text": "cirujano vascular cardíaco"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Registro dactilar del pulgar derecho"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Título de Médico"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "B-28763419"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://api.hospitalcentral.es/pacientes/12345678A"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/AB123CD456"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "13 de julio de 2023"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Antonio José Navarro Linares"
+    }
+  ]
+}

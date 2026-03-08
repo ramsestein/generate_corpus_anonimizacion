@@ -1,0 +1,45 @@
+{
+  "id": "9fa7d9d1-a303-4c2f-9c24-d7aa369a7377",
+  "data": [
+    {
+      "entity": "CALLE",
+      "text": "Avenida del Doctor Fleming 22"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hcsc.es/consulta/P45678"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://expediente.hospitalcentral.es/paciente/UI89012BV"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/12345678A"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Marcos Vidal Peña"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Identificación del vehículo JHM123456789012"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano general"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.centrodiagnosticobarcelona.com"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "EMP-MED-345"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-2024-0098"
+    }
+  ]
+}

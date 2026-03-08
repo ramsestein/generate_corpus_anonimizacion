@@ -1,0 +1,61 @@
+{
+  "id": "2bec6701-1042-4b2d-bcca-c944afa58787",
+  "data": [
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "VIN 2T2BK1BA3FC123456"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Junio 2023"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo de apoyo oncológico"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Departamento de Salud de Valencia"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Registro dactilar del pulgar derecho"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón lazo en el segundo dedo de la mano derecha."
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "G246800135"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2023-123987"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Agencia de Salud Pública Regional"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Puerta de Hierro"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Travesía del Consultorio 5"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "varón de 67 años"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Consultorio General La Rivera"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-468-23"
+    }
+  ]
+}

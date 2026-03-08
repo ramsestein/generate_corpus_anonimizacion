@@ -1,0 +1,25 @@
+{
+  "id": "c30bc266-ced7-469e-b1f7-2156656f06bd",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "area.pacientes.hospitalregional.es/informes"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitaldelmar.es/paciente/ZX98765WV"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano principal"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Atención Primaria Vista Hermosa"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237656"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "682046ea-9aff-4c42-b8ac-11ceca4e194a",
+  "data": [
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-789012"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Puesto de Salud La Esperanza"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "S456789123"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "L-428571936"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "María López García"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "B123456789"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "especialista en cirugía cardiovascular"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Camino de los Pinares 120"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Chile"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Ana Beltrán Gil"
+    }
+  ]
+}

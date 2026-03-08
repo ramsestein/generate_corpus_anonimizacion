@@ -1,0 +1,61 @@
+{
+  "id": "0bed8aa9-f8cc-493c-8509-cdfbea0337dd",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "c.martinez@fundacioncardiologica.es"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Doctor en Medicina"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2024-789013"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-789012"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Puerta de Hierro"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Clara Navarro Ruiz"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "Médico a cargo"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "N-246813579"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-44567812"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-44332211-99"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 28 123 46"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Familiar directo"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://www.hospitalregional.es/pacientes/acceso"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalregional.es/acceso-paciente"
+    }
+  ]
+}

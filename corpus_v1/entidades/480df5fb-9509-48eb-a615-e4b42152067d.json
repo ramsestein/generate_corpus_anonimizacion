@@ -1,0 +1,53 @@
+{
+  "id": "480df5fb-9509-48eb-a615-e4b42152067d",
+  "data": [
+    {
+      "entity": "CALLE",
+      "text": "Paseo de la Salud 8"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle de la Alameda 47"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Marcos Vidal Peña"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Jorge Navarro Molina"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-CONT-024-789"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-789234"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Atención Primaria Vista Hermosa"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Mujer"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "13 de julio de 2023"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalcentral.es/paciente/area_privada"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalregional.org/paciente/ZXC-987-654"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Clínico de la Capital"
+    }
+  ]
+}

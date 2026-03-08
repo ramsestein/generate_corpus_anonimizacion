@@ -1,0 +1,65 @@
+{
+  "id": "49f28126-5108-45c4-8899-6ea8f34c45cf",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "a.martinez@centrosalud3.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.m@centromedicoandalucia.com"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Ronda de la Ambulancia 15"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "B-28473615"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud y Bienestar La Colina"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Fundación de Investigación Biomédica"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 96 723 45 10"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico Cirujano"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente de sexo femenino"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-456-7890"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-012-3456"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Silvia Moreno"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-CL-339156"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "UC-1886-2024"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Francia"
+    }
+  ]
+}

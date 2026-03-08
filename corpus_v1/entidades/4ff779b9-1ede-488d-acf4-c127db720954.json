@@ -1,0 +1,21 @@
+{
+  "id": "4ff779b9-1ede-488d-acf4-c127db720954",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "juan.lopez@sanitaspablo.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.m@institutoneurologico.es"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón dactilar del dedo índice derecho"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Título de Médico"
+    }
+  ]
+}

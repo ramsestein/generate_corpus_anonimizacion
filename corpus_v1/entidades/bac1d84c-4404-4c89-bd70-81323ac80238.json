@@ -1,0 +1,49 @@
+{
+  "id": "bac1d84c-4404-4c89-bd70-81323ac80238",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-876-5432"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "María Gutiérrez López, madre"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REG-2024-445566"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-874209"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Junio 2023"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "Fax administrativo: 93 567 12 34"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Portugal"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Número de chasis WBA1234567890ABCD"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "LTS4098176"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.centrodiagnosticobarcelona.com"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "S890123456"
+    }
+  ]
+}

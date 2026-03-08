@@ -1,0 +1,57 @@
+{
+  "id": "77b47c47-44ba-4c6c-83bf-ea337cbed878",
+  "data": [
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Consultorio General La Rivera"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas DEF-456"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2023-123987"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-REG-2024-580"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "ADM-741258963"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.martinez@hospitalcentral.org"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Paciente femenina de 52 años"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.institutoclinicosevilla.com"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-123-4567"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital General Metropolitano"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Reacción anafiláctica a penicilina en la infancia."
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/area_privada"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalcentral.es/paciente/area_privada"
+    }
+  ]
+}

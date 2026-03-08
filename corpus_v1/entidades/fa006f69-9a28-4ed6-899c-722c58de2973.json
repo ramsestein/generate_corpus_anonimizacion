@@ -1,0 +1,73 @@
+{
+  "id": "fa006f69-9a28-4ed6-899c-722c58de2973",
+  "data": [
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "M67891204F"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "A12345678"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "lmartinez@sanitassalud.es"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-2023-8915"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-112233"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-77451289"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Argentina"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Isabel Gutiérrez Mendoza"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "N-77401236"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "C555123456"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2023-345678"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-2024-789012"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-789012"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 96 723 45 10"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 24 123 45"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "B123456789"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitalcentralmadrid.es"
+    }
+  ]
+}

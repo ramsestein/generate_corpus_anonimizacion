@@ -1,0 +1,53 @@
+{
+  "id": "50124816-4306-49a1-8d60-d03b2a10c47c",
+  "data": [
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "12345678Z"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "12345678A"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "96-123-4567"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "91-234-5678"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "https://meddocan.herokuapp.com/"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "ID-2024-789123"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "M67891204F"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-78451209"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-8472-AB6"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Juan Pérez García"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "12345678A"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "familiar"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "015c9e77-ab62-4146-b86a-d04d81c50957",
+  "data": [
+    {
+      "entity": "PROFESION",
+      "text": "Médico operador."
+    },
+    {
+      "entity": "PROFESION",
+      "text": "Especialista en cirugía cardíaca."
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana.martinez@clinicabarcelona.org"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitalclinicomalaga.org"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud San Pedro"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "TS-45871236"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "hc-2024-856321"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "CT-2024-789123"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Femenina"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Marta Vidal López"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella digital del dedo índice derecho"
+    }
+  ]
+}

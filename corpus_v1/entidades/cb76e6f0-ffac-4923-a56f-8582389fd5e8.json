@@ -1,0 +1,37 @@
+{
+  "id": "cb76e6f0-ffac-4923-a56f-8582389fd5e8",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "agarcia@hospitalcentral.org"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana_martinez@salud.madrid.org"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-567-8901"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Carlos Méndez"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Elena Rodríguez Santos"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "G246800135"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "M67891204F"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "B-28765431"
+    }
+  ]
+}

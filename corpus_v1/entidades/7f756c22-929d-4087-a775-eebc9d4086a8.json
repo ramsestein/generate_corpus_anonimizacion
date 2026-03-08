@@ -1,0 +1,53 @@
+{
+  "id": "7f756c22-929d-4087-a775-eebc9d4086a8",
+  "data": [
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas DEF-456"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "M67891204F"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo de manejo del estrés"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-112233"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalregional.org/paciente/AB123456"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historia.huvv.es/consulta/paciente/334455"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Paseo de la Salud 8"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Máster en Ciencias Médicas"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 27 122 44"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Roberto Jiménez"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Consultorio Local Santa Clara"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "F"
+    }
+  ]
+}

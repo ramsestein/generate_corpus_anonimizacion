@@ -1,0 +1,41 @@
+{
+  "id": "9cb51be7-2f58-447b-8909-675521f5d46c",
+  "data": [
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 93 245 67 18"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalcentral.es/paciente/area_privada"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.mtz@clinicaplenavida.com"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "10 de julio de 2023"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Antonio José Navarro Linares"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-012-3456"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "María Rodríguez Sánchez"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Acompañante principal (madre)"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano de guardia"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "0d32efaf-db08-436b-b527-0d37c7e549bb",
+  "data": [
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "45.876.321-Z"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "B-28763415"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://api.hospitalcentral.es/pacientes/12345678A"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/pacientes/consulta/AB123YZ"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Centro Médico La Paz"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "67 años, sexo masculino"
+    }
+  ]
+}

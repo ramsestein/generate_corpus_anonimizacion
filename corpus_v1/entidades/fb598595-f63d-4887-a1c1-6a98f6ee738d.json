@@ -1,0 +1,41 @@
+{
+  "id": "fb598595-f63d-4887-a1c1-6a98f6ee738d",
+  "data": [
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 876 21 00"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente mujer"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-P-2024-56789"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "P-987654321"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico de cabecera"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Centro de Salud Hortaleza"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Territorio de la Comunidad Valenciana"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "LTS4098176"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Estados Unidos"
+    }
+  ]
+}

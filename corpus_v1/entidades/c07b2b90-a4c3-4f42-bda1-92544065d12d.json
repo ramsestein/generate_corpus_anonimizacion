@@ -1,0 +1,33 @@
+{
+  "id": "c07b2b90-a4c3-4f42-bda1-92544065d12d",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://hc-e.hospitalregional.es/paciente/ZQ987W654"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano principal"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Isabel Gutiérrez Mendoza"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-12398745"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Refiere consumo tabáquico esporádico."
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo apoyo diabetes tipo 2"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Alergia a amoxicilina."
+    }
+  ]
+}

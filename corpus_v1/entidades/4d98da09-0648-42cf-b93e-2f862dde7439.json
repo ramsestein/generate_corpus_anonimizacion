@@ -1,0 +1,49 @@
+{
+  "id": "4d98da09-0648-42cf-b93e-2f862dde7439",
+  "data": [
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas ABC-789"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "10 de julio de 2023"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "luciam@centromedicoandalucia.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.m@centromedicoandalucia.com"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "N-77401236"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-123-4567"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "45872314B"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Ignacio Rojas Delgado"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "S-2248-REF"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-789012-2024"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237639"
+    }
+  ]
+}

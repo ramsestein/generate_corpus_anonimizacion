@@ -1,0 +1,65 @@
+{
+  "id": "39063dac-eb09-4a04-a9fc-221d471c0144",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitaldelmar.cat"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "https://www.clinicabarcelonas.es"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "15-07-2023"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Cristina Pons Mir"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "María José Fernández López"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "192.168.1.105"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitaldelmar.es/paciente/87654321B"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Género femenino"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Gregorio Marañón"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro Médico Familiar Los Pinos"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2023-876543"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "ADM-2023-6547"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-12345678-A"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Reino Unido"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Número de serie 9BW1234567890"
+    }
+  ]
+}

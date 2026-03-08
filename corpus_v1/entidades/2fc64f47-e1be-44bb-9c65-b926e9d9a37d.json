@@ -1,0 +1,37 @@
+{
+  "id": "2fc64f47-e1be-44bb-9c65-b926e9d9a37d",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "cmartinez@hospitallapaz.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "amartinez@cs-torrecardenas.es"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "D.ª Clara Robles Soto"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.institutoclinicosevilla.com"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2023-345678"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente de sexo femenino"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Fundación de Investigación Biomédica"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Centro de Salud Hortaleza"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "666de5a4-3240-4924-9389-d94fbb024f1e",
+  "data": [
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital San Juan de Dios"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital Universitario Central de Asturias"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Alemania"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "VIN 2T2BK1BA3FC123456"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2025-001234"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-321987654"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Ambulatorio Urbano San Benito"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237650"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Castellón"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Madrid"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Tutora legal"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "María J. Fernández"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 209 18 27"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana.martinez@hupa.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "cmartinez@sanitassalud.es"
+    }
+  ]
+}

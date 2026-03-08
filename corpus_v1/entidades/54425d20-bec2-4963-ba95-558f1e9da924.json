@@ -1,0 +1,41 @@
+{
+  "id": "54425d20-bec2-4963-ba95-558f1e9da924",
+  "data": [
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Marta Vidal López"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico General"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Unidad de Salud Comunitaria El Mirador"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "K876543210987"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Víctor Manuel Herrera Gil"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Paciente femenina de 52 años"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "María del Carmen Rodríguez, esposa"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "fumador"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Mujer adulta"
+    }
+  ]
+}

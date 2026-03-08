@@ -1,0 +1,53 @@
+{
+  "id": "6af3c9ff-6a4d-4e15-9127-ac6c56ffcba3",
+  "data": [
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud Las Rosas"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Chile"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HCL-2024-789123"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2023-885412"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "sujeto de 67 años"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Diplomado en Enfermería"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico General"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Paseo de la Castellana 178"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Número de serie 9BW1234567890"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hcsc.es/consulta/P45678"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 345 09 87"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "El familiar a cargo"
+    }
+  ]
+}

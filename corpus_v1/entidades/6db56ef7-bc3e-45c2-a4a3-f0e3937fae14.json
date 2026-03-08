@@ -1,0 +1,45 @@
+{
+  "id": "6db56ef7-bc3e-45c2-a4a3-f0e3937fae14",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-789-0123"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Puesto de Salud La Esperanza"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Licenciatura en Medicina"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano tratante"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-87654321-2"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital de la Serranía de Ronda"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón dactilar del pulgar derecho"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Imagen dactilar del segundo dedo derecho"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "13 de julio de 2023"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "hermana del paciente"
+    }
+  ]
+}

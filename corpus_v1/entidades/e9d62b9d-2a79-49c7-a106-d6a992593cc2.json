@@ -1,0 +1,33 @@
+{
+  "id": "e9d62b9d-2a79-49c7-a106-d6a992593cc2",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-345-6789"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "Z44900371E"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "EC-789456"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente mujer"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Fundación de Investigación Biomédica"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Dr. Javier Roldán Nieto"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Paseo de la Salud 8"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "99fa258c-a345-4bdc-bc65-c09c96f6ea39",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/789123/informe"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud Las Rosas"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "País Vasco"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida de la Albufera 127"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Plaza de la Medicina 1"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2023-885412"
+    }
+  ]
+}

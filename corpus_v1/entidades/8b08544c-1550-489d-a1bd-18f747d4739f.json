@@ -1,0 +1,57 @@
+{
+  "id": "8b08544c-1550-489d-a1bd-18f747d4739f",
+  "data": [
+    {
+      "entity": "PROFESION",
+      "text": "cirujano principal"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón ungueal del índice derecho (para variación)"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-654321"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "M.ª Luisa Fernández Castro"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "La paciente refiere"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "13 de julio de 2023"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Francia"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "ING-789456"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Mujer"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 789123456 01"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Número de chasis WBA1234567890ABCD"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del Centro de Salud 3"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-345-6789"
+    }
+  ]
+}

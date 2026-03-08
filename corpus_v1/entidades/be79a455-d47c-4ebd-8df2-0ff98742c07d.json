@@ -1,0 +1,53 @@
+{
+  "id": "be79a455-d47c-4ebd-8df2-0ff98742c07d",
+  "data": [
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "Z654321789"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "web.hospitalregional.es/resultados-pruebas"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "B123456789012"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "EMP-MED-345"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "CONT-78451209"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Hijo del paciente"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "hermana del paciente"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico Cirujano"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "LTS4098176"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "B-87654321"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Puesto de Salud La Esperanza"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "F"
+    }
+  ]
+}

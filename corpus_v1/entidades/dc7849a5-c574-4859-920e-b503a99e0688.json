@@ -1,0 +1,41 @@
+{
+  "id": "dc7849a5-c574-4859-920e-b503a99e0688",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalregional.es/acceso-paciente"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/expediente/11223344K"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón lazo en el segundo dedo de la mano derecha."
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "sujeto de 67 años"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Marta Vidal López"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Provincia de Valencia"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "M234567890"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "47 08 28 123 45"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-464-23"
+    }
+  ]
+}

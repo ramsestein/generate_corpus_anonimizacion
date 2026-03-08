@@ -1,0 +1,45 @@
+{
+  "id": "1b4144d4-2e09-4cc1-b062-27da1070839c",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/789123B"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://webpaciente.hgugm.es/hc-seguro/7890ABCD12"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Levante"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.centrodiagnosticobarcelona.com"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-789013"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "HC-EMP-2023-555"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Consultorio Local Santa Clara"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente de sexo femenino"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-012-3456"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Clínico de la Capital"
+    }
+  ]
+}

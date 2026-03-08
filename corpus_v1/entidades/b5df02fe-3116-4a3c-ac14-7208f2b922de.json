@@ -1,0 +1,41 @@
+{
+  "id": "b5df02fe-3116-4a3c-ac14-7208f2b922de",
+  "data": [
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Isabel Gutiérrez Mendoza"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-112233"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "CONT-2024-456321"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "paciente sexagenario"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella del dedo índice mano derecha"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Junio 2023"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitalclinicomalaga.org"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Gregorio Marañón"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Área de Gestión Sanitaria Sur"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "d7080e12-43fc-4863-8ad7-c159ab8ed0d7",
+  "data": [
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-654321"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "A7724C819"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "B-28473615"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico cirujano"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Área de Salud de la Comunidad Valenciana"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Castilla y León"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "consulta@centrosaludmadrid.com"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.m@institutoneurologico.es"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Paseo de la Salud 8"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237650"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Centro Médico Especializado Insular"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Argentina"
+    }
+  ]
+}

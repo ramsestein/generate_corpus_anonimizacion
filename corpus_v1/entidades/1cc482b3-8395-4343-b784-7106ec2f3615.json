@@ -1,0 +1,33 @@
+{
+  "id": "1cc482b3-8395-4343-b784-7106ec2f3615",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-345-6789"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-456-7890"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-991122"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-334455"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del Hospital 45"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Paseo de la Castellana 178"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Título de Médico"
+    }
+  ]
+}

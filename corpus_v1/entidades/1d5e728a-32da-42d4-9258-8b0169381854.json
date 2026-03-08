@@ -1,0 +1,53 @@
+{
+  "id": "1d5e728a-32da-42d4-9258-8b0169381854",
+  "data": [
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Clara Núñez Costa"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Marcos Herrera Solís"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-876-5432"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-789-0123"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://hc.hospitalrey.es/visor/8899T"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://expediente.centrosanitario.es/paciente/VC23456RT"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "VIN 2T2BK1BA3FC123456"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "LTS4098176"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Ronda de la Ambulancia 15"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-77412068"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Intervención grupal psicoeducativa"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Fumador no diario."
+    }
+  ]
+}

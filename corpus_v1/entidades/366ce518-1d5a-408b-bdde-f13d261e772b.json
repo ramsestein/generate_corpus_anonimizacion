@@ -1,0 +1,49 @@
+{
+  "id": "366ce518-1d5a-408b-bdde-f13d261e772b",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-432-1098"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "+34 925 40 50 60"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Patricia Navarro"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "a.martinez@centrosalud3.es"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Atención Primaria Vista Hermosa"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "72 años, sexo femenino"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "paciente de 67 años"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.institutoclinicosevilla.com"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Fuma de manera no habitual."
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://pacientes.sanidad.gob.es/consulta/AB234CD56"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "192.168.1.45"
+    }
+  ]
+}

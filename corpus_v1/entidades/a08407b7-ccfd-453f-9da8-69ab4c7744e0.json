@@ -1,0 +1,41 @@
+{
+  "id": "a08407b7-ccfd-453f-9da8-69ab4c7744e0",
+  "data": [
+    {
+      "entity": "HOSPITAL",
+      "text": "Centro Médico Universitario"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Segunda semana de julio 2023"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "REG-ASIS-2024-789123"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "(555) 765-4321"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "09H665432R"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 93 245 67 18"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/12345678"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "Edad: 72 años"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Mujer"
+    }
+  ]
+}

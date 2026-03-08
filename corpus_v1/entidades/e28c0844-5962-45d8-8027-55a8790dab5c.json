@@ -1,0 +1,37 @@
+{
+  "id": "e28c0844-5962-45d8-8027-55a8790dab5c",
+  "data": [
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente mujer"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 21 345 789"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Instituto Clínico del Este"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-123456"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "Médico responsable"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "facultativo de cirugía coronaria"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "T-88956321"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "654-12-34-56"
+    }
+  ]
+}

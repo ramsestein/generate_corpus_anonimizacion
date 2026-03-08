@@ -1,0 +1,41 @@
+{
+  "id": "1b2067de-156c-4fba-a9f2-10eba7844b64",
+  "data": [
+    {
+      "entity": "PAIS",
+      "text": "Italia"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle Gran Vía 120"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-765-4321"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas DEF-456"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "Paciente de 78"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "DT-33986725"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-2024-789234"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-P-2024-56789"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Territorio de la Comunidad Valenciana"
+    }
+  ]
+}

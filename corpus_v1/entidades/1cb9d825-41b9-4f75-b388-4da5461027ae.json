@@ -1,0 +1,45 @@
+{
+  "id": "1cb9d825-41b9-4f75-b388-4da5461027ae",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/12345/acceso"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://api.hospitalcentral.es/pacientes/ZXC789"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "M-369258147"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Finales de junio de 2023"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Área de Salud de la Comunidad Valenciana"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitaldelmar.cat"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-345-6789"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano a cargo"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-77412068"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-99001122"
+    }
+  ]
+}

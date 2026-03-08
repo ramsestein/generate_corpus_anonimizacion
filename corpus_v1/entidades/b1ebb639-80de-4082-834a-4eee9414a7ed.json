@@ -1,0 +1,57 @@
+{
+  "id": "b1ebb639-80de-4082-834a-4eee9414a7ed",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-654-3210"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Título de Médico"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Estados Unidos"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Agencia de Salud Pública Regional"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.m@institutoneurologico.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "dr.fernandez@clinicabarcelona.com"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 96 723 45 10"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Número de chasis WBA1234567890ABCD"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano principal"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Principios de agosto de 2023"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "Anciano de 78 años"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-8742-5561"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Individuo de sexo femenino"
+    }
+  ]
+}

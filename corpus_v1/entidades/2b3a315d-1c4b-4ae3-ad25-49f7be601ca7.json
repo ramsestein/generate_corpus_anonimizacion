@@ -1,0 +1,37 @@
+{
+  "id": "2b3a315d-1c4b-4ae3-ad25-49f7be601ca7",
+  "data": [
+    {
+      "entity": "HOSPITAL",
+      "text": "Centro Médico Universitario"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 345 09 87"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237640"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Diplomado en Medicina"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella dactilar del segundo dedo mano derecha"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Ronda de la Ambulancia 15"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle de la Luna 42"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-987654321"
+    }
+  ]
+}

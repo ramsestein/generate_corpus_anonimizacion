@@ -1,0 +1,65 @@
+{
+  "id": "618015da-b19a-4f03-973e-77662b0bd87b",
+  "data": [
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "hermano del paciente"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Clínica grupal de diabetes"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://chc.es/area-clinica/paciente/AB789C"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalcentral.es/paciente/ZXC123987"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón de arco en huella dactilar del meñique derecho."
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 96 723 45 10"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.clinicauniversitaria.es"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. E. Martínez"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Ana Beltrán Gil"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "A987654321"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 789012345 01"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-2024-789654"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "PER-SAN-789"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida de la Albufera 127"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Plaza de la Medicina 1"
+    }
+  ]
+}

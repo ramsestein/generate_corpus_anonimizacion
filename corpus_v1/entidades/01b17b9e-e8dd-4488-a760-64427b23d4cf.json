@@ -1,0 +1,69 @@
+{
+  "id": "01b17b9e-e8dd-4488-a760-64427b23d4cf",
+  "data": [
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 96 723 45 10"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.martinez@saludoncor.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana.martinez@clinicabarcelona.es"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "María Luisa Fernández García"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud El Prado"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "e-2024-45923"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "9t2l-4p6r"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 20087654 01"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 29 234 56"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-98765432-02"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle Real 18"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle de la Alameda 12"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Dirección de Salud Pública de Madrid"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Individuo de sexo femenino"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://portal.hospitalregional.es/paciente/resultados"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Título de Médico"
+    }
+  ]
+}

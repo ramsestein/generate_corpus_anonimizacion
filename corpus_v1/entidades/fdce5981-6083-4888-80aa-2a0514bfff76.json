@@ -1,0 +1,45 @@
+{
+  "id": "fdce5981-6083-4888-80aa-2a0514bfff76",
+  "data": [
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "EXP-230945-D"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-2024-7894321"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/AB123456Z"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://gestionclinica.hgugm.es/expediente-digital/AA123456"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Territorio de la Comunidad Valenciana"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Licenciatura en Medicina"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo de apoyo en salud mental"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "estudiante de medicina"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "cmartinez@centrodesaludvital.es"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Agencia de Salud Pública Regional"
+    }
+  ]
+}

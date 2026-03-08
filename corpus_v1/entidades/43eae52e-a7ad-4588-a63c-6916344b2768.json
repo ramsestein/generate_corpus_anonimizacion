@@ -1,0 +1,57 @@
+{
+  "id": "43eae52e-a7ad-4588-a63c-6916344b2768",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-678-9012"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-432-1098"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Estados Unidos"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-987654"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "72 años, sexo femenino"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "78 años, anciano"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Dr. Javier Roldán Nieto"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad Valenciana (CV)"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano responsable"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano cardiovascular"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Puesto de Salud La Esperanza"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 28 124 45"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Travesía del Consultorio 5"
+    }
+  ]
+}

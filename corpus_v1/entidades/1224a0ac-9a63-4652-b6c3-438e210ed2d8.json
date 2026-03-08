@@ -1,0 +1,53 @@
+{
+  "id": "1224a0ac-9a63-4652-b6c3-438e210ed2d8",
+  "data": [
+    {
+      "entity": "PAIS",
+      "text": "Reino Unido"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-001234"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Javier Santos"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "X789012345"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Paseo de la Salud 8"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-P-2024-333"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.clinicauniversitaria.es"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Intervención psicoeducativa para diabetes tipo 2"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Castellón"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro Médico Familiar Los Pinos"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "DT-33986725"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Individuo de sexo femenino"
+    }
+  ]
+}

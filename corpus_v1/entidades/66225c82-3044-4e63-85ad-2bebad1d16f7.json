@@ -1,0 +1,33 @@
+{
+  "id": "66225c82-3044-4e63-85ad-2bebad1d16f7",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-432-1098"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalregional.es/paciente/area-segura"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Ronda de la Ambulancia 15"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Título de Médico"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Enfermería Universitaria"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Centro Hospitalario Central"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2024-789013"
+    }
+  ]
+}

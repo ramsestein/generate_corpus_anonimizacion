@@ -1,0 +1,29 @@
+{
+  "id": "7d280d0a-5bbf-4c23-917c-02d58fa04ded",
+  "data": [
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella dactilar del segundo dedo mano derecha"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "urgencias.saludmadrid.es"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitalcentralmadrid.es"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas DEF-456"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-432-1098"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-789-0123"
+    }
+  ]
+}

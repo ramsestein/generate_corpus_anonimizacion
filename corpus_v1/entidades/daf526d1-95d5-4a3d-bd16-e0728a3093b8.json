@@ -1,0 +1,29 @@
+{
+  "id": "daf526d1-95d5-4a3d-bd16-e0728a3093b8",
+  "data": [
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 95 227 89 01"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas XYZ-123"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico cirujano"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella unilar del dedo índice derecho"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237639"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-22387654"
+    }
+  ]
+}

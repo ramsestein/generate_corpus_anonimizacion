@@ -1,0 +1,41 @@
+{
+  "id": "c3bd4452-cafb-4e59-b225-2d4a9c7197a2",
+  "data": [
+    {
+      "entity": "PAIS",
+      "text": "Reino Unido"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalregional.es/paciente/ZXC123987"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-765-4321"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "c.martinez@clinicadigestiva.net"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Segunda semana de julio 2023"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-66190324"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237645"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Puerta de Hierro"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Agencia de Salud Pública Regional"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "6b86770e-c026-4b15-a031-c186ed4da2da",
+  "data": [
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "B-28473915"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "ALB9870123K"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana_martinez@salud.madrid.org"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano responsable"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "MED-12345"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella digital del pulgar derecho"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitaldelmar.es/paciente/87654321B"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://www.hospitalregional.es/pacientes/acceso-seguro"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 28 125 01"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-78901234-K"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Instituto Clínico del Este"
+    }
+  ]
+}

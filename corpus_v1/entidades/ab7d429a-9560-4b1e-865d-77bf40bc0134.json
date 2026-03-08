@@ -1,0 +1,61 @@
+{
+  "id": "ab7d429a-9560-4b1e-865d-77bf40bc0134",
+  "data": [
+    {
+      "entity": "CALLE",
+      "text": "Calle Doctor Esquerdo 45"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del Hospital 45"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Muestra biométrica del índice derecho"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "huella dactilar derecha índice, patrón de arco"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Centro Médico Especializado Insular"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano tratante"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "T678901234"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 28 122 45"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-789234"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HCL-7249-2024"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Segunda semana de julio 2023"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.clinicareumatologica.es"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitalclinicomalaga.org"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "Z44900371E"
+    }
+  ]
+}

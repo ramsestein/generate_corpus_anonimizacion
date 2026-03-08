@@ -1,0 +1,57 @@
+{
+  "id": "5a411842-c277-4cf1-9cf9-3e565e5d259d",
+  "data": [
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Marcos Vidal Ortega"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Samuel Costa Jiménez"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Paseo de la Salud 8"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historial.hgugm.es/acceso-restringido/33445566T"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/AB123YZ"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo de apoyo oncológico"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "15-07-2023"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-77412068"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "cmartinez@hospitallapaz.es"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Familiar de referencia"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-001234"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Estados Unidos"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Instituto Clínico del Este"
+    }
+  ]
+}

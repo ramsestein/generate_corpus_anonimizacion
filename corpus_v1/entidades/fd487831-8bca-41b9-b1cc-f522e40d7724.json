@@ -1,0 +1,53 @@
+{
+  "id": "fd487831-8bca-41b9-b1cc-f522e40d7724",
+  "data": [
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "67 años, sexo femenino"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Doctor en Medicina"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida del Doctor Fleming 22"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "Especialista tratante"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico de cabecera"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "B-87654321"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Ambulatorio Urbano San Benito"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad Valenciana (CV)"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital de la Cruz Roja"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalcentral.es/paciente/ZXC123987"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://pacientes.sanidad.gob.es/consulta/AB234CD56"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Género femenino"
+    }
+  ]
+}

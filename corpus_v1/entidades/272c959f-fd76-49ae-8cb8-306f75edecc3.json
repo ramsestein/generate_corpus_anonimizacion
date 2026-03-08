@@ -1,0 +1,41 @@
+{
+  "id": "272c959f-fd76-49ae-8cb8-306f75edecc3",
+  "data": [
+    {
+      "entity": "TERRITORIO",
+      "text": "Área de Salud de la Comunidad Valenciana"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón ungueal del índice derecho (para variación)"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "huella dactilar derecha índice, patrón de arco"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-789012"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 991234567 1"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-654-3210"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Número de chasis WBA1234567890ABCD"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Clínica Periférica Norte"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "varón de 67 años"
+    }
+  ]
+}

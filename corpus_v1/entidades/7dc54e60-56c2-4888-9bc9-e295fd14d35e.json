@@ -1,0 +1,29 @@
+{
+  "id": "7dc54e60-56c2-4888-9bc9-e295fd14d35e",
+  "data": [
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "N012345678"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 209 18 27"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-890-1234"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano del equipo"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "area.pacientes.hospitalregional.es/informes"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Castellón"
+    }
+  ]
+}

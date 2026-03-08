@@ -1,0 +1,29 @@
+{
+  "id": "414c5633-3c8c-4360-8f06-21a4a106eab3",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "c.martinez@fundacioncardiologica.es"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "K998877660"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 93 412 56 78"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://hc.hospitalrey.es/acceso-clinico/ID789XYZ01"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Mujer adulta"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Tabaquismo intermitente."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "4710c678-2f2a-46e5-a9d5-aa5bfb2a4140",
+  "data": [
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Carlos Méndez"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Principios de agosto de 2023"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitalcentralmadrid.es"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Título de Médico"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del Centro de Salud 3"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Progenitora"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "http://192.168.1.15:8080"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Área de Salud de la Comunidad Valenciana"
+    }
+  ]
+}

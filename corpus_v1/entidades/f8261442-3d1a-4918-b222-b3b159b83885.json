@@ -1,0 +1,37 @@
+{
+  "id": "f8261442-3d1a-4918-b222-b3b159b83885",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://gestionclinica.hgugm.es/expediente-digital/AA123456"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico de cabecera"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano tratante"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "ALB9870123K"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "2024-7894-LAB"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2024-789123"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "VIN 1HGCM82633A123456"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237633"
+    }
+  ]
+}

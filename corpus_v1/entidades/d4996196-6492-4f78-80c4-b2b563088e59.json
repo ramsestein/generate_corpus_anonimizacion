@@ -1,0 +1,33 @@
+{
+  "id": "d4996196-6492-4f78-80c4-b2b563088e59",
+  "data": [
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "LR-99123450"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "cmartinez@hospitallapaz.es"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-334455"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 28 123 46"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "ALB9870123K"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Fumador no diario."
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "A-123456789"
+    }
+  ]
+}

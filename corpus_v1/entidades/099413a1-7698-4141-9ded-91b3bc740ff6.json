@@ -1,0 +1,41 @@
+{
+  "id": "099413a1-7698-4141-9ded-91b3bc740ff6",
+  "data": [
+    {
+      "entity": "CALLE",
+      "text": "Plaza España 67"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "https://meddocan.herokuapp.com/"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "paciente.nombre@dominio.es"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "123456789ABC"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "1234567890"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Acompañante designado"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "M67891204F"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Agencia de Salud Pública Regional"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Instituto de Salud Carlos III"
+    }
+  ]
+}

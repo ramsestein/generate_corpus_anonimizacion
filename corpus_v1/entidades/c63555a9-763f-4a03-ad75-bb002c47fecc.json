@@ -1,0 +1,41 @@
+{
+  "id": "c63555a9-763f-4a03-ad75-bb002c47fecc",
+  "data": [
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-112233"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Dactilograma del pulgar derecho"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/789123/informe"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://portal.paciente.sspa.es/hc/99887766F"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "C456789012"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico Cirujano"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico residente"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano cardiotorácico"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano principal"
+    }
+  ]
+}

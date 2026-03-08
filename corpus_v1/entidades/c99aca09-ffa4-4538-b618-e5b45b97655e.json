@@ -1,0 +1,45 @@
+{
+  "id": "c99aca09-ffa4-4538-b618-e5b45b97655e",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.clinicabarcelona.es/paciente/YW34567DF"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitaldelmar.es/paciente/87654321B"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Víctor Manuel Herrera Gil"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "F"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.institutoclinicosevilla.com"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "78 años, anciano"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "XJY482739L"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Graduado en Medicina"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Marta López"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Elena Rodríguez Santos"
+    }
+  ]
+}

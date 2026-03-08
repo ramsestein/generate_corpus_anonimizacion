@@ -1,0 +1,53 @@
+{
+  "id": "8019a37b-ac19-4374-a893-2932bac6b54c",
+  "data": [
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237633"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "DT-33986725"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud Las Rosas"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "T-88956321"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Número de bastidor WBA3A5C58FD123456"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-2024-789234"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "EC-789456"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Sra. Elena Castillo Domínguez"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/area_privada"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://sas.hospitalgeneral.es/visor-clinico/PLM555NN"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente de sexo femenino"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Agosto 2023"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "d60e6837-aaf0-4fb9-bfbc-368b859b516a",
+  "data": [
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "34 años"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Bilbao"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Valencia"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "93-456-7890"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Servicio de Neurología"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "1234 ABC"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "ABC-1234"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "12345678Z"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Reino Unido"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida de la Paz 45"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle de la Princesa 25"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Plaza España 67"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "123456789012"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "https://meddocan.herokuapp.com/"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "https://temu.bio"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "madre"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "paciente.nombre@dominio.es"
+    }
+  ]
+}

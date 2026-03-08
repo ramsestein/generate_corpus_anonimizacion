@@ -1,0 +1,61 @@
+{
+  "id": "00a85666-62f1-413f-b1d7-16da8833a113",
+  "data": [
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "e-ps-456789"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.martinez@hospitalclinic.es"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "sn-67384925"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "5m2n-8q4r"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Participación en taller de manejo de diabetes tipo 2"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Clara Méndez Iglesias"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "+34 612 34 56 77"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "66 años"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Región de Asturias"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "Médico especialista en cirugía"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico de cabecera"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "centro de salud santa clara"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2024-789457"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "b-2024-987654"
+    }
+  ]
+}

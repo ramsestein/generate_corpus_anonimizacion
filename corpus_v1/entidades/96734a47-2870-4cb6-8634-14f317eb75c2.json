@@ -1,0 +1,49 @@
+{
+  "id": "96734a47-2870-4cb6-8634-14f317eb75c2",
+  "data": [
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón de lazo identificado en índice derecho."
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas XYZ-123"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.clinicauniversitaria.es"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "C-555123789"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Centro Médico Especializado Insular"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "LR-99123450"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Tutor legal"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano del equipo"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "F345678901"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 7890123 01"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 876 21 00"
+    }
+  ]
+}

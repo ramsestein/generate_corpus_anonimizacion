@@ -1,0 +1,45 @@
+{
+  "id": "f7076b4f-467f-40bd-b1d4-486cc735e4ea",
+  "data": [
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro Médico Familiar Los Pinos"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitalcentralmadrid.es"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "pacientes.santpau.cat"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://www.hospitalregional.es/pacientes/area-privada"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "area.pacientes.hospitalregional.es/informes"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas DEF-456"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-432-1098"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-345-6789"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "paciente sexagenario"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237633"
+    }
+  ]
+}

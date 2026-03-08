@@ -1,0 +1,77 @@
+{
+  "id": "31ab713d-560f-4afc-9d65-e7a3c6aba991",
+  "data": [
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "A123456789"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "1234567890"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "12345678A"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida de la Paz 45"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Plaza España 67"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "123456789"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "ABC-1234"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "5678 XYZ"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud El Carmen"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "enfermero"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "enfermera"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "masculino"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "ALB9870123K"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "paciente.nombre@dominio.es"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "madre"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital General Universitario Central"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Juan Pérez García"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Carlos Fernández Silva"
+    }
+  ]
+}

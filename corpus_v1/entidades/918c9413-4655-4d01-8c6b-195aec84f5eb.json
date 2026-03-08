@@ -1,0 +1,45 @@
+{
+  "id": "918c9413-4655-4d01-8c6b-195aec84f5eb",
+  "data": [
+    {
+      "entity": "PAIS",
+      "text": "Alemania"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.gomez@medicina.ucm.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana.martinez@sanidad.es"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Especialista en Medicina Interna"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "VIN 2T2BK1BA3FC123456"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón ungueal del índice derecho (para variación)"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "hermano del paciente"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Alergia a cefalosporinas."
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "IDC-5597B-23"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-789012-2024"
+    }
+  ]
+}

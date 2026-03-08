@@ -1,0 +1,61 @@
+{
+  "id": "d0fe4f97-b54c-4617-b4db-0245f0b1cf58",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://hc.hgta.es/acceso/paciente/5678ZYX"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://hc-e.hospitalregional.es/paciente/ZQ987W654"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Agosto 2023"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Centro Hospitalario Central"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "VIN 1HGCM82633A123456"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Clínica Periférica Norte"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "María Rodríguez López"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Argentina"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Fundación Jiménez Díaz"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Biometría dactilar del índice derecho"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-12345678"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.m@institutoneurologico.es"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo de apoyo oncológico"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo apoyo diabetes tipo 2"
+    }
+  ]
+}

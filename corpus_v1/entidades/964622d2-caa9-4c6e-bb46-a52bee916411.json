@@ -1,0 +1,77 @@
+{
+  "id": "964622d2-caa9-4c6e-bb46-a52bee916411",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-123-4567"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "UH-7742-2024"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-8472-2024"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Silvia Vega Castro"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Elena Ruiz"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital General Universitario Central"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Universitario Ramón y Cajal"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-77451289"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237640"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano vascular cardíaco"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Portugal"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "H-99234501"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "C-555123789"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "A7724C819"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Castilla y León"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Castellón"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "María José Fernández López"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Isabel Gutiérrez Mendoza"
+    }
+  ]
+}

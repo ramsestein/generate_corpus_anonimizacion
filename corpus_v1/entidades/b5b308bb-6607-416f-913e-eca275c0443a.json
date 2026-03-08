@@ -1,0 +1,33 @@
+{
+  "id": "b5b308bb-6607-416f-913e-eca275c0443a",
+  "data": [
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Ignacio Rojas Delgado"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida del Mediterráneo 12"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Camino de los Pinares 120"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "CT-2024-789123"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HCL-2024-331682"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana.martinez@sanidad.es"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Hembra"
+    }
+  ]
+}

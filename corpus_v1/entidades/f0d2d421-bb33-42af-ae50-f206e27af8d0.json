@@ -1,0 +1,61 @@
+{
+  "id": "f0d2d421-bb33-42af-ae50-f206e27af8d0",
+  "data": [
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 30 123 45"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Fundación Jiménez Díaz"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida de la Albufera 128"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Plaza de la Medicina 1"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "Séptima década de la vida"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón dactilar del pulgar derecho"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón dactilar del dedo índice derecho"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano de guardia"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Estados Unidos"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "VIN 1HGCM82633A123456"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237633"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Hembra"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Finales de junio de 2023"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-789012-2024"
+    }
+  ]
+}

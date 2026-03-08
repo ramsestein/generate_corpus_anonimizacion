@@ -1,0 +1,45 @@
+{
+  "id": "557b35e1-8802-4c86-a8a0-fe6eccc731d9",
+  "data": [
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "12345678A"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "abril de 2024"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "15 de marzo de 2024"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "https://meddocan.herokuapp.com/"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Portugal"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://www.hospitalgeneral.com"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "Médico a cargo"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Instituto de Salud Carlos III"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "hermana"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "ID_123456"
+    }
+  ]
+}

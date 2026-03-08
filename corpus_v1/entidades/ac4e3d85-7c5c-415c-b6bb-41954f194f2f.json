@@ -1,0 +1,77 @@
+{
+  "id": "ac4e3d85-7c5c-415c-b6bb-41954f194f2f",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "www.centromedicobarcelona.org"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-556677"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "juan.lopez@sanitaspablo.es"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "B-87453216"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "M67891204F"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Centro de Salud Chamberí"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Centro Médico Especializado Insular"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "María Rodríguez López"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Dr. Javier Roldán Nieto"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-77412068"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98437621"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "especialista en cirugía cardiovascular"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano a cargo"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente de sexo femenino"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad Valenciana (CV)"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Cataluña"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-567-8901"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle de la Salud 15"
+    }
+  ]
+}

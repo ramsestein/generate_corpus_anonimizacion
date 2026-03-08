@@ -1,0 +1,41 @@
+{
+  "id": "0178f02f-6f99-4b88-bcbe-de7263a508ec",
+  "data": [
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-987654"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente de sexo femenino"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "sn-67349286"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Universitario Gregorio Marañón"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Dirección Regional de Sanidad de Madrid"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "a.martinez@clinicbarcelona.org"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 09 29 124 46"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle de la Libertad 10"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "María del Pilar Méndez Iglesias"
+    }
+  ]
+}

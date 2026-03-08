@@ -1,0 +1,25 @@
+{
+  "id": "7612a22d-c666-466e-ae84-33a8267e39f1",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-765-4321"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Francia"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://www.hospitalregional.es/pacientes/acceso-seguro"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/AB123456"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano tratante"
+    }
+  ]
+}

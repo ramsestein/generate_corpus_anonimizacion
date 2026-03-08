@@ -1,0 +1,33 @@
+{
+  "id": "cd2d93c4-84f3-4861-ad52-806b51019088",
+  "data": [
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital Regional del Norte"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "EXP-230945-D"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-24-901236"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-987654"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Captura biométrica del pulgar derecho"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Identificación biométrica del índice derecho"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "huella dactilar derecha, dedo índice"
+    }
+  ]
+}

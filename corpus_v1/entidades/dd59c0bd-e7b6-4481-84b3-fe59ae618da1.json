@@ -1,0 +1,29 @@
+{
+  "id": "dd59c0bd-e7b6-4481-84b3-fe59ae618da1",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "www.clinicauniversitaria.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "lucia.martinez@cs-atencionprimaria.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.mtz@clinicaplenavida.com"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida del Doctor Fleming 22"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "Mujer de 78 años"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón ungueal del índice derecho (para variación)"
+    }
+  ]
+}

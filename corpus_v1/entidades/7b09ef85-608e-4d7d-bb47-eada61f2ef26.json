@@ -1,0 +1,61 @@
+{
+  "id": "7b09ef85-608e-4d7d-bb47-eada61f2ef26",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "634-82-19-07"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "(555) 234-5678"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "DR-88543217"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historia.hgv.es/acceso/ID98765"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Máster en Ciencias Médicas"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital Regional del Norte"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "CONT-2024-998877"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-45-87654321-1"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "X901234567"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "10 de julio de 2023"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Encuentro de pacientes diabéticos"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Biometría dactilar del índice derecho"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "María C. Rodríguez"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Femenina"
+    }
+  ]
+}

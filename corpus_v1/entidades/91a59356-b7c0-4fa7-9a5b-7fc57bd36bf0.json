@@ -1,0 +1,29 @@
+{
+  "id": "91a59356-b7c0-4fa7-9a5b-7fc57bd36bf0",
+  "data": [
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237650"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida del Paciente 10"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "paciente de 67 años"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Agosto 2023"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.martinez@saludoncor.es"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Álvaro Silva Campos"
+    }
+  ]
+}

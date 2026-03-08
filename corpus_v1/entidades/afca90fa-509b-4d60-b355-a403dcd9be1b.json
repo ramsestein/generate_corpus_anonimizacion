@@ -1,0 +1,41 @@
+{
+  "id": "afca90fa-509b-4d60-b355-a403dcd9be1b",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-345-6789"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://sas.hca.es/portal/paciente/ID2024_12345"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalregional.org/paciente/ABC123456"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Ana Belén Jiménez Ríos"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Individuo de sexo femenino"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella digital del pulgar derecho"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "B-28765432"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "Z44900371E"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "HCS-2024-001"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "a9fd3fc2-59be-4fe5-b33e-f8cd71dc80fb",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.martinez@saludoncor.es"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella dactilar del pulgar derecho"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Captura biométrica del pulgar derecho"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Isabel Gutiérrez Mendoza"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Alemania"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "NUS-449025"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "LTS4098176"
+    }
+  ]
+}

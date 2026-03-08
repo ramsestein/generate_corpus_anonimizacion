@@ -1,0 +1,61 @@
+{
+  "id": "9fc9ce80-b622-49c5-80b3-1e122a2352aa",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.m@centromedicoandalucia.com"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Taller de control de la ansiedad"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://hc.hospitalrey.es/acceso-clinico/ID789XYZ01"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-890-1234"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Víctor Manuel Herrera Gil"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2024-789013"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-2024-789012"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Francia"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Departamento de Salud de Valencia"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.centromedicobarcelona.org"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "IC-98765432B"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-456780"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237644"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Consorcio Sanitario Metropolitano"
+    }
+  ]
+}

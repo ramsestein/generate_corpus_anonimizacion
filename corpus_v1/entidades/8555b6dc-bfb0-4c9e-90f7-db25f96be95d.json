@@ -1,0 +1,41 @@
+{
+  "id": "8555b6dc-bfb0-4c9e-90f7-db25f96be95d",
+  "data": [
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 345 09 87"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Mujer adulta"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "huella dactilar índice derecho"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "B-987654321"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "B-58479216"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Máster en Ciencias Médicas"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-334455"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas DEF-456"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-2024-789123"
+    }
+  ]
+}

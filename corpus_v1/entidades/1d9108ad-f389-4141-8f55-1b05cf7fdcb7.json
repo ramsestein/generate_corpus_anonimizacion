@@ -1,0 +1,29 @@
+{
+  "id": "1d9108ad-f389-4141-8f55-1b05cf7fdcb7",
+  "data": [
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237638"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitaldelmar.cat"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente mujer"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/12345678"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Identificación dactilar: patrón lazo derecho."
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Clínica Periférica Norte"
+    }
+  ]
+}

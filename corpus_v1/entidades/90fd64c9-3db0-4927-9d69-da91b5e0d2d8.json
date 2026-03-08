@@ -1,0 +1,49 @@
+{
+  "id": "90fd64c9-3db0-4927-9d69-da91b5e0d2d8",
+  "data": [
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "H-99234501"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2024-78A012"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REG-2024-445566"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Puesto de Salud La Esperanza"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas XYZ-123"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Femenina"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "67 años, sexo masculino"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-B-789012"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-789123-2024"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-345-6789"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella del dedo índice mano derecha"
+    }
+  ]
+}

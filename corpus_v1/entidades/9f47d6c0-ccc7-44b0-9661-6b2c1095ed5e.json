@@ -1,0 +1,49 @@
+{
+  "id": "9f47d6c0-ccc7-44b0-9661-6b2c1095ed5e",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana.martinez@sanidad.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.gomez@ehealthclinic.com"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-2023-8767"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "SAN-67890"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "María del C. Rodríguez"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "María José Fernández López, madre"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "familiar"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo de apoyo para trastorno de ansiedad generalizada"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad Valenciana (CV)"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitaldelmar.cat"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hcsc.es/consulta/P45678"
+    }
+  ]
+}

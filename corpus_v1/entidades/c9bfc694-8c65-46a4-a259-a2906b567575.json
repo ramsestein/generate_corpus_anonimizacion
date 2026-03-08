@@ -1,0 +1,41 @@
+{
+  "id": "c9bfc694-8c65-46a4-a259-a2906b567575",
+  "data": [
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "María Rodríguez López"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Alicante"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "B-28473916"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Especialista en Medicina Interna"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "REG-ASIS-2024-789123"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-556677"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "La hermana del paciente"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Madre de la paciente"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Clínica Periférica Norte"
+    }
+  ]
+}

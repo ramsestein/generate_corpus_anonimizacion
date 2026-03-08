@@ -1,0 +1,49 @@
+{
+  "id": "30c04bfc-a6e6-4008-a44d-806acd3ad356",
+  "data": [
+    {
+      "entity": "CALLE",
+      "text": "Camino de los Pinares 120"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.centrodiagnosticobarcelona.com"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.mtz@clinicaplenavida.com"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "a.martinez@clinicauniversitaria.es"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "PER-SAN-789"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Número de serie 9BW1234567890"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Isabel Gutiérrez Mendoza"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad Autónoma Valenciana"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Género femenino"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-654321"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "Paciente geriátrico"
+    }
+  ]
+}

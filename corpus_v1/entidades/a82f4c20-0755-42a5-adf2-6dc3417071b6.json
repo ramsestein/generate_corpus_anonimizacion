@@ -1,0 +1,37 @@
+{
+  "id": "a82f4c20-0755-42a5-adf2-6dc3417071b6",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "lmartinez@clinicaplenavida.es"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "ALB9870123K"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-112233"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón de lazo identificado en índice derecho."
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "C-555123789"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "K998877660"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Alicante"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "15-07-2023"
+    }
+  ]
+}

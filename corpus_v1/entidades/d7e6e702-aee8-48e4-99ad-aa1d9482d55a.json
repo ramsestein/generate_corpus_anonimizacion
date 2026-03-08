@@ -1,0 +1,53 @@
+{
+  "id": "d7e6e702-aee8-48e4-99ad-aa1d9482d55a",
+  "data": [
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Consultorio General La Rivera"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "VIN 2T2BK1BA3FC123456"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Argentina"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "B-987654321"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-469-23"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Hembra"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida del Paciente 10"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-556677"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "c.martinez@fundacioncardiologica.es"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Lazo en huella del dedo índice derecho."
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Castellón"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "DR-88543217"
+    }
+  ]
+}

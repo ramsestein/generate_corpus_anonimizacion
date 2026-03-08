@@ -1,0 +1,49 @@
+{
+  "id": "e097f5a6-5405-4505-bcb7-49b2e65a1bdd",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://portal.paciente.sspa.es/hc/99887766F"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Índice derecho con formación de lazo."
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella dactilar del pulgar derecho"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.centrodiagnosticobarcelona.com"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 876 21 00"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital La Paz"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "ID-CLIN-2024-002"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2025-001234"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 7890123456"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del Centro de Salud 3"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida de la Albufera 128"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "ac32aecd-fab7-469c-8d10-55ff6a88e299",
+  "data": [
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 20 12345 6"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "S890123456"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Ana Belén Jiménez Ríos"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Francia"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Centro Médico Especializado Insular"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad Autónoma Valenciana"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Contacto principal familiar"
+    }
+  ]
+}

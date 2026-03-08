@@ -1,0 +1,49 @@
+{
+  "id": "545981f4-f75f-4ec0-96c2-293564d9f684",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.m@centromedicoandalucia.com"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital Regional del Norte"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital Germans Trias i Pujol"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Javier Santos"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Elena Rodríguez Santos"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella dactilar del segundo dedo mano derecha"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-99887766-C"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-66554433-C"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud y Bienestar La Colina"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Víctor Manuel Herrera Gil"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Colombia"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "43c56330-7396-4966-b3c5-e4ff592e4feb",
+  "data": [
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "123456789ABC"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "padre"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "123456789"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "EMP-123456"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "12345678A"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "15 de marzo de 2024"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "abril de 2024"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Puesto de Salud Central"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "Médico tratante"
+    }
+  ]
+}

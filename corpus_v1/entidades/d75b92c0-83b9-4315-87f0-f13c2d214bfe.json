@@ -1,0 +1,53 @@
+{
+  "id": "d75b92c0-83b9-4315-87f0-f13c2d214bfe",
+  "data": [
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Número de chasis WBA1234567890ABCD"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-456-7890"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Patricia Navarro"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "Fax administrativo: 93 567 12 34"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 456 32 10"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Región de Valencia"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "LTS4098176"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "15-07-2023"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "67 años, sexo masculino"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "MED-12345"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-12345678"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Género femenino"
+    }
+  ]
+}

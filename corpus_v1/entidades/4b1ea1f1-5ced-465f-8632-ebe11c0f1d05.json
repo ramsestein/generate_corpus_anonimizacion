@@ -1,0 +1,69 @@
+{
+  "id": "4b1ea1f1-5ced-465f-8632-ebe11c0f1d05",
+  "data": [
+    {
+      "entity": "PAIS",
+      "text": "Portugal"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Imagen dactilar del segundo dedo derecho"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida de la Albufera 125"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida del Paciente 10"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Título de Médico"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "CONTROL-23-4561"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REG-2024-445566"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-789123-2024"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-001234"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "N-246813579"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano general"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano cardiovascular"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Centro de Salud Hortaleza"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "P-771209"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "paciente sexagenario"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 24 12345 01"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "9e74d9f2-c198-4c06-a62c-1e9d4c62356f",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-012-3456"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Ronda de la Ambulancia 15"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Fumador social ocasional."
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Alergia a sulfamidas."
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Clínico San Carlos"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-P-2024-56789"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "F"
+    }
+  ]
+}

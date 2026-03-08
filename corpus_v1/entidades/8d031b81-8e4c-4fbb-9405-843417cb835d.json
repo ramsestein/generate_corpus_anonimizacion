@@ -1,0 +1,29 @@
+{
+  "id": "8d031b81-8e4c-4fbb-9405-843417cb835d",
+  "data": [
+    {
+      "entity": "INSTITUCION",
+      "text": "Agencia de Salud Pública Regional"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://webpaciente.hgugm.es/hc-seguro/7890ABCD12"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico residente"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano a cargo"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Antonio José Navarro Linares"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "María del Carmen López, madre del paciente"
+    }
+  ]
+}

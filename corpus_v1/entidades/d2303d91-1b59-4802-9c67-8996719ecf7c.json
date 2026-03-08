@@ -1,0 +1,49 @@
+{
+  "id": "d2303d91-1b59-4802-9c67-8996719ecf7c",
+  "data": [
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 28 453 001"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "cmartinez@sanitassalud.es"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente de sexo femenino"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud Las Rosas"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Registro vehicular GHI-789"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Identificación 3VWFE21C04M123456"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 876 21 00"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Dactilograma del pulgar derecho"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo apoyo diabetes tipo 2"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Consumo de tabaco ocasional."
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida del Doctor Fleming 22"
+    }
+  ]
+}

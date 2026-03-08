@@ -1,0 +1,33 @@
+{
+  "id": "72120ba7-c84c-44c6-98f4-8a28945fb3b0",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.mtz@clinicaplenavida.com"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana.garcia@clinicabarcelona.es"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico Especialista"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-2024-789234"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "B-58294107"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas XYZ-123"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Dr. Javier Roldán Nieto"
+    }
+  ]
+}

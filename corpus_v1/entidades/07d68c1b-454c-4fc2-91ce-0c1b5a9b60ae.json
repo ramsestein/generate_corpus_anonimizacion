@@ -1,0 +1,41 @@
+{
+  "id": "07d68c1b-454c-4fc2-91ce-0c1b5a9b60ae",
+  "data": [
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 411 23 45"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Alergia a látex."
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Provincia de Valencia"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle Doctor Esquerdo 45"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-123-4567"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Fundación Jiménez Díaz"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "HC-22-887430"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "ING-789456"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "R-864209753"
+    }
+  ]
+}

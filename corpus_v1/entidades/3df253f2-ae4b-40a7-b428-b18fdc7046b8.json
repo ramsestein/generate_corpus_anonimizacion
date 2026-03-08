@@ -1,0 +1,49 @@
+{
+  "id": "3df253f2-ae4b-40a7-b428-b18fdc7046b8",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalcentral.es/paciente/45682"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalregional.org/paciente/consulta/ZXC123987"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Servicio Madrileño de Salud"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Centro de Salud Hortaleza"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 209 18 27"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "Z44900371E"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Ambulatorio Urbano San Benito"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "S890123456"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-99001122"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237644"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-345-6789"
+    }
+  ]
+}

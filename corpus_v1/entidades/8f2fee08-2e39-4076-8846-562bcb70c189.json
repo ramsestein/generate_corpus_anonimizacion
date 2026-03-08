@@ -1,0 +1,41 @@
+{
+  "id": "8f2fee08-2e39-4076-8846-562bcb70c189",
+  "data": [
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "234-88-9012"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida del Doctor Fleming 22"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237640"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad Valenciana (CV)"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitalclinicomalaga.org"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "07/2023"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-987654"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Impresión dactilar del índice derecho"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Servicio Madrileño de Salud"
+    }
+  ]
+}

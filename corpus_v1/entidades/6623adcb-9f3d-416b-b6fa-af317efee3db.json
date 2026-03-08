@@ -1,0 +1,33 @@
+{
+  "id": "6623adcb-9f3d-416b-b6fa-af317efee3db",
+  "data": [
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Laura Pacheco Mendoza"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Clínica grupal de diabetes"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237656"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalregional.org/paciente/ABC123456"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://gestionclinica.hgugm.es/expediente-digital/AA123456"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Sexo femenino"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Tutor legal"
+    }
+  ]
+}

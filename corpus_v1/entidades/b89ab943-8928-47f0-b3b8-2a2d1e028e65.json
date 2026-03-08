@@ -1,0 +1,65 @@
+{
+  "id": "b89ab943-8928-47f0-b3b8-2a2d1e028e65",
+  "data": [
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro Médico Familiar Los Pinos"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del Príncipe de Vergara 112"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida del Doctor Fleming 22"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-2023-8755"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-345678"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "B1234567890"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "julio de 2023"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "NR-00145873"
+    },
+    {
+      "entity": "PAIS",
+      "text": "México"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.institutoclinicosevilla.com"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Provincia de Valencia"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://hc-e.hospitalregional.es/paciente/ZQ987W654"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Pareja de hecho"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Taller de control glucémico y nutrición"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo de apoyo oncológico"
+    }
+  ]
+}

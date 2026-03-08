@@ -1,0 +1,45 @@
+{
+  "id": "4d929dcf-fbaa-470c-927c-33416d4c4333",
+  "data": [
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "A987654321098"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "T678901234"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Área de Salud de la Comunidad Valenciana"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Registro biométrico del índice derecho"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Ambulatorio Urbano San Benito"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "especialista en cirugía torácica"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Tutora legal"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Cristina Pons Mir"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo de apoyo para el manejo de la diabetes"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Sesión de seguimiento de diabetes"
+    }
+  ]
+}

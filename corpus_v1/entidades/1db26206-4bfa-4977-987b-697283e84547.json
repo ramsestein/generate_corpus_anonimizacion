@@ -1,0 +1,25 @@
+{
+  "id": "1db26206-4bfa-4977-987b-697283e84547",
+  "data": [
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 952 88 76 54"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana.m@hospitaldelmar.es"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Captura biométrica del pulgar derecho"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Sexo femenino"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "BRC5538901P"
+    }
+  ]
+}

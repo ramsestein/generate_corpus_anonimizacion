@@ -1,0 +1,49 @@
+{
+  "id": "33f1c950-054f-4b40-9d75-b8c5860aec4f",
+  "data": [
+    {
+      "entity": "CALLE",
+      "text": "Avenida del Doctor Fleming 22"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital La Paz"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/12345/acceso"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-465-23"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "VIN 2T2BK1BA3FC123456"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.clinicasansebastian.com"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "10 de julio de 2023"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico residente"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "especialista en cirugía cardiovascular"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-77451289"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HCL-7249-2024"
+    }
+  ]
+}

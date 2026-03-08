@@ -1,0 +1,61 @@
+{
+  "id": "a5ef4261-c9b8-4d80-be3f-e2b8c718018b",
+  "data": [
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Título de Médico"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "amartinez@hospitalgeneral.com"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-987-6543"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "B-28473916"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Instituto Nacional de Salud"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital La Paz"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Antecedente de alergia a betalactámicos."
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Terapia grupal para trastornos de ansiedad"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Fumador recreativo ocasional."
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Principios de agosto de 2023"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-4567890123"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-87654321X"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Un familiar cercano"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Familiar: María Rodríguez"
+    }
+  ]
+}

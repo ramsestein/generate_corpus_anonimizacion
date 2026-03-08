@@ -1,0 +1,65 @@
+{
+  "id": "c53a5f98-670c-4f2a-ad52-6afea6cdb886",
+  "data": [
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Biometría dactilar del pulgar derecho"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-460-23"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-112233"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "CONTACTO-UCI-2024-556"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Carlos Méndez"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Elena Rodríguez Sánchez"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Género femenino"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del General Yagüe 8"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Paseo de la Salud 8"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalregional.es/paciente/ZXC123987"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.centrodiagnosticobarcelona.com"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Consorcio Sanitario Metropolitano"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Argentina"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Provincia de Valencia"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro Médico Familiar Los Pinos"
+    }
+  ]
+}

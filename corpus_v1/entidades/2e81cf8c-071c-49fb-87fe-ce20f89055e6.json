@@ -1,0 +1,57 @@
+{
+  "id": "2e81cf8c-071c-49fb-87fe-ce20f89055e6",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitaldelmar.cat"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "consulta.dermatologia.org"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente de sexo femenino"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Área de Gestión Sanitaria Sur"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Universitario Ramón y Cajal"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237652"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Travesía del Consultorio 5"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-123-4567"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-890-1234"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital Clínico de Barcelona"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-987654"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 93 245 67 18"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Ignacio Rojas Delgado"
+    }
+  ]
+}

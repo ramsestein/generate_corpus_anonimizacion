@@ -1,0 +1,53 @@
+{
+  "id": "d11473ee-a2e1-4a45-ae3a-0d7ce2e13cef",
+  "data": [
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 411 23 45"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana.m.martinez@clinic.es"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "La esposa del sujeto"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "DRE-55428931"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98217643"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-98765432"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "HC-EMP-2023-555"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro Médico Familiar Los Pinos"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-789433"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico cirujano"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo de manejo del estrés"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Castilla y León"
+    }
+  ]
+}

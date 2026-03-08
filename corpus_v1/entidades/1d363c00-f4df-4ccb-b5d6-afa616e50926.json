@@ -1,0 +1,61 @@
+{
+  "id": "1d363c00-f4df-4ccb-b5d6-afa616e50926",
+  "data": [
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital Regional del Norte"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Fundación Jiménez Díaz"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "(555) 234-5678"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitalgeneralvalencia.es"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida del Paciente 10"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.martinez@hospitalcentral.org"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "lu.martinez@saludmadrid.org"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Hipersensibilidad a antibióticos del grupo penicilina."
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 209 18 27"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Castilla y León"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "IDX-775319"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "A987654321098"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237638"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella del dedo índice mano derecha"
+    }
+  ]
+}

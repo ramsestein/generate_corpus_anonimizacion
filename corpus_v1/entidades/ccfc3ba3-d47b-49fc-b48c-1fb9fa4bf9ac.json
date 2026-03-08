@@ -1,0 +1,65 @@
+{
+  "id": "ccfc3ba3-d47b-49fc-b48c-1fb9fa4bf9ac",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "c.martinez@fundacioncardiologica.es"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Adulta de 45 años, sin alergias conocidas"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "María Rodríguez López"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente de sexo femenino"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Centro de Salud Hortaleza"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Castellón"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Registro dactilar del pulgar derecho"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella dactilar del segundo dedo mano derecha"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-465-23"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-48925631"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "ID-CLIN-2024-002"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano de tórax"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-765-4321"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-901-2345"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.centrodiagnosticobarcelona.com"
+    }
+  ]
+}

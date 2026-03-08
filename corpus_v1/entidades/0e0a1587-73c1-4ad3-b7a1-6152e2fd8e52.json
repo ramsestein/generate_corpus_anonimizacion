@@ -1,0 +1,73 @@
+{
+  "id": "0e0a1587-73c1-4ad3-b7a1-6152e2fd8e52",
+  "data": [
+    {
+      "entity": "TERRITORIO",
+      "text": "Área de Salud de la Comunidad Valenciana"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "BRC5538901P"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "B-87654321"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Clínico San Carlos"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital General Universitario Central"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "c.martinez@fundacioncardiologica.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana_martinez@salud.madrid.org"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-99900011-03"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Marta Vidal López"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Silvia Moreno"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "(555) 234-5678"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-789234"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2024-654321"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Segunda semana de julio 2023"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Alergia a contrastes yodados"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "NOTA-EVO-2024-8823"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Individuo de sexo femenino"
+    }
+  ]
+}

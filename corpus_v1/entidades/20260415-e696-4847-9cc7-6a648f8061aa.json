@@ -1,0 +1,45 @@
+{
+  "id": "20260415-e696-4847-9cc7-6a648f8061aa",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "a.martinez@clinicauniversitaria.es"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Clara Navarro Ruiz"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Italia"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro Médico Familiar Los Pinos"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-654321"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "N-246813579"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Ronda de la Ambulancia 15"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad Autónoma Valenciana"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico Cirujano"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalregional.org/paciente/consulta/ZXC123987"
+    }
+  ]
+}

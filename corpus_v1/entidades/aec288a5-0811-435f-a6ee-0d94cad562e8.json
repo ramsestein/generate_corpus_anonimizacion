@@ -1,0 +1,49 @@
+{
+  "id": "aec288a5-0811-435f-a6ee-0d94cad562e8",
+  "data": [
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Javier Santos"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "LTS4098176"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "UH-7742-2024"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2023-345678"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente de sexo femenino"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Registro biométrico del índice derecho"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Francia"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237652"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Instituto Nacional de Salud"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "D.ª Clara Robles Soto"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico Cirujano"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "0b76ec99-5715-47df-9512-dc7815da88a9",
+  "data": [
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital San Juan de Dios"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital Virgen del Rocío"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Sra. Elena Castillo Domínguez"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Paseo de la Salud 8"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella dactilar del segundo dedo mano derecha"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "citaprevia.hsjd.es"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalregional.es/acceso-paciente"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "0fcfa912-404f-414a-99c2-890f4e1f553f",
+  "data": [
+    {
+      "entity": "HOSPITAL",
+      "text": "Clínica Santa María"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "V-11246789"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "ID-SALUD-456"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico Cirujano"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-789013"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad Valenciana (CV)"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.clinicauniversitaria.es"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Hembra"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella dactilar del segundo dedo, mano derecha"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Imagen dactilar del segundo dedo derecho"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Fundación Jiménez Díaz"
+    }
+  ]
+}

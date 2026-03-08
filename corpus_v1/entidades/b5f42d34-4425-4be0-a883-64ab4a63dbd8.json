@@ -1,0 +1,41 @@
+{
+  "id": "b5f42d34-4425-4be0-a883-64ab4a63dbd8",
+  "data": [
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Biometría dactilar del índice derecho"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-2024-789456"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "María del Carmen López, hermana"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Cuñada del paciente"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Área de Gestión Sanitaria Sur"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico de cabecera"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "cmartinez@centrodesaludvital.es"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Instituto de Neurociencias"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitalcentralmadrid.es"
+    }
+  ]
+}

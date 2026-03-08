@@ -1,0 +1,45 @@
+{
+  "id": "6172f835-3ff4-49c9-931b-a9e5151ea994",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.martinez@hospitalcentral.org"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Identificación del vehículo JHM123456789012"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Registro biométrico del índice derecho"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Clara Navarro Ruiz"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "Paciente de 72 años"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "B-87654321"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "T-159487263"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Junio 2023"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Levante"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Cataluña"
+    }
+  ]
+}

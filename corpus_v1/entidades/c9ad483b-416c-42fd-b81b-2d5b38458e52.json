@@ -1,0 +1,25 @@
+{
+  "id": "c9ad483b-416c-42fd-b81b-2d5b38458e52",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana.garcia@clinicabarcelona.es"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Mujer"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-456-7890"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-901-2345"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Familiar: M. Carmen López"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "d5aa92fb-7e3f-4b6a-9741-ccb5e996a97f",
+  "data": [
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 411 23 45"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Universitario Ramón y Cajal"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo de apoyo oncológico"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Alergia a látex."
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Mujer adulta"
+    }
+  ]
+}

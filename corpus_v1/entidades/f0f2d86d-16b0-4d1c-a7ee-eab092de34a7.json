@@ -1,0 +1,65 @@
+{
+  "id": "f0f2d86d-16b0-4d1c-a7ee-eab092de34a7",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana.garcia@clinicabarcelona.com"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "B-58294136"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "B-58342901"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitalgeneralvalencia.es"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro Médico Familiar Los Pinos"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "sujeto de 67 años"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "15-07-2023"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://gestionclinica.hgugm.es/expediente-digital/AA123456"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad Autónoma Valenciana"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Región de Murcia"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 209 18 27"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas DEF-456"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Programa de intervención grupal en ansiedad"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Psicoterapia grupal para la regulación emocional"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-432-1098"
+    }
+  ]
+}

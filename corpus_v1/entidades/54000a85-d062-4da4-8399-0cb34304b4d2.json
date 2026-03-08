@@ -1,0 +1,37 @@
+{
+  "id": "54000a85-d062-4da4-8399-0cb34304b4d2",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana.garcia@clinicabarcelona.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "administracion@clinicaplaza.com"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-234-5678"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-876-5432"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.centrodiagnosticobarcelona.com"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Diplomado en Medicina"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237656"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Miguel Ángel Santos Peña"
+    }
+  ]
+}

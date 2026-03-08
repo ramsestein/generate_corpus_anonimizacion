@@ -1,0 +1,57 @@
+{
+  "id": "647333ee-309f-4770-9992-7d4030064ab2",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "www.clinicasansebastian.com"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico de cabecera"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano a cargo"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida del Paciente 10"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella dactilar derecha índice, patrón de lazo"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Impresión dactilar del índice derecho"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas ABC-789"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Cristina Pons Mir"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Femenina"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "MED-12345"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Territorio de la Comunidad Valenciana"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 24 123 45"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 21 345 678"
+    }
+  ]
+}

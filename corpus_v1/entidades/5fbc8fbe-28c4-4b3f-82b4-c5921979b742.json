@@ -1,0 +1,53 @@
+{
+  "id": "5fbc8fbe-28c4-4b3f-82b4-c5921979b742",
+  "data": [
+    {
+      "entity": "PAIS",
+      "text": "Italia"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-234-5678"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-901-2345"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "c.martinez@clinicadigestiva.net"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://sas.hca.es/portal/paciente/ID2024_12345"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Región de Valencia"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "67 años, sexo masculino"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "Anciano de 78 años"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Ana Beltrán Gil"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Segunda semana de julio 2023"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Fundación de Investigación Biomédica"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "F"
+    }
+  ]
+}

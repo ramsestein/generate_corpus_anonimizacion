@@ -1,0 +1,65 @@
+{
+  "id": "5067dd83-6945-4403-9ad0-5dd4527c21f4",
+  "data": [
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HIST-2024-00123"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "67 años, sexo femenino"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-678-9012"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-234-5678"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Infanta Sofía"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 93 245 67 18"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Andrés Fernández"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-461-23"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "07/2023"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Programa educativo de autocuidado diabético"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Alergia documentada a penicilina y derivados."
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Provincia de Valencia"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "pacientes.hospitalregional.es/lab"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/789123/informe"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Máster en Ciencias Médicas"
+    }
+  ]
+}

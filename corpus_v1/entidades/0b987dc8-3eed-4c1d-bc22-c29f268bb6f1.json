@@ -1,0 +1,65 @@
+{
+  "id": "0b987dc8-3eed-4c1d-bc22-c29f268bb6f1",
+  "data": [
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Alergia a sulfamidas."
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Programa de apoyo para el control metabólico"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/7890123"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-78901234-K"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "A987654321"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Hembra"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Reino Unido"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-890-1234"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2025-001234"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "informacion@hospitalgeneral.es"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Isabel Gutiérrez Mendoza"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Madre de la paciente"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Puesto de Salud La Esperanza"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "ID-PAC-2024-5678"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-789012"
+    }
+  ]
+}

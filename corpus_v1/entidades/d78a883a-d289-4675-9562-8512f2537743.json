@@ -1,0 +1,37 @@
+{
+  "id": "d78a883a-d289-4675-9562-8512f2537743",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana.m@hospitaldelmar.es"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "Paciente de 72 años"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "S-22387459"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "Z654321789"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del Hospital 45"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Puerta de Hierro"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente mujer"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Javier Santos"
+    }
+  ]
+}

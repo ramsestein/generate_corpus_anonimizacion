@@ -1,0 +1,49 @@
+{
+  "id": "85bed898-c6f5-4ebb-8e2f-23a8e3afff54",
+  "data": [
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HCL-4502198B"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Tabaquismo intermitente."
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Taller psicoeducativo para ansiedad"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "amartinez@hospitalgeneral.com"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Género femenino"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "Fax: 91 456 32 78"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 976 54 32 18"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida del Paciente 10"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Centro Médico Universitario"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "Paciente de 72 años"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitaldelmar.es"
+    }
+  ]
+}

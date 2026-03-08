@@ -1,0 +1,69 @@
+{
+  "id": "fb127329-bf1d-472f-842d-b16071888018",
+  "data": [
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "VIN 2T2BK1BA3FC123456"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Centro Hospitalario Central"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237633"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.centromedicobarcelona.org"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "IDC-5597B-23"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HIST-2024-00123"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-7348291B"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "mujer de 67 años"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-24-789123"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "COORD-CUIDADOS-2024-734"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "ID-CONT-784512"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "María del Carmen Rodríguez, esposa"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Área de Salud de la Comunidad Valenciana"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón de lazo identificado en índice derecho."
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente de sexo femenino"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Terapia cognitivo-conductual grupal"
+    }
+  ]
+}

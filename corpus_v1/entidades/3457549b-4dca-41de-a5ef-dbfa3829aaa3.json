@@ -1,0 +1,53 @@
+{
+  "id": "3457549b-4dca-41de-a5ef-dbfa3829aaa3",
+  "data": [
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "S890123456"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "ENF-2347-MAD"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-567890"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "ID-CLIN-2024-002"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana.m.martinez@clinic.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "cmartinez@hospitallapaz.es"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "P-88Z4421"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Imagen dactilar del segundo dedo derecho"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Identificación biométrica del pulgar derecho"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Paseo de la Salud 8"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Principios de agosto de 2023"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "María Fernández López"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "3c1780a7-5f49-4b26-bd9d-fff598e76aab",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.m@centromedicoandalucia.com"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Levante"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "Fax: 91 456 32 78"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "M.ª Luisa Fernández Castro"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida de la Albufera 112"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Agencia de Salud Pública Regional"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-432-1098"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Reino Unido"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo terapéutico para el afrontamiento de la diabetes"
+    }
+  ]
+}

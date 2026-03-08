@@ -1,0 +1,61 @@
+{
+  "id": "cc29c968-00ce-4481-a237-e783813deda3",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "www.clinicasansebastian.com"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "https://www.clinicabarceloneta.com"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "NHC-4562024"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-202406-1234"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "F"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano asistente"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano cardiovascular"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "+34 925 40 50 60"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-456-7890"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "cmartinez@hospitallapaz.es"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-789012"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "AS-2024-789012"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237638"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "Z44900371E"
+    }
+  ]
+}

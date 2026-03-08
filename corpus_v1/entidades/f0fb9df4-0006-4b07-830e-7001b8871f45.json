@@ -1,0 +1,57 @@
+{
+  "id": "f0fb9df4-0006-4b07-830e-7001b8871f45",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "www.centrodiagnosticobarcelona.com"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "VIN 1HGCM82633A123456"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "B-28473615"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "Fax administrativo: 93 567 12 34"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella unilar del dedo índice derecho"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Plaza de la Medicina 1"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "R-66213478"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "B-45872316-9"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.m@institutoneurologico.es"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Especialista en Medicina Interna"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Finales de junio de 2023"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano asistente"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Patricia Navarro"
+    }
+  ]
+}

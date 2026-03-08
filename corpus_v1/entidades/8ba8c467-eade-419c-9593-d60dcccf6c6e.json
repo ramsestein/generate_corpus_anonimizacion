@@ -1,0 +1,29 @@
+{
+  "id": "8ba8c467-eade-419c-9593-d60dcccf6c6e",
+  "data": [
+    {
+      "entity": "CALLE",
+      "text": "Paseo de la Salud 8"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/pacientes/consulta/12345ABCDE"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "portal.pacientes.hospitalregional.es"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "VIN 1HGCM82633A123456"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 532 89 01"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Infanta Sofía"
+    }
+  ]
+}

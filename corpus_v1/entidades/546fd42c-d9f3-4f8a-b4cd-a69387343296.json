@@ -1,0 +1,41 @@
+{
+  "id": "546fd42c-d9f3-4f8a-b4cd-a69387343296",
+  "data": [
+    {
+      "entity": "INSTITUCION",
+      "text": "Servicio Madrileño de Salud"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Clínico San Carlos"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "M-55661832"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-REG-2024-580"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-2024-789012"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "amartinez@hospitalgeneral.com"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-789012"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella dactilar derecha, dedo anular, patrón lazo."
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Provincia de Valencia"
+    }
+  ]
+}

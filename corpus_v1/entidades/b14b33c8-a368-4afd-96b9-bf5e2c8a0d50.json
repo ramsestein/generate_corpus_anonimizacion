@@ -1,0 +1,41 @@
+{
+  "id": "b14b33c8-a368-4afd-96b9-bf5e2c8a0d50",
+  "data": [
+    {
+      "entity": "PROFESION",
+      "text": "Médico de referencia"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico cirujano"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-123-4567"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Región de Valencia"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "V-11246789"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "14-0844221-01"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Título de Médico"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital General Universitario Central"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Gregorio Marañón"
+    }
+  ]
+}

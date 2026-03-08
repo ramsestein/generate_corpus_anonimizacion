@@ -1,0 +1,41 @@
+{
+  "id": "031cc8da-8842-4cbf-a54f-f8d348822f5c",
+  "data": [
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "b-67349582-a"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Hembra"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "c.gomez@clinic.es"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano tratante"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "grupo sanguíneo A positivo"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Región de Levante"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/AB123456"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del Río 24"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-678-9012"
+    }
+  ]
+}

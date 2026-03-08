@@ -1,0 +1,37 @@
+{
+  "id": "f061d4ae-fc0a-4dee-b5ed-6409069a907c",
+  "data": [
+    {
+      "entity": "PAIS",
+      "text": "Estados Unidos"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "+34 915 55 44 33"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del Diagnóstico 7"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.mtz@clinicaplenavida.com"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "ID-SALUD-456"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Víctor Manuel Herrera Gil"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-456780"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalcentral.es/acceso-paciente"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "b13b7cd7-725a-4ca9-98f1-fbe76daa823a",
+  "data": [
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "5678 XYZ"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "ABC-1234"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Juan Pérez García"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "María López Martínez"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Servicio de Neurología"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "NHC-2024-789"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida de la Paz 45"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "12345678A"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "11223344C"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "hermano"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "EMP-123456"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "12345678A"
+    }
+  ]
+}

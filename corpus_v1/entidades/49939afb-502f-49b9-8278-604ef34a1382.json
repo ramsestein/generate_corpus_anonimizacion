@@ -1,0 +1,29 @@
+{
+  "id": "49939afb-502f-49b9-8278-604ef34a1382",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalcentral.es/paciente/ABC123456"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://hc.hospitalrey.es/visor/8899T"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Doctor en Medicina"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Atención Primaria Vista Hermosa"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Alicante"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Colombia"
+    }
+  ]
+}

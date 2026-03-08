@@ -1,0 +1,37 @@
+{
+  "id": "66c9f178-14c3-4d93-8618-2ce02fa7c354",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "+34 912 34 56 78"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "M-369258147"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital San Juan de Dios"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-228401"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitalgeneralvalencia.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "cmartinez@hospitallapaz.es"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://hc-e.hospitalregional.es/paciente/ZQ987W654"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalregional.es/acceso-paciente"
+    }
+  ]
+}

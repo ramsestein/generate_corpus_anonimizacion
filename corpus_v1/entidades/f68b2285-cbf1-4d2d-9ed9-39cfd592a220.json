@@ -1,0 +1,33 @@
+{
+  "id": "f68b2285-cbf1-4d2d-9ed9-39cfd592a220",
+  "data": [
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 95 227 89 01"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "Fax: 91 456 32 78"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Área de Salud de la Comunidad Valenciana"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Hermana del paciente"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Instituto Nacional de Salud"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237633"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico Especialista"
+    }
+  ]
+}

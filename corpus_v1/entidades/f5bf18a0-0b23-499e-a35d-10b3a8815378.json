@@ -1,0 +1,33 @@
+{
+  "id": "f5bf18a0-0b23-499e-a35d-10b3a8815378",
+  "data": [
+    {
+      "entity": "PAIS",
+      "text": "Italia"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas XYZ-123"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://expediente.centrosanitario.es/paciente/VC23456RT"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano principal"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico Especialista"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "c.martinez@clinicadigestiva.net"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Álvaro Silva Campos"
+    }
+  ]
+}

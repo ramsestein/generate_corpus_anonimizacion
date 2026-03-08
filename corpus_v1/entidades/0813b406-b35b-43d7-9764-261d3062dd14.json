@@ -1,0 +1,41 @@
+{
+  "id": "0813b406-b35b-43d7-9764-261d3062dd14",
+  "data": [
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Sexo femenino"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "AS-2024-789012"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 411 23 45"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Álvaro Silva Campos"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "M-369258147"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Máster en Ciencias Médicas"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://sas.juntadeandalucia.es/hc/paciente/2024-8765"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalregional.es/acceso-paciente"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Departamento de Salud de Valencia"
+    }
+  ]
+}

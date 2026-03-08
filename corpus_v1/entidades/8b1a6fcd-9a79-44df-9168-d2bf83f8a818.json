@@ -1,0 +1,53 @@
+{
+  "id": "8b1a6fcd-9a79-44df-9168-d2bf83f8a818",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitalcentralmadrid.es"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "resultados.hospitalregional.es/consulta"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 09 28 123 45"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Sra. Elena Castillo Domínguez"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Trazo dactilar del pulgar derecho"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "ID-SALUD-456"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida del Paciente 10"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Instituto Nacional de Salud"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "R-864209753"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "A-33890512"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "CONT-78451209"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "paciente sexagenario"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "df82a795-5fda-4be3-b1b1-9030cfc0a165",
+  "data": [
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico Especialista"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "R-864209753"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "C-44198766"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "A987654321"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad Valenciana (CV)"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REG-2024-445566"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "234-88-9012"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Dactilograma del pulgar derecho"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "cmartinez@hospitallapaz.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "luciam@centromedicoandalucia.es"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Marcos Herrera Solís"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Fuma esporádicamente en contextos sociales."
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-469-23"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-123456"
+    }
+  ]
+}

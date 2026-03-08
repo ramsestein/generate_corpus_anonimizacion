@@ -1,0 +1,25 @@
+{
+  "id": "bec32e48-0188-47a7-8cdb-2abfb4c007ab",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/AB123CD456"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del Diagnóstico 7"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 991234567 1"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-99900011-03"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Registro vehicular GHI-789"
+    }
+  ]
+}

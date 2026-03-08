@@ -1,0 +1,33 @@
+{
+  "id": "84cf086c-6d20-4d3e-910a-df82a580cdbd",
+  "data": [
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-12345678"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 96 723 45 10"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "NHC-4562024"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "CLI-774032"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano a cargo"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Alemania"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "La esposa del sujeto"
+    }
+  ]
+}

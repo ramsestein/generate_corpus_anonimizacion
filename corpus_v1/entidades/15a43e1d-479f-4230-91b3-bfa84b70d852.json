@@ -1,0 +1,33 @@
+{
+  "id": "15a43e1d-479f-4230-91b3-bfa84b70d852",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/AB123CD456"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "grupo de apoyo diabetes"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Alergia a cefalosporinas."
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-234-5678"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-789-0123"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico General"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Elena M. Ruiz"
+    }
+  ]
+}

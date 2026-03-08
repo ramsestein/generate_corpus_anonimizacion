@@ -1,0 +1,37 @@
+{
+  "id": "e3448bb9-f9d7-4957-9f88-0f9ad7fae8f9",
+  "data": [
+    {
+      "entity": "CALLE",
+      "text": "Calle del Diagnóstico 7"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "P-987654321"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-678-9012"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "+34 912 34 56 78"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón ungueal del índice derecho (para variación)"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "huella dactilar derecha índice, plantilla 4B2C"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Hipersensibilidad a antibióticos del grupo penicilina."
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Alicante"
+    }
+  ]
+}

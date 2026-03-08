@@ -1,0 +1,61 @@
+{
+  "id": "731c2af4-ddf9-41b5-ab0e-e8aa84a066ff",
+  "data": [
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "CLI-54321"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "HS-4892-37"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Alicante"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "(555) 234-5678"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "Z789012345"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 29 123 47"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Registro biométrico del índice derecho"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 411 23 45"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "N-77401236"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://hc.hgta.es/acceso/paciente/5678ZYX"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237644"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud y Bienestar La Colina"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Sesión de apoyo mutuo para ansiedad"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano responsable"
+    }
+  ]
+}

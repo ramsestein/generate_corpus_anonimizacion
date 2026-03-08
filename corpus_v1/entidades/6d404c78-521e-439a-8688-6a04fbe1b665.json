@@ -1,0 +1,33 @@
+{
+  "id": "6d404c78-521e-439a-8688-6a04fbe1b665",
+  "data": [
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-123456"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-001234"
+    },
+    {
+      "entity": "PAIS",
+      "text": "México"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Mujer"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "a.martinez@clinicauniversitaria.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.mtz@clinicaplenavida.com"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Paseo de la Salud 8"
+    }
+  ]
+}

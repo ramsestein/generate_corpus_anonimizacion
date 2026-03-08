@@ -1,0 +1,37 @@
+{
+  "id": "bf7f1107-3430-42ab-8e6f-9ddd67264ea4",
+  "data": [
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Individuo de sexo femenino"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "S-741852963"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Alicante"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://sas.juntadeandalucia.es/hc/paciente/2024-8765"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "Fax administrativo: 93 567 12 34"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella del dedo índice mano derecha"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano de guardia"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2023-345678"
+    }
+  ]
+}

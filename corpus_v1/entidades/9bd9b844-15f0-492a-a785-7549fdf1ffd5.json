@@ -1,0 +1,45 @@
+{
+  "id": "9bd9b844-15f0-492a-a785-7549fdf1ffd5",
+  "data": [
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 411 23 45"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Portugal"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-B-78943"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-456780"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-284744"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237647"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.martinez@hospitalcentral.org"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "amartinez@cs-torrecardenas.es"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle de la Luna 42"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida del Paciente 10"
+    }
+  ]
+}

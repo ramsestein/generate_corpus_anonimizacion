@@ -1,0 +1,61 @@
+{
+  "id": "5562bea4-d1bb-4c24-ae8c-4568d689af87",
+  "data": [
+    {
+      "entity": "PAIS",
+      "text": "Estados Unidos"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "Fax administrativo: 93 567 12 34"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/expediente/11223344K"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Alicante"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "EMP-MED-345"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Mujer"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "https://www.consultatumedico.es"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "agenda.hospitalclinic.es"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Fundación Jiménez Díaz"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237650"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "Especialista en terapia física"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano tratante"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón dactilar del dedo índice derecho"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas XYZ-123"
+    }
+  ]
+}

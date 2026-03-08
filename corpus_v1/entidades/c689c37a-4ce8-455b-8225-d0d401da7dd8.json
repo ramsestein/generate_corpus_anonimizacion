@@ -1,0 +1,41 @@
+{
+  "id": "c689c37a-4ce8-455b-8225-d0d401da7dd8",
+  "data": [
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Lazo doble en huella dactilar del dedo medio derecho."
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Número de serie del vehículo 5XYZ987654321"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Servicio de Salud de la Comunidad"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-789-0123"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-432-1098"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "D.ª Clara Robles Soto"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "ADM-741258963"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "UH-7742-2024"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.m@centromedicoandalucia.com"
+    }
+  ]
+}

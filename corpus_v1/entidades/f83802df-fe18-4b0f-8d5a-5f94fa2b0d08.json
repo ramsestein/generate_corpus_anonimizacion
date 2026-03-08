@@ -1,0 +1,45 @@
+{
+  "id": "f83802df-fe18-4b0f-8d5a-5f94fa2b0d08",
+  "data": [
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-556677"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-123-4567"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 411 23 45"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "P-77120984"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "S-741852963"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://portal.paciente.sspa.es/hc/99887766F"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Colombia"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitalgeneralvalencia.es"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Imagen dactilar del segundo dedo derecho"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "experto en cirugía valvular"
+    }
+  ]
+}

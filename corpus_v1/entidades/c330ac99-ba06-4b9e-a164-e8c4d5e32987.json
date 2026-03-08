@@ -1,0 +1,33 @@
+{
+  "id": "c330ac99-ba06-4b9e-a164-e8c4d5e32987",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://portal.hospitalclinic.es/hc/M123N"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalnorte.es/paciente/ER56789ZX"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas XYZ-123"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Identificación biométrica del pulgar derecho"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Registro biométrico del índice derecho"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo de apoyo para el manejo de la diabetes"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Alergia a codeína"
+    }
+  ]
+}

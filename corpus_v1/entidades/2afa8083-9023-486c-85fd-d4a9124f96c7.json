@@ -1,0 +1,53 @@
+{
+  "id": "2afa8083-9023-486c-85fd-d4a9124f96c7",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-234-5678"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "BRC5538901P"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Instituto Nacional de Salud"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Sexo femenino"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/AB123CD456"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://api.hospitalcentral.es/pacientes/12345678A"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.clinicasansebastian.com"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-112233"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Isabel Gutiérrez Mendoza"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "María González Sánchez"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-CONT-024-789"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Alicante"
+    }
+  ]
+}

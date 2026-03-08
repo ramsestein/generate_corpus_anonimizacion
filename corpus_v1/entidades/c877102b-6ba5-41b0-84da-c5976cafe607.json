@@ -1,0 +1,37 @@
+{
+  "id": "c877102b-6ba5-41b0-84da-c5976cafe607",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-012-3456"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-456-7890"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Elena Rodríguez Ruiz"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Consorcio Sanitario Metropolitano"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Infanta Sofía"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Galicia"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente de sexo femenino"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Francia"
+    }
+  ]
+}

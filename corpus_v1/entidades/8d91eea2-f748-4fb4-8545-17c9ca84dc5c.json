@@ -1,0 +1,57 @@
+{
+  "id": "8d91eea2-f748-4fb4-8545-17c9ca84dc5c",
+  "data": [
+    {
+      "entity": "PROFESION",
+      "text": "especialista en cirugía"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano cardiovascular"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Plaza de la Medicina 1"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historia.hgv.es/acceso/ID98765"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-001234"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Puerta de Hierro"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "NHC-4562024"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón dactilar del pulgar derecho"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "Z44900371E"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "12 de noviembre de 2023"
+    },
+    {
+      "entity": "PAIS",
+      "text": "México"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "HC-EMP-2023-555"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente de sexo femenino"
+    }
+  ]
+}

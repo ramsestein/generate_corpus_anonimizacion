@@ -1,0 +1,73 @@
+{
+  "id": "3fe39a64-d9ac-4a9f-bbc7-164d8ce9dbd9",
+  "data": [
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "47 08 28 123 45"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "P112233445"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "C-44198766"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "B-584792136"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-001234"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "C-2024-789123"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "ID-SALUD-456"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/area_privada"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://api.hospitalcentral.es/pacientes/12345678A"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://portalclinico.hmh.es/ficha/789XYZ"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "M.ª Luisa Fernández Castro"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico Especialista"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "grupo de apoyo oncológico"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Alergia a sulfamidas."
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-5591-2024"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella unilar del dedo índice derecho"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "09H665432R"
+    }
+  ]
+}

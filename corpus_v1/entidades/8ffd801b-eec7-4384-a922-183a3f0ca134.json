@@ -1,0 +1,61 @@
+{
+  "id": "8ffd801b-eec7-4384-a922-183a3f0ca134",
+  "data": [
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Consultorio General La Rivera"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital Virgen del Rocío"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-765-4321"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "78 años, anciano"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "VIN 1HGCM82633A123456"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-445566"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://portal.hospitalclinic.es/hc/M123N"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/12345678A"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-98765432-M"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-4567890123"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "B27456890"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "F"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Ignacio Rojas Delgado"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Colombia"
+    }
+  ]
+}

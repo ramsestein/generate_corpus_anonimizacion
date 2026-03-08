@@ -1,0 +1,49 @@
+{
+  "id": "90e99261-1f52-4707-8171-0cba393b8079",
+  "data": [
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Biometría dactilar del pulgar derecho"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón whorl en pulgar de la mano izquierda."
+    },
+    {
+      "entity": "PAIS",
+      "text": "Portugal"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "EC-789456"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "B-58246901"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del Príncipe de Vergara 112"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle de la Luna 42"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Instituto Clínico del Este"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "45.876.321-Z"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Género femenino"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Especialista en Medicina Interna"
+    }
+  ]
+}

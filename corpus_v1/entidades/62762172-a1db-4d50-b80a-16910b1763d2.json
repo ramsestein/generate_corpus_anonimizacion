@@ -1,0 +1,53 @@
+{
+  "id": "62762172-a1db-4d50-b80a-16910b1763d2",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "lmartinez@sanitassalud.es"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Servicio de Salud de la Comunidad"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "67 años, sexo femenino"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2024-654321"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-456-7890"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Región de Murcia"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Atención Primaria Vista Hermosa"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-463-23"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-2023-8915"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Camino de los Pinares 120"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Impresión dactilar: lazo en índice derecho."
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Complejo Asistencial Virgen de la Luz"
+    }
+  ]
+}

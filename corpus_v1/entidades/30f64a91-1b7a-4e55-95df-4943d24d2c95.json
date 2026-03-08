@@ -1,0 +1,33 @@
+{
+  "id": "30f64a91-1b7a-4e55-95df-4943d24d2c95",
+  "data": [
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "NHC-2024-789"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Femenina"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "15 de marzo de 2024"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Servicio de Salud de la Comunidad"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Instituto de Salud Carlos III"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "12345678A"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "https://meddocan.herokuapp.com/"
+    }
+  ]
+}

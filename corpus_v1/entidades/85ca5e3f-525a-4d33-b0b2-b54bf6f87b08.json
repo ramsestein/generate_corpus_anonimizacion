@@ -1,0 +1,37 @@
+{
+  "id": "85ca5e3f-525a-4d33-b0b2-b54bf6f87b08",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-456-7890"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo de Apoyo al Paciente Oncológico"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Reacción anafiláctica a penicilina en la infancia."
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Mujer adulta"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-77412068"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "M67891204F"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "VIN 5XY12345678901234"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.clinicasansebastian.com"
+    }
+  ]
+}

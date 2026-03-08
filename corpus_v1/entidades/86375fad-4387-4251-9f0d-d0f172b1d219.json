@@ -1,0 +1,41 @@
+{
+  "id": "86375fad-4387-4251-9f0d-d0f172b1d219",
+  "data": [
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 456 78 90"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "hermana"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "madre"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Francia"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "ID_123456"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Servicio de Neurología"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Cuidadora principal"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-991122"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "45 años"
+    }
+  ]
+}

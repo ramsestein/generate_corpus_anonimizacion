@@ -1,0 +1,45 @@
+{
+  "id": "bef72a2b-385a-4cf4-aebd-25244085ecb1",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-890-1234"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-123-4567"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud y Bienestar La Colina"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-467-23"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Clara Navarro Ruiz"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "D.ª Clara Robles Soto"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Área de Salud de la Comunidad Valenciana"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico Cirujano"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del Hospital 45"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "10 de julio de 2023"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "27c368b2-ba0f-4c08-84ed-20d815d7470a",
+  "data": [
+    {
+      "entity": "PAIS",
+      "text": "Portugal"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://www.ejemplo.es"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "91-876-5432"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "masculino"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "familiar"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "ID-2024-789123"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "5678 XYZ"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "1234 ABC"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "ABC-1234"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Sevilla"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital Universitario La Paz"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud La Fortuna"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "123456789"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "NHC-2024-789"
+    }
+  ]
+}

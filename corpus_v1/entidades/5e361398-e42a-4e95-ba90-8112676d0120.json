@@ -1,0 +1,29 @@
+{
+  "id": "5e361398-e42a-4e95-ba90-8112676d0120",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-345-6789"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-123-4567"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "paciente de 67 años"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital 12 de Octubre"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Gregorio Marañón"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2023-123987"
+    }
+  ]
+}

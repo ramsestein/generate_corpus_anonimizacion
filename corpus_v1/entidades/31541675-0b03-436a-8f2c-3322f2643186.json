@@ -1,0 +1,57 @@
+{
+  "id": "31541675-0b03-436a-8f2c-3322f2643186",
+  "data": [
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas XYZ-123"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del Centro de Salud 3"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Gran Vía de les Corts Catalanes 580"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Territorio de la Comunidad Valenciana"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "C555123456"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "P-77120984"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "juan.lopez@sanitaspablo.es"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Portugal"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Junio 2023"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-556677"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "Varón de 72 años"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "varón de 67 años"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.clinicauniversitaria.es"
+    }
+  ]
+}

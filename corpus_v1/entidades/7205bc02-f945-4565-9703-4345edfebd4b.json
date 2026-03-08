@@ -1,0 +1,29 @@
+{
+  "id": "7205bc02-f945-4565-9703-4345edfebd4b",
+  "data": [
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "123456789012"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 28 125 01"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "hermano del paciente"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "B-28473916-C"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.m@institutoneurologico.es"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Finales de junio de 2023"
+    }
+  ]
+}

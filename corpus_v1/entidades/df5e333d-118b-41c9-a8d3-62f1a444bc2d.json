@@ -1,0 +1,45 @@
+{
+  "id": "df5e333d-118b-41c9-a8d3-62f1a444bc2d",
+  "data": [
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-465-23"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Plaza de la Medicina 1"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Ambulatorio Urbano San Benito"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano responsable"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano cardiovascular"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Reino Unido"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Mujer adulta"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "A987654321098"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "T678901234"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "B123456789"
+    }
+  ]
+}

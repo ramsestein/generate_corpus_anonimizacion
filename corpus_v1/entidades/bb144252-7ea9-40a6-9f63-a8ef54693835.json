@@ -1,0 +1,41 @@
+{
+  "id": "bb144252-7ea9-40a6-9f63-a8ef54693835",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "cita.hospitaldelmar.com"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.centrodiagnosticobarcelona.com"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Laura Pacheco Mendoza"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Provincia de Valencia"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Ronda de la Ambulancia 15"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida de la Albufera 132"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "R-66213478"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "T-159487263"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico Cirujano"
+    }
+  ]
+}

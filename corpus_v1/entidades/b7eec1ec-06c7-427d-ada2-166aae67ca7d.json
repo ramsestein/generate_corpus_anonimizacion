@@ -1,0 +1,29 @@
+{
+  "id": "b7eec1ec-06c7-427d-ada2-166aae67ca7d",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalregional.org/paciente/AB12345CD"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Sra. López (familiar)"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "María J. Fernández"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano vascular cardíaco"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo de apoyo a la diabetes tipo 2"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitalgeneralvalencia.es"
+    }
+  ]
+}

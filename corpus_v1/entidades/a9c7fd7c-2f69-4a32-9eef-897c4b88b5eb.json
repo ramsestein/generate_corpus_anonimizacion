@@ -1,0 +1,33 @@
+{
+  "id": "a9c7fd7c-2f69-4a32-9eef-897c4b88b5eb",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "(555) 765-4321"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Centro Médico Especializado Insular"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-2024-789432"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-789013"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "consulta@centrosaludmadrid.com"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.martinez@hospitalcentral.org"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Ignacio Rojas Delgado"
+    }
+  ]
+}

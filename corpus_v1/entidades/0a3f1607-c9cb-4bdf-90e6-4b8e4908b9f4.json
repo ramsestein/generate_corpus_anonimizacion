@@ -1,0 +1,53 @@
+{
+  "id": "0a3f1607-c9cb-4bdf-90e6-4b8e4908b9f4",
+  "data": [
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "REG-ASIS-2024-789123"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237644"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237645"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Universitario Ramón y Cajal"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud Las Rosas"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "dr.fernandez@clinicabarcelona.com"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Italia"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del Diagnóstico 7"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-345-6789"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "13 de julio de 2023"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-9876543210"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "pacientes.hospitalregional.es/lab"
+    }
+  ]
+}

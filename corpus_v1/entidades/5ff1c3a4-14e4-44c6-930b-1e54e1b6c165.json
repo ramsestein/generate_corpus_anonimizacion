@@ -1,0 +1,61 @@
+{
+  "id": "5ff1c3a4-14e4-44c6-930b-1e54e1b6c165",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://webpaciente.hgugm.es/hc-seguro/7890ABCD12"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2024-78A012"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2024-654321"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "B274935618"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 20 12345 6"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Sujeto del estudio H-889"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Mujer"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "72"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "H-99234501"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "P112233445"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Territorio de la Comunidad Valenciana"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Consultorio General La Rivera"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237644"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "10 de julio de 2023"
+    }
+  ]
+}

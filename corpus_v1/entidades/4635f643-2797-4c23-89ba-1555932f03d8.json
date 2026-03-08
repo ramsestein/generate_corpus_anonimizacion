@@ -1,0 +1,45 @@
+{
+  "id": "4635f643-2797-4c23-89ba-1555932f03d8",
+  "data": [
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Fundación Jiménez Díaz"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Distrito Sanitario Granada Metropolitano"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "P-987654321"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "V-11246789"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "VIN 5XY12345678901234"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-44567812"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Encuentro de pacientes diabéticos"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Alergia documentada a penicilina y derivados."
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.gomez@medicina.ucm.es"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 209 18 27"
+    }
+  ]
+}

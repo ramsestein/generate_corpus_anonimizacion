@@ -1,0 +1,53 @@
+{
+  "id": "bfeeb541-5c85-4518-813a-9fa39dbe8268",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-890-1234"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Finales de junio de 2023"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Instituto Clínico del Este"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Madre del paciente"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas ABC-789"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle Doctor Esquerdo 45"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Colombia"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "A7724C819"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella dactilar del dedo índice derecho"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "S890123456"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 28 124 50"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Marcos Vidal Peña"
+    }
+  ]
+}

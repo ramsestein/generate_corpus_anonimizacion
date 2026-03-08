@@ -1,0 +1,41 @@
+{
+  "id": "8ea75f54-c9d4-4119-9f83-291ddf9cf94a",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "consulta@centrosaludmadrid.com"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "P112233445"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "paciente sexagenario"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "B123456789012345"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 28 122 45"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-456-7890"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "13 de julio de 2023"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Isabel Gutiérrez Mendoza"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Mujer de 34 años, iniciales L.D."
+    }
+  ]
+}

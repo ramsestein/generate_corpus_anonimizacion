@@ -1,0 +1,53 @@
+{
+  "id": "1e97fc2b-7144-496b-9c54-dd77ce13b330",
+  "data": [
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "1234 ABC"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Licenciado en Medicina"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "12345678A"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle de la Princesa 25"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Plaza España 67"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Bilbao"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-789123-2024"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "familiar"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 123 45 67"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud La Fortuna"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Colombia"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "ID_123456"
+    }
+  ]
+}

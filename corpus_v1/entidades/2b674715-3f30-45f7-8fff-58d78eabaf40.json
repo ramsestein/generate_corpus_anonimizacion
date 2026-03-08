@@ -1,0 +1,53 @@
+{
+  "id": "2b674715-3f30-45f7-8fff-58d78eabaf40",
+  "data": [
+    {
+      "entity": "PAIS",
+      "text": "México"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "EXP-230945-D"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 411 23 45"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Castellón"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "67 años, sexo femenino"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital Virgen del Rocío"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Sexo femenino"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "c.gomez@clinicabarcelona.com"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Graduado en Medicina"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98234761"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella del dedo índice mano derecha"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-556677"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "01b77f51-ac11-4b11-822c-bfe2888977e0",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/87654321B"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 14 125 01"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 30 987 65"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "b-739182546-2"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-789654"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "e-2024-639215"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "patrón dactilar del quinto dígito derecho, tipo verticilo"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad de Castilla y León"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "2023-07-12"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico intensivista"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.clinicauniversitaria.es"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "María del Pilar Rodríguez, hermana"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "consumidor esporádico de tabaco"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Estado civil: Soltero"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "634-90-12-45"
+    }
+  ]
+}

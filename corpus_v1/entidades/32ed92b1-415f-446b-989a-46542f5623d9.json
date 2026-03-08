@@ -1,0 +1,57 @@
+{
+  "id": "32ed92b1-415f-446b-989a-46542f5623d9",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "https://temu.bio"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "EMP-123456"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "123456789012"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Licenciado en Medicina"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Graduado en Medicina"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "ID_123456"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "12345678A"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "otro sujeto de asistencia"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "hermano"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "madre"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Plaza España 67"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-78451209"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "María López Martínez"
+    }
+  ]
+}

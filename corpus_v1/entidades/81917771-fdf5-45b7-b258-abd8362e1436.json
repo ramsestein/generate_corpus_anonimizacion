@@ -1,0 +1,29 @@
+{
+  "id": "81917771-fdf5-45b7-b258-abd8362e1436",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://portal.hospitalclinic.es/hc/M123N"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalregional.es/paciente/ZXC456TYU"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "S-741852963"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "+34 911 23 45 67"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "VIN 2T2BK1BA3FC123456"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Mujer"
+    }
+  ]
+}

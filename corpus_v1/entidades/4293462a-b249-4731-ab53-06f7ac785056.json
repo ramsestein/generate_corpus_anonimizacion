@@ -1,0 +1,53 @@
+{
+  "id": "4293462a-b249-4731-ab53-06f7ac785056",
+  "data": [
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-445566"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Roberto Jiménez"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella dactilar derecha índice, patrón de lazo"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Dactilograma de lazo, dedo índice derecho."
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalregional.org/paciente/ZXC456TYU"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "09H665432R"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "P-9916A7K3"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del Hospital 45"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "mujer de 67 años"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico Especialista"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-789-0123"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitalclinicomalaga.org"
+    }
+  ]
+}

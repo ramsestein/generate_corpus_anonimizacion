@@ -1,0 +1,33 @@
+{
+  "id": "2ad6e76e-f681-4efc-a8a0-98b30fa8663e",
+  "data": [
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "B-58294107"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carmen.sanchez@hospitaldelmar.cat"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-654-3210"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Castellón"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "F"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo de apoyo en salud mental"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "LS-71230984"
+    }
+  ]
+}

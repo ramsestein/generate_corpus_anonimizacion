@@ -1,0 +1,53 @@
+{
+  "id": "bd03e85f-5701-4e03-8ee6-b60ed5ca8c1d",
+  "data": [
+    {
+      "entity": "PAIS",
+      "text": "Argentina"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-78451209"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Juan Pérez García"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Servicio de Neurología"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Clínico de la Capital"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud La Fortuna"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "12345678A"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "87654321B"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Sevilla"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "NHC-2024-789"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "enfermera"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "paciente.nombre@dominio.es"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "be11e751-5733-409a-8ed7-cdb589960ee9",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-012-3456"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Región de Valencia"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "F"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital San Juan de Dios"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-998877"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "paciente de 67 años"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Unidad de Salud Comunitaria El Mirador"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida de la Reina Mercedes 23"
+    }
+  ]
+}

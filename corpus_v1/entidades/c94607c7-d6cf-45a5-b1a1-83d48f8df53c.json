@@ -1,0 +1,49 @@
+{
+  "id": "c94607c7-d6cf-45a5-b1a1-83d48f8df53c",
+  "data": [
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Familiar cercano"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "masculino"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "https://temu.bio"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "paciente.nombre@dominio.es"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "ABC-1234"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "1234 ABC"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano tratante"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://www.hospitalgeneral.com"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "12345678A"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud y Bienestar"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud El Carmen"
+    }
+  ]
+}

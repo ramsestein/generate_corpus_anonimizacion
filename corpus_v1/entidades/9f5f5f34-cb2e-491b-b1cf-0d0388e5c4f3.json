@@ -1,0 +1,61 @@
+{
+  "id": "9f5f5f34-cb2e-491b-b1cf-0d0388e5c4f3",
+  "data": [
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 456 78 90"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "91-876-5432"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle de la Princesa 25"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://www.ejemplo.es"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "https://temu.bio"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "28 años"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "María López Martínez"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Carlos Fernández Silva"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "11223344C"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "12345678A"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital Universitario Ramón y Cajal"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Francia"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Portugal"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Italia"
+    }
+  ]
+}

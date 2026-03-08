@@ -1,0 +1,33 @@
+{
+  "id": "b04509af-a969-474e-9ac6-61c7655fca60",
+  "data": [
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Biometría dactilar del pulgar derecho"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella dactilar derecha, índice con lazo."
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hcs.es/expediente/11223A"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "pacientes.hospitalregional.es/lab"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "IDC-5597B-23"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REG-2024-445566"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Mujer"
+    }
+  ]
+}

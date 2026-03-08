@@ -1,0 +1,61 @@
+{
+  "id": "9b0c4564-3b0b-4d1f-b41d-13debb84cf2a",
+  "data": [
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Número de serie 9BW1234567890"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud Las Rosas"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-87654321-X"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Clínico San Carlos"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Título de Médico"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://pacientes.sanidad.gob.es/consulta/AB234CD56"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitalclinicomalaga.org"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "P78901234H"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-48263917B"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "NHC-662301"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Antonio José Navarro Linares"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "Médico tratante"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Sesión de apoyo mutuo para ansiedad"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Consumo de tabaco ocasional."
+    }
+  ]
+}

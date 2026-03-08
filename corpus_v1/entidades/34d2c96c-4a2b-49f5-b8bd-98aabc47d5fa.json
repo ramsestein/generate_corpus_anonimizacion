@@ -1,0 +1,33 @@
+{
+  "id": "34d2c96c-4a2b-49f5-b8bd-98aabc47d5fa",
+  "data": [
+    {
+      "entity": "CALLE",
+      "text": "Calle del Centro de Salud 3"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Marcos Vidal Peña"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://sas.hca.es/portal/paciente/ID2024_12345"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalcentral.es/paciente/consulta/ZXC123987"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Impresión dactilar del pulgar derecho"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-33445566"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237644"
+    }
+  ]
+}

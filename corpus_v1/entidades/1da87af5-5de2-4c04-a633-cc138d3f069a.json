@@ -1,0 +1,41 @@
+{
+  "id": "1da87af5-5de2-4c04-a633-cc138d3f069a",
+  "data": [
+    {
+      "entity": "PAIS",
+      "text": "Chile"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "X901234567"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Junio 2023"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano general"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Alicante"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "CLI-54321"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "CT-2024-789123"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-001234"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Género femenino"
+    }
+  ]
+}

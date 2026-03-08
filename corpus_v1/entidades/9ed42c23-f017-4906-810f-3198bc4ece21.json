@@ -1,0 +1,49 @@
+{
+  "id": "9ed42c23-f017-4906-810f-3198bc4ece21",
+  "data": [
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico Especialista"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://sistema.hospitalregional.es/area-paciente"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historial.hgugm.es/acceso-restringido/33445566T"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Territorio de la Comunidad Valenciana"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237640"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Álvaro Silva Campos"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "(555) 234-5678"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitaldelmar.cat"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "Z789012345"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Individuo de sexo femenino"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Familiar asistente"
+    }
+  ]
+}

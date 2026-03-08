@@ -1,0 +1,45 @@
+{
+  "id": "2cc08c5d-5480-44dc-8fc7-1cc1303592c0",
+  "data": [
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-789654"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Género femenino"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "María José Fernández, hermana"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón ungueal del índice derecho (para variación)"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Dactilograma del pulgar derecho"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-234-5678"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Centro de Salud Chamberí"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Servicio de Salud de la Comunidad"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad Valenciana (CV)"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del Centro de Salud 3"
+    }
+  ]
+}

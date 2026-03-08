@@ -1,0 +1,37 @@
+{
+  "id": "5666b578-e16f-493d-b2b1-a607c36201e6",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "a.martinez@centrosalud3.es"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "ING-789456"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "profesional de cirugía de corazón"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "15-07-2023"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo apoyo diabetes tipo 2"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Sra. Elena Castillo Domínguez"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 952 88 76 54"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/expediente/11223344K"
+    }
+  ]
+}

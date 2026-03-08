@@ -1,0 +1,29 @@
+{
+  "id": "f4632fb7-6128-4469-bb64-15754003e6e0",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "91-765-4321"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-654-3210"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "varón de 67 años"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Reacción anafiláctica a penicilina en la infancia."
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Isabel Gutiérrez Mendoza"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Camino de los Pinares 120"
+    }
+  ]
+}

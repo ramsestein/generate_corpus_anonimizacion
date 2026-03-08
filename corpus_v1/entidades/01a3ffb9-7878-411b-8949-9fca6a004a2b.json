@@ -1,0 +1,65 @@
+{
+  "id": "01a3ffb9-7878-411b-8949-9fca6a004a2b",
+  "data": [
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "patrón dactilar del cuarto dígito derecho, tipo lazo"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón dactilar del quinto dígito izquierdo, tipo verticilo"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle de la Victoria 15"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Región de Valencia"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-98765432-B"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Sistema Sanitario Público de Andalucía"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.clinicasansebastian.com"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "consulta.dermatologia.org"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "13 de julio de 2023"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "b-58293472"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "B-87453219"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 93 245 67 18"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Alemania"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Cristina Pons Mir"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente mujer"
+    }
+  ]
+}

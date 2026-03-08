@@ -1,0 +1,61 @@
+{
+  "id": "fb490d13-45c9-4f97-a738-065e6cc6867d",
+  "data": [
+    {
+      "entity": "PROFESION",
+      "text": "enfermero"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "12345678A"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Juan Pérez García"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud El Carmen"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud La Fortuna"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "LTS4098176"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 123 45 67"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "otro sujeto de asistencia"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "hermana"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "padre"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "28 años"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Antonio Jiménez Ruiz"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Elena Rodríguez Martínez"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "https://meddocan.herokuapp.com/"
+    }
+  ]
+}

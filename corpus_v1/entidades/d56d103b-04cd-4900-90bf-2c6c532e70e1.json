@@ -1,0 +1,25 @@
+{
+  "id": "d56d103b-04cd-4900-90bf-2c6c532e70e1",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-789-0123"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "María del Carmen Rodríguez, madre del paciente"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Marcos Vidal Peña"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Servicio Madrileño de Salud"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Clínico San Carlos"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "6918d339-b926-4e17-af2c-67b14135fe2d",
+  "data": [
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 96 723 45 10"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Argentina"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico cirujano"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "DR-88543217"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237645"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Sesión grupal de seguimiento de pacientes diabéticos"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella dactilar derecha, dedo medio, patrón lazo radial."
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella unilar del dedo índice derecho"
+    }
+  ]
+}

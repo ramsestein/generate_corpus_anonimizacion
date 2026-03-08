@@ -1,0 +1,69 @@
+{
+  "id": "7f4e2931-a5b9-4e1b-a57c-bd10f0e1dcf1",
+  "data": [
+    {
+      "entity": "PAIS",
+      "text": "Chile",
+      "start": 1083,
+      "end": 1089,
+      "anonymized_start": 994,
+      "anonymized_end": 997
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "REG-ASIS-2024-789123",
+      "start": 145,
+      "end": 159,
+      "anonymized_start": 90,
+      "anonymized_end": 93
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "REF-CARDIO-7894",
+      "start": 668,
+      "end": 683,
+      "anonymized_start": 625,
+      "anonymized_end": 628
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-445566",
+      "start": 521,
+      "end": 535,
+      "anonymized_start": 455,
+      "anonymized_end": 458
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "87654321X",
+      "start": 391,
+      "end": 400,
+      "anonymized_start": 314,
+      "anonymized_end": 317
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "A7724C819",
+      "start": 739,
+      "end": 748,
+      "anonymized_start": 656,
+      "anonymized_end": 659
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Muestra biométrica del índice derecho",
+      "start": 263,
+      "end": 293,
+      "anonymized_start": 263,
+      "anonymized_end": 266
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Segunda semana de julio 2023",
+      "start": 973,
+      "end": 992,
+      "anonymized_start": 946,
+      "anonymized_end": 949
+    }
+  ]
+}

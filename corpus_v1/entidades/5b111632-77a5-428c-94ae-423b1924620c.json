@@ -1,0 +1,49 @@
+{
+  "id": "5b111632-77a5-428c-94ae-423b1924620c",
+  "data": [
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "CONT-2024-78942"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-334455"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 411 23 45"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "acompañante del paciente"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente de sexo femenino"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "a.martinez@clinicauniversitaria.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlosg@fundacionjimenezdiaz.es"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-2024-789012"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.clinicamadridnorte.com"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Impresión dactilar del índice derecho"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad Valenciana (CV)"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "7cb68e7c-0346-424a-832f-63d54cf762e2",
+  "data": [
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "familiar del paciente"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/area/12345"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://hc.hospitalrey.es/acceso-clinico/ID789XYZ01"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano general"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Impresión dactilar: lazo en índice derecho."
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "Edad: 78 años"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "paciente de 67 años"
+    }
+  ]
+}

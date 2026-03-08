@@ -1,0 +1,53 @@
+{
+  "id": "4aa4e0c9-b36b-450e-9e14-3338a3df9ef0",
+  "data": [
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "47 08 28 123 45"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "Z789012345"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-987-6543"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "VIN 5XY12345678901234"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "P78901234H"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico cirujano"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Sesiones de educación diabetológica grupal"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo de apoyo para la artritis"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237633"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "V-11246789"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "B123456789"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente mujer"
+    }
+  ]
+}

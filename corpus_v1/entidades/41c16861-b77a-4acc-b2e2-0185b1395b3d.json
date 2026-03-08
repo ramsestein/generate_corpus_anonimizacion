@@ -1,0 +1,37 @@
+{
+  "id": "41c16861-b77a-4acc-b2e2-0185b1395b3d",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitalgeneralvalencia.es"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Italia"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "cmartinez@hospitallapaz.es"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Número de chasis WBA1234567890ABCD"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "HC-22-887430"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-012-3456"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad Valenciana (CV)"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://sae.hospitaldelmar.cat/paciente/3344L"
+    }
+  ]
+}

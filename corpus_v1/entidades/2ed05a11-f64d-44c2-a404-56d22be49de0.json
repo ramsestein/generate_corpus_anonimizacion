@@ -1,0 +1,37 @@
+{
+  "id": "2ed05a11-f64d-44c2-a404-56d22be49de0",
+  "data": [
+    {
+      "entity": "PAIS",
+      "text": "Chile"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.m@institutoneurologico.es"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "tipo de sangre"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 96 723 45 10"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Complejo Asistencial Virgen de la Luz"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Departamento de Salud de Valencia"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano de tórax"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.clinicamadridnorte.com"
+    }
+  ]
+}

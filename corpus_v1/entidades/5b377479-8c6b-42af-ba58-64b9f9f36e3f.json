@@ -1,0 +1,33 @@
+{
+  "id": "5b377479-8c6b-42af-ba58-64b9f9f36e3f",
+  "data": [
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Número de serie 9BW1234567890"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida del Paciente 10"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-45932"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-789123-A"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 532 89 01"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 234 87 65"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Hipersensibilidad a antibióticos del grupo penicilina."
+    }
+  ]
+}

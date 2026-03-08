@@ -1,0 +1,45 @@
+{
+  "id": "da4c5d77-a876-4da4-b331-eae55f2de0d5",
+  "data": [
+    {
+      "entity": "PAIS",
+      "text": "Estados Unidos"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.martinez@hospitalcentral.org"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del Centro de Salud 3"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del General Yagüe 8"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "L-428571936"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "C555123456"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Trazo dactilar del pulgar derecho"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "huella dactilar índice derecho"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas XYZ-123"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historial.hgugm.es/acceso-restringido/33445566T"
+    }
+  ]
+}

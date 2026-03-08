@@ -1,0 +1,49 @@
+{
+  "id": "593de651-fc22-4298-ab9e-4e7f75d664a7",
+  "data": [
+    {
+      "entity": "FECHAS",
+      "text": "Junio 2023"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Carlos Méndez"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Graduado en Medicina"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Biometría dactilar del pulgar derecho"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "María José Fernández, hermana"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-202406-1234"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237639"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 27 122 44"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "R-66213478"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "(555) 765-4321"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Paseo de la Salud 8"
+    }
+  ]
+}

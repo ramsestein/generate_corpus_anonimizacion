@@ -1,0 +1,41 @@
+{
+  "id": "cbaf8a31-6b49-4c3d-8857-4b5b7b8e32e6",
+  "data": [
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-12345678"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Ambulatorio Urbano San Benito"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Portugal"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Agencia de Salud Pública Regional"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "45.876.321-Z"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 411 23 45"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "M890123456789"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "T678901234"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-345-6789"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "65d64360-5b2a-4f0b-947f-374b86bea231",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "www.clinicauniversitaria.es"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital General de Valencia"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Centro Hospitalario Central"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Muestra biométrica del índice derecho"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Licenciatura en Medicina"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "67 años de edad"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "amartinez@cs-torrecardenas.es"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Área de Gestión Sanitaria Sur"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas XYZ-123"
+    }
+  ]
+}

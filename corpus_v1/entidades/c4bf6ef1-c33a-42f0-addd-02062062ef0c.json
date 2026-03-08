@@ -1,0 +1,21 @@
+{
+  "id": "c4bf6ef1-c33a-42f0-addd-02062062ef0c",
+  "data": [
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237647"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Clínico de la Capital"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://api.hospitalcentral.es/pacientes/12345678A"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 20 12345 6"
+    }
+  ]
+}

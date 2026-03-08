@@ -1,0 +1,33 @@
+{
+  "id": "a38a2d1f-3b6d-494c-b8fe-cf6bed82972d",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "cmartinez@centrodesaludvital.es"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2023-345678"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "Fax administrativo: 93 567 12 34"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "BRC5538901P"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente de sexo femenino"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Historia de tabaquismo ocasional."
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Finales de junio de 2023"
+    }
+  ]
+}

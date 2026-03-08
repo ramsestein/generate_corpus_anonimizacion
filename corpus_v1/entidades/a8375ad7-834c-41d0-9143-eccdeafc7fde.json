@@ -1,0 +1,53 @@
+{
+  "id": "a8375ad7-834c-41d0-9143-eccdeafc7fde",
+  "data": [
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Clara Núñez Costa"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Elena Rodríguez Martínez"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "enero de 2023"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "abril de 2024"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "15 de marzo de 2024"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://www.ejemplo.es"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://www.hospitalgeneral.com"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "12345678A"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-784512"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "1234567890"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-8472-AB6"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "NHC-2024-789"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "0fc57f34-5a84-4854-9af9-ea2b98d02737",
+  "data": [
+    {
+      "entity": "CALLE",
+      "text": "Avenida del Paciente 10"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Junio 2023"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Unidad de Salud Comunitaria El Mirador"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas XYZ-123"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.clinicamadridnorte.com"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Responsable legal (madre)"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Sra. López (familiar)"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 532 89 01"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "a.martinez@hospitalnorte.org"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "a.martinez@clinicauniversitaria.es"
+    }
+  ]
+}

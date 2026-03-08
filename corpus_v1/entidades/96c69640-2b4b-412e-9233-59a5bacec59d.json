@@ -1,0 +1,21 @@
+{
+  "id": "96c69640-2b4b-412e-9233-59a5bacec59d",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-901-2345"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "644-12-34-56"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón ungueal del dedo índice derecho"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital General Metropolitano"
+    }
+  ]
+}

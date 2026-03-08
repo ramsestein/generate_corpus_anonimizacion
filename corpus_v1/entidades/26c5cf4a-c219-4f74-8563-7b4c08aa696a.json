@@ -1,0 +1,29 @@
+{
+  "id": "26c5cf4a-c219-4f74-8563-7b4c08aa696a",
+  "data": [
+    {
+      "entity": "CALLE",
+      "text": "Plaza de la Medicina 1"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas DEF-456"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella dactilar derecha, índice con lazo."
+    },
+    {
+      "entity": "PAIS",
+      "text": "Alemania"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "grupo de apoyo diabetes"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano de guardia"
+    }
+  ]
+}

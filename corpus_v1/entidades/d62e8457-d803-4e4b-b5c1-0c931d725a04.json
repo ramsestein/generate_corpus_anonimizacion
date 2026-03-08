@@ -1,0 +1,29 @@
+{
+  "id": "d62e8457-d803-4e4b-b5c1-0c931d725a04",
+  "data": [
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "INTERCONSULTA-GASTRO-567"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-654321"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "45.876.321-Z"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas ABC-789"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Consultorio Local Santa Clara"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "resultados.hospitalregional.es/consulta"
+    }
+  ]
+}

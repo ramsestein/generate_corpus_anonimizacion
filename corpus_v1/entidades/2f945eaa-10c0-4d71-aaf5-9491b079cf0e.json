@@ -1,0 +1,49 @@
+{
+  "id": "2f945eaa-10c0-4d71-aaf5-9491b079cf0e",
+  "data": [
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "María del Carmen Rodríguez, madre del paciente"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Hermana del paciente"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "La cuidadora principal"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REG-INTERNO-789123"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Consorcio Sanitario Metropolitano"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Servicio Madrileño de Salud"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-556677"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237639"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "VIN 1HGCM82633A123456"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "B-456789123"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Alergia a meperidina"
+    }
+  ]
+}

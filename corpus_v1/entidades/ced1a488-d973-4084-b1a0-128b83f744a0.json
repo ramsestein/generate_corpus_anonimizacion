@@ -1,0 +1,45 @@
+{
+  "id": "ced1a488-d973-4084-b1a0-128b83f744a0",
+  "data": [
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Javier Santos"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Elena Rodríguez Santos"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Índice derecho con formación de lazo."
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "NR-00145873"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano principal"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-789-0123"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-45-87654321-1"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-334455"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "2024-7894-LAB"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "SEC-963852741"
+    }
+  ]
+}

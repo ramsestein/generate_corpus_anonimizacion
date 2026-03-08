@@ -1,0 +1,41 @@
+{
+  "id": "68b347a4-51d3-45c2-94ca-54f38be9cffd",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "c.martinez@clinicadigestiva.net"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida de la Constitución 7"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Puerta de Hierro"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "SAN-67890"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-466-23"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2024-654321"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "ADM-741258963"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Consultorio General La Rivera"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Clínica Santa María"
+    }
+  ]
+}

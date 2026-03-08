@@ -1,0 +1,33 @@
+{
+  "id": "0f5d7415-0079-47aa-aa54-10354864b19e",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-432-1098"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Graduado en Medicina"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-112233"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-778899"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 991234567 1"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico cardiocirujano"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida del Doctor Fleming 22"
+    }
+  ]
+}

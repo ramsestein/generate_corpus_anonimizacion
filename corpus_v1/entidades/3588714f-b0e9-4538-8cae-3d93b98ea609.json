@@ -1,0 +1,33 @@
+{
+  "id": "3588714f-b0e9-4538-8cae-3d93b98ea609",
+  "data": [
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-654321"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "facultativo de cirugía coronaria"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Alicante"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "13 de julio de 2023"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitaldelmar.es/paciente/ZX98765WV"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "192.168.1.1"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo terapéutico para el afrontamiento de la diabetes"
+    }
+  ]
+}

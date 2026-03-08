@@ -1,0 +1,37 @@
+{
+  "id": "b7207af4-98e2-4abc-a47d-444428d51f7b",
+  "data": [
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Patricia Navarro"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-456789"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Alicante"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237656"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 209 18 27"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-789012-2024"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HCL-4502198B"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "dr.l.martinez@clinicabarcelona.es"
+    }
+  ]
+}

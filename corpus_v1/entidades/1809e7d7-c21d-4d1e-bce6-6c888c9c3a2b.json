@@ -1,0 +1,61 @@
+{
+  "id": "1809e7d7-c21d-4d1e-bce6-6c888c9c3a2b",
+  "data": [
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital 12 de Octubre"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://api.hospitalcentral.es/pacientes/consulta"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "Fax administrativo: 93 567 12 34"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 456 32 10"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "B-58294107"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Mujer adulta"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "paciente de 67 años"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-12345678-Z"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico Cirujano"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón ungueal del índice derecho (para variación)"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitaldelmar.cat"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "45.876.321-Z"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Travesía del Consultorio 5"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida de la Constitución 7"
+    }
+  ]
+}

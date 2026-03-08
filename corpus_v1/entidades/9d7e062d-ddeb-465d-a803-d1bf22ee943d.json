@@ -1,0 +1,29 @@
+{
+  "id": "9d7e062d-ddeb-465d-a803-d1bf22ee943d",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "http://www.meddocan.es"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Plaza España 67"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Servicio de Neurología"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Instituto de Salud Carlos III"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "15 de marzo de 2024"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "11223344C"
+    }
+  ]
+}

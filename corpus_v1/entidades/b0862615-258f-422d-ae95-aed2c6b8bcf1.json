@@ -1,0 +1,37 @@
+{
+  "id": "b0862615-258f-422d-ae95-aed2c6b8bcf1",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "amartinez@cs-torrecardenas.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "c.martinez@fundacioncardiologica.es"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "sujeto de 67 años"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.centromedicobarcelona.org"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital General Universitario Central"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Infanta Sofía"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Ambulatorio Urbano San Benito"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "Facultativo responsable"
+    }
+  ]
+}

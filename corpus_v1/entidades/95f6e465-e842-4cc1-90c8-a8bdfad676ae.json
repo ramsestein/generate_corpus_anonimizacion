@@ -1,0 +1,25 @@
+{
+  "id": "95f6e465-e842-4cc1-90c8-a8bdfad676ae",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://hc-e.hospitalregional.es/paciente/ZQ987W654"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://api.hospitalcentral.es/pacientes/12345678A"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.clinicauniversitaria.es"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Francia"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Castellón"
+    }
+  ]
+}

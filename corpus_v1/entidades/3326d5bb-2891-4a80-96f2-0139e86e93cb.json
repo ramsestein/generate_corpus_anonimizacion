@@ -1,0 +1,33 @@
+{
+  "id": "3326d5bb-2891-4a80-96f2-0139e86e93cb",
+  "data": [
+    {
+      "entity": "PAIS",
+      "text": "Colombia"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "C456789012"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "234-88-9012"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Unidad de Salud Comunitaria"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "HCS-2024-001"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Fundación de Investigación Biomédica"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Travesía del Consultorio 5"
+    }
+  ]
+}

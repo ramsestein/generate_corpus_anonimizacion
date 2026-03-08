@@ -1,0 +1,57 @@
+{
+  "id": "ce454054-c8b5-4336-b47d-f82b0c72f58b",
+  "data": [
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico General"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "5678 XYZ"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "1234 ABC"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "enfermero"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "enfermera"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle de la Princesa 25"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "123456789"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "juan.perez@ejemplo.com"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "maria.lopez@correo.es"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "123456789ABC"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "34 años"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://www.ejemplo.es"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://www.hospitalgeneral.com"
+    }
+  ]
+}

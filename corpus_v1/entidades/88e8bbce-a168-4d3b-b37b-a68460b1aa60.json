@@ -1,0 +1,33 @@
+{
+  "id": "88e8bbce-a168-4d3b-b37b-a68460b1aa60",
+  "data": [
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 345 09 87"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Segunda semana de julio 2023"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "67 años de edad"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle de la Luna 42"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Femenina"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-789013"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Familiar cuidador"
+    }
+  ]
+}

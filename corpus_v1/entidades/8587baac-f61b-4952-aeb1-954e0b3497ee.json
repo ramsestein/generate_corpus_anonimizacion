@@ -1,0 +1,45 @@
+{
+  "id": "8587baac-f61b-4952-aeb1-954e0b3497ee",
+  "data": [
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 876 21 00"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Ignacio Rojas Delgado"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://webpaciente.hgugm.es/hc-seguro/7890ABCD12"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "CLI-54321"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Principios de agosto de 2023"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "12 de noviembre de 2023"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237656"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2023-345678"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "COD-ADM-789123"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "S-2248-REF"
+    }
+  ]
+}

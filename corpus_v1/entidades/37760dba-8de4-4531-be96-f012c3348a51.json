@@ -1,0 +1,29 @@
+{
+  "id": "37760dba-8de4-4531-be96-f012c3348a51",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "www.centrodiagnosticobarcelona.com"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano asistente"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Dactilograma de lazo, dedo índice derecho."
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle de la Luna 42"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "edad: 67 años"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo terapéutico para el afrontamiento de la diabetes"
+    }
+  ]
+}

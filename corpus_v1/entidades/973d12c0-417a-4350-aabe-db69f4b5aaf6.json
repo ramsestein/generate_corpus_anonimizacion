@@ -1,0 +1,29 @@
+{
+  "id": "973d12c0-417a-4350-aabe-db69f4b5aaf6",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/expediente/11223344K"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historia.huvv.es/consulta/paciente/334455"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Ambulatorio Urbano San Benito"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Complejo Asistencial Virgen de la Luz"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Reino Unido"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas XYZ-123"
+    }
+  ]
+}

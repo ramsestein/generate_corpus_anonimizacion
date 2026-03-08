@@ -1,0 +1,53 @@
+{
+  "id": "3dc6c2ed-deb2-420a-bcee-58850c2ff8fe",
+  "data": [
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "12345678A"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Plaza España 67"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "123456789012"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "Facultativo responsable"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "enfermero"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "hermano"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "https://temu.bio"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "https://meddocan.herokuapp.com/"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "91-234-5678"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 123 45 67"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Unidad de Salud Comunitaria"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "juan.perez@ejemplo.com"
+    }
+  ]
+}

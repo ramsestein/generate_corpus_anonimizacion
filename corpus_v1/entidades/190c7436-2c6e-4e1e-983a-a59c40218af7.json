@@ -1,0 +1,41 @@
+{
+  "id": "190c7436-2c6e-4e1e-983a-a59c40218af7",
+  "data": [
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 96 723 45 10"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón dactilar del dedo índice derecho"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "huella dactilar derecha índice, patrón de arco"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-445566"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "A-123456789"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Clínico de la Capital"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 28 125 01"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 14 125 01"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "13 de julio de 2023"
+    }
+  ]
+}

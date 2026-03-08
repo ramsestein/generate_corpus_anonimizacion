@@ -1,0 +1,25 @@
+{
+  "id": "e1707e11-d513-40f3-940d-8615b719372a",
+  "data": [
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Identificación del vehículo JHM123456789012"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Centro Médico Universitario"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Título de Médico"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano responsable"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://sas.hospitalgeneral.es/visor-clinico/PLM555NN"
+    }
+  ]
+}

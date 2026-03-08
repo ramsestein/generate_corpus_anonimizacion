@@ -1,0 +1,37 @@
+{
+  "id": "4e73b447-b333-41b1-a047-37c67a34ad2f",
+  "data": [
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237644"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "dr.fernandez@clinicabarcelona.com"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "historial.hospitalregional.es/acceso-paciente"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalregional.es/acceso-paciente"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Biometría dactilar del índice derecho"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Captura biométrica del pulgar derecho"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2023-345678"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "634-89-12-47"
+    }
+  ]
+}

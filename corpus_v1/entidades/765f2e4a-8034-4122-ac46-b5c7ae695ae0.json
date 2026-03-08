@@ -1,0 +1,45 @@
+{
+  "id": "765f2e4a-8034-4122-ac46-b5c7ae695ae0",
+  "data": [
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 952 88 76 54"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del Centro de Salud 3"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://chc.es/area-clinica/paciente/AB789C"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "LTS4098176"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Francia"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "LR-99123450"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Registro biométrico del índice derecho"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella dactilar derecha índice, patrón de lazo"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "agarcia@hospitalcentral.org"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital San Juan de Dios"
+    }
+  ]
+}

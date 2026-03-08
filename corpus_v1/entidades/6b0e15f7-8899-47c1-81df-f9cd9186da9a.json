@@ -1,0 +1,49 @@
+{
+  "id": "6b0e15f7-8899-47c1-81df-f9cd9186da9a",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.martinez@saludoncor.es"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Ana Belén Jiménez Ríos"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Género femenino"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "47 08 28 123 45"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Clínica Santa María"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital Clínico de Barcelona"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "A7724C819"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Laura Pacheco Mendoza"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-987654-CS"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano del equipo"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano cardiovascular"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "3b0c806a-7eb0-46bc-b2c0-d0cb2c3c79cb",
+  "data": [
+    {
+      "entity": "INSTITUCION",
+      "text": "Área de Gestión Sanitaria Sur"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "amartinez@hospitalgeneral.com"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-11223344"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad Valenciana (CV)"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-778899"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "EXP-CLIN-2024-789123"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "HC-EMP-2023-555"
+    }
+  ]
+}

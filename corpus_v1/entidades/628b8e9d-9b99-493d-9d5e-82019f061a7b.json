@@ -1,0 +1,77 @@
+{
+  "id": "628b8e9d-9b99-493d-9d5e-82019f061a7b",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-890-1234",
+      "start": 511,
+      "end": 523,
+      "anonymized_start": 466,
+      "anonymized_end": 469
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-876-5432",
+      "start": 565,
+      "end": 576,
+      "anonymized_start": 511,
+      "anonymized_end": 514
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Registro vehicular GHI-789",
+      "start": 1193,
+      "end": 1201,
+      "anonymized_start": 1089,
+      "anonymized_end": 1092
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "C555123456",
+      "start": 357,
+      "end": 367,
+      "anonymized_start": 295,
+      "anonymized_end": 298
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Sexo femenino",
+      "start": 421,
+      "end": 429,
+      "anonymized_start": 312,
+      "anonymized_end": 315
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "B123456789",
+      "start": 357,
+      "end": 367,
+      "anonymized_start": 274,
+      "anonymized_end": 277
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-55443322-D",
+      "start": 1060,
+      "end": 1073,
+      "anonymized_start": 1025,
+      "anonymized_end": 1028
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "M.ª Luisa Fernández Castro",
+      "start": 285,
+      "end": 306,
+      "anonymized_start": 285,
+      "anonymized_end": 288
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Provincia de Valencia",
+      "start": 632,
+      "end": 652,
+      "anonymized_start": 614,
+      "anonymized_end": 617
+    }
+  ]
+}

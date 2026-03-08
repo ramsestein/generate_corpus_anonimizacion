@@ -1,0 +1,45 @@
+{
+  "id": "922b4252-b1ed-40aa-9dc3-8d1c596d2339",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-890-1234"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-901234"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 27 122 44"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 789123456 01"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "DR-88543217"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida de Betanzos 22"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro Médico Familiar Los Pinos"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Ana Belén Jiménez Ríos"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitaldelmar.es/paciente/87654321B"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad Valenciana (CV)"
+    }
+  ]
+}

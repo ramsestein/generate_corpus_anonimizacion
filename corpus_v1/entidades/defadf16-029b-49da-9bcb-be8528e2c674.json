@@ -1,0 +1,53 @@
+{
+  "id": "defadf16-029b-49da-9bcb-be8528e2c674",
+  "data": [
+    {
+      "entity": "PAIS",
+      "text": "Italia"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Francia"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud La Fortuna"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Mujer adulta"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "5678 XYZ"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Ruiz Martínez, Elena"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "123456789012"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "ID_123456"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "11223344C"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "12345678A"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Diplomado en Medicina"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "enfermera"
+    }
+  ]
+}

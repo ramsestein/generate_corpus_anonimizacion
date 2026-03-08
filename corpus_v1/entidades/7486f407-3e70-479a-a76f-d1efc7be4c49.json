@@ -1,0 +1,45 @@
+{
+  "id": "7486f407-3e70-479a-a76f-d1efc7be4c49",
+  "data": [
+    {
+      "entity": "HOSPITAL",
+      "text": "Clínica Universidad de Navarra"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "12345678A"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "ID-PAC-2024-5678"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "https://meddocan.herokuapp.com/"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Francia"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Carlos Fernández Silva"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "96-123-4567"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "91-234-5678"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "91-876-5432"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "otro sujeto de asistencia"
+    }
+  ]
+}

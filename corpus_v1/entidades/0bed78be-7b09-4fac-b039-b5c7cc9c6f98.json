@@ -1,0 +1,33 @@
+{
+  "id": "0bed78be-7b09-4fac-b039-b5c7cc9c6f98",
+  "data": [
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-987654"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 30 123 45"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/AB123456"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "portal.pacientes.hospitalregional.es"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Género femenino"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 411 23 45"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "S456789123"
+    }
+  ]
+}

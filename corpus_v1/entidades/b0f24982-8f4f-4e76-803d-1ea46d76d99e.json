@@ -1,0 +1,41 @@
+{
+  "id": "b0f24982-8f4f-4e76-803d-1ea46d76d99e",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "www.clinicamadridnorte.com"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Puerta de Hierro"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-55667788"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "A7724C819"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2023-876543"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Plaza de la Medicina 1"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Agosto 2023"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "X789012345"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano asistente"
+    }
+  ]
+}

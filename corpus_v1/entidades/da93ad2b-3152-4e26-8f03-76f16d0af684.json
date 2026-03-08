@@ -1,0 +1,69 @@
+{
+  "id": "da93ad2b-3152-4e26-8f03-76f16d0af684",
+  "data": [
+    {
+      "entity": "FECHAS",
+      "text": "abril de 2024"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "enero de 2023"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "1234567890"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "67 años de edad"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "52 años"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Juan Pérez García"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "hermano"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "123456789ABC"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-78451209"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "12345678A"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Servicio de Neurología"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "ID-PAC-2024-5678"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Ruiz Martínez, Elena"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "91-876-5432"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 456 78 90"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "ID_123456"
+    }
+  ]
+}

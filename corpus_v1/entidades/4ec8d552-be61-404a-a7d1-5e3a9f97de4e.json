@@ -1,0 +1,41 @@
+{
+  "id": "4ec8d552-be61-404a-a7d1-5e3a9f97de4e",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitalgeneralvalencia.es"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "profesional de cirugía de corazón"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/ABC12345Z"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Antonio José Navarro Linares"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Femenina"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico Especialista"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-987654"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "INTERCONSULTA-GASTRO-567"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Clínica Santa María"
+    }
+  ]
+}

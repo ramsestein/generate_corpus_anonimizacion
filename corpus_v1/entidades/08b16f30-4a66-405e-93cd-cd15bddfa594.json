@@ -1,0 +1,29 @@
+{
+  "id": "08b16f30-4a66-405e-93cd-cd15bddfa594",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitaldelmar.es/paciente/87654321B"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "portal.pacientes.hospitalregional.es"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-87654321-SS"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "X901234567"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 876 21 00"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitaldelmar.cat"
+    }
+  ]
+}

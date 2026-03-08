@@ -1,0 +1,25 @@
+{
+  "id": "d890c7d1-9106-4d26-a8ce-2686a01d5a04",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/789123/informe"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-654321"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 7890123456"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del Poeta Joan Maragall 7"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "Fax administrativo: 93 567 12 34"
+    }
+  ]
+}

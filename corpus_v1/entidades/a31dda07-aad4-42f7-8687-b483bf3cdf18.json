@@ -1,0 +1,45 @@
+{
+  "id": "a31dda07-aad4-42f7-8687-b483bf3cdf18",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "dr.fernandez@clinicabarcelona.com"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "Médico de referencia"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano tratante"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Territorio de la Comunidad Valenciana"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 209 18 27"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "XJY482739L"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "45678912X"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente mujer"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "B-58342901"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "15-07-2023"
+    }
+  ]
+}

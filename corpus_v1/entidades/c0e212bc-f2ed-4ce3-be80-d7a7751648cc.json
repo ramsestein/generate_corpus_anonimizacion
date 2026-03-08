@@ -1,0 +1,37 @@
+{
+  "id": "c0e212bc-f2ed-4ce3-be80-d7a7751648cc",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "(555) 234-5678"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "a.martinez@hospitalnorte.org"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "AS-2023-10567"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "09H665432R"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HCL-4502198B"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "CONTROL-23-4561"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano cardíaco"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente de sexo femenino"
+    }
+  ]
+}

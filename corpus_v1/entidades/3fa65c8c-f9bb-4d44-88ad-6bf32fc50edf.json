@@ -1,0 +1,41 @@
+{
+  "id": "3fa65c8c-f9bb-4d44-88ad-6bf32fc50edf",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "www.clinicamadridnorte.com"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-901-2345"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://www.hospitalregional.es/area-pacientes"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "F345678901"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-87654321-X"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Plaza de la Medicina 1"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "Séptima década de la vida"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "sujeto de 67 años"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Finales de junio de 2023"
+    }
+  ]
+}

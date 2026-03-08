@@ -1,0 +1,29 @@
+{
+  "id": "7de96116-8cdb-41b4-addd-53cffe4fa463",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "96-123-4567"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "91-234-5678"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Centro Médico Especializado Insular"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud El Carmen"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Unidad de Salud Comunitaria"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Alemania"
+    }
+  ]
+}

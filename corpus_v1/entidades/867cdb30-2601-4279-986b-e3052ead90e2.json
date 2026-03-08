@@ -1,0 +1,37 @@
+{
+  "id": "867cdb30-2601-4279-986b-e3052ead90e2",
+  "data": [
+    {
+      "entity": "PAIS",
+      "text": "Reino Unido"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Consultorio General del Este"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Consultorio Local Santa Clara"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "SAN-67890"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "sexagenario de 67 años"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Isabel Gutiérrez Mendoza"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "cgomez@sanitassalud.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana_martinez@salud.madrid.org"
+    }
+  ]
+}

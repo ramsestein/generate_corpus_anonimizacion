@@ -1,0 +1,45 @@
+{
+  "id": "f427da17-936b-48fd-876a-05fee7bdd01a",
+  "data": [
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad Valenciana (CV)"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "B-987654321"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "A-33890512"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "45872314B"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Agencia de Salud Pública Regional"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "especialista en cirugía"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "Profesional de fisioterapia"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "123456789012"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "F"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Contacto principal familiar"
+    }
+  ]
+}

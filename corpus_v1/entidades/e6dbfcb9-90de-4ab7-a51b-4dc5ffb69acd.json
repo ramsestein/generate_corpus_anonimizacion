@@ -1,0 +1,49 @@
+{
+  "id": "e6dbfcb9-90de-4ab7-a51b-4dc5ffb69acd",
+  "data": [
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "LR-99123450"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237650"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "BRC5538901P"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "ID-CLIN-4592"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Carmen Vázquez"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-44332211-J"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "profesional de cirugía de corazón"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-123-4567"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "NHC-4562024"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "B-58294107"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella digital del pulgar derecho"
+    }
+  ]
+}

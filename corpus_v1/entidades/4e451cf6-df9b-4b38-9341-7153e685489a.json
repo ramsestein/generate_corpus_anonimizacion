@@ -1,0 +1,41 @@
+{
+  "id": "4e451cf6-df9b-4b38-9341-7153e685489a",
+  "data": [
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Identificación del vehículo JHM123456789012"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón ungueal del índice derecho (para variación)"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Impresión dactilar del pulgar derecho"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "administracion@clinicaplaza.com"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-987-6543"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-234-5678"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2023-876543"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Terapia de grupo para el control de la ansiedad"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "pacientes.santpau.cat"
+    }
+  ]
+}

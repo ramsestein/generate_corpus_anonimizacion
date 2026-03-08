@@ -1,0 +1,41 @@
+{
+  "id": "722b84ba-b894-4f6c-a8a8-42ad9c2772f3",
+  "data": [
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Identificación del vehículo JHM123456789012"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.centrodiagnosticobarcelona.com"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "consulta.dermatologia.org"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "luciamartinez@medicinaintegral.net"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "mlopez@centromedicoandalucia.com"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Clínica Periférica Norte"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "María del Carmen Rodríguez, hermana"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "P112233445"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "C-44198766"
+    }
+  ]
+}

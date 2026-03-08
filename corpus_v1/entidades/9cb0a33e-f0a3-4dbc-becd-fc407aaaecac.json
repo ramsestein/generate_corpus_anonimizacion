@@ -1,0 +1,57 @@
+{
+  "id": "9cb0a33e-f0a3-4dbc-becd-fc407aaaecac",
+  "data": [
+    {
+      "entity": "CALLE",
+      "text": "Ronda de la Ambulancia 15"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida de la Albufera 132"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Paseo de la Castellana 89"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-456-7890"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Jornada de soporte para diabéticos"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-567890"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-469-23"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Género femenino"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "M67891204F"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Unidad de Salud Comunitaria El Mirador"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital General Universitario Central"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "F345678901"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "B26483571"
+    }
+  ]
+}

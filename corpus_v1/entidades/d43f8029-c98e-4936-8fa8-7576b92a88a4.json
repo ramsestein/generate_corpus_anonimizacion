@@ -1,0 +1,45 @@
+{
+  "id": "d43f8029-c98e-4936-8fa8-7576b92a88a4",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://www.hospitalregional.es/pacientes/acceso-seguro"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historia.hgv.es/acceso/ID98765"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Antecedente de alergia a betalactámicos."
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo de entrenamiento en relajación y mindfulness"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Captura biométrica del pulgar derecho"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Fundación Jiménez Díaz"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "Octogenario próximo"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico cirujano"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 209 18 27"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "09H665432R"
+    }
+  ]
+}

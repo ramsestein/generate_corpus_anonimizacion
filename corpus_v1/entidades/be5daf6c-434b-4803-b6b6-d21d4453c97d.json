@@ -1,0 +1,53 @@
+{
+  "id": "be5daf6c-434b-4803-b6b6-d21d4453c97d",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "634-89-12-47"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "634-12-45-78"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "T-88956321"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Ana Beltrán Gil"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "S-2248-REF"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugr.com/paciente/AB123456"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hcs.es/expediente/11223A"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Ambulatorio Urbano San Benito"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "Rehabilitador físico"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 29 123 47"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-4567890123"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Carmen López"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "d2f2fac5-1f59-4e2c-a2cd-862671f5d733",
+  "data": [
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "ID-PAC-2024-5678"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "http://www.meddocan.es"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "https://temu.bio"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Clínica Universidad de Navarra"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "96-123-4567"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-8472-AB6"
+    }
+  ]
+}

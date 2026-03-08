@@ -1,0 +1,41 @@
+{
+  "id": "8825cfc7-cf05-46f5-ae72-5b590c363c17",
+  "data": [
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "VIN 5XY12345678901234"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.centromedicobarcelona.org"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Impresión dactilar del índice derecho"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Trazo dactilar del pulgar derecho"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "mlopez@centromedicoandalucia.com"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida del Doctor Fleming 22"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud Las Rosas"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "area.pacientes.hospitalregional.es/informes"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/AB123CD456"
+    }
+  ]
+}

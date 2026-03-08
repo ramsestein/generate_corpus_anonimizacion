@@ -1,0 +1,37 @@
+{
+  "id": "1c9836fb-5521-4be0-8e0f-332bec4c6037",
+  "data": [
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Identificación del vehículo JHM123456789012"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "sistema.hospitalregional.es/acceso-resultados"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://expediente.hospitalcentral.es/paciente/UI89012BV"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "234-88-9012"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Unidad de Salud Comunitaria El Mirador"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Colombia"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Área de Gestión Sanitaria Sur"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Junio 2023"
+    }
+  ]
+}

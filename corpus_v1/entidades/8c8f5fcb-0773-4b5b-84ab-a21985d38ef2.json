@@ -1,0 +1,45 @@
+{
+  "id": "8c8f5fcb-0773-4b5b-84ab-a21985d38ef2",
+  "data": [
+    {
+      "entity": "TERRITORIO",
+      "text": "Valencia"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "1234567890"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "Médico de cabecera"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "paciente.nombre@dominio.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "maria.lopez@correo.es"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "12345678A"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "María López Martínez"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Juan Pérez García"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "ID-2024-789123"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-789123-2024"
+    }
+  ]
+}

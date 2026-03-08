@@ -1,0 +1,25 @@
+{
+  "id": "6cfa2ab3-29c5-4ca1-9ebe-068712335b2e",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana.m.martinez@clinic.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "informacion@hospitalgeneral.es"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Número de chasis WBA1234567890ABCD"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 952 61 80 34"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Javier Méndez Ortega"
+    }
+  ]
+}

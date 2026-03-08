@@ -1,0 +1,41 @@
+{
+  "id": "228304aa-60b7-4e08-b892-dab3063a7a73",
+  "data": [
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "T678901234"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "B274589031"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/789123/informe"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-012-3456"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Número de bastidor WBA3A5C58FD123456"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Enfermero/a Titulado"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Sexo femenino"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Ambulatorio Urbano San Benito"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Javier Méndez Ortega"
+    }
+  ]
+}

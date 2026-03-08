@@ -1,0 +1,33 @@
+{
+  "id": "064a8ad9-1f20-4ae6-8d9c-88e00c20693f",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "(555) 765-4321"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-234-5678"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://portal.paciente.sspa.es/hc/99887766F"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-556677"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida del Paciente 10"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "C456789012345"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Familiar a cargo (madre)"
+    }
+  ]
+}

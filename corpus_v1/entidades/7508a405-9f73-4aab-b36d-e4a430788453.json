@@ -1,0 +1,29 @@
+{
+  "id": "7508a405-9f73-4aab-b36d-e4a430788453",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://pacientes.sanidad.gob.es/consulta/AB234CD56"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 29 123 47"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "CONTROL-23-4561"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2023-345678"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "15-07-2023"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.martinez@hospitalcentral.org"
+    }
+  ]
+}

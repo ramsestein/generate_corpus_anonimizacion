@@ -1,0 +1,45 @@
+{
+  "id": "b37b9ad9-c4fd-4c9d-ac0a-5905cc9e7fd0",
+  "data": [
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-456780",
+      "start": 241,
+      "end": 255,
+      "anonymized_start": 154,
+      "anonymized_end": 157
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-123-4567",
+      "start": 388,
+      "end": 399,
+      "anonymized_start": 290,
+      "anonymized_end": 293
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella del dedo índice mano derecha",
+      "start": 85,
+      "end": 115,
+      "anonymized_start": 43,
+      "anonymized_end": 46
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Fundación de Investigación Biomédica",
+      "start": 676,
+      "end": 697,
+      "anonymized_start": 607,
+      "anonymized_end": 610
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Centro de Salud Hortaleza",
+      "start": 739,
+      "end": 784,
+      "anonymized_start": 739,
+      "anonymized_end": 742
+    }
+  ]
+}

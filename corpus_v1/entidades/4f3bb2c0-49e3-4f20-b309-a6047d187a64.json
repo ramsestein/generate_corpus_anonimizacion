@@ -1,0 +1,33 @@
+{
+  "id": "4f3bb2c0-49e3-4f20-b309-a6047d187a64",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "c.gomez@hmhospitales.com"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano asistente"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella dactilar del segundo dedo mano derecha"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "huella dactilar derecha índice, patrón de arco"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Alicante"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Gregorio Marañón"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "citamedica.hsjd.cat"
+    }
+  ]
+}

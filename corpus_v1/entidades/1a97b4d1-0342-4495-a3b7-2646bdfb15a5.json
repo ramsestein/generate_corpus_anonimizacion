@@ -1,0 +1,37 @@
+{
+  "id": "1a97b4d1-0342-4495-a3b7-2646bdfb15a5",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "www.clinicasansebastian.com"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "saludmentalprofesional.net"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella dactilar derecha índice, patrón de lazo"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella unilar del dedo índice derecho"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "especialista en cirugía"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "C-555123789"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital La Paz"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Centro de Salud Bahía de Cádiz"
+    }
+  ]
+}

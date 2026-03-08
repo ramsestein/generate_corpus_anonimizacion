@@ -1,0 +1,33 @@
+{
+  "id": "498e1092-e690-484a-8a90-25dd3e9cc797",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.martinez@saludoncor.es"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital General Universitario Central"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital de la Cruz Roja"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-98765432-M"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-87654321-X"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Chile"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad Autónoma Valenciana"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "7117c682-ece1-4888-ad66-2e5f5ebbb0f9",
+  "data": [
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 28 124 45",
+      "start": 167,
+      "end": 182,
+      "anonymized_start": 109,
+      "anonymized_end": 112
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 28 12345 8",
+      "start": 370,
+      "end": 386,
+      "anonymized_start": 338,
+      "anonymized_end": 341
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "https://www.centromedicoavanzado.es",
+      "start": 576,
+      "end": 611,
+      "anonymized_start": 576,
+      "anonymized_end": 579
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 95 227 89 01",
+      "start": 499,
+      "end": 515,
+      "anonymized_start": 454,
+      "anonymized_end": 457
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "CLI-54321",
+      "start": 968,
+      "end": 976,
+      "anonymized_start": 891,
+      "anonymized_end": 894
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-12345678",
+      "start": 1151,
+      "end": 1161,
+      "anonymized_start": 1081,
+      "anonymized_end": 1084
+    }
+  ]
+}

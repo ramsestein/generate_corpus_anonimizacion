@@ -1,0 +1,37 @@
+{
+  "id": "7b53e4e8-bb7c-4f5d-bdcf-d3cf26d26ffe",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://webpaciente.hgugm.es/hc-seguro/7890ABCD12"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "area.pacientes.hospitalregional.es/informes"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "CT-2024-789012"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Biometría dactilar del pulgar derecho"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 411 23 45"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-66554433-C"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 28 124 50"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Consultorio General La Rivera"
+    }
+  ]
+}

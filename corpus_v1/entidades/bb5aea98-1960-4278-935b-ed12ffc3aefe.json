@@ -1,0 +1,41 @@
+{
+  "id": "bb5aea98-1960-4278-935b-ed12ffc3aefe",
+  "data": [
+    {
+      "entity": "PROFESION",
+      "text": "cirujano asistente"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano cardiovascular"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital General de Valencia"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "S456789123"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "cmartinez@sanitassalud.es"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del Diagnóstico 7"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Ronda de Segovia 68"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://chc.es/area-clinica/paciente/AB789C"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "La hermana del paciente"
+    }
+  ]
+}

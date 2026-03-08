@@ -1,0 +1,41 @@
+{
+  "id": "18941001-6db2-4e77-a61f-b75760e45605",
+  "data": [
+    {
+      "entity": "CALLE",
+      "text": "Avenida de la Paz 45"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 456 78 90"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "12345678A"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-784512"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "52 años"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "http://www.meddocan.es"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "enero de 2023"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "masculino"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://www.hospitalgeneral.com"
+    }
+  ]
+}

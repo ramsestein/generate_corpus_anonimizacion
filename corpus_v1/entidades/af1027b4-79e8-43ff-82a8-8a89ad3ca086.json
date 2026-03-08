@@ -1,0 +1,25 @@
+{
+  "id": "af1027b4-79e8-43ff-82a8-8a89ad3ca086",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-345-6789"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 345 09 87"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 93 412 56 78"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "amartinez@hospitalcentral.org"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Portugal"
+    }
+  ]
+}

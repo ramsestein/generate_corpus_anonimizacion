@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "corpus_dir": "corpus/documents",
+    "num_documents": 14035,
+    "analysis_date": "2025-11-05T18:28:53.622878",
+    "total_tokens": 0,
+    "total_chars": 0
+  },
+  "lexical_diversity": {
+    "ttr": 0.007159353030119085,
+    "mattr": 0.46437750053908583,
+    "mtld": 116.31581711874279,
+    "distinct_1gram": 0.007159353030119085,
+    "distinct_2gram": 0.06283353618978672,
+    "distinct_3gram": 0.17738018129130564,
+    "distinct_4gram": 0.3158096047452233,
+    "vocabulary_entropy": 9.010464312416266,
+    "zipf_ks_statistic": 0.9999954198009678,
+    "zipf_p_value": 0.0,
+    "total_tokens": 2899424,
+    "unique_tokens": 20758,
+    "vocabulary_size": 20758
+  },
+  "syntactic_complexity": {},
+  "bias_analysis": {},
+  "medical_coverage": {},
+  "quality_metrics": {},
+  "comparison_real_corpora": {}
+}

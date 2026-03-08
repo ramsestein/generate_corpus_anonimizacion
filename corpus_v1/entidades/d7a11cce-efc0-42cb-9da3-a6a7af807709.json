@@ -1,0 +1,37 @@
+{
+  "id": "d7a11cce-efc0-42cb-9da3-a6a7af807709",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.m@institutoneurologico.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "serviciopacientes@fundacionhospitalaria.es"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente de sexo femenino"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico de cabecera"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico cirujano"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "Médico tratante"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón dactilar del dedo índice derecho"
+    },
+    {
+      "entity": "PAIS",
+      "text": "México"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "2b3c9f72-72a0-4201-9109-f981d296e971",
+  "data": [
+    {
+      "entity": "PAIS",
+      "text": "Reino Unido"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Plaza de la Medicina 1"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del General Díaz Porlier 60"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.gonzalez@clinic.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.gomez@clinica.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.mtz@clinicaplenavida.com"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella dactilar del segundo dedo mano derecha"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-466-23"
+    }
+  ]
+}

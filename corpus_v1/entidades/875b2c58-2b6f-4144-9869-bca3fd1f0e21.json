@@ -1,0 +1,41 @@
+{
+  "id": "875b2c58-2b6f-4144-9869-bca3fd1f0e21",
+  "data": [
+    {
+      "entity": "TERRITORIO",
+      "text": "Provincia de Valencia"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Captura biométrica del pulgar derecho"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Colombia"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital General Metropolitano"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Individuo de sexo femenino"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano de tórax"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "Octogenario próximo"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "hermano del paciente"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "N901234567890"
+    }
+  ]
+}

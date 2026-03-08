@@ -1,0 +1,41 @@
+{
+  "id": "12f4afa9-53eb-4ece-9c52-474e67996e64",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugr.com/paciente/AB123456"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Agencia de Salud Pública Regional"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-789124"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "X901234567"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "B26483571"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "2024-7894-LAB"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "PROT-866123"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-468-23"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-284742"
+    }
+  ]
+}

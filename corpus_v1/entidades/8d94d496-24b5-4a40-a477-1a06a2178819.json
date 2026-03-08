@@ -1,0 +1,45 @@
+{
+  "id": "8d94d496-24b5-4a40-a477-1a06a2178819",
+  "data": [
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "D345678901234",
+      "start": 187,
+      "end": 200,
+      "anonymized_start": 120,
+      "anonymized_end": 123
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Consultorio Local Santa Clara",
+      "start": 64,
+      "end": 90,
+      "anonymized_start": 64,
+      "anonymized_end": 67
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Ruiz, Elena M.",
+      "start": 275,
+      "end": 299,
+      "anonymized_start": 252,
+      "anonymized_end": 255
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-202406-1234",
+      "start": 744,
+      "end": 758,
+      "anonymized_start": 688,
+      "anonymized_end": 691
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "EXP-2024-789456",
+      "start": 819,
+      "end": 834,
+      "anonymized_start": 775,
+      "anonymized_end": 778
+    }
+  ]
+}

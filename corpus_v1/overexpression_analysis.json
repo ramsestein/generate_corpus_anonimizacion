@@ -1,0 +1,242 @@
+{
+  "global_stats": {
+    "total_documents_analyzed": 14035,
+    "total_entities_analyzed": 116253,
+    "total_overexpressed_found": 0
+  },
+  "entity_types": {
+    "ID_SUJETO_ASISTENCIA": {
+      "count": 4386,
+      "avg_length": 9.27,
+      "max_length": 11,
+      "min_length": 9,
+      "std_dev": 0.45,
+      "overexpression_threshold": 40
+    },
+    "PAIS": {
+      "count": 3492,
+      "avg_length": 6.03,
+      "max_length": 8,
+      "min_length": 6,
+      "std_dev": 0.22,
+      "overexpression_threshold": 40
+    },
+    "ID_CONTACTO_ASISTENCIAL": {
+      "count": 4637,
+      "avg_length": 14.05,
+      "max_length": 17,
+      "min_length": 9,
+      "std_dev": 0.82,
+      "overexpression_threshold": 40
+    },
+    "DIREC_PROT_INTERNET": {
+      "count": 4865,
+      "avg_length": 52.88,
+      "max_length": 79,
+      "min_length": 11,
+      "std_dev": 8.12,
+      "overexpression_threshold": 80
+    },
+    "FECHAS": {
+      "count": 3611,
+      "avg_length": 19.07,
+      "max_length": 24,
+      "min_length": 10,
+      "std_dev": 1.23,
+      "overexpression_threshold": 40
+    },
+    "SEXO_SUJETO_ASISTENCIA": {
+      "count": 3636,
+      "avg_length": 8.02,
+      "max_length": 9,
+      "min_length": 8,
+      "std_dev": 0.13,
+      "overexpression_threshold": 40
+    },
+    "NUMERO_FAX": {
+      "count": 3648,
+      "avg_length": 15.95,
+      "max_length": 16,
+      "min_length": 11,
+      "std_dev": 0.48,
+      "overexpression_threshold": 40
+    },
+    "PROFESION": {
+      "count": 4035,
+      "avg_length": 12.46,
+      "max_length": 34,
+      "min_length": 6,
+      "std_dev": 6.79,
+      "overexpression_threshold": 40
+    },
+    "ID_EMPLEO_PERSONAL_SANITARIO": {
+      "count": 4723,
+      "avg_length": 8.67,
+      "max_length": 19,
+      "min_length": 6,
+      "std_dev": 1.25,
+      "overexpression_threshold": 40
+    },
+    "NOMBRE_PERSONAL_SANITARIO": {
+      "count": 4107,
+      "avg_length": 25.17,
+      "max_length": 30,
+      "min_length": 18,
+      "std_dev": 3.09,
+      "overexpression_threshold": 80
+    },
+    "ID_ASEGURAMIENTO": {
+      "count": 4846,
+      "avg_length": 13.0,
+      "max_length": 19,
+      "min_length": 9,
+      "std_dev": 2.27,
+      "overexpression_threshold": 40
+    },
+    "NOMBRE_SUJETO_ASISTENCIA": {
+      "count": 3916,
+      "avg_length": 20.95,
+      "max_length": 36,
+      "min_length": 17,
+      "std_dev": 1.32,
+      "overexpression_threshold": 40
+    },
+    "CALLE": {
+      "count": 4124,
+      "avg_length": 27.67,
+      "max_length": 29,
+      "min_length": 13,
+      "std_dev": 2.62,
+      "overexpression_threshold": 80
+    },
+    "URL_WEB": {
+      "count": 3826,
+      "avg_length": 31.72,
+      "max_length": 40,
+      "min_length": 11,
+      "std_dev": 2.38,
+      "overexpression_threshold": 40
+    },
+    "CENTRO_SALUD": {
+      "count": 3736,
+      "avg_length": 26.04,
+      "max_length": 27,
+      "min_length": 25,
+      "std_dev": 0.25,
+      "overexpression_threshold": 40
+    },
+    "CORREO_ELECTRONICO": {
+      "count": 4540,
+      "avg_length": 23.45,
+      "max_length": 32,
+      "min_length": 20,
+      "std_dev": 2.14,
+      "overexpression_threshold": 80
+    },
+    "IDENTIF_DISPOSITIVOS_NRSERIE": {
+      "count": 4466,
+      "avg_length": 11.01,
+      "max_length": 13,
+      "min_length": 11,
+      "std_dev": 0.1,
+      "overexpression_threshold": 40
+    },
+    "NUMERO_TELEFONO": {
+      "count": 4337,
+      "avg_length": 11.81,
+      "max_length": 16,
+      "min_length": 11,
+      "std_dev": 1.09,
+      "overexpression_threshold": 40
+    },
+    "OTRO_NUMERO_IDENTIF": {
+      "count": 4934,
+      "avg_length": 13.26,
+      "max_length": 16,
+      "min_length": 8,
+      "std_dev": 1.34,
+      "overexpression_threshold": 40
+    },
+    "ID_TITULACION_PERSONAL_SANITARIO": {
+      "count": 3569,
+      "avg_length": 17.1,
+      "max_length": 32,
+      "min_length": 9,
+      "std_dev": 1.15,
+      "overexpression_threshold": 40
+    },
+    "INSTITUCION": {
+      "count": 4514,
+      "avg_length": 30.93,
+      "max_length": 47,
+      "min_length": 21,
+      "std_dev": 11.62,
+      "overexpression_threshold": 54.18
+    },
+    "OTROS_SUJETO_ASISTENCIA": {
+      "count": 4456,
+      "avg_length": 24.78,
+      "max_length": 40,
+      "min_length": 7,
+      "std_dev": 6.3,
+      "overexpression_threshold": 40
+    },
+    "IDENTIF_BIOMETRICOS": {
+      "count": 3791,
+      "avg_length": 34.39,
+      "max_length": 48,
+      "min_length": 9,
+      "std_dev": 7.48,
+      "overexpression_threshold": 49.34
+    },
+    "HOSPITAL": {
+      "count": 2274,
+      "avg_length": 26.95,
+      "max_length": 36,
+      "min_length": 25,
+      "std_dev": 0.94,
+      "overexpression_threshold": 40
+    },
+    "TERRITORIO": {
+      "count": 3514,
+      "avg_length": 18.9,
+      "max_length": 20,
+      "min_length": 6,
+      "std_dev": 3.35,
+      "overexpression_threshold": 80
+    },
+    "IDENTIF_VEHICULOS_NRSERIE_PLACAS": {
+      "count": 3754,
+      "avg_length": 8,
+      "max_length": 8,
+      "min_length": 8,
+      "std_dev": 0.0,
+      "overexpression_threshold": 40
+    },
+    "NUMERO_BENEF_PLAN_SALUD": {
+      "count": 4547,
+      "avg_length": 10.32,
+      "max_length": 14,
+      "min_length": 9,
+      "std_dev": 0.54,
+      "overexpression_threshold": 40
+    },
+    "FAMILIARES_SUJETO_ASISTENCIA": {
+      "count": 2729,
+      "avg_length": 25.24,
+      "max_length": 46,
+      "min_length": 5,
+      "std_dev": 7.69,
+      "overexpression_threshold": 80
+    },
+    "EDAD_SUJETO_ASISTENCIA": {
+      "count": 3240,
+      "avg_length": 7,
+      "max_length": 7,
+      "min_length": 7,
+      "std_dev": 0.0,
+      "overexpression_threshold": 40
+    }
+  },
+  "overexpressed_instances": []
+}

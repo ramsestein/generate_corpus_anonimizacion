@@ -1,0 +1,29 @@
+{
+  "id": "c581442a-26fb-4dc8-bd6e-6644e81df0e3",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "lucia.martinez@hospitalcentral.es"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del Diagnóstico 7"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "AS-2023-10567"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "VIN 5XY12345678901234"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano cardiotorácico"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano a cargo"
+    }
+  ]
+}

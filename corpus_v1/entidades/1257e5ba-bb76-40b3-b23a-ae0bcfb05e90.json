@@ -1,0 +1,49 @@
+{
+  "id": "1257e5ba-bb76-40b3-b23a-ae0bcfb05e90",
+  "data": [
+    {
+      "entity": "PAIS",
+      "text": "Argentina"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana.garcia@clinicabarcelona.com"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "lucia.martinez@hospitalcentral.es"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 991234567"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "47 08 28 123 45"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad Autónoma Valenciana"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Identificación del vehículo JHM123456789012"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-22387654"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237644"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Reunión de control glucémico"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Antecedente de alergia a betalactámicos."
+    }
+  ]
+}

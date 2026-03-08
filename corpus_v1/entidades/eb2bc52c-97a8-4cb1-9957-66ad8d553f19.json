@@ -1,0 +1,37 @@
+{
+  "id": "eb2bc52c-97a8-4cb1-9957-66ad8d553f19",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "cmartinez@centrodesaludvital.es"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.centromedicobarcelona.org"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2023-345678"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-789124"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Hembra"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida del Paciente 10"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Clínica Universitaria San Carlos"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Junio 2023"
+    }
+  ]
+}

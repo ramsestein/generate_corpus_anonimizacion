@@ -1,0 +1,49 @@
+{
+  "id": "0b46956f-a129-4ba5-bb11-fc1a55d9bdbe",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "+34 920 10 20 30"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-567-8901"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Francia"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Elena Sánchez Rodríguez"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalcentral.es/paciente/area_privada"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/AB123CD456"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "a.martinez@hospitalnorte.org"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Complejo Hospitalario de Jaén"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Universitario Ramón y Cajal"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Doctor en Medicina"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-66554433-C"
+    }
+  ]
+}

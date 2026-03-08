@@ -1,0 +1,57 @@
+{
+  "id": "c561058a-8825-4ea6-927e-eb0146f13971",
+  "data": [
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-87654321-SS"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Clínica Universitaria San Carlos"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Centro Hospitalario Central"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Doctor en Medicina"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Enfermería Universitaria"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Colombia"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-567-8901"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas DEF-456"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Consultorio Local Santa Clara"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/area/12345"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Laura Jiménez Mendoza"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Clínica Universitaria San Carlos"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "HC-MAD-33081"
+    }
+  ]
+}

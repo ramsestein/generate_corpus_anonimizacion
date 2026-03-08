@@ -1,0 +1,33 @@
+{
+  "id": "d9ac7e8f-f943-401e-ae17-86dee2dbfb92",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "a.martinez@centrosalud3.es"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Consultorio General La Rivera"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Alemania"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Taller de control glucémico y nutrición"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "192.168.1.45"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "consulta.hospitalregional.es/mis-documentos"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Clínico de la Capital"
+    }
+  ]
+}

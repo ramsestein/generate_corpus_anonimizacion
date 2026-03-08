@@ -1,0 +1,41 @@
+{
+  "id": "c61e035a-894f-4769-8366-9d81ba2ef58f",
+  "data": [
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Mujer"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Identificación dactilar: patrón lazo derecho."
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Carmen Vázquez"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Consultorio General La Rivera"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Estado de ánimo depresivo"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Identificación del vehículo JHM123456789012"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.martinez@saludoncor.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carmen.sanchez@hospitaldelmar.cat"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Colombia"
+    }
+  ]
+}

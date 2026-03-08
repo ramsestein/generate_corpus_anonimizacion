@@ -1,0 +1,29 @@
+{
+  "id": "741ba31c-c679-4f06-841d-cde329ce85ed",
+  "data": [
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2023-654321"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "María del Carmen Rodríguez Fernández"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "La afectada"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Centro Médico Especializado Insular"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente mujer"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "resultados.hospitalregional.es/consulta"
+    }
+  ]
+}

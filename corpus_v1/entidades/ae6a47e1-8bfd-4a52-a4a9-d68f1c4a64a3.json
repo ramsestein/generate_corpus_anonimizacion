@@ -1,0 +1,33 @@
+{
+  "id": "ae6a47e1-8bfd-4a52-a4a9-d68f1c4a64a3",
+  "data": [
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 234 87 65"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Consumo de tabaco ocasional."
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Clínica grupal de diabetes"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Alergia a eritromicina"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Centro Médico Especializado Insular"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "paciente de 67 años"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud y Bienestar La Colina"
+    }
+  ]
+}

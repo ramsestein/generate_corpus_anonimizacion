@@ -1,0 +1,37 @@
+{
+  "id": "f122c132-4b96-4a88-a753-71abf2f44a35",
+  "data": [
+    {
+      "entity": "PROFESION",
+      "text": "Médico a cargo"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Paseo de la Castellana 178"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del Hospital 45"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Atención Primaria Vista Hermosa"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Diplomado en Medicina"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "47 08 28 123 45"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Trazo dactilar del pulgar derecho"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella unilar del dedo índice derecho"
+    }
+  ]
+}

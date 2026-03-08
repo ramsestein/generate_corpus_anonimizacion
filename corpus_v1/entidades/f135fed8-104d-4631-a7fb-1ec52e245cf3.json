@@ -1,0 +1,41 @@
+{
+  "id": "f135fed8-104d-4631-a7fb-1ec52e245cf3",
+  "data": [
+    {
+      "entity": "PAIS",
+      "text": "Chile"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Identificación del vehículo JHM123456789012"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "A7724C819"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Consultorio General La Rivera"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Captura biométrica del pulgar derecho"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-11223344-B"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-2024-789654"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "B-58342901"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Instituto de Neurociencias"
+    }
+  ]
+}

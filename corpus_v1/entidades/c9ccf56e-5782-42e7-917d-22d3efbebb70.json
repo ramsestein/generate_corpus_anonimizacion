@@ -1,0 +1,37 @@
+{
+  "id": "c9ccf56e-5782-42e7-917d-22d3efbebb70",
+  "data": [
+    {
+      "entity": "CALLE",
+      "text": "Plaza de la Medicina 1"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida de Betanzos 22"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "https://pacientes.hospitalcentral.es"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-001234"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 209 18 27"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "Contacto principal familiar"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Ambulatorio Urbano San Benito"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente mujer"
+    }
+  ]
+}

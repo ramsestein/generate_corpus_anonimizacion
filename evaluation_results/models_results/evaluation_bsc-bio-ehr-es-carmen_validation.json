@@ -1,0 +1,58 @@
+{
+  "model_name": "models\\bsc-bio-ehr-es-carmen-anon",
+  "validation_set": "corpus\\validation_set.json",
+  "num_documents": 335,
+  "timestamp": "2025-11-05T18:19:07.605003",
+  "device": "cuda",
+  "batch_size": 16,
+  "metrics": {
+    "precision": 0.7774518790100825,
+    "recall": 0.7748949387904257,
+    "f1_score": 0.7761713030746705,
+    "accuracy": 0.9644946364546892,
+    "cohen_kappa": 0.7568893506560839,
+    "total_documents": 335,
+    "documents_evaluated": 335,
+    "documents_with_entities": 334,
+    "perfect_documents": 14,
+    "perfect_documents_ratio": 0.041791044776119404,
+    "total_true_entities": 5473,
+    "total_pred_entities": 5455,
+    "total_correct_entities": 4241,
+    "total_inference_time_seconds": 2.9367103576660156,
+    "avg_inference_time_seconds": 0.008766299575122434,
+    "documents_per_second": 114.0732177163856
+  },
+  "detailed_report": {
+    "ENTITY": {
+      "precision": 0.7774518790100825,
+      "recall": 0.7748949387904257,
+      "f1-score": 0.7761713030746705,
+      "support": 5473
+    },
+    "micro avg": {
+      "precision": 0.7774518790100825,
+      "recall": 0.7748949387904257,
+      "f1-score": 0.7761713030746705,
+      "support": 5473
+    },
+    "macro avg": {
+      "precision": 0.7774518790100825,
+      "recall": 0.7748949387904257,
+      "f1-score": 0.7761713030746705,
+      "support": 5473
+    },
+    "weighted avg": {
+      "precision": 0.7774518790100825,
+      "recall": 0.7748949387904257,
+      "f1-score": 0.7761713030746706,
+      "support": 5473
+    }
+  },
+  "document_statistics": {
+    "total": 335,
+    "with_errors": 248,
+    "perfect": 14,
+    "truncated": 0
+  }
+}

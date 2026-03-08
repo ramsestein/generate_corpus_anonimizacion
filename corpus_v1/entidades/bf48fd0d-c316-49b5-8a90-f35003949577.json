@@ -1,0 +1,25 @@
+{
+  "id": "bf48fd0d-c316-49b5-8a90-f35003949577",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana_martinez@salud.madrid.org"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "serviciopacientes@fundacionhospitalaria.es"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Carmen Vázquez"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "13 de julio de 2023"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente de sexo femenino"
+    }
+  ]
+}

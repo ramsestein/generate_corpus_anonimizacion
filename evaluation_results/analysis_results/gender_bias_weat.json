@@ -1,0 +1,22 @@
+{
+  "weat_analysis": {
+    "effect_size": 0.20711798359803282,
+    "p_value": 0.751,
+    "interpretation": "Sesgo pequeño",
+    "bias_direction": "masculino",
+    "significant": false
+  },
+  "mention_ratio": {
+    "male_mentions": 67,
+    "female_mentions": 1708,
+    "male_ratio": 0.03774647887323944,
+    "female_ratio": 0.9622535211267605,
+    "male_female_ratio": 0.039227166276346606
+  },
+  "profession_cooccurrence": {
+    "male_cooccurrences": 4,
+    "female_cooccurrences": 37,
+    "male_cooc_ratio": 0.0975609756097561,
+    "female_cooc_ratio": 0.9024390243902439
+  }
+}

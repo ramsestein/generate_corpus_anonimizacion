@@ -1,0 +1,25 @@
+{
+  "id": "cf3bb1a4-3562-4892-a77e-8dd3ae9d9fc7",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-234-5678"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-789-0123"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "Fax administrativo: 93 567 12 34"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "luciamartinez@medicinaintegral.net"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Fundación de Investigación Biomédica"
+    }
+  ]
+}

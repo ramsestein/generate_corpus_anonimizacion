@@ -1,0 +1,69 @@
+{
+  "id": "2d60ed1f-9af8-434f-bdf3-10dab754b960",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitalclinicomalaga.org"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "https://www.clinicabarcelona.es/citas"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "ID-CONT-98765432"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "ID-ASIST-99234"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "45.876.321-Z"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 30 123 45"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-99008877-F"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Martínez, E."
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "consulta@centrosaludmadrid.com"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "CS-11223"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad Autónoma Valenciana"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud Las Rosas"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital de Fuenlabrada"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Fundación de Investigación Biomédica"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Alemania"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "mi.hospitalregional.es/resultados"
+    }
+  ]
+}

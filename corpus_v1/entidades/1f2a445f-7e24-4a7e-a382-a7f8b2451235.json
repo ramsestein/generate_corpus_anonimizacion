@@ -1,0 +1,25 @@
+{
+  "id": "1f2a445f-7e24-4a7e-a382-a7f8b2451235",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/AB123CD"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "portal.pacientes.hospitalregional.es"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital General de Valencia"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital San Juan de Dios"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-66554433-H"
+    }
+  ]
+}

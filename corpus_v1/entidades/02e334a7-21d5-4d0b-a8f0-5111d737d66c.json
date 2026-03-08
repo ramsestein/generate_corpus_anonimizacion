@@ -1,0 +1,29 @@
+{
+  "id": "02e334a7-21d5-4d0b-a8f0-5111d737d66c",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "612-34-56-77"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/ABCD1234"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "julio de 2023"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-987654"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo de apoyo para cesación tabáquica"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Sensibilidad a penicilina"
+    }
+  ]
+}

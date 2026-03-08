@@ -1,0 +1,25 @@
+{
+  "id": "8e7078f4-28e2-40ea-8d8e-8ce2e3cc9ed4",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-456-7890"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.clinicamadridnorte.com"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "CLI-774032"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del Doctor Esquerdo 112"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Chile"
+    }
+  ]
+}

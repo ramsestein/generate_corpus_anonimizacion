@@ -1,0 +1,29 @@
+{
+  "id": "e83e546c-ce0c-43b5-aff0-f3188c8eb08c",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "www.centromedicobarcelona.org"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "ID-CLIN-2024-002"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-48263915"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://www.hospitalregional.es/pacientes/informes/resultados"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 952 88 76 54"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "AS-2023-10567"
+    }
+  ]
+}

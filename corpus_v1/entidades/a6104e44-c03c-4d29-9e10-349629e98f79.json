@@ -1,0 +1,37 @@
+{
+  "id": "a6104e44-c03c-4d29-9e10-349629e98f79",
+  "data": [
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "CT-2024-789123"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2023-345678"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle de Alcalá 120"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Italia"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-432-1098"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-461-23"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-2023-8743"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "web.hospitalregional.es/resultados-pruebas"
+    }
+  ]
+}

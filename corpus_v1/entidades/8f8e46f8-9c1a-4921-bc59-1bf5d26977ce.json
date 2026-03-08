@@ -1,0 +1,37 @@
+{
+  "id": "8f8e46f8-9c1a-4921-bc59-1bf5d26977ce",
+  "data": [
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-00112233-15"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-87654321-X"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://sas.hospitalgeneral.es/visor-clinico/PLM555NN"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Carlos Jiménez Ruiz"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-445566"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Centro de Salud Chamberí"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "CNS-88204571"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "07/2023"
+    }
+  ]
+}

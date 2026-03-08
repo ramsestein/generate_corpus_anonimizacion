@@ -1,0 +1,49 @@
+{
+  "id": "44dc82d4-73c0-46d0-a7d8-e5164d0f6a35",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "+34 928 31 41 51"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-456-7890"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "consulta.hospitalregional.es/mis-documentos"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://sas.hospitalgeneral.es/visor-clinico/PLM555NN"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "c.martinez@fundacioncardiologica.es"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Unidad de Salud Comunitaria El Mirador"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "julio de 2023"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46372819X"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "VIN 5XY12345678901234"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano principal"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "Varón de 78 años"
+    }
+  ]
+}

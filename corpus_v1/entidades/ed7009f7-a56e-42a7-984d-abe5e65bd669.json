@@ -1,0 +1,37 @@
+{
+  "id": "ed7009f7-a56e-42a7-984d-abe5e65bd669",
+  "data": [
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-99215476C"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-765-4321"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-567-8901"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "informacion@hospitalgeneral.es"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Argentina"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano responsable"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "87453219X"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-789123-2024"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "391519ab-c991-4965-9254-0c88de18448f",
+  "data": [
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "Edad avanzada",
+      "start": 167,
+      "end": 174,
+      "anonymized_start": 56,
+      "anonymized_end": 59
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "paciente sexagenario",
+      "start": 205,
+      "end": 212,
+      "anonymized_start": 90,
+      "anonymized_end": 93
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "654-321-098",
+      "start": 1253,
+      "end": 1264,
+      "anonymized_start": 1174,
+      "anonymized_end": 1177
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-123456",
+      "start": 444,
+      "end": 452,
+      "anonymized_start": 338,
+      "anonymized_end": 341
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "XJY482739L",
+      "start": 475,
+      "end": 484,
+      "anonymized_start": 381,
+      "anonymized_end": 384
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "74382915B",
+      "start": 944,
+      "end": 953,
+      "anonymized_start": 844,
+      "anonymized_end": 847
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 28 123 46",
+      "start": 849,
+      "end": 864,
+      "anonymized_start": 805,
+      "anonymized_end": 808
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "T678901234",
+      "start": 544,
+      "end": 554,
+      "anonymized_start": 457,
+      "anonymized_end": 460
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-2024-789234",
+      "start": 1064,
+      "end": 1079,
+      "anonymized_start": 1008,
+      "anonymized_end": 1011
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "NHC-4562024",
+      "start": 1121,
+      "end": 1135,
+      "anonymized_start": 1053,
+      "anonymized_end": 1056
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Impresión dactilar del índice derecho",
+      "start": 340,
+      "end": 370,
+      "anonymized_start": 340,
+      "anonymized_end": 343
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Castellón",
+      "start": 1178,
+      "end": 1198,
+      "anonymized_start": 1151,
+      "anonymized_end": 1154
+    }
+  ]
+}

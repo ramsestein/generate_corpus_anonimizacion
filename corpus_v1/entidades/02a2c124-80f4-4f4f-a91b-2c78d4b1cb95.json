@@ -1,0 +1,57 @@
+{
+  "id": "02a2c124-80f4-4f4f-a91b-2c78d4b1cb95",
+  "data": [
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "F"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "Segunda semana de julio 2023"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "S890123456"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.gomez@clinicabarcelona.es"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 654 87 21"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Máster en Ciencias Médicas"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad Autónoma de Valencia."
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "hc-2024-521607"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "CT-2024-789012"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "María José Fernández, hermana"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Agencia Madrileña de Sanidad"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "e-2024-912735"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "Médico operatorio."
+    }
+  ]
+}

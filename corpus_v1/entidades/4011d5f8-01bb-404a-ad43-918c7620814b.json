@@ -1,0 +1,33 @@
+{
+  "id": "4011d5f8-01bb-404a-ad43-918c7620814b",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "www.centromedicobarcelona.org"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "https://historiaclinica.hgugm.es/3456789"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitaldelmar.es/paciente/87654321B"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Marcos Herrera Solís"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-99008877-F"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "B274935618"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Clínica Periférica Norte"
+    }
+  ]
+}

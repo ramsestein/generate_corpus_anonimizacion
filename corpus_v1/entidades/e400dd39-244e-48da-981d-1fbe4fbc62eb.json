@@ -1,0 +1,33 @@
+{
+  "id": "e400dd39-244e-48da-981d-1fbe4fbc62eb",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "c.gomez@clinicabarcelona.com"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "c.martinez@clinicadigestiva.net"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Chile"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HCL-4502198B"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Clínica Periférica Norte"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitalclinicomalaga.org"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "P-5512A9K3"
+    }
+  ]
+}

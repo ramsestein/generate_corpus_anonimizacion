@@ -1,0 +1,58 @@
+{
+  "model_name": "models\\ner-meddocan-retrained-v2\\final",
+  "validation_set": "corpus\\real_validation_set.json",
+  "num_documents": 500,
+  "timestamp": "2026-03-02T14:28:56.352538",
+  "device": "cuda",
+  "batch_size": 8,
+  "metrics": {
+    "precision": 0.9304067321178121,
+    "recall": 0.7969868806766303,
+    "f1_score": 0.85854428741523,
+    "accuracy": 0.9869051298824217,
+    "cohen_kappa": 0.8517220196676847,
+    "total_documents": 500,
+    "documents_evaluated": 500,
+    "documents_with_entities": 500,
+    "perfect_documents": 34,
+    "perfect_documents_ratio": 0.068,
+    "total_true_entities": 41618,
+    "total_pred_entities": 35650,
+    "total_correct_entities": 33169,
+    "total_inference_time_seconds": 42.68874478340149,
+    "avg_inference_time_seconds": 0.08537748956680298,
+    "documents_per_second": 11.712689200325544
+  },
+  "detailed_report": {
+    "ENTITY": {
+      "precision": 0.9304067321178121,
+      "recall": 0.7969868806766303,
+      "f1-score": 0.85854428741523,
+      "support": 41618
+    },
+    "micro avg": {
+      "precision": 0.9304067321178121,
+      "recall": 0.7969868806766303,
+      "f1-score": 0.85854428741523,
+      "support": 41618
+    },
+    "macro avg": {
+      "precision": 0.9304067321178121,
+      "recall": 0.7969868806766303,
+      "f1-score": 0.85854428741523,
+      "support": 41618
+    },
+    "weighted avg": {
+      "precision": 0.9304067321178121,
+      "recall": 0.7969868806766303,
+      "f1-score": 0.85854428741523,
+      "support": 41618
+    }
+  },
+  "document_statistics": {
+    "total": 500,
+    "with_errors": 432,
+    "perfect": 34,
+    "truncated": 0
+  }
+}

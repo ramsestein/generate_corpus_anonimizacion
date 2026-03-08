@@ -1,0 +1,53 @@
+{
+  "id": "01fc6b64-0c7a-40fd-9c02-99eb0de24eeb",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "612-34-56-79"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "634-88-12-45"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Área de Gestión Sanitaria Sur"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "CLI-54321"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalcentral.es/acceso-paciente"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 22 987 12"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-76543210-01"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-632587"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 876 54 39"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 765 43 22"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "26 de septiembre de 2023"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "María José Fernández, hermana"
+    }
+  ]
+}

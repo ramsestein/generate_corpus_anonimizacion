@@ -1,0 +1,33 @@
+{
+  "id": "3c28e133-cb61-45a0-b987-9085d3c5fa52",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "cgomez@sanitassalud.es"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Doctor en Medicina"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237656"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-1234567890"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Fundación de Investigación Biomédica"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano asistente"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalregional.es/acceso-paciente"
+    }
+  ]
+}

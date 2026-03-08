@@ -1,0 +1,33 @@
+{
+  "id": "9c6346c9-4fc5-473f-82d5-db3d761bb66d",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalregional.es/paciente/ZXC456TYU"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://hc.hospitalrey.es/acceso-clinico/ID789XYZ01"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://sas.hca.es/portal/paciente/ID2024_12345"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas DEF-456"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 532 89 01"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 952 61 80 34"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital de la Serranía de Ronda"
+    }
+  ]
+}

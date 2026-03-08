@@ -1,0 +1,53 @@
+{
+  "id": "5c508c0d-af97-43e6-885d-32cb8c5237ab",
+  "data": [
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "Placas ABC-789"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "médico residente"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Lazo doble en huella dactilar del dedo medio derecho."
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "B98765432"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "73482914B"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "CONT-2024-987654"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "SN-98237647"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "10 de julio de 2023"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "N901234567890"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "14-0887766-01"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-CL-339156"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "P-98765432"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "49a33ea9-adf8-4ce3-997e-6ea6a806a03d",
+  "data": [
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Sexo femenino"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "informacion@hospitalgeneral.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana.garcia@clinicabarcelona.es"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "C456789012345"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle Mayor 7"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Martínez, E."
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dr. Ignacio Rojas Delgado"
+    }
+  ]
+}

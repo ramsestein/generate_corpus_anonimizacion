@@ -1,0 +1,29 @@
+{
+  "id": "996e434b-42e4-4bc9-862c-287dd05f4a56",
+  "data": [
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "ES-12345678-A"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "C456789012"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "Fax: 91 456 32 78"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "citamedica.hsjd.cat"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano responsable"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano cardiovascular"
+    }
+  ]
+}

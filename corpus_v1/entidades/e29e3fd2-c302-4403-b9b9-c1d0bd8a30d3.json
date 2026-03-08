@@ -1,0 +1,37 @@
+{
+  "id": "e29e3fd2-c302-4403-b9b9-c1d0bd8a30d3",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "dr.l.martinez@clinicabarcelona.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.martinez@hospitalcentral.org"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "cgomez@sanitassalud.es"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "F"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 21 345 789"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "47 08 28 123 45"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalregional.es/acceso-paciente"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 411 23 45"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "0048cc97-c3e5-462f-b8c9-2acb398fad05",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "634-91-23-45"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "612-876-543"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-654321"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Región de Murcia"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.martinez@clinicamadrid.com"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "GH7K-2P9M"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "F"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "14d90833-9303-4a6d-b945-1620e9b7df5a",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://sas.hca.es/portal/paciente/ID2024_12345"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://sae.hospitaldelmar.cat/paciente/3344L"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-789-0123"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "M-55661832"
+    }
+  ]
+}

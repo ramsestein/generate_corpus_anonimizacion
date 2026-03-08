@@ -1,0 +1,29 @@
+{
+  "id": "285c3834-46e8-4f79-a31f-2c33a1f1a1cc",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "+34 925 40 50 60"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "555-876-5432"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Unidad de Salud Comunitaria El Mirador"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Clara Navarro Ruiz"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "B274385601"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://portal.paciente.sspa.es/hc/99887766F"
+    }
+  ]
+}

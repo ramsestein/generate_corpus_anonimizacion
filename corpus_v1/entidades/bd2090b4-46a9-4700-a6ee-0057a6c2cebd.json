@@ -1,0 +1,25 @@
+{
+  "id": "bd2090b4-46a9-4700-a6ee-0057a6c2cebd",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "citas.hospitalgeneral.cat"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://portal.hospitalclinic.es/hc/M123N"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/12345678A"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Muestra biométrica del índice derecho"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "P987654321"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "eb99d7a8-8185-4514-a23a-6fc155f82c53",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "javier.martinez@clinic.es"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 532 89 01"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Paseo de la Salud 8"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "grupo de apoyo oncológico"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "13 de julio de 2023"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Hembra"
+    }
+  ]
+}

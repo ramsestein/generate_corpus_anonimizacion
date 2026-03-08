@@ -1,0 +1,65 @@
+{
+  "id": "00d05a74-bec1-4834-a0eb-29d75a93a784",
+  "data": [
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Elena Pérez Suárez"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 456 12 34"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 987654321 02"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 28 453 01"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "Cardiólogo"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "Especialista en cirugía."
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Sofía Navarro Ruiz"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad Autónoma de Cantabria"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Mujer adulta"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "https://pacientes.hospitalbarcelona.org"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "e-2024-456912"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "hc-2024-856214"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "C-2024-789012"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón dactilar del segundo dígito derecho"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella dactilar derecha índice"
+    }
+  ]
+}

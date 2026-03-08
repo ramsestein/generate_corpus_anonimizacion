@@ -1,0 +1,45 @@
+{
+  "id": "00ce2e9e-9757-403c-8dbf-33234b632b9b",
+  "data": [
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "patrón dactilar del índice derecho, tipo verticilo"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "a.martinez@clinicabarcelona.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana.garcia@clinicabarcelona.com"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "b-45872361"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "María del Carmen Rodríguez, esposa"
+    },
+    {
+      "entity": "FAMILIARES_SUJETO_ASISTENCIA",
+      "text": "María del Carmen Rodríguez, madre del paciente"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico especialista en radiología y diagnóstico por imagen"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "15 de septiembre de 2023"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2023-345678"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "ID-2024-856237"
+    }
+  ]
+}

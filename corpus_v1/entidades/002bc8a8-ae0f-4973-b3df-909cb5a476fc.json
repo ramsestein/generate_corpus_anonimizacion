@@ -1,0 +1,37 @@
+{
+  "id": "002bc8a8-ae0f-4973-b3df-909cb5a476fc",
+  "data": [
+    {
+      "entity": "URL_WEB",
+      "text": "https://historial.hospitalbarcelona.es"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "ref-2024-654321"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "sn-76298413"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "sn-73946512"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/acceso-paciente/AB87654321"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-789012"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "ana.garcia@clinicabarcelona.org"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano ortopédico"
+    }
+  ]
+}

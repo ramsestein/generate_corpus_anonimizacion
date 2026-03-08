@@ -1,0 +1,33 @@
+{
+  "id": "010d7342-584d-435d-99ec-6e5cdf63b1f0",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/AB123456"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.martinez@clinicbarcelona.com"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Departamento Nacional de Sanidad"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "F."
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Clara Ruiz Mendoza"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "cita-previa"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "https://www.clinica-barcelona.com"
+    }
+  ]
+}

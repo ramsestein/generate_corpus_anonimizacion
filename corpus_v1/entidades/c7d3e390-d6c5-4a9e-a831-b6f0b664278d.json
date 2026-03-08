@@ -1,0 +1,41 @@
+{
+  "id": "c7d3e390-d6c5-4a9e-a831-b6f0b664278d",
+  "data": [
+    {
+      "entity": "PAIS",
+      "text": "Italia"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "plataforma.hospitalregional.es/resultados-clinicos"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Camino de los Pinares 120"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "EPI-9330-2024"
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-469-23"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "N67890123G"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Género femenino"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "M-55661832"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano responsable"
+    }
+  ]
+}

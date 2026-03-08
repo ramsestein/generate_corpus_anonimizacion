@@ -1,0 +1,33 @@
+{
+  "id": "1940ca83-ed0e-4ab0-b092-ff8715b379ae",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "+34 918 76 54 32"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Departamento de Salud de Valencia"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle del Diagnóstico 7"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Individuo de sexo femenino"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "N901234567890"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "B26483571"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Historia de tabaquismo ocasional."
+    }
+  ]
+}

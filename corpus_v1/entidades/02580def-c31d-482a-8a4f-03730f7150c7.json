@@ -1,0 +1,41 @@
+{
+  "id": "02580def-c31d-482a-8a4f-03730f7150c7",
+  "data": [
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2025-112233"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 432 67 89"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Título de Médico."
+    },
+    {
+      "entity": "PAIS",
+      "text": "Colombia"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Hembra"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Paciente en seguimiento por unidad de dolor crónico"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Centro Sanitario Clínico San Carlos"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://portal.hospitalregional.es/pacientes/resultados"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalcentral.es/paciente/ZXC456TYU"
+    }
+  ]
+}

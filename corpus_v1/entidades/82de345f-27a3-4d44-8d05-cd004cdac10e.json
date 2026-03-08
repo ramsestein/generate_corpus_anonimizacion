@@ -1,0 +1,37 @@
+{
+  "id": "82de345f-27a3-4d44-8d05-cd004cdac10e",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "gomez.carlos@quironsalud.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "a.martinez@centrosalud3.es"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "ID-CLIN-2024-002"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HCL-7249-2024"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Puesto de Salud La Esperanza"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Universitario Puerta del Mar"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Centro de Salud Hortaleza"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Laura Pacheco Mendoza"
+    }
+  ]
+}

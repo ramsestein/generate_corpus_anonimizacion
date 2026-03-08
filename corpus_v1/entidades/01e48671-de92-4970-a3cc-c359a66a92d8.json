@@ -1,0 +1,57 @@
+{
+  "id": "01e48671-de92-4970-a3cc-c359a66a92d8",
+  "data": [
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 765 23 10"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://sas.hospitalgeneral.es/visor-clinico/PLM555NN"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud San Isidro"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Mujer adulta"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Universitario Puerta de Hierro Majadahonda"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Consejería de Sanidad"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "A246813579"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "grupo de apoyo diabético"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "a.martinez@clinicbarcelona.es"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.martinez@hospitalcentral.org"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Carmen Vázquez Ortega"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Carmen Vargas Torres"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "sn-78432916"
+    }
+  ]
+}

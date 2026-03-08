@@ -1,0 +1,29 @@
+{
+  "id": "55bbf11e-321f-4ef5-8996-cb206e1a1d5a",
+  "data": [
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "1234567890"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "ID-2024-789123"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Italia"
+    },
+    {
+      "entity": "INSTITUCION",
+      "text": "Servicio de Neurología"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Clínica Periférica San Lucas"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud La Fortuna"
+    }
+  ]
+}

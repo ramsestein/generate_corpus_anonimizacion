@@ -1,0 +1,25 @@
+{
+  "id": "878fa380-087e-4b66-96e1-9799b0df4fdb",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://api.hospitalcentral.es/pacientes/12345678A"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hgugm.es/paciente/78945612"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Portugal"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "P-9916A7K3"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "234-88-9012"
+    }
+  ]
+}

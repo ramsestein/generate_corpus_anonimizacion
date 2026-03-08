@@ -1,0 +1,61 @@
+{
+  "id": "009d313d-186b-4023-a396-8e5fabe03d0e",
+  "data": [
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.martinez@clinicabarcelona.es"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "b-93746258"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "sn-67358430"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "sn-56372819"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2024-987321"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud El Rosal"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón dactilar del dedo medio derecho, tipo arco"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Huella dactilar derecha, índice"
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 98765432 01"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "B-987654321"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "b-739185264-1"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Región de Extremadura"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente de sexo mujer"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "https://pacientes.clinicabarcelona.com"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "id": "00218b06-d0d8-4bc9-a2c1-32d20d754334",
+  "data": [
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 15 678 03",
+      "start": 552,
+      "end": 565,
+      "anonymized_start": 453,
+      "anonymized_end": 456
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 15 987 02",
+      "start": 1114,
+      "end": 1129,
+      "anonymized_start": 1049,
+      "anonymized_end": 1052
+    },
+    {
+      "entity": "ID_ASEGURAMIENTO",
+      "text": "46 08 15 345 01",
+      "start": 982,
+      "end": 992,
+      "anonymized_start": 857,
+      "anonymized_end": 860
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Sofía Méndez Iglesias",
+      "start": 81,
+      "end": 102,
+      "anonymized_start": 34,
+      "anonymized_end": 37
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Carmen Vázquez López",
+      "start": 1374,
+      "end": 1401,
+      "anonymized_start": 1374,
+      "anonymized_end": 1377
+    },
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "e-2024-876543",
+      "start": 1434,
+      "end": 1442,
+      "anonymized_start": 1296,
+      "anonymized_end": 1299
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "sn-73946215",
+      "start": 627,
+      "end": 638,
+      "anonymized_start": 518,
+      "anonymized_end": 521
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "644-23-45-67",
+      "start": 360,
+      "end": 371,
+      "anonymized_start": 243,
+      "anonymized_end": 246
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "b-63948271",
+      "start": 1034,
+      "end": 1043,
+      "anonymized_start": 902,
+      "anonymized_end": 905
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle de Serrano 112",
+      "start": 394,
+      "end": 420,
+      "anonymized_start": 370,
+      "anonymized_end": 373
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2025-654321",
+      "start": 155,
+      "end": 169,
+      "anonymized_start": 78,
+      "anonymized_end": 81
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "ref-2024-963852",
+      "start": 766,
+      "end": 780,
+      "anonymized_start": 678,
+      "anonymized_end": 681
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "92ac7f8e-0fa8-4e92-b6f1-5d1b53874c86",
+  "data": [
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "912-345-678"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "https://www.clinicabarcelonas.es"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "www.hospitaldelmar.cat"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Ambulatorio Urbano San Benito"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Víctor Manuel Herrera Gil"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Médico General"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "cirujano tratante"
+    }
+  ]
+}

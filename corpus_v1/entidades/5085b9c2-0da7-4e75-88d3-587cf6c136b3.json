@@ -1,0 +1,25 @@
+{
+  "id": "5085b9c2-0da7-4e75-88d3-587cf6c136b3",
+  "data": [
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "192.168.1.1"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-CONT-024-789"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "REF-2024-789234"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón dactilar del dedo índice derecho"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "sujeto de 67 años"
+    }
+  ]
+}

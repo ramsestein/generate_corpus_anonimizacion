@@ -1,0 +1,41 @@
+{
+  "id": "0036ca5d-a758-4984-a373-fac31b00ad24",
+  "data": [
+    {
+      "entity": "INSTITUCION",
+      "text": "Hospital Universitario Ramón y Cajal"
+    },
+    {
+      "entity": "URL_WEB",
+      "text": "https://www.hospitaldelmar.es"
+    },
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "sn-73918254"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Calle de la Victoria 8"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "ref-2024-789123-a"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2024-789013"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 987 65 43"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Hembra"
+    },
+    {
+      "entity": "NOMBRE_SUJETO_ASISTENCIA",
+      "text": "Isabel Fernández Gutiérrez"
+    }
+  ]
+}

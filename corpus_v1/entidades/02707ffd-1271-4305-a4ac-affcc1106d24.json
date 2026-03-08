@@ -1,0 +1,25 @@
+{
+  "id": "02707ffd-1271-4305-a4ac-affcc1106d24",
+  "data": [
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "IC-98765432"
+    },
+    {
+      "entity": "ID_CONTACTO_ASISTENCIAL",
+      "text": "HC-2024-654321"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.gomez@clinicbarcelona.es"
+    },
+    {
+      "entity": "ID_SUJETO_ASISTENCIA",
+      "text": "b-74938261"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "Grupo de psicoeducación para trastornos de ansiedad"
+    }
+  ]
+}

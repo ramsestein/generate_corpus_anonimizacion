@@ -1,0 +1,33 @@
+{
+  "id": "931c6185-df5e-445e-a18d-8b63abe9ceb5",
+  "data": [
+    {
+      "entity": "CALLE",
+      "text": "Paseo de la Salud 8"
+    },
+    {
+      "entity": "PAIS",
+      "text": "Alemania"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "+34 912 34 56 78"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "+34 911 23 45 67"
+    },
+    {
+      "entity": "NUMERO_TELEFONO",
+      "text": "634-82-15-09"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalcentral.es/paciente/ABC12345XYZ"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalcentral.es/paciente/area-privada"
+    }
+  ]
+}

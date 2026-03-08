@@ -1,0 +1,25 @@
+{
+  "id": "88cc86f0-b9e8-47a4-92dd-6b28d469512b",
+  "data": [
+    {
+      "entity": "ID_EMPLEO_PERSONAL_SANITARIO",
+      "text": "E-468-23"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://historiaclinica.hospitalcentral.es/paciente/AB12345Z"
+    },
+    {
+      "entity": "DIREC_PROT_INTERNET",
+      "text": "https://hc.hospitalgeneral.es/expediente/PL45632MN"
+    },
+    {
+      "entity": "NUMERO_BENEF_PLAN_SALUD",
+      "text": "B-987654321"
+    },
+    {
+      "entity": "PAIS",
+      "text": "México"
+    }
+  ]
+}

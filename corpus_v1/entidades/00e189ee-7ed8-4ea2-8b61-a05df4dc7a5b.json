@@ -1,0 +1,53 @@
+{
+  "id": "00e189ee-7ed8-4ea2-8b61-a05df4dc7a5b",
+  "data": [
+    {
+      "entity": "INSTITUCION",
+      "text": "Servicio de Salud del Principado de Asturias"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "Patrón dactilar del índice derecho, tipo arco"
+    },
+    {
+      "entity": "IDENTIF_BIOMETRICOS",
+      "text": "patrón dactilar del tercer dígito derecho, tipo lazo"
+    },
+    {
+      "entity": "FECHAS",
+      "text": "15 de agosto de 2023"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "71 años"
+    },
+    {
+      "entity": "NOMBRE_PERSONAL_SANITARIO",
+      "text": "Dra. Sofía Navarro López"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "Paciente de género mujer"
+    },
+    {
+      "entity": "PROFESION",
+      "text": "Especialista en operaciones"
+    },
+    {
+      "entity": "IDENTIF_VEHICULOS_NRSERIE_PLACAS",
+      "text": "9f3a-7d2c"
+    },
+    {
+      "entity": "CALLE",
+      "text": "Avenida Constitución, 12"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital Universitario Central de Asturias"
+    },
+    {
+      "entity": "NUMERO_FAX",
+      "text": "+34 91 234 09 88"
+    }
+  ]
+}

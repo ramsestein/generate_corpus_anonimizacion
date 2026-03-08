@@ -1,0 +1,49 @@
+{
+  "id": "0141bc4a-c95e-4b32-aa8e-97937059cd5b",
+  "data": [
+    {
+      "entity": "IDENTIF_DISPOSITIVOS_NRSERIE",
+      "text": "sn-67349852"
+    },
+    {
+      "entity": "OTROS_SUJETO_ASISTENCIA",
+      "text": "paciente en seguimiento por neumología"
+    },
+    {
+      "entity": "CORREO_ELECTRONICO",
+      "text": "carlos.martinez@clinic.cat"
+    },
+    {
+      "entity": "TERRITORIO",
+      "text": "Comunidad del Turia"
+    },
+    {
+      "entity": "ID_TITULACION_PERSONAL_SANITARIO",
+      "text": "Licenciado en Medicina y Cirugía General"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "HC-2024-789455"
+    },
+    {
+      "entity": "OTRO_NUMERO_IDENTIF",
+      "text": "b-2024-654321"
+    },
+    {
+      "entity": "SEXO_SUJETO_ASISTENCIA",
+      "text": "F"
+    },
+    {
+      "entity": "HOSPITAL",
+      "text": "Hospital Universitario San Carlos"
+    },
+    {
+      "entity": "CENTRO_SALUD",
+      "text": "Centro de Salud Las Lilas"
+    },
+    {
+      "entity": "EDAD_SUJETO_ASISTENCIA",
+      "text": "77 años"
+    }
+  ]
+}
